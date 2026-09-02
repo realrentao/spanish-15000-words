@@ -6,6 +6,10 @@
   var DATA = {};            // gid -> 分册数据
   var AUDIO = "audio/";
   var LS_DONE = "sv15000_done", LS_THEME = "sv15000_theme", LS_POS = "sv15000_pos";
+  var LS_SRS = "sv15000_srs";
+  var SRS_INT = [0, 10 * 60 * 1000, 60 * 60 * 1000, 864e5, 3 * 864e5, 7 * 864e5];
+  var study = { active: false, mode: "card", scope: "sec", items: [], i: 0, total: 0,
+                known: 0, unknown: 0, cur: null, dueOnly: false, srs: {} };
 
   var state = { g: 0, p: 0, s: 0, done: {}, theme: "light" };
   var FLAT = [];            // 全局 Parte 顺序 [{g,p,gid,no,name}]
@@ -170,8 +174,11 @@
       h += '<div class="row" id="' + id + '"><span class="idx">' + (i + 1) + '</span>'
         + '<div class="body"><div class="line-es">'
         + '<span class="es" data-a="' + AUDIO + it[3] + '">' + esc(it[1]) + '</span>'
+        + (it[6] ? '<span class="ipa pron" title="西语音标">/' + esc(it[6]) + '/</span>' : '')
         + '<span class="pos">' + esc(it[2]) + '</span></div>'
-        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0]) + '</div></div>'
+        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0]) + '</div>'
+        + (it[5] ? '<div class="py pron">' + esc(it[5]) + '</div>' : '')
+        + '</div>'
         + '<button class="spk" data-a="' + AUDIO + it[3] + '" title="西语发音">🔊</button>'
         + '<button class="spk" data-a="' + AUDIO + it[4] + '" title="中文发音">汉</button></div>';
     });
@@ -187,7 +194,9 @@
       var id = uid(gid, sno, kind, i);
       h += '<div class="sent" id="' + id + '">'
         + '<div class="s-es" data-a="' + AUDIO + it[3] + '">' + esc(it[0]) + '</div>'
+        + (it[6] ? '<div class="s-ipa pron">/' + esc(it[6]) + '/</div>' : '')
         + '<div class="s-zh" data-a="' + AUDIO + it[4] + '">' + esc(it[1]) + '</div>'
+        + (it[5] ? '<div class="s-py pron">' + esc(it[5]) + '</div>' : '')
         + (it[2] ? '<div class="s-src">' + esc(it[2]) + '</div>' : '') + '</div>';
     });
     return h + '</div>';
@@ -322,15 +331,15 @@
     clearHL();
     var t = document.getElementById(uidStr);
     if (!t) return;
-    t.classList.add("playing");
+    t.classList.add("cur");
     var r = t.getBoundingClientRect();
     if (r.top < 90 || r.bottom > window.innerHeight - 130) {
       try { t.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (e) { }
     }
   }
   function clearHL() {
-    var old = document.querySelectorAll(".playing");
-    for (var i = 0; i < old.length; i++) old[i].classList.remove("playing");
+    var old = document.querySelectorAll(".cur");
+    for (var i = 0; i < old.length; i++) old[i].classList.remove("cur");
   }
 
   function preloadNext() {
@@ -579,8 +588,21 @@
       localStorage.setItem(LS_THEME, state.theme);
     };
     el("helpBtn").onclick = function () { el("helpModal").classList.remove("hidden"); };
+    el("pronBtn").onclick = function () {
+      document.body.classList.toggle("hide-pron");
+      var on = !document.body.classList.contains("hide-pron");
+      localStorage.setItem("sv15000_pron", on ? "1" : "0");
+    };
+    if (localStorage.getItem("sv15000_pron") === "0")
+      document.body.classList.add("hide-pron");
     el("helpClose").onclick = function () { el("helpModal").classList.add("hidden"); };
     el("helpModal").onclick = function (e) { if (e.target === this) this.classList.add("hidden"); };
+    el("exportBtn").onclick = exportProgress;
+    el("importFile").onchange = function (e) {
+      var f = e.target.files && e.target.files[0];
+      if (f) importProgress(f);
+      e.target.value = "";
+    };
 
     var openSide = function () { el("sidebar").classList.add("show"); el("scrim").classList.remove("hidden"); };
     function closeSide() { el("sidebar").classList.remove("show"); el("scrim").classList.add("hidden"); }
@@ -590,6 +612,18 @@
     el("scrim").onclick = closeSide;
 
     document.addEventListener("keydown", function (e) {
+      if (study.active) {
+        if (study.mode === "card") {
+          var back = el("studyBody").querySelector(".back");
+          if (e.key === " ") {
+            e.preventDefault();
+            if (back) grade(true);
+            else if (study.cur) flipCard(study.cur, el("studyBody"), el("studyFoot"));
+          } else if (e.key === "ArrowRight") { e.preventDefault(); if (back) grade(true); }
+          else if (e.key === "ArrowLeft") { e.preventDefault(); if (back) grade(false); }
+        }
+        return;
+      }
       var tag = (e.target.tagName || "").toLowerCase();
       if (tag === "input" || tag === "select" || tag === "textarea") {
         if (e.key === "Escape") e.target.blur();
@@ -606,11 +640,232 @@
       for (var k = 1; k <= 2; k++) if (FLAT[fi + k]) loadParte(FLAT[fi + k].gid, function () { });
     }, 1200);
 
+    initStudy();
     render();
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
 
-  window.__SV = { state: state, P: P, DATA: DATA, META: META, FLAT: FLAT };
+  /* ============ 学习模式：闪卡 / 测验 + SRS 间隔重复 ============ */
+  function loadSRS() { try { study.srs = JSON.parse(localStorage.getItem(LS_SRS) || "{}"); } catch (e) { study.srs = {}; } }
+  function saveSRS() { try { localStorage.setItem(LS_SRS, JSON.stringify(study.srs)); } catch (e) { } }
+  function srsUpdate(u, known) {
+    var r = study.srs[u] || { b: 0, due: 0, reps: 0, lap: 0 };
+    r.reps = (r.reps || 0) + 1;
+    if (known) { r.b = Math.min((r.b || 0) + 1, SRS_INT.length - 1); r.lap = 0; }
+    else { r.lap = (r.lap || 0) + 1; r.b = 0; }
+    r.due = Date.now() + (SRS_INT[r.b] || 0);
+    study.srs[u] = r; saveSRS();
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+
+  function studySections(scope, cb) {
+    if (scope === "sec") {
+      loadParte(curParte().gid, function (d) {
+        if (!d) { cb([]); return; }
+        var sec = null;
+        for (var i = 0; i < d.secs.length; i++) if (d.secs[i].no === curSec().no) sec = d.secs[i];
+        cb(sec ? [{ gid: curParte().gid, sec: sec }] : []);
+      });
+    } else if (scope === "parte") {
+      loadParte(curParte().gid, function (d) {
+        cb(d ? d.secs.map(function (s) { return { gid: curParte().gid, sec: s }; }) : []);
+      });
+    } else {
+      loadAll(function () {
+        var list = [];
+        FLAT.forEach(function (f) {
+          var d = DATA[f.gid]; if (!d) return;
+          d.secs.forEach(function (s) { list.push({ gid: f.gid, sec: s }); });
+        });
+        cb(list);
+      });
+    }
+  }
+  function buildStudyItems(scope, cb) {
+    studySections(scope, function (pairs) {
+      var out = [];
+      pairs.forEach(function (p) {
+        ["w", "e", "s"].forEach(function (kind) {
+          p.sec[kind].forEach(function (it, i) {
+            out.push({
+              uid: uid(p.gid, p.sec.no, kind, i), kind: kind,
+              es: it[(kind === "s" ? 0 : 1)], zh: it[(kind === "s" ? 1 : 0)],
+              ae: it[3], az: it[4], py: it[5], ipa: it[6]
+            });
+          });
+        });
+      });
+      cb(out);
+    });
+  }
+
+  function startStudy() {
+    stopPlay();
+    study.active = true;
+    study.scope = el("studyScope").value;
+    study.mode = (document.querySelector(".stab.active") || { getAttribute: function () { return "card"; } })
+      .getAttribute("data-smode");
+    study.dueOnly = el("studyDue").checked;
+    el("study").classList.remove("hidden");
+    document.body.classList.add("study-on");
+    buildStudyItems(study.scope, function (items) {
+      if (study.mode === "quiz") items = items.filter(function (x) { return x.kind !== "s"; });
+      if (study.dueOnly) {
+        var due = items.filter(function (it) { var r = study.srs[it.uid]; return !r || r.due <= Date.now(); });
+        if (due.length) items = due;
+      }
+      if (el("studyShuffle").checked) shuffle(items);
+      study.items = items; study.i = 0; study.total = items.length;
+      study.known = 0; study.unknown = 0; study.cur = null;
+      if (!items.length) {
+        el("studyBody").innerHTML = '<div class="empty">本节暂无可学习词条</div>';
+        el("studyFoot").innerHTML = "";
+        return;
+      }
+      renderStudy();
+    });
+  }
+
+  function renderStudy() {
+    if (study.i >= study.items.length) { renderStudyDone(); return; }
+    study.cur = study.items[study.i];
+    if (study.mode === "card") renderCard(study.cur, el("studyBody"), el("studyFoot"));
+    else renderQuiz(study.cur, el("studyBody"), el("studyFoot"));
+  }
+
+  function renderCard(it, body, foot) {
+    body.innerHTML = '<div class="card-face front">'
+      + '<div class="cf-es">' + esc(it.es) + '</div>'
+      + (it.ipa ? '<div class="cf-ipa">/' + esc(it.ipa) + '/</div>' : '')
+      + '<button class="cf-spk spk" data-a="' + AUDIO + it.ae + '" title="西语发音">🔊 西语</button>'
+      + '<div class="cf-hint">点击卡片或按空格翻面</div></div>';
+    body.onclick = function (e) { if (e.target.closest(".spk")) return; flipCard(it, body, foot); };
+    foot.innerHTML = '<div class="study-prog">' + (study.i + 1) + ' / ' + study.total + '</div>'
+      + '<button class="btn primary" id="sFlip">翻面看中文</button>';
+    el("sFlip").onclick = function (e) { e.stopPropagation(); flipCard(it, body, foot); };
+  }
+  function flipCard(it, body, foot) {
+    body.onclick = null;
+    body.innerHTML = '<div class="card-face back">'
+      + '<div class="cf-zh">' + esc(it.zh) + '</div>'
+      + (it.py ? '<div class="cf-py">' + esc(it.py) + '</div>' : '')
+      + '<button class="cf-spk spk" data-a="' + AUDIO + it.az + '" title="中文发音">🔊 中文</button>'
+      + (it.kind === "s" && it.src ? '<div class="cf-src">' + esc(it.src) + '</div>' : '')
+      + '</div>';
+    foot.innerHTML = '<div class="study-prog">' + (study.i + 1) + ' / ' + study.total + '</div>'
+      + '<button class="btn s-unknown" id="sUnknown">不认识</button>'
+      + '<button class="btn primary s-known" id="sKnown">认识</button>';
+    el("sKnown").onclick = function () { grade(true); renderStudy(); };
+    el("sUnknown").onclick = function () { grade(false); renderStudy(); };
+  }
+
+  function renderQuiz(it, body, foot) {
+    body.onclick = null;
+    var pool = study.items.filter(function (x) { return x.uid !== it.uid && x.kind !== "s"; });
+    shuffle(pool);
+    var seen = {}, opts = [];
+    function add(o) { if (!seen[o]) { seen[o] = 1; opts.push(o); } }
+    add(it.es);
+    for (var k = 0; k < pool.length && opts.length < 4; k++) add(pool[k].es);
+    shuffle(opts);
+    body.innerHTML = '<div class="quiz-prompt"><div class="qp-zh">' + esc(it.zh) + '</div>'
+      + (it.py ? '<div class="qp-py">' + esc(it.py) + '</div>' : '')
+      + '<button class="cf-spk spk" data-a="' + AUDIO + it.az + '" title="中文发音">🔊 中文</button></div>'
+      + '<div class="quiz-opts">' + opts.map(function (o) {
+        return '<button class="qopt" data-es="' + esc(o) + '">' + esc(o) + '</button>';
+      }).join("") + '</div>';
+    body.querySelectorAll(".qopt").forEach(function (b) {
+      b.onclick = function () {
+        var chosen = b.getAttribute("data-es"), correct = (chosen === it.es);
+        body.querySelectorAll(".qopt").forEach(function (x) {
+          x.disabled = true;
+          if (x.getAttribute("data-es") === it.es) x.classList.add("correct");
+          else if (x === b) x.classList.add("wrong");
+        });
+        say(AUDIO + it.ae, null);
+        grade(correct);
+        setTimeout(renderStudy, 1200);
+      };
+    });
+    foot.innerHTML = '<div class="study-prog">' + (study.i + 1) + ' / ' + study.total + '</div>';
+  }
+
+  function grade(known) {
+    var it = study.items[study.i];
+    if (!it) return;
+    srsUpdate(it.uid, known);
+    if (known) study.known++; else study.unknown++;
+    study.i++;
+  }
+
+  function renderStudyDone() {
+    var body = el("studyBody"), foot = el("studyFoot");
+    body.innerHTML = '<div class="study-done"><div class="sd-title">本轮完成 🎉</div>'
+      + '<div class="sd-stat">共 ' + study.total + ' 张 · 认识 ' + study.known
+      + ' · 待巩固 ' + study.unknown + '</div></div>';
+    foot.innerHTML = '<button class="btn primary" id="sAgain">再来一轮</button>'
+      + '<button class="btn" id="sClose2">退出</button>';
+    el("sAgain").onclick = startStudy;
+    el("sClose2").onclick = closeStudy;
+  }
+  function closeStudy() {
+    study.active = false; study.cur = null;
+    el("study").classList.add("hidden");
+    document.body.classList.remove("study-on");
+  }
+
+  function exportProgress() {
+    var data = { v: 1, ts: Date.now(),
+      done: localStorage.getItem(LS_DONE) || "{}",
+      srs: localStorage.getItem(LS_SRS) || "{}" };
+    try {
+      var blob = new Blob([JSON.stringify(data, null, 1)], { type: "application/json" });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url; a.download = "spanish-15000-progress.json";
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+    } catch (e) { alert("导出失败：" + e.message); }
+  }
+  function importProgress(file) {
+    var r = new FileReader();
+    r.onload = function () {
+      try {
+        var d = JSON.parse(r.result);
+        if (d.done) localStorage.setItem(LS_DONE, d.done);
+        if (d.srs) localStorage.setItem(LS_SRS, d.srs);
+        state.done = JSON.parse(localStorage.getItem(LS_DONE) || "{}");
+        study.srs = JSON.parse(localStorage.getItem(LS_SRS) || "{}");
+        renderToc(); render();
+        alert("进度已导入（" + Object.keys(state.done).length + " 个小节 + 复习记录）");
+      } catch (e) { alert("导入失败：文件格式不正确"); }
+    };
+    r.readAsText(file);
+  }
+
+  /* ---------- 初始化：学习模式 ---------- */
+  function initStudy() {
+    loadSRS();
+    el("studyBtn").onclick = startStudy;
+    el("studyClose").onclick = closeStudy;
+    document.querySelectorAll(".stab").forEach(function (b) {
+      b.onclick = function () {
+        document.querySelectorAll(".stab").forEach(function (x) { x.classList.remove("active"); });
+        b.classList.add("active");
+        startStudy();
+      };
+    });
+    el("studyScope").onchange = startStudy;
+    el("studyShuffle").onchange = startStudy;
+    el("studyDue").onchange = startStudy;
+  }
+
+  window.__SV = { state: state, P: P, DATA: DATA, META: META, FLAT: FLAT, study: study };
 })();
