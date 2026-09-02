@@ -227,7 +227,21 @@ kbd{background:var(--bg);border:1px solid var(--line);border-bottom-width:2px;bo
 
 /* ---------- 响应式 ---------- */
 @media(max-width:900px){
-  .pl-ctrl select#modeSel,.pl-scope{display:none}
+  :root{--player-h:120px}
+  .player{height:auto;align-items:flex-start;flex-wrap:wrap;gap:6px;padding:7px 8px}
+  .player #menuBtn2{display:grid}
+  #menuBtn2{order:1}
+  .play-btn{order:2}
+  #prevBtn{order:3}
+  #nextBtn{order:4}
+  .pl-scope{display:flex;order:5;align-items:center}
+  .pl-scope select{max-width:96px}
+  .pl-progress{order:30;flex:1 1 100%;max-width:none;margin:2px 0 1px}
+  .pl-ctrl{order:20;flex:1 1 100%;margin-left:0;gap:6px;overflow-x:auto;
+    -webkit-overflow-scrolling:touch;padding-bottom:4px}
+  .pl-ctrl select{max-width:none;flex:0 0 auto}
+  .pl-ctrl select#modeSel,.pl-ctrl #gapSel{display:inline-block}
+  .chk{display:flex}
 }
 @media(max-width:760px){
   .menu-btn,.player #menuBtn2{display:grid}
@@ -242,15 +256,16 @@ kbd{background:var(--bg);border:1px solid var(--line);border-bottom-width:2px;bo
   .topbar{gap:6px;padding:0 8px}
   .brand-txt b{font-size:13.5px;max-width:100px}
   .sec-title{font-size:20px}
-  .player{gap:7px;padding:0 8px;height:auto;min-height:58px;flex-wrap:wrap}
-  .pl-progress{order:5;flex:1 1 100%;max-width:none;margin:2px 0 6px}
-  .pl-ctrl{margin-left:auto}
-  .pl-ctrl #gapSel,.chk{display:none}
   .row .es{font-size:16px}
+  :root{--player-h:132px}
+  .pl-scope select{max-width:78px}
+  .pl-ctrl select{font-size:11.5px}
+  .chk{font-size:11.5px}
 }
 @media(max-width:420px){
-  .pl-ctrl select{max-width:82px;font-size:12px}
-  .pl-scope select{max-width:70px}
+  .pl-ctrl select{max-width:74px;font-size:11px}
+  .pl-scope select{max-width:62px}
+  .chk{font-size:11px}
 }
 
 /* ---------- 学习模式（闪卡 / 测验） ---------- */
