@@ -2,6 +2,9 @@
 
 《最好用最好记15000西班牙语单词随身背》(苏珊娜 / 王蕴, 海豚出版社 2016) 完整版互动学习网站。
 
+**线上地址**：<https://realrentao.github.io/spanish-15000-words/>
+**源码仓库**：<https://github.com/realrentao/spanish-15000-words>
+
 > 数据来源：原书共 **8 大篇、47 个大类、389 个小节**、**5,937 个词条**、**1,819 条经典实用例句**（含影视出处），加上修复后的西语特殊字符（`ñ / ¿ / ¡`、原书排版断字 `vi-sita → visita`）。
 
 ## 功能
@@ -62,8 +65,8 @@ spanish-vocab-site/
 | 小节 (Sección) | 389 |
 | 终极分类词 + 拓展词 | 5,937 |
 | 经典实用句 | 1,819 |
-| 独立音频文件 | 12,878 |
-| 音频总大小 | ~140 MB（48kbps mono） |
+| 独立音频文件 | 12,878（西 6,063 + 中 6,815） |
+| 音频总大小 | 164 MB（48kbps mono 24kHz） |
 
 ## 本地预览
 
@@ -73,9 +76,20 @@ python -m http.server 8811
 # 浏览器打开 http://127.0.0.1:8811/
 ```
 
+> 注意：必须通过 HTTP 服务打开，直接双击 `index.html`（`file://`）会因浏览器 CORS 限制无法加载 `data/*.js`。
+
 ## 部署
 
-可直接部署到 GitHub Pages 或任何静态主机。
+GitHub Pages（`main` 分支根目录，自动构建）。
+
+```bash
+git remote set-url origin ssh://git@ssh.github.com:443/realrentao/spanish-15000-words.git
+git push origin main
+```
+
+> 仓库总量 ~165 MB、12,878 个音频文件，单次 `git push` 容易超时。
+> 建议分批提交推送（每批 2,000 个文件），脚本见 `.gitignore` 之外的 `_push_batches.py` 思路：
+> `git add --pathspec-from-file=<清单>` → `git commit` → `git push`，失败则 `git reset --soft HEAD~1` 后重跑续传。
 
 ## 技术栈
 
