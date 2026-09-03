@@ -158,6 +158,7 @@
       bindContent();
       stopPlay();
       renderToc();
+      precacheSec(secAudioUrls(sec));     // 后台静默预载本节音频，提升点读/播放响应
     });
   }
 
@@ -261,8 +262,41 @@
   var P = {
     units: [], list: [], i: 0, playing: false, dirty: true,
     players: [new Audio(), new Audio()],
-    pre: null, cur: 0, timer: null, busy: false, err: 0
+    pre: [], cur: 0, timer: null, busy: false, err: 0
   };
+
+  /* 点读播放器池：复用固定对象，避免每次 new Audio 的并发洪流与 GC 压力 */
+  var SAY_POOL = [];
+  (function () { for (var k = 0; k < 4; k++) { var a = new Audio(); a.preload = "none"; SAY_POOL.push(a); } })();
+  var sayCur = 0;
+
+  /* 进入小节后空闲预载本节音频，点读/播放零延迟 */
+  var PRE = { token: 0, a: null, queue: [] };
+  function secAudioUrls(sec) {
+    var out = [], seen = {};
+    function add(p) { if (!p) return; var u = AUDIO + p; if (!seen[u]) { seen[u] = 1; out.push(u); } }
+    (sec.w || []).forEach(function (it) { add(it[3]); add(it[4]); });
+    (sec.s || []).forEach(function (it) { add(it[3]); add(it[4]); });
+    (sec.e || []).forEach(function (it) { add(it[3]); add(it[4]); });
+    return out;
+  }
+  function pumpPre(my) {
+    if (my !== PRE.token) return;                 // 已切到新小节，中止旧队列
+    if (!PRE.queue.length) return;
+    if (!PRE.a) PRE.a = new Audio();
+    var a = PRE.a, url = PRE.queue.shift();
+    var done = function () { if (my !== PRE.token) return; setTimeout(function () { pumpPre(my); }, 25); };
+    var guard = setTimeout(done, 2500);          // 兜底：单条卡住也不阻塞后续
+    a.onloadeddata = function () { clearTimeout(guard); done(); };
+    a.onerror = function () { clearTimeout(guard); done(); };
+    a.preload = "auto"; a.src = url;
+    try { a.load(); } catch (e) { clearTimeout(guard); done(); }
+  }
+  function precacheSec(urls) {
+    PRE.token++;
+    PRE.queue = urls.slice();
+    pumpPre(PRE.token);
+  }
 
   function rate() { return parseFloat(el("rateSel").value) || 1; }
   function gapMs() { return parseInt(el("gapSel").value, 10) || 0; }
@@ -356,13 +390,13 @@
   }
 
   function preloadNext() {
-    var nx = P.list[P.i + 1];
-    if (!nx) return;
-    try {
-      if (!P.pre) P.pre = new Audio();
-      P.pre.preload = "auto";
-      P.pre.src = nx.src;      // 独立对象，不绑定任何回调
-    } catch (e) { }
+    for (var j = 1; j <= 2; j++) {           // 预载接下来 2 条，连续播放更顺
+      var nx = P.list[P.i + j];
+      if (!nx) break;
+      if (!P.pre[j - 1]) P.pre[j - 1] = new Audio();
+      P.pre[j - 1].preload = "auto";
+      P.pre[j - 1].src = nx.src;             // 独立对象，不绑定任何回调
+    }
   }
 
   function step() {
@@ -446,14 +480,19 @@
   }
 
   function say(src, btn) {
-    var a = new Audio(src);
+    var a = SAY_POOL[sayCur];
+    sayCur = (sayCur + 1) % SAY_POOL.length;
+    if (a._btn) { try { a._btn.classList.remove("on"); } catch (e) {} a._btn = null; }
+    try { a.pause(); } catch (e) {}
+    a.src = src;
     a.playbackRate = rate();
+    a._btn = btn || null;
     if (btn) {
       btn.classList.add("on");
-      a.onended = a.onerror = function () { btn.classList.remove("on"); };
-    }
+      a.onended = a.onerror = function () { if (a._btn) { a._btn.classList.remove("on"); a._btn = null; } };
+    } else { a.onended = a.onerror = null; }
     var pr = a.play();
-    if (pr && pr.catch) pr.catch(function () { if (btn) btn.classList.remove("on"); });
+    if (pr && pr.catch) pr.catch(function () {});
   }
 
   /* 点读（事件委托） */
