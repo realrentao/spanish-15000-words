@@ -31,6 +31,18 @@
       .replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
+  // 西语词性缩写 -> 中文词性（仅用于中文侧 .zh-pos 标注，西语侧 .pos 仍用原始缩写）
+  var POS_ZH = {
+    "m.": "名词(阳)", "f.": "名词(阴)", "m. inv.": "名词(阳)",
+    "n.": "名词", "n.m.": "名词(阳)", "n.f.": "名词(阴)",
+    "n.m./f.": "名词(阳/阴)", "n.m.pl": "名词(阳,复)", "n.f.pl": "名词(阴,复)",
+    "adj.": "形容词", "adv.": "副词",
+    "v.": "动词", "v.t.": "及物动词", "v.i.": "不及物动词",
+    "v.r.": "自复动词", "v.pr.": "代词式动词",
+    "prep.": "介词", "conj.": "连词", "loc.": "短语"
+  };
+  function zhPos(p) { return POS_ZH[p] || p; }
+
   /* ---------- localStorage ---------- */
   function loadLS() {
     try { state.done = JSON.parse(localStorage.getItem(LS_DONE) || "{}"); } catch (e) { state.done = {}; }
@@ -176,7 +188,8 @@
         + '<span class="es" data-a="' + AUDIO + it[3] + '">' + esc(it[1]) + '</span>'
         + (it[6] ? '<span class="ipa pron" title="西语音标">/' + esc(it[6]) + '/</span>' : '')
         + '<span class="pos">' + esc(it[2]) + '</span></div>'
-        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0]) + '</div>'
+        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0])
+        + (it[2] ? ' <span class="zh-pos">' + esc(zhPos(it[2])) + '</span>' : '') + '</div>'
         + (it[5] ? '<div class="py pron">' + esc(it[5]) + '</div>' : '')
         + '</div>'
         + '<button class="spk" data-a="' + AUDIO + it[3] + '" title="西语发音">🔊</button>'
