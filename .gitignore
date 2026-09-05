@@ -1,3 +1,4 @@
 audio_fail.json
-.workbuddy/
-_tools/
+_shots/
+tools/__pycache__/
+*.pyc

@@ -31,18 +31,6 @@
       .replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  // 西语词性缩写 -> 中文词性（仅用于中文侧 .zh-pos 标注，西语侧 .pos 仍用原始缩写）
-  var POS_ZH = {
-    "m.": "名词(阳)", "f.": "名词(阴)", "m. inv.": "名词(阳)",
-    "n.": "名词", "n.m.": "名词(阳)", "n.f.": "名词(阴)",
-    "n.m./f.": "名词(阳/阴)", "n.m.pl": "名词(阳,复)", "n.f.pl": "名词(阴,复)",
-    "adj.": "形容词", "adv.": "副词",
-    "v.": "动词", "v.t.": "及物动词", "v.i.": "不及物动词",
-    "v.r.": "自复动词", "v.pr.": "代词式动词",
-    "prep.": "介词", "conj.": "连词", "loc.": "短语"
-  };
-  function zhPos(p) { return POS_ZH[p] || p; }
-
   /* ---------- localStorage ---------- */
   function loadLS() {
     try { state.done = JSON.parse(localStorage.getItem(LS_DONE) || "{}"); } catch (e) { state.done = {}; }
@@ -158,7 +146,6 @@
       bindContent();
       stopPlay();
       renderToc();
-      precacheSec(secAudioUrls(sec));     // 后台静默预载本节音频，提升点读/播放响应
     });
   }
 
@@ -189,8 +176,7 @@
         + '<span class="es" data-a="' + AUDIO + it[3] + '">' + esc(it[1]) + '</span>'
         + (it[6] ? '<span class="ipa pron" title="西语音标">/' + esc(it[6]) + '/</span>' : '')
         + '<span class="pos">' + esc(it[2]) + '</span></div>'
-        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0])
-        + (it[2] ? ' <span class="zh-pos">' + esc(zhPos(it[2])) + '</span>' : '') + '</div>'
+        + '<div class="zh" data-a="' + AUDIO + it[4] + '">' + esc(it[0]) + '</div>'
         + (it[5] ? '<div class="py pron">' + esc(it[5]) + '</div>' : '')
         + '</div>'
         + '<button class="spk" data-a="' + AUDIO + it[3] + '" title="西语发音">🔊</button>'
@@ -262,41 +248,8 @@
   var P = {
     units: [], list: [], i: 0, playing: false, dirty: true,
     players: [new Audio(), new Audio()],
-    pre: [], cur: 0, timer: null, busy: false, err: 0
+    pre: null, cur: 0, timer: null, busy: false, err: 0
   };
-
-  /* 点读播放器池：复用固定对象，避免每次 new Audio 的并发洪流与 GC 压力 */
-  var SAY_POOL = [];
-  (function () { for (var k = 0; k < 4; k++) { var a = new Audio(); a.preload = "none"; SAY_POOL.push(a); } })();
-  var sayCur = 0;
-
-  /* 进入小节后空闲预载本节音频，点读/播放零延迟 */
-  var PRE = { token: 0, a: null, queue: [] };
-  function secAudioUrls(sec) {
-    var out = [], seen = {};
-    function add(p) { if (!p) return; var u = AUDIO + p; if (!seen[u]) { seen[u] = 1; out.push(u); } }
-    (sec.w || []).forEach(function (it) { add(it[3]); add(it[4]); });
-    (sec.s || []).forEach(function (it) { add(it[3]); add(it[4]); });
-    (sec.e || []).forEach(function (it) { add(it[3]); add(it[4]); });
-    return out;
-  }
-  function pumpPre(my) {
-    if (my !== PRE.token) return;                 // 已切到新小节，中止旧队列
-    if (!PRE.queue.length) return;
-    if (!PRE.a) PRE.a = new Audio();
-    var a = PRE.a, url = PRE.queue.shift();
-    var done = function () { if (my !== PRE.token) return; setTimeout(function () { pumpPre(my); }, 25); };
-    var guard = setTimeout(done, 2500);          // 兜底：单条卡住也不阻塞后续
-    a.onloadeddata = function () { clearTimeout(guard); done(); };
-    a.onerror = function () { clearTimeout(guard); done(); };
-    a.preload = "auto"; a.src = url;
-    try { a.load(); } catch (e) { clearTimeout(guard); done(); }
-  }
-  function precacheSec(urls) {
-    PRE.token++;
-    PRE.queue = urls.slice();
-    pumpPre(PRE.token);
-  }
 
   function rate() { return parseFloat(el("rateSel").value) || 1; }
   function gapMs() { return parseInt(el("gapSel").value, 10) || 0; }
@@ -390,13 +343,13 @@
   }
 
   function preloadNext() {
-    for (var j = 1; j <= 2; j++) {           // 预载接下来 2 条，连续播放更顺
-      var nx = P.list[P.i + j];
-      if (!nx) break;
-      if (!P.pre[j - 1]) P.pre[j - 1] = new Audio();
-      P.pre[j - 1].preload = "auto";
-      P.pre[j - 1].src = nx.src;             // 独立对象，不绑定任何回调
-    }
+    var nx = P.list[P.i + 1];
+    if (!nx) return;
+    try {
+      if (!P.pre) P.pre = new Audio();
+      P.pre.preload = "auto";
+      P.pre.src = nx.src;      // 独立对象，不绑定任何回调
+    } catch (e) { }
   }
 
   function step() {
@@ -480,19 +433,14 @@
   }
 
   function say(src, btn) {
-    var a = SAY_POOL[sayCur];
-    sayCur = (sayCur + 1) % SAY_POOL.length;
-    if (a._btn) { try { a._btn.classList.remove("on"); } catch (e) {} a._btn = null; }
-    try { a.pause(); } catch (e) {}
-    a.src = src;
+    var a = new Audio(src);
     a.playbackRate = rate();
-    a._btn = btn || null;
     if (btn) {
       btn.classList.add("on");
-      a.onended = a.onerror = function () { if (a._btn) { a._btn.classList.remove("on"); a._btn = null; } };
-    } else { a.onended = a.onerror = null; }
+      a.onended = a.onerror = function () { btn.classList.remove("on"); };
+    }
     var pr = a.play();
-    if (pr && pr.catch) pr.catch(function () {});
+    if (pr && pr.catch) pr.catch(function () { if (btn) btn.classList.remove("on"); });
   }
 
   /* 点读（事件委托） */
@@ -768,7 +716,7 @@
     el("study").classList.remove("hidden");
     document.body.classList.add("study-on");
     buildStudyItems(study.scope, function (items) {
-      if (study.mode === "quiz") items = items.filter(function (x) { return x.kind !== "s"; });
+      if (study.mode === "quiz" || study.mode === "spell") items = items.filter(function (x) { return x.kind !== "s"; });
       if (study.dueOnly) {
         var due = items.filter(function (it) { var r = study.srs[it.uid]; return !r || r.due <= Date.now(); });
         if (due.length) items = due;
@@ -789,6 +737,7 @@
     if (study.i >= study.items.length) { renderStudyDone(); return; }
     study.cur = study.items[study.i];
     if (study.mode === "card") renderCard(study.cur, el("studyBody"), el("studyFoot"));
+    else if (study.mode === "spell") renderSpell(study.cur, el("studyBody"), el("studyFoot"));
     else renderQuiz(study.cur, el("studyBody"), el("studyFoot"));
   }
 
@@ -847,6 +796,41 @@
       };
     });
     foot.innerHTML = '<div class="study-prog">' + (study.i + 1) + ' / ' + study.total + '</div>';
+  }
+
+  function renderSpell(it, body, foot) {
+    body.onclick = null;
+    body.innerHTML = '<div class="spell-prompt"><div class="sp-zh">' + esc(it.zh) + '</div>'
+      + (it.py ? '<div class="sp-py">' + esc(it.py) + '</div>' : '')
+      + '<button class="cf-spk spk" data-a="' + AUDIO + it.az + '" title="中文发音">🔊 中文</button></div>'
+      + '<div class="spell-input"><input type="text" id="spellInput" placeholder="输入西语单词…" autocomplete="off">'
+      + '<button class="btn primary" id="spellCheck">检查</button></div>'
+      + '<div class="spell-feedback" id="spellFeedback"></div>';
+    var input = el("spellInput");
+    input.focus();
+    function check() {
+      var val = input.value.trim().toLowerCase();
+      var ans = (it.es || "").trim().toLowerCase();
+      var fb = el("spellFeedback");
+      if (!val) { fb.textContent = "请输入单词"; fb.className = "spell-feedback"; return; }
+      if (val === ans) {
+        fb.className = "spell-feedback ok";
+        fb.innerHTML = '✓ 正确 · <b>' + esc(it.es) + '</b>'
+          + (it.ipa ? ' <span class="sp-ipa">/' + esc(it.ipa) + '/</span>' : '');
+      } else {
+        fb.className = "spell-feedback wrong";
+        fb.innerHTML = '✗ 正确应为 <b>' + esc(it.es) + '</b>'
+          + (it.ipa ? ' <span class="sp-ipa">/' + esc(it.ipa) + '/</span>' : '');
+      }
+      say(AUDIO + it.ae, null);
+      foot.innerHTML = '<div class="study-prog">' + (study.i + 1) + ' / ' + study.total + '</div>'
+        + '<button class="btn s-unknown" id="sUnknown">不认识</button>'
+        + '<button class="btn primary s-known" id="sKnown">认识</button>';
+      el("sKnown").onclick = function () { grade(true); renderStudy(); };
+      el("sUnknown").onclick = function () { grade(false); renderStudy(); };
+    }
+    el("spellCheck").onclick = function (e) { e.stopPropagation(); check(); };
+    input.onkeydown = function (e) { if (e.key === "Enter") check(); };
   }
 
   function grade(known) {
