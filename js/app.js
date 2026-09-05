@@ -248,7 +248,7 @@
   var P = {
     units: [], list: [], i: 0, playing: false, dirty: true,
     players: [new Audio(), new Audio()],
-    pre: null, cur: 0, timer: null, busy: false, err: 0
+    cur: 0, timer: null, busy: false, err: 0
   };
 
   function rate() { return parseFloat(el("rateSel").value) || 1; }
@@ -346,9 +346,9 @@
     var nx = P.list[P.i + 1];
     if (!nx) return;
     try {
-      if (!P.pre) P.pre = new Audio();
-      P.pre.preload = "auto";
-      P.pre.src = nx.src;      // 独立对象，不绑定任何回调
+      // 预热【下一个真正用于播放】的播放器，而非一次性对象 —— 这样切换时直接播已缓冲的内容
+      var np = P.players[P.cur ^ 1];
+      if (np.src !== nx.src) { np.preload = "auto"; np.src = nx.src; }
     } catch (e) { }
   }
 
@@ -361,16 +361,20 @@
     if (!it) { stopPlay(true); return; }
     var a = P.players[P.cur];
     P.busy = false;
-    try { a.pause(); } catch (e) { }
-    a.src = it.src;
+    // 仅在 src 变化时才重新指定，避免对已缓冲音频重复拉取/重载（首条与切换更顺）
+    if (a.src !== it.src) {
+      try { a.pause(); } catch (e) { }
+      a.preload = "auto";
+      a.src = it.src;
+    }
     a.playbackRate = rate();
     a.onended = function () { if (P.busy) return; P.busy = true; advance(); };
     a.onerror = function () { P.err++; if (P.busy) return; P.busy = true; advance(); };
-    var pr = a.play();
+    var pr = a.play();   // 浏览器边下边播：缓冲到可播即开始，不等整文件下载完
     if (pr && pr.catch) pr.catch(function () { if (!P.busy) { P.busy = true; advance(); } });
     highlight(it.uid);
     updateProgress();
-    preloadNext();
+    preloadNext();   // 立即预热下一个播放器（带 item i+1 的 src）
   }
 
   function advance() {
@@ -385,6 +389,9 @@
     P.playing = true;
     el("playBtn").classList.add("playing");
     clearTimeout(P.timer);
+    // 立即为当前第一条预热，抢在渲染前触发网络拉取；step() 内会接着预热第二条
+    var a0 = P.players[P.cur];
+    if (a0.src !== P.list[P.i].src) { a0.preload = "auto"; a0.src = P.list[P.i].src; }
     step();
   }
 
