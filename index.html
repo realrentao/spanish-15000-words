@@ -57,6 +57,7 @@
   <div class="pl-scope">
     <select id="scopeSel" title="播放范围">
       <option value="sec">本节</option>
+      <option value="grupo">本篇</option>
       <option value="parte">本大类</option>
       <option value="all">全书</option>
     </select>
@@ -93,6 +94,7 @@
       <option value="1800">1.8 秒</option>
     </select>
     <label class="chk"><input type="checkbox" id="loopChk"><span>循环</span></label>
+    <label class="chk"><input type="checkbox" id="shuffleChk"><span>随机</span></label>
   </div>
 </div>
 
@@ -122,7 +124,7 @@
   <div class="modal-card">
     <h3>使用说明</h3>
     <ul>
-      <li><b>全盘播放</b>：选好范围（本节 / 本大类 / 全书）与顺序，点 ▶ 即可连续朗读。默认「西→中（逐条）」= 单词西语 → 中文释义 → 下一个单词。</li>
+      <li><b>全盘播放</b>：选好范围（本节 / 本篇 / 本大类 / 全书）与顺序，点 ▶ 即可连续朗读。默认「西→中（逐条）」= 单词西语 → 中文释义 → 下一个单词。勾选「随机」可打乱播放顺序，勾选「循环」可播完一轮后自动重来。</li>
       <li><b>点读</b>：点击任意西语单词或中文释义可单独发音；例句的西语句与中文翻译也可分别点读。</li>
       <li><b>拼音与音标</b>：每条中文带<b>拼音</b>、每条西语带<b>IPA 音标</b>；点右上角「拼」可整体隐藏/显示，方便自测。</li>
       <li><b>快捷键</b>：<kbd>空格</kbd> 播放/暂停，<kbd>←</kbd> <kbd>→</kbd> 上一条/下一条，<kbd>/</kbd> 聚焦搜索。</li>

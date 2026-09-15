@@ -246,7 +246,7 @@
 
   /* ================= 播放引擎 ================= */
   var P = {
-    units: [], list: [], i: 0, playing: false, dirty: true,
+    units: [], canon: [], list: [], i: 0, playing: false, dirty: true,
     players: [new Audio(), new Audio()],
     cur: 0, timer: null, busy: false, err: 0
   };
@@ -254,6 +254,7 @@
   function rate() { return parseFloat(el("rateSel").value) || 1; }
   function gapMs() { return parseInt(el("gapSel").value, 10) || 0; }
   function loopOn() { return el("loopChk").checked; }
+  function shuffleOn() { return el("shuffleChk").checked; }
   function mode() { return el("modeSel").value; }
 
   function unitsOf(gid, sec) {
@@ -285,6 +286,24 @@
         d.secs.forEach(function (s) { out = out.concat(unitsOf(d.gid, s)); });
         cb(out);
       });
+    } else if (scope === "grupo") {
+      // 本篇：当前篇（grupo）下所有大类（Parte）的全部小节
+      var gr = META.grupos[state.g];
+      var partes = (gr && gr.partes) || [];
+      var rest = partes.filter(function (pt) { return !DATA[pt.gid]; });
+      function flush() {
+        var out = [];
+        partes.forEach(function (pt) {
+          var d = DATA[pt.gid]; if (!d) return;
+          d.secs.forEach(function (s) { out = out.concat(unitsOf(pt.gid, s)); });
+        });
+        cb(out);
+      }
+      if (!rest.length) { flush(); return; }
+      var n = rest.length;
+      rest.forEach(function (pt) {
+        loadParte(pt.gid, function () { if (--n <= 0) flush(); });
+      });
     } else {
       loadAll(function () {
         var out = [];
@@ -299,23 +318,27 @@
 
   function expand() {
     var m = mode(), L = [];
+    // 随机：在本篇/本节/全书范围内打乱词条顺序（西→中配对保持完整）
+    var units = (P.canon && P.canon.length) ? P.canon : P.units;
+    units = shuffleOn() ? shuffle(units.slice()) : units.slice();
+    P.units = units;
     if (m === "es-zh") {
-      P.units.forEach(function (u) {
+      units.forEach(function (u) {
         L.push({ src: AUDIO + u.ae, uid: u.id, lang: "es" });
         L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" });
       });
     } else if (m === "all-es-zh") {
-      P.units.forEach(function (u) { L.push({ src: AUDIO + u.ae, uid: u.id, lang: "es" }); });
-      P.units.forEach(function (u) { L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" }); });
+      units.forEach(function (u) { L.push({ src: AUDIO + u.ae, uid: u.id, lang: "es" }); });
+      units.forEach(function (u) { L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" }); });
     } else if (m === "es-only") {
-      P.units.forEach(function (u) { L.push({ src: AUDIO + u.ae, uid: u.id, lang: "es" }); });
+      units.forEach(function (u) { L.push({ src: AUDIO + u.ae, uid: u.id, lang: "es" }); });
     } else {
-      P.units.forEach(function (u) { L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" }); });
+      units.forEach(function (u) { L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" }); });
     }
     P.list = L; P.i = 0;
   }
 
-  function buildUnits(scope, cb) { collect(scope, function (u) { P.units = u; if (cb) cb(); }); }
+  function buildUnits(scope, cb) { collect(scope, function (u) { P.canon = u; P.units = u; if (cb) cb(); }); }
 
   function updateProgress() {
     var it = P.list[P.i];
@@ -399,6 +422,7 @@
     if (P.dirty || !P.list.length) {
       var sc = el("scopeSel").value;
       el("plLabel").textContent = sc === "all" ? "正在准备全书播放…"
+        : sc === "grupo" ? "正在准备本篇播放…"
         : sc === "parte" ? "正在准备本大类播放…" : "准备中…";
       buildUnits(sc, function () { P.dirty = false; expand(); doStart(); });
     } else doStart();
@@ -567,6 +591,7 @@
     el("nextBtn").onclick = function () { jumpUnit(1); };
     el("modeSel").onchange = function () { P.dirty = true; expand(); P.i = 0; updateProgress(); };
     el("scopeSel").onchange = function () { P.dirty = true; pausePlay(); P.i = 0; updateProgress(); };
+    el("shuffleChk").onchange = function () { P.dirty = true; pausePlay(); P.i = 0; updateProgress(); };
     el("rateSel").onchange = function () {
       P.players.forEach(function (a) { a.playbackRate = rate(); });
     };
