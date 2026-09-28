@@ -2021,6 +2021,1014 @@
 "esPath": "es/06524.mp3",
 "zh": "身份证（西班牙）",
 "zhPath": "zh/07297.mp3"
+},
+{
+"es": "tranvía con carril",
+"esPath": "es/06525.mp3",
+"zh": "有轨电车",
+"zhPath": "zh/07298.mp3"
+},
+{
+"es": "tranvía sin carril",
+"esPath": "es/06526.mp3",
+"zh": "无轨电车",
+"zhPath": "zh/07299.mp3"
+},
+{
+"es": "globo aerostático",
+"esPath": "es/06527.mp3",
+"zh": "热气球",
+"zhPath": "zh/07300.mp3"
+},
+{
+"es": "mareo aéreo",
+"esPath": "es/06528.mp3",
+"zh": "晕机",
+"zhPath": "zh/07301.mp3"
+},
+{
+"es": "licencia de conducir",
+"esPath": "es/06529.mp3",
+"zh": "驾驶证",
+"zhPath": "zh/07302.mp3"
+},
+{
+"es": "accidente de tráfico",
+"esPath": "es/06530.mp3",
+"zh": "车祸",
+"zhPath": "zh/07303.mp3"
+},
+{
+"es": "norma de tránsito",
+"esPath": "es/06531.mp3",
+"zh": "交通规则",
+"zhPath": "zh/07304.mp3"
+},
+{
+"es": "después",
+"esPath": "es/06532.mp3",
+"zh": "之后",
+"zhPath": "zh/07305.mp3"
+},
+{
+"es": "antes de",
+"esPath": "es/06533.mp3",
+"zh": "之前",
+"zhPath": "zh/07306.mp3"
+},
+{
+"es": "Espero que haya una persona que pueda dar una vuelta a verme en el camino de despedida",
+"esPath": "es/06534.mp3",
+"zh": "我想有个人，能在分别时离去的路上回头看我一眼。",
+"zhPath": "zh/07307.mp3"
+},
+{
+"es": "paso de peatones",
+"esPath": "es/06535.mp3",
+"zh": "斑马线",
+"zhPath": "zh/07308.mp3"
+},
+{
+"es": "caminar a través de",
+"esPath": "es/06536.mp3",
+"zh": "穿行",
+"zhPath": "zh/07309.mp3"
+},
+{
+"es": "borde de la carretera",
+"esPath": "es/06537.mp3",
+"zh": "路边",
+"zhPath": "zh/07310.mp3"
+},
+{
+"es": "quiosco",
+"esPath": "es/06538.mp3",
+"zh": "书报亭",
+"zhPath": "zh/07311.mp3"
+},
+{
+"es": "sin hogar",
+"esPath": "es/06539.mp3",
+"zh": "无家可归的",
+"zhPath": "zh/07312.mp3"
+},
+{
+"es": "basurero",
+"esPath": "es/06540.mp3",
+"zh": "垃圾桶",
+"zhPath": "zh/07313.mp3"
+},
+{
+"es": "precipitarse",
+"esPath": "es/06541.mp3",
+"zh": "蜂拥",
+"zhPath": "zh/07314.mp3"
+},
+{
+"es": "lanzado en el vertedero",
+"esPath": "es/06542.mp3",
+"zh": "扔到垃圾堆里",
+"zhPath": "zh/07315.mp3"
+},
+{
+"es": "viajero",
+"esPath": "es/06543.mp3",
+"zh": "乘客",
+"zhPath": "zh/07316.mp3"
+},
+{
+"es": "estación de autobuses",
+"esPath": "es/06544.mp3",
+"zh": "公交站",
+"zhPath": "zh/07317.mp3"
+},
+{
+"es": "pagar usando tarjeta de crédito",
+"esPath": "es/06545.mp3",
+"zh": "刷卡",
+"zhPath": "zh/07318.mp3"
+},
+{
+"es": "prepago",
+"esPath": "es/06546.mp3",
+"zh": "预付费",
+"zhPath": "zh/07319.mp3"
+},
+{
+"es": "precio de la entrada",
+"esPath": "es/06547.mp3",
+"zh": "票价",
+"zhPath": "zh/07320.mp3"
+},
+{
+"es": "estación de tren",
+"esPath": "es/06548.mp3",
+"zh": "火车站",
+"zhPath": "zh/07321.mp3"
+},
+{
+"es": "billete de ida",
+"esPath": "es/06549.mp3",
+"zh": "单程票",
+"zhPath": "zh/07322.mp3"
+},
+{
+"es": "billete de ida y vuelta",
+"esPath": "es/06550.mp3",
+"zh": "往返票",
+"zhPath": "zh/07323.mp3"
+},
+{
+"es": "tren de alta velocidad",
+"esPath": "es/06551.mp3",
+"zh": "高速火车",
+"zhPath": "zh/07324.mp3"
+},
+{
+"es": "cambiar",
+"esPath": "es/06552.mp3",
+"zh": "换乘",
+"zhPath": "zh/07325.mp3"
+},
+{
+"es": "con cuidado",
+"esPath": "es/06553.mp3",
+"zh": "留心",
+"zhPath": "zh/07326.mp3"
+},
+{
+"es": "el último autobús",
+"esPath": "es/06554.mp3",
+"zh": "末班车",
+"zhPath": "zh/07327.mp3"
+},
+{
+"es": "ida y vuelta",
+"esPath": "es/06555.mp3",
+"zh": "来回程",
+"zhPath": "zh/07328.mp3"
+},
+{
+"es": "mapa del metro",
+"esPath": "es/06556.mp3",
+"zh": "地铁路线图",
+"zhPath": "zh/07329.mp3"
+},
+{
+"es": "paso subterráneo",
+"esPath": "es/06557.mp3",
+"zh": "地下通道",
+"zhPath": "zh/07330.mp3"
+},
+{
+"es": "En Francia, llamamos la mesa “mesas deliciosas”. Cuando se despiertan nuestros cinco sentidos, la decoración y la disfruta de gusto son un placer añadido",
+"esPath": "es/06558.mp3",
+"zh": "在法国，我们习惯称餐桌为“美味的餐桌”，当我们的五感被唤醒时，那些桌面的装饰以及味觉的享受是一种额外的愉悦。",
+"zhPath": "zh/07331.mp3"
+},
+{
+"es": "billete de plataforma",
+"esPath": "es/06559.mp3",
+"zh": "站台票",
+"zhPath": "zh/07332.mp3"
+},
+{
+"es": "salida de emergencia",
+"esPath": "es/06560.mp3",
+"zh": "紧急出口",
+"zhPath": "zh/07333.mp3"
+},
+{
+"es": "carrito de equipaje",
+"esPath": "es/06561.mp3",
+"zh": "行李车",
+"zhPath": "zh/07334.mp3"
+},
+{
+"es": "estación de aviones",
+"esPath": "es/06562.mp3",
+"zh": "停机坪",
+"zhPath": "zh/07335.mp3"
+},
+{
+"es": "aeropuerto pequeño",
+"esPath": "es/06563.mp3",
+"zh": "小飞机场",
+"zhPath": "zh/07336.mp3"
+},
+{
+"es": "ruta aérea",
+"esPath": "es/06564.mp3",
+"zh": "航线",
+"zhPath": "zh/07337.mp3"
+},
+{
+"es": "equipaje de mano",
+"esPath": "es/06565.mp3",
+"zh": "手提行李",
+"zhPath": "zh/07338.mp3"
+},
+{
+"es": "sala de espera del aeropuerto",
+"esPath": "es/06566.mp3",
+"zh": "候机室",
+"zhPath": "zh/07339.mp3"
+},
+{
+"es": "nñm. 头晕",
+"esPath": "es/06567.mp3",
+"zh": "mareo",
+"zhPath": "zh/07340.mp3"
+},
+{
+"es": "oficina de información",
+"esPath": "es/06568.mp3",
+"zh": "问询处",
+"zhPath": "zh/07341.mp3"
+},
+{
+"es": "horario",
+"esPath": "es/06569.mp3",
+"zh": "时间表",
+"zhPath": "zh/07342.mp3"
+},
+{
+"es": "sala vip",
+"esPath": "es/06570.mp3",
+"zh": "贵宾室",
+"zhPath": "zh/07343.mp3"
+},
+{
+"es": "habitación para descansar",
+"esPath": "es/06571.mp3",
+"zh": "休息室",
+"zhPath": "zh/07344.mp3"
+},
+{
+"es": "tarjeta de acceso",
+"esPath": "es/06572.mp3",
+"zh": "通行证",
+"zhPath": "zh/07345.mp3"
+},
+{
+"es": "objetos perdidos",
+"esPath": "es/06573.mp3",
+"zh": "失物招领处",
+"zhPath": "zh/07346.mp3"
+},
+{
+"es": "inspección de la seguridad",
+"esPath": "es/06574.mp3",
+"zh": "安检",
+"zhPath": "zh/07347.mp3"
+},
+{
+"es": "guardia de seguridad",
+"esPath": "es/06575.mp3",
+"zh": "保安人员",
+"zhPath": "zh/07348.mp3"
+},
+{
+"es": "cinta transportadora",
+"esPath": "es/06576.mp3",
+"zh": "传送带",
+"zhPath": "zh/07349.mp3"
+},
+{
+"es": "puesto de control",
+"esPath": "es/06577.mp3",
+"zh": "检查站",
+"zhPath": "zh/07350.mp3"
+},
+{
+"es": "cosa combustible",
+"esPath": "es/06578.mp3",
+"zh": "易燃物",
+"zhPath": "zh/07351.mp3"
+},
+{
+"es": "boleto de equipaje",
+"esPath": "es/06579.mp3",
+"zh": "行李票",
+"zhPath": "zh/07352.mp3"
+},
+{
+"es": "baño nñpl",
+"esPath": "es/06580.mp3",
+"zh": "洗漱间",
+"zhPath": "zh/07353.mp3"
+},
+{
+"es": "La censora te está esperando en su oficina",
+"esPath": "es/06581.mp3",
+"zh": "学监夫人正在她的办公室等你。",
+"zhPath": "zh/07354.mp3"
+},
+{
+"es": "plaza de aparcamiento",
+"esPath": "es/06582.mp3",
+"zh": "停车场",
+"zhPath": "zh/07355.mp3"
+},
+{
+"es": "espacio de aparcamiento",
+"esPath": "es/06583.mp3",
+"zh": "停车位",
+"zhPath": "zh/07356.mp3"
+},
+{
+"es": "línea amarilla",
+"esPath": "es/06584.mp3",
+"zh": "黄线",
+"zhPath": "zh/07357.mp3"
+},
+{
+"es": "línea de parada",
+"esPath": "es/06585.mp3",
+"zh": "停车线",
+"zhPath": "zh/07358.mp3"
+},
+{
+"es": "燃料 combustible",
+"esPath": "es/06586.mp3",
+"zh": "易燃的；",
+"zhPath": "zh/07359.mp3"
+},
+{
+"es": "detonación",
+"esPath": "es/06587.mp3",
+"zh": "易爆性",
+"zhPath": "zh/07360.mp3"
+},
+{
+"es": "加 añadir",
+"esPath": "es/06588.mp3",
+"zh": "放,",
+"zhPath": "zh/07361.mp3"
+},
+{
+"es": "tanque de gasolina",
+"esPath": "es/06589.mp3",
+"zh": "汽油箱",
+"zhPath": "zh/07362.mp3"
+},
+{
+"es": "gasolina sin plomo",
+"esPath": "es/06590.mp3",
+"zh": "无铅汽油",
+"zhPath": "zh/07363.mp3"
+},
+{
+"es": "cargadores de muelle",
+"esPath": "es/06591.mp3",
+"zh": "码头工人",
+"zhPath": "zh/07364.mp3"
+},
+{
+"es": "puerto de escala",
+"esPath": "es/06592.mp3",
+"zh": "停泊港",
+"zhPath": "zh/07365.mp3"
+},
+{
+"es": "encallar",
+"esPath": "es/06593.mp3",
+"zh": "搁浅",
+"zhPath": "zh/07366.mp3"
+},
+{
+"es": "goleta",
+"esPath": "es/06594.mp3",
+"zh": "(二桅或三桅的）轻便船",
+"zhPath": "zh/07367.mp3"
+},
+{
+"es": "carril lento",
+"esPath": "es/06595.mp3",
+"zh": "慢行车道",
+"zhPath": "zh/07368.mp3"
+},
+{
+"es": "carril rápido",
+"esPath": "es/06596.mp3",
+"zh": "快行车道",
+"zhPath": "zh/07369.mp3"
+},
+{
+"es": "adelantar el coche",
+"esPath": "es/06597.mp3",
+"zh": "超车",
+"zhPath": "zh/07370.mp3"
+},
+{
+"es": "autopista con peaje",
+"esPath": "es/06598.mp3",
+"zh": "收费的高速路",
+"zhPath": "zh/07371.mp3"
+},
+{
+"es": "exceso de velocidad",
+"esPath": "es/06599.mp3",
+"zh": "超速",
+"zhPath": "zh/07372.mp3"
+},
+{
+"es": "tocar la bocina",
+"esPath": "es/06600.mp3",
+"zh": "按汽车喇叭",
+"zhPath": "zh/07373.mp3"
+},
+{
+"es": "Caminamos en la bifurcación de la carretera, que te vas a la izquierda, y yo a la derecha",
+"esPath": "es/06601.mp3",
+"zh": "我们走在分叉路口，你向左，我向右。",
+"zhPath": "zh/07374.mp3"
+},
+{
+"es": "las normas de tráfico",
+"esPath": "es/06602.mp3",
+"zh": "交通规则",
+"zhPath": "zh/07375.mp3"
+},
+{
+"es": "espacio verde",
+"esPath": "es/06603.mp3",
+"zh": "绿化带",
+"zhPath": "zh/07376.mp3"
+},
+{
+"es": "el lado de la carretera",
+"esPath": "es/06604.mp3",
+"zh": "路边",
+"zhPath": "zh/07377.mp3"
+},
+{
+"es": "construcción de carreteras",
+"esPath": "es/06605.mp3",
+"zh": "道路施工",
+"zhPath": "zh/07378.mp3"
+},
+{
+"es": "luz roja",
+"esPath": "es/06606.mp3",
+"zh": "红灯",
+"zhPath": "zh/07379.mp3"
+},
+{
+"es": "mantener el orden",
+"esPath": "es/06607.mp3",
+"zh": "维持治安",
+"zhPath": "zh/07380.mp3"
+},
+{
+"es": "luz verde",
+"esPath": "es/06608.mp3",
+"zh": "绿灯",
+"zhPath": "zh/07381.mp3"
+},
+{
+"es": "luz amarilla",
+"esPath": "es/06609.mp3",
+"zh": "黄灯",
+"zhPath": "zh/07382.mp3"
+},
+{
+"es": "luz trasera",
+"esPath": "es/06610.mp3",
+"zh": "尾灯",
+"zhPath": "zh/07383.mp3"
+},
+{
+"es": "notificación por escrito",
+"esPath": "es/06611.mp3",
+"zh": "书面通知",
+"zhPath": "zh/07384.mp3"
+},
+{
+"es": "franco de aranceles",
+"esPath": "es/06612.mp3",
+"zh": "免税的",
+"zhPath": "zh/07385.mp3"
+},
+{
+"es": "puerto libre de impuestos",
+"esPath": "es/06613.mp3",
+"zh": "免税港",
+"zhPath": "zh/07386.mp3"
+},
+{
+"es": "el dumping",
+"esPath": "es/06614.mp3",
+"zh": "倾销",
+"zhPath": "zh/07387.mp3"
+},
+{
+"es": "formalidades aduaneras",
+"esPath": "es/06615.mp3",
+"zh": "海关手续",
+"zhPath": "zh/07388.mp3"
+},
+{
+"es": "tarifas de las aduanas",
+"esPath": "es/06616.mp3",
+"zh": "海关费",
+"zhPath": "zh/07389.mp3"
+},
+{
+"es": "inspección de la aduana",
+"esPath": "es/06617.mp3",
+"zh": "海关检查",
+"zhPath": "zh/07390.mp3"
+},
+{
+"es": "reducir vñt. 减少，",
+"esPath": "es/06618.mp3",
+"zh": "减低",
+"zhPath": "zh/07391.mp3"
+},
+{
+"es": "artículo nñm. (法律等的) 条文,",
+"esPath": "es/06619.mp3",
+"zh": "条款",
+"zhPath": "zh/07392.mp3"
+},
+{
+"es": "trabajar",
+"esPath": "es/06620.mp3",
+"zh": "工作，劳动",
+"zhPath": "zh/07393.mp3"
+},
+{
+"es": "aumentar",
+"esPath": "es/06621.mp3",
+"zh": "增加，提高",
+"zhPath": "zh/07394.mp3"
+},
+{
+"es": "De año en año aumenta el contingente de artículos industriales de China para la exportación",
+"esPath": "es/06622.mp3",
+"zh": "中国工业品出口额年年有所增长。",
+"zhPath": "zh/07395.mp3"
+},
+{
+"es": "Mercedes Benz",
+"esPath": "es/06623.mp3",
+"zh": "梅赛德斯-奔驰",
+"zhPath": "zh/07396.mp3"
+},
+{
+"es": "BMW",
+"esPath": "es/06624.mp3",
+"zh": "宝马",
+"zhPath": "zh/07397.mp3"
+},
+{
+"es": "Audi",
+"esPath": "es/06625.mp3",
+"zh": "奥迪",
+"zhPath": "zh/07398.mp3"
+},
+{
+"es": "Toyota",
+"esPath": "es/06626.mp3",
+"zh": "丰田",
+"zhPath": "zh/07399.mp3"
+},
+{
+"es": "Honda",
+"esPath": "es/06627.mp3",
+"zh": "本田",
+"zhPath": "zh/07400.mp3"
+},
+{
+"es": "Jeep",
+"esPath": "es/06628.mp3",
+"zh": "吉普",
+"zhPath": "zh/07401.mp3"
+},
+{
+"es": "Ford",
+"esPath": "es/06629.mp3",
+"zh": "福特",
+"zhPath": "zh/07402.mp3"
+},
+{
+"es": "Ferrari",
+"esPath": "es/06630.mp3",
+"zh": "法拉利",
+"zhPath": "zh/07403.mp3"
+},
+{
+"es": "Cadillac",
+"esPath": "es/06631.mp3",
+"zh": "凯迪拉克",
+"zhPath": "zh/07404.mp3"
+},
+{
+"es": "Buick",
+"esPath": "es/06632.mp3",
+"zh": "别克",
+"zhPath": "zh/07405.mp3"
+},
+{
+"es": "Bentley",
+"esPath": "es/06633.mp3",
+"zh": "宾利",
+"zhPath": "zh/07406.mp3"
+},
+{
+"es": "Lincoln",
+"esPath": "es/06634.mp3",
+"zh": "林肯",
+"zhPath": "zh/07407.mp3"
+},
+{
+"es": "Hyundai",
+"esPath": "es/06635.mp3",
+"zh": "现代",
+"zhPath": "zh/07408.mp3"
+},
+{
+"es": "Mazda",
+"esPath": "es/06636.mp3",
+"zh": "马自达",
+"zhPath": "zh/07409.mp3"
+},
+{
+"es": "Mitsubishi",
+"esPath": "es/06637.mp3",
+"zh": "三菱",
+"zhPath": "zh/07410.mp3"
+},
+{
+"es": "Citroen",
+"esPath": "es/06638.mp3",
+"zh": "雪铁龙",
+"zhPath": "zh/07411.mp3"
+},
+{
+"es": "Volkswagen",
+"esPath": "es/06639.mp3",
+"zh": "大众",
+"zhPath": "zh/07412.mp3"
+},
+{
+"es": "Hummer",
+"esPath": "es/06640.mp3",
+"zh": "悍马",
+"zhPath": "zh/07413.mp3"
+},
+{
+"es": "Porsche",
+"esPath": "es/06641.mp3",
+"zh": "保时捷",
+"zhPath": "zh/07414.mp3"
+},
+{
+"es": "Lotus",
+"esPath": "es/06642.mp3",
+"zh": "莲花",
+"zhPath": "zh/07415.mp3"
+},
+{
+"es": "Nissan",
+"esPath": "es/06643.mp3",
+"zh": "尼桑",
+"zhPath": "zh/07416.mp3"
+},
+{
+"es": "Renault",
+"esPath": "es/06644.mp3",
+"zh": "雷诺",
+"zhPath": "zh/07417.mp3"
+},
+{
+"es": "Peugeot",
+"esPath": "es/06645.mp3",
+"zh": "标致",
+"zhPath": "zh/07418.mp3"
+},
+{
+"es": "Jaguar",
+"esPath": "es/06646.mp3",
+"zh": "捷豹",
+"zhPath": "zh/07419.mp3"
+},
+{
+"es": "administración nñf. 行政，",
+"esPath": "es/06647.mp3",
+"zh": "管理",
+"zhPath": "zh/07420.mp3"
+},
+{
+"es": "reducir la velocidad",
+"esPath": "es/06648.mp3",
+"zh": "减速",
+"zhPath": "zh/07421.mp3"
+},
+{
+"es": "funcionar mal",
+"esPath": "es/06649.mp3",
+"zh": "失灵",
+"zhPath": "zh/07422.mp3"
+},
+{
+"es": "sin tránsito",
+"esPath": "es/06650.mp3",
+"zh": "禁止通行",
+"zhPath": "zh/07423.mp3"
+},
+{
+"es": "cinturones de seguridad",
+"esPath": "es/06651.mp3",
+"zh": "安全带",
+"zhPath": "zh/07424.mp3"
+},
+{
+"es": "odómetro",
+"esPath": "es/06652.mp3",
+"zh": "里程表",
+"zhPath": "zh/07425.mp3"
+},
+{
+"es": "tanque de almacenamiento",
+"esPath": "es/06653.mp3",
+"zh": "后备箱",
+"zhPath": "zh/07426.mp3"
+},
+{
+"es": "espejo lateral",
+"esPath": "es/06654.mp3",
+"zh": "侧镜",
+"zhPath": "zh/07427.mp3"
+},
+{
+"es": "rehabilitar",
+"esPath": "es/06655.mp3",
+"zh": "修理",
+"zhPath": "zh/07428.mp3"
+},
+{
+"es": "encerado",
+"esPath": "es/06656.mp3",
+"zh": "打蜡",
+"zhPath": "zh/07429.mp3"
+},
+{
+"es": "lancha rápida",
+"esPath": "es/06657.mp3",
+"zh": "快艇",
+"zhPath": "zh/07430.mp3"
+},
+{
+"es": "crucero",
+"esPath": "es/06658.mp3",
+"zh": "巡洋舰",
+"zhPath": "zh/07431.mp3"
+},
+{
+"es": "primer maestro",
+"esPath": "es/06659.mp3",
+"zh": "大副",
+"zhPath": "zh/07432.mp3"
+},
+{
+"es": "proa",
+"esPath": "es/06660.mp3",
+"zh": "船头",
+"zhPath": "zh/07433.mp3"
+},
+{
+"es": "foc",
+"esPath": "es/06661.mp3",
+"zh": "前帆",
+"zhPath": "zh/07434.mp3"
+},
+{
+"es": "avión de pasajeros",
+"esPath": "es/06662.mp3",
+"zh": "客机",
+"zhPath": "zh/07435.mp3"
+},
+{
+"es": "avión de reacción",
+"esPath": "es/06663.mp3",
+"zh": "喷气式飞机",
+"zhPath": "zh/07436.mp3"
+},
+{
+"es": "avión de combate",
+"esPath": "es/06664.mp3",
+"zh": "战斗机",
+"zhPath": "zh/07437.mp3"
+},
+{
+"es": "avión de reconocimiento",
+"esPath": "es/06665.mp3",
+"zh": "侦察机",
+"zhPath": "zh/07438.mp3"
+},
+{
+"es": "compañía aérea",
+"esPath": "es/06666.mp3",
+"zh": "航空公司",
+"zhPath": "zh/07439.mp3"
+},
+{
+"es": "驾驶舱 cabina",
+"esPath": "es/06667.mp3",
+"zh": "机舱,",
+"zhPath": "zh/07440.mp3"
+},
+{
+"es": "el tren de aterrizaje",
+"esPath": "es/06668.mp3",
+"zh": "起落架",
+"zhPath": "zh/07441.mp3"
+},
+{
+"es": "cuadro negro",
+"esPath": "es/06669.mp3",
+"zh": "黑匣子",
+"zhPath": "zh/07442.mp3"
+},
+{
+"es": "timón de dirección",
+"esPath": "es/06670.mp3",
+"zh": "方向舵",
+"zhPath": "zh/07443.mp3"
+},
+{
+"es": "timón de levantar",
+"esPath": "es/06671.mp3",
+"zh": "升降舵",
+"zhPath": "zh/07444.mp3"
+},
+{
+"es": "tarjeta de embarque",
+"esPath": "es/06672.mp3",
+"zh": "登机牌",
+"zhPath": "zh/07445.mp3"
+},
+{
+"es": "clase económica",
+"esPath": "es/06673.mp3",
+"zh": "经济舱",
+"zhPath": "zh/07446.mp3"
+},
+{
+"es": "cabina de primera clase",
+"esPath": "es/06674.mp3",
+"zh": "头等舱",
+"zhPath": "zh/07447.mp3"
+},
+{
+"es": "asunto del vuelo",
+"esPath": "es/06675.mp3",
+"zh": "航务",
+"zhPath": "zh/07448.mp3"
+},
+{
+"es": "la dirección del vuelo",
+"esPath": "es/06676.mp3",
+"zh": "航向",
+"zhPath": "zh/07449.mp3"
+},
+{
+"es": "vuelo internacional",
+"esPath": "es/06677.mp3",
+"zh": "国际航班",
+"zhPath": "zh/07450.mp3"
+},
+{
+"es": "vuelo nacional",
+"esPath": "es/06678.mp3",
+"zh": "国内航班",
+"zhPath": "zh/07451.mp3"
+},
+{
+"es": "transporte ferroviario",
+"esPath": "es/06679.mp3",
+"zh": "铁路运输",
+"zhPath": "zh/07452.mp3"
+},
+{
+"es": "tren directo",
+"esPath": "es/06680.mp3",
+"zh": "直达快车",
+"zhPath": "zh/07453.mp3"
+},
+{
+"es": "estación de mercancías",
+"esPath": "es/06681.mp3",
+"zh": "货运站",
+"zhPath": "zh/07454.mp3"
+},
+{
+"es": "vagón de comedor",
+"esPath": "es/06682.mp3",
+"zh": "餐车",
+"zhPath": "zh/07455.mp3"
+},
+{
+"es": "vagón con cama",
+"esPath": "es/06683.mp3",
+"zh": "卧铺",
+"zhPath": "zh/07456.mp3"
+},
+{
+"es": "estación de salida",
+"esPath": "es/06684.mp3",
+"zh": "始发站",
+"zhPath": "zh/07457.mp3"
+},
+{
+"es": "terminal",
+"esPath": "es/06685.mp3",
+"zh": "终点站",
+"zhPath": "zh/07458.mp3"
+},
+{
+"es": "trabajador del ferrocarril",
+"esPath": "es/06686.mp3",
+"zh": "铁路员工",
+"zhPath": "zh/07459.mp3"
+},
+{
+"es": "Desde la apertura del ferrocarril QinghaiTíbet, los departamentos de ferrocarriles han implementado una serie de medidas para proteger la naturaleza",
+"esPath": "es/06687.mp3",
+"zh": "青藏铁路开通以来，国家铁路部门就为保护生态环境采取了一系列措施。",
+"zhPath": "zh/07460.mp3"
+},
+{
+"es": "El jefe de Estado se sentó en la última línea de la primera clase, donde había varios pasajeros",
+"esPath": "es/06688.mp3",
+"zh": "这位国家领导的位子在头等座的最后一个车厢，已经有不少乘客就坐。",
+"zhPath": "zh/07461.mp3"
+},
+{
+"es": "prestar un freno",
+"esPath": "es/06689.mp3",
+"zh": "刹一下车",
+"zhPath": "zh/07462.mp3"
+},
+{
+"es": "timbre de la biccleta",
+"esPath": "es/06690.mp3",
+"zh": "车铃",
+"zhPath": "zh/07463.mp3"
+},
+{
+"es": "neumático para bici",
+"esPath": "es/06691.mp3",
+"zh": "自行车带",
+"zhPath": "zh/07464.mp3"
+},
+{
+"es": "cuando",
+"esPath": "es/06692.mp3",
+"zh": "当……时候，在……情况下",
+"zhPath": "zh/07465.mp3"
 }
 ]
 }
