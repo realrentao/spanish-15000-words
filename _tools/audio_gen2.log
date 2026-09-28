@@ -1,0 +1,185 @@
+SKIP [es] es/06164.mp3
+SKIP [es] es/06165.mp3
+SKIP [es] es/06166.mp3
+SKIP [es] es/06167.mp3
+SKIP [es] es/06168.mp3
+SKIP [es] es/06169.mp3
+SKIP [es] es/06170.mp3
+SKIP [es] es/06171.mp3
+SKIP [es] es/06172.mp3
+SKIP [es] es/06173.mp3
+SKIP [es] es/06174.mp3
+SKIP [es] es/06175.mp3
+SKIP [es] es/06176.mp3
+SKIP [es] es/06177.mp3
+SKIP [es] es/06178.mp3
+SKIP [es] es/06179.mp3
+SKIP [es] es/06180.mp3
+SKIP [es] es/06181.mp3
+SKIP [es] es/06182.mp3
+SKIP [es] es/06183.mp3
+SKIP [es] es/06184.mp3
+SKIP [es] es/06185.mp3
+SKIP [es] es/06186.mp3
+SKIP [es] es/06187.mp3
+SKIP [es] es/06188.mp3
+SKIP [es] es/06189.mp3
+SKIP [es] es/06190.mp3
+SKIP [es] es/06191.mp3
+SKIP [es] es/06192.mp3
+SKIP [es] es/06193.mp3
+SKIP [es] es/06194.mp3
+SKIP [es] es/06195.mp3
+SKIP [es] es/06196.mp3
+SKIP [es] es/06197.mp3
+SKIP [es] es/06198.mp3
+SKIP [es] es/06199.mp3
+SKIP [es] es/06200.mp3
+SKIP [es] es/06201.mp3
+SKIP [es] es/06202.mp3
+SKIP [es] es/06203.mp3
+SKIP [es] es/06204.mp3
+SKIP [es] es/06205.mp3
+SKIP [es] es/06206.mp3
+SKIP [es] es/06207.mp3
+SKIP [es] es/06208.mp3
+SKIP [es] es/06209.mp3
+SKIP [es] es/06210.mp3
+SKIP [es] es/06211.mp3
+SKIP [es] es/06214.mp3
+Exception ignored in: <_io.BufferedWriter name=5>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=7>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=7>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 47, in worker
+    ok = await gen_one(item["text"], voice, out)
+OSError: [Errno 22] Invalid argument
+FAIL [es] es/06213.mp3  El señor Muyl es superrico, este es 
+FAIL [es] es/06215.mp3  relacionar
+FAIL [es] es/06212.mp3  Te lo repito por centésima vez.
+FAIL [zh] zh/06942.mp3  二十六
+FAIL [zh] zh/06945.mp3  二十九
+FAIL [zh] zh/06944.mp3  二十八
+FAIL [zh] zh/06946.mp3  三十
+FAIL [zh] zh/06943.mp3  二十七
+FAIL [zh] zh/06949.mp3  六十
+FAIL [zh] zh/06947.mp3  四十
+FAIL [zh] zh/06950.mp3  七十
+FAIL [zh] zh/06951.mp3  八十
+FAIL [zh] zh/06952.mp3  九十
+FAIL [zh] zh/06948.mp3  五十
+FAIL [zh] zh/06953.mp3  一百
+FAIL [zh] zh/06955.mp3  百万
+FAIL [zh] zh/06956.mp3  十亿
+FAIL [zh] zh/06954.mp3  一千
+FAIL [zh] zh/06959.mp3  第四
+FAIL [zh] zh/06957.mp3  第一
+FAIL [zh] zh/06960.mp3  第五
+FAIL [zh] zh/06958.mp3  第二
+FAIL [zh] zh/06961.mp3  第六
+FAIL [zh] zh/06962.mp3  第七
+FAIL [zh] zh/06963.mp3  第八
+FAIL [zh] zh/06964.mp3  保罗今年将开三十三场演唱会。
+FAIL [zh] zh/06965.mp3  人类的 DNA 有 30 亿种基因组合。
+FAIL [zh] zh/06966.mp3  可信性
+FAIL [zh] zh/06968.mp3  第九
+FAIL [zh] zh/06967.mp3  最高权力
+FAIL [zh] zh/06969.mp3  第十
+FAIL [zh] zh/06972.mp3  第十三
+FAIL [zh] zh/06971.mp3  第十二
+FAIL [zh] zh/06973.mp3  第十四
+FAIL [zh] zh/06970.mp3  第十一
+FAIL [zh] zh/06974.mp3  第十五
+FAIL [zh] zh/06975.mp3  第十六
+FAIL [zh] zh/06977.mp3  第十八
+FAIL [zh] zh/06976.mp3  第十七
+FAIL [zh] zh/06979.mp3  第二十
+FAIL [zh] zh/06978.mp3  第十九
+FAIL [zh] zh/06980.mp3  第三十
+FAIL [zh] zh/06981.mp3  第四十
+FAIL [zh] zh/06982.mp3  第五十
+FAIL [zh] zh/06984.mp3  第七十
+Exception ignored in: <_io.BufferedWriter name=5>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=6>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06983.mp3  第六十
+FAIL [zh] zh/06985.mp3  第八十
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 47, in worker
+    ok = await gen_one(item["text"], voice, out)
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06987.mp3  只要你给我十分之一的机会，我们会给你百分之百的满意。
+Exception ignored in: <_io.BufferedWriter name=4>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06986.mp3  第九十
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=7>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=5>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 47, in worker
+    ok = await gen_one(item["text"], voice, out)
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06989.mp3  这本书的第二十课将为我们详细讲解先将来时的用法。
+Exception ignored in: <_io.BufferedWriter name=3>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06990.mp3  满足，满意
+FAIL [zh] zh/06991.mp3  庄园
+Exception ignored in: <_io.BufferedWriter name=8>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 22, in gen_one
+    proc = subprocess.Popen(
+OSError: [Errno 22] Invalid argument
+Exception ignored in: <_io.BufferedWriter name=4>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 47, in worker
+    ok = await gen_one(item["text"], voice, out)
+OSError: [Errno 22] Invalid argument
+FAIL [zh] zh/06988.mp3  弥勒先生超级富有，这是他买的第十一座庄园。
+FAIL [zh] zh/06992.mp3  先前的
+
+DONE: 49/103 generated

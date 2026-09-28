@@ -1,0 +1,124 @@
+OK  [es] es/06165.mp3  veintisiete
+OK  [es] es/06166.mp3  veintiocho
+OK  [es] es/06164.mp3  veintiséis
+OK  [es] es/06169.mp3  cuarenta
+OK  [es] es/06170.mp3  cincuenta
+OK  [es] es/06167.mp3  veintinueve
+OK  [es] es/06168.mp3  treinta
+OK  [es] es/06171.mp3  sesenta
+OK  [es] es/06174.mp3  noventa
+OK  [es] es/06172.mp3  setenta
+OK  [es] es/06175.mp3  cien
+OK  [es] es/06176.mp3  mil
+OK  [es] es/06177.mp3  millón
+OK  [es] es/06173.mp3  ochenta
+OK  [es] es/06178.mp3  mil millones
+OK  [es] es/06181.mp3  quinto
+OK  [es] es/06179.mp3  primero
+OK  [es] es/06180.mp3  cuarto
+OK  [es] es/06182.mp3  sexto
+OK  [es] es/06184.mp3  octavo
+OK  [es] es/06186.mp3  El ADN humano tiene 3 mil millones de co
+OK  [es] es/06185.mp3  Paul va a organizar treinta y tres conci
+OK  [es] es/06183.mp3  séptimo
+OK  [es] es/06189.mp3  credibilidad
+OK  [es] es/06188.mp3  Hay cien maneras de llegar allí.
+OK  [es] es/06190.mp3  supremacía
+OK  [es] es/06187.mp3  Primera calidad, la credibilidad de la s
+OK  [es] es/06194.mp3  duodécimo
+OK  [es] es/06191.mp3  noveno
+OK  [es] es/06192.mp3  décimo
+OK  [es] es/06193.mp3  undécimo
+OK  [es] es/06198.mp3  decimosexto
+OK  [es] es/06195.mp3  decimotercero
+OK  [es] es/06196.mp3  decimocuarto
+OK  [es] es/06197.mp3  decimoquinto
+OK  [es] es/06199.mp3  decimoséptimo
+OK  [es] es/06200.mp3  decimoctavo
+OK  [es] es/06202.mp3  vigésimo
+OK  [es] es/06201.mp3  decimonoveno
+OK  [es] es/06203.mp3  trigésimo
+OK  [es] es/06204.mp3  cuadragésimo
+OK  [es] es/06206.mp3  sexagésimo
+OK  [es] es/06205.mp3  quincuagésimo
+OK  [es] es/06207.mp3  septuagésimo
+OK  [es] es/06208.mp3  octogésimo
+OK  [es] es/06210.mp3  Con tal de que me des una décima parte d
+OK  [es] es/06209.mp3  nonagésimo
+OK  [es] es/06211.mp3  Es el noveno día, no nos comunicamos.
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["D:\\西班牙语材料\\15000词西语随身背\\audio\\es\\06214.mp3.tmp"],"targetCount":1}
+Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py:38> exception=SystemExit(1)>
+Traceback (most recent call last):
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 52, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 195, in run
+    with Runner(debug=debug, loop_factory=loop_factory) as runner:
+         ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 63, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 71, in close
+    _cancel_all_tasks(loop)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 207, in _cancel_all_tasks
+    loop.run_until_complete(tasks.gather(*to_cancel, return_exceptions=True))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 2060, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 45, in main
+    results = await asyncio.gather(*tasks)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 196, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\runners.py", line 119, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\base_events.py", line 2060, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\迪丽希斯\.workbuddy\binaries\python\versions\3.13.12\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 33, in worker
+    ok = await gen_one(item["text"], voice, out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\西班牙语材料\15000词西语随身背\_tools\generate_audio.py", line 23, in gen_one
+    os.remove(tmp)
+    ~~~~~~~~~^^^^^
+  File "D:\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\sitecustomize.py", line 1037, in _safe_remove
+    _try_trash(abs_path)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "D:\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\sitecustomize.py", line 953, in _try_trash
+    _check_bulk_delete_guard(abs_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\sitecustomize.py", line 837, in _check_bulk_delete_guard
+    _exit_bulk_guard_control(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        result.stderr.strip()
+        ^^^^^^^^^^^^^^^^^^^^^
+        or "[safe-delete][SAFE_DELETE_BULK_GUARD_ERROR] exit %d" % result.returncode
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\WorkBuddy\resources\app.asar.unpacked\cli\vendor\shim\sitecustomize.py", line 812, in _exit_bulk_guard_control
+    raise SystemExit(1)
+SystemExit: 1

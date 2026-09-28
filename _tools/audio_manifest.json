@@ -1,0 +1,1564 @@
+{
+"jobs": [
+{
+"es": "ropa interior",
+"esPath": "es/06255.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "内衣",
+"zhPath": "zh/07032.mp3"
+},
+{
+"es": "ropa deportiva",
+"esPath": "es/06256.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "运动服",
+"zhPath": "zh/07033.mp3"
+},
+{
+"es": "de moda",
+"esPath": "es/06257.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "时尚的",
+"zhPath": "zh/07034.mp3"
+},
+{
+"es": "trajes de baño",
+"esPath": "es/06258.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "游泳衣",
+"zhPath": "zh/07035.mp3"
+},
+{
+"es": "materiales de la ropa",
+"esPath": "es/06259.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "服装材料",
+"zhPath": "zh/07036.mp3"
+},
+{
+"es": "buena calidad",
+"esPath": "es/06260.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "质量好的",
+"zhPath": "zh/07037.mp3"
+},
+{
+"es": "fibra sintética",
+"esPath": "es/06261.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "合成纤维",
+"zhPath": "zh/07038.mp3"
+},
+{
+"es": "verde esmeralda",
+"esPath": "es/06262.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "翡翠绿",
+"zhPath": "zh/07039.mp3"
+},
+{
+"es": "verde claro",
+"esPath": "es/06263.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "浅绿色",
+"zhPath": "zh/07040.mp3"
+},
+{
+"es": "verde de manzana",
+"esPath": "es/06264.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "苹果绿",
+"zhPath": "zh/07041.mp3"
+},
+{
+"es": "verde oscuro",
+"esPath": "es/06265.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "暗绿色",
+"zhPath": "zh/07042.mp3"
+},
+{
+"es": "amarillo de mostaza",
+"esPath": "es/06266.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "芥末黄",
+"zhPath": "zh/07043.mp3"
+},
+{
+"es": "amarillo limón",
+"esPath": "es/06267.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "柠檬黄",
+"zhPath": "zh/07044.mp3"
+},
+{
+"es": "amarillo claro",
+"esPath": "es/06268.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "微黄色的",
+"zhPath": "zh/07045.mp3"
+},
+{
+"es": "amarillo-verde",
+"esPath": "es/06269.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "黄绿色",
+"zhPath": "zh/07046.mp3"
+},
+{
+"es": "amarillo-marrón",
+"esPath": "es/06270.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "黄褐色",
+"zhPath": "zh/07047.mp3"
+},
+{
+"es": "amarillo dorado",
+"esPath": "es/06271.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "金黄色",
+"zhPath": "zh/07048.mp3"
+},
+{
+"es": "azul cielo",
+"esPath": "es/06272.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "天蓝色",
+"zhPath": "zh/07049.mp3"
+},
+{
+"es": "azul oscuro",
+"esPath": "es/06273.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深蓝色",
+"zhPath": "zh/07050.mp3"
+},
+{
+"es": "azul marino",
+"esPath": "es/06274.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "海蓝色",
+"zhPath": "zh/07051.mp3"
+},
+{
+"es": "azul de Berlín",
+"esPath": "es/06275.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "普蓝色",
+"zhPath": "zh/07052.mp3"
+},
+{
+"es": "azul de cobalto",
+"esPath": "es/06276.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "瓷蓝色",
+"zhPath": "zh/07053.mp3"
+},
+{
+"es": "azul zafiro",
+"esPath": "es/06277.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "宝蓝色",
+"zhPath": "zh/07054.mp3"
+},
+{
+"es": "azul oscuro",
+"esPath": "es/06278.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "碧蓝色",
+"zhPath": "zh/07055.mp3"
+},
+{
+"es": "azul purpúreo",
+"esPath": "es/06279.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "藏蓝色",
+"zhPath": "zh/07056.mp3"
+},
+{
+"es": "turquí",
+"esPath": "es/06280.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深蓝的，靛青的",
+"zhPath": "zh/07057.mp3"
+},
+{
+"es": "violeta claro",
+"esPath": "es/06281.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "浅紫色",
+"zhPath": "zh/07058.mp3"
+},
+{
+"es": "violeta oscuro",
+"esPath": "es/06282.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深紫色",
+"zhPath": "zh/07059.mp3"
+},
+{
+"es": "cárdeno",
+"esPath": "es/06283.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "紫色的",
+"zhPath": "zh/07060.mp3"
+},
+{
+"es": "morado",
+"esPath": "es/06284.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深紫色的",
+"zhPath": "zh/07061.mp3"
+},
+{
+"es": "púrpura",
+"esPath": "es/06285.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": "amoratado",
+"esPath": "es/06286.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "青紫色的",
+"zhPath": "zh/07062.mp3"
+},
+{
+"es": "magenta",
+"esPath": "es/06287.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "洋红色",
+"zhPath": "zh/07063.mp3"
+},
+{
+"es": "carmíneo",
+"esPath": "es/06288.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "洋红的",
+"zhPath": "zh/07064.mp3"
+},
+{
+"es": "rojo oscuro",
+"esPath": "es/06289.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深红色",
+"zhPath": "zh/07065.mp3"
+},
+{
+"es": "rojo oscuro",
+"esPath": "es/06290.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "深红色",
+"zhPath": "zh/07066.mp3"
+},
+{
+"es": "marrón claro",
+"esPath": "es/06291.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "浅棕色",
+"zhPath": "zh/07067.mp3"
+},
+{
+"es": "hacer juego",
+"esPath": "es/06292.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "与……相配",
+"zhPath": "zh/07068.mp3"
+},
+{
+"es": "últimos estilos",
+"esPath": "es/06293.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "最新款式",
+"zhPath": "zh/07069.mp3"
+},
+{
+"es": "escote en-u",
+"esPath": "es/06294.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "U型领",
+"zhPath": "zh/07070.mp3"
+},
+{
+"es": "escote en-v",
+"esPath": "es/06295.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "V型领",
+"zhPath": "zh/07071.mp3"
+},
+{
+"es": "ropa de maternidad",
+"esPath": "es/06296.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "孕妇装",
+"zhPath": "zh/07072.mp3"
+},
+{
+"es": "chapeo de hierba",
+"esPath": "es/06297.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "草帽",
+"zhPath": "zh/07073.mp3"
+},
+{
+"es": "vistiendo",
+"esPath": "es/06298.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "戴着",
+"zhPath": "zh/07074.mp3"
+},
+{
+"es": "pañuelo de cabeza",
+"esPath": "es/06299.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "头巾",
+"zhPath": "zh/07075.mp3"
+},
+{
+"es": "abrigo corto",
+"esPath": "es/06300.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "短大衣",
+"zhPath": "zh/07076.mp3"
+},
+{
+"es": null,
+"esPath": null,
+"zh": "T-恤衫",
+"zhPath": "zh/07077.mp3"
+},
+{
+"es": "camiseta interior",
+"esPath": "es/06301.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": "chaqueta cárdigan",
+"esPath": "es/06302.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "开襟短上衣",
+"zhPath": "zh/07078.mp3"
+},
+{
+"es": "suéter sin mangas",
+"esPath": "es/06303.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "无袖毛衣",
+"zhPath": "zh/07079.mp3"
+},
+{
+"es": "ropa interior",
+"esPath": "es/06304.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "内衣",
+"zhPath": "zh/07080.mp3"
+},
+{
+"es": "sin mangas",
+"esPath": "es/06305.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "无袖的",
+"zhPath": "zh/07081.mp3"
+},
+{
+"es": "pantalones acampanados",
+"esPath": "es/06306.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "喇叭裤",
+"zhPath": "zh/07082.mp3"
+},
+{
+"es": "pantalones cortos",
+"esPath": "es/06307.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": "pantalones anchos",
+"esPath": "es/06308.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "灯笼裤",
+"zhPath": "zh/07083.mp3"
+},
+{
+"es": "pierna del pantalón",
+"esPath": "es/06309.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "裤腿",
+"zhPath": "zh/07084.mp3"
+},
+{
+"es": "zip",
+"esPath": "es/06310.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "拉链",
+"zhPath": "zh/07085.mp3"
+},
+{
+"es": "mini falda",
+"esPath": "es/06311.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "迷你短裙",
+"zhPath": "zh/07086.mp3"
+},
+{
+"es": "falda de ballet",
+"esPath": "es/06312.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "芭蕾舞裙",
+"zhPath": "zh/07087.mp3"
+},
+{
+"es": "falda corta",
+"esPath": "es/06313.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "短褶裙",
+"zhPath": "zh/07088.mp3"
+},
+{
+"es": "falda con pata de elefante",
+"esPath": "es/06314.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "喇叭裙",
+"zhPath": "zh/07089.mp3"
+},
+{
+"es": "traje sin mangas",
+"esPath": "es/06315.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "无袖连衣裙",
+"zhPath": "zh/07090.mp3"
+},
+{
+"es": "traje suelto",
+"esPath": "es/06316.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "宽松连衣裙",
+"zhPath": "zh/07091.mp3"
+},
+{
+"es": "calzado deportivo",
+"esPath": "es/06317.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": "zapatos de tacón alto",
+"esPath": "es/06318.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "高跟鞋",
+"zhPath": "zh/07092.mp3"
+},
+{
+"es": "zapatos de tacón bajo",
+"esPath": "es/06319.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "矮跟鞋",
+"zhPath": "zh/07093.mp3"
+},
+{
+"es": "un par",
+"esPath": "es/06320.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "一双，一对",
+"zhPath": "zh/07094.mp3"
+},
+{
+"es": "zapatos viejos",
+"esPath": "es/06321.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "旧鞋",
+"zhPath": "zh/07095.mp3"
+},
+{
+"es": "bolsa de viaje",
+"esPath": "es/06322.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "旅行袋",
+"zhPath": "zh/07096.mp3"
+},
+{
+"es": "bolsa para la escuela",
+"esPath": "es/06323.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "书包",
+"zhPath": "zh/07097.mp3"
+},
+{
+"es": "¿Te gusta el uniforme de azul cielo o de azul oscuro?",
+"esPath": "es/06324.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": null,
+"esPath": null,
+"zh": "你喜欢天蓝的还是深蓝的制服？",
+"zhPath": "zh/07098.mp3"
+},
+{
+"es": "El violado es para usted.",
+"esPath": "es/06325.mp3",
+"zh": null,
+"zhPath": null
+},
+{
+"es": "digestión",
+"esPath": "es/06326.mp3",
+"zh": "消化",
+"zhPath": "zh/07099.mp3"
+},
+{
+"es": "comida ligera",
+"esPath": "es/06327.mp3",
+"zh": "清淡饮食",
+"zhPath": "zh/07100.mp3"
+},
+{
+"es": "arroz frito",
+"esPath": "es/06328.mp3",
+"zh": "炒米饭",
+"zhPath": "zh/07101.mp3"
+},
+{
+"es": "tortilla flambeada",
+"esPath": "es/06329.mp3",
+"zh": "火烧煎蛋卷",
+"zhPath": "zh/07102.mp3"
+},
+{
+"es": "huevos conservados en cal",
+"esPath": "es/06330.mp3",
+"zh": "皮蛋",
+"zhPath": "zh/07103.mp3"
+},
+{
+"es": "gachas de arroz",
+"esPath": "es/06331.mp3",
+"zh": "稀饭",
+"zhPath": "zh/07104.mp3"
+},
+{
+"es": "leche de soja",
+"esPath": "es/06332.mp3",
+"zh": "豆浆",
+"zhPath": "zh/07105.mp3"
+},
+{
+"es": "pato laqueado",
+"esPath": "es/06333.mp3",
+"zh": "烤鸭",
+"zhPath": "zh/07106.mp3"
+},
+{
+"es": "huevo salado",
+"esPath": "es/06334.mp3",
+"zh": "咸鸡蛋",
+"zhPath": "zh/07107.mp3"
+},
+{
+"es": "fondue mongola",
+"esPath": "es/06335.mp3",
+"zh": "火锅",
+"zhPath": "zh/07108.mp3"
+},
+{
+"es": "huevo duro",
+"esPath": "es/06336.mp3",
+"zh": "煮鸡蛋",
+"zhPath": "zh/07109.mp3"
+},
+{
+"es": "foie gras asado",
+"esPath": "es/06337.mp3",
+"zh": "烤鹅肝",
+"zhPath": "zh/07110.mp3"
+},
+{
+"es": "además de",
+"esPath": "es/06338.mp3",
+"zh": "除了……",
+"zhPath": "zh/07111.mp3"
+},
+{
+"es": "menú del día",
+"esPath": "es/06339.mp3",
+"zh": "套餐",
+"zhPath": "zh/07112.mp3"
+},
+{
+"es": "cocinero chino",
+"esPath": "es/06340.mp3",
+"zh": "中餐厨师长",
+"zhPath": "zh/07113.mp3"
+},
+{
+"es": "atiparse",
+"esPath": "es/06341.mp3",
+"zh": "吃饱喝足",
+"zhPath": "zh/07114.mp3"
+},
+{
+"es": "fideos instantáneos",
+"esPath": "es/06342.mp3",
+"zh": "方便面",
+"zhPath": "zh/07115.mp3"
+},
+{
+"es": "extender",
+"esPath": "es/06343.mp3",
+"zh": "擀平",
+"zhPath": "zh/07116.mp3"
+},
+{
+"es": "fideos de sésamo",
+"esPath": "es/06344.mp3",
+"zh": "麻酱面",
+"zhPath": "zh/07117.mp3"
+},
+{
+"es": "fideos de arroz",
+"esPath": "es/06345.mp3",
+"zh": "米粉",
+"zhPath": "zh/07118.mp3"
+},
+{
+"es": "fideos planos",
+"esPath": "es/06346.mp3",
+"zh": "扁面条",
+"zhPath": "zh/07119.mp3"
+},
+{
+"es": "la rebanada de pan",
+"esPath": "es/06347.mp3",
+"zh": "面包片",
+"zhPath": "zh/07120.mp3"
+},
+{
+"es": "pan de pita",
+"esPath": "es/06348.mp3",
+"zh": "圆面包",
+"zhPath": "zh/07121.mp3"
+},
+{
+"es": "pan redondo",
+"esPath": "es/06349.mp3",
+"zh": "圆形面包",
+"zhPath": "zh/07122.mp3"
+},
+{
+"es": "pan de centeno",
+"esPath": "es/06350.mp3",
+"zh": "黑麦面包",
+"zhPath": "zh/07123.mp3"
+},
+{
+"es": "croissant",
+"esPath": "es/06351.mp3",
+"zh": "牛角面包",
+"zhPath": "zh/07124.mp3"
+},
+{
+"es": "pan de crema",
+"esPath": "es/06352.mp3",
+"zh": "奶油面包",
+"zhPath": "zh/07125.mp3"
+},
+{
+"es": "mousse",
+"esPath": "es/06353.mp3",
+"zh": "慕斯",
+"zhPath": "zh/07126.mp3"
+},
+{
+"es": "frutas en conserva",
+"esPath": "es/06354.mp3",
+"zh": "水果罐头",
+"zhPath": "zh/07127.mp3"
+},
+{
+"es": "tarta de crema",
+"esPath": "es/06355.mp3",
+"zh": "奶油蛋糕",
+"zhPath": "zh/07128.mp3"
+},
+{
+"es": "carne de vaca",
+"esPath": "es/06356.mp3",
+"zh": "牛肉",
+"zhPath": "zh/07129.mp3"
+},
+{
+"es": "frito",
+"esPath": "es/06357.mp3",
+"zh": "炒",
+"zhPath": "zh/07130.mp3"
+},
+{
+"es": "hornear en el horno",
+"esPath": "es/06358.mp3",
+"zh": "在烤箱烘烤",
+"zhPath": "zh/07131.mp3"
+},
+{
+"es": "ya que",
+"esPath": "es/06359.mp3",
+"zh": "既然",
+"zhPath": "zh/07132.mp3"
+},
+{
+"es": "aceite de cocina",
+"esPath": "es/06360.mp3",
+"zh": "食用油",
+"zhPath": "zh/07133.mp3"
+},
+{
+"es": "aceite de soja",
+"esPath": "es/06361.mp3",
+"zh": "大豆油",
+"zhPath": "zh/07134.mp3"
+},
+{
+"es": "aceite de colza",
+"esPath": "es/06362.mp3",
+"zh": "菜籽油",
+"zhPath": "zh/07135.mp3"
+},
+{
+"es": "aceite de maíz",
+"esPath": "es/06363.mp3",
+"zh": "玉米油",
+"zhPath": "zh/07136.mp3"
+},
+{
+"es": "aceite de maní",
+"esPath": "es/06364.mp3",
+"zh": "花生油",
+"zhPath": "zh/07137.mp3"
+},
+{
+"es": "aceite de palma",
+"esPath": "es/06365.mp3",
+"zh": "棕榈油",
+"zhPath": "zh/07138.mp3"
+},
+{
+"es": "aceite de oliva",
+"esPath": "es/06366.mp3",
+"zh": "橄榄油",
+"zhPath": "zh/07139.mp3"
+},
+{
+"es": "aceite de sésamo",
+"esPath": "es/06367.mp3",
+"zh": "香油",
+"zhPath": "zh/07140.mp3"
+},
+{
+"es": "aceite de nuez",
+"esPath": "es/06368.mp3",
+"zh": "核桃油",
+"zhPath": "zh/07141.mp3"
+},
+{
+"es": "aceite mezclado",
+"esPath": "es/06369.mp3",
+"zh": "调和油",
+"zhPath": "zh/07142.mp3"
+},
+{
+"es": "aceite desechado",
+"esPath": "es/06370.mp3",
+"zh": "地沟油",
+"zhPath": "zh/07143.mp3"
+},
+{
+"es": "aceite sucio",
+"esPath": "es/06371.mp3",
+"zh": "污油",
+"zhPath": "zh/07144.mp3"
+},
+{
+"es": "olor agradable",
+"esPath": "es/06372.mp3",
+"zh": "香味",
+"zhPath": "zh/07145.mp3"
+},
+{
+"es": "polvo de chile",
+"esPath": "es/06373.mp3",
+"zh": "辣椒粉",
+"zhPath": "zh/07146.mp3"
+},
+{
+"es": "salsa de soja",
+"esPath": "es/06374.mp3",
+"zh": "酱油",
+"zhPath": "zh/07147.mp3"
+},
+{
+"es": "vino de cocinar",
+"esPath": "es/06375.mp3",
+"zh": "料酒",
+"zhPath": "zh/07148.mp3"
+},
+{
+"es": "nuez moscada",
+"esPath": "es/06376.mp3",
+"zh": "肉豆蔻",
+"zhPath": "zh/07149.mp3"
+},
+{
+"es": "pimienta negra",
+"esPath": "es/06377.mp3",
+"zh": "黑椒",
+"zhPath": "zh/07150.mp3"
+},
+{
+"es": "vino tinto",
+"esPath": "es/06378.mp3",
+"zh": "红葡萄酒",
+"zhPath": "zh/07151.mp3"
+},
+{
+"es": "vino blanco",
+"esPath": "es/06379.mp3",
+"zh": "白葡萄酒",
+"zhPath": "zh/07152.mp3"
+},
+{
+"es": "coktail/cóctel",
+"esPath": "es/06380.mp3",
+"zh": "鸡尾酒",
+"zhPath": "zh/07153.mp3"
+},
+{
+"es": "vino rosado",
+"esPath": "es/06381.mp3",
+"zh": "玫瑰红葡萄酒",
+"zhPath": "zh/07154.mp3"
+},
+{
+"es": "vino seco",
+"esPath": "es/06382.mp3",
+"zh": "干葡萄酒",
+"zhPath": "zh/07155.mp3"
+},
+{
+"es": "vino medio seco",
+"esPath": "es/06383.mp3",
+"zh": "半干葡萄酒",
+"zhPath": "zh/07156.mp3"
+},
+{
+"es": "vino dulce",
+"esPath": "es/06384.mp3",
+"zh": "甜葡萄酒",
+"zhPath": "zh/07157.mp3"
+},
+{
+"es": "vino prima",
+"esPath": "es/06385.mp3",
+"zh": "天然葡萄酒",
+"zhPath": "zh/07158.mp3"
+},
+{
+"es": "vino con especias",
+"esPath": "es/06386.mp3",
+"zh": "加香葡萄酒",
+"zhPath": "zh/07159.mp3"
+},
+{
+"es": "vino espu-moso",
+"esPath": "es/06387.mp3",
+"zh": "起泡葡萄酒",
+"zhPath": "zh/07160.mp3"
+},
+{
+"es": "helado de vainilla",
+"esPath": "es/06388.mp3",
+"zh": "香草冰激凌",
+"zhPath": "zh/07161.mp3"
+},
+{
+"es": "agua helada",
+"esPath": "es/06389.mp3",
+"zh": "冰水",
+"zhPath": "zh/07162.mp3"
+},
+{
+"es": "zumo de naranja",
+"esPath": "es/06390.mp3",
+"zh": "橙汁",
+"zhPath": "zh/07163.mp3"
+},
+{
+"es": "coca cola",
+"esPath": "es/06391.mp3",
+"zh": "可乐",
+"zhPath": "zh/07164.mp3"
+},
+{
+"es": "bebida carbonatada",
+"esPath": "es/06392.mp3",
+"zh": "充气饮料",
+"zhPath": "zh/07165.mp3"
+},
+{
+"es": "agua mineral",
+"esPath": "es/06393.mp3",
+"zh": "矿泉水",
+"zhPath": "zh/07166.mp3"
+},
+{
+"es": "té verde",
+"esPath": "es/06394.mp3",
+"zh": "绿茶",
+"zhPath": "zh/07167.mp3"
+},
+{
+"es": "té rojo",
+"esPath": "es/06395.mp3",
+"zh": "红茶",
+"zhPath": "zh/07168.mp3"
+},
+{
+"es": "té de jazmín",
+"esPath": "es/06396.mp3",
+"zh": "茉莉花茶",
+"zhPath": "zh/07169.mp3"
+},
+{
+"es": "té oolong",
+"esPath": "es/06397.mp3",
+"zh": "乌龙茶",
+"zhPath": "zh/07170.mp3"
+},
+{
+"es": "olor agradable",
+"esPath": "es/06398.mp3",
+"zh": "香味",
+"zhPath": "zh/07171.mp3"
+},
+{
+"es": "agua potable",
+"esPath": "es/06399.mp3",
+"zh": "饮用水",
+"zhPath": "zh/07172.mp3"
+},
+{
+"es": "agua hervida",
+"esPath": "es/06400.mp3",
+"zh": "白开水",
+"zhPath": "zh/07173.mp3"
+},
+{
+"es": "agua caliente",
+"esPath": "es/06401.mp3",
+"zh": "热水",
+"zhPath": "zh/07174.mp3"
+},
+{
+"es": "agua fría",
+"esPath": "es/06402.mp3",
+"zh": "冷水",
+"zhPath": "zh/07175.mp3"
+},
+{
+"es": "jarra de cristal",
+"esPath": "es/06403.mp3",
+"zh": "玻璃杯",
+"zhPath": "zh/07176.mp3"
+},
+{
+"es": "bebida carbonatada",
+"esPath": "es/06404.mp3",
+"zh": "碳酸饮料",
+"zhPath": "zh/07177.mp3"
+},
+{
+"es": "dióxido de carbono",
+"esPath": "es/06405.mp3",
+"zh": "二氧化碳",
+"zhPath": "zh/07178.mp3"
+},
+{
+"es": "cerveza en lata",
+"esPath": "es/06406.mp3",
+"zh": "瓶装啤酒",
+"zhPath": "zh/07179.mp3"
+},
+{
+"es": "vino",
+"esPath": "es/06407.mp3",
+"zh": "酒； 葡萄酒； 果酒",
+"zhPath": "zh/07180.mp3"
+},
+{
+"es": "grano de café",
+"esPath": "es/06408.mp3",
+"zh": "咖啡豆",
+"zhPath": "zh/07181.mp3"
+},
+{
+"es": "juego de café",
+"esPath": "es/06409.mp3",
+"zh": "咖啡器具",
+"zhPath": "zh/07182.mp3"
+},
+{
+"es": "cuchara de café",
+"esPath": "es/06410.mp3",
+"zh": "咖啡匙",
+"zhPath": "zh/07183.mp3"
+},
+{
+"es": "amoladora de café",
+"esPath": "es/06411.mp3",
+"zh": "咖啡磨",
+"zhPath": "zh/07184.mp3"
+},
+{
+"es": "pasar",
+"esPath": "es/06412.mp3",
+"zh": "走过，驶过；经过",
+"zhPath": "zh/07185.mp3"
+},
+{
+"es": "café helado",
+"esPath": "es/06413.mp3",
+"zh": "冰咖啡",
+"zhPath": "zh/07186.mp3"
+},
+{
+"es": "latté",
+"esPath": "es/06414.mp3",
+"zh": "拿铁",
+"zhPath": "zh/07187.mp3"
+},
+{
+"es": "café descafeinado",
+"esPath": "es/06415.mp3",
+"zh": "脱脂咖啡",
+"zhPath": "zh/07188.mp3"
+},
+{
+"es": "café negro",
+"esPath": "es/06416.mp3",
+"zh": "黑咖啡",
+"zhPath": "zh/07189.mp3"
+},
+{
+"es": "café con leche",
+"esPath": "es/06417.mp3",
+"zh": "牛奶咖啡",
+"zhPath": "zh/07190.mp3"
+},
+{
+"es": "café instantáneo",
+"esPath": "es/06418.mp3",
+"zh": "速溶咖啡",
+"zhPath": "zh/07191.mp3"
+},
+{
+"es": "vasar",
+"esPath": "es/06419.mp3",
+"zh": "餐具架",
+"zhPath": "zh/07192.mp3"
+},
+{
+"es": "acero inoxidable",
+"esPath": "es/06420.mp3",
+"zh": "不锈钢",
+"zhPath": "zh/07193.mp3"
+},
+{
+"es": "comportamiento",
+"esPath": "es/06421.mp3",
+"zh": "行为，举止",
+"zhPath": "zh/07194.mp3"
+},
+{
+"es": "Mi cabeza está completa-mente llena de los exámenes. 我脑袋里满满的，装的全是考试。",
+"esPath": "es/06422.mp3",
+"zh": "Mi cabeza está completa-mente llena de los exámenes. 我脑袋里满满的，装的全是考试。",
+"zhPath": "zh/07195.mp3"
+},
+{
+"es": "taza de cristal",
+"esPath": "es/06423.mp3",
+"zh": "玻璃马克杯",
+"zhPath": "zh/07196.mp3"
+},
+{
+"es": "taza de café",
+"esPath": "es/06424.mp3",
+"zh": "咖啡杯",
+"zhPath": "zh/07197.mp3"
+},
+{
+"es": "jarra de cerveza",
+"esPath": "es/06425.mp3",
+"zh": "啤酒杯",
+"zhPath": "zh/07198.mp3"
+},
+{
+"es": "jarra de cristal",
+"esPath": "es/06426.mp3",
+"zh": "玻璃杯",
+"zhPath": "zh/07199.mp3"
+},
+{
+"es": "estera pequeña",
+"esPath": "es/06427.mp3",
+"zh": "小垫子",
+"zhPath": "zh/07200.mp3"
+},
+{
+"es": "botella de deporte",
+"esPath": "es/06428.mp3",
+"zh": "运动水壶",
+"zhPath": "zh/07201.mp3"
+},
+{
+"es": "fruto seco",
+"esPath": "es/06429.mp3",
+"zh": "坚果",
+"zhPath": "zh/07202.mp3"
+},
+{
+"es": "una pequeña cantidad",
+"esPath": "es/06430.mp3",
+"zh": "少量",
+"zhPath": "zh/07203.mp3"
+},
+{
+"es": "contener nueces",
+"esPath": "es/06431.mp3",
+"zh": "含果仁的",
+"zhPath": "zh/07204.mp3"
+},
+{
+"es": "pasas de uva",
+"esPath": "es/06432.mp3",
+"zh": "葡萄干",
+"zhPath": "zh/07205.mp3"
+},
+{
+"es": "semilla de girasol",
+"esPath": "es/06433.mp3",
+"zh": "葵花籽",
+"zhPath": "zh/07206.mp3"
+},
+{
+"es": "palomitas de maíz",
+"esPath": "es/06434.mp3",
+"zh": "爆米花",
+"zhPath": "zh/07207.mp3"
+},
+{
+"es": "caramelo relleno",
+"esPath": "es/06435.mp3",
+"zh": "夹心糖",
+"zhPath": "zh/07208.mp3"
+},
+{
+"es": "galleta comprimida",
+"esPath": "es/06436.mp3",
+"zh": "压缩饼干",
+"zhPath": "zh/07209.mp3"
+},
+{
+"es": "galleta digestiva",
+"esPath": "es/06437.mp3",
+"zh": "消化饼干",
+"zhPath": "zh/07210.mp3"
+},
+{
+"es": "cookies",
+"esPath": "es/06438.mp3",
+"zh": "曲奇饼干",
+"zhPath": "zh/07211.mp3"
+},
+{
+"es": "caja de galletas",
+"esPath": "es/06439.mp3",
+"zh": "饼干盒",
+"zhPath": "zh/07212.mp3"
+},
+{
+"es": "gofres",
+"esPath": "es/06440.mp3",
+"zh": "华夫饼",
+"zhPath": "zh/07213.mp3"
+},
+{
+"es": "cracker",
+"esPath": "es/06441.mp3",
+"zh": "薄饼干",
+"zhPath": "zh/07214.mp3"
+},
+{
+"es": "bretzel",
+"esPath": "es/06442.mp3",
+"zh": "椒盐脆饼干",
+"zhPath": "zh/07215.mp3"
+},
+{
+"es": "pastelería",
+"esPath": "es/06443.mp3",
+"zh": "糕点，糕点制作法",
+"zhPath": "zh/07216.mp3"
+},
+{
+"es": "secar al aire",
+"esPath": "es/06444.mp3",
+"zh": "风干",
+"zhPath": "zh/07217.mp3"
+},
+{
+"es": "aditivo alimentario",
+"esPath": "es/06445.mp3",
+"zh": "食品添加剂",
+"zhPath": "zh/07218.mp3"
+},
+{
+"es": "ácido vanílico",
+"esPath": "es/06446.mp3",
+"zh": "香草酸",
+"zhPath": "zh/07219.mp3"
+},
+{
+"es": "osmótico",
+"esPath": "es/06447.mp3",
+"zh": "渗透的，渗透作用的",
+"zhPath": "zh/07220.mp3"
+}
+]
+}
