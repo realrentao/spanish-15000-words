@@ -1559,6 +1559,468 @@
 "esPath": "es/06447.mp3",
 "zh": "渗透的，渗透作用的",
 "zhPath": "zh/07220.mp3"
+},
+{
+"es": "cajón de sastre",
+"esPath": "es/06448.mp3",
+"zh": "储藏室",
+"zhPath": "zh/07221.mp3"
+},
+{
+"es": "sala de entrada",
+"esPath": "es/06449.mp3",
+"zh": "门厅",
+"zhPath": "zh/07222.mp3"
+},
+{
+"es": "apoyo",
+"esPath": "es/06450.mp3",
+"zh": "扶手",
+"zhPath": "zh/07223.mp3"
+},
+{
+"es": "balaustrada",
+"esPath": "es/06451.mp3",
+"zh": "栏杆",
+"zhPath": "zh/07224.mp3"
+},
+{
+"es": "funcionamiento defectuoso",
+"esPath": "es/06452.mp3",
+"zh": "故障",
+"zhPath": "zh/07225.mp3"
+},
+{
+"es": "ventilación",
+"esPath": "es/06453.mp3",
+"zh": "通风口",
+"zhPath": "zh/07226.mp3"
+},
+{
+"es": "abajo",
+"esPath": "es/06454.mp3",
+"zh": "在底下，在下面",
+"zhPath": "zh/07227.mp3"
+},
+{
+"es": "puerta frontal",
+"esPath": "es/06455.mp3",
+"zh": "前门",
+"zhPath": "zh/07228.mp3"
+},
+{
+"es": "puerta trasera",
+"esPath": "es/06456.mp3",
+"zh": "后门",
+"zhPath": "zh/07229.mp3"
+},
+{
+"es": "puerta automática",
+"esPath": "es/06457.mp3",
+"zh": "自动门",
+"zhPath": "zh/07230.mp3"
+},
+{
+"es": "fuera",
+"esPath": "es/06458.mp3",
+"zh": "（在）外面",
+"zhPath": "zh/07231.mp3"
+},
+{
+"es": "La graduación es como una ventana vidrio, y la aplastamos, y luego limpiamos los últimos fragmentos agudos con sangre para empezar una vida completamente diferente.",
+"esPath": "es/06459.mp3",
+"zh": "毕业就像一扇窗玻璃，我们要撞碎它，然后擦着锋利的碎片走过去，血肉模糊后开始一个完全不同的人生。",
+"zhPath": "zh/07232.mp3"
+},
+{
+"es": "sofá cama",
+"esPath": "es/06460.mp3",
+"zh": "沙发床",
+"zhPath": "zh/07233.mp3"
+},
+{
+"es": "mesa de centro",
+"esPath": "es/06461.mp3",
+"zh": "茶几",
+"zhPath": "zh/07234.mp3"
+},
+{
+"es": "sentarse",
+"esPath": "es/06462.mp3",
+"zh": "坐下",
+"zhPath": "zh/07235.mp3"
+},
+{
+"es": "cama simple",
+"esPath": "es/06463.mp3",
+"zh": "单人床",
+"zhPath": "zh/07236.mp3"
+},
+{
+"es": "cama doble",
+"esPath": "es/06464.mp3",
+"zh": "双人床",
+"zhPath": "zh/07237.mp3"
+},
+{
+"es": "suite",
+"esPath": "es/06465.mp3",
+"zh": "一套家具",
+"zhPath": "zh/07238.mp3"
+},
+{
+"es": "funda de almohada",
+"esPath": "es/06466.mp3",
+"zh": "枕套",
+"zhPath": "zh/07239.mp3"
+},
+{
+"es": "ropa de cama",
+"esPath": "es/06467.mp3",
+"zh": "被褥",
+"zhPath": "zh/07240.mp3"
+},
+{
+"es": "lápiz de labios",
+"esPath": "es/06468.mp3",
+"zh": "口红",
+"zhPath": "zh/07241.mp3"
+},
+{
+"es": "peine de pelo",
+"esPath": "es/06469.mp3",
+"zh": "梳子",
+"zhPath": "zh/07242.mp3"
+},
+{
+"es": "secador",
+"esPath": "es/06470.mp3",
+"zh": "吹风机",
+"zhPath": "zh/07243.mp3"
+},
+{
+"es": "soplo de polvo",
+"esPath": "es/06471.mp3",
+"zh": "粉扑",
+"zhPath": "zh/07244.mp3"
+},
+{
+"es": "contorno de ojos",
+"esPath": "es/06472.mp3",
+"zh": "眼线笔",
+"zhPath": "zh/07245.mp3"
+},
+{
+"es": "crema limpiadora",
+"esPath": "es/06473.mp3",
+"zh": "洗面奶",
+"zhPath": "zh/07246.mp3"
+},
+{
+"es": "salir",
+"esPath": "es/06474.mp3",
+"zh": "出发",
+"zhPath": "zh/07247.mp3"
+},
+{
+"es": "punta de pincel",
+"esPath": "es/06475.mp3",
+"zh": "笔筒",
+"zhPath": "zh/07248.mp3"
+},
+{
+"es": "silla giratoria",
+"esPath": "es/06476.mp3",
+"zh": "转椅",
+"zhPath": "zh/07249.mp3"
+},
+{
+"es": "sartén de hervir",
+"esPath": "es/06477.mp3",
+"zh": "煮锅",
+"zhPath": "zh/07250.mp3"
+},
+{
+"es": "olla a presión",
+"esPath": "es/06478.mp3",
+"zh": "压力锅",
+"zhPath": "zh/07251.mp3"
+},
+{
+"es": "hervidor de agua",
+"esPath": "es/06479.mp3",
+"zh": "水壶",
+"zhPath": "zh/07252.mp3"
+},
+{
+"es": "estufa de camping",
+"esPath": "es/06480.mp3",
+"zh": "炉子",
+"zhPath": "zh/07253.mp3"
+},
+{
+"es": "cuarto de baño",
+"esPath": "es/06481.mp3",
+"zh": "浴室",
+"zhPath": "zh/07254.mp3"
+},
+{
+"es": "bidé",
+"esPath": "es/06482.mp3",
+"zh": "浴缸",
+"zhPath": "zh/07255.mp3"
+},
+{
+"es": "gorro de baño",
+"esPath": "es/06483.mp3",
+"zh": "浴帽",
+"zhPath": "zh/07256.mp3"
+},
+{
+"es": "acondicionador",
+"esPath": "es/06484.mp3",
+"zh": "护发素",
+"zhPath": "zh/07257.mp3"
+},
+{
+"es": "toalla de baño",
+"esPath": "es/06485.mp3",
+"zh": "浴巾",
+"zhPath": "zh/07258.mp3"
+},
+{
+"es": "pasta de dientes",
+"esPath": "es/06486.mp3",
+"zh": "牙膏",
+"zhPath": "zh/07259.mp3"
+},
+{
+"es": "cepillo de dientes",
+"esPath": "es/06487.mp3",
+"zh": "牙刷",
+"zhPath": "zh/07260.mp3"
+},
+{
+"es": "calentador de agua",
+"esPath": "es/06488.mp3",
+"zh": "热水器",
+"zhPath": "zh/07261.mp3"
+},
+{
+"es": "cortina de ducha",
+"esPath": "es/06489.mp3",
+"zh": "浴帘",
+"zhPath": "zh/07262.mp3"
+},
+{
+"es": "gel de baño",
+"esPath": "es/06490.mp3",
+"zh": "沐浴乳",
+"zhPath": "zh/07263.mp3"
+},
+{
+"es": "sal de baño",
+"esPath": "es/06491.mp3",
+"zh": "浴盐",
+"zhPath": "zh/07264.mp3"
+},
+{
+"es": "plancha de ropa",
+"esPath": "es/06492.mp3",
+"zh": "搓板",
+"zhPath": "zh/07265.mp3"
+},
+{
+"es": "hierro electrónico",
+"esPath": "es/06493.mp3",
+"zh": "电熨斗",
+"zhPath": "zh/07266.mp3"
+},
+{
+"es": "planchar la ropa",
+"esPath": "es/06494.mp3",
+"zh": "熨衣服",
+"zhPath": "zh/07267.mp3"
+},
+{
+"es": "baúl de viaje",
+"esPath": "es/06495.mp3",
+"zh": "旅行箱",
+"zhPath": "zh/07268.mp3"
+},
+{
+"es": "tipo de cambio",
+"esPath": "es/06496.mp3",
+"zh": "比率",
+"zhPath": "zh/07269.mp3"
+},
+{
+"es": "vista",
+"esPath": "es/06497.mp3",
+"zh": "视野",
+"zhPath": "zh/07270.mp3"
+},
+{
+"es": "mirar hacia la parte inferior",
+"esPath": "es/06498.mp3",
+"zh": "俯瞰",
+"zhPath": "zh/07271.mp3"
+},
+{
+"es": "entre",
+"esPath": "es/06499.mp3",
+"zh": "在……之间",
+"zhPath": "zh/07272.mp3"
+},
+{
+"es": "patio trasero",
+"esPath": "es/06500.mp3",
+"zh": "后院",
+"zhPath": "zh/07273.mp3"
+},
+{
+"es": "cortar el césped",
+"esPath": "es/06501.mp3",
+"zh": "割草",
+"zhPath": "zh/07274.mp3"
+},
+{
+"es": "puerta de garaje",
+"esPath": "es/06502.mp3",
+"zh": "车库门",
+"zhPath": "zh/07275.mp3"
+},
+{
+"es": "plazo del arrendamiento",
+"esPath": "es/06503.mp3",
+"zh": "租赁期",
+"zhPath": "zh/07276.mp3"
+},
+{
+"es": "habitación en arrendamiento",
+"esPath": "es/06504.mp3",
+"zh": "出租的房屋",
+"zhPath": "zh/07277.mp3"
+},
+{
+"es": "cumple",
+"esPath": "es/06505.mp3",
+"zh": "到期",
+"zhPath": "zh/07278.mp3"
+},
+{
+"es": "mudarse",
+"esPath": "es/06506.mp3",
+"zh": "搬家",
+"zhPath": "zh/07279.mp3"
+},
+{
+"es": "obrero de mudanzas",
+"esPath": "es/06507.mp3",
+"zh": "搬家工人",
+"zhPath": "zh/07280.mp3"
+},
+{
+"es": "decorar",
+"esPath": "es/06508.mp3",
+"zh": "装修",
+"zhPath": "zh/07281.mp3"
+},
+{
+"es": "obrero",
+"esPath": "es/06509.mp3",
+"zh": "建筑工",
+"zhPath": "zh/07282.mp3"
+},
+{
+"es": "papel a la pared",
+"esPath": "es/06510.mp3",
+"zh": "壁纸",
+"zhPath": "zh/07283.mp3"
+},
+{
+"es": "hacer una nueva mirada",
+"esPath": "es/06511.mp3",
+"zh": "使焕然一新",
+"zhPath": "zh/07284.mp3"
+},
+{
+"es": "estropear",
+"esPath": "es/06512.mp3",
+"zh": "损坏，弄破（衣物、家具等）",
+"zhPath": "zh/07285.mp3"
+},
+{
+"es": "pago parcial",
+"esPath": "es/06513.mp3",
+"zh": "部分付款",
+"zhPath": "zh/07286.mp3"
+},
+{
+"es": "pago a plazo",
+"esPath": "es/06514.mp3",
+"zh": "分期付款",
+"zhPath": "zh/07287.mp3"
+},
+{
+"es": "asiento reservado",
+"esPath": "es/06515.mp3",
+"zh": "预定座位",
+"zhPath": "zh/07288.mp3"
+},
+{
+"es": "habitación estándar",
+"esPath": "es/06516.mp3",
+"zh": "标准间",
+"zhPath": "zh/07289.mp3"
+},
+{
+"es": "de dos camas",
+"esPath": "es/06517.mp3",
+"zh": "双床的",
+"zhPath": "zh/07290.mp3"
+},
+{
+"es": "suite presidencial",
+"esPath": "es/06518.mp3",
+"zh": "总统套间",
+"zhPath": "zh/07291.mp3"
+},
+{
+"es": "mesa de inscripción",
+"esPath": "es/06519.mp3",
+"zh": "登记台",
+"zhPath": "zh/07292.mp3"
+},
+{
+"es": "tarjeta de identidad",
+"esPath": "es/06520.mp3",
+"zh": "身份证",
+"zhPath": "zh/07293.mp3"
+},
+{
+"es": "servicio de habitaciones",
+"esPath": "es/06521.mp3",
+"zh": "客房服务",
+"zhPath": "zh/07294.mp3"
+},
+{
+"es": "emitir un leve sonido",
+"esPath": "es/06522.mp3",
+"zh": "发出轻微尖声",
+"zhPath": "zh/07295.mp3"
+},
+{
+"es": "de paso",
+"esPath": "es/06523.mp3",
+"zh": "顺路",
+"zhPath": "zh/07296.mp3"
+},
+{
+"es": "DNI",
+"esPath": "es/06524.mp3",
+"zh": "身份证（西班牙）",
+"zhPath": "zh/07297.mp3"
 }
 ]
 }
