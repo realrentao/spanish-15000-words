@@ -3029,6 +3029,378 @@
 "esPath": "es/06692.mp3",
 "zh": "当……时候，在……情况下",
 "zhPath": "zh/07465.mp3"
+},
+{
+"es": "ala de nariz",
+"esPath": "es/06693.mp3",
+"zh": "鼻翼",
+"zhPath": "zh/07466.mp3"
+},
+{
+"es": "puente de la nariz",
+"esPath": "es/06694.mp3",
+"zh": "鼻梁",
+"zhPath": "zh/07467.mp3"
+},
+{
+"es": "nariz aguileña",
+"esPath": "es/06695.mp3",
+"zh": "鹰钩鼻",
+"zhPath": "zh/07468.mp3"
+},
+{
+"es": "nariz colapso",
+"esPath": "es/06696.mp3",
+"zh": "塌鼻",
+"zhPath": "zh/07469.mp3"
+},
+{
+"es": "los dientes incisivos",
+"esPath": "es/06697.mp3",
+"zh": "门牙",
+"zhPath": "zh/07470.mp3"
+},
+{
+"es": "lóbulo de la oreja",
+"esPath": "es/06698.mp3",
+"zh": "耳垂",
+"zhPath": "zh/07471.mp3"
+},
+{
+"es": "mandíbula",
+"esPath": "es/06699.mp3",
+"zh": "颌",
+"zhPath": "zh/07472.mp3"
+},
+{
+"es": "dedo medio",
+"esPath": "es/06700.mp3",
+"zh": "中指",
+"zhPath": "zh/07473.mp3"
+},
+{
+"es": "dedo anular",
+"esPath": "es/06701.mp3",
+"zh": "无名指",
+"zhPath": "zh/07474.mp3"
+},
+{
+"es": "dedo del pie",
+"esPath": "es/06702.mp3",
+"zh": "脚趾",
+"zhPath": "zh/07475.mp3"
+},
+{
+"es": "Si yo fuera un salvaje, pondría su dedo amputado",
+"esPath": "es/06703.mp3",
+"zh": "如果我是一个野人，我早把他的手指切下来了。",
+"zhPath": "zh/07476.mp3"
+},
+{
+"es": "vértebra",
+"esPath": "es/06704.mp3",
+"zh": "脊椎",
+"zhPath": "zh/07477.mp3"
+},
+{
+"es": "músculo abdominal",
+"esPath": "es/06705.mp3",
+"zh": "腹肌",
+"zhPath": "zh/07478.mp3"
+},
+{
+"es": "pantalón",
+"esPath": "es/06706.mp3",
+"zh": "裤子，长裤",
+"zhPath": "zh/07479.mp3"
+},
+{
+"es": "cavidad torácica",
+"esPath": "es/06707.mp3",
+"zh": "胸腔",
+"zhPath": "zh/07480.mp3"
+},
+{
+"es": "vesícula biliar",
+"esPath": "es/06708.mp3",
+"zh": "胆",
+"zhPath": "zh/07481.mp3"
+},
+{
+"es": "intestino grueso",
+"esPath": "es/06709.mp3",
+"zh": "大肠",
+"zhPath": "zh/07482.mp3"
+},
+{
+"es": "intestino delgado",
+"esPath": "es/06710.mp3",
+"zh": "小肠",
+"zhPath": "zh/07483.mp3"
+},
+{
+"es": "recuperar sus fuerzas",
+"esPath": "es/06711.mp3",
+"zh": "恢复体力",
+"zhPath": "zh/07484.mp3"
+},
+{
+"es": "incómodo",
+"esPath": "es/06712.mp3",
+"zh": "不舒服的",
+"zhPath": "zh/07485.mp3"
+},
+{
+"es": "presión arterial",
+"esPath": "es/06713.mp3",
+"zh": "血压",
+"zhPath": "zh/07486.mp3"
+},
+{
+"es": "mesa de registro",
+"esPath": "es/06714.mp3",
+"zh": "挂号处",
+"zhPath": "zh/07487.mp3"
+},
+{
+"es": "medicina general",
+"esPath": "es/06715.mp3",
+"zh": "内科",
+"zhPath": "zh/07488.mp3"
+},
+{
+"es": "médico general",
+"esPath": "es/06716.mp3",
+"zh": "内科医生",
+"zhPath": "zh/07489.mp3"
+},
+{
+"es": "oído, nariz y garganta",
+"esPath": "es/06717.mp3",
+"zh": "耳鼻喉科",
+"zhPath": "zh/07490.mp3"
+},
+{
+"es": "cardiología",
+"esPath": "es/06718.mp3",
+"zh": "心脏病科",
+"zhPath": "zh/07491.mp3"
+},
+{
+"es": "sala de espera",
+"esPath": "es/06719.mp3",
+"zh": "候诊室",
+"zhPath": "zh/07492.mp3"
+},
+{
+"es": "análisis químico",
+"esPath": "es/06720.mp3",
+"zh": "化验",
+"zhPath": "zh/07493.mp3"
+},
+{
+"es": "prueba de sangre",
+"esPath": "es/06721.mp3",
+"zh": "验血",
+"zhPath": "zh/07494.mp3"
+},
+{
+"es": "grupo sanguíneo",
+"esPath": "es/06722.mp3",
+"zh": "血型",
+"zhPath": "zh/07495.mp3"
+},
+{
+"es": "glóbulo rojo",
+"esPath": "es/06723.mp3",
+"zh": "红细胞",
+"zhPath": "zh/07496.mp3"
+},
+{
+"es": "valor total",
+"esPath": "es/06724.mp3",
+"zh": "总值",
+"zhPath": "zh/07497.mp3"
+},
+{
+"es": "fluoroscopia",
+"esPath": "es/06725.mp3",
+"zh": "X光检查",
+"zhPath": "zh/07498.mp3"
+},
+{
+"es": "mejoramiento",
+"esPath": "es/06726.mp3",
+"zh": "改善，改进",
+"zhPath": "zh/07499.mp3"
+},
+{
+"es": "fiebre grave",
+"esPath": "es/06727.mp3",
+"zh": "高烧",
+"zhPath": "zh/07500.mp3"
+},
+{
+"es": "un poco",
+"esPath": "es/06728.mp3",
+"zh": "稍稍",
+"zhPath": "zh/07501.mp3"
+},
+{
+"es": "El número de personas infectadas por el virus ha disparado en los últimos días, y la gripe porcina sigue siendo un asunto que llama mucha atención",
+"esPath": "es/06729.mp3",
+"zh": "近日，随着感染的人数越来越多，甲流始终是人们关注的话题。",
+"zhPath": "zh/07502.mp3"
+},
+{
+"es": "dolor de cabeza",
+"esPath": "es/06730.mp3",
+"zh": "头疼",
+"zhPath": "zh/07503.mp3"
+},
+{
+"es": "dolor de espalda",
+"esPath": "es/06731.mp3",
+"zh": "背疼",
+"zhPath": "zh/07504.mp3"
+},
+{
+"es": "dolor de dientes",
+"esPath": "es/06732.mp3",
+"zh": "牙疼",
+"zhPath": "zh/07505.mp3"
+},
+{
+"es": "dolor palpitante",
+"esPath": "es/06733.mp3",
+"zh": "刺痛",
+"zhPath": "zh/07506.mp3"
+},
+{
+"es": "herida",
+"esPath": "es/06734.mp3",
+"zh": "伤口",
+"zhPath": "zh/07507.mp3"
+},
+{
+"es": "parálisis infantil",
+"esPath": "es/06735.mp3",
+"zh": "小儿麻痹症",
+"zhPath": "zh/07508.mp3"
+},
+{
+"es": "angina de pecho",
+"esPath": "es/06736.mp3",
+"zh": "心绞痛",
+"zhPath": "zh/07509.mp3"
+},
+{
+"es": "tuberculosis pulmonar",
+"esPath": "es/06737.mp3",
+"zh": "肺结核",
+"zhPath": "zh/07510.mp3"
+},
+{
+"es": "enfermedad del corazón",
+"esPath": "es/06738.mp3",
+"zh": "心脏病",
+"zhPath": "zh/07511.mp3"
+},
+{
+"es": "de trasplantes",
+"esPath": "es/06739.mp3",
+"zh": "移植",
+"zhPath": "zh/07512.mp3"
+},
+{
+"es": "tablet de variedad visual",
+"esPath": "es/06740.mp3",
+"zh": "视力表",
+"zhPath": "zh/07513.mp3"
+},
+{
+"es": "presbicia",
+"esPath": "es/06741.mp3",
+"zh": "远视",
+"zhPath": "zh/07514.mp3"
+},
+{
+"es": "la inflamación",
+"esPath": "es/06742.mp3",
+"zh": "发炎",
+"zhPath": "zh/07515.mp3"
+},
+{
+"es": "La gente siempre saben apreciar después de perder",
+"esPath": "es/06743.mp3",
+"zh": "人总是在失去之后才知道珍惜。",
+"zhPath": "zh/07516.mp3"
+},
+{
+"es": "ingresar en el hospital",
+"esPath": "es/06744.mp3",
+"zh": "送入医院",
+"zhPath": "zh/07517.mp3"
+},
+{
+"es": "admitir a un paciente al hospital",
+"esPath": "es/06745.mp3",
+"zh": "接收入院",
+"zhPath": "zh/07518.mp3"
+},
+{
+"es": "salir del hospital",
+"esPath": "es/06746.mp3",
+"zh": "出院",
+"zhPath": "zh/07519.mp3"
+},
+{
+"es": "gastos médicos",
+"esPath": "es/06747.mp3",
+"zh": "医药费",
+"zhPath": "zh/07520.mp3"
+},
+{
+"es": "preocuparse",
+"esPath": "es/06748.mp3",
+"zh": "关心",
+"zhPath": "zh/07521.mp3"
+},
+{
+"es": "condición de la salud",
+"esPath": "es/06749.mp3",
+"zh": "健康状况",
+"zhPath": "zh/07522.mp3"
+},
+{
+"es": "cuarto del enfermo",
+"esPath": "es/06750.mp3",
+"zh": "病房",
+"zhPath": "zh/07523.mp3"
+},
+{
+"es": "tener una operación",
+"esPath": "es/06751.mp3",
+"zh": "动手术",
+"zhPath": "zh/07524.mp3"
+},
+{
+"es": "mesa de operaciones",
+"esPath": "es/06752.mp3",
+"zh": "手术台",
+"zhPath": "zh/07525.mp3"
+},
+{
+"es": "bata quirúrgica",
+"esPath": "es/06753.mp3",
+"zh": "手术衣",
+"zhPath": "zh/07526.mp3"
+},
+{
+"es": "tratamiento quirúrgico",
+"esPath": "es/06754.mp3",
+"zh": "手术疗法",
+"zhPath": "zh/07527.mp3"
 }
 ]
 }
