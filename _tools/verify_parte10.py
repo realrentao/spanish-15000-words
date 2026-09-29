@@ -38,7 +38,8 @@ def load_sec(path):
 OCR = ["ba.o","se.al","ca.a","u.a","construción","vidria","da.o","esplio","carmino",
        "izquerida","contigente","ferrocaril","alma-cenes","empe.o","mas-cotas","jo-yer",
        "vebde","tra-baja","se.ora","es-pecial","desmesu-","clara-","trans-porte",
-       "incre-mento","co-mestibles","su-bida","mer-canc","es-trella","importante.Tú"]
+       "incre-mento","co-mestibles","su-bida","mer-canc","es-trella","importante.Tú",
+       "mercantes","comisión de comercio"]
 
 ok=True
 o=load_sec(os.path.join(BASE,"data/sec/%d.js"%GID))
