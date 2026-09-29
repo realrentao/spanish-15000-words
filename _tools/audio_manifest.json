@@ -83359,10 +83359,34 @@
 "zhPath": "es/02120.mp3"
 },
 {
+"es": "actividades bancarias",
+"esPath": "es/06773.mp3",
+"zh": "银行业务",
+"zhPath": "zh/07546.mp3"
+},
+{
+"es": "银行业务",
+"esPath": "zh/07546.mp3",
+"zh": "actividades bancarias",
+"zhPath": "es/06773.mp3"
+},
+{
 "es": "账户",
 "esPath": "zh/02265.mp3",
 "zh": "cuenta",
 "zhPath": "es/02122.mp3"
+},
+{
+"es": "número de cuenta",
+"esPath": "es/06774.mp3",
+"zh": "账号",
+"zhPath": "zh/07547.mp3"
+},
+{
+"es": "账号",
+"esPath": "zh/07547.mp3",
+"zh": "número de cuenta",
+"zhPath": "es/06774.mp3"
 },
 {
 "es": "banquero",
@@ -83377,10 +83401,82 @@
 "zhPath": "es/02123.mp3"
 },
 {
+"es": "abrir una cuenta",
+"esPath": "es/06775.mp3",
+"zh": "开户",
+"zhPath": "zh/07548.mp3"
+},
+{
+"es": "开户",
+"esPath": "zh/07548.mp3",
+"zh": "abrir una cuenta",
+"zhPath": "es/06775.mp3"
+},
+{
+"es": "Banco Agrícola",
+"esPath": "es/06776.mp3",
+"zh": "农业银行",
+"zhPath": "zh/07549.mp3"
+},
+{
+"es": "农业银行",
+"esPath": "zh/07549.mp3",
+"zh": "Banco Agrícola",
+"zhPath": "es/06776.mp3"
+},
+{
 "es": "冻结",
 "esPath": "zh/02267.mp3",
 "zh": "congelar",
 "zhPath": "es/02124.mp3"
+},
+{
+"es": "Banco de Crédito Agrícola",
+"esPath": "es/06777.mp3",
+"zh": "农业信贷银行",
+"zhPath": "zh/07550.mp3"
+},
+{
+"es": "农业信贷银行",
+"esPath": "zh/07550.mp3",
+"zh": "Banco de Crédito Agrícola",
+"zhPath": "es/06777.mp3"
+},
+{
+"es": "Banco de China",
+"esPath": "es/06778.mp3",
+"zh": "中国银行",
+"zhPath": "zh/07551.mp3"
+},
+{
+"es": "中国银行",
+"esPath": "zh/07551.mp3",
+"zh": "Banco de China",
+"zhPath": "es/06778.mp3"
+},
+{
+"es": "Banco de Construcción de China",
+"esPath": "es/06779.mp3",
+"zh": "中国建设银行",
+"zhPath": "zh/07552.mp3"
+},
+{
+"es": "中国建设银行",
+"esPath": "zh/07552.mp3",
+"zh": "Banco de Construcción de China",
+"zhPath": "es/06779.mp3"
+},
+{
+"es": "Banco de Industria y Comercio de China",
+"esPath": "es/06780.mp3",
+"zh": "中国工商银行",
+"zhPath": "zh/07553.mp3"
+},
+{
+"es": "中国工商银行",
+"esPath": "zh/07553.mp3",
+"zh": "Banco de Industria y Comercio de China",
+"zhPath": "es/06780.mp3"
 },
 {
 "es": "regularmente",
@@ -83407,7 +83503,7 @@
 "zhPath": "es/02127.mp3"
 },
 {
-"es": "Casi todo el mundo utiliza los servicios del banco en diferentes formas, sobre todo las empresas.",
+"es": "Casi todo el mundo utiliza los servicios del banco en diferentes formas, sobre todo las empresas",
 "esPath": "es/02128.mp3",
 "zh": "几乎所有的人都以这样或那样的形式使用银行服务，尤其是那些企业。",
 "zhPath": "zh/02271.mp3"
@@ -83415,11 +83511,11 @@
 {
 "es": "几乎所有的人都以这样或那样的形式使用银行服务，尤其是那些企业。",
 "esPath": "zh/02271.mp3",
-"zh": "Casi todo el mundo utiliza los servicios del banco en diferentes formas, sobre todo las empresas.",
+"zh": "Casi todo el mundo utiliza los servicios del banco en diferentes formas, sobre todo las empresas",
 "zhPath": "es/02128.mp3"
 },
 {
-"es": "Mi hija estudia en el extranjero, y yo le pongo dinero regularmente a su cuenta. Si no, su cuenta sobregirará.",
+"es": "Mi hija estudia en el extranjero, y yo le pongo dinero regularmente a su cuenta. Si no, su cuenta sobregirará",
 "esPath": "es/02129.mp3",
 "zh": "我女儿在国外读书，我会定期把钱转到她的账户上，不然她的账户就会出现透支。",
 "zhPath": "zh/02272.mp3"
@@ -83427,11 +83523,11 @@
 {
 "es": "我女儿在国外读书，我会定期把钱转到她的账户上，不然她的账户就会出现透支。",
 "esPath": "zh/02272.mp3",
-"zh": "Mi hija estudia en el extranjero, y yo le pongo dinero regularmente a su cuenta. Si no, su cuenta sobregirará.",
+"zh": "Mi hija estudia en el extranjero, y yo le pongo dinero regularmente a su cuenta. Si no, su cuenta sobregirará",
 "zhPath": "es/02129.mp3"
 },
 {
-"es": "Fue la última vez que usé el banco en línea.",
+"es": "Fue la última vez que usé el banco en línea",
 "esPath": "es/02130.mp3",
 "zh": "那是我最后一次使用网上银行业务。",
 "zhPath": "zh/02273.mp3"
@@ -83439,8 +83535,68 @@
 {
 "es": "那是我最后一次使用网上银行业务。",
 "esPath": "zh/02273.mp3",
-"zh": "Fue la última vez que usé el banco en línea.",
+"zh": "Fue la última vez que usé el banco en línea",
 "zhPath": "es/02130.mp3"
+},
+{
+"es": "tarjeta bancaria",
+"esPath": "es/06781.mp3",
+"zh": "银行卡",
+"zhPath": "zh/07554.mp3"
+},
+{
+"es": "银行卡",
+"esPath": "zh/07554.mp3",
+"zh": "tarjeta bancaria",
+"zhPath": "es/06781.mp3"
+},
+{
+"es": "carta de crédito",
+"esPath": "es/06782.mp3",
+"zh": "信用证",
+"zhPath": "zh/07555.mp3"
+},
+{
+"es": "信用证",
+"esPath": "zh/07555.mp3",
+"zh": "carta de crédito",
+"zhPath": "es/06782.mp3"
+},
+{
+"es": "número de tarjeta",
+"esPath": "es/06783.mp3",
+"zh": "卡号",
+"zhPath": "zh/07556.mp3"
+},
+{
+"es": "卡号",
+"esPath": "zh/07556.mp3",
+"zh": "número de tarjeta",
+"zhPath": "es/06783.mp3"
+},
+{
+"es": "cartilla",
+"esPath": "es/06784.mp3",
+"zh": "存折",
+"zhPath": "zh/07557.mp3"
+},
+{
+"es": "存折",
+"esPath": "zh/07557.mp3",
+"zh": "cartilla",
+"zhPath": "es/06784.mp3"
+},
+{
+"es": "libreta de ahorros",
+"esPath": "es/06785.mp3",
+"zh": "存折",
+"zhPath": "zh/07558.mp3"
+},
+{
+"es": "存折",
+"esPath": "zh/07558.mp3",
+"zh": "libreta de ahorros",
+"zhPath": "es/06785.mp3"
 },
 {
 "es": "密码",
@@ -83467,16 +83623,28 @@
 "zhPath": "es/02132.mp3"
 },
 {
-"es": "prima",
-"esPath": "es/02133.mp3",
+"es": "comisión",
+"esPath": "es/06786.mp3",
 "zh": "手续费",
-"zhPath": "zh/02277.mp3"
+"zhPath": "zh/07559.mp3"
 },
 {
 "es": "手续费",
-"esPath": "zh/02277.mp3",
-"zh": "prima",
-"zhPath": "es/02133.mp3"
+"esPath": "zh/07559.mp3",
+"zh": "comisión",
+"zhPath": "es/06786.mp3"
+},
+{
+"es": "comprar a crédito",
+"esPath": "es/06787.mp3",
+"zh": "赊购",
+"zhPath": "zh/07560.mp3"
+},
+{
+"es": "赊购",
+"esPath": "zh/07560.mp3",
+"zh": "comprar a crédito",
+"zhPath": "es/06787.mp3"
 },
 {
 "es": "透支额",
@@ -83509,6 +83677,42 @@
 "zhPath": "es/02136.mp3"
 },
 {
+"es": "ingresar",
+"esPath": "es/06788.mp3",
+"zh": "v.t.（将钱）储存，存入",
+"zhPath": "zh/07561.mp3"
+},
+{
+"es": "v.t.（将钱）储存，存入",
+"esPath": "zh/07561.mp3",
+"zh": "ingresar",
+"zhPath": "es/06788.mp3"
+},
+{
+"es": "mediante",
+"esPath": "es/06789.mp3",
+"zh": "通过，借助，利用",
+"zhPath": "zh/07562.mp3"
+},
+{
+"es": "通过，借助，利用",
+"esPath": "zh/07562.mp3",
+"zh": "mediante",
+"zhPath": "es/06789.mp3"
+},
+{
+"es": "amortizar",
+"esPath": "es/06790.mp3",
+"zh": "偿还 (债务)",
+"zhPath": "zh/07563.mp3"
+},
+{
+"es": "偿还 (债务)",
+"esPath": "zh/07563.mp3",
+"zh": "amortizar",
+"zhPath": "es/06790.mp3"
+},
+{
 "es": "季的， 三个月的",
 "esPath": "zh/02281.mp3",
 "zh": "trimestral",
@@ -83521,7 +83725,7 @@
 "zhPath": "es/00782.mp3"
 },
 {
-"es": "He ingresado 500 euros en mi cuenta.",
+"es": "He ingresado 500 euros en mi cuenta",
 "esPath": "es/02139.mp3",
 "zh": "我刚刚存了五百欧元。",
 "zhPath": "zh/02284.mp3"
@@ -83529,11 +83733,11 @@
 {
 "es": "我刚刚存了五百欧元。",
 "esPath": "zh/02284.mp3",
-"zh": "He ingresado 500 euros en mi cuenta.",
+"zh": "He ingresado 500 euros en mi cuenta",
 "zhPath": "es/02139.mp3"
 },
 {
-"es": "El pago se realiza mediante tarjeta.",
+"es": "El pago se realiza mediante tarjeta",
 "esPath": "es/02140.mp3",
 "zh": "这笔账通过信用卡支付。",
 "zhPath": "zh/02285.mp3"
@@ -83541,11 +83745,11 @@
 {
 "es": "这笔账通过信用卡支付。",
 "esPath": "zh/02285.mp3",
-"zh": "El pago se realiza mediante tarjeta.",
+"zh": "El pago se realiza mediante tarjeta",
 "zhPath": "es/02140.mp3"
 },
 {
-"es": "Voy al banco a recoger mi nueva tarjeta de crédito.",
+"es": "Voy al banco a recoger mi nueva tarjeta de crédito",
 "esPath": "es/02142.mp3",
 "zh": "我要去银行拿我的新银行卡。",
 "zhPath": "zh/02287.mp3"
@@ -83553,7 +83757,7 @@
 {
 "es": "我要去银行拿我的新银行卡。",
 "esPath": "zh/02287.mp3",
-"zh": "Voy al banco a recoger mi nueva tarjeta de crédito.",
+"zh": "Voy al banco a recoger mi nueva tarjeta de crédito",
 "zhPath": "es/02142.mp3"
 },
 {
@@ -83567,6 +83771,66 @@
 "esPath": "zh/02290.mp3",
 "zh": "cambiar",
 "zhPath": "es/01413.mp3"
+},
+{
+"es": "tipo de cambio",
+"esPath": "es/06791.mp3",
+"zh": "兑换率",
+"zhPath": "zh/07564.mp3"
+},
+{
+"es": "兑换率",
+"esPath": "zh/07564.mp3",
+"zh": "tipo de cambio",
+"zhPath": "es/06791.mp3"
+},
+{
+"es": "moneda extranjera",
+"esPath": "es/06792.mp3",
+"zh": "外汇",
+"zhPath": "zh/07565.mp3"
+},
+{
+"es": "外汇",
+"esPath": "zh/07565.mp3",
+"zh": "moneda extranjera",
+"zhPath": "es/06792.mp3"
+},
+{
+"es": "reserva de divisas",
+"esPath": "es/06793.mp3",
+"zh": "外汇储备",
+"zhPath": "zh/07566.mp3"
+},
+{
+"es": "外汇储备",
+"esPath": "zh/07566.mp3",
+"zh": "reserva de divisas",
+"zhPath": "es/06793.mp3"
+},
+{
+"es": "reserva de oro",
+"esPath": "es/06794.mp3",
+"zh": "黄金储备",
+"zhPath": "zh/07567.mp3"
+},
+{
+"es": "黄金储备",
+"esPath": "zh/07567.mp3",
+"zh": "reserva de oro",
+"zhPath": "es/06794.mp3"
+},
+{
+"es": "política monetaria",
+"esPath": "es/06795.mp3",
+"zh": "货币政策",
+"zhPath": "zh/07568.mp3"
+},
+{
+"es": "货币政策",
+"esPath": "zh/07568.mp3",
+"zh": "política monetaria",
+"zhPath": "es/06795.mp3"
 },
 {
 "es": "dólar",
@@ -83611,6 +83875,30 @@
 "zhPath": "es/02147.mp3"
 },
 {
+"es": "billete",
+"esPath": "es/06796.mp3",
+"zh": "纸币",
+"zhPath": "zh/07569.mp3"
+},
+{
+"es": "纸币",
+"esPath": "zh/07569.mp3",
+"zh": "billete",
+"zhPath": "es/06796.mp3"
+},
+{
+"es": "de mala gana",
+"esPath": "es/06797.mp3",
+"zh": "勉强地",
+"zhPath": "zh/07570.mp3"
+},
+{
+"es": "勉强地",
+"esPath": "zh/07570.mp3",
+"zh": "de mala gana",
+"zhPath": "es/06797.mp3"
+},
+{
 "es": "menuda",
 "esPath": "es/02150.mp3",
 "zh": "零钱",
@@ -83623,7 +83911,7 @@
 "zhPath": "es/02150.mp3"
 },
 {
-"es": "De mala gana Mike pide dinero a Carlos.",
+"es": "De mala gana Mike pide dinero a Carlos",
 "esPath": "es/02151.mp3",
 "zh": "麦克不情愿地向卡奈斯借了钱。",
 "zhPath": "zh/02299.mp3"
@@ -83631,11 +83919,11 @@
 {
 "es": "麦克不情愿地向卡奈斯借了钱。",
 "esPath": "zh/02299.mp3",
-"zh": "De mala gana Mike pide dinero a Carlos.",
+"zh": "De mala gana Mike pide dinero a Carlos",
 "zhPath": "es/02151.mp3"
 },
 {
-"es": "La crisis en la zona de euro no está solucionada.",
+"es": "La crisis en la zona de euro no está solucionada",
 "esPath": "es/02152.mp3",
 "zh": "欧元区的危机还没有解决。",
 "zhPath": "zh/02300.mp3"
@@ -83643,11 +83931,11 @@
 {
 "es": "欧元区的危机还没有解决。",
 "esPath": "zh/02300.mp3",
-"zh": "La crisis en la zona de euro no está solucionada.",
+"zh": "La crisis en la zona de euro no está solucionada",
 "zhPath": "es/02152.mp3"
 },
 {
-"es": "Nadie esperaba ver una reforma monetaria de China.",
+"es": "Nadie esperaba ver una reforma monetaria de China",
 "esPath": "es/02153.mp3",
 "zh": "没有人预想到中国的货币改革。",
 "zhPath": "zh/02301.mp3"
@@ -83655,11 +83943,11 @@
 {
 "es": "没有人预想到中国的货币改革。",
 "esPath": "zh/02301.mp3",
-"zh": "Nadie esperaba ver una reforma monetaria de China.",
+"zh": "Nadie esperaba ver una reforma monetaria de China",
 "zhPath": "es/02153.mp3"
 },
 {
-"es": "El turista cambió el dólar en renminbi.",
+"es": "El turista cambió el dólar en renminbi",
 "esPath": "es/02155.mp3",
 "zh": "游客把美元兑换成人民币。",
 "zhPath": "zh/02303.mp3"
@@ -83667,11 +83955,11 @@
 {
 "es": "游客把美元兑换成人民币。",
 "esPath": "zh/02303.mp3",
-"zh": "El turista cambió el dólar en renminbi.",
+"zh": "El turista cambió el dólar en renminbi",
 "zhPath": "es/02155.mp3"
 },
 {
-"es": "Cambió un yuan en moneda menuda.",
+"es": "Cambió un yuan en moneda menuda",
 "esPath": "es/02156.mp3",
 "zh": "他把一元钱换成零钱。",
 "zhPath": "zh/02304.mp3"
@@ -83679,8 +83967,20 @@
 {
 "es": "他把一元钱换成零钱。",
 "esPath": "zh/02304.mp3",
-"zh": "Cambió un yuan en moneda menuda.",
+"zh": "Cambió un yuan en moneda menuda",
 "zhPath": "es/02156.mp3"
+},
+{
+"es": "cajero automático",
+"esPath": "es/06798.mp3",
+"zh": "自动取款机",
+"zhPath": "zh/07571.mp3"
+},
+{
+"es": "自动取款机",
+"esPath": "zh/07571.mp3",
+"zh": "cajero automático",
+"zhPath": "es/06798.mp3"
 },
 {
 "es": "saldo",
@@ -83701,10 +84001,76 @@
 "zhPath": "es/02158.mp3"
 },
 {
-"es": "现金 en",
-"esPath": "zh/02308.mp3",
-"zh": "efectivo",
-"zhPath": "es/02160.mp3"
+"es": "letra de cambio bancaria",
+"esPath": "es/06799.mp3",
+"zh": "银行汇票",
+"zhPath": "zh/07572.mp3"
+},
+{
+"es": "银行汇票",
+"esPath": "zh/07572.mp3",
+"zh": "letra de cambio bancaria",
+"zhPath": "es/06799.mp3"
+},
+{
+"es": "cuenta de ahorros",
+"esPath": "es/06800.mp3",
+"zh": "储户",
+"zhPath": "zh/07573.mp3"
+},
+{
+"es": "储户",
+"esPath": "zh/07573.mp3",
+"zh": "cuenta de ahorros",
+"zhPath": "es/06800.mp3"
+},
+{
+"es": "depósito quitado",
+"esPath": "es/06801.mp3",
+"zh": "取款",
+"zhPath": "zh/07574.mp3"
+},
+{
+"es": "取款",
+"esPath": "zh/07574.mp3",
+"zh": "depósito quitado",
+"zhPath": "es/06801.mp3"
+},
+{
+"es": "en efectivo",
+"esPath": "es/06802.mp3",
+"zh": "现金",
+"zhPath": "zh/07575.mp3"
+},
+{
+"es": "现金",
+"esPath": "zh/07575.mp3",
+"zh": "en efectivo",
+"zhPath": "es/06802.mp3"
+},
+{
+"es": "tasas de interés",
+"esPath": "es/06803.mp3",
+"zh": "利率",
+"zhPath": "zh/07576.mp3"
+},
+{
+"es": "利率",
+"esPath": "zh/07576.mp3",
+"zh": "tasas de interés",
+"zhPath": "es/06803.mp3"
+},
+{
+"es": "interés compuesto",
+"esPath": "es/06804.mp3",
+"zh": "复利",
+"zhPath": "zh/07577.mp3"
+},
+{
+"es": "复利",
+"esPath": "zh/07577.mp3",
+"zh": "interés compuesto",
+"zhPath": "es/06804.mp3"
 },
 {
 "es": "支付",
@@ -83767,7 +84133,7 @@
 "zhPath": "es/01568.mp3"
 },
 {
-"es": "Iba a ir al banco a depositar el dinero. Pero fue la hora de cierre. ¿Se cuenta con un cajero automático aquí?",
+"es": "Iba a ir al banco a depositar el dinero. Pero fue la hora de cierre. Se cuenta con un cajero automático aquí?",
 "esPath": "es/02167.mp3",
 "zh": "我打算去银行把这笔钱存入存折，但现在是银行下班的时候。这附近有自助银行吗？",
 "zhPath": "zh/02316.mp3"
@@ -83775,11 +84141,11 @@
 {
 "es": "我打算去银行把这笔钱存入存折，但现在是银行下班的时候。这附近有自助银行吗？",
 "esPath": "zh/02316.mp3",
-"zh": "Iba a ir al banco a depositar el dinero. Pero fue la hora de cierre. ¿Se cuenta con un cajero automático aquí?",
+"zh": "Iba a ir al banco a depositar el dinero. Pero fue la hora de cierre. Se cuenta con un cajero automático aquí?",
 "zhPath": "es/02167.mp3"
 },
 {
-"es": "El impuesto debe ser pagado al momento de presentar la declaración.",
+"es": "El impuesto debe ser pagado al momento de presentar la declaración",
 "esPath": "es/02168.mp3",
 "zh": "交易税必须在申报之时缴纳。",
 "zhPath": "zh/02317.mp3"
@@ -83787,11 +84153,11 @@
 {
 "es": "交易税必须在申报之时缴纳。",
 "esPath": "zh/02317.mp3",
-"zh": "El impuesto debe ser pagado al momento de presentar la declaración.",
+"zh": "El impuesto debe ser pagado al momento de presentar la declaración",
 "zhPath": "es/02168.mp3"
 },
 {
-"es": "Puede pagar en efectivo.",
+"es": "Puede pagar en efectivo",
 "esPath": "es/02169.mp3",
 "zh": "你可以用现金支付。",
 "zhPath": "zh/02318.mp3"
@@ -83799,7 +84165,7 @@
 {
 "es": "你可以用现金支付。",
 "esPath": "zh/02318.mp3",
-"zh": "Puede pagar en efectivo.",
+"zh": "Puede pagar en efectivo",
 "zhPath": "es/02169.mp3"
 },
 {
@@ -83827,6 +84193,66 @@
 "zhPath": "es/02172.mp3"
 },
 {
+"es": "cheque anónimo",
+"esPath": "es/06805.mp3",
+"zh": "不记名支票",
+"zhPath": "zh/07578.mp3"
+},
+{
+"es": "不记名支票",
+"esPath": "zh/07578.mp3",
+"zh": "cheque anónimo",
+"zhPath": "es/06805.mp3"
+},
+{
+"es": "cheque nominativo",
+"esPath": "es/06806.mp3",
+"zh": "记名支票",
+"zhPath": "zh/07579.mp3"
+},
+{
+"es": "记名支票",
+"esPath": "zh/07579.mp3",
+"zh": "cheque nominativo",
+"zhPath": "es/06806.mp3"
+},
+{
+"es": "cheque en blanco",
+"esPath": "es/06807.mp3",
+"zh": "空白支票",
+"zhPath": "zh/07580.mp3"
+},
+{
+"es": "空白支票",
+"esPath": "zh/07580.mp3",
+"zh": "cheque en blanco",
+"zhPath": "es/06807.mp3"
+},
+{
+"es": "hacer efectivo un cheque",
+"esPath": "es/06808.mp3",
+"zh": "兑现支票",
+"zhPath": "zh/07581.mp3"
+},
+{
+"es": "兑现支票",
+"esPath": "zh/07581.mp3",
+"zh": "hacer efectivo un cheque",
+"zhPath": "es/06808.mp3"
+},
+{
+"es": "cheque cruzado",
+"esPath": "es/06809.mp3",
+"zh": "划线支票",
+"zhPath": "zh/07582.mp3"
+},
+{
+"es": "划线支票",
+"esPath": "zh/07582.mp3",
+"zh": "cheque cruzado",
+"zhPath": "es/06809.mp3"
+},
+{
 "es": "obligación",
 "esPath": "es/02173.mp3",
 "zh": "债券",
@@ -83851,6 +84277,18 @@
 "zhPath": "es/02174.mp3"
 },
 {
+"es": "pagar según la fecha",
+"esPath": "es/06810.mp3",
+"zh": "如期支付",
+"zhPath": "zh/07583.mp3"
+},
+{
+"es": "如期支付",
+"esPath": "zh/07583.mp3",
+"zh": "pagar según la fecha",
+"zhPath": "es/06810.mp3"
+},
+{
 "es": "证券",
 "esPath": "zh/02325.mp3",
 "zh": "título",
@@ -83867,6 +84305,30 @@
 "esPath": "zh/02327.mp3",
 "zh": "efectivo",
 "zhPath": "es/02160.mp3"
+},
+{
+"es": "deuda nacional",
+"esPath": "es/06811.mp3",
+"zh": "国债",
+"zhPath": "zh/07584.mp3"
+},
+{
+"es": "国债",
+"esPath": "zh/07584.mp3",
+"zh": "deuda nacional",
+"zhPath": "es/06811.mp3"
+},
+{
+"es": "bonos del gobierno",
+"esPath": "es/06812.mp3",
+"zh": "政府债券",
+"zhPath": "zh/07585.mp3"
+},
+{
+"es": "政府债券",
+"esPath": "zh/07585.mp3",
+"zh": "bonos del gobierno",
+"zhPath": "es/06812.mp3"
 },
 {
 "es": "基本的",
@@ -83887,7 +84349,43 @@
 "zhPath": "es/02179.mp3"
 },
 {
-"es": "El cheque es un medio de pago básico.",
+"es": "conceder",
+"esPath": "es/06813.mp3",
+"zh": "给予，同意",
+"zhPath": "zh/07586.mp3"
+},
+{
+"es": "给予，同意",
+"esPath": "zh/07586.mp3",
+"zh": "conceder",
+"zhPath": "es/06813.mp3"
+},
+{
+"es": "doscientos mil",
+"esPath": "es/06814.mp3",
+"zh": "二十万",
+"zhPath": "zh/07587.mp3"
+},
+{
+"es": "二十万",
+"esPath": "zh/07587.mp3",
+"zh": "doscientos mil",
+"zhPath": "es/06814.mp3"
+},
+{
+"es": "tarjeta de crédito",
+"esPath": "es/06815.mp3",
+"zh": "信用卡",
+"zhPath": "zh/07588.mp3"
+},
+{
+"es": "信用卡",
+"esPath": "zh/07588.mp3",
+"zh": "tarjeta de crédito",
+"zhPath": "es/06815.mp3"
+},
+{
+"es": "El cheque es un medio de pago básico",
 "esPath": "es/02180.mp3",
 "zh": "支票是一种基本的支付方式。",
 "zhPath": "zh/02330.mp3"
@@ -83895,11 +84393,11 @@
 {
 "es": "支票是一种基本的支付方式。",
 "esPath": "zh/02330.mp3",
-"zh": "El cheque es un medio de pago básico.",
+"zh": "El cheque es un medio de pago básico",
 "zhPath": "es/02180.mp3"
 },
 {
-"es": "Para fines de liquidez, los bancos están obligados a constituir reservas para cubrir los retiros de los depositantes.",
+"es": "Para fines de liquidez, los bancos están obligados a constituir reservas para cubrir los retiros de los depositantes",
 "esPath": "es/02181.mp3",
 "zh": "因流动需要，各家银行必须设立准备金，以应付储户取款。",
 "zhPath": "zh/02331.mp3"
@@ -83907,11 +84405,11 @@
 {
 "es": "因流动需要，各家银行必须设立准备金，以应付储户取款。",
 "esPath": "zh/02331.mp3",
-"zh": "Para fines de liquidez, los bancos están obligados a constituir reservas para cubrir los retiros de los depositantes.",
+"zh": "Para fines de liquidez, los bancos están obligados a constituir reservas para cubrir los retiros de los depositantes",
 "zhPath": "es/02181.mp3"
 },
 {
-"es": "El banco le ha concedido un préstamo de doscientos mil euros.",
+"es": "El banco le ha concedido un préstamo de doscientos mil euros",
 "esPath": "es/02182.mp3",
 "zh": "银行给了他一笔20万欧元的贷款。",
 "zhPath": "zh/02332.mp3"
@@ -83919,11 +84417,11 @@
 {
 "es": "银行给了他一笔20万欧元的贷款。",
 "esPath": "zh/02332.mp3",
-"zh": "El banco le ha concedido un préstamo de doscientos mil euros.",
+"zh": "El banco le ha concedido un préstamo de doscientos mil euros",
 "zhPath": "es/02182.mp3"
 },
 {
-"es": "¿Va a pagar en efectivo o con tarjeta de crédito?",
+"es": "Va a pagar en efectivo o con tarjeta de crédito?",
 "esPath": "es/02183.mp3",
 "zh": "您是付现金还是用信用卡？",
 "zhPath": "zh/02333.mp3"
@@ -83931,7 +84429,7 @@
 {
 "es": "您是付现金还是用信用卡？",
 "esPath": "zh/02333.mp3",
-"zh": "¿Va a pagar en efectivo o con tarjeta de crédito?",
+"zh": "Va a pagar en efectivo o con tarjeta de crédito?",
 "zhPath": "es/02183.mp3"
 },
 {
