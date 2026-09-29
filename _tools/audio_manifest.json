@@ -7371,6 +7371,16 @@
 "lang": "zh"
 },
 {
+"text": "mantener",
+"path": "es/06876.mp3",
+"lang": "es"
+},
+{
+"text": "保持，维持",
+"path": "zh/07649.mp3",
+"lang": "zh"
+},
+{
 "text": "figura",
 "path": "es/02380.mp3",
 "lang": "es"
@@ -7396,7 +7406,7 @@
 "lang": "zh"
 },
 {
-"text": "Quiero decir, entonces me consideraba como uno de sus amigos delgados.",
+"text": "Quiero decir, entonces me consideraba como uno de sus amigos delgados",
 "path": "es/02382.mp3",
 "lang": "es"
 },
@@ -7406,7 +7416,7 @@
 "lang": "zh"
 },
 {
-"text": "Ella consiguió mantener su figura.",
+"text": "Ella consiguió mantener su figura",
 "path": "es/02383.mp3",
 "lang": "es"
 },
@@ -7416,7 +7426,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Por qué tienes ganas de hacer una dieta cuando ya estás tan delgada?",
+"text": "Por qué tienes ganas de hacer una dieta cuando ya estás tan delgada?",
 "path": "es/02384.mp3",
 "lang": "es"
 },
@@ -7426,7 +7436,7 @@
 "lang": "zh"
 },
 {
-"text": "Siempre se descuida de su figura y está más gorda.",
+"text": "Siempre se descuida de su figura y está más gorda",
 "path": "es/02385.mp3",
 "lang": "es"
 },
@@ -7436,7 +7446,7 @@
 "lang": "zh"
 },
 {
-"text": "Este traje te hace más gordo.",
+"text": "Este traje te hace más gordo",
 "path": "es/02386.mp3",
 "lang": "es"
 },
@@ -7516,6 +7526,16 @@
 "lang": "zh"
 },
 {
+"text": "bizcar",
+"path": "es/06877.mp3",
+"lang": "es"
+},
+{
+"text": "斜视",
+"path": "zh/07650.mp3",
+"lang": "zh"
+},
+{
 "text": "tuerto",
 "path": "es/02393.mp3",
 "lang": "es"
@@ -7523,6 +7543,16 @@
 {
 "text": "独眼的",
 "path": "zh/02573.mp3",
+"lang": "zh"
+},
+{
+"text": "ojos bien abiertos",
+"path": "es/06878.mp3",
+"lang": "es"
+},
+{
+"text": "瞪大的眼睛",
+"path": "zh/07651.mp3",
 "lang": "zh"
 },
 {
@@ -7536,8 +7566,28 @@
 "lang": "zh"
 },
 {
+"text": "rubio",
+"path": "es/06879.mp3",
+"lang": "es"
+},
+{
+"text": "金黄色的； 金发",
+"path": "zh/07652.mp3",
+"lang": "zh"
+},
+{
 "text": "棕色的",
 "path": "zh/02576.mp3",
+"lang": "zh"
+},
+{
+"text": "marrón claro",
+"path": "es/06880.mp3",
+"lang": "es"
+},
+{
+"text": "浅棕色",
+"path": "zh/07653.mp3",
 "lang": "zh"
 },
 {
@@ -7571,7 +7621,7 @@
 "lang": "zh"
 },
 {
-"text": "Pero por favor no me mires con simpatía.",
+"text": "Pero por favor no me mires con simpatía",
 "path": "es/02397.mp3",
 "lang": "es"
 },
@@ -7581,7 +7631,7 @@
 "lang": "zh"
 },
 {
-"text": "Las películas y programas de televisión te hacen pensar que la calle está llena de guapas rubias.",
+"text": "Las películas y programas de televisión te hacen pensar que la calle está llena de guapas rubias",
 "path": "es/02398.mp3",
 "lang": "es"
 },
@@ -7591,7 +7641,7 @@
 "lang": "zh"
 },
 {
-"text": "Estoy aturdido con tantas cosas que hacer.",
+"text": "Estoy aturdido con tantas cosas que hacer",
 "path": "es/02399.mp3",
 "lang": "es"
 },
@@ -7601,7 +7651,7 @@
 "lang": "zh"
 },
 {
-"text": "Es un hombre de manera suaves.",
+"text": "Es un hombre de manera suaves",
 "path": "es/02400.mp3",
 "lang": "es"
 },
@@ -7611,7 +7661,7 @@
 "lang": "zh"
 },
 {
-"text": "Prefiero los rojos, son más modernos.",
+"text": "Prefiero los rojos, son más modernos",
 "path": "es/02401.mp3",
 "lang": "es"
 },
@@ -7731,13 +7781,33 @@
 "lang": "zh"
 },
 {
-"text": "rosadoa",
-"path": "es/02412.mp3",
+"text": "tiene líneas finas",
+"path": "es/06881.mp3",
+"lang": "es"
+},
+{
+"text": "眉目清秀",
+"path": "zh/07654.mp3",
+"lang": "zh"
+},
+{
+"text": "rostro ovalado",
+"path": "es/06882.mp3",
+"lang": "es"
+},
+{
+"text": "鹅蛋脸",
+"path": "zh/07655.mp3",
+"lang": "zh"
+},
+{
+"text": "rosada",
+"path": "es/06883.mp3",
 "lang": "es"
 },
 {
 "text": "玫瑰色的，粉红的",
-"path": "zh/02595.mp3",
+"path": "zh/07656.mp3",
 "lang": "zh"
 },
 {
@@ -7748,6 +7818,16 @@
 {
 "text": "臂，手臂",
 "path": "zh/02596.mp3",
+"lang": "zh"
+},
+{
+"text": "punto muerto",
+"path": "es/06884.mp3",
+"lang": "es"
+},
+{
+"text": "死胡同",
+"path": "zh/07657.mp3",
 "lang": "zh"
 },
 {
@@ -7771,7 +7851,7 @@
 "lang": "zh"
 },
 {
-"text": "Tiene la cara redonda.",
+"text": "Tiene la cara redonda",
 "path": "es/02415.mp3",
 "lang": "es"
 },
@@ -7781,17 +7861,17 @@
 "lang": "zh"
 },
 {
-"text": "Tiene rosadoa cara.",
-"path": "es/02416.mp3",
+"text": "Tiene rosada cara",
+"path": "es/06885.mp3",
 "lang": "es"
 },
 {
 "text": "她脸色红润。",
-"path": "zh/02600.mp3",
+"path": "zh/07658.mp3",
 "lang": "zh"
 },
 {
-"text": "Oye, tienes mala cara. ¿Te pasa algo?",
+"text": "Oye, tienes mala cara. Te pasa algo?",
 "path": "es/02417.mp3",
 "lang": "es"
 },
@@ -7801,7 +7881,7 @@
 "lang": "zh"
 },
 {
-"text": "El sol les tostó la cara y los brazos.",
+"text": "El sol les tostó la cara y los brazos",
 "path": "es/02418.mp3",
 "lang": "es"
 },
@@ -7811,7 +7891,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Quieres dibujar una barba en su dedo para romper el punto muerto?",
+"text": "Quieres dibujar una barba en su dedo para romper el punto muerto?",
 "path": "es/02419.mp3",
 "lang": "es"
 },
@@ -7821,7 +7901,7 @@
 "lang": "zh"
 },
 {
-"text": "Barba Azul gritó tan fuerte que toda la casa se fluctuó.",
+"text": "Barba Azul gritó tan fuerte que toda la casa se fluctuó",
 "path": "es/02420.mp3",
 "lang": "es"
 },
@@ -7856,8 +7936,38 @@
 "lang": "es"
 },
 {
+"text": "risa artificial",
+"path": "es/06886.mp3",
+"lang": "es"
+},
+{
+"text": "假笑",
+"path": "zh/07659.mp3",
+"lang": "zh"
+},
+{
+"text": "reír con mucha felicidad",
+"path": "es/06887.mp3",
+"lang": "es"
+},
+{
+"text": "欢笑",
+"path": "zh/07660.mp3",
+"lang": "zh"
+},
+{
 "text": "快活的",
 "path": "zh/02607.mp3",
+"lang": "zh"
+},
+{
+"text": "atractivo,a",
+"path": "es/06888.mp3",
+"lang": "es"
+},
+{
+"text": "迷人的",
+"path": "zh/07661.mp3",
 "lang": "zh"
 },
 {
@@ -7868,6 +7978,16 @@
 {
 "text": "幸运的",
 "path": "zh/02608.mp3",
+"lang": "zh"
+},
+{
+"text": "una risa satánica",
+"path": "es/06889.mp3",
+"lang": "es"
+},
+{
+"text": "狞笑",
+"path": "zh/07662.mp3",
 "lang": "zh"
 },
 {
@@ -7921,18 +8041,48 @@
 "lang": "zh"
 },
 {
+"text": "reír a torcer",
+"path": "es/06890.mp3",
+"lang": "es"
+},
+{
+"text": "捧腹大笑",
+"path": "zh/07663.mp3",
+"lang": "zh"
+},
+{
+"text": "risa triste",
+"path": "es/06891.mp3",
+"lang": "es"
+},
+{
+"text": "苦笑",
+"path": "zh/07664.mp3",
+"lang": "zh"
+},
+{
+"text": "tomar a risa algo",
+"path": "es/06892.mp3",
+"lang": "es"
+},
+{
+"text": "嘲笑",
+"path": "zh/07665.mp3",
+"lang": "zh"
+},
+{
 "text": "幸福的",
 "path": "zh/02614.mp3",
 "lang": "zh"
 },
 {
-"text": "saludó",
-"path": "es/02430.mp3",
+"text": "saludo",
+"path": "es/06893.mp3",
 "lang": "es"
 },
 {
 "text": "招呼，问候",
-"path": "zh/02615.mp3",
+"path": "zh/07666.mp3",
 "lang": "zh"
 },
 {
@@ -7956,7 +8106,7 @@
 "lang": "zh"
 },
 {
-"text": "Cuando oye este chiste , se cae de risa.",
+"text": "Cuando oye este chiste, se cae de risa",
 "path": "es/02433.mp3",
 "lang": "es"
 },
@@ -7966,7 +8116,7 @@
 "lang": "zh"
 },
 {
-"text": "Cuando me sonríe, me siento feliz.",
+"text": "Cuando me sonríe, me siento feliz",
 "path": "es/02434.mp3",
 "lang": "es"
 },
@@ -7976,7 +8126,7 @@
 "lang": "zh"
 },
 {
-"text": "Empieza tu día con una sonrisa.",
+"text": "Empieza tu día con una sonrisa",
 "path": "es/02435.mp3",
 "lang": "es"
 },
@@ -7986,7 +8136,7 @@
 "lang": "zh"
 },
 {
-"text": "Aunque no estaba bien , nos saludó con una sonrisa artifi-cial.",
+"text": "Aunque no estaba bien, nos saludó con una sonrisa artificial",
 "path": "es/02436.mp3",
 "lang": "es"
 },
@@ -7996,7 +8146,7 @@
 "lang": "zh"
 },
 {
-"text": "Su sonrisa es sincera.",
+"text": "Su sonrisa es sincera",
 "path": "es/02437.mp3",
 "lang": "es"
 },
@@ -8006,7 +8156,7 @@
 "lang": "zh"
 },
 {
-"text": "La lógica de la vida es ser burlado, y otro tiempo tal vez burlar aotros.",
+"text": "La lógica de la vida es ser burlado, y otro tiempo tal vez burlar a otros",
 "path": "es/02438.mp3",
 "lang": "es"
 },
@@ -8196,7 +8346,7 @@
 "lang": "zh"
 },
 {
-"text": "Perderás el control de tu voz mejorarás control durante varias horas, pero poco a poco te recuperarás.",
+"text": "Perderás el control de tu voz mejorarás control durante varias horas, pero poco a poco te recuperarás",
 "path": "es/02452.mp3",
 "lang": "es"
 },
@@ -8206,7 +8356,7 @@
 "lang": "zh"
 },
 {
-"text": "Alza la voz.",
+"text": "Alza la voz",
 "path": "es/02453.mp3",
 "lang": "es"
 },
@@ -8216,7 +8366,7 @@
 "lang": "zh"
 },
 {
-"text": "Me persigue el eco de su voz.",
+"text": "Me persigue el eco de su voz",
 "path": "es/02454.mp3",
 "lang": "es"
 },
@@ -8226,7 +8376,7 @@
 "lang": "zh"
 },
 {
-"text": "Si no subes la voz no oiré lo que estás diciendo.",
+"text": "Si no subes la voz no oiré lo que estás diciendo",
 "path": "es/02455.mp3",
 "lang": "es"
 },
@@ -8236,7 +8386,7 @@
 "lang": "zh"
 },
 {
-"text": "Entra sin hacer ruido.",
+"text": "Entra sin hacer ruido",
 "path": "es/02456.mp3",
 "lang": "es"
 },
@@ -8246,7 +8396,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Cansados de los ruidos, del tráfico y de la contaminación?",
+"text": "Cansados de los ruidos, del tráfico y de la contaminación?",
 "path": "es/02457.mp3",
 "lang": "es"
 },
@@ -8306,13 +8456,13 @@
 "lang": "zh"
 },
 {
-"text": "militante",
-"path": "es/02463.mp3",
+"text": "militar",
+"path": "es/06894.mp3",
 "lang": "es"
 },
 {
 "text": "军人",
-"path": "zh/02652.mp3",
+"path": "zh/07667.mp3",
 "lang": "zh"
 },
 {
@@ -8391,6 +8541,16 @@
 "lang": "zh"
 },
 {
+"text": "familia imperial",
+"path": "es/06895.mp3",
+"lang": "es"
+},
+{
+"text": "皇室",
+"path": "zh/07668.mp3",
+"lang": "zh"
+},
+{
 "text": "sobre",
 "path": "es/02093.mp3",
 "lang": "es"
@@ -8461,7 +8621,7 @@
 "lang": "zh"
 },
 {
-"text": "Sobre el cambio climático la posición del gobierno chino es cada vez más constructiva en los últimos años.",
+"text": "Sobre el cambio climático la posición del gobierno chino es cada vez más constructiva en los últimos años",
 "path": "es/02476.mp3",
 "lang": "es"
 },
@@ -8471,7 +8631,7 @@
 "lang": "zh"
 },
 {
-"text": "Los soldados dependen de las órdenes de un oficial.",
+"text": "Los soldados dependen de las órdenes de un oficial",
 "path": "es/02477.mp3",
 "lang": "es"
 },
@@ -8481,7 +8641,7 @@
 "lang": "zh"
 },
 {
-"text": "Verón es un auténtico líder positivo.",
+"text": "Verón es un auténtico líder positivo",
 "path": "es/02478.mp3",
 "lang": "es"
 },
@@ -8491,7 +8651,7 @@
 "lang": "zh"
 },
 {
-"text": "Es el derecho de todo ciudadano.",
+"text": "Es el derecho de todo ciudadano",
 "path": "es/02479.mp3",
 "lang": "es"
 },
@@ -8501,7 +8661,7 @@
 "lang": "zh"
 },
 {
-"text": "La vida del campesino va a mejorando.",
+"text": "La vida del campesino va a mejorando",
 "path": "es/02480.mp3",
 "lang": "es"
 },
@@ -8511,7 +8671,7 @@
 "lang": "zh"
 },
 {
-"text": "Los cuadros no deben mostrarse indiferentes con las masas.",
+"text": "Los cuadros no deben mostrarse indiferentes con las masas",
 "path": "es/02481.mp3",
 "lang": "es"
 },
@@ -8611,6 +8771,16 @@
 "lang": "zh"
 },
 {
+"text": "tiene el humor",
+"path": "es/06896.mp3",
+"lang": "es"
+},
+{
+"text": "幽默地",
+"path": "zh/07669.mp3",
+"lang": "zh"
+},
+{
 "text": "creativo",
 "path": "es/02488.mp3",
 "lang": "es"
@@ -8661,6 +8831,16 @@
 "lang": "zh"
 },
 {
+"text": "irritar",
+"path": "es/06897.mp3",
+"lang": "es"
+},
+{
+"text": "使发怒",
+"path": "zh/07670.mp3",
+"lang": "zh"
+},
+{
 "text": "desgraciar",
 "path": "es/02491.mp3",
 "lang": "es"
@@ -8671,7 +8851,7 @@
 "lang": "zh"
 },
 {
-"text": "No sé si serías tan generoso.",
+"text": "No sé si serías tan generoso",
 "path": "es/02492.mp3",
 "lang": "es"
 },
@@ -8681,7 +8861,7 @@
 "lang": "zh"
 },
 {
-"text": "Deseo que España pueda recuperar el optimismo y gusto de vivir, que son el único que pueda permitirlo afrontar los retos.",
+"text": "Deseo que España pueda recuperar el optimismo y gusto de vivir, que son el único que pueda permitirlo afrontar los retos",
 "path": "es/02493.mp3",
 "lang": "es"
 },
@@ -8691,7 +8871,7 @@
 "lang": "zh"
 },
 {
-"text": "El principito hizo una buena carcajada, que me irritó. Me gustaría que los demás tomen en serio mis desgracias.",
+"text": "El principito hizo una buena carcajada, que me irritó. Me gustaría que los demás tomen en serio mis desgracias",
 "path": "es/02494.mp3",
 "lang": "es"
 },
@@ -8891,7 +9071,7 @@
 "lang": "zh"
 },
 {
-"text": "Lloro porque los demás son estúpidos, que me hace muy triste.",
+"text": "Lloro porque los demás son estúpidos, que me hace muy triste",
 "path": "es/02512.mp3",
 "lang": "es"
 },
@@ -8901,7 +9081,7 @@
 "lang": "zh"
 },
 {
-"text": "La tele tiene influencia negativa sobre los jóvenes.",
+"text": "La tele tiene influencia negativa sobre los jóvenes",
 "path": "es/02513.mp3",
 "lang": "es"
 },
@@ -8911,7 +9091,7 @@
 "lang": "zh"
 },
 {
-"text": "Siempre piensa que la vida es muy triste, que es una desgraciada. Es muy pesimista.",
+"text": "Siempre piensa que la vida es muy triste, que es una desgraciada. Es muy pesimista",
 "path": "es/02514.mp3",
 "lang": "es"
 },
@@ -8921,7 +9101,7 @@
 "lang": "zh"
 },
 {
-"text": "Está indeciso sobre qué actitud adoptar.",
+"text": "Está indeciso sobre qué actitud adoptar",
 "path": "es/02515.mp3",
 "lang": "es"
 },
@@ -8931,7 +9111,7 @@
 "lang": "zh"
 },
 {
-"text": "No hay que ser negligente en el trabajo ni flojo en el estudio.",
+"text": "No hay que ser negligente en el trabajo ni flojo en el estudio",
 "path": "es/02516.mp3",
 "lang": "es"
 },
@@ -8941,7 +9121,7 @@
 "lang": "zh"
 },
 {
-"text": "Tu actitud negligente te causó el fracaso.",
+"text": "Tu actitud negligente te causó el fracaso",
 "path": "es/02517.mp3",
 "lang": "es"
 },
@@ -8968,6 +9148,16 @@
 {
 "text": "双重的",
 "path": "zh/02713.mp3",
+"lang": "zh"
+},
+{
+"text": "yankee",
+"path": "es/06898.mp3",
+"lang": "es"
+},
+{
+"text": "［贬］ 美国佬",
+"path": "zh/07671.mp3",
 "lang": "zh"
 },
 {
@@ -9161,7 +9351,17 @@
 "lang": "zh"
 },
 {
-"text": "Los estudiantes extranjeros ocupan el 11,7% de todos los estudiantes en Francia.",
+"text": "apellidar",
+"path": "es/06899.mp3",
+"lang": "es"
+},
+{
+"text": "姓，名字叫",
+"path": "zh/07672.mp3",
+"lang": "zh"
+},
+{
+"text": "Los estudiantes extranjeros ocupan el 11,7% de todos los estudiantes en Francia",
 "path": "es/02537.mp3",
 "lang": "es"
 },
@@ -9171,7 +9371,7 @@
 "lang": "zh"
 },
 {
-"text": "Este chino es de nacionalidad americana.",
+"text": "Este chino es de nacionalidad americana",
 "path": "es/02538.mp3",
 "lang": "es"
 },
@@ -9181,7 +9381,7 @@
 "lang": "zh"
 },
 {
-"text": "Cuenta con doble nacionalidades.",
+"text": "Cuenta con doble nacionalidades",
 "path": "es/02539.mp3",
 "lang": "es"
 },
@@ -9191,7 +9391,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Qué es tu nacionalidad?",
+"text": "Qué es tu nacionalidad?",
 "path": "es/02540.mp3",
 "lang": "es"
 },
@@ -9201,7 +9401,7 @@
 "lang": "zh"
 },
 {
-"text": "El cine americano es mejor que el europe.",
+"text": "El cine americano es mejor que el europe",
 "path": "es/02541.mp3",
 "lang": "es"
 },
@@ -9211,13 +9411,13 @@
 "lang": "zh"
 },
 {
-"text": "Soy español, de Sevillia. ¿Cómo te apellidas?",
-"path": "es/02542.mp3",
+"text": "Soy español, de Sevilla. Cómo te apellidas?",
+"path": "es/06900.mp3",
 "lang": "es"
 },
 {
 "text": "我是西班牙人，来自塞维利亚。你姓什么？",
-"path": "zh/02738.mp3",
+"path": "zh/07673.mp3",
 "lang": "zh"
 },
 {
@@ -9228,6 +9428,16 @@
 {
 "text": "年龄",
 "path": "zh/02739.mp3",
+"lang": "zh"
+},
+{
+"text": "recién nacido",
+"path": "es/06901.mp3",
+"lang": "es"
+},
+{
+"text": "新生儿",
+"path": "zh/07674.mp3",
 "lang": "zh"
 },
 {
@@ -9296,6 +9506,16 @@
 "lang": "zh"
 },
 {
+"text": "edad mediana",
+"path": "es/06902.mp3",
+"lang": "es"
+},
+{
+"text": "中年",
+"path": "zh/07675.mp3",
+"lang": "zh"
+},
+{
 "text": "viejo",
 "path": "es/00738.mp3",
 "lang": "es"
@@ -9313,6 +9533,16 @@
 {
 "text": "老人",
 "path": "zh/02748.mp3",
+"lang": "zh"
+},
+{
+"text": "niñas menores de edad",
+"path": "es/06903.mp3",
+"lang": "es"
+},
+{
+"text": "未成年少女",
+"path": "zh/07676.mp3",
 "lang": "zh"
 },
 {
@@ -9336,6 +9566,16 @@
 "lang": "zh"
 },
 {
+"text": "de oro",
+"path": "es/06904.mp3",
+"lang": "es"
+},
+{
+"text": "闪闪发光的",
+"path": "zh/07677.mp3",
+"lang": "zh"
+},
+{
 "text": "etiqueta",
 "path": "es/02286.mp3",
 "lang": "es"
@@ -9346,7 +9586,7 @@
 "lang": "zh"
 },
 {
-"text": "El amor no tiene edad: todavía es incipiente.",
+"text": "El amor no tiene edad: todavía es incipiente",
 "path": "es/02552.mp3",
 "lang": "es"
 },
@@ -9356,7 +9596,7 @@
 "lang": "zh"
 },
 {
-"text": "Este joven encantador tenía dos alas con colores brillantes, y en la cabeza, una corona de oro. él era el rey y vivía en una flor.",
+"text": "Este joven encantador tenía dos alas con colores brillantes, y en la cabeza, una corona de oro. él era el rey y vivía en una flor",
 "path": "es/02553.mp3",
 "lang": "es"
 },
@@ -9366,7 +9606,7 @@
 "lang": "zh"
 },
 {
-"text": "Enseñaron a la chica etiqueta social elegante.",
+"text": "Enseñaron a la chica etiqueta social elegante",
 "path": "es/02554.mp3",
 "lang": "es"
 },
@@ -9438,6 +9678,16 @@
 {
 "text": "司机",
 "path": "zh/02760.mp3",
+"lang": "zh"
+},
+{
+"text": "trabajador de la construcción",
+"path": "es/06905.mp3",
+"lang": "es"
+},
+{
+"text": "建筑工人",
+"path": "zh/07678.mp3",
 "lang": "zh"
 },
 {
@@ -9561,7 +9811,7 @@
 "lang": "zh"
 },
 {
-"text": "La carrera de Tom comenzó a despegar.",
+"text": "La carrera de Tom comenzó a despegar",
 "path": "es/02569.mp3",
 "lang": "es"
 },
@@ -9571,7 +9821,7 @@
 "lang": "zh"
 },
 {
-"text": "Michel vive lejos de la oficina, toma el metro a trabajar todos los días.",
+"text": "Michel vive lejos de la oficina, toma el metro a trabajar todos los días",
 "path": "es/02570.mp3",
 "lang": "es"
 },
@@ -9581,7 +9831,7 @@
 "lang": "zh"
 },
 {
-"text": "De todos modos, mi tío, no exagero, es un verdadero erudito.",
+"text": "De todos modos, mi tío, no exagero, es un verdadero erudito",
 "path": "es/02571.mp3",
 "lang": "es"
 },
@@ -9619,6 +9869,16 @@
 "text": "proclamar",
 "path": "es/02574.mp3",
 "lang": "es"
+},
+{
+"text": "hablar en voz baja",
+"path": "es/06849.mp3",
+"lang": "es"
+},
+{
+"text": "低声说",
+"path": "zh/07622.mp3",
+"lang": "zh"
 },
 {
 "text": "grito",
@@ -9761,7 +10021,7 @@
 "lang": "zh"
 },
 {
-"text": "Te ríes de mí porque soy orgulloso de la cultura de mi pueblo natal.",
+"text": "Te ríes de mí porque soy orgulloso de la cultura de mi pueblo natal",
 "path": "es/02587.mp3",
 "lang": "es"
 },
@@ -9771,7 +10031,7 @@
 "lang": "zh"
 },
 {
-"text": "Parece muy creíble.",
+"text": "Parece muy creíble",
 "path": "es/02588.mp3",
 "lang": "es"
 },
@@ -9781,7 +10041,7 @@
 "lang": "zh"
 },
 {
-"text": "El perdonó a nadie en su crítica.",
+"text": "El perdonó a nadie en su crítica",
 "path": "es/02589.mp3",
 "lang": "es"
 },
@@ -9791,7 +10051,7 @@
 "lang": "zh"
 },
 {
-"text": "Algunas personas viven toda su vida para convencer a la gente, y algunas personas una vida para la mentira.",
+"text": "Algunas personas viven toda su vida para convencer a la gente, y algunas personas una vida para la mentira",
 "path": "es/02590.mp3",
 "lang": "es"
 },
@@ -10016,7 +10276,7 @@
 "lang": "zh"
 },
 {
-"text": "Si no aflojas un poco, jamás llegaremos a un acuerdo.",
+"text": "Si no aflojas un poco, jamás llegaremos a un acuerdo",
 "path": "es/02609.mp3",
 "lang": "es"
 },
@@ -10026,7 +10286,7 @@
 "lang": "zh"
 },
 {
-"text": "En principio estoy de acuerdo con tu opinión.",
+"text": "En principio estoy de acuerdo con tu opinión",
 "path": "es/02610.mp3",
 "lang": "es"
 },
@@ -10036,7 +10296,7 @@
 "lang": "zh"
 },
 {
-"text": "Aplaudimos para dar la bienvenida al alumno recién llegado.",
+"text": "Aplaudimos para dar la bienvenida al alumno recién llegado",
 "path": "es/02611.mp3",
 "lang": "es"
 },
@@ -10046,7 +10306,7 @@
 "lang": "zh"
 },
 {
-"text": "Tengo muchos ejercicios que hacer.",
+"text": "Tengo muchos ejercicios que hacer",
 "path": "es/02612.mp3",
 "lang": "es"
 },
@@ -10056,7 +10316,7 @@
 "lang": "zh"
 },
 {
-"text": "Para nosotros, los alumnos que estudian el francés, esto no es sólo una buena noticia, sino también una opción para nosotros a practicar lo que hemos aprendido.",
+"text": "Para nosotros, los alumnos que estudian el francés, esto no es sólo una buena noticia, sino también una opción para nosotros a practicar lo que hemos aprendido",
 "path": "es/02613.mp3",
 "lang": "es"
 },
@@ -10151,6 +10411,16 @@
 "lang": "zh"
 },
 {
+"text": "colgando de la pierna",
+"path": "es/06850.mp3",
+"lang": "es"
+},
+{
+"text": "拖着脚步走",
+"path": "zh/07623.mp3",
+"lang": "zh"
+},
+{
 "text": "suspender",
 "path": "es/01385.mp3",
 "lang": "es"
@@ -10178,6 +10448,16 @@
 {
 "text": "徘徊",
 "path": "zh/02828.mp3",
+"lang": "zh"
+},
+{
+"text": "acuclillarse",
+"path": "es/06851.mp3",
+"lang": "es"
+},
+{
+"text": "蹲下",
+"path": "zh/07624.mp3",
 "lang": "zh"
 },
 {
@@ -10221,7 +10501,7 @@
 "lang": "zh"
 },
 {
-"text": "Gracias por darme una clasificación tan alta.",
+"text": "Gracias por darme una clasificación tan alta",
 "path": "es/02624.mp3",
 "lang": "es"
 },
@@ -10231,7 +10511,7 @@
 "lang": "zh"
 },
 {
-"text": "Tres cuartas partes de los españoles consideran que el gasto para comprar el coche es demasiado pesado.",
+"text": "Tres cuartas partes de los españoles consideran que el gasto para comprar el coche es demasiado pesado",
 "path": "es/02625.mp3",
 "lang": "es"
 },
@@ -10241,7 +10521,7 @@
 "lang": "zh"
 },
 {
-"text": "La vida es una aventura que nadie salga vivo.",
+"text": "La vida es una aventura que nadie salga vivo",
 "path": "es/02626.mp3",
 "lang": "es"
 },
@@ -10251,7 +10531,7 @@
 "lang": "zh"
 },
 {
-"text": "Gracias y un saludo a todos.",
+"text": "Gracias y un saludo a todos",
 "path": "es/02627.mp3",
 "lang": "es"
 },
@@ -10261,7 +10541,7 @@
 "lang": "zh"
 },
 {
-"text": "Pido perdón por no haberle visto y saludado al principio.",
+"text": "Pido perdón por no haberle visto y saludado al principio",
 "path": "es/02628.mp3",
 "lang": "es"
 },
@@ -10271,7 +10551,7 @@
 "lang": "zh"
 },
 {
-"text": "Tuvo un accidente muy grave, y empezó a cojear desde entonces.",
+"text": "Tuvo un accidente muy grave, y empezó a cojear desde entonces",
 "path": "es/02629.mp3",
 "lang": "es"
 },
@@ -71031,8 +71311,8 @@
 "lang": "zh"
 },
 {
-"text": "comisión de comercio",
-"path": "es/06832.mp3",
+"text": "tienda de consignación",
+"path": "es/06846.mp3",
 "lang": "es"
 },
 {
@@ -71051,8 +71331,8 @@
 "lang": "zh"
 },
 {
-"text": "mercantes de hortalizas",
-"path": "es/06834.mp3",
+"text": "mercado de hortalizas",
+"path": "es/06847.mp3",
 "lang": "es"
 },
 {
