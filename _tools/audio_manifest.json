@@ -10596,6 +10596,16 @@
 "lang": "zh"
 },
 {
+"text": "con cautela",
+"path": "es/06906.mp3",
+"lang": "es"
+},
+{
+"text": "谨慎地",
+"path": "zh/07679.mp3",
+"lang": "zh"
+},
+{
 "text": "confiado",
 "path": "es/02634.mp3",
 "lang": "es"
@@ -10611,13 +10621,13 @@
 "lang": "zh"
 },
 {
-"text": "convencivo",
-"path": "es/02635.mp3",
+"text": "convincente",
+"path": "es/06907.mp3",
 "lang": "es"
 },
 {
 "text": "令人信服的",
-"path": "zh/02844.mp3",
+"path": "zh/07680.mp3",
 "lang": "zh"
 },
 {
@@ -10691,7 +10701,7 @@
 "lang": "zh"
 },
 {
-"text": "El amor es paciente, cuidadoso; amor ignora odio.",
+"text": "El amor es paciente, cuidadoso; amor ignora odio",
 "path": "es/02642.mp3",
 "lang": "es"
 },
@@ -10701,7 +10711,7 @@
 "lang": "zh"
 },
 {
-"text": "Tomar un viaje en bicicleta o en coche tiene sus comodidades, pero puede ser preferible caminar.",
+"text": "Tomar un viaje en bicicleta o en coche tiene sus comodidades, pero puede ser preferible caminar",
 "path": "es/02643.mp3",
 "lang": "es"
 },
@@ -10711,7 +10721,7 @@
 "lang": "zh"
 },
 {
-"text": "Estoy orgulloso de mi cultura natal.",
+"text": "Estoy orgulloso de mi cultura natal",
 "path": "es/02644.mp3",
 "lang": "es"
 },
@@ -10758,6 +10768,16 @@
 {
 "text": "有偏见的",
 "path": "zh/02857.mp3",
+"lang": "zh"
+},
+{
+"text": "ponerse al lado",
+"path": "es/06908.mp3",
+"lang": "es"
+},
+{
+"text": "偏袒",
+"path": "zh/07681.mp3",
 "lang": "zh"
 },
 {
@@ -10901,7 +10921,7 @@
 "lang": "zh"
 },
 {
-"text": "Eres tan dogmático que no hay nadie que quiere hacerse amigos contigo.",
+"text": "Eres tan dogmático que no hay nadie que quiere hacerse amigos contigo",
 "path": "es/02664.mp3",
 "lang": "es"
 },
@@ -10911,7 +10931,7 @@
 "lang": "zh"
 },
 {
-"text": "No te angusties. No pasa nada.",
+"text": "No te angusties. No pasa nada",
 "path": "es/02665.mp3",
 "lang": "es"
 },
@@ -10921,7 +10941,7 @@
 "lang": "zh"
 },
 {
-"text": "La busca desesperante y no la encuentra.",
+"text": "La busca desesperante y no la encuentra",
 "path": "es/02666.mp3",
 "lang": "es"
 },
@@ -10931,7 +10951,7 @@
 "lang": "zh"
 },
 {
-"text": "No soy un escéptico compulsivo.",
+"text": "No soy un escéptico compulsivo",
 "path": "es/02667.mp3",
 "lang": "es"
 },
@@ -10941,7 +10961,7 @@
 "lang": "zh"
 },
 {
-"text": "El niño está furioso con-migo.",
+"text": "El niño está furioso conmigo",
 "path": "es/02668.mp3",
 "lang": "es"
 },
@@ -10951,7 +10971,7 @@
 "lang": "zh"
 },
 {
-"text": "Esa expresión se presta a un equívoco.",
+"text": "Esa expresión se presta a un equívoco",
 "path": "es/02669.mp3",
 "lang": "es"
 },
@@ -10961,7 +10981,7 @@
 "lang": "zh"
 },
 {
-"text": "Esto que dices es muy subjetivo.",
+"text": "Esto que dices es muy subjetivo",
 "path": "es/02670.mp3",
 "lang": "es"
 },
@@ -10971,7 +10991,7 @@
 "lang": "zh"
 },
 {
-"text": "Podemos preciar el amor y despreciará al amante.",
+"text": "Podemos preciar el amor y despreciará al amante",
 "path": "es/02671.mp3",
 "lang": "es"
 },
@@ -10981,13 +11001,13 @@
 "lang": "zh"
 },
 {
-"text": "móvil",
-"path": "es/02672.mp3",
+"text": "teléfono móvil",
+"path": "es/06979.mp3",
 "lang": "es"
 },
 {
-"text": "手机 teléfono",
-"path": "zh/02879.mp3",
+"text": "手机",
+"path": "zh/07752.mp3",
 "lang": "zh"
 },
 {
@@ -11011,13 +11031,53 @@
 "lang": "zh"
 },
 {
-"text": "slider",
-"path": "es/02674.mp3",
+"text": "tonos de llamada",
+"path": "es/06980.mp3",
 "lang": "es"
 },
 {
-"text": "滑盖手机 teléfono",
-"path": "zh/02882.mp3",
+"text": "手机铃声",
+"path": "zh/07753.mp3",
+"lang": "zh"
+},
+{
+"text": "mensajes de voz",
+"path": "es/06981.mp3",
+"lang": "es"
+},
+{
+"text": "语音提示",
+"path": "zh/07754.mp3",
+"lang": "zh"
+},
+{
+"text": "teléfono de la barra",
+"path": "es/06982.mp3",
+"lang": "es"
+},
+{
+"text": "直板手机",
+"path": "zh/07755.mp3",
+"lang": "zh"
+},
+{
+"text": "teléfono plegable",
+"path": "es/06983.mp3",
+"lang": "es"
+},
+{
+"text": "翻盖手机",
+"path": "zh/07756.mp3",
+"lang": "zh"
+},
+{
+"text": "teléfono slider",
+"path": "es/06984.mp3",
+"lang": "es"
+},
+{
+"text": "滑盖手机",
+"path": "zh/07757.mp3",
 "lang": "zh"
 },
 {
@@ -11033,6 +11093,16 @@
 {
 "text": "提示音",
 "path": "zh/02884.mp3",
+"lang": "zh"
+},
+{
+"text": "tarjeta de recarga",
+"path": "es/06985.mp3",
+"lang": "es"
+},
+{
+"text": "充值卡",
+"path": "zh/07758.mp3",
 "lang": "zh"
 },
 {
@@ -11096,7 +11166,7 @@
 "lang": "zh"
 },
 {
-"text": "Acabo de recibir un mensaje de texto informándome que las clases son canceladas.",
+"text": "Acabo de recibir un mensaje de texto informándome que las clases son canceladas",
 "path": "es/02680.mp3",
 "lang": "es"
 },
@@ -11106,7 +11176,7 @@
 "lang": "zh"
 },
 {
-"text": "Vamos a escuchar qué mensajes tenemos en nuestro buzón de voz.",
+"text": "Vamos a escuchar qué mensajes tenemos en nuestro buzón de voz",
 "path": "es/02681.mp3",
 "lang": "es"
 },
@@ -11116,7 +11186,7 @@
 "lang": "zh"
 },
 {
-"text": "Una señal de tráfico advertía el peligro.",
+"text": "Una señal de tráfico advertía el peligro",
 "path": "es/02682.mp3",
 "lang": "es"
 },
@@ -11126,7 +11196,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Cuál es tu número de teléfono?",
+"text": "Cuál es tu número de teléfono?",
 "path": "es/00100.mp3",
 "lang": "es"
 },
@@ -11136,7 +11206,7 @@
 "lang": "zh"
 },
 {
-"text": "No cuelgues el teléfono.",
+"text": "No cuelgues el teléfono",
 "path": "es/02683.mp3",
 "lang": "es"
 },
@@ -11146,7 +11216,7 @@
 "lang": "zh"
 },
 {
-"text": "Te llaman por teléfono.",
+"text": "Te llaman por teléfono",
 "path": "es/02684.mp3",
 "lang": "es"
 },
@@ -11156,7 +11226,7 @@
 "lang": "zh"
 },
 {
-"text": "¿Han dejado algún mensaje para mi?",
+"text": "Han dejado algún mensaje para mi?",
 "path": "es/02685.mp3",
 "lang": "es"
 },
@@ -11183,6 +11253,16 @@
 {
 "text": "键盘",
 "path": "zh/02898.mp3",
+"lang": "zh"
+},
+{
+"text": "ordenador portátil",
+"path": "es/06986.mp3",
+"lang": "es"
+},
+{
+"text": "笔记本",
+"path": "zh/07759.mp3",
 "lang": "zh"
 },
 {
@@ -11386,7 +11466,7 @@
 "lang": "zh"
 },
 {
-"text": "Invadí en su ordenador de casa.",
+"text": "Invadí en su ordenador de casa",
 "path": "es/02706.mp3",
 "lang": "es"
 },
@@ -11396,7 +11476,7 @@
 "lang": "zh"
 },
 {
-"text": "No sé cómo reparo mi ordenador .",
+"text": "No sé cómo reparo mi ordenador",
 "path": "es/02707.mp3",
 "lang": "es"
 },
@@ -11406,7 +11486,7 @@
 "lang": "zh"
 },
 {
-"text": "Tengo un virus en el ordenador que no me deja entrar en ningún archivo.",
+"text": "Tengo un virus en el ordenador que no me deja entrar en ningún archivo",
 "path": "es/02708.mp3",
 "lang": "es"
 },
@@ -11416,7 +11496,7 @@
 "lang": "zh"
 },
 {
-"text": "Cuando la red se enfrenta a la publicidad, tenemos que en-tender mucho más que la red de publicidad.",
+"text": "Cuando la red se enfrenta a la publicidad, tenemos que entender mucho más que la red de publicidad",
 "path": "es/02709.mp3",
 "lang": "es"
 },
@@ -11436,13 +11516,13 @@
 "lang": "zh"
 },
 {
-"text": "web",
-"path": "es/02711.mp3",
+"text": "página web",
+"path": "es/06987.mp3",
 "lang": "es"
 },
 {
-"text": "网页 página",
-"path": "zh/02921.mp3",
+"text": "网页",
+"path": "zh/07760.mp3",
 "lang": "zh"
 },
 {
@@ -11466,6 +11546,26 @@
 "lang": "zh"
 },
 {
+"text": "número de clíc",
+"path": "es/06988.mp3",
+"lang": "es"
+},
+{
+"text": "点击数",
+"path": "zh/07761.mp3",
+"lang": "zh"
+},
+{
+"text": "navegación en la web",
+"path": "es/06989.mp3",
+"lang": "es"
+},
+{
+"text": "网上冲浪",
+"path": "zh/07762.mp3",
+"lang": "zh"
+},
+{
 "text": "cancelar",
 "path": "es/01247.mp3",
 "lang": "es"
@@ -11486,6 +11586,16 @@
 "lang": "zh"
 },
 {
+"text": "número de navegantes",
+"path": "es/06990.mp3",
+"lang": "es"
+},
+{
+"text": "页面浏览人数",
+"path": "zh/07763.mp3",
+"lang": "zh"
+},
+{
 "text": "renovar",
 "path": "es/02714.mp3",
 "lang": "es"
@@ -11493,6 +11603,26 @@
 {
 "text": "刷新",
 "path": "zh/02926.mp3",
+"lang": "zh"
+},
+{
+"text": "archivo de origen",
+"path": "es/06991.mp3",
+"lang": "es"
+},
+{
+"text": "源文件",
+"path": "zh/07764.mp3",
+"lang": "zh"
+},
+{
+"text": "administrador de red",
+"path": "es/06992.mp3",
+"lang": "es"
+},
+{
+"text": "网络管理员",
+"path": "zh/07765.mp3",
 "lang": "zh"
 },
 {
@@ -11531,6 +11661,26 @@
 "lang": "zh"
 },
 {
+"text": "conocer",
+"path": "es/06993.mp3",
+"lang": "es"
+},
+{
+"text": "认识，了解, 熟悉",
+"path": "zh/07766.mp3",
+"lang": "zh"
+},
+{
+"text": "mejor adv. [bien",
+"path": "es/06994.mp3",
+"lang": "es"
+},
+{
+"text": "的比较级]较好地，更好地",
+"path": "zh/07767.mp3",
+"lang": "zh"
+},
+{
 "text": "facilidad",
 "path": "es/02718.mp3",
 "lang": "es"
@@ -11541,7 +11691,7 @@
 "lang": "zh"
 },
 {
-"text": "Los estudiantes ahora pueden ver los resultados del examen en el internet.",
+"text": "Los estudiantes ahora pueden ver los resultados del examen en el internet",
 "path": "es/02719.mp3",
 "lang": "es"
 },
@@ -11551,7 +11701,7 @@
 "lang": "zh"
 },
 {
-"text": "Le gusta navegar por internet.",
+"text": "Le gusta navegar por internet",
 "path": "es/02720.mp3",
 "lang": "es"
 },
@@ -11561,7 +11711,7 @@
 "lang": "zh"
 },
 {
-"text": "El Internet nos permite conocer el mundo mejor.",
+"text": "El Internet nos permite conocer el mundo mejor",
 "path": "es/02721.mp3",
 "lang": "es"
 },
@@ -11571,7 +11721,7 @@
 "lang": "zh"
 },
 {
-"text": "Esto permite encontrar con facilidad la página web que se desea ver.",
+"text": "Esto permite encontrar con facilidad la página web que se desea ver",
 "path": "es/02722.mp3",
 "lang": "es"
 },
@@ -11581,7 +11731,7 @@
 "lang": "zh"
 },
 {
-"text": "Cualquier persona en los últimos 12 meses que ha utilizado el internet, se considera como usuario.",
+"text": "Cualquier persona en los últimos 12 meses que ha utilizado el internet, se considera como usuario",
 "path": "es/02723.mp3",
 "lang": "es"
 },
@@ -11631,8 +11781,13 @@
 "lang": "zh"
 },
 {
-"text": "用户名 nombre de",
-"path": "zh/02939.mp3",
+"text": "nombre de usuario",
+"path": "es/06995.mp3",
+"lang": "es"
+},
+{
+"text": "用户名",
+"path": "zh/07768.mp3",
 "lang": "zh"
 },
 {
@@ -11696,7 +11851,7 @@
 "lang": "zh"
 },
 {
-"text": "e-mail",
+"text": "email",
 "path": "es/02730.mp3",
 "lang": "es"
 },
@@ -11731,6 +11886,16 @@
 "lang": "zh"
 },
 {
+"text": "palabra nueva",
+"path": "es/06996.mp3",
+"lang": "es"
+},
+{
+"text": "新词",
+"path": "zh/07769.mp3",
+"lang": "zh"
+},
+{
 "text": "obstáculo",
 "path": "es/02732.mp3",
 "lang": "es"
@@ -11741,7 +11906,17 @@
 "lang": "zh"
 },
 {
-"text": "Decidimos abrir un español blog para practicar el idioma.",
+"text": "comunicación",
+"path": "es/06997.mp3",
+"lang": "es"
+},
+{
+"text": "联络，联系",
+"path": "zh/07770.mp3",
+"lang": "zh"
+},
+{
+"text": "Decidimos abrir un español blog para practicar el idioma",
 "path": "es/02733.mp3",
 "lang": "es"
 },
@@ -11751,7 +11926,7 @@
 "lang": "zh"
 },
 {
-"text": "Según el artículo, los pasajeros se encuentran con obstáculos de la naturaleza y de la humanidad.",
+"text": "Según el artículo, los pasajeros se encuentran con obstáculos de la naturaleza y de la humanidad",
 "path": "es/02734.mp3",
 "lang": "es"
 },
@@ -11761,13 +11936,23 @@
 "lang": "zh"
 },
 {
-"text": "E-mail se ha convertido en la comunicación interpersonal más común.",
+"text": "Email se ha convertido en la comunicación interpersonal más común",
 "path": "es/02735.mp3",
 "lang": "es"
 },
 {
 "text": "电子邮件已经成为现代人际交流的一种最常见的方式。",
 "path": "zh/02951.mp3",
+"lang": "zh"
+},
+{
+"text": "familia",
+"path": "es/06928.mp3",
+"lang": "es"
+},
+{
+"text": "家庭",
+"path": "zh/07701.mp3",
 "lang": "zh"
 },
 {
@@ -11971,7 +12156,7 @@
 "lang": "zh"
 },
 {
-"text": "Mi marido no puede tolerar demoras de otros.",
+"text": "Mi marido no puede tolerar demoras de otros",
 "path": "es/02754.mp3",
 "lang": "es"
 },
@@ -11981,7 +12166,7 @@
 "lang": "zh"
 },
 {
-"text": "Nuestra relación se basa en la confianza.",
+"text": "Nuestra relación se basa en la confianza",
 "path": "es/02755.mp3",
 "lang": "es"
 },
@@ -11991,7 +12176,7 @@
 "lang": "zh"
 },
 {
-"text": "Mantiene a su familia con la pulpería.",
+"text": "Mantiene a su familia con la pulpería",
 "path": "es/02756.mp3",
 "lang": "es"
 },
@@ -12001,7 +12186,7 @@
 "lang": "zh"
 },
 {
-"text": "Mi madre está telefoneando a mi padre.",
+"text": "Mi madre está telefoneando a mi padre",
 "path": "es/02757.mp3",
 "lang": "es"
 },
@@ -12011,7 +12196,7 @@
 "lang": "zh"
 },
 {
-"text": "Tiene dos hijos varones.",
+"text": "Tiene dos hijos varones",
 "path": "es/02758.mp3",
 "lang": "es"
 },
@@ -12021,7 +12206,7 @@
 "lang": "zh"
 },
 {
-"text": "Ana y Juan tienen una relación de parentesco: son primos.",
+"text": "Ana y Juan tienen una relación de parentesco: son primos",
 "path": "es/02759.mp3",
 "lang": "es"
 },
@@ -12121,6 +12306,16 @@
 "lang": "zh"
 },
 {
+"text": "pedir la mano",
+"path": "es/06929.mp3",
+"lang": "es"
+},
+{
+"text": "求婚",
+"path": "zh/07702.mp3",
+"lang": "zh"
+},
+{
 "text": "atractivo",
 "path": "es/01703.mp3",
 "lang": "es"
@@ -12171,6 +12366,16 @@
 "lang": "zh"
 },
 {
+"text": "amor homosexual",
+"path": "es/06930.mp3",
+"lang": "es"
+},
+{
+"text": "同性恋",
+"path": "zh/07703.mp3",
+"lang": "zh"
+},
+{
 "text": "sexo",
 "path": "es/02773.mp3",
 "lang": "es"
@@ -12181,12 +12386,22 @@
 "lang": "zh"
 },
 {
+"text": "sexo opuesto",
+"path": "es/06931.mp3",
+"lang": "es"
+},
+{
+"text": "异性",
+"path": "zh/07704.mp3",
+"lang": "zh"
+},
+{
 "text": "长久的",
 "path": "zh/02993.mp3",
 "lang": "zh"
 },
 {
-"text": "Su libro El Amante recibió el Premio Goncourt en 1985 en el cual describe su tiempo pasado en Vietnam, Fue un gran éxito.",
+"text": "Su libro El Amante recibió el Premio Goncourt en 1985 en el cual describe su tiempo pasado en Vietnam, Fue un gran éxito",
 "path": "es/02774.mp3",
 "lang": "es"
 },
@@ -12196,7 +12411,7 @@
 "lang": "zh"
 },
 {
-"text": "España, la quiero porque tiene una historia muy larga y es un país romántico.",
+"text": "España, la quiero porque tiene una historia muy larga y es un país romántico",
 "path": "es/02775.mp3",
 "lang": "es"
 },
@@ -12206,7 +12421,7 @@
 "lang": "zh"
 },
 {
-"text": "Amor no es mirarse el uno al otro, sino mirar en la misma dirección.",
+"text": "Amor no es mirarse el uno al otro, sino mirar en la misma dirección",
 "path": "es/02776.mp3",
 "lang": "es"
 },
@@ -12216,17 +12431,17 @@
 "lang": "zh"
 },
 {
-"text": "Amor es comlicado, pero solo a tu lado me siento completa y feliz.",
-"path": "es/02777.mp3",
+"text": "Amor es complicado, pero solo a tu lado me siento completa y feliz",
+"path": "es/06932.mp3",
 "lang": "es"
 },
 {
 "text": "爱很复杂，但只有在你身边我才觉得完整和幸福。",
-"path": "zh/02997.mp3",
+"path": "zh/07705.mp3",
 "lang": "zh"
 },
 {
-"text": "Siempre juega y estudia con algunos compañeros suyos.",
+"text": "Siempre juega y estudia con algunos compañeros suyos",
 "path": "es/02778.mp3",
 "lang": "es"
 },
@@ -12316,6 +12531,16 @@
 "lang": "zh"
 },
 {
+"text": "muy elogiado",
+"path": "es/06933.mp3",
+"lang": "es"
+},
+{
+"text": "高度评价",
+"path": "zh/07706.mp3",
+"lang": "zh"
+},
+{
 "text": "naturalmente",
 "path": "es/02787.mp3",
 "lang": "es"
@@ -12376,6 +12601,16 @@
 "lang": "zh"
 },
 {
+"text": "discutir",
+"path": "es/06934.mp3",
+"lang": "es"
+},
+{
+"text": "争论",
+"path": "zh/07707.mp3",
+"lang": "zh"
+},
+{
 "text": "odiar",
 "path": "es/02793.mp3",
 "lang": "es"
@@ -12431,7 +12666,7 @@
 "lang": "zh"
 },
 {
-"text": "No odies a tu enemigo, o vas a cometer un error en el juicio.",
+"text": "No odies a tu enemigo, o vas a cometer un error en el juicio",
 "path": "es/02798.mp3",
 "lang": "es"
 },
@@ -12441,7 +12676,7 @@
 "lang": "zh"
 },
 {
-"text": "Su oponente aburrida será rechazada.",
+"text": "Su oponente aburrida será rechazada",
 "path": "es/02799.mp3",
 "lang": "es"
 },
@@ -12451,17 +12686,17 @@
 "lang": "zh"
 },
 {
-"text": "Siempre se mantiene hostil hacia nostros.",
-"path": "es/02800.mp3",
+"text": "Siempre se mantiene hostil hacia nosotros",
+"path": "es/06935.mp3",
 "lang": "es"
 },
 {
 "text": "他经常对我们怀有敌意。",
-"path": "zh/03020.mp3",
+"path": "zh/07708.mp3",
 "lang": "zh"
 },
 {
-"text": "Eso te pone en un espacio de competencia constante.",
+"text": "Eso te pone en un espacio de competencia constante",
 "path": "es/02801.mp3",
 "lang": "es"
 },
@@ -12561,6 +12796,26 @@
 "lang": "zh"
 },
 {
+"text": "luna de miel",
+"path": "es/06936.mp3",
+"lang": "es"
+},
+{
+"text": "蜜月",
+"path": "zh/07709.mp3",
+"lang": "zh"
+},
+{
+"text": "vestido de novia",
+"path": "es/06937.mp3",
+"lang": "es"
+},
+{
+"text": "婚纱",
+"path": "zh/07710.mp3",
+"lang": "zh"
+},
+{
 "text": "matrimonio",
 "path": "es/02810.mp3",
 "lang": "es"
@@ -12568,6 +12823,36 @@
 {
 "text": "婚姻",
 "path": "zh/03030.mp3",
+"lang": "zh"
+},
+{
+"text": "ley del matrimonio",
+"path": "es/06938.mp3",
+"lang": "es"
+},
+{
+"text": "婚姻法",
+"path": "zh/07711.mp3",
+"lang": "zh"
+},
+{
+"text": "libertad de casarse",
+"path": "es/06939.mp3",
+"lang": "es"
+},
+{
+"text": "婚姻自由",
+"path": "zh/07712.mp3",
+"lang": "zh"
+},
+{
+"text": "día de la boda",
+"path": "es/06940.mp3",
+"lang": "es"
+},
+{
+"text": "婚期",
+"path": "zh/07713.mp3",
 "lang": "zh"
 },
 {
@@ -12631,7 +12916,7 @@
 "lang": "zh"
 },
 {
-"text": "Los casados viven con más escasez. Se entiende que el sistema fiscal español está a favor del soltería y la convivencia.",
+"text": "Los casados viven con más escasez. Se entiende que el sistema fiscal español está a favor del soltería y la convivencia",
 "path": "es/02817.mp3",
 "lang": "es"
 },
@@ -12641,7 +12926,7 @@
 "lang": "zh"
 },
 {
-"text": "La boda tendrá lugar en noviembre.",
+"text": "La boda tendrá lugar en noviembre",
 "path": "es/02818.mp3",
 "lang": "es"
 },
@@ -12651,7 +12936,7 @@
 "lang": "zh"
 },
 {
-"text": "El anuncio de su boda nos sorprendió a todos.",
+"text": "El anuncio de su boda nos sorprendió a todos",
 "path": "es/02819.mp3",
 "lang": "es"
 },
@@ -12661,7 +12946,7 @@
 "lang": "zh"
 },
 {
-"text": "Juan y Ana se casaron en Madrid.",
+"text": "Juan y Ana se casaron en Madrid",
 "path": "es/02820.mp3",
 "lang": "es"
 },
@@ -12671,7 +12956,7 @@
 "lang": "zh"
 },
 {
-"text": "Tiene una cita con su novia.",
+"text": "Tiene una cita con su novia",
 "path": "es/02821.mp3",
 "lang": "es"
 },
@@ -12681,7 +12966,7 @@
 "lang": "zh"
 },
 {
-"text": "Celebrar los aniversarios de boda es una antigua costumbre que viene desde Inglaterra.",
+"text": "Celebrar los aniversarios de boda es una antigua costumbre que viene desde Inglaterra",
 "path": "es/02822.mp3",
 "lang": "es"
 },
@@ -33879,6 +34164,11 @@
 "text": "简装的",
 "path": "zh/04608.mp3",
 "lang": "zh"
+},
+{
+"text": "móvil",
+"path": "es/02672.mp3",
+"lang": "es"
 },
 {
 "text": "editorial",
