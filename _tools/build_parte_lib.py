@@ -41,6 +41,21 @@ def parse_raw(raw_file):
     # split malformed run-on where a CJK cn is glued to the next entry's latin es
     txt = re.sub(r'([一-鿿])([A-Za-z])', r'\1\n\2', txt)
     lines = txt.split("\n")
+    # split a heading keyword glued onto a content line (e.g. a W/E row ending in
+    # "... n.f.**经典实用句**", or "**经典实用句**例 ...") into separate lines so mode
+    # detection + row parsing work correctly.
+    HEADRE = re.compile(r'(\*\*)?(终极分类词|经典实用句|词汇大拓展)(\*\*)?')
+    expanded = []
+    for ln in lines:
+        mm = HEADRE.search(ln)
+        if not mm:
+            expanded.append(ln); continue
+        before = ln[:mm.start()].strip()
+        after = ln[mm.end():].strip()
+        if before: expanded.append(before)
+        expanded.append(mm.group(0))
+        if after: expanded.append(after)
+    lines = expanded
     secs = {}
     cur=None; mode=None
     i=0
@@ -161,11 +176,15 @@ def py(text):
 def clean_es(t):
     if not t: return t
     t = re.sub(r'\s+', ' ', t)
-    t = re.sub(r'(?<=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])-(?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])', '', t)
+    t = re.sub(r'([A-Za-zÁÉÍÓÚÑÜáéíóúñü])-([A-Za-zÁÉÍÓÚÑÜáéíóúñü])', r'\1\2', t)
     t = re.sub(r'(?<=[aeiouáéíóúAEIOUÁÉÍÓÚ])[.](?=[aeiouáéíóúAEIOUÁÉÍÓÚ])', 'ñ', t)
     t = t.replace("construción","construcción").replace("vidria","vidrio")
     t = re.sub(r'(?<=[\s,;.])[.](?=[a-záéíóúñü])', '', t)
     t = re.sub(r'(?<=[\s.])\.(?=[A-ZÁÉÍÓÚÑÜ])', '', t)
+    # remove a dot wedged between two letters when the two chars before it are both
+    # letters (mid-word OCR, e.g. "sis.tema"->"sistema"); the 2-letter-ahead guard
+    # keeps abbreviations like "n.pl." (char before the dot is a single letter) intact.
+    t = re.sub(r'(?<=[A-Za-zÁÉÍÓÚÑÜáéíóúñü][A-Za-zÁÉÍÓÚÑÜáéíóúñü])[.](?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])', '', t)
     t = re.sub(r'\s+([,;:!?])', r'\1', t)
     t = re.sub(r'[.…]+$', '', t).strip()
     return t
@@ -262,7 +281,11 @@ class Builder:
             return row, "dedup"
         b=self.find_book(cn,ces,book_words)
         if b:
-            row=[cn,b["es"],pos,b["ae"],b["az"],b["py"],b["ipa"]]
+            ces_b=clean_es(b["es"])   # book es may carry stray hyphen/OCR too -> normalize display
+            if ces_b==b["es"]:
+                row=[cn,b["es"],pos,b["ae"],b["az"],b["py"],b["ipa"]]
+            else:
+                row=[cn,ces_b,pos,b["ae"],b["az"],b["py"],text_ipa(ces_b)]
             self.built[key]=list(row)
             return row, "book"
         row=self.mkrow_missing(cn,ces,pos)
