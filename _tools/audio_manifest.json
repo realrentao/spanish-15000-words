@@ -6451,8 +6451,8 @@
 "lang": "zh"
 },
 {
-"text": "terraza",
-"path": "es/02306.mp3",
+"text": "parterre",
+"path": "es/07033.mp3",
 "lang": "es"
 },
 {
@@ -6461,8 +6461,8 @@
 "lang": "zh"
 },
 {
-"text": "lecho de flores",
-"path": "es/06999.mp3",
+"text": "macizo de flores",
+"path": "es/07034.mp3",
 "lang": "es"
 },
 {
@@ -6726,8 +6726,8 @@
 "lang": "zh"
 },
 {
-"text": "vestimenta",
-"path": "es/02322.mp3",
+"text": "ropa confeccionada",
+"path": "es/07035.mp3",
 "lang": "es"
 },
 {
@@ -6816,8 +6816,8 @@
 "lang": "zh"
 },
 {
-"text": "Tal vez en realidad he sido golpeado de vez en cuando, pero nunca he rendido en búsqueda del sueño",
-"path": "es/07009.mp3",
+"text": "Tal vez en realidad he sido golpeado de vez en cuando, pero nunca me he rendido en la búsqueda del sueño",
+"path": "es/07036.mp3",
 "lang": "es"
 },
 {
@@ -7136,8 +7136,8 @@
 "lang": "zh"
 },
 {
-"text": "descongestionar",
-"path": "es/02347.mp3",
+"text": "desobstruir",
+"path": "es/07037.mp3",
 "lang": "es"
 },
 {
@@ -7246,8 +7246,8 @@
 "lang": "zh"
 },
 {
-"text": "El niño: “es como mamá ayer que se puso de pie ante el fregadero bien, si no, la llevó a la los correos.”",
-"path": "es/02351.mp3",
+"text": "El niño: “es como mamá ayer que se puso de pie ante el fregadero bien, si no, la llevó a la oficina de correos.”",
+"path": "es/07038.mp3",
 "lang": "es"
 },
 {
@@ -7326,8 +7326,8 @@
 "lang": "zh"
 },
 {
-"text": "meter",
-"path": "es/02357.mp3",
+"text": "amontonar",
+"path": "es/07039.mp3",
 "lang": "es"
 },
 {
@@ -7391,8 +7391,8 @@
 "lang": "es"
 },
 {
-"text": "organizar",
-"path": "es/01167.mp3",
+"text": "gestionar",
+"path": "es/03551.mp3",
 "lang": "es"
 },
 {
@@ -7401,8 +7401,8 @@
 "lang": "zh"
 },
 {
-"text": "barrer",
-"path": "es/02363.mp3",
+"text": "eliminar",
+"path": "es/02731.mp3",
 "lang": "es"
 },
 {
@@ -7411,8 +7411,8 @@
 "lang": "zh"
 },
 {
-"text": "disociar",
-"path": "es/02364.mp3",
+"text": "descomponer",
+"path": "es/07040.mp3",
 "lang": "es"
 },
 {
@@ -7431,8 +7431,8 @@
 "lang": "zh"
 },
 {
-"text": "botadero de vertedero",
-"path": "es/07027.mp3",
+"text": "vertedero",
+"path": "es/07041.mp3",
 "lang": "es"
 },
 {
@@ -12181,11 +12181,6 @@
 "lang": "zh"
 },
 {
-"text": "eliminar",
-"path": "es/02731.mp3",
-"lang": "es"
-},
-{
 "text": "删除",
 "path": "zh/02946.mp3",
 "lang": "zh"
@@ -15539,6 +15534,11 @@
 "text": "心不在焉的",
 "path": "zh/03255.mp3",
 "lang": "zh"
+},
+{
+"text": "organizar",
+"path": "es/01167.mp3",
+"lang": "es"
 },
 {
 "text": "排",
@@ -27144,11 +27144,6 @@
 "text": "顾问",
 "path": "zh/03880.mp3",
 "lang": "zh"
-},
-{
-"text": "gestionar",
-"path": "es/03551.mp3",
-"lang": "es"
 },
 {
 "text": "经营",
