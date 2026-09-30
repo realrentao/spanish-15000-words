@@ -6431,6 +6431,16 @@
 "lang": "zh"
 },
 {
+"text": "hacer promesas",
+"path": "es/06998.mp3",
+"lang": "es"
+},
+{
+"text": "许愿",
+"path": "zh/07771.mp3",
+"lang": "zh"
+},
+{
 "text": "moneda",
 "path": "es/02143.mp3",
 "lang": "es"
@@ -6448,6 +6458,26 @@
 {
 "text": "花坛",
 "path": "zh/02471.mp3",
+"lang": "zh"
+},
+{
+"text": "lecho de flores",
+"path": "es/06999.mp3",
+"lang": "es"
+},
+{
+"text": "花坛",
+"path": "zh/07772.mp3",
+"lang": "zh"
+},
+{
+"text": "sin obstáculo",
+"path": "es/07000.mp3",
+"lang": "es"
+},
+{
+"text": "没有阻碍的",
+"path": "zh/07773.mp3",
 "lang": "zh"
 },
 {
@@ -6471,13 +6501,13 @@
 "lang": "zh"
 },
 {
-"text": "grupo",
-"path": "es/02308.mp3",
+"text": "en grupo",
+"path": "es/07001.mp3",
 "lang": "es"
 },
 {
-"text": "成群结队 en",
-"path": "zh/02474.mp3",
+"text": "成群结队",
+"path": "zh/07774.mp3",
 "lang": "zh"
 },
 {
@@ -6546,7 +6576,7 @@
 "lang": "zh"
 },
 {
-"text": "El símbolo arquitectónico de la ciudad es la Plaza Mayor.",
+"text": "El símbolo arquitectónico de la ciudad es la Plaza Mayor",
 "path": "es/02314.mp3",
 "lang": "es"
 },
@@ -6556,7 +6586,7 @@
 "lang": "zh"
 },
 {
-"text": "Hay un número fabuloso de personas en la plaza.",
+"text": "Hay un número fabuloso de personas en la plaza",
 "path": "es/02315.mp3",
 "lang": "es"
 },
@@ -6566,7 +6596,7 @@
 "lang": "zh"
 },
 {
-"text": "En medio de la plaza hay una fuente.",
+"text": "En medio de la plaza hay una fuente",
 "path": "es/02316.mp3",
 "lang": "es"
 },
@@ -6576,7 +6606,7 @@
 "lang": "zh"
 },
 {
-"text": "Todavía seguimos acariciando el recuerdo de esa multitud jubilosa.",
+"text": "Todavía seguimos acariciando el recuerdo de esa multitud jubilosa",
 "path": "es/02317.mp3",
 "lang": "es"
 },
@@ -6586,13 +6616,53 @@
 "lang": "zh"
 },
 {
-"text": "Un numeroso público con-currió a la fiesta.",
+"text": "Un numeroso público concurrió a la fiesta",
 "path": "es/02318.mp3",
 "lang": "es"
 },
 {
 "text": "许多群众参加了联欢会。",
 "path": "zh/02486.mp3",
+"lang": "zh"
+},
+{
+"text": "vida nocturna",
+"path": "es/07002.mp3",
+"lang": "es"
+},
+{
+"text": "夜生活",
+"path": "zh/07775.mp3",
+"lang": "zh"
+},
+{
+"text": "toda la noche",
+"path": "es/07003.mp3",
+"lang": "es"
+},
+{
+"text": "通宵",
+"path": "zh/07776.mp3",
+"lang": "zh"
+},
+{
+"text": "vendedor ambulante",
+"path": "es/07004.mp3",
+"lang": "es"
+},
+{
+"text": "小贩",
+"path": "zh/07777.mp3",
+"lang": "zh"
+},
+{
+"text": "multitud innumerable",
+"path": "es/07005.mp3",
+"lang": "es"
+},
+{
+"text": "人流涌动",
+"path": "zh/07778.mp3",
 "lang": "zh"
 },
 {
@@ -6603,6 +6673,16 @@
 {
 "text": "霓虹灯广告",
 "path": "zh/02487.mp3",
+"lang": "zh"
+},
+{
+"text": "todo tipo de",
+"path": "es/07006.mp3",
+"lang": "es"
+},
+{
+"text": "各种各样",
+"path": "zh/07779.mp3",
 "lang": "zh"
 },
 {
@@ -6623,6 +6703,26 @@
 {
 "text": "摊位",
 "path": "zh/02489.mp3",
+"lang": "zh"
+},
+{
+"text": "puesto de frutas",
+"path": "es/07007.mp3",
+"lang": "es"
+},
+{
+"text": "水果摊",
+"path": "zh/07780.mp3",
+"lang": "zh"
+},
+{
+"text": "de mala calidad",
+"path": "es/07008.mp3",
+"lang": "es"
+},
+{
+"text": "品质低劣",
+"path": "zh/07781.mp3",
 "lang": "zh"
 },
 {
@@ -6706,7 +6806,7 @@
 "lang": "zh"
 },
 {
-"text": "No se puede olvidar la historia, y la diversidad cultural no desaparecerá nunca.",
+"text": "No se puede olvidar la historia, y la diversidad cultural no desaparecerá nunca",
 "path": "es/02328.mp3",
 "lang": "es"
 },
@@ -6716,13 +6816,23 @@
 "lang": "zh"
 },
 {
-"text": "Tal vez en realidad he sido golpeado de vez en cuando, pero nunca he rendido en búsquada del sueño.",
-"path": "es/02329.mp3",
+"text": "Tal vez en realidad he sido golpeado de vez en cuando, pero nunca he rendido en búsqueda del sueño",
+"path": "es/07009.mp3",
 "lang": "es"
 },
 {
 "text": "也许现实中撞得左忽右转，但是我没有停止过对这个梦的追逐。",
-"path": "zh/02498.mp3",
+"path": "zh/07782.mp3",
+"lang": "zh"
+},
+{
+"text": "la ciencia veterinaria",
+"path": "es/07010.mp3",
+"lang": "es"
+},
+{
+"text": "兽医学",
+"path": "zh/07783.mp3",
 "lang": "zh"
 },
 {
@@ -6736,6 +6846,26 @@
 "lang": "zh"
 },
 {
+"text": "certificado veterinario",
+"path": "es/07011.mp3",
+"lang": "es"
+},
+{
+"text": "兽医证明书",
+"path": "zh/07784.mp3",
+"lang": "zh"
+},
+{
+"text": "jeringa de inyección",
+"path": "es/07012.mp3",
+"lang": "es"
+},
+{
+"text": "液体喷射器",
+"path": "zh/07785.mp3",
+"lang": "zh"
+},
+{
 "text": "jeringa",
 "path": "es/02331.mp3",
 "lang": "es"
@@ -6746,6 +6876,16 @@
 "lang": "zh"
 },
 {
+"text": "aguja de la jeringa",
+"path": "es/07013.mp3",
+"lang": "es"
+},
+{
+"text": "注射器针头",
+"path": "zh/07786.mp3",
+"lang": "zh"
+},
+{
 "text": "cultivar",
 "path": "es/02332.mp3",
 "lang": "es"
@@ -6753,6 +6893,16 @@
 {
 "text": "培养",
 "path": "zh/02501.mp3",
+"lang": "zh"
+},
+{
+"text": "vacuna antirrábica",
+"path": "es/07014.mp3",
+"lang": "es"
+},
+{
+"text": "狂犬疫苗",
+"path": "zh/07787.mp3",
 "lang": "zh"
 },
 {
@@ -6836,7 +6986,7 @@
 "lang": "zh"
 },
 {
-"text": "Usted tendrá que cultivar la paciencia y hacer frente a la mala situación.",
+"text": "Usted tendrá que cultivar la paciencia y hacer frente a la mala situación",
 "path": "es/02340.mp3",
 "lang": "es"
 },
@@ -6846,7 +6996,7 @@
 "lang": "zh"
 },
 {
-"text": "Sólo hay un error: no tiene la capacidad que se alimente por la luz.",
+"text": "Sólo hay un error: no tiene la capacidad que se alimente por la luz",
 "path": "es/02341.mp3",
 "lang": "es"
 },
@@ -6856,13 +7006,33 @@
 "lang": "zh"
 },
 {
-"text": "Pero incluso en el imperio muy materialista, el dinero no sería suficiente para traer la felicidad.",
+"text": "Pero incluso en el imperio muy materialista, el dinero no sería suficiente para traer la felicidad",
 "path": "es/02342.mp3",
 "lang": "es"
 },
 {
 "text": "但即使在这个变得疯狂的物欲横流的帝国里，钱似乎已经不足以带来幸福了。",
 "path": "zh/02511.mp3",
+"lang": "zh"
+},
+{
+"text": "baño de hombres",
+"path": "es/07015.mp3",
+"lang": "es"
+},
+{
+"text": "男厕所",
+"path": "zh/07788.mp3",
+"lang": "zh"
+},
+{
+"text": "baño de mujeres",
+"path": "es/07016.mp3",
+"lang": "es"
+},
+{
+"text": "女厕所",
+"path": "zh/07789.mp3",
 "lang": "zh"
 },
 {
@@ -6916,6 +7086,16 @@
 "lang": "zh"
 },
 {
+"text": "papel higiénico",
+"path": "es/07017.mp3",
+"lang": "es"
+},
+{
+"text": "卫生纸",
+"path": "zh/07790.mp3",
+"lang": "zh"
+},
+{
 "text": "hedor",
 "path": "es/02346.mp3",
 "lang": "es"
@@ -6923,6 +7103,36 @@
 {
 "text": "臭味",
 "path": "zh/02515.mp3",
+"lang": "zh"
+},
+{
+"text": "cepillo de inodoro",
+"path": "es/07018.mp3",
+"lang": "es"
+},
+{
+"text": "马桶刷",
+"path": "zh/07791.mp3",
+"lang": "zh"
+},
+{
+"text": "un asiento de inodoro",
+"path": "es/07019.mp3",
+"lang": "es"
+},
+{
+"text": "马桶座圈",
+"path": "zh/07792.mp3",
+"lang": "zh"
+},
+{
+"text": "tapa del inodoro",
+"path": "es/07020.mp3",
+"lang": "es"
+},
+{
+"text": "马桶盖",
+"path": "zh/07793.mp3",
 "lang": "zh"
 },
 {
@@ -6956,6 +7166,26 @@
 "lang": "zh"
 },
 {
+"text": "lavar",
+"path": "es/07021.mp3",
+"lang": "es"
+},
+{
+"text": "洗涤，清洗",
+"path": "zh/07794.mp3",
+"lang": "zh"
+},
+{
+"text": "antes",
+"path": "es/07022.mp3",
+"lang": "es"
+},
+{
+"text": "在……之前",
+"path": "zh/07795.mp3",
+"lang": "zh"
+},
+{
 "text": "mesa",
 "path": "es/00604.mp3",
 "lang": "es"
@@ -6973,6 +7203,16 @@
 {
 "text": "供应的物品，供给的东西",
 "path": "zh/02520.mp3",
+"lang": "zh"
+},
+{
+"text": "sustituir",
+"path": "es/07023.mp3",
+"lang": "es"
+},
+{
+"text": "替换，取代",
+"path": "zh/07796.mp3",
 "lang": "zh"
 },
 {
@@ -7016,7 +7256,7 @@
 "lang": "zh"
 },
 {
-"text": "Lávate las manos en el lavabo antes de sentarte a la mesa.",
+"text": "Lávate las manos en el lavabo antes de sentarte a la mesa",
 "path": "es/02352.mp3",
 "lang": "es"
 },
@@ -7026,7 +7266,7 @@
 "lang": "zh"
 },
 {
-"text": "El grupo de trabajo comunicó sobre el suministro de la-vabos.",
+"text": "El grupo de trabajo comunicó sobre el suministro de lavabos",
 "path": "es/02353.mp3",
 "lang": "es"
 },
@@ -7036,7 +7276,7 @@
 "lang": "zh"
 },
 {
-"text": "él sustituyó el jabón por un detergente.",
+"text": "él sustituyó el jabón por un detergente",
 "path": "es/02354.mp3",
 "lang": "es"
 },
@@ -7046,7 +7286,7 @@
 "lang": "zh"
 },
 {
-"text": "Es un olor desagradable.",
+"text": "Es un olor desagradable",
 "path": "es/02355.mp3",
 "lang": "es"
 },
@@ -7073,6 +7313,16 @@
 {
 "text": "纸篓",
 "path": "zh/02528.mp3",
+"lang": "zh"
+},
+{
+"text": "vaciar la papelera",
+"path": "es/07024.mp3",
+"lang": "es"
+},
+{
+"text": "倒垃圾",
+"path": "zh/07797.mp3",
 "lang": "zh"
 },
 {
@@ -7103,6 +7353,16 @@
 {
 "text": "废料",
 "path": "zh/02531.mp3",
+"lang": "zh"
+},
+{
+"text": "tubería de aguas residuales",
+"path": "es/07025.mp3",
+"lang": "es"
+},
+{
+"text": "污水管",
+"path": "zh/07798.mp3",
 "lang": "zh"
 },
 {
@@ -7161,6 +7421,56 @@
 "lang": "zh"
 },
 {
+"text": "camión de la basura",
+"path": "es/07026.mp3",
+"lang": "es"
+},
+{
+"text": "垃圾车",
+"path": "zh/07799.mp3",
+"lang": "zh"
+},
+{
+"text": "botadero de vertedero",
+"path": "es/07027.mp3",
+"lang": "es"
+},
+{
+"text": "垃圾场",
+"path": "zh/07800.mp3",
+"lang": "zh"
+},
+{
+"text": "reciclaje de residuos",
+"path": "es/07028.mp3",
+"lang": "es"
+},
+{
+"text": "垃圾回收处理",
+"path": "zh/07801.mp3",
+"lang": "zh"
+},
+{
+"text": "recogidor de basura",
+"path": "es/07029.mp3",
+"lang": "es"
+},
+{
+"text": "捡垃圾者",
+"path": "zh/07802.mp3",
+"lang": "zh"
+},
+{
+"text": "tirar",
+"path": "es/07030.mp3",
+"lang": "es"
+},
+{
+"text": "丢弃，扔掉",
+"path": "zh/07803.mp3",
+"lang": "zh"
+},
+{
 "text": "prohibido",
 "path": "es/01083.mp3",
 "lang": "es"
@@ -7191,6 +7501,16 @@
 "lang": "zh"
 },
 {
+"text": "reciclar",
+"path": "es/07031.mp3",
+"lang": "es"
+},
+{
+"text": "使再生，回收",
+"path": "zh/07804.mp3",
+"lang": "zh"
+},
+{
 "text": "fábrica",
 "path": "es/02366.mp3",
 "lang": "es"
@@ -7201,17 +7521,17 @@
 "lang": "zh"
 },
 {
-"text": "Tal vez deberíamos buscar los basureres.",
-"path": "es/02367.mp3",
+"text": "Tal vez deberíamos buscar los basureros",
+"path": "es/07032.mp3",
 "lang": "es"
 },
 {
 "text": "也许我们该找找垃圾箱。",
-"path": "zh/02540.mp3",
+"path": "zh/07805.mp3",
 "lang": "zh"
 },
 {
-"text": "Hay que tirar la basura al basurero.",
+"text": "Hay que tirar la basura al basurero",
 "path": "es/02368.mp3",
 "lang": "es"
 },
@@ -7221,7 +7541,7 @@
 "lang": "zh"
 },
 {
-"text": "Está prohibido tirar basura en la calle.",
+"text": "Está prohibido tirar basura en la calle",
 "path": "es/02369.mp3",
 "lang": "es"
 },
@@ -7231,7 +7551,7 @@
 "lang": "zh"
 },
 {
-"text": "Clasificamos las basuras para reciclar vidrio, cartón y papel.",
+"text": "Clasificamos las basuras para reciclar vidrio, cartón y papel",
 "path": "es/02370.mp3",
 "lang": "es"
 },
@@ -7241,7 +7561,7 @@
 "lang": "zh"
 },
 {
-"text": "Los filtros de carbono purificarán los humos de la antigua fábrica.",
+"text": "Los filtros de carbono purificarán los humos de la antigua fábrica",
 "path": "es/02371.mp3",
 "lang": "es"
 },
