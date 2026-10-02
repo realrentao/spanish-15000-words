@@ -1929,7 +1929,170 @@ G33 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33}
+G34 = {
+ "name": "政治相关",
+ "raw": "_tools/parte34_raw.txt",
+ "typo": {
+   "cle ": "de ",            # lista cle aplicación -> lista de aplicación
+   "permanence": "permanece",  # 拼写错误
+   "españa": "España",       # 西语国名首字母大写
+   "EEñUU": "EE.UU",          # clean 的 ñ 自愈误伤缩写（EE.UU），末尾句点由引擎补
+   "explotaclón": "explotación",   # OCR：l->ó
+ },
+ "fix": {
+   # ---- Sec1 国家政治
+   ("公务员", "oficial"): "funcionario",   # oficial=军官；公务员=funcionario
+   # ---- Sec3 社会形态
+   ("社会", "comunidad"): "sociedad",      # comunidad=社区；社会=sociedad
+   # ---- Sec4 社会发展
+   ("变革", "cambiar"): "cambiar",         # 中文名词「变革」=transformación
+   # ---- Sec5 政治制度
+   ("君主专制", "monarquía"): "monarquía absoluta",   # 君主专制≠君主制
+   # ---- Sec6 国家各部门
+   # ---- Sec7 竞选
+   # ---- Sec8 投票
+   # ---- Sec9 外交（1）
+   ("庇护", "patrocinio"): "protección",   # patrocinio=赞助/庇护(法律)
+   # ---- Sec10 外交（2）
+   # ---- Sec11 权利义务
+   ("游行", "manifestación"): "manifestación",
+   ("侵犯", "invadir"): "vulnerar",         # invadir=军事入侵；侵犯权利=vulnerar
+ },
+ "pos": {
+   # Sec1
+   ("国家", "país"): "n.m.",
+   ("国家", "nación"): "n.f.",
+   ("政治", "política"): "n.f.",
+   ("参议院", "senado"): "n.m.",
+   ("国会，议会", "parlamento"): "n.m.",
+   ("公务员", "funcionario"): "n.m.",
+   # Sec3
+   ("社会", "sociedad"): "n.f.",
+   ("封建制度", "feudalismo"): "n.m.",
+   ("奴隶制", "esclavitud"): "n.f.",
+   ("社会主义", "socialismo"): "n.m.",
+   ("资本主义", "capitalismo"): "n.m.",
+   ("个人主义", "individualismo"): "n.m.",
+   ("阶段", "etapa"): "n.f.",
+   # Sec4
+   ("革命", "revolución"): "n.f.",
+   ("改革", "reforma"): "n.f.",
+   ("全球化", "globalización"): "n.f.",
+   ("城市化", "urbanización"): "n.f.",
+   # Sec5
+   ("政策", "política"): "n.f.",
+   ("结构", "estructura"): "n.f.",
+   ("马克思主义", "marxismo"): "n.m.",
+   ("无产阶级", "proletariado"): "n.m.",
+   ("资产阶级", "burguesía"): "n.f.",
+   ("专制", "autocracia"): "n.f.",
+   ("主权", "soberanía"): "n.f.",
+   ("独立的", "independiente"): "adj.",
+   # Sec6
+   ("中央集权制", "centralismo"): "n.m.",
+   ("部", "ministerio"): "n.m.",
+   ("部门", "departamento"): "n.m.",
+   ("部长", "ministro"): "n.m.",
+   # Sec7
+   ("竞选活动", "campaña"): "n.f.",
+   ("总统的", "presidencial"): "adj.",
+   ("党", "partido"): "n.m.",
+   ("连任", "reelección"): "n.f.",
+   ("演说", "discurso"): "n.m.",
+   ("竞争", "competencia"): "n.f.",
+   ("口号", "lema"): "n.m.",
+   ("候选人", "candidato"): "n.m.",
+   ("支持者", "partidario"): "n.m.",
+   ("辩论", "argumentar"): "v.i.",
+   ("选举", "elegir"): "v.t.",
+   # Sec8
+   ("选票", "votación"): "n.f.",
+   ("选票主义", "electoralista"): "n.m.",
+   ("公民投票", "reférendum"): "n.m.",
+   ("轮", "ronda"): "n.f.",
+   ("结果", "resultado"): "n.m.",
+   ("投票箱", "urna"): "n.f.",
+   ("不固定的", "flotante"): "adj.",
+   ("长久的", "sostenible"): "adj.",
+   # Sec9
+   ("外交", "diplomacia"): "n.f.",
+   ("外国的", "extranjero"): "adj.",
+   ("外国人", "extranjero"): "n.m.",
+   ("分歧", "divergencia"): "n.f.",
+   ("途径", "manera"): "n.f.",
+   ("发言人", "portavoz"): "n.m.",
+   ("大使", "embajador"): "n.m.",
+   ("领事", "cónsul"): "n.m.",
+   ("驱逐", "expulsión"): "n.f.",
+   ("豁免", "exención"): "n.f.",
+   ("庇护", "protección"): "n.f.",
+   # Sec10
+   ("外交官", "diplomático"): "n.m.",
+   ("大使馆", "embajada"): "n.f.",
+   ("领事的", "consular"): "adj.",
+   ("彻底地", "totalmente"): "adv.",
+   ("代表团", "delegación"): "n.f.",
+   ("移民", "inmigrante"): "n.m.",
+   ("断绝", "romper"): "v.t.",
+   ("恢复", "restaurar"): "v.t.",
+   ("合作", "cooperar"): "v.i.",
+   ("抗议", "protestar"): "v.i.",
+   ("中断", "suspender"): "v.t.",
+   # Sec11
+   ("权利", "derecho"): "n.m.",
+   ("自由", "libertad"): "n.f.",
+   ("义务", "deber"): "n.m.",
+   ("游行", "manifestación"): "n.f.",
+   ("人格", "personalidad"): "n.f.",
+   ("尊严", "dignidad"): "n.f.",
+   ("种族", "raza"): "n.f.",
+   ("性别", "sexo"): "n.m.",
+   ("平等的", "igual"): "adj.",
+   ("承担", "asumir"): "v.t.",
+   ("侵犯", "vulnerar"): "v.t.",
+   ("团结", "unir"): "v.t.",
+ },
+ "subs": [
+   # Sec3 拼写
+   ("La moda pasa, pero el estilo permanence",
+    "La moda pasa, pero el estilo permanece"),
+   # Sec5 中文译文与西语不符
+   ("La mayoría de los votantes libres lo respaldan y hace que el candidato republicano quede atrás en las encuestas",
+    "La mayoría de los votantes libres lo respaldan, y eso hace que el candidato republicano quede atrás en las encuestas"),
+   # Sec6 农业句：养殖业->农业
+   ("La agricultura tiene más potencia de el desarrollo económico en la economía rural",
+    "La agricultura tiene más potencial de desarrollo económico en la economía rural"),
+   ("Tenemos una política estricta para la admisión y la lista de aplicación",
+    "Tenemos una política estricta para la admisión y la lista de solicitudes"),
+   ("No hay un abismo infranqueable entre la democracia y el centralismo y los dos son necesarios",
+    "No hay un abismo infranqueable entre la democracia y el centralismo: los dos son necesarios"),
+   # Sec7
+   (".Por qué no argumentas mejor tus ideas?",
+    "¿Por qué no argumentas mejor tus ideas?"),
+   # Sec9
+   ("El orador más grande en el mundo es el éxito",
+    "El orador más grande del mundo es el éxito"),
+   # Sec10
+   ("Fue destinado como canciller a la embajada española en Londeres",
+    "Fue destinado como canciller a la embajada española en Londres"),
+   # Sec11
+   ("El constructor se niega a asumir la respondabilidad del accidente y culpa de lo ocurrido al arquitecto",
+    "El constructor se niega a asumir la responsabilidad del accidente y culpa de lo ocurrido al arquitecto"),
+ ],
+ "zh_subs": [
+   # Sec6 原文「养殖业」但西语 es La agricultura（农业）
+   ("养殖业是农村经济中最具发展潜力的主导产业之—。", "农业是农村经济中最具发展潜力的主导产业之一。"),
+   # Sec5 中文「背向大多数的自由选举人并且…」与西语不符
+   ("背向大多数的自由选举人并且在民意测验中使得共和党候选人落后。",
+    "大多数自由选票的选民支持他，这使得共和党候选人在民意测验中落后。"),
+   # Sec10 中文「外交官助理」与西语 canciller（外交部长）不符
+   ("他作为外交官助理被派往西班牙驻伦敦大使馆。", "他作为外交部长助理被派往西班牙驻伦敦大使馆。"),
+   # Sec11 中文「没有调查就没有发言权」原文写「调査」（异体字）
+   ("没有调查就没有发言权。", "没有调查就没有发言权。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

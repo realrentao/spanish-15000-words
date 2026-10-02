@@ -55911,6 +55911,16 @@
 "lang": "zh"
 },
 {
+"text": "primer ministro",
+"path": "es/08877.mp3",
+"lang": "es"
+},
+{
+"text": "总理",
+"path": "zh/09528.mp3",
+"lang": "zh"
+},
+{
 "text": "gobernador",
 "path": "es/05179.mp3",
 "lang": "es"
@@ -55941,6 +55951,16 @@
 "lang": "zh"
 },
 {
+"text": "cámara de representantes",
+"path": "es/08878.mp3",
+"lang": "es"
+},
+{
+"text": "众议院",
+"path": "zh/09529.mp3",
+"lang": "zh"
+},
+{
 "text": "parlamento",
 "path": "es/05182.mp3",
 "lang": "es"
@@ -55951,8 +55971,13 @@
 "lang": "zh"
 },
 {
+"text": "funcionario",
+"path": "es/08879.mp3",
+"lang": "es"
+},
+{
 "text": "公务员",
-"path": "zh/05780.mp3",
+"path": "zh/09530.mp3",
 "lang": "zh"
 },
 {
@@ -55963,6 +55988,76 @@
 {
 "text": "支持",
 "path": "zh/05781.mp3",
+"lang": "zh"
+},
+{
+"text": "Estado soberano",
+"path": "es/08880.mp3",
+"lang": "es"
+},
+{
+"text": "主权国家",
+"path": "zh/09531.mp3",
+"lang": "zh"
+},
+{
+"text": "Estado republicano",
+"path": "es/08881.mp3",
+"lang": "es"
+},
+{
+"text": "共和制国家",
+"path": "zh/09532.mp3",
+"lang": "zh"
+},
+{
+"text": "Estado federal",
+"path": "es/08882.mp3",
+"lang": "es"
+},
+{
+"text": "联邦制国家",
+"path": "zh/09533.mp3",
+"lang": "zh"
+},
+{
+"text": "Estado socialista",
+"path": "es/08883.mp3",
+"lang": "es"
+},
+{
+"text": "社会主义国家",
+"path": "zh/09534.mp3",
+"lang": "zh"
+},
+{
+"text": "hombre de Estado",
+"path": "es/08884.mp3",
+"lang": "es"
+},
+{
+"text": "国务活动家",
+"path": "zh/09535.mp3",
+"lang": "zh"
+},
+{
+"text": "jefe de Estado",
+"path": "es/08885.mp3",
+"lang": "es"
+},
+{
+"text": "国家元首",
+"path": "zh/09536.mp3",
+"lang": "zh"
+},
+{
+"text": "golpe de Estado",
+"path": "es/08886.mp3",
+"lang": "es"
+},
+{
+"text": "政变",
+"path": "zh/09537.mp3",
 "lang": "zh"
 },
 {
@@ -56036,7 +56131,7 @@
 "lang": "zh"
 },
 {
-"text": "Subióa la escena política.",
+"text": "Subió a la escena política.",
 "path": "es/05190.mp3",
 "lang": "es"
 },
@@ -56083,6 +56178,156 @@
 {
 "text": "议会将颁布一条新法律。",
 "path": "zh/05793.mp3",
+"lang": "zh"
+},
+{
+"text": "China",
+"path": "es/08887.mp3",
+"lang": "es"
+},
+{
+"text": "中国",
+"path": "zh/09538.mp3",
+"lang": "zh"
+},
+{
+"text": "Francia",
+"path": "es/08888.mp3",
+"lang": "es"
+},
+{
+"text": "法国",
+"path": "zh/09539.mp3",
+"lang": "zh"
+},
+{
+"text": "Estados Unidos (EE.UU.)",
+"path": "es/08889.mp3",
+"lang": "es"
+},
+{
+"text": "美国",
+"path": "zh/09540.mp3",
+"lang": "zh"
+},
+{
+"text": "Canadá",
+"path": "es/08890.mp3",
+"lang": "es"
+},
+{
+"text": "加拿大",
+"path": "zh/09541.mp3",
+"lang": "zh"
+},
+{
+"text": "Japón",
+"path": "es/08891.mp3",
+"lang": "es"
+},
+{
+"text": "日本",
+"path": "zh/09542.mp3",
+"lang": "zh"
+},
+{
+"text": "Australia",
+"path": "es/08892.mp3",
+"lang": "es"
+},
+{
+"text": "澳大利亚",
+"path": "zh/09543.mp3",
+"lang": "zh"
+},
+{
+"text": "Rusia",
+"path": "es/08893.mp3",
+"lang": "es"
+},
+{
+"text": "俄罗斯",
+"path": "zh/09544.mp3",
+"lang": "zh"
+},
+{
+"text": "Inglaterra",
+"path": "es/08894.mp3",
+"lang": "es"
+},
+{
+"text": "英国",
+"path": "zh/09545.mp3",
+"lang": "zh"
+},
+{
+"text": "Alemania",
+"path": "es/08895.mp3",
+"lang": "es"
+},
+{
+"text": "德国",
+"path": "zh/09546.mp3",
+"lang": "zh"
+},
+{
+"text": "Corea del sur",
+"path": "es/08896.mp3",
+"lang": "es"
+},
+{
+"text": "韩国",
+"path": "zh/09547.mp3",
+"lang": "zh"
+},
+{
+"text": "Finlandia",
+"path": "es/08897.mp3",
+"lang": "es"
+},
+{
+"text": "芬兰",
+"path": "zh/09548.mp3",
+"lang": "zh"
+},
+{
+"text": "Suiza",
+"path": "es/08898.mp3",
+"lang": "es"
+},
+{
+"text": "瑞士",
+"path": "zh/09549.mp3",
+"lang": "zh"
+},
+{
+"text": "Italia",
+"path": "es/08899.mp3",
+"lang": "es"
+},
+{
+"text": "意大利",
+"path": "zh/09550.mp3",
+"lang": "zh"
+},
+{
+"text": "Grecia",
+"path": "es/08900.mp3",
+"lang": "es"
+},
+{
+"text": "希腊",
+"path": "zh/09551.mp3",
+"lang": "zh"
+},
+{
+"text": "España",
+"path": "es/08901.mp3",
+"lang": "es"
+},
+{
+"text": "西班牙",
+"path": "zh/09552.mp3",
 "lang": "zh"
 },
 {
@@ -56161,13 +56406,13 @@
 "lang": "zh"
 },
 {
-"text": "comunidad",
-"path": "es/03056.mp3",
+"text": "sociedad",
+"path": "es/08902.mp3",
 "lang": "es"
 },
 {
 "text": "社会",
-"path": "zh/05801.mp3",
+"path": "zh/09553.mp3",
 "lang": "zh"
 },
 {
@@ -56301,6 +56546,16 @@
 "lang": "zh"
 },
 {
+"text": "configurar",
+"path": "es/08903.mp3",
+"lang": "es"
+},
+{
+"text": "使形成",
+"path": "zh/09554.mp3",
+"lang": "zh"
+},
+{
 "text": "carácter",
 "path": "es/02910.mp3",
 "lang": "es"
@@ -56356,13 +56611,13 @@
 "lang": "es"
 },
 {
-"text": "explotaclón",
-"path": "es/05218.mp3",
+"text": "explotación",
+"path": "es/08904.mp3",
 "lang": "es"
 },
 {
 "text": "剥削",
-"path": "zh/05822.mp3",
+"path": "zh/09555.mp3",
 "lang": "zh"
 },
 {
@@ -56376,13 +56631,13 @@
 "lang": "zh"
 },
 {
-"text": "La moda pasa, pero el estilo permanence.",
-"path": "es/05220.mp3",
+"text": "La moda pasa, pero el estilo permanece.",
+"path": "es/08905.mp3",
 "lang": "es"
 },
 {
 "text": "时尚会过去，但风格会永存。",
-"path": "zh/05824.mp3",
+"path": "zh/09556.mp3",
 "lang": "zh"
 },
 {
@@ -56396,13 +56651,23 @@
 "lang": "zh"
 },
 {
-"text": "Afirmó en el video que, estaba protegiendo a los civiles de la explotaclón capitalista.",
-"path": "es/05222.mp3",
+"text": "Afirmó en el video que, estaba protegiendo a los civiles de la explotación capitalista.",
+"path": "es/08906.mp3",
 "lang": "es"
 },
 {
 "text": "他在录像中声称，他是为了保护人民免受资本主义剥削。",
-"path": "zh/05826.mp3",
+"path": "zh/09557.mp3",
+"lang": "zh"
+},
+{
+"text": "en desarrollo",
+"path": "es/08907.mp3",
+"lang": "es"
+},
+{
+"text": "发展中的",
+"path": "zh/09558.mp3",
 "lang": "zh"
 },
 {
@@ -56461,6 +56726,16 @@
 "lang": "zh"
 },
 {
+"text": "informatización",
+"path": "es/08908.mp3",
+"lang": "es"
+},
+{
+"text": "信息化",
+"path": "zh/09559.mp3",
+"lang": "zh"
+},
+{
 "text": "acumular",
 "path": "es/05227.mp3",
 "lang": "es"
@@ -56511,7 +56786,7 @@
 "lang": "zh"
 },
 {
-"text": "Hacemos nuestra contribu-ción a promover el desarrollo económico.",
+"text": "Hacemos nuestra contribución a promover el desarrollo económico.",
 "path": "es/05231.mp3",
 "lang": "es"
 },
@@ -56521,7 +56796,7 @@
 "lang": "zh"
 },
 {
-"text": "Por lo tanto, nadie espe-raba ver durante la noche la reforma monetaria de China.",
+"text": "Por lo tanto, nadie esperaba ver durante la noche la reforma monetaria de China.",
 "path": "es/05232.mp3",
 "lang": "es"
 },
@@ -56556,6 +56831,16 @@
 "lang": "zh"
 },
 {
+"text": "vida política",
+"path": "es/08909.mp3",
+"lang": "es"
+},
+{
+"text": "政治生活",
+"path": "zh/09560.mp3",
+"lang": "zh"
+},
+{
 "text": "estructura",
 "path": "es/05235.mp3",
 "lang": "es"
@@ -56566,13 +56851,23 @@
 "lang": "zh"
 },
 {
-"text": "monarquía",
-"path": "es/05236.mp3",
+"text": "monarquía absoluta",
+"path": "es/08910.mp3",
 "lang": "es"
 },
 {
 "text": "君主专制",
-"path": "zh/05842.mp3",
+"path": "zh/09561.mp3",
+"lang": "zh"
+},
+{
+"text": "monarquía constitucional",
+"path": "es/08911.mp3",
+"lang": "es"
+},
+{
+"text": "君主立宪",
+"path": "zh/09562.mp3",
 "lang": "zh"
 },
 {
@@ -56603,6 +56898,16 @@
 {
 "text": "资产阶级",
 "path": "zh/05845.mp3",
+"lang": "zh"
+},
+{
+"text": ".régimen autoritario",
+"path": "es/08912.mp3",
+"lang": "es"
+},
+{
+"text": "专制制度",
+"path": "zh/09563.mp3",
 "lang": "zh"
 },
 {
@@ -56721,13 +57026,13 @@
 "lang": "zh"
 },
 {
-"text": "La mayoría de los votantes libres lo respaldan y hace que el candidato republicano quede atrás en las encuestas.",
-"path": "es/05250.mp3",
+"text": "La mayoría de los votantes libres lo respaldan, y eso hace que el candidato republicano quede atrás en las encuestas.",
+"path": "es/08913.mp3",
 "lang": "es"
 },
 {
-"text": "背向大多数的自由选举人并且在民意测验中使得共和党候选人落后。",
-"path": "zh/05857.mp3",
+"text": "大多数自由选票的选民支持他，这使得共和党候选人在民意测验中落后。",
+"path": "zh/09564.mp3",
 "lang": "zh"
 },
 {
@@ -56761,6 +57066,96 @@
 "lang": "zh"
 },
 {
+"text": "Ministerio de Educación",
+"path": "es/08914.mp3",
+"lang": "es"
+},
+{
+"text": "教育部",
+"path": "zh/09565.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Seguridad del Estado",
+"path": "es/08915.mp3",
+"lang": "es"
+},
+{
+"text": "国家安全部",
+"path": "zh/09566.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Asuntos Civiles",
+"path": "es/08916.mp3",
+"lang": "es"
+},
+{
+"text": "民政部",
+"path": "zh/09567.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Justicia",
+"path": "es/08917.mp3",
+"lang": "es"
+},
+{
+"text": "司法部",
+"path": "zh/09568.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministro de Hacienda",
+"path": "es/08918.mp3",
+"lang": "es"
+},
+{
+"text": "财政部",
+"path": "zh/09569.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Servicio Personal",
+"path": "es/08919.mp3",
+"lang": "es"
+},
+{
+"text": "人事部",
+"path": "zh/09570.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Transporte",
+"path": "es/08920.mp3",
+"lang": "es"
+},
+{
+"text": "交通部",
+"path": "zh/09571.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Agricultura",
+"path": "es/08921.mp3",
+"lang": "es"
+},
+{
+"text": "农业部",
+"path": "zh/09572.mp3",
+"lang": "zh"
+},
+{
+"text": "Ministerio de Salud Pública",
+"path": "es/08922.mp3",
+"lang": "es"
+},
+{
+"text": "卫生部",
+"path": "zh/09573.mp3",
+"lang": "zh"
+},
+{
 "text": "infranqueable",
 "path": "es/05254.mp3",
 "lang": "es"
@@ -56791,33 +57186,33 @@
 "lang": "zh"
 },
 {
-"text": "La agricultura tiene más potencia de el desarrollo económico en la economía rural.",
-"path": "es/05257.mp3",
+"text": "La agricultura tiene más potencial de desarrollo económico en la economía rural.",
+"path": "es/08923.mp3",
 "lang": "es"
 },
 {
-"text": "养殖业是农村经济中最具发展潜力的主导产业之—。",
-"path": "zh/05864.mp3",
+"text": "农业是农村经济中最具发展潜力的主导产业之一。",
+"path": "zh/09574.mp3",
 "lang": "zh"
 },
 {
-"text": "Tenemos una política estricta para la admisión y la lista cle aplicación.",
-"path": "es/05258.mp3",
+"text": "Tenemos una política estricta para la admisión y la lista de solicitudes.",
+"path": "es/08924.mp3",
 "lang": "es"
 },
 {
 "text": "我们对入学录取和申请名单都有严格的政策。",
-"path": "zh/05865.mp3",
+"path": "zh/09575.mp3",
 "lang": "zh"
 },
 {
-"text": "No hay un abismo infranqueable entre la democracia y el centralismo y los dos son necesarios.",
-"path": "es/05259.mp3",
+"text": "No hay un abismo infranqueable entre la democracia y el centralismo: los dos son necesarios.",
+"path": "es/08925.mp3",
 "lang": "es"
 },
 {
 "text": "民主和集中之间并没有不可逾越的鸿沟，二者都是必需的。",
-"path": "zh/05866.mp3",
+"path": "zh/09576.mp3",
 "lang": "zh"
 },
 {
@@ -56868,6 +57263,16 @@
 {
 "text": "党",
 "path": "zh/05872.mp3",
+"lang": "zh"
+},
+{
+"text": "participar en una campaña electoral",
+"path": "es/08926.mp3",
+"lang": "es"
+},
+{
+"text": "竞选",
+"path": "zh/09577.mp3",
 "lang": "zh"
 },
 {
@@ -56934,6 +57339,16 @@
 "text": "intervención",
 "path": "es/02046.mp3",
 "lang": "es"
+},
+{
+"text": "elecciones generales",
+"path": "es/08927.mp3",
+"lang": "es"
+},
+{
+"text": "大选",
+"path": "zh/09578.mp3",
+"lang": "zh"
 },
 {
 "text": "La Constitución estipula un mandato presidencial único de seis años.",
@@ -57026,9 +57441,29 @@
 "lang": "zh"
 },
 {
+"text": "elección primaria",
+"path": "es/08928.mp3",
+"lang": "es"
+},
+{
+"text": "初选",
+"path": "zh/09579.mp3",
+"lang": "zh"
+},
+{
 "text": "sostenible",
 "path": "es/03895.mp3",
 "lang": "es"
+},
+{
+"text": "voto por correo",
+"path": "es/08929.mp3",
+"lang": "es"
+},
+{
+"text": "邮寄投票",
+"path": "zh/09580.mp3",
+"lang": "zh"
 },
 {
 "text": "urna",
@@ -57048,6 +57483,26 @@
 {
 "text": "不固定的",
 "path": "zh/05891.mp3",
+"lang": "zh"
+},
+{
+"text": "voto de la delegación",
+"path": "es/08930.mp3",
+"lang": "es"
+},
+{
+"text": "代理投票",
+"path": "zh/09581.mp3",
+"lang": "zh"
+},
+{
+"text": "voto de confianza",
+"path": "es/08931.mp3",
+"lang": "es"
+},
+{
+"text": "信任投票",
+"path": "zh/09582.mp3",
 "lang": "zh"
 },
 {
@@ -57131,6 +57586,16 @@
 "lang": "zh"
 },
 {
+"text": "ministro de asuntos exteriores",
+"path": "es/08932.mp3",
+"lang": "es"
+},
+{
+"text": "外交大臣",
+"path": "zh/09583.mp3",
+"lang": "zh"
+},
+{
 "text": "外国人",
 "path": "zh/05900.mp3",
 "lang": "zh"
@@ -57138,6 +57603,26 @@
 {
 "text": "途径",
 "path": "zh/05901.mp3",
+"lang": "zh"
+},
+{
+"text": "posición difícil",
+"path": "es/08933.mp3",
+"lang": "es"
+},
+{
+"text": "窘境",
+"path": "zh/09584.mp3",
+"lang": "zh"
+},
+{
+"text": "protección",
+"path": "es/01372.mp3",
+"lang": "es"
+},
+{
+"text": "庇护",
+"path": "zh/01437.mp3",
 "lang": "zh"
 },
 {
@@ -57256,13 +57741,13 @@
 "lang": "zh"
 },
 {
-"text": "El orador más grande en el mundo es el éxito.",
-"path": "es/05298.mp3",
+"text": "El orador más grande del mundo es el éxito.",
+"path": "es/08934.mp3",
 "lang": "es"
 },
 {
 "text": "成果是最伟大的雄辩家。",
-"path": "zh/05914.mp3",
+"path": "zh/09585.mp3",
 "lang": "zh"
 },
 {
@@ -57306,6 +57791,16 @@
 "lang": "zh"
 },
 {
+"text": "relaciones diplomáticas",
+"path": "es/08935.mp3",
+"lang": "es"
+},
+{
+"text": "外交关系",
+"path": "zh/09586.mp3",
+"lang": "zh"
+},
+{
 "text": "外交官",
 "path": "zh/05919.mp3",
 "lang": "zh"
@@ -57338,6 +57833,36 @@
 {
 "text": "恢复",
 "path": "zh/05922.mp3",
+"lang": "zh"
+},
+{
+"text": "potencias aliadas",
+"path": "es/08936.mp3",
+"lang": "es"
+},
+{
+"text": "同盟国",
+"path": "zh/09587.mp3",
+"lang": "zh"
+},
+{
+"text": "asuntos exteriores",
+"path": "es/08937.mp3",
+"lang": "es"
+},
+{
+"text": "外交事务",
+"path": "zh/09588.mp3",
+"lang": "zh"
+},
+{
+"text": "diario oficial",
+"path": "es/08938.mp3",
+"lang": "es"
+},
+{
+"text": "官方公报",
+"path": "zh/09589.mp3",
 "lang": "zh"
 },
 {
@@ -57416,6 +57941,16 @@
 "lang": "zh"
 },
 {
+"text": "La embajada es la residencia de los diplomáticos.",
+"path": "es/08939.mp3",
+"lang": "es"
+},
+{
+"text": "大使官邸是外交人员的居住地。",
+"path": "zh/09590.mp3",
+"lang": "zh"
+},
+{
 "text": "Esta es la Embajada de los Estados Unidos.",
 "path": "es/05313.mp3",
 "lang": "es"
@@ -57426,13 +57961,13 @@
 "lang": "zh"
 },
 {
-"text": "Fue destinado como canciller a la embajada española en Londeres.",
-"path": "es/05314.mp3",
+"text": "Fue destinado como canciller a la embajada española en Londres.",
+"path": "es/08940.mp3",
 "lang": "es"
 },
 {
-"text": "他作为外交官助理被派往西班牙驻伦敦大使馆。",
-"path": "zh/05934.mp3",
+"text": "他作为外交部长助理被派往西班牙驻伦敦大使馆。",
+"path": "zh/09591.mp3",
 "lang": "zh"
 },
 {
@@ -57456,6 +57991,16 @@
 "lang": "zh"
 },
 {
+"text": "disfrutar de",
+"path": "es/08941.mp3",
+"lang": "es"
+},
+{
+"text": "享有",
+"path": "zh/09592.mp3",
+"lang": "zh"
+},
+{
 "text": "平等的",
 "path": "zh/05937.mp3",
 "lang": "zh"
@@ -57466,18 +58011,63 @@
 "lang": "zh"
 },
 {
-"text": "desplazamiento",
-"path": "es/03645.mp3",
+"text": "derecho humano",
+"path": "es/08942.mp3",
+"lang": "es"
+},
+{
+"text": "人权",
+"path": "zh/09593.mp3",
+"lang": "zh"
+},
+{
+"text": "derechos civiles",
+"path": "es/08943.mp3",
+"lang": "es"
+},
+{
+"text": "公民权利",
+"path": "zh/09594.mp3",
+"lang": "zh"
+},
+{
+"text": "derecho de votar",
+"path": "es/08944.mp3",
+"lang": "es"
+},
+{
+"text": "选举权",
+"path": "zh/09595.mp3",
+"lang": "zh"
+},
+{
+"text": "derecho de veto",
+"path": "es/08945.mp3",
+"lang": "es"
+},
+{
+"text": "否决权",
+"path": "zh/09596.mp3",
+"lang": "zh"
+},
+{
+"text": "manifestación",
+"path": "es/09015.mp3",
 "lang": "es"
 },
 {
 "text": "游行",
-"path": "zh/05939.mp3",
+"path": "zh/09666.mp3",
 "lang": "zh"
 },
 {
+"text": "vulnerar",
+"path": "es/09016.mp3",
+"lang": "es"
+},
+{
 "text": "侵犯",
-"path": "zh/05940.mp3",
+"path": "zh/09667.mp3",
 "lang": "zh"
 },
 {
@@ -57546,12 +58136,12 @@
 "lang": "es"
 },
 {
-"text": "没有调査就没有发言权。",
+"text": "没有调查就没有发言权。",
 "path": "zh/05948.mp3",
 "lang": "zh"
 },
 {
-"text": "Todo individuo tiene de-recho a la libertad de opinión y de expresión.",
+"text": "Todo individuo tiene derecho a la libertad de opinión y de expresión.",
 "path": "es/05323.mp3",
 "lang": "es"
 },
@@ -57561,13 +58151,13 @@
 "lang": "zh"
 },
 {
-"text": "El constructor se niega a asumir la respondabilidad del accidente y culpa de lo ocurrido al arquitecto.",
-"path": "es/05324.mp3",
+"text": "El constructor se niega a asumir la responsabilidad del accidente y culpa de lo ocurrido al arquitecto.",
+"path": "es/09017.mp3",
 "lang": "es"
 },
 {
 "text": "施工者拒绝承担事故责任，并把过失推给设计师。",
-"path": "zh/05950.mp3",
+"path": "zh/09668.mp3",
 "lang": "zh"
 },
 {
@@ -60871,11 +61461,6 @@
 "lang": "zh"
 },
 {
-"text": "protección",
-"path": "es/01372.mp3",
-"lang": "es"
-},
-{
 "text": "保护",
 "path": "zh/06285.mp3",
 "lang": "zh"
@@ -62538,11 +63123,6 @@
 {
 "text": "扔到垃圾堆里",
 "path": "zh/07315.mp3",
-"lang": "zh"
-},
-{
-"text": "保护，救助",
-"path": "zh/01437.mp3",
 "lang": "zh"
 },
 {
