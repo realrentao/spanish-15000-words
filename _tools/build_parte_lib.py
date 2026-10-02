@@ -41,37 +41,66 @@ def parse_raw(raw_file):
     txt = re.sub(r'<[^>]*>', '', txt)
     txt = txt.replace('\\', '')
     # split malformed run-on where a CJK cn is glued to the next entry's latin es
-    txt = re.sub(r'([一-鿿])([A-Za-z])', r'\1\n\2', txt)
-    lines = txt.split("\n")
-    # split a heading keyword glued onto a content line (e.g. a W/E row ending in
-    # "... n.f.**经典实用句**", or "**经典实用句**例 ...") into separate lines so mode
-    # detection + row parsing work correctly.
+    # （**只在「终极分类词 / 词汇大拓展」块做**：「经典实用句」块拆了会把中文句尾的
+    #   拉丁字母截掉，例如「…例如que, el uno。」被拆成「…例如」+「que, el uno。」）
+    # 「标题关键字粘在正文行里」也要拆开（如 "… n.f.**经典实用句**"），
+    # 放在拆行之前用，故这里先编译。
     HEADRE = re.compile(r'(\*\*)?(终极分类词|经典实用句|词汇大拓展)(\*\*)?')
-    expanded = []
-    for ln in lines:
-        mm = HEADRE.search(ln)
-        if not mm:
-            expanded.append(ln); continue
-        before = ln[:mm.start()].strip()
-        after = ln[mm.end():].strip()
-        if before: expanded.append(before)
-        expanded.append(mm.group(0))
-        if after: expanded.append(after)
-    lines = expanded
+    _HDR2 = re.compile(r'^\s*(?:\*\*\s*)?(终极分类词|经典实用句|词汇大拓展)(?:\*\*\s*)?$')
+    _SEC2 = re.compile(r'^\s*Secci[oó]n\s*\d+\b')
+    _MD = {"终极分类词": "w", "经典实用句": "s", "词汇大拓展": "e"}
+    # 切成块：每块 = (正文行, 该块所属模式)。模式取「开启本块的那个标题」，
+    # Sección 行会关掉当前块并把模式清空（否则上一个小节的模式会一路串到下一个
+    # 「终极分类词」上，导致整节被当成 S 块丢弃）。
+    # ⚠️ 关键：`_hdr` 存的是**归一化模式**（'w'/'s'/'e'），不是中文标题词。
+    #    append 时必须直接存 _hdr；写成 _MD.get(_hdr) 会拿 'w' 去查以中文为键的 _MD，
+    #    恒返回 None，导致每一行都判不出块模式、整节词条全部丢失（曾白屏）。
+    _blocks=[]; _cur=[]; _hdr=None
+    for _ln in txt.split("\n"):
+        _m2=_HDR2.match(_ln)
+        if _m2:
+            _blocks.append((_cur,_hdr)); _cur=[]; _hdr=_MD.get(_m2.group(1))
+        elif _SEC2.match(_ln):
+            _blocks.append((_cur,_hdr)); _cur=[_ln]; _hdr=None
+        else:
+            _cur.append(_ln)
+    _blocks.append((_cur,_hdr))
+    # 行流：每行都带上自己的块模式（「经典实用句」块不做 CJK+latin 拆行，
+    # 否则会截掉中文句尾的拉丁字母）
+    _seq=[]
+    for _body,_md in _blocks:
+        for _ln in _body:
+            _t = _ln if _md=="s" else re.sub(r'([一-鿿])([A-Za-z])', r'\1\n\2', _ln)
+            for _x in _t.split("\n"):
+                _seq.append((_x,_md))
+    # 把粘在正文行里的标题关键字拆开，使 mode 判定 + 行文解析正确。
+    # 行流保持「纯文本行 / 该行所属块模式」两路平行数组。
+    lines=[]; lmode=[]
+    for _ln,_md in _seq:
+        mm = HEADRE.search(_ln)
+        _parts = [(_ln,_md)] if not mm else []
+        if mm:
+            before = _ln[:mm.start()].strip(); after = _ln[mm.end():].strip()
+            if before: _parts.append((before,_md))
+            _parts.append((mm.group(0),_md))
+            if after: _parts.append((after,_md))
+        for _p,_pm in _parts:
+            # 必须是二元组：下游主循环用 lines[i][0] / lines[i][1] 取文本与块模式
+            lines.append((_p, _pm)); lmode.append(_pm)
     # 孤儿中文行合并：某些书里「西语 词性」与它的中文释文被 OCR 拆成两行
     # （如 "recientemente adv." + "最近，最新"）。这里把紧跟其后的纯中文行并回上一行。
     merged = []
     for idx, ln in enumerate(lines):
-        s = ln.strip()
+        s = ln[0].strip()
         # 「西语 词性」行 + 紧跟其后的纯中文释文行 -> 并回同一行
         # （条件写反过：原版判断「当前行不含汉字」，导致这条永远不生效）
         if (s and re.search(r"[一-鿿]", s)
                 and merged
-                and not re.search(r"[一-鿿]", merged[-1])
-                and merged[-1].strip()
-                and not any(merged[-1].strip().startswith(h) for h in HEAD_WORDS)
+                and not re.search(r"[一-鿿]", merged[-1][0])
+                and merged[-1][0].strip()
+                and not any(merged[-1][0].strip().startswith(h) for h in HEAD_WORDS)
                 and not any(s.startswith(h) for h in HEAD_WORDS)):
-            merged[-1] = merged[-1].rstrip() + " " + s
+            merged[-1] = (merged[-1][0].rstrip() + " " + s, merged[-1][1])
             continue
         merged.append(ln)
     lines = merged
@@ -79,7 +108,8 @@ def parse_raw(raw_file):
     cur=None; mode=None
     i=0
     while i < len(lines):
-        s = lines[i].strip()
+        mode = lines[i][1]
+        s = lines[i][0].strip()
         if not s:
             i+=1; continue
         core = _core(s)
@@ -93,7 +123,7 @@ def parse_raw(raw_file):
                 rest = core[len(kw):].strip()
                 if rest:
                     # heading glued to first 例 on same line -> reprocess remainder
-                    lines[i] = rest.lstrip('*').strip()
+                    lines[i] = (rest.lstrip('*').strip(), lines[i][1])
                     mode = md
                     hit=True
                     break
@@ -113,7 +143,7 @@ def parse_raw(raw_file):
                 if not re.search(r'[一-鿿]', body):
                     j=i+1
                     while j < len(lines):
-                        nl = lines[j].strip()
+                        nl = lines[j][0].strip()
                         if not nl:
                             j+=1; continue
                         nc = _core(nl)
@@ -125,13 +155,25 @@ def parse_raw(raw_file):
                     peeked = True
                 # run-on: one line may carry several "例" -> split into separate S entries.
                 # 只按「空白 + 例 + 西语字母」切，避免中文里的「破例」被当成例句分隔符。
-                parts=[p.strip() for p in re.split(r"\s+例\s*(?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])", body) if p.strip()]
+                parts=[p.strip() for p in re.split(r"\s*例\s*(?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])", body) if p.strip()]
                 for p in parts:
                     secs[cur]["s"].append(p)
                 if peeked:
                     continue
                 i+=1; continue
             else:
+                i+=1; continue
+        if mode in ("w","e") and "|" in s:
+            # 「中文|西语 [词性]」写法（文案里「中文 西语」无词性时手动加竖线，
+            # 否则 parse_raw 的 CJK+latin 拆行会把中文词头孤立成一行）
+            a,_,bb = s.partition("|")
+            a=a.strip(); bb=bb.strip()
+            if a and re.search(r"[一-鿿]", a) and bb and not re.search(r"[一-鿿]", bb):
+                tt=bb.split(); pt=[]; ii=len(tt)-1
+                while ii>=0 and (is_pos(tt[ii]) or tt[ii] in ("&",",","y")):
+                    pt.insert(0, tt[ii]); ii-=1
+                ce=" ".join(tt[:ii+1]); po=" ".join(pt)
+                secs[cur][mode].append((a,ce,po))
                 i+=1; continue
         if mode=="w":
             toks=s.split()
@@ -216,10 +258,10 @@ def norm(s):
 
 class Builder:
     def __init__(self, gid, bp_name, raw_file, ES_FIX=None, ES_TYPO=None, S_SUBS=None,
-                 POS_FIX=None, CN_FIX=None):
+                 POS_FIX=None, CN_FIX=None, S_ZH_SUBS=None):
         self.gid=gid; self.bp_name=bp_name; self.raw_file=raw_file
         self.ES_FIX=ES_FIX or {}; self.ES_TYPO=ES_TYPO or {}; self.S_SUBS=S_SUBS or {}
-        self.POS_FIX=POS_FIX or {}; self.CN_FIX=CN_FIX or {}
+        self.POS_FIX=POS_FIX or {}; self.CN_FIX=CN_FIX or {}; self.S_ZH_SUBS=S_ZH_SUBS or []
         # audio allocator continues from true disk max
         def cur_max(folder):
             m=0
@@ -324,16 +366,34 @@ class Builder:
         for w in words:
             if w["cn"]==cn and norm(w["es"])==norm(ces): return w
         return None
+    CLOSE_Q={"“":"”","«":"»","「":"」","『":"』","‘":"’","‚":"„"}
     def split_s(self, body):
         # 中文左引号/左括号也算「中文起点」，否则西语段会尾随一个孤立引号
         m=re.search(r'[\u4e00-\u9fff\u201c\u2018\u300c\u300e\uff08]', body)
         if not m: return body.strip(), "", ""
         cj=m.start()
+        # 引号开头要小心：它可能是西语引语的开始（“西语” 中文），此时中文其实在引号之后
+        if m.group(0) in ("“","«","「","『","‘"):
+            _ci=body.find(self.CLOSE_Q.get(m.group(0),"”"), cj)
+            if _ci>cj:
+                _seg=body[cj:_ci+1]
+                if len(re.findall(r'[\u4e00-\u9fff]', _seg))*3 < len(_seg):
+                    _m3=re.search(r'[\u4e00-\u9fff]', body[_ci:])
+                    if _m3: cj=_ci+_m3.start()
+        # 只去左端标点（右端必须留 '.'，后面 clean_es(keep_end=True) 才保得住句尾句号）
         es_raw=body[:cj].strip().lstrip('.。¿¡·“「『『『"\'')
         rest=body[cj:]
         si=rest.find("——")
+        # 「——」后面只有封闭书名号《…》，或 CJK ≤6 字且不以句号收尾，才算「出处」；
+        # 否则（如「…未曾想象的色彩——一种伟大的蜕变的色彩。」）是中文正文的破折号，
+        # 被当成出处会把半句话丢进第 3 字段。
         if si>=0:
-            zh=rest[:si].strip(); src=rest[si:]
+            _tail=rest[si:]
+            _ncjk=len(re.findall(r'[\u4e00-\u9fff]', _tail))
+            if "《" in _tail or (_ncjk<=6 and not _tail.rstrip().endswith("。")):
+                zh=rest[:si].strip(); src=_tail.strip()
+            else:
+                zh=rest.strip(); src=""
         else:
             zh=rest.strip(); src=""
         return es_raw, zh, src
@@ -393,6 +453,8 @@ class Builder:
                 e_out.append(row); stat[how]+=1
             for raw in rs["s"]:
                 es_raw,zh,src=self.split_s(raw)
+                for _a,_b in self.S_ZH_SUBS:
+                    zh=zh.replace(_a,_b)
                 ces=clean_es(es_raw, keep_end=True); ces=self.fix_es_typo(ces); ces=self.fix_s_es(ces)
                 t=self.sent_by_norm.get(norm(ces))
                 if t:

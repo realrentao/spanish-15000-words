@@ -177,12 +177,209 @@ G17 = {
  ],
 }
 
-CFG = {16: G16, 17: G17}
+# ---------------------------------------------------------------- gid19 文科类学习
+G19 = {
+ "name": "文科类学习",
+ "raw": "_tools/parte19_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ # （sue.o / peque.o / extra.o / a.os 由 clean_es 的「元音间.->ñ」已自动修好，这里只补真实残损）
+ "typo": {
+   "aréa": "área",                       # aréa -> área
+ },
+ # (中文, clean_es 之后的西语) -> 正确西语
+ "fix": {
+   # Sec1 人文学科
+   ("文科", "ciencia humana"): "ciencias humanas",        # 文科=ciencias humanas（恒用复数）
+   ("人文学科", "ciencia de la humanidad"): "humanidades",
+   ("图书馆学", "la ciencia de biblioteca"): "biblioteconomía",
+   # Sec2 外语学习
+   ("口语", "lenguaje oral"): "expresión oral",
+   ("句子", "frase"): "oración",                          # 词组=frase；句子=oración（原与「词组」撞词）
+   ("语调", "tono de voz"): "entonación",                 # 语调=entonación；tono de voz=嗓音
+   # Sec3 阅读
+   ("浏览", "navegar"): "hojear",                         # 浏览(书报)=hojear；navegar 是上网浏览
+   ("跳读", "saltar en leer"): "leer a saltos",           # 原表达不成句
+   # Sec6 文学作品类型
+   ("民间文学", "folclore"): "literatura popular",         # folclore=民间文化/民俗，非「民间文学」
+   ("中篇小说", "novela"): "novela media",
+   ("话剧", "teatro"): "obra de teatro",                  # 与「戏剧 teatro」撞词，话剧=obra de teatro
+   # Sec7 故事
+   ("情节", "acción"): "trama",                           # 情节=trama；acción 是「动作/行动」
+   ("冒险", "riesgo"): "aventura",                        # 冒险=aventura；riesgo=风险
+   ("结局", "resultar"): "desenlace",                     # 结局是名词，resultar 是「结果是」的动词
+   # Sec8 童话故事
+   ("魔力药剂", "farmacia mágica"): "poción mágica",      # farmacia=药店/药学
+   # Sec9 小说
+   ("言情小说", "historia de amor"): "novela romántica",
+   ("卷", "rollo"): "volumen",                            # rollo=卷轴/麻烦，书卷=volumen
+ },
+ # 词性：只补文案标过的（n./n.m. 补全）；文案标错的才在这里纠正
+ "pos": {
+   ("单词", "palabra"): "n.f.",                           # palabra 是阴性（书里标 n.m. 是错的）
+   ("完整的", "completo"): "adj.",                        # 「完整的」是形容词，书里写 n.m.
+   ("结局", "desenlace"): "n.m.",                         # 书里写 resultar v.t.（动词，与中文词义不符）
+   ("剧本的", "del guión"): "",                           # 不是形容词，文案没标词性 -> 留空
+   # 文案只写「n.」的补全为 n.m.
+   ("心理学家", "psicólogo"): "n.m.",
+   ("剧作家", "dramaturgo"): "n.m.",
+   ("巨人", "gigante"): "n.m.",
+   ("吸血鬼", "vampiro"): "n.m.",
+   ("作者", "autor"): "n.m.",
+   ("小说家", "novelista"): "n.m.",
+   ("侦探", "detective"): "n.m.",
+   ("矮子", "enano"): "n.m.",
+   # 文案已标、仅确认
+   ("美语", "inglés americano"): "n.m.",
+   ("英语", "inglés británico"): "n.m.",
+   ("前置词", "preposición"): "n.f.",
+   ("代词", "pronombre"): "n.m.",
+   ("动词", "verbo"): "n.m.",
+   ("名词", "nombre"): "n.m.",
+   ("翻译", "traducir"): "v.t.",
+   ("思考", "pensar"): "v.t.",
+   ("学习", "estudiar"): "v.t.",
+   ("挖", "cavar"): "v.t.",
+   ("混合", "mezclar"): "v.t.",
+   ("诱导", "inducir"): "v.t.",
+   ("沉思", "contemplar"): "v.t.",
+   ("诅咒", "maldecir"): "v.t.",
+   ("描述", "describir"): "v.t.",
+   ("浏览", "hojear"): "v.t.",
+   ("独立地", "independientemente"): "adv.",
+   ("考古学的", "arqueológico"): "adj.",
+   ("复数的", "plural"): "adj.",
+   ("古典的", "clásico"): "adj.",
+   ("中篇小说", "novela media"): "n.f.",
+   ("自恋的", "narcisista"): "adj.",
+   ("幽默的", "humorístico"): "adj.",
+   ("兴奋的", "emocionado"): "adj.",
+   ("复杂的", "complejo"): "adj.",
+   ("古怪的", "extraño"): "adj.",
+   ("荒唐的", "ridículo"): "adj.",
+   ("残忍的", "despiadado"): "adj.",
+   ("愚蠢的", "estúpido"): "adj.",
+   ("神秘的", "misterioso"): "adj.",
+   ("历史的", "histórico"): "adj.",
+   ("认知能力的", "cognitivo"): "adj.",
+   ("详细的", "detallado"): "adj.",
+   ("博学的", "erudito"): "adj.",
+   ("广泛的", "vasto"): "adj.",
+   ("独立的", "independiente"): "adj.",
+   ("心理学的", "psicológico"): "adj.",
+   ("冒险", "aventura"): "n.f.",
+   ("卷", "volumen"): "n.m.",
+   ("剧本", "guión"): "n.m.",
+   ("小说", "novela"): "n.f.",
+   ("短篇小说", "cuento"): "n.m.",
+   ("侦探小说", "novela de detectives"): "",                # 文案未标词性 -> 留空
+   ("言情小说", "novela romántica"): "",                    # 文案未标词性 -> 留空
+   ("小说家", "novelista"): "n.m.",
+   ("改编，改写", "adaptación"): "n.f.",
+   ("情节，梗概", "argumento"): "n.m.",
+   ("材料", "material"): "n.m.",
+   ("沉默", "silencio"): "n.m.",
+   ("知识", "conocimiento"): "n.m.",
+   ("范围", "esfera"): "n.f.",
+   ("范围", "campo"): "n.m.",
+   ("学问，科学", "ciencia"): "n.f.",
+   ("时期，时代", "edad"): "n.f.",
+   ("葬礼", "funeral"): "n.m.",
+   ("陶器", "cerámica"): "n.f.",
+   ("意识", "conciencia"): "n.f.",
+   ("混乱", "confusión"): "n.f.",
+   ("认知", "cognición"): "n.f.",
+   ("依赖性", "dependencia"): "n.f.",
+   ("心理障碍", "bloqueo"): "n.m.",
+   ("语调", "entonación"): "",                            # 文案未标词性 -> 留空
+   ("散文", "prosa"): "n.f.",
+   ("讽刺作品", "sátira"): "n.f.",
+   ("十四行诗", "soneto"): "n.m.",
+   ("轶事", "anécdota"): "n.f.",
+   ("寓言", "alegoría"): "n.f.",
+   ("笑话", "broma"): "n.f.",
+   ("虚构", "ficción"): "n.f.",
+   ("情节", "trama"): "n.f.",
+   ("故事", "historia"): "n.f.",
+   ("魔法", "magia"): "n.f.",
+   ("魔法师", "mago"): "n.m.",
+   ("女巫", "bruja"): "n.f.",
+   ("怪物", "monstruo"): "n.m.",
+   ("小精灵", "elfo"): "n.m.",
+   ("魔杖", "varita"): "n.f.",
+   ("咒语", "encantamiento"): "n.m.",
+   ("炼金术", "alquimia"): "n.f.",
+   ("童话", "cuento"): "n.m.",
+   ("印刷", "impresión"): "n.f.",
+   ("装订", "encuadernación"): "n.f.",
+   ("版权", "derecho de autor"): "",                        # 文案未标词性 -> 留空
+ },
+ "subs": [
+   # Sec1
+   ("Desde un punto de vista psicológica, la posición en la familia, afectará a la personalidad",
+    "Desde el punto de vista psicológico, el lugar que se ocupa en la familia afecta a la personalidad"),
+   ("en la vida, cada destino también es un nuevo comienzo",
+    "en la vida, cada final también es un nuevo comienzo"),
+   ("La literatura dice que unas cosas se han ido, y las cosas desaparecidas contradictoriamente siguen viviendo para siempre",
+    "La literatura dice que unas cosas se han ido y, de forma contradictoria, que las cosas desaparecidas siguen viviendo para siempre"),
+   # Sec2
+   ("como \"que\", y \"el uno\"", "como «qué» o «cuál»"),
+   # Sec3
+   ("En la área de ciencia, los chinos tienen un conocimiento de la ciencia europea preciso igualmente",
+    "En el ámbito de la ciencia, los chinos conocen la ciencia europea igual de bien"),
+   ("sino también un símbolo de la propia sustancia", "sino también la propia sustancia"),
+   # Sec4
+   ("El hombre no había dejado de pensar en descubrir el misterio y mejorar el proceso",
+    "El ser humano nunca ha dejado de tratar de descubrir el misterio y perfeccionar el proceso"),
+   ("Su forma y función realmente es un tesoro de la nación china, simbolizado orgullo para los chinos",
+    "Su forma y su función son realmente un tesoro de la nación china y un símbolo de orgullo para los chinos"),
+   # Sec5
+   ("Todos amamos a nuestra madre sin saberlo, y en general damos cuenta del amor tan profundo hasta la última separación",
+    "Todos amamos a nuestra madre sin saberlo y sólo nos damos cuenta de este amor tan profundo en el momento de la última separación"),
+   ("Tu comportamiento puede reflejar tu actitud de la vida",
+    "Tu comportamiento refleja tu actitud hacia la vida"),
+   # Sec6
+   ("Las culturas del este y del mundo se mezclan con la combinación de la tecnología moderna y la técnica clásica",
+    "Las culturas de Oriente y del mundo se mezclan, combinando la tecnología moderna con la técnica clásica"),
+   ("Hay momentos en la vida de felicidad que ningún poema puede resumirlos",
+    "Hay momentos de felicidad en la vida que ningún poema puede resumir"),
+   # Sec7
+   ("Esta historia atrae a personas", "Esta historia atrae a la gente"),
+   ("El escenario de la acción del filme es Roma", "La trama de la película se desarrolla en Roma"),
+   ("El hombre invisible es una famosa novela de ciencia ficción. 《",
+    "El hombre invisible es una famosa novela de ciencia ficción."),
+   ("隐形人》是一部有名的科幻小说。",
+    "《隐形人》是一部有名的科幻小说。"),
+   # Sec8
+   ("No deje que sus ideas se mantengan en la cabeza, hay que actuar, no sea el gigante en papel, pero el enano en acción",
+    "No dejes que tus ideas se queden sólo en la cabeza: hay que actuar. No seas un gigante en papel y un enano en acción"),
+   # Sec9
+   ("Ellos respondieron: “.Por qué tenemos miedo a un sombrero?”",
+    "Ellos respondieron: «¿Por qué tenemos miedo a un sombrero?»"),
+   ("Reci\u00e9n termin\u00e9 de leer el tercer cap\u00edtulo de la novela",
+    "Acabo de terminar de leer el tercer cap\u00edtulo de la novela"),
+   ("Mostr\u00e9 mi obra a los mayores y les pregunt\u00e9 si el dibujo les asustaba",
+    "Les mostré mi obra a los adultos y les pregunté si el dibujo les asustaba"),
+ ],
+ # S 句中文修正（OCR 残损 / 与西语语义不符）
+ "zh_subs": [
+   # Sec2 中文残损：「例如que, el uno。」
+   ("在一个疑问句子里面，我们当然要用一个疑问代词，例如que, el uno。",
+    "在一个问句里，我们当然要用一个疑问代词，例如 «qué» 或 «cuál»。"),
+   # Sec9 中文与西语语义对不上（西语 = 为什么要怕一顶帽子）
+   ("他们回答我说:“一顶帽子有什么可怕的？”",
+    "他们回答说:“我们为什么要怕一顶帽子呢？”"),
+   ("隐形人》是一部有名的科幻小说。",
+    "《隐形人》是一部有名的科幻小说。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
     cfg = CFG[gid]
     b = Builder(gid, cfg["name"], cfg["raw"],
                 ES_FIX=cfg.get("fix"), ES_TYPO=cfg.get("typo"),
-                S_SUBS=cfg.get("subs"), POS_FIX=cfg.get("pos"))
+                S_SUBS=cfg.get("subs"), POS_FIX=cfg.get("pos"),
+                S_ZH_SUBS=cfg.get("zh_subs"))
     b.run()

@@ -13306,6 +13306,26 @@
 "lang": "zh"
 },
 {
+"text": "escuela primaria",
+"path": "es/07273.mp3",
+"lang": "es"
+},
+{
+"text": "小学",
+"path": "zh/07924.mp3",
+"lang": "zh"
+},
+{
+"text": "escuela secundaria",
+"path": "es/07274.mp3",
+"lang": "es"
+},
+{
+"text": "中学",
+"path": "zh/07925.mp3",
+"lang": "zh"
+},
+{
 "text": "universidad",
 "path": "es/02825.mp3",
 "lang": "es"
@@ -13326,6 +13346,36 @@
 "lang": "zh"
 },
 {
+"text": "escuela profesional",
+"path": "es/07275.mp3",
+"lang": "es"
+},
+{
+"text": "职业学校",
+"path": "zh/07926.mp3",
+"lang": "zh"
+},
+{
+"text": "escuela secundaria anexa",
+"path": "es/07276.mp3",
+"lang": "es"
+},
+{
+"text": "附属中学",
+"path": "zh/07927.mp3",
+"lang": "zh"
+},
+{
+"text": "universidad de élite",
+"path": "es/07277.mp3",
+"lang": "es"
+},
+{
+"text": "重点大学",
+"path": "zh/07928.mp3",
+"lang": "zh"
+},
+{
 "text": "privado",
 "path": "es/01494.mp3",
 "lang": "es"
@@ -13338,6 +13388,26 @@
 {
 "text": "公立的",
 "path": "zh/03047.mp3",
+"lang": "zh"
+},
+{
+"text": "preparatoria",
+"path": "es/07278.mp3",
+"lang": "es"
+},
+{
+"text": "高级中学",
+"path": "zh/07929.mp3",
+"lang": "zh"
+},
+{
+"text": "escuela de magisterio",
+"path": "es/07279.mp3",
+"lang": "es"
+},
+{
+"text": "师范学校",
+"path": "zh/07930.mp3",
 "lang": "zh"
 },
 {
@@ -13386,12 +13456,12 @@
 "lang": "zh"
 },
 {
-"text": "Poco después de terminar la secundaria en 1870, Maupassant se alistó como voluntario en la guerra francoprusiana y luchó con valentía.",
-"path": "es/07227.mp3",
+"text": "Poco después del final de estudio en la escuela secundaria en 1870, Maupassant se alistó como voluntario en la guerra francoprusiana y luchó con valentía.",
+"path": "es/02831.mp3",
 "lang": "es"
 },
 {
-"text": "1870年莫泊桑毕业后不久，普法战争爆发，他志愿入伍，作战勇敢。",
+"text": "年莫泊桑毕业后不久，普法战争爆发，他志愿入伍，作战勇敢。",
 "path": "zh/03053.mp3",
 "lang": "zh"
 },
@@ -13403,6 +13473,96 @@
 {
 "text": "教育",
 "path": "zh/03054.mp3",
+"lang": "zh"
+},
+{
+"text": "educación primaria",
+"path": "es/07280.mp3",
+"lang": "es"
+},
+{
+"text": "初等教育",
+"path": "zh/07931.mp3",
+"lang": "zh"
+},
+{
+"text": "educación secundaria",
+"path": "es/07281.mp3",
+"lang": "es"
+},
+{
+"text": "中等教育",
+"path": "zh/07932.mp3",
+"lang": "zh"
+},
+{
+"text": "enseñanza superior",
+"path": "es/07282.mp3",
+"lang": "es"
+},
+{
+"text": "高等教育",
+"path": "zh/07933.mp3",
+"lang": "zh"
+},
+{
+"text": "enseñanza de adultos",
+"path": "es/07283.mp3",
+"lang": "es"
+},
+{
+"text": "成人教育",
+"path": "zh/07934.mp3",
+"lang": "zh"
+},
+{
+"text": "educación a distancia",
+"path": "es/07284.mp3",
+"lang": "es"
+},
+{
+"text": "远程教育",
+"path": "zh/07935.mp3",
+"lang": "zh"
+},
+{
+"text": "formación online",
+"path": "es/07285.mp3",
+"lang": "es"
+},
+{
+"text": "网络教育",
+"path": "zh/07936.mp3",
+"lang": "zh"
+},
+{
+"text": "estudios a tiempo parcial",
+"path": "es/07286.mp3",
+"lang": "es"
+},
+{
+"text": "半日制教育",
+"path": "zh/07937.mp3",
+"lang": "zh"
+},
+{
+"text": "educación a tiempo completo",
+"path": "es/07287.mp3",
+"lang": "es"
+},
+{
+"text": "全日制教育",
+"path": "zh/07938.mp3",
+"lang": "zh"
+},
+{
+"text": "suspensión escolar",
+"path": "es/07288.mp3",
+"lang": "es"
+},
+{
+"text": "停学",
+"path": "zh/07939.mp3",
 "lang": "zh"
 },
 {
@@ -13436,8 +13596,8 @@
 "lang": "zh"
 },
 {
-"text": "El niño merece una buena educación.",
-"path": "es/07228.mp3",
+"text": "El niño merece la educación.",
+"path": "es/02836.mp3",
 "lang": "es"
 },
 {
@@ -13456,13 +13616,13 @@
 "lang": "zh"
 },
 {
-"text": "Sobre el futuro de la educación, tenemos opiniones diferentes.",
-"path": "es/07229.mp3",
+"text": "Sobre el futuro de la educación, tenemos diferentes opiniones.",
+"path": "es/07289.mp3",
 "lang": "es"
 },
 {
 "text": "对于教育的未来，每个人的看法都不同。",
-"path": "zh/03060.mp3",
+"path": "zh/07940.mp3",
 "lang": "zh"
 },
 {
@@ -13501,6 +13661,26 @@
 "lang": "zh"
 },
 {
+"text": "pregunta de examen",
+"path": "es/07290.mp3",
+"lang": "es"
+},
+{
+"text": "试题",
+"path": "zh/07941.mp3",
+"lang": "zh"
+},
+{
+"text": "examen de ingreso",
+"path": "es/07291.mp3",
+"lang": "es"
+},
+{
+"text": "入学考试",
+"path": "zh/07942.mp3",
+"lang": "zh"
+},
+{
 "text": "repasar",
 "path": "es/07232.mp3",
 "lang": "es"
@@ -13511,6 +13691,16 @@
 "lang": "zh"
 },
 {
+"text": "hacer trampa",
+"path": "es/07292.mp3",
+"lang": "es"
+},
+{
+"text": "作弊",
+"path": "zh/07943.mp3",
+"lang": "zh"
+},
+{
 "text": "oral",
 "path": "es/02843.mp3",
 "lang": "es"
@@ -13518,6 +13708,16 @@
 {
 "text": "口语的",
 "path": "zh/03065.mp3",
+"lang": "zh"
+},
+{
+"text": "exámenes de nivel cuatro",
+"path": "es/07293.mp3",
+"lang": "es"
+},
+{
+"text": "四级考试",
+"path": "zh/07944.mp3",
 "lang": "zh"
 },
 {
@@ -13561,8 +13761,8 @@
 "lang": "zh"
 },
 {
-"text": "Si quieres prepararte bien, es mejor que no dejes que el sudor te bloquee los poros.",
-"path": "es/07233.mp3",
+"text": "Si quieres una buena preparación, es mejor que no deje que el sudor bloquee los poros.",
+"path": "es/02846.mp3",
 "lang": "es"
 },
 {
@@ -13571,13 +13771,13 @@
 "lang": "zh"
 },
 {
-"text": "Entiendo inglés; aprobé el examen de inglés de nivel seis y puedo mantener una conversación cotidiana en inglés.",
-"path": "es/07234.mp3",
+"text": "Entiendo inglés, pasé el examen de inglés de nivel seis, y puedo hacer la conversación cotidiana en inglés.",
+"path": "es/07294.mp3",
 "lang": "es"
 },
 {
 "text": "我懂英文。我已经通过了大学英语六级的考试，可以用英语进行日常生活会话。",
-"path": "zh/03071.mp3",
+"path": "zh/07945.mp3",
 "lang": "zh"
 },
 {
@@ -13601,13 +13801,13 @@
 "lang": "zh"
 },
 {
-"text": "Ana aprobó el examen estudiando mucho.",
-"path": "es/07236.mp3",
+"text": "Ana aprobó un examen estudiando mucho.",
+"path": "es/07368.mp3",
 "lang": "es"
 },
 {
 "text": "安娜靠努力学习通过考试。",
-"path": "zh/03074.mp3",
+"path": "zh/08019.mp3",
 "lang": "zh"
 },
 {
@@ -13646,6 +13846,106 @@
 "lang": "zh"
 },
 {
+"text": "oficina de finanzas",
+"path": "es/07295.mp3",
+"lang": "es"
+},
+{
+"text": "财务室",
+"path": "zh/07946.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina del director",
+"path": "es/07296.mp3",
+"lang": "es"
+},
+{
+"text": "校长室",
+"path": "zh/07947.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina del vicepresidente",
+"path": "es/07297.mp3",
+"lang": "es"
+},
+{
+"text": "副校长室",
+"path": "zh/07948.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina del profesor",
+"path": "es/07298.mp3",
+"lang": "es"
+},
+{
+"text": "教授办公室",
+"path": "zh/07949.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de los profesores",
+"path": "es/07299.mp3",
+"lang": "es"
+},
+{
+"text": "讲师办公室",
+"path": "zh/07950.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de archivos",
+"path": "es/07300.mp3",
+"lang": "es"
+},
+{
+"text": "档案室",
+"path": "zh/07951.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de admisiones",
+"path": "es/07301.mp3",
+"lang": "es"
+},
+{
+"text": "招生办",
+"path": "zh/07952.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de pregrado",
+"path": "es/07302.mp3",
+"lang": "es"
+},
+{
+"text": "本科生办公室",
+"path": "zh/07953.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de posgrado",
+"path": "es/07303.mp3",
+"lang": "es"
+},
+{
+"text": "研究生办公室",
+"path": "zh/07954.mp3",
+"lang": "zh"
+},
+{
+"text": "centro de empleo",
+"path": "es/07304.mp3",
+"lang": "es"
+},
+{
+"text": "就业中心",
+"path": "zh/07955.mp3",
+"lang": "zh"
+},
+{
 "text": "pantalla",
 "path": "es/02852.mp3",
 "lang": "es"
@@ -13656,6 +13956,16 @@
 "lang": "zh"
 },
 {
+"text": "armario",
+"path": "es/02893.mp3",
+"lang": "es"
+},
+{
+"text": "（办公室中的）文件柜",
+"path": "zh/03127.mp3",
+"lang": "zh"
+},
+{
 "text": "bonita",
 "path": "es/02853.mp3",
 "lang": "es"
@@ -13663,6 +13973,16 @@
 {
 "text": "好看的",
 "path": "zh/03078.mp3",
+"lang": "zh"
+},
+{
+"text": "Estados Unidos",
+"path": "es/07305.mp3",
+"lang": "es"
+},
+{
+"text": "美国",
+"path": "zh/07956.mp3",
 "lang": "zh"
 },
 {
@@ -13696,13 +14016,13 @@
 "lang": "zh"
 },
 {
-"text": "Hay una taquilla en mi oficina.",
-"path": "es/07238.mp3",
+"text": "Hay un armario bonito en mi oficina.",
+"path": "es/07306.mp3",
 "lang": "es"
 },
 {
 "text": "在我办公室有个漂亮的文件柜。",
-"path": "zh/03082.mp3",
+"path": "zh/07957.mp3",
 "lang": "zh"
 },
 {
@@ -13711,7 +14031,7 @@
 "lang": "es"
 },
 {
-"text": "51% 的家长想要送孩子去美国，以便能接受到最高等的教育。",
+"text": "的家长想要送孩子去美国，以便能接受到最高等的教育。",
 "path": "zh/03083.mp3",
 "lang": "zh"
 },
@@ -13756,33 +14076,28 @@
 "lang": "zh"
 },
 {
-"text": "cortina",
-"path": "es/01121.mp3",
-"lang": "es"
-},
-{
-"text": "幕布",
-"path": "zh/03088.mp3",
-"lang": "zh"
-},
-{
-"text": "tarima",
-"path": "es/07239.mp3",
+"text": "estrado",
+"path": "es/07307.mp3",
 "lang": "es"
 },
 {
 "text": "讲台",
-"path": "zh/03089.mp3",
+"path": "zh/07958.mp3",
 "lang": "zh"
 },
 {
-"text": "podium",
-"path": "es/07240.mp3",
+"text": "podio",
+"path": "es/07308.mp3",
 "lang": "es"
 },
 {
-"text": "bastón",
-"path": "es/07241.mp3",
+"text": "讲台",
+"path": "zh/07959.mp3",
+"lang": "zh"
+},
+{
+"text": "varita",
+"path": "es/02864.mp3",
 "lang": "es"
 },
 {
@@ -13838,6 +14153,16 @@
 {
 "text": "阶梯教室",
 "path": "zh/03095.mp3",
+"lang": "zh"
+},
+{
+"text": "cartel en la pizarra",
+"path": "es/07309.mp3",
+"lang": "es"
+},
+{
+"text": "板报",
+"path": "zh/07960.mp3",
 "lang": "zh"
 },
 {
@@ -13921,8 +14246,8 @@
 "lang": "zh"
 },
 {
-"text": "Veo los alumnos desde el podium.",
-"path": "es/07243.mp3",
+"text": "Veo los alumnos desde la tribuna.",
+"path": "es/02875.mp3",
 "lang": "es"
 },
 {
@@ -13966,6 +14291,16 @@
 "lang": "zh"
 },
 {
+"text": "cancha de baloncesto",
+"path": "es/07310.mp3",
+"lang": "es"
+},
+{
+"text": "篮球场",
+"path": "zh/07961.mp3",
+"lang": "zh"
+},
+{
 "text": "columpio",
 "path": "es/07245.mp3",
 "lang": "es"
@@ -13986,6 +14321,36 @@
 "lang": "zh"
 },
 {
+"text": "barras paralelas",
+"path": "es/07311.mp3",
+"lang": "es"
+},
+{
+"text": "双杠",
+"path": "zh/07962.mp3",
+"lang": "zh"
+},
+{
+"text": "anillos",
+"path": "es/07312.mp3",
+"lang": "es"
+},
+{
+"text": "吊环",
+"path": "zh/07963.mp3",
+"lang": "zh"
+},
+{
+"text": "caballo con arcos",
+"path": "es/07313.mp3",
+"lang": "es"
+},
+{
+"text": "鞍马",
+"path": "zh/07964.mp3",
+"lang": "zh"
+},
+{
 "text": "correr",
 "path": "es/02880.mp3",
 "lang": "es"
@@ -13993,6 +14358,36 @@
 {
 "text": "跑步",
 "path": "zh/03110.mp3",
+"lang": "zh"
+},
+{
+"text": "barra horizontal",
+"path": "es/07314.mp3",
+"lang": "es"
+},
+{
+"text": "单杠",
+"path": "zh/07965.mp3",
+"lang": "zh"
+},
+{
+"text": "barras asimétricas",
+"path": "es/07315.mp3",
+"lang": "es"
+},
+{
+"text": "高低杠",
+"path": "zh/07966.mp3",
+"lang": "zh"
+},
+{
+"text": "el punto más alto",
+"path": "es/07316.mp3",
+"lang": "es"
+},
+{
+"text": "最高点",
+"path": "zh/07967.mp3",
 "lang": "zh"
 },
 {
@@ -14013,6 +14408,16 @@
 {
 "text": "跳绳用的绳子",
 "path": "zh/03112.mp3",
+"lang": "zh"
+},
+{
+"text": "mesa de ping–pong",
+"path": "es/07317.mp3",
+"lang": "es"
+},
+{
+"text": "乒乓球台",
+"path": "zh/07968.mp3",
 "lang": "zh"
 },
 {
@@ -14046,13 +14451,13 @@
 "lang": "zh"
 },
 {
-"text": "excursion",
-"path": "es/02885.mp3",
+"text": "paseo",
+"path": "es/07369.mp3",
 "lang": "es"
 },
 {
 "text": "走动",
-"path": "zh/03116.mp3",
+"path": "zh/08020.mp3",
 "lang": "zh"
 },
 {
@@ -14106,13 +14511,13 @@
 "lang": "zh"
 },
 {
-"text": "No puedes matar dos pájaros de un tiro.",
-"path": "es/07248.mp3",
+"text": "No puedes cazar dos pájaros de un tiro.",
+"path": "es/07370.mp3",
 "lang": "es"
 },
 {
 "text": "同时追两鸟,一一落空。",
-"path": "zh/03122.mp3",
+"path": "zh/08021.mp3",
 "lang": "zh"
 },
 {
@@ -14126,13 +14531,28 @@
 "lang": "zh"
 },
 {
-"text": "cama individual",
-"path": "es/07249.mp3",
+"text": "ofrecer alojamiento",
+"path": "es/07371.mp3",
 "lang": "es"
+},
+{
+"text": "提供住宿",
+"path": "zh/08022.mp3",
+"lang": "zh"
 },
 {
 "text": "单人床",
 "path": "zh/03124.mp3",
+"lang": "zh"
+},
+{
+"text": "cama litera",
+"path": "es/07372.mp3",
+"lang": "es"
+},
+{
+"text": "上下铺",
+"path": "zh/08023.mp3",
 "lang": "zh"
 },
 {
@@ -14148,16 +14568,6 @@
 {
 "text": "困乏",
 "path": "zh/03126.mp3",
-"lang": "zh"
-},
-{
-"text": "armario",
-"path": "es/02893.mp3",
-"lang": "es"
-},
-{
-"text": "衣柜",
-"path": "zh/03127.mp3",
 "lang": "zh"
 },
 {
@@ -14231,6 +14641,16 @@
 "lang": "zh"
 },
 {
+"text": "recientemente",
+"path": "es/07373.mp3",
+"lang": "es"
+},
+{
+"text": "最近，最新",
+"path": "zh/08024.mp3",
+"lang": "zh"
+},
+{
 "text": "despertar",
 "path": "es/02896.mp3",
 "lang": "es"
@@ -14271,13 +14691,13 @@
 "lang": "zh"
 },
 {
-"text": "Recientemente, debido al frío, no he podido despertarme, aunque tengo sueño.",
-"path": "es/07250.mp3",
+"text": "Recientemente, debido al resfriado, no he podido despertarme y sigo teniendo sueño.",
+"path": "es/07374.mp3",
 "lang": "es"
 },
 {
 "text": "最近因为感冒的原因吧，总是睡不醒，醒了又总是困。",
-"path": "zh/03133.mp3",
+"path": "zh/08025.mp3",
 "lang": "zh"
 },
 {
@@ -14321,13 +14741,13 @@
 "lang": "zh"
 },
 {
-"text": "Coge las pinzas y tiende las sábanas.",
-"path": "es/02905.mp3",
+"text": "Toma las pinzas y tiende las sábanas.",
+"path": "es/07375.mp3",
 "lang": "es"
 },
 {
 "text": "拿衣夹，晾床单。",
-"path": "zh/03138.mp3",
+"path": "zh/08026.mp3",
 "lang": "zh"
 },
 {
@@ -14366,8 +14786,8 @@
 "lang": "es"
 },
 {
-"text": "pintar al óleo",
-"path": "es/07252.mp3",
+"text": "pintar",
+"path": "es/02909.mp3",
 "lang": "es"
 },
 {
@@ -14406,6 +14826,26 @@
 "lang": "zh"
 },
 {
+"text": "pintura de paisaje",
+"path": "es/07376.mp3",
+"lang": "es"
+},
+{
+"text": "风景画",
+"path": "zh/08027.mp3",
+"lang": "zh"
+},
+{
+"text": "pintura de acuarela",
+"path": "es/07377.mp3",
+"lang": "es"
+},
+{
+"text": "水彩画",
+"path": "zh/08028.mp3",
+"lang": "zh"
+},
+{
 "text": "caballete",
 "path": "es/02912.mp3",
 "lang": "es"
@@ -14436,8 +14876,8 @@
 "lang": "zh"
 },
 {
-"text": "esbozo",
-"path": "es/07256.mp3",
+"text": "esbozar",
+"path": "es/02914.mp3",
 "lang": "es"
 },
 {
@@ -14446,8 +14886,8 @@
 "lang": "zh"
 },
 {
-"text": "goma de borrar",
-"path": "es/07257.mp3",
+"text": "goma",
+"path": "es/02915.mp3",
 "lang": "es"
 },
 {
@@ -14476,6 +14916,16 @@
 "lang": "zh"
 },
 {
+"text": "caracterizar",
+"path": "es/07378.mp3",
+"lang": "es"
+},
+{
+"text": "显示……特征",
+"path": "zh/08029.mp3",
+"lang": "zh"
+},
+{
 "text": "La artista ávida que acabamos de mencionar es mi esposa.",
 "path": "es/02918.mp3",
 "lang": "es"
@@ -14496,23 +14946,23 @@
 "lang": "zh"
 },
 {
-"text": "El pintor caracteriza a sus personajes bien.",
-"path": "es/02920.mp3",
+"text": "El pintor caracteriza bien a sus personajes.",
+"path": "es/07379.mp3",
 "lang": "es"
 },
 {
 "text": "这个画家善于刻画人物的特点。",
-"path": "zh/03155.mp3",
+"path": "zh/08030.mp3",
 "lang": "zh"
 },
 {
-"text": "Mire cuidadosamente los cajones para buscar su goma.",
-"path": "es/02921.mp3",
+"text": "Mira bien los cajones para encontrar tu goma.",
+"path": "es/07380.mp3",
 "lang": "es"
 },
 {
 "text": "你仔细查看一下抽屉，看能否找到你的橡皮。",
-"path": "zh/03156.mp3",
+"path": "zh/08031.mp3",
 "lang": "zh"
 },
 {
@@ -14543,6 +14993,16 @@
 {
 "text": "烧杯",
 "path": "zh/03159.mp3",
+"lang": "zh"
+},
+{
+"text": "lámpara de alcohol",
+"path": "es/07381.mp3",
+"lang": "es"
+},
+{
+"text": "酒精灯",
+"path": "zh/08032.mp3",
 "lang": "zh"
 },
 {
@@ -14731,13 +15191,13 @@
 "lang": "zh"
 },
 {
-"text": "No elegimos olvidar, sino guardar en el abismo del corazón.",
-"path": "es/07258.mp3",
+"text": "No elegimos olvidar; elegimos recordar y guardar en lo más hondo del corazón.",
+"path": "es/07382.mp3",
 "lang": "es"
 },
 {
 "text": "不用选择忘记，请选择收藏， 收藏在心灵深处。",
-"path": "zh/03176.mp3",
+"path": "zh/08033.mp3",
 "lang": "zh"
 },
 {
@@ -14786,13 +15246,13 @@
 "lang": "zh"
 },
 {
-"text": "asistente",
-"path": "es/02940.mp3",
+"text": "ayudante",
+"path": "es/07383.mp3",
 "lang": "es"
 },
 {
 "text": "助教",
-"path": "zh/03182.mp3",
+"path": "zh/08034.mp3",
 "lang": "zh"
 },
 {
@@ -14841,6 +15301,16 @@
 "lang": "zh"
 },
 {
+"text": "personal administrativo",
+"path": "es/07384.mp3",
+"lang": "es"
+},
+{
+"text": "行政人员",
+"path": "zh/08035.mp3",
+"lang": "zh"
+},
+{
 "text": "estudiante transferido",
 "path": "es/07260.mp3",
 "lang": "es"
@@ -14861,33 +15331,23 @@
 "lang": "zh"
 },
 {
-"text": "locución",
-"path": "es/02947.mp3",
-"lang": "es"
-},
-{
-"text": "讲话",
-"path": "zh/03189.mp3",
-"lang": "zh"
-},
-{
-"text": "La tarjeta de estudiante te da derecho a un descuento para viajar.",
-"path": "es/07261.mp3",
+"text": "La tarjeta de estudiante te da derecho a un descuento en los viajes.",
+"path": "es/07385.mp3",
 "lang": "es"
 },
 {
 "text": "凭学生证可买到减价的火车票旅行。",
-"path": "zh/03190.mp3",
+"path": "zh/08036.mp3",
 "lang": "zh"
 },
 {
-"text": "Por muy rápido que hable el profesor, los estudiantes pueden anotarlo todo.",
-"path": "es/07262.mp3",
+"text": "Por más rápido que hable el profesor, los estudiantes pueden anotarlo todo.",
+"path": "es/07386.mp3",
 "lang": "es"
 },
 {
 "text": "不管老师说得多快，学生们都能记下来。",
-"path": "zh/03191.mp3",
+"path": "zh/08037.mp3",
 "lang": "zh"
 },
 {
@@ -14901,23 +15361,23 @@
 "lang": "zh"
 },
 {
-"text": "Le enseñaré a hablar el español.",
-"path": "es/02951.mp3",
+"text": "Le enseñaré a hablar español.",
+"path": "es/07387.mp3",
 "lang": "es"
 },
 {
 "text": "我来教你讲西班牙语。",
-"path": "zh/03193.mp3",
+"path": "zh/08038.mp3",
 "lang": "zh"
 },
 {
-"text": "El director dio una locución a los estudiantes.",
-"path": "es/07263.mp3",
+"text": "El director dio un discurso a los estudiantes.",
+"path": "es/07388.mp3",
 "lang": "es"
 },
 {
 "text": "校长向同学们做了个讲话。",
-"path": "zh/03194.mp3",
+"path": "zh/08039.mp3",
 "lang": "zh"
 },
 {
@@ -14961,6 +15421,16 @@
 "lang": "zh"
 },
 {
+"text": "departamento de la computación",
+"path": "es/07389.mp3",
+"lang": "es"
+},
+{
+"text": "计算机系",
+"path": "zh/08040.mp3",
+"lang": "zh"
+},
+{
 "text": "arte",
 "path": "es/02957.mp3",
 "lang": "es"
@@ -14968,6 +15438,36 @@
 {
 "text": "艺术",
 "path": "zh/03199.mp3",
+"lang": "zh"
+},
+{
+"text": "oceanografía",
+"path": "es/03321.mp3",
+"lang": "es"
+},
+{
+"text": "海洋科学",
+"path": "zh/03614.mp3",
+"lang": "zh"
+},
+{
+"text": "tecnología marina",
+"path": "es/07390.mp3",
+"lang": "es"
+},
+{
+"text": "海洋技术",
+"path": "zh/08041.mp3",
+"lang": "zh"
+},
+{
+"text": "automatización",
+"path": "es/07391.mp3",
+"lang": "es"
+},
+{
+"text": "自动化",
+"path": "zh/08042.mp3",
 "lang": "zh"
 },
 {
@@ -15111,23 +15611,23 @@
 "lang": "zh"
 },
 {
-"text": "En los próximos años lograremos la automatización de la producción, poniendo a las personas en el centro, fortaleciendo la gestión y estableciendo con los clientes una cooperación sincera de mano a mano.",
-"path": "es/07266.mp3",
+"text": "En los próximos años podremos lograr la automatización total de la producción, orientándonos a las personas, fortaleciendo la gestión y estableciendo con los clientes una cooperación sincera, ¡de la mano!",
+"path": "es/07392.mp3",
 "lang": "es"
 },
 {
 "text": "我们将在未来几年内实现全面自动化生产，以人为本，加强管理，与客户真诚合作，携手共进！",
-"path": "zh/03214.mp3",
+"path": "zh/08043.mp3",
 "lang": "zh"
 },
 {
-"text": "La muerte de una lengua no es grave en sí misma, sino por lo que podría traer.",
-"path": "es/07267.mp3",
+"text": "La muerte de una lengua no es grave por sí misma, sino por lo que podría traer.",
+"path": "es/07393.mp3",
 "lang": "es"
 },
 {
 "text": "一个语言灭亡的严重性不在于这件事情本身，而在于它的灭亡带来了什么冲击。",
-"path": "zh/03215.mp3",
+"path": "zh/08044.mp3",
 "lang": "zh"
 },
 {
@@ -15191,6 +15691,16 @@
 "lang": "zh"
 },
 {
+"text": "plazo del préstamo",
+"path": "es/07394.mp3",
+"lang": "es"
+},
+{
+"text": "租赁期限",
+"path": "zh/08045.mp3",
+"lang": "zh"
+},
+{
 "text": "搜索",
 "path": "zh/03222.mp3",
 "lang": "zh"
@@ -15248,6 +15758,16 @@
 {
 "text": "扫描机",
 "path": "zh/03229.mp3",
+"lang": "zh"
+},
+{
+"text": "sala de lectura",
+"path": "es/07395.mp3",
+"lang": "es"
+},
+{
+"text": "阅览室",
+"path": "zh/08046.mp3",
 "lang": "zh"
 },
 {
@@ -15342,12 +15862,12 @@
 },
 {
 "text": "¿Por qué faltan dos libros en este estante?",
-"path": "es/07272.mp3",
+"path": "es/07396.mp3",
 "lang": "es"
 },
 {
 "text": "这个书架上怎么少了两本书？",
-"path": "zh/03237.mp3",
+"path": "zh/08047.mp3",
 "lang": "zh"
 },
 {
@@ -17746,6 +18266,16 @@
 "lang": "zh"
 },
 {
+"text": "ciencias humanas",
+"path": "es/07444.mp3",
+"lang": "es"
+},
+{
+"text": "文科",
+"path": "zh/08095.mp3",
+"lang": "zh"
+},
+{
 "text": "cultura",
 "path": "es/03169.mp3",
 "lang": "es"
@@ -17753,6 +18283,16 @@
 {
 "text": "文化",
 "path": "zh/03436.mp3",
+"lang": "zh"
+},
+{
+"text": "idioma extranjero",
+"path": "es/07445.mp3",
+"lang": "es"
+},
+{
+"text": "外语",
+"path": "zh/08096.mp3",
 "lang": "zh"
 },
 {
@@ -17806,6 +18346,16 @@
 "lang": "zh"
 },
 {
+"text": "dibujo animado",
+"path": "es/07446.mp3",
+"lang": "es"
+},
+{
+"text": "动画",
+"path": "zh/08097.mp3",
+"lang": "zh"
+},
+{
 "text": "psicología",
 "path": "es/03174.mp3",
 "lang": "es"
@@ -17813,6 +18363,26 @@
 {
 "text": "心理学",
 "path": "zh/03441.mp3",
+"lang": "zh"
+},
+{
+"text": "biblioteconomía",
+"path": "es/07447.mp3",
+"lang": "es"
+},
+{
+"text": "图书馆学",
+"path": "zh/08098.mp3",
+"lang": "zh"
+},
+{
+"text": "humanidades",
+"path": "es/07448.mp3",
+"lang": "es"
+},
+{
+"text": "人文学科",
+"path": "zh/08099.mp3",
 "lang": "zh"
 },
 {
@@ -17846,43 +18416,53 @@
 "lang": "zh"
 },
 {
-"text": "Cada historia tiene un final, pero en la vida, cada destino también es un nuevo comienzo.",
-"path": "es/03178.mp3",
+"text": "Cada historia tiene un final, pero en la vida, cada final también es un nuevo comienzo.",
+"path": "es/07449.mp3",
 "lang": "es"
 },
 {
-"text": "每段故事都有一个结局。但是在人旳一生中，每一个终点同时也是一个新旳起点。",
-"path": "zh/03445.mp3",
+"text": "每段故事都有一个结局。但是在人的一生中，每一个终点同时也是一个新的起点。",
+"path": "zh/08100.mp3",
 "lang": "zh"
 },
 {
-"text": "La literatura dice que unas cosas se han ido, y las cosas desaparecidas contradictoriamente siguen viviendo para siempre.",
-"path": "es/03179.mp3",
+"text": "La literatura dice que unas cosas se han ido y, de forma contradictoria, que las cosas desaparecidas siguen viviendo para siempre.",
+"path": "es/07450.mp3",
 "lang": "es"
 },
 {
 "text": "文学说一些事物消逝了，同时又矛盾地说，消亡的事物在继续永恒地存在着。",
-"path": "zh/03446.mp3",
+"path": "zh/08101.mp3",
 "lang": "zh"
 },
 {
-"text": "Desde un punto de vista psicológica, la posición en la familia, afectará a la personalidad de una persona.",
-"path": "es/03180.mp3",
+"text": "Desde el punto de vista psicológico, el lugar que se ocupa en la familia afecta a la personalidad de una persona.",
+"path": "es/07451.mp3",
 "lang": "es"
 },
 {
 "text": "从心理学的角度来说，在家庭中的位置，也会在一定程度上影响一个人的个性。",
-"path": "zh/03447.mp3",
+"path": "zh/08102.mp3",
 "lang": "zh"
 },
 {
-"text": "británico",
-"path": "es/03181.mp3",
+"text": "inglés británico",
+"path": "es/07452.mp3",
 "lang": "es"
 },
 {
-"text": "英语 inglés",
-"path": "zh/03448.mp3",
+"text": "英语",
+"path": "zh/08103.mp3",
+"lang": "zh"
+},
+{
+"text": "inglés americano",
+"path": "es/07453.mp3",
+"lang": "es"
+},
+{
+"text": "美语",
+"path": "zh/08104.mp3",
 "lang": "zh"
 },
 {
@@ -17893,6 +18473,16 @@
 {
 "text": "对话",
 "path": "zh/03449.mp3",
+"lang": "zh"
+},
+{
+"text": "expresión oral",
+"path": "es/07454.mp3",
+"lang": "es"
+},
+{
+"text": "口语",
+"path": "zh/08105.mp3",
 "lang": "zh"
 },
 {
@@ -18016,8 +18606,23 @@
 "lang": "zh"
 },
 {
+"text": "entonación",
+"path": "es/04391.mp3",
+"lang": "es"
+},
+{
+"text": "语调",
+"path": "zh/04848.mp3",
+"lang": "zh"
+},
+{
+"text": "oración",
+"path": "es/07455.mp3",
+"lang": "es"
+},
+{
 "text": "句子",
-"path": "zh/03462.mp3",
+"path": "zh/08106.mp3",
 "lang": "zh"
 },
 {
@@ -18051,13 +18656,13 @@
 "lang": "zh"
 },
 {
-"text": "Cuando hay una oración interrogativa, podemos usar un pronombre interrogativo como “que”, y “el uno”.",
-"path": "es/03195.mp3",
+"text": "Cuando hay una oración interrogativa, podemos usar un pronombre interrogativo como «qué» o «cuál».",
+"path": "es/07456.mp3",
 "lang": "es"
 },
 {
-"text": "在一个疑问句子里面，我们当然要用一个疑问代词，例如que, el uno。",
-"path": "zh/03466.mp3",
+"text": "在一个问句里，我们当然要用一个疑问代词，例如 «qué» 或 «cuál»。",
+"path": "zh/08107.mp3",
 "lang": "zh"
 },
 {
@@ -18071,13 +18676,13 @@
 "lang": "zh"
 },
 {
-"text": "navegar",
-"path": "es/01301.mp3",
+"text": "hojear",
+"path": "es/07457.mp3",
 "lang": "es"
 },
 {
 "text": "浏览",
-"path": "zh/03468.mp3",
+"path": "zh/08108.mp3",
 "lang": "zh"
 },
 {
@@ -18111,6 +18716,16 @@
 "lang": "zh"
 },
 {
+"text": "en voz alta",
+"path": "es/07458.mp3",
+"lang": "es"
+},
+{
+"text": "高声地",
+"path": "zh/08109.mp3",
+"lang": "zh"
+},
+{
 "text": "estudiar",
 "path": "es/03199.mp3",
 "lang": "es"
@@ -18128,6 +18743,16 @@
 {
 "text": "详细的",
 "path": "zh/03473.mp3",
+"lang": "zh"
+},
+{
+"text": "leer a saltos",
+"path": "es/07459.mp3",
+"lang": "es"
+},
+{
+"text": "跳读",
+"path": "zh/08110.mp3",
 "lang": "zh"
 },
 {
@@ -18206,13 +18831,13 @@
 "lang": "zh"
 },
 {
-"text": "Simboliza no solo el aspecto material de las cosas, sino también un símbolo de la propia sustancia.",
-"path": "es/03208.mp3",
+"text": "Simboliza no solo el aspecto material de las cosas, sino también la propia sustancia.",
+"path": "es/07460.mp3",
 "lang": "es"
 },
 {
 "text": "它象征事物物质的一面，也象征物质本身。",
-"path": "zh/03483.mp3",
+"path": "zh/08111.mp3",
 "lang": "zh"
 },
 {
@@ -18226,13 +18851,13 @@
 "lang": "zh"
 },
 {
-"text": "En la aréa de ciencia, los chinos tienen un conocimiento de la ciencia europea preciso igualmente.",
-"path": "es/03210.mp3",
+"text": "En el ámbito de la ciencia, los chinos conocen la ciencia europea igual de bien.",
+"path": "es/07461.mp3",
 "lang": "es"
 },
 {
 "text": "在科学领域，中国人对欧洲科学的认识同样准确。",
-"path": "zh/03485.mp3",
+"path": "zh/08112.mp3",
 "lang": "zh"
 },
 {
@@ -18258,6 +18883,16 @@
 {
 "text": "时期，时代",
 "path": "zh/03488.mp3",
+"lang": "zh"
+},
+{
+"text": "edad de piedra",
+"path": "es/07462.mp3",
+"lang": "es"
+},
+{
+"text": "石器时代",
+"path": "zh/08113.mp3",
 "lang": "zh"
 },
 {
@@ -18371,23 +19006,23 @@
 "lang": "zh"
 },
 {
-"text": "El hombre no había dejado de pensar en descubrir el misterio y mejorar el proceso.",
-"path": "es/03222.mp3",
+"text": "El ser humano nunca ha dejado de tratar de descubrir el misterio y perfeccionar el proceso.",
+"path": "es/07463.mp3",
 "lang": "es"
 },
 {
 "text": "人们从来没有停止过对神秘事物的开辟及完善过程。",
-"path": "zh/03501.mp3",
+"path": "zh/08114.mp3",
 "lang": "zh"
 },
 {
-"text": "Su forma y función realmente es un tesoro de la nación china, simbolizado orgullo para los chinos.",
-"path": "es/03223.mp3",
+"text": "Su forma y su función son realmente un tesoro de la nación china y un símbolo de orgullo para los chinos.",
+"path": "es/07464.mp3",
 "lang": "es"
 },
 {
 "text": "她的形态和功能确实是中华民族的瑰宝，为国人所自豪。",
-"path": "zh/03502.mp3",
+"path": "zh/08115.mp3",
 "lang": "zh"
 },
 {
@@ -18461,6 +19096,26 @@
 "lang": "zh"
 },
 {
+"text": "psicología general",
+"path": "es/07465.mp3",
+"lang": "es"
+},
+{
+"text": "普通心理学",
+"path": "zh/08116.mp3",
+"lang": "zh"
+},
+{
+"text": "psicología experimental",
+"path": "es/07466.mp3",
+"lang": "es"
+},
+{
+"text": "实验心理学",
+"path": "zh/08117.mp3",
+"lang": "zh"
+},
+{
 "text": "comportamiento",
 "path": "es/03229.mp3",
 "lang": "es"
@@ -18493,6 +19148,16 @@
 {
 "text": "依赖性",
 "path": "zh/03511.mp3",
+"lang": "zh"
+},
+{
+"text": "la acción refleja",
+"path": "es/07467.mp3",
+"lang": "es"
+},
+{
+"text": "反射作用",
+"path": "zh/08118.mp3",
 "lang": "zh"
 },
 {
@@ -18571,13 +19236,13 @@
 "lang": "zh"
 },
 {
-"text": "Todos amamos a nuestra madre sin saberlo, y en general damos cuenta del amor tan profundo hasta la última separación.",
-"path": "es/03239.mp3",
+"text": "Todos amamos a nuestra madre sin saberlo y sólo nos damos cuenta de este amor tan profundo en el momento de la última separación.",
+"path": "es/07468.mp3",
 "lang": "es"
 },
 {
 "text": "每个人都深爱着自己的母亲而不自知，只有到最后离别那一刻才惊觉爱得如此深沉如此隐晦。",
-"path": "zh/03519.mp3",
+"path": "zh/08119.mp3",
 "lang": "zh"
 },
 {
@@ -18621,13 +19286,13 @@
 "lang": "zh"
 },
 {
-"text": "Tu comportamiento puede reflejar tu actitud de la vida.",
-"path": "es/03244.mp3",
+"text": "Tu comportamiento refleja tu actitud hacia la vida.",
+"path": "es/07469.mp3",
 "lang": "es"
 },
 {
 "text": "你的行为可以反映出你的生活态度。",
-"path": "zh/03524.mp3",
+"path": "zh/08120.mp3",
 "lang": "zh"
 },
 {
@@ -18651,13 +19316,13 @@
 "lang": "zh"
 },
 {
-"text": "folclore",
-"path": "es/03247.mp3",
+"text": "literatura popular",
+"path": "es/07470.mp3",
 "lang": "es"
 },
 {
 "text": "民间文学",
-"path": "zh/03527.mp3",
+"path": "zh/08121.mp3",
 "lang": "zh"
 },
 {
@@ -18681,13 +19346,13 @@
 "lang": "zh"
 },
 {
-"text": "novela",
-"path": "es/03250.mp3",
+"text": "novela media",
+"path": "es/07471.mp3",
 "lang": "es"
 },
 {
 "text": "中篇小说",
-"path": "zh/03530.mp3",
+"path": "zh/08122.mp3",
 "lang": "zh"
 },
 {
@@ -18741,8 +19406,13 @@
 "lang": "zh"
 },
 {
+"text": "obra de teatro",
+"path": "es/07472.mp3",
+"lang": "es"
+},
+{
 "text": "话剧",
-"path": "zh/03536.mp3",
+"path": "zh/08123.mp3",
 "lang": "zh"
 },
 {
@@ -18753,6 +19423,16 @@
 {
 "text": "剧本",
 "path": "zh/03537.mp3",
+"lang": "zh"
+},
+{
+"text": "del guión",
+"path": "es/07473.mp3",
+"lang": "es"
+},
+{
+"text": "剧本的",
+"path": "zh/08124.mp3",
 "lang": "zh"
 },
 {
@@ -18796,13 +19476,23 @@
 "lang": "zh"
 },
 {
-"text": "Hay momentos en la vida de felicidad que ningún poema puede resumirlos.",
-"path": "es/03260.mp3",
+"text": "Las culturas de Oriente y del mundo se mezclan, combinando la tecnología moderna con la técnica clásica.",
+"path": "es/07474.mp3",
+"lang": "es"
+},
+{
+"text": "世界潮流与东方文化相互交融,现代技术与古典工艺完美结合。",
+"path": "zh/08125.mp3",
+"lang": "zh"
+},
+{
+"text": "Hay momentos de felicidad en la vida que ningún poema puede resumir.",
+"path": "es/07475.mp3",
 "lang": "es"
 },
 {
 "text": "生命中有些时刻，任何诗句都无法描述其美好。",
-"path": "zh/03543.mp3",
+"path": "zh/08126.mp3",
 "lang": "zh"
 },
 {
@@ -18876,14 +19566,14 @@
 "lang": "zh"
 },
 {
-"text": "情节",
-"path": "zh/03552.mp3",
-"lang": "zh"
+"text": "trama",
+"path": "es/07476.mp3",
+"lang": "es"
 },
 {
-"text": "riesgo",
-"path": "es/00549.mp3",
-"lang": "es"
+"text": "情节",
+"path": "zh/08127.mp3",
+"lang": "zh"
 },
 {
 "text": "ficción",
@@ -18921,13 +19611,13 @@
 "lang": "zh"
 },
 {
-"text": "resultar",
-"path": "es/03270.mp3",
+"text": "desenlace",
+"path": "es/05158.mp3",
 "lang": "es"
 },
 {
 "text": "结局",
-"path": "zh/03556.mp3",
+"path": "zh/05753.mp3",
 "lang": "zh"
 },
 {
@@ -18951,6 +19641,16 @@
 "lang": "zh"
 },
 {
+"text": "escenario",
+"path": "es/04405.mp3",
+"lang": "es"
+},
+{
+"text": "（事件等的）发生地点",
+"path": "zh/04865.mp3",
+"lang": "zh"
+},
+{
 "text": "reproducción",
 "path": "es/03273.mp3",
 "lang": "es"
@@ -18971,22 +19671,22 @@
 "lang": "zh"
 },
 {
-"text": "Esta historia atrae a personas.",
-"path": "es/03275.mp3",
+"text": "Esta historia atrae a la gente.",
+"path": "es/07477.mp3",
 "lang": "es"
 },
 {
 "text": "这个故事十分吸引人。",
-"path": "zh/03561.mp3",
+"path": "zh/08128.mp3",
 "lang": "zh"
 },
 {
-"text": "El hombre invisible es una famosa novela de ciencia ficción. 《",
+"text": "El hombre invisible es una famosa novela de ciencia ficción.",
 "path": "es/03276.mp3",
 "lang": "es"
 },
 {
-"text": "隐形人》是一部有名的科幻小说。",
+"text": "《隐形人》是一部有名的科幻小说。",
 "path": "zh/03562.mp3",
 "lang": "zh"
 },
@@ -19001,13 +19701,13 @@
 "lang": "zh"
 },
 {
-"text": "El escenario de la acción del filme es Roma.",
-"path": "es/03278.mp3",
+"text": "La trama de la película se desarrolla en Roma.",
+"path": "es/07478.mp3",
 "lang": "es"
 },
 {
 "text": "这部电影情节发展的地方在罗马。",
-"path": "zh/03564.mp3",
+"path": "zh/08129.mp3",
 "lang": "zh"
 },
 {
@@ -19028,6 +19728,46 @@
 {
 "text": "那会是一件难忘的事。",
 "path": "zh/03566.mp3",
+"lang": "zh"
+},
+{
+"text": "cosa ficticia",
+"path": "es/07479.mp3",
+"lang": "es"
+},
+{
+"text": "虚构的事物",
+"path": "zh/08130.mp3",
+"lang": "zh"
+},
+{
+"text": "caperucita roja",
+"path": "es/07480.mp3",
+"lang": "es"
+},
+{
+"text": "小红帽",
+"path": "zh/08131.mp3",
+"lang": "zh"
+},
+{
+"text": "el principito",
+"path": "es/07481.mp3",
+"lang": "es"
+},
+{
+"text": "小王子",
+"path": "zh/08132.mp3",
+"lang": "zh"
+},
+{
+"text": "pequeño zorro",
+"path": "es/07482.mp3",
+"lang": "es"
+},
+{
+"text": "小狐狸",
+"path": "zh/08133.mp3",
 "lang": "zh"
 },
 {
@@ -19121,11 +19861,6 @@
 "lang": "zh"
 },
 {
-"text": "varita",
-"path": "es/02864.mp3",
-"lang": "es"
-},
-{
 "text": "魔杖",
 "path": "zh/03576.mp3",
 "lang": "zh"
@@ -19158,6 +19893,16 @@
 {
 "text": "炼金术",
 "path": "zh/03579.mp3",
+"lang": "zh"
+},
+{
+"text": "poción mágica",
+"path": "es/07483.mp3",
+"lang": "es"
+},
+{
+"text": "魔力药剂",
+"path": "zh/08134.mp3",
 "lang": "zh"
 },
 {
@@ -19211,13 +19956,13 @@
 "lang": "zh"
 },
 {
-"text": "No deje que sus ideas se mantengan en la cabeza, hay que actuar, no sea el gigante en papel, pero el enano en acción.",
-"path": "es/03297.mp3",
+"text": "No dejes que tus ideas se queden sólo en la cabeza: hay que actuar. No seas un gigante en papel y un enano en acción.",
+"path": "es/07484.mp3",
 "lang": "es"
 },
 {
 "text": "不能让想法停留在脑子里，要付诸于行动；更不要做理论上的巨人，行动上的矮子。",
-"path": "zh/03585.mp3",
+"path": "zh/08135.mp3",
 "lang": "zh"
 },
 {
@@ -19251,6 +19996,11 @@
 "lang": "zh"
 },
 {
+"text": "novela",
+"path": "es/03250.mp3",
+"lang": "es"
+},
+{
 "text": "小说",
 "path": "zh/03589.mp3",
 "lang": "zh"
@@ -19258,6 +20008,16 @@
 {
 "text": "印刷",
 "path": "zh/03590.mp3",
+"lang": "zh"
+},
+{
+"text": "obra maestra",
+"path": "es/07485.mp3",
+"lang": "es"
+},
+{
+"text": "杰作",
+"path": "zh/08136.mp3",
 "lang": "zh"
 },
 {
@@ -19271,8 +20031,28 @@
 "lang": "zh"
 },
 {
+"text": "novela de detectives",
+"path": "es/07486.mp3",
+"lang": "es"
+},
+{
+"text": "侦探小说",
+"path": "zh/08137.mp3",
+"lang": "zh"
+},
+{
 "text": "短篇小说",
 "path": "zh/03592.mp3",
+"lang": "zh"
+},
+{
+"text": "novela romántica",
+"path": "es/07487.mp3",
+"lang": "es"
+},
+{
+"text": "言情小说",
+"path": "zh/08138.mp3",
 "lang": "zh"
 },
 {
@@ -19296,13 +20076,13 @@
 "lang": "zh"
 },
 {
-"text": "rollo",
-"path": "es/03303.mp3",
+"text": "volumen",
+"path": "es/01898.mp3",
 "lang": "es"
 },
 {
 "text": "卷",
-"path": "zh/03595.mp3",
+"path": "zh/02010.mp3",
 "lang": "zh"
 },
 {
@@ -19381,6 +20161,16 @@
 "lang": "zh"
 },
 {
+"text": "derecho de autor",
+"path": "es/07488.mp3",
+"lang": "es"
+},
+{
+"text": "版权",
+"path": "zh/08139.mp3",
+"lang": "zh"
+},
+{
 "text": "encuadernación",
 "path": "es/03310.mp3",
 "lang": "es"
@@ -19391,17 +20181,17 @@
 "lang": "zh"
 },
 {
-"text": "Mostré mi obra a los mayores y les pregunté si el dibujo les asustaba. Ellos respondieron: “¿Por qué tenemos miedo a un sombrero ?”",
-"path": "es/03311.mp3",
+"text": "Les mostré mi obra a los adultos y les pregunté si el dibujo les asustaba. Ellos respondieron: «¿Por qué tenemos miedo a un sombrero?»",
+"path": "es/07489.mp3",
 "lang": "es"
 },
 {
-"text": "我把我的这幅杰作拿给大人看,我问他们我的画是不是叫他们害怕。他们回答我说:“一顶帽子有什么可怕的？”",
-"path": "zh/03604.mp3",
+"text": "我把我的这幅杰作拿给大人看,我问他们我的画是不是叫他们害怕。他们回答说:“我们为什么要怕一顶帽子呢？”",
+"path": "zh/08140.mp3",
 "lang": "zh"
 },
 {
-"text": "Lee la novela con con-centración.",
+"text": "Lee la novela con concentración.",
 "path": "es/03312.mp3",
 "lang": "es"
 },
@@ -19428,6 +20218,16 @@
 {
 "text": "写那本小说花了他整整两年的时间。",
 "path": "zh/03607.mp3",
+"lang": "zh"
+},
+{
+"text": "Acabo de terminar de leer el tercer capítulo de la novela.",
+"path": "es/07490.mp3",
+"lang": "es"
+},
+{
+"text": "我最近刚读完这部小说的第三章。",
+"path": "zh/08141.mp3",
 "lang": "zh"
 },
 {
@@ -20504,6 +21304,11 @@
 "text": "相互地",
 "path": "zh/00565.mp3",
 "lang": "zh"
+},
+{
+"text": "riesgo",
+"path": "es/00549.mp3",
+"lang": "es"
 },
 {
 "text": "风险，冒险",
@@ -24831,16 +25636,6 @@
 "lang": "zh"
 },
 {
-"text": "oceanografía",
-"path": "es/03321.mp3",
-"lang": "es"
-},
-{
-"text": "海洋学",
-"path": "zh/03614.mp3",
-"lang": "zh"
-},
-{
 "text": "geología",
 "path": "es/03322.mp3",
 "lang": "es"
@@ -27401,6 +28196,11 @@
 "lang": "zh"
 },
 {
+"text": "讲话",
+"path": "zh/03189.mp3",
+"lang": "zh"
+},
+{
 "text": "profesional",
 "path": "es/03542.mp3",
 "lang": "es"
@@ -27454,6 +28254,11 @@
 "text": "总经理 gerente",
 "path": "zh/03872.mp3",
 "lang": "zh"
+},
+{
+"text": "asistente",
+"path": "es/02940.mp3",
+"lang": "es"
 },
 {
 "text": "助理",
@@ -27701,6 +28506,11 @@
 "lang": "es"
 },
 {
+"text": "在我办公室有个漂亮的文件柜。",
+"path": "zh/03082.mp3",
+"lang": "zh"
+},
+{
 "text": "El jefe atendió las propuestas de los empleados.",
 "path": "es/03565.mp3",
 "lang": "es"
@@ -27934,11 +28744,6 @@
 "text": "胶水",
 "path": "zh/03923.mp3",
 "lang": "zh"
-},
-{
-"text": "goma",
-"path": "es/02915.mp3",
-"lang": "es"
 },
 {
 "text": "estático",
@@ -29764,6 +30569,11 @@
 "text": "碰撞",
 "path": "zh/04103.mp3",
 "lang": "zh"
+},
+{
+"text": "navegar",
+"path": "es/01301.mp3",
+"lang": "es"
 },
 {
 "text": "航行",
@@ -37256,16 +38066,6 @@
 "lang": "zh"
 },
 {
-"text": "entonación",
-"path": "es/04391.mp3",
-"lang": "es"
-},
-{
-"text": "音调",
-"path": "zh/04848.mp3",
-"lang": "zh"
-},
-{
 "text": "amortiguador",
 "path": "es/04392.mp3",
 "lang": "es"
@@ -37416,13 +38216,13 @@
 "lang": "zh"
 },
 {
-"text": "escenario",
-"path": "es/04405.mp3",
+"text": "cortina",
+"path": "es/01121.mp3",
 "lang": "es"
 },
 {
-"text": "舞台，场景",
-"path": "zh/04865.mp3",
+"text": "幕布",
+"path": "zh/03088.mp3",
 "lang": "zh"
 },
 {
@@ -49976,16 +50776,6 @@
 "lang": "zh"
 },
 {
-"text": "desenlace",
-"path": "es/05158.mp3",
-"lang": "es"
-},
-{
-"text": "解开，松开",
-"path": "zh/05753.mp3",
-"lang": "zh"
-},
-{
 "text": "envolver",
 "path": "es/05159.mp3",
 "lang": "es"
@@ -53129,6 +53919,11 @@
 "text": "实行，施行",
 "path": "zh/06073.mp3",
 "lang": "zh"
+},
+{
+"text": "resultar",
+"path": "es/03270.mp3",
+"lang": "es"
 },
 {
 "text": "合适，合宜",
@@ -68213,16 +69008,6 @@
 {
 "text": "含量",
 "path": "zh/02009.mp3",
-"lang": "zh"
-},
-{
-"text": "volumen",
-"path": "es/01898.mp3",
-"lang": "es"
-},
-{
-"text": "体积",
-"path": "zh/02010.mp3",
 "lang": "zh"
 },
 {
