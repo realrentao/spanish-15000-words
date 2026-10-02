@@ -2092,7 +2092,149 @@ G34 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34}
+G35 = {
+ "name": "经济基本知识",
+ "raw": "_tools/parte35_raw.txt",
+ "typo": {
+   "pueclen": "pueden",                 # OCR 词形错误
+   "wall street": "Wall Street",        # 专名大写
+ },
+ "fix": {
+   # ---- Sec1 各种产业
+   # ---- Sec2 经济状况
+   # ---- Sec3 国际贸易
+   # ---- Sec4 改革开放
+   # ---- Sec5 WTO
+   # ---- Sec6 钱币
+   # ---- Sec7 经济政策
+   # ---- Sec8 外贸
+   # ---- Sec9 市场
+   # ---- Sec10 金融
+   ("份额", "contribución"): "cuota",     # contribución=贡献；份额=cuota/porcentaje
+   # Sec2
+   ("复苏", "revivir"): "recuperación",
+ },
+ "pos": {
+   # Sec1
+   ("商业", "comercio"): "n.m.",
+   ("农业", "agricultura"): "n.f.",
+   ("旅游业", "turismo"): "n.m.",
+   ("广告业", "publicidad"): "n.f.",
+   ("娱乐", "diversión"): "n.f.",
+   ("印刷", "impresión"): "n.f.",
+   # Sec2
+   ("国有化", "nacionalización"): "n.f.",
+   ("私有化", "privatización"): "n.f.",
+   ("经济", "economía"): "n.f.",
+   ("危机", "crisis"): "n.f.",
+   ("萧条", "recesión"): "n.f.",
+   ("通货膨胀", "inflación"): "n.f.",
+   ("萧条的", "estancado"): "adj.",
+   ("经济的", "económico"): "adj.",
+   ("复苏", "recuperación"): "n.f.",
+   # Sec3
+   ("顺差", "superávit"): "n.m.",
+   # Sec2 复苏：revivir=复活；经济复苏=recuperación
+   ("逆差，赤字", "déficit"): "n.m.",
+   ("大大地", "enormemente"): "adv.",
+   ("廉价推销", "descuento"): "n.m.",
+   ("加工", "procesamiento"): "n.m.",
+   ("国际的", "internacional"): "adj.",
+   ("促进", "promover"): "v.t.",
+   # Sec4
+   ("贸易保护主义者", "proteccionista"): "n.m.",
+   ("革新，创新", "innovación"): "n.f.",
+   ("创新的", "innovador"): "adj.",
+   ("创新者", "innovador"): "n.m.",
+   ("新技术", "nueva técnica"): "n.f.",
+   ("改革，革新", "reforma"): "n.f.",
+   ("改革", "reformación"): "n.f.",
+   ("改革者", "reformador"): "n.m.",
+   ("改革", "reformar"): "v.t.",
+   # Sec5
+   ("商品倾销", "dumping"): "n.m.",
+   ("海关", "aduana"): "n.f.",
+   ("海关人员", "aduanero"): "n.m.",
+   ("税", "impuesto"): "n.m.",
+   ("关税", "arancel"): "n.m.",
+   ("许可", "permitir"): "v.t.",
+   ("调解", "conciliar"): "v.t.",
+   # Sec6
+   ("伪造", "falsificación"): "n.f.",
+   ("贬值", "devaluación"): "n.f.",
+   ("增值", "revaluación"): "n.f.",
+   ("资金", "fondo"): "n.m.",
+   ("资金", "capital"): "n.m.",
+   ("使贬值", "devaluar"): "v.t.",
+   # Sec7
+   ("零售业", "minorista"): "n.m.",
+   ("市场", "mercado"): "n.m.",
+   # Sec8
+   ("出口", "exportación"): "n.f.",
+   ("发票", "factura"): "n.f.",
+   ("百分比", "porcentaje"): "n.m.",
+   ("运费", "flete"): "n.m.",
+   ("保险", "seguro"): "n.m.",
+   ("花费", "gasto"): "n.m.",
+   ("利润", "beneficio"): "n.m.",
+   ("因素", "factor"): "n.m.",
+   ("进口", "importar"): "v.t.",
+   # Sec9
+   ("市场", "mercado"): "n.m.",
+   ("融资", "financiación"): "n.f.",
+   ("保证金", "depósito"): "n.m.",
+   ("到期日", "madurez"): "n.f.",
+   ("稳定的", "constante"): "adj.",
+   ("表明", "manifestar"): "v.t.",
+   ("利用", "utilizar"): "v.t.",
+   # Sec10
+   ("冒险", "aventurar"): "v.t.",
+   ("凭证", "certificado"): "n.m.",
+   ("份额", "cuota"): "n.f.",
+   ("华尔街", "Wall Street"): "n.m.",
+   ("分配", "distribuir"): "v.t.",
+ },
+ "subs": [
+   # Sec1 首句：consiste en los perdidos（丢失）->Son las ventas/pedidos（订单）
+   ("Principalmente el comercio exterior consiste en los perdidos y el comercio nacional también",
+    "Principalmente el comercio exterior consiste en las ventas, y también en el comercio nacional"),
+   # Sec2 首句：un moto importante（motor 错拼）-> un motor importante
+   ("El consumo interno no es un moto importante, es por ello que tenemos una economía que crece a pesar de que su población sigue siendo mayoritariamente pobre",
+    "El consumo interno no es un motor importante; por eso tenemos una economía que crece a pesar de que su población sigue siendo mayoritariamente pobre"),
+   # Sec2 次句：原句结构断裂
+   ("Pero los expertos no están de acuerdo con que el descenso de las tasas de interés bancarias, debido a la inflación",
+    "Pero los expertos no están de acuerdo con el descenso de las tasas de interés bancarias debido a la inflación"),
+   # Sec5 首句：关系词缺失 + 语序
+   ("Estarás inclinado a rayar la otra, no estás amable. Ten cuidado: personas que ofende hoy son quizás los que tratará de conciliar las gracias mañana",
+    "Estarás inclinado a rayar a la otra porque no estás amable. Ten cuidado: las personas a las que ofendes hoy son quizás las que querrás conciliar mañana"),
+   ("Pasamos un mal trago, en la aduana",
+    "Pasamos un mal trago en la aduana"),
+   # Sec6
+   # Sec7
+   ("En particular”, añadió, “los instrumentos de lucha contra el lavado de dinero y los delitos cibernéticos no son eficientes.”",
+    "«En particular», añadió, «los instrumentos de lucha contra el lavado de dinero y los delitos cibernéticos no son eficientes»."),
+   ("Los modos de funcionamiento, además de venta por el menor, pueden utilizar las ventajas locales para distribuir productos y promover el desarrollo de mercados locales para los productos y servicios de los clientes",
+    "Los modos de funcionamiento, además de la venta al por menor, pueden utilizar las ventajas locales para distribuir productos y promover el desarrollo de mercados locales para los productos y servicios de los clientes"),
+   # Sec9
+   # Sec10
+   ("El marinero se había retirado a un segundo plano, miró el mar, evidentemente, debatiéndose entre el deseo de ganar una suma enorme y el temor de aventurarse tan lejos",
+    "El marinero se había retirado a un segundo plano y miró el mar, evidentemente debatiéndose entre el deseo de ganar una suma enorme y el temor de aventurarse tan lejos"),
+   ("Si el propietario decide unilateralmente rescindir el contrato antes de tiempo, se le exigirá que reembolse todos los gastos incurridos por el propietario, así como el daño",
+    "Si el propietario decide unilateralmente rescindir el contrato antes de tiempo, se le exigirá que reembolse todos los gastos incurridos, así como el daño"),
+ ],
+ "zh_subs": [
+   # Sec1 中文「以外贸定单为主」— 西语原文说的是「销售」
+   ("以外贸定单为主，兼国内贸易。", "以对外贸易为主，也包括国内贸易。"),
+   # Sec6 中文「我有资本，但没时间搞生产」— 西语 Me quedé sin capital（我没资本了）
+   ("我有资本，但没时间搞生产。", "我没了资本，但也没闲下来搞生产。"),
+   # Sec7 中文「现行文书」— 西语 instrumentos（手段/工具）
+   ("处理洗钱和网上犯罪的现行文书不够有效。", "处理洗钱和网络犯罪的现行手段不够有效。"),
+   # Sec8 中文「这不是一笔必须的开销吧」— 西语 No se trata de un gasto necesario
+   ("这不是一笔必须的开销吧。", "这不算一笔必要的开销。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

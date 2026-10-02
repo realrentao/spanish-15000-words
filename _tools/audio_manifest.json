@@ -58216,14 +58216,74 @@
 "lang": "zh"
 },
 {
+"text": "ciencias de la información",
+"path": "es/09094.mp3",
+"lang": "es"
+},
+{
+"text": "信息科学",
+"path": "zh/09745.mp3",
+"lang": "zh"
+},
+{
+"text": "la industria de las comunicaciones",
+"path": "es/09095.mp3",
+"lang": "es"
+},
+{
+"text": "通信业",
+"path": "zh/09746.mp3",
+"lang": "zh"
+},
+{
 "text": "广告业",
 "path": "zh/05958.mp3",
+"lang": "zh"
+},
+{
+"text": "relaciones públicas",
+"path": "es/09096.mp3",
+"lang": "es"
+},
+{
+"text": "公共关系",
+"path": "zh/09747.mp3",
+"lang": "zh"
+},
+{
+"text": "bienes raíces",
+"path": "es/09097.mp3",
+"lang": "es"
+},
+{
+"text": "房地产业",
+"path": "zh/09748.mp3",
 "lang": "zh"
 },
 {
 "text": "diversión",
 "path": "es/05329.mp3",
 "lang": "es"
+},
+{
+"text": "la industria de asesoramiento",
+"path": "es/09098.mp3",
+"lang": "es"
+},
+{
+"text": "咨询业",
+"path": "zh/09749.mp3",
+"lang": "zh"
+},
+{
+"text": "importación y exportación",
+"path": "es/09099.mp3",
+"lang": "es"
+},
+{
+"text": "进出口业",
+"path": "zh/09750.mp3",
+"lang": "zh"
 },
 {
 "text": "mecanización",
@@ -58236,13 +58296,23 @@
 "lang": "zh"
 },
 {
-"text": "Principalmente el comercio exterior consiste en los perdidos y el comercio nacional también.",
-"path": "es/05331.mp3",
+"text": "Principalmente el comercio exterior consiste en las ventas, y también en el comercio nacional.",
+"path": "es/09100.mp3",
 "lang": "es"
 },
 {
-"text": "以外贸定单为主，兼国内贸易。",
-"path": "zh/05960.mp3",
+"text": "以对外贸易为主，也包括国内贸易。",
+"path": "zh/09751.mp3",
+"lang": "zh"
+},
+{
+"text": "El desarrollo industrial ayuda a promover la mecanización de la agricultura.",
+"path": "es/09101.mp3",
+"lang": "es"
+},
+{
+"text": "工业的发展能促进农业的机械化。",
+"path": "zh/09752.mp3",
 "lang": "zh"
 },
 {
@@ -58306,6 +58376,26 @@
 "lang": "zh"
 },
 {
+"text": "producto interno bruto (PIB)",
+"path": "es/09102.mp3",
+"lang": "es"
+},
+{
+"text": "国内生产总值",
+"path": "zh/09753.mp3",
+"lang": "zh"
+},
+{
+"text": "producto nacional bruto",
+"path": "es/09103.mp3",
+"lang": "es"
+},
+{
+"text": "国民生产总值",
+"path": "zh/09754.mp3",
+"lang": "zh"
+},
+{
 "text": "privatización",
 "path": "es/05338.mp3",
 "lang": "es"
@@ -58336,6 +58426,16 @@
 "lang": "zh"
 },
 {
+"text": "la prosperidad económica",
+"path": "es/09104.mp3",
+"lang": "es"
+},
+{
+"text": "经济繁荣",
+"path": "zh/09755.mp3",
+"lang": "zh"
+},
+{
 "text": "crisis",
 "path": "es/02148.mp3",
 "lang": "es"
@@ -58343,6 +58443,16 @@
 {
 "text": "危机",
 "path": "zh/02296.mp3",
+"lang": "zh"
+},
+{
+"text": "recesión económica",
+"path": "es/09105.mp3",
+"lang": "es"
+},
+{
+"text": "经济衰退",
+"path": "zh/09756.mp3",
 "lang": "zh"
 },
 {
@@ -58361,13 +58471,13 @@
 "lang": "zh"
 },
 {
-"text": "revivir",
-"path": "es/05342.mp3",
+"text": "recuperación",
+"path": "es/09106.mp3",
 "lang": "es"
 },
 {
 "text": "复苏",
-"path": "zh/05972.mp3",
+"path": "zh/09757.mp3",
 "lang": "zh"
 },
 {
@@ -58381,6 +58491,16 @@
 "lang": "zh"
 },
 {
+"text": "a pesar de",
+"path": "es/09107.mp3",
+"lang": "es"
+},
+{
+"text": "尽管",
+"path": "zh/09758.mp3",
+"lang": "zh"
+},
+{
 "text": "mayoritariamente",
 "path": "es/05343.mp3",
 "lang": "es"
@@ -58391,13 +58511,23 @@
 "lang": "zh"
 },
 {
-"text": "Pero los expertos no están de acuerdo con que el descenso de las tasas de interés bancarias, debido a la inflación.",
-"path": "es/05344.mp3",
+"text": "El consumo interno no es un motor importante; por eso tenemos una economía que crece a pesar de que su población sigue siendo mayoritariamente pobre.",
+"path": "es/09108.mp3",
+"lang": "es"
+},
+{
+"text": "内部的消费能力则不是主要推动力，因而解释了为何在国民普遍贫穷的基础上中国经济依然持续增长。",
+"path": "zh/09759.mp3",
+"lang": "zh"
+},
+{
+"text": "Pero los expertos no están de acuerdo con el descenso de las tasas de interés bancarias debido a la inflación.",
+"path": "es/09109.mp3",
 "lang": "es"
 },
 {
 "text": "但考虑到通货膨胀，一些专家并不赞成下调银行利率。",
-"path": "zh/05974.mp3",
+"path": "zh/09760.mp3",
 "lang": "zh"
 },
 {
@@ -58456,8 +58586,48 @@
 "lang": "zh"
 },
 {
+"text": "balanza comercial",
+"path": "es/09110.mp3",
+"lang": "es"
+},
+{
+"text": "贸易差额",
+"path": "zh/09761.mp3",
+"lang": "zh"
+},
+{
+"text": "socio comercial",
+"path": "es/09111.mp3",
+"lang": "es"
+},
+{
+"text": "贸易伙伴",
+"path": "zh/09762.mp3",
+"lang": "zh"
+},
+{
 "text": "廉价推销",
 "path": "zh/05981.mp3",
+"lang": "zh"
+},
+{
+"text": "brecha entre ingresos y gastos",
+"path": "es/09112.mp3",
+"lang": "es"
+},
+{
+"text": "收支差额",
+"path": "zh/09763.mp3",
+"lang": "zh"
+},
+{
+"text": "materias primas",
+"path": "es/09113.mp3",
+"lang": "es"
+},
+{
+"text": "原料",
+"path": "zh/09764.mp3",
 "lang": "zh"
 },
 {
@@ -58468,6 +58638,16 @@
 {
 "text": "加工",
 "path": "zh/05982.mp3",
+"lang": "zh"
+},
+{
+"text": "deuda triangular",
+"path": "es/09114.mp3",
+"lang": "es"
+},
+{
+"text": "三角债",
+"path": "zh/09765.mp3",
 "lang": "zh"
 },
 {
@@ -58536,6 +58716,26 @@
 "lang": "zh"
 },
 {
+"text": "desbloquear precios",
+"path": "es/09115.mp3",
+"lang": "es"
+},
+{
+"text": "开放价格",
+"path": "zh/09766.mp3",
+"lang": "zh"
+},
+{
+"text": "proteccionismo comercial",
+"path": "es/09116.mp3",
+"lang": "es"
+},
+{
+"text": "贸易保护主义",
+"path": "zh/09767.mp3",
+"lang": "zh"
+},
+{
 "text": "proteccionista",
 "path": "es/05357.mp3",
 "lang": "es"
@@ -58566,13 +58766,23 @@
 "lang": "zh"
 },
 {
-"text": "técnica",
-"path": "es/05359.mp3",
+"text": "nueva técnica",
+"path": "es/09117.mp3",
 "lang": "es"
 },
 {
-"text": "新技术 nueva",
-"path": "zh/05994.mp3",
+"text": "新技术",
+"path": "zh/09768.mp3",
+"lang": "zh"
+},
+{
+"text": "la reforma política y la apertura",
+"path": "es/09118.mp3",
+"lang": "es"
+},
+{
+"text": "改革开放政策",
+"path": "zh/09769.mp3",
 "lang": "zh"
 },
 {
@@ -58599,6 +58809,16 @@
 "text": "reformar",
 "path": "es/05362.mp3",
 "lang": "es"
+},
+{
+"text": "proyecto de la cesta",
+"path": "es/09119.mp3",
+"lang": "es"
+},
+{
+"text": "菜篮子工程",
+"path": "zh/09770.mp3",
+"lang": "zh"
 },
 {
 "text": "oficio",
@@ -58686,6 +58906,16 @@
 "lang": "zh"
 },
 {
+"text": "organización mundial del comercio",
+"path": "es/09120.mp3",
+"lang": "es"
+},
+{
+"text": "世界贸易组织",
+"path": "zh/09771.mp3",
+"lang": "zh"
+},
+{
 "text": "dumping",
 "path": "es/01575.mp3",
 "lang": "es"
@@ -58696,8 +58926,98 @@
 "lang": "zh"
 },
 {
+"text": "antidumping",
+"path": "es/09121.mp3",
+"lang": "es"
+},
+{
+"text": "反倾销",
+"path": "zh/09772.mp3",
+"lang": "zh"
+},
+{
+"text": "garantía de aduanas",
+"path": "es/09122.mp3",
+"lang": "es"
+},
+{
+"text": "海关担保",
+"path": "zh/09773.mp3",
+"lang": "zh"
+},
+{
+"text": "disputas comerciales",
+"path": "es/09123.mp3",
+"lang": "es"
+},
+{
+"text": "商业纠纷",
+"path": "zh/09774.mp3",
+"lang": "zh"
+},
+{
 "text": "调解",
 "path": "zh/06007.mp3",
+"lang": "zh"
+},
+{
+"text": "controles comerciales",
+"path": "es/09124.mp3",
+"lang": "es"
+},
+{
+"text": "贸易管制",
+"path": "zh/09775.mp3",
+"lang": "zh"
+},
+{
+"text": "cargar escalonado",
+"path": "es/09125.mp3",
+"lang": "es"
+},
+{
+"text": "分批装运",
+"path": "zh/09776.mp3",
+"lang": "zh"
+},
+{
+"text": "tratando de conseguir",
+"path": "es/09126.mp3",
+"lang": "es"
+},
+{
+"text": "设法获得",
+"path": "zh/09777.mp3",
+"lang": "zh"
+},
+{
+"text": "barreras comerciales",
+"path": "es/09127.mp3",
+"lang": "es"
+},
+{
+"text": "关税壁垒",
+"path": "zh/09778.mp3",
+"lang": "zh"
+},
+{
+"text": "subsidio cuestionable",
+"path": "es/09128.mp3",
+"lang": "es"
+},
+{
+"text": "可诉补贴",
+"path": "zh/09779.mp3",
+"lang": "zh"
+},
+{
+"text": "proceso de integración",
+"path": "es/09129.mp3",
+"lang": "es"
+},
+{
+"text": "一体化进程",
+"path": "zh/09780.mp3",
 "lang": "zh"
 },
 {
@@ -58736,6 +59056,16 @@
 "lang": "zh"
 },
 {
+"text": "franco de aranceles",
+"path": "es/06612.mp3",
+"lang": "es"
+},
+{
+"text": "免税的",
+"path": "zh/07385.mp3",
+"lang": "zh"
+},
+{
 "text": "许可",
 "path": "zh/01654.mp3",
 "lang": "zh"
@@ -58761,23 +59091,33 @@
 "lang": "zh"
 },
 {
-"text": "Estarás inclinado a rayar la otra,no estás amable. Ten cuidado: personas que ofende hoy son quizás los que tratará de conciliar las gracias mañana.",
-"path": "es/05373.mp3",
+"text": "Estarás inclinado a rayar a la otra porque no estás amable. Ten cuidado: las personas a las que ofendes hoy son quizás las que querrás conciliar mañana.",
+"path": "es/09130.mp3",
 "lang": "es"
 },
 {
 "text": "你今天不那么友善，可能会刺伤别人。注意，今天你冒犯的人可能是你明天希望寻求原谅的人。",
-"path": "zh/06011.mp3",
+"path": "zh/09781.mp3",
 "lang": "zh"
 },
 {
-"text": "Pasamos un mal trago, en la aduana.",
+"text": "Pasamos un mal trago en la aduana.",
 "path": "es/05374.mp3",
 "lang": "es"
 },
 {
 "text": "我们在海关碰到倒霉事了。",
 "path": "zh/06012.mp3",
+"lang": "zh"
+},
+{
+"text": "El gobierno redujo el impuesto a las importaciones.",
+"path": "es/01581.mp3",
+"lang": "es"
+},
+{
+"text": "政府降低了对进口商品所收的税。",
+"path": "zh/01660.mp3",
 "lang": "zh"
 },
 {
@@ -58813,6 +59153,51 @@
 {
 "text": "伪造",
 "path": "zh/06015.mp3",
+"lang": "zh"
+},
+{
+"text": "yen",
+"path": "es/09131.mp3",
+"lang": "es"
+},
+{
+"text": "日元",
+"path": "zh/09782.mp3",
+"lang": "zh"
+},
+{
+"text": "franco",
+"path": "es/01466.mp3",
+"lang": "es"
+},
+{
+"text": "法郎",
+"path": "zh/01538.mp3",
+"lang": "zh"
+},
+{
+"text": "moneda china",
+"path": "es/09132.mp3",
+"lang": "es"
+},
+{
+"text": "人民币",
+"path": "zh/09783.mp3",
+"lang": "zh"
+},
+{
+"text": "硬币",
+"path": "zh/02288.mp3",
+"lang": "zh"
+},
+{
+"text": "dinero falso",
+"path": "es/09133.mp3",
+"lang": "es"
+},
+{
+"text": "假钞",
+"path": "zh/09784.mp3",
 "lang": "zh"
 },
 {
@@ -58911,12 +59296,22 @@
 "lang": "zh"
 },
 {
+"text": "El gobierno ha dotado la fábrica de buena suma de fondos para su ampliación.",
+"path": "es/09134.mp3",
+"lang": "es"
+},
+{
+"text": "政府拨给工厂一大笔扩建资金。",
+"path": "zh/09785.mp3",
+"lang": "zh"
+},
+{
 "text": "Me quedé sin capital, pero ni una temporada sin fabricar.",
 "path": "es/05387.mp3",
 "lang": "es"
 },
 {
-"text": "我有资本，但没时间搞生产。",
+"text": "我没了资本，但也没闲下来搞生产。",
 "path": "zh/06025.mp3",
 "lang": "zh"
 },
@@ -58941,6 +59336,76 @@
 "lang": "zh"
 },
 {
+"text": "moneda fuerte",
+"path": "es/09135.mp3",
+"lang": "es"
+},
+{
+"text": "硬通货",
+"path": "zh/09786.mp3",
+"lang": "zh"
+},
+{
+"text": "moneda débil",
+"path": "es/09136.mp3",
+"lang": "es"
+},
+{
+"text": "软通货",
+"path": "zh/09787.mp3",
+"lang": "zh"
+},
+{
+"text": "el sistema monetario internacional",
+"path": "es/09137.mp3",
+"lang": "es"
+},
+{
+"text": "国际货币制度",
+"path": "zh/09788.mp3",
+"lang": "zh"
+},
+{
+"text": "poder adquisitivo del dinero",
+"path": "es/09138.mp3",
+"lang": "es"
+},
+{
+"text": "货币购买力",
+"path": "zh/09789.mp3",
+"lang": "zh"
+},
+{
+"text": "dinero caliente",
+"path": "es/09139.mp3",
+"lang": "es"
+},
+{
+"text": "热钱",
+"path": "zh/09790.mp3",
+"lang": "zh"
+},
+{
+"text": "lavar el dinero",
+"path": "es/09140.mp3",
+"lang": "es"
+},
+{
+"text": "洗钱",
+"path": "zh/09791.mp3",
+"lang": "zh"
+},
+{
+"text": "mercancía en la mano",
+"path": "es/09141.mp3",
+"lang": "es"
+},
+{
+"text": "现货",
+"path": "zh/09792.mp3",
+"lang": "zh"
+},
+{
 "text": "minorista",
 "path": "es/05389.mp3",
 "lang": "es"
@@ -58951,8 +59416,78 @@
 "lang": "zh"
 },
 {
+"text": "política económica",
+"path": "es/09142.mp3",
+"lang": "es"
+},
+{
+"text": "经济政策",
+"path": "zh/09793.mp3",
+"lang": "zh"
+},
+{
+"text": "impuesto de sello",
+"path": "es/09143.mp3",
+"lang": "es"
+},
+{
+"text": "印花税",
+"path": "zh/09794.mp3",
+"lang": "zh"
+},
+{
+"text": "la economía planificada",
+"path": "es/09144.mp3",
+"lang": "es"
+},
+{
+"text": "计划经济",
+"path": "zh/09795.mp3",
+"lang": "zh"
+},
+{
+"text": "economía de mercado",
+"path": "es/09145.mp3",
+"lang": "es"
+},
+{
+"text": "市场经济",
+"path": "zh/09796.mp3",
+"lang": "zh"
+},
+{
+"text": "economía mixta",
+"path": "es/09146.mp3",
+"lang": "es"
+},
+{
+"text": "混合经济",
+"path": "zh/09797.mp3",
+"lang": "zh"
+},
+{
+"text": "economía política",
+"path": "es/09147.mp3",
+"lang": "es"
+},
+{
+"text": "政治经济学",
+"path": "zh/09798.mp3",
+"lang": "zh"
+},
+{
 "text": "崩溃，毁灭",
 "path": "zh/06028.mp3",
+"lang": "zh"
+},
+{
+"text": "delitos cibernéticos",
+"path": "es/09148.mp3",
+"lang": "es"
+},
+{
+"text": "网络犯罪",
+"path": "zh/09799.mp3",
 "lang": "zh"
 },
 {
@@ -58986,23 +59521,23 @@
 "lang": "zh"
 },
 {
-"text": "“En particular”, añadió, “los instrumentos de lucha contra el lavado de dinero y los delitos cibernéticos no son eficientes.”“",
+"text": "«En particular», añadió, «los instrumentos de lucha contra el lavado de dinero y los delitos cibernéticos no son eficientes».",
 "path": "es/05392.mp3",
 "lang": "es"
 },
 {
-"text": "特别是”，他说，“处理洗钱和网上犯罪的现行文书不够有效。”",
+"text": "特别是，他说，“处理洗钱和网络犯罪的现行手段不够有效。”",
 "path": "zh/06032.mp3",
 "lang": "zh"
 },
 {
-"text": "Los modos de funciona-miento, además de venta por el menor, pueclen utilizar las ventajas locales para clistribuir productos y promover, el de-sarrollo de mercados locales para los productos y servicios de los clientes.",
-"path": "es/05393.mp3",
+"text": "Los modos de funcionamiento, además de la venta al por menor, pueden utilizar las ventajas locales para distribuir productos y promover el desarrollo de mercados locales para los productos y servicios de los clientes.",
+"path": "es/09149.mp3",
 "lang": "es"
 },
 {
 "text": "经营方式除零售外，可以利用本地优势代销产品，为客户产品开拓本地市场服务。",
-"path": "zh/06033.mp3",
+"path": "zh/09800.mp3",
 "lang": "zh"
 },
 {
@@ -59014,6 +59549,16 @@
 "text": "exportación",
 "path": "es/01574.mp3",
 "lang": "es"
+},
+{
+"text": "buque mercante",
+"path": "es/09150.mp3",
+"lang": "es"
+},
+{
+"text": "商船",
+"path": "zh/09801.mp3",
+"lang": "zh"
 },
 {
 "text": "factura",
@@ -59033,6 +59578,16 @@
 {
 "text": "百分比",
 "path": "zh/06035.mp3",
+"lang": "zh"
+},
+{
+"text": "costo de producción",
+"path": "es/09151.mp3",
+"lang": "es"
+},
+{
+"text": "成本",
+"path": "zh/09802.mp3",
 "lang": "zh"
 },
 {
@@ -59058,6 +59613,36 @@
 {
 "text": "花费",
 "path": "zh/06038.mp3",
+"lang": "zh"
+},
+{
+"text": "beneficio bruto",
+"path": "es/09152.mp3",
+"lang": "es"
+},
+{
+"text": "毛利",
+"path": "zh/09803.mp3",
+"lang": "zh"
+},
+{
+"text": "ingresos netos",
+"path": "es/09153.mp3",
+"lang": "es"
+},
+{
+"text": "纯收入",
+"path": "zh/09804.mp3",
+"lang": "zh"
+},
+{
+"text": "pujar más que otros",
+"path": "es/09154.mp3",
+"lang": "es"
+},
+{
+"text": "出价多于别人",
+"path": "zh/09805.mp3",
 "lang": "zh"
 },
 {
@@ -59091,6 +59676,16 @@
 "lang": "zh"
 },
 {
+"text": "Le pedimos disculpas por las molestias causadas a usted por esta factura caducada.",
+"path": "es/09155.mp3",
+"lang": "es"
+},
+{
+"text": "对由于账单过期给贵方所造成的不愉快，我们深表抱歉。",
+"path": "zh/09806.mp3",
+"lang": "zh"
+},
+{
 "text": "De año en año aumenta el contigente de artículos industriales de China para la exportación.",
 "path": "es/01584.mp3",
 "lang": "es"
@@ -59106,7 +59701,7 @@
 "lang": "es"
 },
 {
-"text": "这不是一笔必须的开销吧。",
+"text": "这不算一笔必要的开销。",
 "path": "zh/06043.mp3",
 "lang": "zh"
 },
@@ -59131,6 +59726,16 @@
 "lang": "zh"
 },
 {
+"text": "mercado de capital",
+"path": "es/09156.mp3",
+"lang": "es"
+},
+{
+"text": "资本市场",
+"path": "zh/09807.mp3",
+"lang": "zh"
+},
+{
 "text": "financiación",
 "path": "es/05403.mp3",
 "lang": "es"
@@ -59141,8 +59746,38 @@
 "lang": "zh"
 },
 {
+"text": "volumen comercial",
+"path": "es/09157.mp3",
+"lang": "es"
+},
+{
+"text": "交易量",
+"path": "zh/09808.mp3",
+"lang": "zh"
+},
+{
+"text": "acciones enteras",
+"path": "es/09158.mp3",
+"lang": "es"
+},
+{
+"text": "整股",
+"path": "zh/09809.mp3",
+"lang": "zh"
+},
+{
 "text": "保证金",
 "path": "zh/06047.mp3",
+"lang": "zh"
+},
+{
+"text": "derecho de opción",
+"path": "es/09159.mp3",
+"lang": "es"
+},
+{
+"text": "选择权",
+"path": "zh/09810.mp3",
 "lang": "zh"
 },
 {
@@ -59168,6 +59803,16 @@
 {
 "text": "稳定的",
 "path": "zh/06050.mp3",
+"lang": "zh"
+},
+{
+"text": "investigación de mercado",
+"path": "es/09160.mp3",
+"lang": "es"
+},
+{
+"text": "市场调查",
+"path": "zh/09811.mp3",
 "lang": "zh"
 },
 {
@@ -59216,7 +59861,7 @@
 "lang": "zh"
 },
 {
-"text": "La ley de la oferta y la de-manda rige el mercado.",
+"text": "La ley de la oferta y la demanda rige el mercado.",
 "path": "es/05408.mp3",
 "lang": "es"
 },
@@ -59261,13 +59906,33 @@
 "lang": "zh"
 },
 {
-"text": "street",
-"path": "es/05412.mp3",
+"text": "Wall Street",
+"path": "es/09161.mp3",
 "lang": "es"
 },
 {
-"text": "华尔街 wall",
-"path": "zh/06061.mp3",
+"text": "华尔街",
+"path": "zh/09812.mp3",
+"lang": "zh"
+},
+{
+"text": "financiero",
+"path": "es/09162.mp3",
+"lang": "es"
+},
+{
+"text": "金融的",
+"path": "zh/09813.mp3",
+"lang": "zh"
+},
+{
+"text": "bonos de guerra",
+"path": "es/09163.mp3",
+"lang": "es"
+},
+{
+"text": "战争债券",
+"path": "zh/09814.mp3",
 "lang": "zh"
 },
 {
@@ -59281,13 +59946,53 @@
 "lang": "zh"
 },
 {
-"text": "contribución",
-"path": "es/05414.mp3",
+"text": "gestión de la riqueza",
+"path": "es/09164.mp3",
+"lang": "es"
+},
+{
+"text": "财富管理",
+"path": "zh/09815.mp3",
+"lang": "zh"
+},
+{
+"text": "desconectarse",
+"path": "es/09165.mp3",
+"lang": "es"
+},
+{
+"text": "注销",
+"path": "zh/09816.mp3",
+"lang": "zh"
+},
+{
+"text": "coeficiente de liquidez",
+"path": "es/09166.mp3",
+"lang": "es"
+},
+{
+"text": "流动比率",
+"path": "zh/09817.mp3",
+"lang": "zh"
+},
+{
+"text": "libro blanco",
+"path": "es/09167.mp3",
+"lang": "es"
+},
+{
+"text": "白皮书",
+"path": "zh/09818.mp3",
+"lang": "zh"
+},
+{
+"text": "cuota",
+"path": "es/09168.mp3",
 "lang": "es"
 },
 {
 "text": "份额",
-"path": "zh/06063.mp3",
+"path": "zh/09819.mp3",
 "lang": "zh"
 },
 {
@@ -59321,23 +60026,23 @@
 "lang": "zh"
 },
 {
-"text": "El marinero se había retirado a un segundo plano, miró el mar, evidentemente, debatiéndose entre el deseo de ganar una suma enorme y el temor de aventurarse tan lejos.",
-"path": "es/05418.mp3",
+"text": "El marinero se había retirado a un segundo plano y miró el mar, evidentemente debatiéndose entre el deseo de ganar una suma enorme y el temor de aventurarse tan lejos.",
+"path": "es/09169.mp3",
 "lang": "es"
 },
 {
 "text": "海员走到一旁，望着大海，显然他是为了赚这样一大笔钱和害怕冒险跑那么远的路这两件事进行思想斗争。这时，费克斯待在一旁，心里像有十五个吊桶打水似的七上八下。",
-"path": "zh/06065.mp3",
+"path": "zh/09820.mp3",
 "lang": "zh"
 },
 {
-"text": "Si el propietario decide unilateralmente rescindir el contrato antes de tiempo, se le exigirá que reembolse todos los gastos incurridos por el propietario, así como el daño.",
-"path": "es/05419.mp3",
+"text": "Si el propietario decide unilateralmente rescindir el contrato antes de tiempo, se le exigirá que reembolse todos los gastos incurridos, así como el daño.",
+"path": "es/09171.mp3",
 "lang": "es"
 },
 {
 "text": "如果出租方单方面提前解除合约，他将偿还顾客的全部开支以及赔偿损失。",
-"path": "zh/06066.mp3",
+"path": "zh/09822.mp3",
 "lang": "zh"
 },
 {
@@ -64131,16 +64836,6 @@
 "lang": "zh"
 },
 {
-"text": "franco",
-"path": "es/01466.mp3",
-"lang": "es"
-},
-{
-"text": "免税的",
-"path": "zh/01538.mp3",
-"lang": "zh"
-},
-{
 "text": "sala vip",
 "path": "es/06570.mp3",
 "lang": "es"
@@ -65401,16 +66096,6 @@
 "lang": "zh"
 },
 {
-"text": "franco de aranceles",
-"path": "es/06612.mp3",
-"lang": "es"
-},
-{
-"text": "免税的",
-"path": "zh/07385.mp3",
-"lang": "zh"
-},
-{
 "text": "puerto libre de impuestos",
 "path": "es/06613.mp3",
 "lang": "es"
@@ -65528,16 +66213,6 @@
 {
 "text": "让我们的产品更加绿色健康,让顾客满意!",
 "path": "zh/01659.mp3",
-"lang": "zh"
-},
-{
-"text": "El gobierno redujo el impuesto a las importaciones",
-"path": "es/01581.mp3",
-"lang": "es"
-},
-{
-"text": "政府降低了对进口商品所收的税。",
-"path": "zh/01660.mp3",
 "lang": "zh"
 },
 {
@@ -69324,6 +69999,11 @@
 "text": "科学地",
 "path": "zh/06535.mp3",
 "lang": "zh"
+},
+{
+"text": "técnica",
+"path": "es/05359.mp3",
+"lang": "es"
 },
 {
 "text": "技术",
@@ -77368,11 +78048,6 @@
 {
 "text": "我要去银行拿我的新银行卡。",
 "path": "zh/02287.mp3",
-"lang": "zh"
-},
-{
-"text": "货币",
-"path": "zh/02288.mp3",
 "lang": "zh"
 },
 {
