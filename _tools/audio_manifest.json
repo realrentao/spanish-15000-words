@@ -73251,9 +73251,14 @@
 "lang": "zh"
 },
 {
-"text": "enfrentar",
-"path": "es/05969.mp3",
+"text": "chocar",
+"path": "es/09520.mp3",
 "lang": "es"
+},
+{
+"text": "撞车",
+"path": "zh/10171.mp3",
+"lang": "zh"
 },
 {
 "text": "翻车",
@@ -73273,6 +73278,16 @@
 {
 "text": "危难",
 "path": "zh/06716.mp3",
+"lang": "zh"
+},
+{
+"text": "línea principal",
+"path": "es/09521.mp3",
+"lang": "es"
+},
+{
+"text": "干线",
+"path": "zh/10172.mp3",
 "lang": "zh"
 },
 {
@@ -73336,9 +73351,14 @@
 "lang": "zh"
 },
 {
-"text": "Aunque la causa específica del accidente no ha sido identificada, se indica que el accidente es causado por un reventón del neumático.",
-"path": "es/05976.mp3",
+"text": "Aunque la causa específica del accidente no ha sido identificada, se indica que fue provocado por el reventón de un neumático.",
+"path": "es/09522.mp3",
 "lang": "es"
+},
+{
+"text": "尽管事故的具体原因尚未查明，但据迹象显示，是轮胎爆胎所致。",
+"path": "zh/10173.mp3",
+"lang": "zh"
 },
 {
 "text": "La visibilidad de la carretera era reducida debido a la niebla.",
@@ -73546,7 +73566,7 @@
 "lang": "es"
 },
 {
-"text": "先生，你简直是强盗的逻辑！",
+"text": "先生，您这套逻辑简直是强盗逻辑！",
 "path": "zh/06745.mp3",
 "lang": "zh"
 },
@@ -73601,12 +73621,12 @@
 "lang": "zh"
 },
 {
-"text": "Mi vecina sufrió un robo ayer, y quiere poner una de-nuncia.",
+"text": "Mi vecina sufrió un robo ayer, y quiere poner una denuncia.",
 "path": "es/06002.mp3",
 "lang": "es"
 },
 {
-"text": "我的邻居昨天遭遇小偷了，她想报案。",
+"text": "我的一位女邻居昨天遭窃了，她想报案。",
 "path": "zh/06751.mp3",
 "lang": "zh"
 },
@@ -73624,16 +73644,6 @@
 "text": "quemar",
 "path": "es/06004.mp3",
 "lang": "es"
-},
-{
-"text": "supervivencia",
-"path": "es/06005.mp3",
-"lang": "es"
-},
-{
-"text": "残余",
-"path": "zh/06753.mp3",
-"lang": "zh"
 },
 {
 "text": "灭火器",
@@ -73669,6 +73679,16 @@
 "text": "brasa",
 "path": "es/06007.mp3",
 "lang": "es"
+},
+{
+"text": "cortafuegos",
+"path": "es/09523.mp3",
+"lang": "es"
+},
+{
+"text": "防火带",
+"path": "zh/10174.mp3",
+"lang": "zh"
 },
 {
 "text": "Durante el incendio, el aserradero ardió como una antorcha.",
@@ -73751,8 +73771,38 @@
 "lang": "zh"
 },
 {
+"text": "manchas de sangre",
+"path": "es/09524.mp3",
+"lang": "es"
+},
+{
+"text": "血迹",
+"path": "zh/10175.mp3",
+"lang": "zh"
+},
+{
 "text": "痕迹",
 "path": "zh/06766.mp3",
+"lang": "zh"
+},
+{
+"text": "lugar del crimen",
+"path": "es/09525.mp3",
+"lang": "es"
+},
+{
+"text": "现场",
+"path": "zh/10176.mp3",
+"lang": "zh"
+},
+{
+"text": "huella dactilar",
+"path": "es/09526.mp3",
+"lang": "es"
+},
+{
+"text": "指纹",
+"path": "zh/10177.mp3",
 "lang": "zh"
 },
 {
@@ -73801,6 +73851,16 @@
 "lang": "zh"
 },
 {
+"text": "cordón de alerta",
+"path": "es/09527.mp3",
+"lang": "es"
+},
+{
+"text": "警戒线",
+"path": "zh/10178.mp3",
+"lang": "zh"
+},
+{
 "text": "嫌疑的",
 "path": "zh/06771.mp3",
 "lang": "zh"
@@ -73828,6 +73888,16 @@
 {
 "text": "包裹",
 "path": "zh/02250.mp3",
+"lang": "zh"
+},
+{
+"text": "谋杀",
+"path": "es/09528.mp3",
+"lang": "es"
+},
+{
+"text": "谋杀 asesinato",
+"path": "zh/10179.mp3",
 "lang": "zh"
 },
 {
@@ -73888,6 +73958,16 @@
 {
 "text": "反恐",
 "path": "zh/06779.mp3",
+"lang": "zh"
+},
+{
+"text": "lista negra",
+"path": "es/09529.mp3",
+"lang": "es"
+},
+{
+"text": "黑名单",
+"path": "zh/10180.mp3",
 "lang": "zh"
 },
 {
@@ -73986,6 +74066,16 @@
 "lang": "zh"
 },
 {
+"text": "恐吓",
+"path": "es/09530.mp3",
+"lang": "es"
+},
+{
+"text": "恐吓 intimidar",
+"path": "zh/10181.mp3",
+"lang": "zh"
+},
+{
 "text": "El terrorismo es una amenaza para todos los estados y pueblos.",
 "path": "es/06040.mp3",
 "lang": "es"
@@ -73996,13 +74086,13 @@
 "lang": "zh"
 },
 {
-"text": "Todavía hay grupos terrorista en el mundo.",
-"path": "es/06041.mp3",
+"text": "Todavía hay grupos extremistas en el mundo.",
+"path": "es/09531.mp3",
 "lang": "es"
 },
 {
-"text": "世界上仍然有很多恐怖组织。",
-"path": "zh/06789.mp3",
+"text": "世界上仍有许多极端主义团体。",
+"path": "zh/10182.mp3",
 "lang": "zh"
 },
 {
@@ -74031,7 +74121,7 @@
 "lang": "es"
 },
 {
-"text": "他卸下了武器。",
+"text": "他一把夺下了他手中的武器。",
 "path": "zh/06792.mp3",
 "lang": "zh"
 },
@@ -74061,6 +74151,36 @@
 "lang": "es"
 },
 {
+"text": "guerra mundial",
+"path": "es/09532.mp3",
+"lang": "es"
+},
+{
+"text": "世界大战",
+"path": "zh/10183.mp3",
+"lang": "zh"
+},
+{
+"text": "resultando en",
+"path": "es/09533.mp3",
+"lang": "es"
+},
+{
+"text": "导致",
+"path": "zh/10184.mp3",
+"lang": "zh"
+},
+{
+"text": "durante la guerra",
+"path": "es/09534.mp3",
+"lang": "es"
+},
+{
+"text": "战争期间",
+"path": "zh/10185.mp3",
+"lang": "zh"
+},
+{
 "text": "拆毁",
 "path": "zh/06795.mp3",
 "lang": "zh"
@@ -74086,6 +74206,16 @@
 "lang": "zh"
 },
 {
+"text": "hacer la guerra",
+"path": "es/09535.mp3",
+"lang": "es"
+},
+{
+"text": "交战",
+"path": "zh/10186.mp3",
+"lang": "zh"
+},
+{
 "text": "beligerante",
 "path": "es/06050.mp3",
 "lang": "es"
@@ -74103,6 +74233,16 @@
 {
 "text": "结盟",
 "path": "zh/06799.mp3",
+"lang": "zh"
+},
+{
+"text": "campo de batalla",
+"path": "es/09536.mp3",
+"lang": "es"
+},
+{
+"text": "战场",
+"path": "zh/10187.mp3",
 "lang": "zh"
 },
 {
@@ -74161,7 +74301,7 @@
 "lang": "es"
 },
 {
-"text": "根据一个遥远的传说，说有一种东西叫爱情，可以彻底的终结这场战争。",
+"text": "据一个遥远的传说，有一种叫作爱情的东西，可以终结这场战争。",
 "path": "zh/06807.mp3",
 "lang": "zh"
 },
@@ -74186,7 +74326,7 @@
 "lang": "zh"
 },
 {
-"text": "Es una guerra mundial .",
+"text": "Es una guerra mundial.",
 "path": "es/06058.mp3",
 "lang": "es"
 },
@@ -74221,7 +74361,7 @@
 "lang": "es"
 },
 {
-"text": "我们打破了敌人的美梦。",
+"text": "我们粉碎了敌人怀有的希望。",
 "path": "zh/06813.mp3",
 "lang": "zh"
 },

@@ -3112,7 +3112,106 @@ G45 = {
  },
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43, 44: G44, 45: G45}
+G46 = {
+ "name": "人为事故",
+ "raw": "_tools/parte46_raw.txt",
+ "typo": {
+   "especí-fica": "específica",          # 断行
+   "ca-rretera": "carretera",            # 断行
+   "señal": "señal",                # OCR：ñ->.（clean_es 未自愈，需显式）
+   "extin-guieron": "extinguieron",        # 断行
+   "in-cendio": "incendio",                # 断行
+   "climá-ticas": "climáticas",            # 断行
+   "meteo-rológico": "meteorológico",      # 断行
+   "ama-rillo": "amarillo",                # 断行
+   "sa-queo": "saqueo",                    # 断行
+   "ali-mentación": "alimentación",        # 断行
+   "de-nuncia": "denuncia",                # 断行
+ },
+ "fix": {
+   # ---- Sec1 公路事故
+   ("撞车", "enfrentar"): "chocar",        # enfrentar=面对/遭遇；撞车=chocar
+   # ---- Sec2 抢劫及盗窃
+   # hurtador 经 WebSearch 核实为 DLE 收录词（hurta + -dor），但它是**名词「小偷」**，
+   # 文案当形容词用；西语本身正确，仅词性在 pos 表里改
+   # ---- Sec3 火灾现场
+   ("残余", "supervivencia"): "residuo",   # supervivencia=幸存/存活
+   ("防火带", "los cortafuegos"): "cortafuegos",  # 词组去冠词
+   # ---- Sec4 命案现场
+   # letra de imprenta = 活字/铅字（印刷术），指纹应为 huella dactilar
+   ("指纹", "letra de imprenta"): "huella dactilar",
+   ("现场", "en el sitio"): "lugar del crimen",  # en el sitio=在现场，非「现场」名词
+ },
+ "pos": {
+   # ---- Sec1
+   # policía 阳性（el policía / la policía 均可，但指「男警察」时为阳性）
+   ("警察", "policía"): "n.m.",
+   ("干线", "línea principal"): "",
+   # ---- Sec2
+   ("附加的", "aditivo"): "n.m.",          # aditivo=添加剂（名词），非「附加的」
+   ("小偷小摸的", "ratero"): "n.m.",        # ratero=扒手（名词）
+   ("偷窃的", "hurtador"): "n.m.",         # hurtador=小偷（名词）
+   ("扒手", "carterista"): "n.m.",
+   # ---- Sec3
+   ("残余", "residuo"): "n.m.",
+   ("防火带", "cortafuegos"): "",
+   ("灭火器", "extintor"): "n.m.",
+   # ---- Sec4
+   ("尸体", "cadáver"): "n.m.",
+   ("血迹", "manchas de sangre"): "",
+   ("痕迹", "huella"): "n.f.",
+   ("现场", "lugar del crimen"): "",
+   ("指纹", "huella dactilar"): "",
+   ("不在场证明", "coartada"): "n.f.",
+   # 上吊 ahorcarse 是反身动词（ahorcarse=自杀/上吊），非及物
+   ("上吊", "ahorcarse"): "prnl.",
+   ("自杀", "suicidio"): "n.m.",
+   # ---- Sec5
+   ("黑名单", "lista negra"): "",
+   ("恐怖分子", "terrorista"): "n.m.",
+   # ---- Sec6
+   ("导致", "resultando en"): "",
+   ("世界大战", "guerra mundial"): "",
+   ("战争期间", "durante la guerra"): "",
+   ("交战", "hacer la guerra"): "",
+   ("结盟", "aliado"): "n.m.",
+   ("战场", "campo de batalla"): "",
+   ("碉堡", "fortín"): "n.m.",
+   ("炸药", "dinamita"): "n.f.",
+   ("交战的", "beligerante"): "adj.",
+   ("激烈的", "feroz"): "adj.",
+   ("无尽的", "interminable"): "adj.",
+   ("突袭", "incursión"): "n.f.",
+   ("敌意", "hostilidad"): "n.f.",
+ },
+ "subs": [
+   # Sec1 例1：原句两个 accidente 重复，且«causado por un reventón del neumático»生硬
+   ("Aunque la causa específica del accidente no ha sido identificada, se indica que el accidente es causado por un reventón del neumático",
+    "Aunque la causa específica del accidente no ha sido identificada, se indica que fue provocado por el reventón de un neumático"),
+   # Sec6 例4：原句 «Es una guerra mundial .» 句号前有多余空格
+   ("Es una guerra mundial .", "Es una guerra mundial."),
+ ],
+ "zh_subs": [
+   # Sec1 例1：中文语序错「是一轮胎爆胎所致」
+   ("尽管事故的具体原因还没有查明，但迹象表明事故是一轮胎爆胎所致。",
+    "尽管事故的具体原因尚未查明，但据迹象显示，是轮胎爆胎所致。"),
+   # Sec2 例1：.usted 是敬语，中文「你」失礼；且原句是反讽
+   ("先生，你简直是强盗的逻辑！", "先生，您这套逻辑简直是强盗逻辑！"),
+   # Sec2 例7：原译「遭遇小偷了」口语化
+   ("我的邻居昨天遭遇小偷了，她想报案。", "我的一位女邻居昨天遭窃了，她想报案。"),
+   # Sec5 例2：西语 grupos extremistas=极端主义团体，中文「恐怖组织」不准确
+   ("世界上仍然有很多恐怖组织。", "世界上仍有许多极端主义团体。"),
+   # Sec5 例5：arrancó el arma de las manos=从他手里夺走武器，中文「卸下」力度太轻
+   ("他卸下了武器。", "他一把夺下了他手中的武器。"),
+   # Sec6 例1：原译「可以彻底的终结」——「的」不能作副词修饰动词
+   ("根据一个遥远的传说，说有一种东西叫爱情，可以彻底的终结这场战争。",
+    "据一个遥远的传说，有一种叫作爱情的东西，可以终结这场战争。"),
+   # Sec6 例7：abrigan=怀有（希望），中文「美梦」添了原文没有的「美」
+   ("我们打破了敌人的美梦。", "我们粉碎了敌人怀有的希望。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43, 44: G44, 45: G45, 46: G46}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
