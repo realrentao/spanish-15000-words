@@ -49121,6 +49121,26 @@
 "lang": "zh"
 },
 {
+"text": "hacer la compra por Internet",
+"path": "es/08558.mp3",
+"lang": "es"
+},
+{
+"text": "网购",
+"path": "zh/09209.mp3",
+"lang": "zh"
+},
+{
+"text": "actividades de marketing",
+"path": "es/08559.mp3",
+"lang": "es"
+},
+{
+"text": "推销活动",
+"path": "zh/09210.mp3",
+"lang": "zh"
+},
+{
 "text": "询问者，访客",
 "path": "zh/05228.mp3",
 "lang": "zh"
@@ -49156,13 +49176,23 @@
 "lang": "es"
 },
 {
-"text": "identidad",
-"path": "es/04724.mp3",
+"text": "identificación",
+"path": "es/08560.mp3",
 "lang": "es"
 },
 {
 "text": "认同",
-"path": "zh/05232.mp3",
+"path": "zh/09211.mp3",
+"lang": "zh"
+},
+{
+"text": "reembolso parcial",
+"path": "es/08561.mp3",
+"lang": "es"
+},
+{
+"text": "部分退款",
+"path": "zh/09212.mp3",
 "lang": "zh"
 },
 {
@@ -49183,6 +49213,16 @@
 {
 "text": "信誉",
 "path": "zh/05234.mp3",
+"lang": "zh"
+},
+{
+"text": "los compradores",
+"path": "es/08562.mp3",
+"lang": "es"
+},
+{
+"text": "买家",
+"path": "zh/09213.mp3",
 "lang": "zh"
 },
 {
@@ -49236,23 +49276,23 @@
 "lang": "zh"
 },
 {
-"text": "Sólo eres un visitante, y yo tengo que aprender a olvidar la suavedad de vez en cuando.",
-"path": "es/04731.mp3",
+"text": "Sólo eres un visitante, y yo tengo que aprender a olvidar la suavidad de vez en cuando.",
+"path": "es/08563.mp3",
 "lang": "es"
 },
 {
 "text": "你不过只是过客，我也要学着忘记那若有若无的温柔。",
-"path": "zh/05239.mp3",
+"path": "zh/09214.mp3",
 "lang": "zh"
 },
 {
-"text": "En contraste con el bullicio de la ciudad, el campo nos ofrece la tranqiulidad saludable.",
-"path": "es/04732.mp3",
+"text": "En contraste con el bullicio de la ciudad, el campo nos ofrece una tranquilidad saludable.",
+"path": "es/08564.mp3",
 "lang": "es"
 },
 {
 "text": "与城市的喧嚣形成对比的是，农村为我们提供了有益于健康的宁静。",
-"path": "zh/05240.mp3",
+"path": "zh/09215.mp3",
 "lang": "zh"
 },
 {
@@ -49356,13 +49396,13 @@
 "lang": "zh"
 },
 {
-"text": "propiedad",
-"path": "es/04742.mp3",
+"text": "atributo",
+"path": "es/08565.mp3",
 "lang": "es"
 },
 {
 "text": "属性",
-"path": "zh/05251.mp3",
+"path": "zh/09216.mp3",
 "lang": "zh"
 },
 {
@@ -49386,8 +49426,13 @@
 "lang": "zh"
 },
 {
-"text": "法师",
-"path": "zh/05254.mp3",
+"text": "fuerza física",
+"path": "es/08566.mp3",
+"lang": "es"
+},
+{
+"text": "体力",
+"path": "zh/09217.mp3",
 "lang": "zh"
 },
 {
@@ -49421,7 +49466,7 @@
 "lang": "es"
 },
 {
-"text": "虔诚",
+"text": "勤劳",
 "path": "zh/05257.mp3",
 "lang": "zh"
 },
@@ -49466,13 +49511,13 @@
 "lang": "zh"
 },
 {
-"text": "Con la diligencia y la inteligencia a promover el espíritu nacional, el amor sincero y la devoción a servir a la comunidad.",
-"path": "es/04752.mp3",
+"text": "Promueve el espíritu nacional con diligencia e inteligencia, ofrece amor sincero y se dedica a servir a la comunidad.",
+"path": "es/08567.mp3",
 "lang": "es"
 },
 {
 "text": "用勤劳和智慧致力于弘扬民族精神,奉献真诚爱心,服务于社会。",
-"path": "zh/05262.mp3",
+"path": "zh/09218.mp3",
 "lang": "zh"
 },
 {
@@ -49486,38 +49531,108 @@
 "lang": "zh"
 },
 {
-"text": "baldosa",
-"path": "es/04754.mp3",
+"text": "una baraja",
+"path": "es/08568.mp3",
+"lang": "es"
+},
+{
+"text": "一副",
+"path": "zh/09219.mp3",
+"lang": "zh"
+},
+{
+"text": "tréboles",
+"path": "es/08569.mp3",
+"lang": "es"
+},
+{
+"text": "梅花",
+"path": "zh/09220.mp3",
+"lang": "zh"
+},
+{
+"text": "diamantes",
+"path": "es/08570.mp3",
 "lang": "es"
 },
 {
 "text": "方块",
-"path": "zh/05264.mp3",
+"path": "zh/09221.mp3",
 "lang": "zh"
 },
 {
-"text": "corazón",
-"path": "es/01813.mp3",
+"text": "corazones",
+"path": "es/08571.mp3",
 "lang": "es"
 },
 {
 "text": "红桃",
-"path": "zh/05265.mp3",
+"path": "zh/09222.mp3",
 "lang": "zh"
 },
 {
-"text": "pica",
-"path": "es/04755.mp3",
+"text": "picas",
+"path": "es/08572.mp3",
 "lang": "es"
 },
 {
 "text": "黑桃",
-"path": "zh/05266.mp3",
+"path": "zh/09223.mp3",
+"lang": "zh"
+},
+{
+"text": "mezclar tarjetas",
+"path": "es/08573.mp3",
+"lang": "es"
+},
+{
+"text": "洗牌",
+"path": "zh/09224.mp3",
+"lang": "zh"
+},
+{
+"text": "cortar las tarjetas",
+"path": "es/08574.mp3",
+"lang": "es"
+},
+{
+"text": "切牌",
+"path": "zh/09225.mp3",
+"lang": "zh"
+},
+{
+"text": "lanzar tarjetas",
+"path": "es/08575.mp3",
+"lang": "es"
+},
+{
+"text": "发牌",
+"path": "zh/09226.mp3",
 "lang": "zh"
 },
 {
 "text": "看",
 "path": "zh/05267.mp3",
+"lang": "zh"
+},
+{
+"text": "ver las tarjetas",
+"path": "es/08576.mp3",
+"lang": "es"
+},
+{
+"text": "看牌",
+"path": "zh/09227.mp3",
+"lang": "zh"
+},
+{
+"text": "colorada",
+"path": "es/08577.mp3",
+"lang": "es"
+},
+{
+"text": "同花",
+"path": "zh/09228.mp3",
 "lang": "zh"
 },
 {
@@ -49581,6 +49696,16 @@
 "lang": "zh"
 },
 {
+"text": "Sus ojos descubren la alegría que siente en el corazón.",
+"path": "es/08578.mp3",
+"lang": "es"
+},
+{
+"text": "他的眼神道出了他内心的喜悦。",
+"path": "zh/09229.mp3",
+"lang": "zh"
+},
+{
 "text": "Me causó extrañeza verle allí.",
 "path": "es/04761.mp3",
 "lang": "es"
@@ -49611,6 +49736,126 @@
 "lang": "zh"
 },
 {
+"text": "año de la rata",
+"path": "es/08579.mp3",
+"lang": "es"
+},
+{
+"text": "鼠年",
+"path": "zh/09230.mp3",
+"lang": "zh"
+},
+{
+"text": "año del toro",
+"path": "es/08580.mp3",
+"lang": "es"
+},
+{
+"text": "牛年",
+"path": "zh/09231.mp3",
+"lang": "zh"
+},
+{
+"text": "año del tigre",
+"path": "es/08581.mp3",
+"lang": "es"
+},
+{
+"text": "虎年",
+"path": "zh/09232.mp3",
+"lang": "zh"
+},
+{
+"text": "año del conejo",
+"path": "es/08582.mp3",
+"lang": "es"
+},
+{
+"text": "兔年",
+"path": "zh/09233.mp3",
+"lang": "zh"
+},
+{
+"text": "año del dragón",
+"path": "es/08583.mp3",
+"lang": "es"
+},
+{
+"text": "龙年",
+"path": "zh/09234.mp3",
+"lang": "zh"
+},
+{
+"text": "año de la serpiente",
+"path": "es/08584.mp3",
+"lang": "es"
+},
+{
+"text": "蛇年",
+"path": "zh/09235.mp3",
+"lang": "zh"
+},
+{
+"text": "año del caballo",
+"path": "es/08585.mp3",
+"lang": "es"
+},
+{
+"text": "马年",
+"path": "zh/09236.mp3",
+"lang": "zh"
+},
+{
+"text": "año del carnero",
+"path": "es/08586.mp3",
+"lang": "es"
+},
+{
+"text": "羊年",
+"path": "zh/09237.mp3",
+"lang": "zh"
+},
+{
+"text": "año del mono",
+"path": "es/08587.mp3",
+"lang": "es"
+},
+{
+"text": "猴年",
+"path": "zh/09238.mp3",
+"lang": "zh"
+},
+{
+"text": "año del pollo",
+"path": "es/08588.mp3",
+"lang": "es"
+},
+{
+"text": "鸡年",
+"path": "zh/09239.mp3",
+"lang": "zh"
+},
+{
+"text": "año del perro",
+"path": "es/08589.mp3",
+"lang": "es"
+},
+{
+"text": "狗年",
+"path": "zh/09240.mp3",
+"lang": "zh"
+},
+{
+"text": "año del cerdo",
+"path": "es/08590.mp3",
+"lang": "es"
+},
+{
+"text": "猪年",
+"path": "zh/09241.mp3",
+"lang": "zh"
+},
+{
 "text": "leyenda",
 "path": "es/04764.mp3",
 "lang": "es"
@@ -49618,6 +49863,26 @@
 {
 "text": "传奇",
 "path": "zh/05278.mp3",
+"lang": "zh"
+},
+{
+"text": "calendario lunar",
+"path": "es/08591.mp3",
+"lang": "es"
+},
+{
+"text": "阴历",
+"path": "zh/09242.mp3",
+"lang": "zh"
+},
+{
+"text": "calendario solar",
+"path": "es/08592.mp3",
+"lang": "es"
+},
+{
+"text": "阳历",
+"path": "zh/09243.mp3",
 "lang": "zh"
 },
 {
@@ -49641,6 +49906,16 @@
 "lang": "zh"
 },
 {
+"text": "de bronce",
+"path": "es/08593.mp3",
+"lang": "es"
+},
+{
+"text": "青铜的",
+"path": "zh/09244.mp3",
+"lang": "zh"
+},
+{
 "text": "escapar",
 "path": "es/01438.mp3",
 "lang": "es"
@@ -49661,23 +49936,23 @@
 "lang": "zh"
 },
 {
-"text": "El año pasado llevé a los niños para la educación patriótica a Yuanmingyuan, cuando supe la cosa de la estatua de bronce del zodiaco chino por parte de los niños.",
-"path": "es/04768.mp3",
+"text": "El año pasado llevé a los niños a Yuanmingyuan para la educación patriótica, cuando supe por ellos lo de la estatua de bronce del zodiaco chino.",
+"path": "es/08594.mp3",
 "lang": "es"
 },
 {
 "text": "去年，带孩子到圆明园进行爱国主义教育，我才听孩子说十二生肖铜像的事情。",
-"path": "zh/05283.mp3",
+"path": "zh/09245.mp3",
 "lang": "zh"
 },
 {
-"text": "La leyenda dice que los griegos han colocado a la diosa en el templo, y habría cortado las alas para que no pudiera escapar y volar al enemigo.",
-"path": "es/04769.mp3",
+"text": "La leyenda dice que los griegos colocaron a la diosa en el templo y le cortaron las alas para que no pudiera escapar ni volar hacia el enemigo.",
+"path": "es/08595.mp3",
 "lang": "es"
 },
 {
 "text": "传说希腊人把胜利女神像置于神庙里，为了不让她离去，飞向敌方，人们去掉了女神像的翅膀。",
-"path": "zh/05284.mp3",
+"path": "zh/09246.mp3",
 "lang": "zh"
 },
 {
@@ -49696,7 +49971,7 @@
 "lang": "es"
 },
 {
-"text": "兔子喜欢吃胡萝卜。",
+"text": "兔子喜欢吃芜菁。",
 "path": "zh/05286.mp3",
 "lang": "zh"
 },
@@ -49738,6 +50013,16 @@
 {
 "text": "金牛座",
 "path": "zh/05290.mp3",
+"lang": "zh"
+},
+{
+"text": "Géminis",
+"path": "es/08596.mp3",
+"lang": "es"
+},
+{
+"text": "双子座",
+"path": "zh/09247.mp3",
 "lang": "zh"
 },
 {
@@ -49871,37 +50156,37 @@
 "lang": "zh"
 },
 {
-"text": "A ver es la constelación de la Osa Mayor.",
-"path": "es/04789.mp3",
+"text": "A ver, esa es la constelación de la Osa Mayor.",
+"path": "es/08597.mp3",
 "lang": "es"
 },
 {
-"text": "看，那是小熊星座。",
-"path": "zh/05304.mp3",
+"text": "看，那是大熊座。",
+"path": "zh/09248.mp3",
 "lang": "zh"
 },
 {
-"text": "—¿Qué horóscopo eres?",
+"text": "¿Qué horóscopo eres?",
 "path": "es/04790.mp3",
 "lang": "es"
 },
 {
-"text": "你是什么星象？",
+"text": "你是什么星座？",
 "path": "zh/05305.mp3",
 "lang": "zh"
 },
 {
-"text": "—Yo soy Aries.",
+"text": "Yo soy Aries.",
 "path": "es/04791.mp3",
 "lang": "es"
 },
 {
-"text": "我的星象是白羊。",
+"text": "我的星座是白羊座。",
 "path": "zh/05306.mp3",
 "lang": "zh"
 },
 {
-"text": "Yo soy tauro. ¿Y tú qué horóscopo eres?",
+"text": "Yo soy Tauro. ¿Y tú qué horóscopo eres?",
 "path": "es/04792.mp3",
 "lang": "es"
 },
@@ -49921,13 +50206,13 @@
 "lang": "zh"
 },
 {
-"text": "conducente",
-"path": "es/04794.mp3",
+"text": "favorable",
+"path": "es/08598.mp3",
 "lang": "es"
 },
 {
 "text": "吉利的",
-"path": "zh/05309.mp3",
+"path": "zh/09249.mp3",
 "lang": "zh"
 },
 {
@@ -50026,6 +50311,16 @@
 "lang": "es"
 },
 {
+"text": "suceder",
+"path": "es/08599.mp3",
+"lang": "es"
+},
+{
+"text": "发生",
+"path": "zh/09250.mp3",
+"lang": "zh"
+},
+{
 "text": "遗忘",
 "path": "zh/05319.mp3",
 "lang": "zh"
@@ -50038,6 +50333,16 @@
 {
 "text": "正在发生的一切和我所预言的一模一样。",
 "path": "zh/05320.mp3",
+"lang": "zh"
+},
+{
+"text": "Consultó a una gitana para que le predijera su destino.",
+"path": "es/08600.mp3",
+"lang": "es"
+},
+{
+"text": "他找了一个吉普赛人替他算命。",
+"path": "zh/09251.mp3",
 "lang": "zh"
 },
 {
@@ -50061,13 +50366,13 @@
 "lang": "zh"
 },
 {
-"text": "ésto es el signo del peligro.",
-"path": "es/04806.mp3",
+"text": "Esto es el signo del peligro.",
+"path": "es/08601.mp3",
 "lang": "es"
 },
 {
 "text": "这是危险标志。",
-"path": "zh/05323.mp3",
+"path": "zh/09252.mp3",
 "lang": "zh"
 },
 {
@@ -52649,6 +52954,11 @@
 "text": "小心，注意；照料，照看",
 "path": "zh/05604.mp3",
 "lang": "zh"
+},
+{
+"text": "propiedad",
+"path": "es/04742.mp3",
+"lang": "es"
 },
 {
 "text": "特性，属性",
@@ -71364,6 +71674,11 @@
 "text": "血管",
 "path": "zh/01920.mp3",
 "lang": "zh"
+},
+{
+"text": "corazón",
+"path": "es/01813.mp3",
+"lang": "es"
 },
 {
 "text": "心",

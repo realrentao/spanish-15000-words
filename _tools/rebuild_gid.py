@@ -1420,7 +1420,111 @@ G30 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30}
+G31 = {
+ "name": "时尚前沿",
+ "raw": "_tools/parte31_raw.txt",
+ "typo": {
+   "latranquiulidad": "la tranquilidad",    # clean 删掉 OCR 的点：la.tranquiulidad
+ },
+ "fix": {
+   # Sec1 网购
+   ("认同", "identidad"): "identificación",             # identidad=身份；认同=identificación
+   # Sec2 游戏
+   ("属性", "propiedad"): "atributo",                    # 游戏「属性」=atributo
+   ("法师", "maestro"): "mago",                        # 游戏职业「法师」=mago
+   # Sec3 扑克牌：西语四种花色名与中文完全不同
+   ("梅花", "flor del ciruelo"): "tréboles",            # 梅花=tréboles
+   ("方块", "baldosa"): "diamantes",                    # 方块=diamantes（baldosa=瓷砖）
+   ("红桃", "corazón"): "corazones",
+   ("黑桃", "pica"): "picas",                           # pica=鹤
+   ("同花", "escalera real"): "colorada",               # escalera real=皇家同花顺
+   ("一副", "un par"): "una baraja",                    # 一副(牌)=una baraja
+   # Sec4 十二生肖
+   ("牛年", "año del buey"): "año del toro",            # 十二生肖用 toro
+   ("兔年", "año de la conejo"): "año del conejo",      # 性别一致
+   ("羊年", "años del carnero"): "año del carnero",     # 单一年
+   ("猴年", "años del mono"): "año del mono",
+   # Sec6 占卜
+   ("吉利的", "conducente"): "favorable",               # conducente=引导的
+ },
+ "pos": {
+   # Sec1
+   ("创办者", "fundador"): "n.m.",
+   ("信誉", "prestigio"): "n.m.",
+   ("聊天", "chatear"): "v.t.",
+   ("对比", "contrastar"): "v.t.",
+   # Sec2
+   ("经验值", "experiencia"): "n.f.",
+   ("法师", "mago"): "n.m.",
+   # Sec3
+   ("扑克牌", "póker"): "n.m.",
+   ("方块", "diamantes"): "n.m.",
+   ("红桃", "corazones"): "n.m.",
+   ("黑桃", "picas"): "n.m.",
+   # Sec4
+   ("传奇", "leyenda"): "n.f.",
+   # Sec5
+   ("白羊座", "Aries"): "n.m.",
+   ("金牛座", "Tauro"): "n.m.",
+   ("双子座", "Géminis"): "n.m.pl.",
+   ("巨蟹座", "Cáncer"): "n.m.",
+   ("狮子座", "Leo"): "n.m.",
+   ("处女座", "Virgo"): "n.f.",
+   ("天秤座", "Libra"): "n.f.",
+   ("天蝎座", "Escorpio"): "n.m.",
+   ("射手座", "Sagitario"): "n.m.",
+   ("摩羯座", "Capricornio"): "n.m.",
+   ("水瓶座", "Acuario"): "n.m.",
+   ("双鱼座", "Piscis"): "n.m.",
+   ("占星", "horóscopo"): "n.m.",
+   # Sec6
+   ("塔罗牌", "tarot"): "n.m.",
+   ("迹象", "signo"): "n.m.",
+   ("预示", "predecir"): "v.t.",
+ },
+ "subs": [
+   # Sec1 冠词
+   ("En contraste con el bullicio de la ciudad, el campo nos ofrece la tranquilidad saludable",
+    "En contraste con el bullicio de la ciudad, el campo nos ofrece una tranquilidad saludable"),
+   # Sec2 原句缺谓语（只有「a promover」不定式），整句重写
+   ("Con la diligencia y la inteligencia a promover el espíritu nacional, el amor sincero y la devoción a servir a la comunidad",
+    "Promueve el espíritu nacional con diligencia e inteligencia, ofrece amor sincero y se dedica a servir a la comunidad"),
+   # Sec3 谚语：Ojos que no ven… 加倒装无必要，但中文对应，可保留；补副词
+   ("La actriz ha bordado su papel",
+    "La actriz ha bordado su papel"),
+   # Sec4 语序
+   ("El año pasado llevé a los niños para la educación patriótica a Yuanmingyuan, cuando supe la cosa de la estatua de bronce del zodiaco chino por parte de los niños",
+    "El año pasado llevé a los niños a Yuanmingyuan para la educación patriótica, cuando supe por ellos lo de la estatua de bronce del zodiaco chino"),
+   ("La leyenda dice que los griegos han colocado a la diosa en el templo, y habría cortado las alas para que no pudiera escapar y volar al enemigo",
+    "La leyenda dice que los griegos colocaron a la diosa en el templo y le cortaron las alas para que no pudiera escapar ni volar hacia el enemigo"),
+   # Sec5 星座名与引语（原文是对话体，去掉破折号并补 ¿）
+   ("A ver es la constelación de la Osa Mayor",
+    "A ver, esa es la constelación de la Osa Mayor"),
+   ("—.Qué horóscopo eres?",
+    "¿Qué horóscopo eres?"),
+   ("—Yo soy Aries.",
+    "Yo soy Aries."),
+   ("Yo soy tauro. Y tú qué horóscopo eres?",
+    "Yo soy Tauro. ¿Y tú qué horóscopo eres?"),
+   # Sec6 esto 无重音
+   ("ésto es el signo del peligro",
+    "Esto es el signo del peligro"),
+ ],
+ "CN_FIX": {
+   "虔诚": "勤劳",                 # diligently=勤劳（diligencia 在此句语境）
+ },
+ "zh_subs": [
+   # Sec4 西语是 nabos（芜菁），中文原写「胡萝卜」
+   ("兔子喜欢吃胡萝卜。", "兔子喜欢吃芜菁。"),
+   # Sec5 西语 Osa Mayor=大熊座，中文原写「小熊星座」
+   ("看，那是小熊星座。", "看，那是大熊座。"),
+   # Sec5 中文「星象」→「星座」（ horóscopo=星座运势）
+   ("你是什么星象？", "你是什么星座？"),
+   ("我的星象是白羊。", "我的星座是白羊座。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

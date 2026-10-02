@@ -17,7 +17,7 @@ from pypinyin import pinyin, Style
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 POS = set(["n.m.","n.f.","v.t.","v.i.","adj.","adj","adv.","adv","prnl.","n.","v.","s.m.","s.f.","m.","f.","prep.","abrev.","conj.","vi.","vt.","p.p.","n.inv.","s.n.","s.adj.","s.adv.","tr.","intr.","ger.","inf.","part.",
-           "v.pr.","v.pr","v.refl.","v.refl","n.pl.","n.pl","pron.","n.m.pl.","n.f.pl.","n.m.pl","n.f.pl"])
+           "v.pr.","v.pr","v.refl.","v.refl","n.pl.","n.pl","pron.","n.m.pl.","n.f.pl.","n.m.pl","n.f.pl","impers.","impers","impers"])
 HEAD_WORDS = ("终极分类词", "经典实用句", "词汇大拓展", "Sección", "Seccion", "Parte")
 def is_pos(t):
     if t in POS: return True
