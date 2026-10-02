@@ -1062,7 +1062,99 @@ G26 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26}
+G27 = {
+ "name": "修身养性",
+ "raw": "_tools/parte27_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "Eschucar": "Escuchar",               # 词头字母错
+   "acticidadde": "actividad de",        # 词内粘连
+   "Espa.a": "España",
+   "casta.uela": "castañuela",            # 点两侧是元音，clean 可自愈，保险起见
+   "su-basta": "subasta",
+ },
+ "fix": {
+   # Sec1 园艺
+   ("茂密的", "grueso"): "denso",           # grueso=粗大的；茂密的=denso
+   # Sec2 各种乐器（1）
+   ("管铜乐器", "instrumentos de viento"): "instrumentos de viento",
+   # Sec3 各种乐器（2）
+   # Sec4 钢琴
+   ("踏板", "paso"): "pedal",              # paso=步子/阶段
+   # Sec5 舞台剧
+   ("高潮", "pico"): "clímax",              # pico=山峰
+   # Sec6 博物馆
+   ("陈列的", "en la exhibición"): "en pie de exhibición",
+   # Sec7 天文台
+   # Sec8 古董店
+ },
+ "pos": {
+   # 文案标错性别的，按西语实际词性
+   ("木偶戏", "títeres"): "n.m.",         # los títeres
+   ("土星", "Saturno"): "n.m.",
+   ("钢琴家", "pianista"): "n.m.",
+   ("定音鼓", "timbal"): "n.m.",           # el timbal
+   ("吉他手", "guitarrista"): "n.m.",
+   ("手风琴", "acordeón"): "n.m.",         # el acordeón
+   ("长号", "trombone"): "n.m.",
+   # 短语无词性 -> 清空
+   ("乐器", "instrumento musical"): "",
+   ("园艺工具", "herramientas de jardinería"): "",
+   ("园艺工人", "trabajadores de horticultura"): "",
+   ("铜绿", "cardenillo verde"): "",
+   ("铜币", "moneda de cobre"): "",   ("铜币", "moneda de cobre"): "n.f.",
+   ("增值", "aumento de valor"): "",
+   ("鉴别能力强的", "capacidad fuerte para identificar"): "",
+   ("陈列的", "en pie de exhibición"): "",
+   ("机械装置", "dispositivos mecánicos"): "",
+   ("音板", "caja de resonancia"): "",
+   ("琴凳", "taburete del piano"): "",
+   ("乐谱架", "atril"): "n.m.",
+ },
+ "subs": [
+   # Sec1 园艺
+   ("Creo que la jardinería es la arte",
+    "Creo que la jardinería es un arte"),
+   ("Cuando brota el retoño del ficus es de color rosa o rojo",
+    "Cuando brota, el retoño del ficus es de color rosa o rojo"),
+   # Sec2 各种乐器（1）
+   ("Hay esencia en cada música, cómo se lleva a cabo para escuchar depende del corazón",
+    "Hay esencia en cada música; cómo se lleva a cabo para escucharla depende del corazón"),
+   ("Me doy a mí mismo una música deolmision maravillosa",
+    "Me doy a mí mismo una música de admisión maravillosa"),
+   # Sec3 各种乐器（2）
+   ("Vivir en la esperanza, incluso sin acompañamiento musical, se puede bailar",
+    "Vivir con esperanza, incluso sin acompañamiento musical, permite bailar"),
+   ("Sin embargo, mostró la mayor seriedad y profesionalismo su interpretación de guitarra",
+    "Sin embargo, mostró la mayor seriedad y profesionalismo en su interpretación de guitarra"),
+   # Sec6 博物馆
+   ("Vamos a visitar el museo arqueológico, .quieres venir con nosotros?",
+    "Vamos a visitar el museo arqueológico, ¿quieres venir con nosotros?"),
+   ("En el Museo del Prado se puede apreciar las obras pictóricas más representativas de España y de.",
+    "En el Museo del Prado se pueden apreciar las obras pictóricas más representativas de España y de Europa."),
+   ("Se mostrará unos esqueletos de dinosaurio en el museo",
+    "Se mostrarán unos esqueletos de dinosaurio en el museo"),
+   ("Voy a una acticidadde subasta de objetos de arte",
+    "Voy a una subasta de objetos de arte"),
+   # Sec7 天文台
+   ("Un equipo de astrónomos han descubierto un nuevo planeta",
+    "Un equipo de astrónomos ha descubierto un nuevo planeta"),
+   # Sec8 古董店
+   ("No elegimos a olvidar si no se puede continuar, elija recopilar y recoger en el fondo del alma",
+    "No elegimos olvidar si no se puede continuar; elija recopilar y recoger en el fondo del alma"),
+   ("El país en realidad conserva sus diversas y antiguas tradiciones, ciertamente no para destruirlas",
+    "El país, en realidad, conserva sus diversas y antiguas tradiciones, ciertamente no para destruirlas"),
+ ],
+ "CN_FIX": {
+   "管铜乐器": "管乐器",   # instrumentos de viento = 管乐器（含铜管）
+ },
+ "zh_subs": [
+   # Sec8 错字「旳」
+   ("以保持其多元化和祖先旳传统", "以保持其多元化和祖先的传统"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

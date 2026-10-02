@@ -39901,6 +39901,26 @@
 "lang": "zh"
 },
 {
+"text": "herramientas de jardinería",
+"path": "es/08325.mp3",
+"lang": "es"
+},
+{
+"text": "园艺工具",
+"path": "zh/08976.mp3",
+"lang": "zh"
+},
+{
+"text": "trabajadores de horticultura",
+"path": "es/08326.mp3",
+"lang": "es"
+},
+{
+"text": "园艺工人",
+"path": "zh/08977.mp3",
+"lang": "zh"
+},
+{
 "text": "plantación",
 "path": "es/04335.mp3",
 "lang": "es"
@@ -39921,8 +39941,13 @@
 "lang": "zh"
 },
 {
+"text": "denso",
+"path": "es/08327.mp3",
+"lang": "es"
+},
+{
 "text": "茂密的",
-"path": "zh/04789.mp3",
+"path": "zh/08978.mp3",
 "lang": "zh"
 },
 {
@@ -40036,13 +40061,13 @@
 "lang": "zh"
 },
 {
-"text": "Creo que la jardinería es la arte.",
-"path": "es/04345.mp3",
+"text": "Creo que la jardinería es un arte.",
+"path": "es/08328.mp3",
 "lang": "es"
 },
 {
 "text": "我觉得园艺是门艺术。",
-"path": "zh/04800.mp3",
+"path": "zh/08979.mp3",
 "lang": "zh"
 },
 {
@@ -40066,13 +40091,23 @@
 "lang": "zh"
 },
 {
-"text": "Cuando brota el retoño del ficus es de color rosa o rojo.",
+"text": "Cuando brota, el retoño del ficus es de color rosa o rojo.",
 "path": "es/04348.mp3",
 "lang": "es"
 },
 {
 "text": "榕树新发出的小芽是红色或者粉色的。",
 "path": "zh/04803.mp3",
+"lang": "zh"
+},
+{
+"text": "instrumento musical",
+"path": "es/08329.mp3",
+"lang": "es"
+},
+{
+"text": "乐器",
+"path": "zh/08980.mp3",
 "lang": "zh"
 },
 {
@@ -40103,6 +40138,46 @@
 {
 "text": "演奏",
 "path": "zh/04806.mp3",
+"lang": "zh"
+},
+{
+"text": "instrumentos de viento",
+"path": "es/08330.mp3",
+"lang": "es"
+},
+{
+"text": "管乐器",
+"path": "zh/08981.mp3",
+"lang": "zh"
+},
+{
+"text": "instrumentos de madera",
+"path": "es/08331.mp3",
+"lang": "es"
+},
+{
+"text": "木管乐器",
+"path": "zh/08982.mp3",
+"lang": "zh"
+},
+{
+"text": "instrumento de cuerda",
+"path": "es/08332.mp3",
+"lang": "es"
+},
+{
+"text": "弦乐器",
+"path": "zh/08983.mp3",
+"lang": "zh"
+},
+{
+"text": "instrumento de percusión",
+"path": "es/08333.mp3",
+"lang": "es"
+},
+{
+"text": "打击乐器",
+"path": "zh/08984.mp3",
 "lang": "zh"
 },
 {
@@ -40226,13 +40301,13 @@
 "lang": "es"
 },
 {
-"text": "Hay esencia en cada música, cómo se lleva a cabo para escuchar depende del corazón.",
-"path": "es/04363.mp3",
+"text": "Hay esencia en cada música; cómo se lleva a cabo para escucharla depende del corazón.",
+"path": "es/08334.mp3",
 "lang": "es"
 },
 {
 "text": "每一首音乐都有它的精髓，就看你抱着如何的心境去听它。",
-"path": "zh/04819.mp3",
+"path": "zh/08985.mp3",
 "lang": "zh"
 },
 {
@@ -40256,13 +40331,13 @@
 "lang": "zh"
 },
 {
-"text": "Eschucar música de Bach es un placer celestial.",
-"path": "es/04366.mp3",
+"text": "Escuchar música de Bach es un placer celestial.",
+"path": "es/08335.mp3",
 "lang": "es"
 },
 {
 "text": "听巴赫的音乐是一种莫大的享受。",
-"path": "zh/04822.mp3",
+"path": "zh/08986.mp3",
 "lang": "zh"
 },
 {
@@ -40321,8 +40396,13 @@
 "lang": "zh"
 },
 {
-"text": "长鼓 tambor",
-"path": "zh/04828.mp3",
+"text": "tambor largo",
+"path": "es/08336.mp3",
+"lang": "es"
+},
+{
+"text": "长鼓",
+"path": "zh/08987.mp3",
 "lang": "zh"
 },
 {
@@ -40446,13 +40526,13 @@
 "lang": "zh"
 },
 {
-"text": "Vivir en la esperanza, incluso sin acompañamiento musical, se puede bailar.",
-"path": "es/04384.mp3",
+"text": "Vivir con esperanza, incluso sin acompañamiento musical, permite bailar.",
+"path": "es/08337.mp3",
 "lang": "es"
 },
 {
 "text": "生活在希望中，即使没有音乐伴奏，也可以起舞。",
-"path": "zh/04840.mp3",
+"path": "zh/08988.mp3",
 "lang": "zh"
 },
 {
@@ -40466,13 +40546,13 @@
 "lang": "zh"
 },
 {
-"text": "Sin embargo, mostró la mayor seriedad y profesionalismo su interpretación de guitarra.",
-"path": "es/04386.mp3",
+"text": "Sin embargo, mostró la mayor seriedad y profesionalismo en su interpretación de guitarra.",
+"path": "es/08338.mp3",
 "lang": "es"
 },
 {
 "text": "尽管如此，他们在舞台上的吉他表演展现了大师级的态度及风范。",
-"path": "zh/04842.mp3",
+"path": "zh/08989.mp3",
 "lang": "zh"
 },
 {
@@ -40531,8 +40611,13 @@
 "lang": "zh"
 },
 {
+"text": "pedal",
+"path": "es/01722.mp3",
+"lang": "es"
+},
+{
 "text": "踏板",
-"path": "zh/04850.mp3",
+"path": "zh/01822.mp3",
 "lang": "zh"
 },
 {
@@ -40543,6 +40628,36 @@
 {
 "text": "琴键",
 "path": "zh/04851.mp3",
+"lang": "zh"
+},
+{
+"text": "dispositivos mecánicos",
+"path": "es/08339.mp3",
+"lang": "es"
+},
+{
+"text": "机械装置",
+"path": "zh/08990.mp3",
+"lang": "zh"
+},
+{
+"text": "caja de resonancia",
+"path": "es/08340.mp3",
+"lang": "es"
+},
+{
+"text": "音板",
+"path": "zh/08991.mp3",
+"lang": "zh"
+},
+{
+"text": "taburete del piano",
+"path": "es/08341.mp3",
+"lang": "es"
+},
+{
+"text": "琴凳",
+"path": "zh/08992.mp3",
 "lang": "zh"
 },
 {
@@ -40681,6 +40796,16 @@
 "lang": "zh"
 },
 {
+"text": "música de fondo",
+"path": "es/08342.mp3",
+"lang": "es"
+},
+{
+"text": "背景音乐",
+"path": "zh/08993.mp3",
+"lang": "zh"
+},
+{
 "text": "línea",
 "path": "es/04406.mp3",
 "lang": "es"
@@ -40751,13 +40876,13 @@
 "lang": "zh"
 },
 {
-"text": "pico",
-"path": "es/04412.mp3",
+"text": "clímax",
+"path": "es/08343.mp3",
 "lang": "es"
 },
 {
 "text": "高潮",
-"path": "zh/04873.mp3",
+"path": "zh/08994.mp3",
 "lang": "zh"
 },
 {
@@ -40791,7 +40916,7 @@
 "lang": "es"
 },
 {
-"text": "自远古的时代以来, 在西方社会,红色已被与舞台服装体现的能力及神圣联系起来。",
+"text": "自远古的时代以来，在西方社会，红色已被与舞台服装体现的能力及神圣联系起来。",
 "path": "zh/04877.mp3",
 "lang": "zh"
 },
@@ -40836,7 +40961,7 @@
 "lang": "zh"
 },
 {
-"text": "Mamá, hoy no ceno en casa porque comienzo los en-sayos a las siete en punto.",
+"text": "Mamá, hoy no ceno en casa porque comienzo los ensayos a las siete en punto.",
 "path": "es/04420.mp3",
 "lang": "es"
 },
@@ -40853,6 +40978,66 @@
 {
 "text": "博物馆",
 "path": "zh/04883.mp3",
+"lang": "zh"
+},
+{
+"text": "museo de historia",
+"path": "es/08344.mp3",
+"lang": "es"
+},
+{
+"text": "历史博物馆",
+"path": "zh/08995.mp3",
+"lang": "zh"
+},
+{
+"text": "museo militar",
+"path": "es/08345.mp3",
+"lang": "es"
+},
+{
+"text": "军事博物馆",
+"path": "zh/08996.mp3",
+"lang": "zh"
+},
+{
+"text": "museo de ciencia y tecnología",
+"path": "es/08346.mp3",
+"lang": "es"
+},
+{
+"text": "科技馆",
+"path": "zh/08997.mp3",
+"lang": "zh"
+},
+{
+"text": "museo de arte",
+"path": "es/08347.mp3",
+"lang": "es"
+},
+{
+"text": "艺术博物馆",
+"path": "zh/08998.mp3",
+"lang": "zh"
+},
+{
+"text": "museo de naturaleza",
+"path": "es/08348.mp3",
+"lang": "es"
+},
+{
+"text": "自然博物馆",
+"path": "zh/08999.mp3",
+"lang": "zh"
+},
+{
+"text": "en pie de exhibición",
+"path": "es/08349.mp3",
+"lang": "es"
+},
+{
+"text": "陈列的",
+"path": "zh/09000.mp3",
 "lang": "zh"
 },
 {
@@ -40888,6 +41073,16 @@
 {
 "text": "艺术的",
 "path": "zh/04887.mp3",
+"lang": "zh"
+},
+{
+"text": "objetos expuestos",
+"path": "es/08350.mp3",
+"lang": "es"
+},
+{
+"text": "展览品",
+"path": "zh/09001.mp3",
 "lang": "zh"
 },
 {
@@ -40961,7 +41156,7 @@
 "lang": "zh"
 },
 {
-"text": "Vamos a visitar el museo arqueológico, .quieres venir con nosotros?",
+"text": "¿Vamos a visitar el museo arqueológico, quieres venir con nosotros?",
 "path": "es/04430.mp3",
 "lang": "es"
 },
@@ -40971,13 +41166,13 @@
 "lang": "zh"
 },
 {
-"text": "En el Museo del Prado se puede apreciar las obras pictóricas más representativas de España y de.",
-"path": "es/04431.mp3",
+"text": "En el Museo del Prado se pueden apreciar las obras pictóricas más representativas de España y de Europa.",
+"path": "es/08351.mp3",
 "lang": "es"
 },
 {
 "text": "在普拉多博物馆可以欣赏到西班牙和西欧最具代表性的绘画作品。",
-"path": "zh/04896.mp3",
+"path": "zh/09002.mp3",
 "lang": "zh"
 },
 {
@@ -40991,23 +41186,23 @@
 "lang": "zh"
 },
 {
-"text": "Se mostrará unos esqueletos de dinosaurio en el museo.",
-"path": "es/04433.mp3",
+"text": "Se mostrarán unos esqueletos de dinosaurio en el museo.",
+"path": "es/08352.mp3",
 "lang": "es"
 },
 {
 "text": "博物馆将要展出几具恐龙的骨骼。",
-"path": "zh/04898.mp3",
+"path": "zh/09003.mp3",
 "lang": "zh"
 },
 {
-"text": "Voy a una acticidadde subasta de objetos de arte.",
-"path": "es/04434.mp3",
+"text": "Voy a una actividad de subasta de objetos de arte.",
+"path": "es/08353.mp3",
 "lang": "es"
 },
 {
 "text": "我要去一个艺术品拍卖活动。",
-"path": "zh/04899.mp3",
+"path": "zh/09004.mp3",
 "lang": "zh"
 },
 {
@@ -41201,13 +41396,13 @@
 "lang": "zh"
 },
 {
-"text": "Un equipo de astrónomos han descubierto un nuevo planeta.",
-"path": "es/04453.mp3",
+"text": "Un equipo de astrónomos ha descubierto un nuevo planeta.",
+"path": "es/08354.mp3",
 "lang": "es"
 },
 {
 "text": "天文学家小组发现了一颗新的行星。",
-"path": "zh/04918.mp3",
+"path": "zh/09005.mp3",
 "lang": "zh"
 },
 {
@@ -41238,6 +41433,16 @@
 {
 "text": "这颗小行星仅仅在1909年被一个土耳其天文学家用望远镜看见过一次。",
 "path": "zh/04921.mp3",
+"lang": "zh"
+},
+{
+"text": "tienda de antigüedades",
+"path": "es/08355.mp3",
+"lang": "es"
+},
+{
+"text": "古玩店",
+"path": "zh/09006.mp3",
 "lang": "zh"
 },
 {
@@ -41276,6 +41481,26 @@
 "lang": "zh"
 },
 {
+"text": "capacidad fuerte para identificar",
+"path": "es/08356.mp3",
+"lang": "es"
+},
+{
+"text": "鉴别能力强的",
+"path": "zh/09007.mp3",
+"lang": "zh"
+},
+{
+"text": "cardenillo verde",
+"path": "es/08357.mp3",
+"lang": "es"
+},
+{
+"text": "铜绿",
+"path": "zh/09008.mp3",
+"lang": "zh"
+},
+{
 "text": "保存",
 "path": "zh/04926.mp3",
 "lang": "zh"
@@ -41286,8 +41511,23 @@
 "lang": "zh"
 },
 {
-"text": "铜币 moneda de",
-"path": "zh/04928.mp3",
+"text": "moneda de cobre",
+"path": "es/08358.mp3",
+"lang": "es"
+},
+{
+"text": "铜币",
+"path": "zh/09009.mp3",
+"lang": "zh"
+},
+{
+"text": "aumento de valor",
+"path": "es/08359.mp3",
+"lang": "es"
+},
+{
+"text": "增值",
+"path": "zh/09010.mp3",
 "lang": "zh"
 },
 {
@@ -41341,6 +41581,16 @@
 "lang": "zh"
 },
 {
+"text": "Este especialista dispone de la reputación mundial.",
+"path": "es/08360.mp3",
+"lang": "es"
+},
+{
+"text": "这个专家享有世界声誉。",
+"path": "zh/09011.mp3",
+"lang": "zh"
+},
+{
 "text": "Hay que distinguir lo justo de lo erróneo.",
 "path": "es/04464.mp3",
 "lang": "es"
@@ -41361,22 +41611,22 @@
 "lang": "zh"
 },
 {
-"text": "No elegimos a olvidar si no se puede continuar, elija recopilar y recoger en el fondo del alma.",
-"path": "es/04466.mp3",
+"text": "No elegimos olvidar si no se puede continuar; elija recopilar y recoger en el fondo del alma.",
+"path": "es/08361.mp3",
 "lang": "es"
 },
 {
 "text": "如果不能继续，不用选择忘记，请选择收藏，收藏在心灵深处。",
-"path": "zh/04937.mp3",
+"path": "zh/09012.mp3",
 "lang": "zh"
 },
 {
-"text": "El país en realidad con-serva sus diversas y antiguas tradiciones, ciertamente no para destruirlas.",
+"text": "El país, en realidad, conserva sus diversas y antiguas tradiciones, ciertamente no para destruirlas.",
 "path": "es/04467.mp3",
 "lang": "es"
 },
 {
-"text": "该国是在现实中，以保持其多元化和祖先旳传统，当然不是摧毁它们。",
+"text": "该国是在现实中，以保持其多元化和祖先的传统，当然不是摧毁它们。",
 "path": "zh/04938.mp3",
 "lang": "zh"
 },
@@ -64298,16 +64548,6 @@
 {
 "text": "刹车",
 "path": "zh/01820.mp3",
-"lang": "zh"
-},
-{
-"text": "pedal",
-"path": "es/01722.mp3",
-"lang": "es"
-},
-{
-"text": "脚踏板",
-"path": "zh/01822.mp3",
 "lang": "zh"
 },
 {
