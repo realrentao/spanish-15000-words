@@ -68871,6 +68871,56 @@
 "lang": "zh"
 },
 {
+"text": "tribunal penal",
+"path": "es/09307.mp3",
+"lang": "es"
+},
+{
+"text": "刑事法庭",
+"path": "zh/09958.mp3",
+"lang": "zh"
+},
+{
+"text": "tribunal superior",
+"path": "es/09308.mp3",
+"lang": "es"
+},
+{
+"text": "高级法院",
+"path": "zh/09959.mp3",
+"lang": "zh"
+},
+{
+"text": "tribunal de arbitraje",
+"path": "es/09309.mp3",
+"lang": "es"
+},
+{
+"text": "仲裁法庭",
+"path": "zh/09960.mp3",
+"lang": "zh"
+},
+{
+"text": "tribunal de menores",
+"path": "es/09310.mp3",
+"lang": "es"
+},
+{
+"text": "少年法庭",
+"path": "zh/09961.mp3",
+"lang": "zh"
+},
+{
+"text": "consejo de guerra",
+"path": "es/09311.mp3",
+"lang": "es"
+},
+{
+"text": "军事法庭",
+"path": "zh/09962.mp3",
+"lang": "zh"
+},
+{
 "text": "corte",
 "path": "es/05655.mp3",
 "lang": "es"
@@ -68921,6 +68971,16 @@
 "lang": "es"
 },
 {
+"text": "demandante",
+"path": "es/09312.mp3",
+"lang": "es"
+},
+{
+"text": "原告",
+"path": "zh/09963.mp3",
+"lang": "zh"
+},
+{
 "text": "declarar",
 "path": "es/05659.mp3",
 "lang": "es"
@@ -68948,11 +69008,6 @@
 {
 "text": "严厉地",
 "path": "zh/06360.mp3",
-"lang": "zh"
-},
-{
-"text": "证实",
-"path": "zh/06361.mp3",
 "lang": "zh"
 },
 {
@@ -68986,7 +69041,7 @@
 "lang": "zh"
 },
 {
-"text": "El juez le ha citado a de-clarar.",
+"text": "El juez le ha citado a declarar.",
 "path": "es/05665.mp3",
 "lang": "es"
 },
@@ -69001,12 +69056,12 @@
 "lang": "es"
 },
 {
-"text": "你为什么不找一个律师咨询？",
+"text": "您为什么不找一位律师咨询一下？",
 "path": "zh/06366.mp3",
 "lang": "zh"
 },
 {
-"text": "No puedo justificar te.",
+"text": "No puedo justificarte.",
 "path": "es/05667.mp3",
 "lang": "es"
 },
@@ -69016,13 +69071,13 @@
 "lang": "zh"
 },
 {
-"text": "El damandado insultó al demandante.",
-"path": "es/05668.mp3",
+"text": "El demandado insultó al demandante.",
+"path": "es/09313.mp3",
 "lang": "es"
 },
 {
 "text": "被告辱骂原告。",
-"path": "zh/06368.mp3",
+"path": "zh/09964.mp3",
 "lang": "zh"
 },
 {
@@ -69031,8 +69086,23 @@
 "lang": "zh"
 },
 {
+"text": "pena de muerte",
+"path": "es/09314.mp3",
+"lang": "es"
+},
+{
+"text": "死刑",
+"path": "zh/09965.mp3",
+"lang": "zh"
+},
+{
+"text": "citación",
+"path": "es/09315.mp3",
+"lang": "es"
+},
+{
 "text": "传票",
-"path": "zh/06370.mp3",
+"path": "zh/09966.mp3",
 "lang": "zh"
 },
 {
@@ -69061,6 +69131,16 @@
 "lang": "zh"
 },
 {
+"text": "suspensión de ejecución",
+"path": "es/09316.mp3",
+"lang": "es"
+},
+{
+"text": "缓期执行",
+"path": "zh/09967.mp3",
+"lang": "zh"
+},
+{
 "text": "arresto",
 "path": "es/05671.mp3",
 "lang": "es"
@@ -69071,23 +69151,33 @@
 "lang": "zh"
 },
 {
-"text": "indulto",
-"path": "es/05672.mp3",
+"text": "suspensión de la condena",
+"path": "es/09317.mp3",
 "lang": "es"
 },
 {
 "text": "缓刑",
-"path": "zh/06375.mp3",
+"path": "zh/09968.mp3",
 "lang": "zh"
 },
 {
-"text": "habitual",
-"path": "es/05673.mp3",
+"text": "criminal habitual",
+"path": "es/09318.mp3",
 "lang": "es"
 },
 {
-"text": "惯犯 criminal",
-"path": "zh/06376.mp3",
+"text": "惯犯",
+"path": "zh/09969.mp3",
+"lang": "zh"
+},
+{
+"text": "la defensa propia",
+"path": "es/09319.mp3",
+"lang": "es"
+},
+{
+"text": "正当防卫",
+"path": "zh/09970.mp3",
 "lang": "zh"
 },
 {
@@ -69191,17 +69281,22 @@
 "lang": "zh"
 },
 {
+"text": "La alegría de la victoria nos compensó en gran parte de los sacrificios que nos habían costado.",
+"path": "es/09320.mp3",
+"lang": "es"
+},
+{
 "text": "胜利的喜悦在很大的程度上弥补了我们付出的代价。",
-"path": "zh/06386.mp3",
+"path": "zh/09971.mp3",
 "lang": "zh"
 },
 {
-"text": "Ben reduce el veredicto de Juliet.",
+"text": "Ben, reduce el veredicto de Juliet.",
 "path": "es/05685.mp3",
 "lang": "es"
 },
 {
-"text": "本减轻了朱丽叶的判决。",
+"text": "本，请减轻对朱丽叶的判决。",
 "path": "zh/06387.mp3",
 "lang": "zh"
 },
@@ -69226,6 +69321,16 @@
 "lang": "zh"
 },
 {
+"text": "procedimiento judicial",
+"path": "es/09321.mp3",
+"lang": "es"
+},
+{
+"text": "诉讼程序",
+"path": "zh/09972.mp3",
+"lang": "zh"
+},
+{
 "text": "interrogatorio",
 "path": "es/05688.mp3",
 "lang": "es"
@@ -69233,16 +69338,6 @@
 {
 "text": "审问",
 "path": "zh/06390.mp3",
-"lang": "zh"
-},
-{
-"text": "audición",
-"path": "es/05689.mp3",
-"lang": "es"
-},
-{
-"text": "听证",
-"path": "zh/06391.mp3",
 "lang": "zh"
 },
 {
@@ -69256,13 +69351,13 @@
 "lang": "zh"
 },
 {
-"text": "judicial",
-"path": "es/05691.mp3",
+"text": "caso judicial",
+"path": "es/09322.mp3",
 "lang": "es"
 },
 {
-"text": "案件 caso",
-"path": "zh/06393.mp3",
+"text": "案件",
+"path": "zh/09973.mp3",
 "lang": "zh"
 },
 {
@@ -69273,6 +69368,26 @@
 {
 "text": "证人",
 "path": "zh/06394.mp3",
+"lang": "zh"
+},
+{
+"text": "banco del acusado",
+"path": "es/09323.mp3",
+"lang": "es"
+},
+{
+"text": "被告席",
+"path": "zh/09974.mp3",
+"lang": "zh"
+},
+{
+"text": "error de juicio",
+"path": "es/09324.mp3",
+"lang": "es"
+},
+{
+"text": "误判",
+"path": "zh/09975.mp3",
 "lang": "zh"
 },
 {
@@ -69288,6 +69403,26 @@
 {
 "text": "驳回",
 "path": "zh/06396.mp3",
+"lang": "zh"
+},
+{
+"text": "no consumado",
+"path": "es/09325.mp3",
+"lang": "es"
+},
+{
+"text": "未实现",
+"path": "zh/09976.mp3",
+"lang": "zh"
+},
+{
+"text": "práctica ilícita",
+"path": "es/09326.mp3",
+"lang": "es"
+},
+{
+"text": "不法行为",
+"path": "zh/09977.mp3",
 "lang": "zh"
 },
 {
@@ -69311,23 +69446,33 @@
 "lang": "zh"
 },
 {
-"text": "subterfugio",
-"path": "es/05696.mp3",
+"text": "excusa",
+"path": "es/09327.mp3",
 "lang": "es"
 },
 {
 "text": "推诿",
-"path": "zh/06399.mp3",
+"path": "zh/09978.mp3",
 "lang": "zh"
 },
 {
-"text": "corrupto",
-"path": "es/05697.mp3",
+"text": "soborno",
+"path": "es/09328.mp3",
 "lang": "es"
 },
 {
 "text": "贿赂",
-"path": "zh/06400.mp3",
+"path": "zh/09979.mp3",
+"lang": "zh"
+},
+{
+"text": "incumplimiento de un contrato",
+"path": "es/09329.mp3",
+"lang": "es"
+},
+{
+"text": "违约",
+"path": "zh/09980.mp3",
 "lang": "zh"
 },
 {
@@ -69386,7 +69531,7 @@
 "lang": "es"
 },
 {
-"text": "法官要求被告证人出庭。",
+"text": "法官要求控方证人出庭。",
 "path": "zh/06407.mp3",
 "lang": "zh"
 },
@@ -69436,7 +69581,7 @@
 "lang": "es"
 },
 {
-"text": "被逮捕者对自己的罪行供认不讳。",
+"text": "被捕者坦率地说自己是无罪的。",
 "path": "zh/06412.mp3",
 "lang": "zh"
 },

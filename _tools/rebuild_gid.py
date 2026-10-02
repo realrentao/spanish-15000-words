@@ -2603,7 +2603,87 @@ G39 = {
  },
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39}
+G40 = {
+ "name": "法院",
+ "raw": "_tools/parte40_raw.txt",
+ "typo": {
+   "de-clarar": "declarar",               # 断行
+   "supe-rior": "superior",               # 断行
+   "aplaza-miento": "aplazamiento",       # 断行
+   "sospe-choso": "sospechoso",           # 断行
+   "compare-cencia": "comparecencia",     # 断行
+   "testi-monio": "testimonio",           # 断行
+   "acusa-ción": "acusación",             # 断行
+ },
+ # (中文, clean_es 后的西语) -> 正确西语
+ "fix": {
+   # ---- Sec1 法院
+   ("少年法庭", "tutelar de menores"): "tribunal de menores",  # 漏了 tribunal，tutelar 单独不成词
+   # ---- Sec2 法院的各种判决
+   ("传票", "asignación"): "citación",    # asignación=分配/指派；传票=citación
+   ("缓刑", "indulto"): "suspensión de la condena",  # indulto=赦免；缓刑=suspensión de la condena
+   # ---- Sec3 官司诉讼
+   ("听证", "audición"): "audiencia",      # audición=听力/试听；听证会=audiencia
+   ("诉讼程序", "procedimiento de la fiscalía"): "procedimiento judicial",  # 检察院≠诉讼程序
+   ("推诿", "subterfugio"): "excusa",      # subterfugio=诡计/托辞；推诿=excusa
+   ("贿赂", "corrupto"): "soborno",        # corrupto=腐败的(形容词)；贿赂=soborno
+   ("未实现", "no realizado"): "no consumado",  # 未遂（犯罪）=no consumado
+   ("违约", "romper un contrato"): "incumplimiento de un contrato",  # 违约是名词
+ },
+ "pos": {
+   # ---- Sec1（tribunal 阳性；文案未标词性的短语留空）
+   ("法院", "tribunal"): "n.m.",
+   ("原告", "demandante"): "n.m.",        # un/una demandante，文案只标 n.
+   ("刑事法庭", "tribunal penal"): "",
+   ("高级法院", "tribunal superior"): "",
+   ("仲裁法庭", "tribunal de arbitraje"): "",
+   ("少年法庭", "tribunal de menores"): "",
+   ("军事法庭", "consejo de guerra"): "",
+   # ---- Sec2
+   ("死刑", "pena de muerte"): "",
+   ("缓期执行", "suspensión de ejecución"): "",
+   ("缓刑", "suspensión de la condena"): "",
+   ("惯犯", "criminal habitual"): "n.m.",
+   ("正当防卫", "la defensa propia"): "",
+   # ---- Sec3
+   ("诉讼程序", "procedimiento judicial"): "",
+   ("被告席", "banco del acusado"): "",
+   ("误判", "error de juicio"): "",
+   ("未实现", "no consumado"): "",
+   ("不法行为", "práctica ilícita"): "",
+   ("违约", "incumplimiento de un contrato"): "",
+   ("缓期执行", "suspensión de ejecución"): "",
+   ("案件", "caso judicial"): "n.m.",       # caso 阳性
+ },
+ "subs": [
+   # Sec1 例6：justificar te 被 OCR 拆开，反身代词须合写
+   ("No puedo justificar te", "No puedo justificarte"),
+   # Sec1 例7：damandado -> demandado（i/e 混淆）
+   ("El damandado insultó al demandante", "El demandado insultó al demandante"),
+   # Sec2 例4：主谓不一致——sacrificios 是复数，había 应为 habían
+   ("los sacrificios que nos había costado", "los sacrificios que nos habían costado"),
+   # Sec2 例5：补出请求语气
+   ("Ben reduce el veredicto de Juliet",
+    "Ben, reduce el veredicto de Juliet"),
+ ],
+ "zh_subs": [
+   # Sec3 例6：西语是「他说自己无罪」，中文却写成「对自己的罪行供认不讳」，意思完全相反
+   ("被逮捕者对自己的罪行供认不讳。",
+    "被捕者坦率地说自己是无罪的。"),
+   # Sec1 例5：voseo（consultás）用「你」不够礼貌，西语语境是「您」
+   ("你为什么不找一个律师咨询？", "您为什么不找一位律师咨询一下？"),
+   # Sec2 例5：中文「本减轻了」把 Ben 当姓氏，实为主语人名
+   ("本减轻了朱丽叶的判决。", "本，请减轻对朱丽叶的判决。"),
+   # Sec3 例1：testigo de la acusación=控方证人，中文误作「被告证人」（方向相反）
+   ("法官要求被告证人出庭。", "法官要求控方证人出庭。"),
+ ],
+ "CN_FIX": {
+   # Sec1 词汇：justificar=为…辩解/证明…正当，不是「证实」
+   "证实": "证明…有理由",
+ },
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
