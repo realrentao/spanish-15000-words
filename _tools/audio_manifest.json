@@ -48761,6 +48761,16 @@
 "lang": "zh"
 },
 {
+"text": "derechos de autor",
+"path": "es/08499.mp3",
+"lang": "es"
+},
+{
+"text": "版权",
+"path": "zh/09150.mp3",
+"lang": "zh"
+},
+{
 "text": "排版",
 "path": "zh/05202.mp3",
 "lang": "zh"
@@ -48771,13 +48781,13 @@
 "lang": "es"
 },
 {
-"text": "corrector",
-"path": "es/04697.mp3",
+"text": "corrector de pruebas",
+"path": "es/08500.mp3",
 "lang": "es"
 },
 {
 "text": "校对员",
-"path": "zh/05203.mp3",
+"path": "zh/09151.mp3",
 "lang": "zh"
 },
 {
@@ -48798,16 +48808,6 @@
 {
 "text": "记者",
 "path": "zh/05205.mp3",
-"lang": "zh"
-},
-{
-"text": "prensa",
-"path": "es/04700.mp3",
-"lang": "es"
-},
-{
-"text": "报纸",
-"path": "zh/05206.mp3",
 "lang": "zh"
 },
 {
@@ -48846,13 +48846,13 @@
 "lang": "zh"
 },
 {
-"text": "La revista New York generalunente no publican novelas.",
-"path": "es/04705.mp3",
+"text": "La revista New York generalmente no publica novelas.",
+"path": "es/08501.mp3",
 "lang": "es"
 },
 {
 "text": "纽约杂志一般不刊登小说。",
-"path": "zh/05210.mp3",
+"path": "zh/09152.mp3",
 "lang": "zh"
 },
 {
@@ -48871,23 +48871,48 @@
 "lang": "es"
 },
 {
-"text": "如果把录音带交给媒体 ,政府会不相信。",
+"text": "如果把录音带交给媒体，政府会不相信。",
 "path": "zh/05212.mp3",
 "lang": "zh"
 },
 {
-"text": "diaria",
-"path": "es/04708.mp3",
+"text": "periódicos de la mañana",
+"path": "es/08502.mp3",
 "lang": "es"
 },
 {
-"text": "日报",
-"path": "zh/05213.mp3",
+"text": "晨报",
+"path": "zh/09153.mp3",
 "lang": "zh"
 },
 {
-"text": "新闻",
-"path": "zh/05214.mp3",
+"text": "periódico de la tarde",
+"path": "es/08503.mp3",
+"lang": "es"
+},
+{
+"text": "晚报",
+"path": "zh/09154.mp3",
+"lang": "zh"
+},
+{
+"text": "publicado previamente",
+"path": "es/08504.mp3",
+"lang": "es"
+},
+{
+"text": "提前出版的",
+"path": "zh/09155.mp3",
+"lang": "zh"
+},
+{
+"text": "medio de comunicación",
+"path": "es/08505.mp3",
+"lang": "es"
+},
+{
+"text": "新闻媒体",
+"path": "zh/09156.mp3",
 "lang": "zh"
 },
 {
@@ -48901,13 +48926,23 @@
 "lang": "zh"
 },
 {
-"text": "abstracto",
-"path": "es/04710.mp3",
+"text": "corresponsal permanente",
+"path": "es/08506.mp3",
 "lang": "es"
 },
 {
-"text": "文摘",
-"path": "zh/05216.mp3",
+"text": "常驻记者",
+"path": "zh/09157.mp3",
+"lang": "zh"
+},
+{
+"text": "corresponsal especial",
+"path": "es/08507.mp3",
+"lang": "es"
+},
+{
+"text": "特派记者",
+"path": "zh/09158.mp3",
 "lang": "zh"
 },
 {
@@ -48921,13 +48956,43 @@
 "lang": "zh"
 },
 {
-"text": "bimensual",
-"path": "es/04712.mp3",
+"text": "revista semanal",
+"path": "es/08508.mp3",
+"lang": "es"
+},
+{
+"text": "周刊",
+"path": "zh/09159.mp3",
+"lang": "zh"
+},
+{
+"text": "quincenal",
+"path": "es/08509.mp3",
 "lang": "es"
 },
 {
 "text": "半月的",
-"path": "zh/05218.mp3",
+"path": "zh/09160.mp3",
+"lang": "zh"
+},
+{
+"text": "revista quincenal",
+"path": "es/08510.mp3",
+"lang": "es"
+},
+{
+"text": "半月刊",
+"path": "zh/09161.mp3",
+"lang": "zh"
+},
+{
+"text": "publicación mensual",
+"path": "es/08511.mp3",
+"lang": "es"
+},
+{
+"text": "月刊",
+"path": "zh/09162.mp3",
 "lang": "zh"
 },
 {
@@ -48938,6 +49003,26 @@
 {
 "text": "季的",
 "path": "zh/05219.mp3",
+"lang": "zh"
+},
+{
+"text": "revista trimestral",
+"path": "es/08512.mp3",
+"lang": "es"
+},
+{
+"text": "季刊",
+"path": "zh/09163.mp3",
+"lang": "zh"
+},
+{
+"text": "revista anual",
+"path": "es/08513.mp3",
+"lang": "es"
+},
+{
+"text": "年刊",
+"path": "zh/09164.mp3",
 "lang": "zh"
 },
 {
@@ -48991,7 +49076,7 @@
 "lang": "zh"
 },
 {
-"text": "Por cierto, .nunca te han planteado ejercer de comentarista en TV?",
+"text": "¿Por cierto, nunca te han planteado ejercer de comentarista en TV?",
 "path": "es/04718.mp3",
 "lang": "es"
 },
@@ -54266,6 +54351,11 @@
 "lang": "zh"
 },
 {
+"text": "prensa",
+"path": "es/04700.mp3",
+"lang": "es"
+},
+{
 "text": "新闻媒体，新闻界",
 "path": "zh/05784.mp3",
 "lang": "zh"
@@ -58758,6 +58848,11 @@
 {
 "text": "报道",
 "path": "zh/06246.mp3",
+"lang": "zh"
+},
+{
+"text": "日报",
+"path": "zh/05213.mp3",
 "lang": "zh"
 },
 {

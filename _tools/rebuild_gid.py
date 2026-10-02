@@ -1377,7 +1377,50 @@ G29 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29}
+G30 = {
+ "name": "出版刊物",
+ "raw": "_tools/parte30_raw.txt",
+ # clean_es 之后的 OCR 残损 -> 正确写法
+ "typo": {
+   "generalunente": "generalmente",       # ge-neralunente 断行后残留
+ },
+ "fix": {
+   # Sec1 出版物
+   ("版权", "propiedad literaria"): "derechos de autor",   # 版权=著作权
+   ("校对员", "corrector"): "corrector de pruebas",       # 校对员需补「校样」
+   ("定期地", "periódico"): "periódicamente",             # 定期地（副词）不是 periódico（形）
+   ("报纸", "prensa"): "periódico",                       # prensa=新闻界/报刊业
+   # Sec2 报纸及杂志类型
+   ("日报", "diaria"): "diario",                          # diaria=每日的（形）
+   ("提前出版的", "publicado antes"): "publicado previamente",
+   ("新闻", "novedad"): "noticia",                        # novedad=新奇/新鲜事
+   ("新闻媒体", "estilo periodístico"): "medio de comunicación",
+   ("文摘", "abstracto"): "resumen",                      # abstracto=摘要(英式)
+   ("半月的", "bimensual"): "quincenal",                  # bimensual=两月一次
+   ("半月刊", "revista bimensual"): "revista quincenal",
+ },
+ "pos": {
+   # Sec1
+   ("校对员", "corrector de pruebas"): "n.m.",
+   ("记者", "periodista"): "n.m.",
+   ("报纸", "periódico"): "n.m.",                          # 文案标 n.f.，periódico 是阳性
+   # Sec2
+   ("日报", "diario"): "n.m.",
+   ("评论员", "comentarista"): "n.m.",
+   ("半月的", "quincenal"): "adj.",
+ },
+ "subs": [
+   # Sec1 主谓一致：La revista（单数）… no publican -> no publica
+   ("La revista New York generalmente no publican novelas",
+    "La revista New York generalmente no publica novelas"),
+ ],
+ "zh_subs": [
+   # Sec1 中文「媒体 ,政府」逗号前多了空格
+   ("如果把录音带交给媒体 ,政府会不相信。", "如果把录音带交给媒体，政府会不相信。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
