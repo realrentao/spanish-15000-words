@@ -11016,8 +11016,8 @@
 "lang": "zh"
 },
 {
-"text": "El amor es paciente, cuidadoso; amor ignora odio",
-"path": "es/02642.mp3",
+"text": "El amor es paciente y cuidadoso; el amor ignora el odio",
+"path": "es/07096.mp3",
 "lang": "es"
 },
 {
@@ -11026,8 +11026,8 @@
 "lang": "zh"
 },
 {
-"text": "Tomar un viaje en bicicleta o en coche tiene sus comodidades, pero puede ser preferible caminar",
-"path": "es/02643.mp3",
+"text": "Ir en bicicleta o en coche tiene sus comodidades, pero puede ser preferible caminar",
+"path": "es/07093.mp3",
 "lang": "es"
 },
 {
@@ -11211,8 +11211,8 @@
 "lang": "zh"
 },
 {
-"text": "amigos",
-"path": "es/02661.mp3",
+"text": "amigable",
+"path": "es/03450.mp3",
 "lang": "es"
 },
 {
@@ -11236,8 +11236,8 @@
 "lang": "zh"
 },
 {
-"text": "Eres tan dogmático que no hay nadie que quiere hacerse amigos contigo",
-"path": "es/02664.mp3",
+"text": "Eres tan dogmático que no hay nadie que quiere hacer amistad contigo",
+"path": "es/07094.mp3",
 "lang": "es"
 },
 {
@@ -11256,8 +11256,8 @@
 "lang": "zh"
 },
 {
-"text": "La busca desesperante y no la encuentra",
-"path": "es/02666.mp3",
+"text": "Busca desesperadamente y no la encuentra",
+"path": "es/07095.mp3",
 "lang": "es"
 },
 {
@@ -11306,8 +11306,8 @@
 "lang": "zh"
 },
 {
-"text": "Podemos apreciar el amor y despreciará al amante",
-"path": "es/07084.mp3",
+"text": "Podemos apreciar el amor y despreciar al amante",
+"path": "es/07092.mp3",
 "lang": "es"
 },
 {
@@ -25904,11 +25904,6 @@
 "text": "奉献",
 "path": "zh/03755.mp3",
 "lang": "zh"
-},
-{
-"text": "amigable",
-"path": "es/03450.mp3",
-"lang": "es"
 },
 {
 "text": "亲切的",
