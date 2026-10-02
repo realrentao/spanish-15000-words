@@ -30411,13 +30411,33 @@
 "lang": "zh"
 },
 {
-"text": "desplazamiento",
-"path": "es/03645.mp3",
+"text": "trabajo fuera de las horas legales",
+"path": "es/07843.mp3",
+"lang": "es"
+},
+{
+"text": "加班",
+"path": "zh/08494.mp3",
+"lang": "zh"
+},
+{
+"text": "turno",
+"path": "es/07844.mp3",
 "lang": "es"
 },
 {
 "text": "轮班",
-"path": "zh/03998.mp3",
+"path": "zh/08495.mp3",
+"lang": "zh"
+},
+{
+"text": "tabla de turnos",
+"path": "es/07845.mp3",
+"lang": "es"
+},
+{
+"text": "轮班表",
+"path": "zh/08496.mp3",
 "lang": "zh"
 },
 {
@@ -30431,23 +30451,43 @@
 "lang": "zh"
 },
 {
-"text": "日班 turno de",
-"path": "zh/04000.mp3",
+"text": "turno de día",
+"path": "es/07846.mp3",
+"lang": "es"
+},
+{
+"text": "日班",
+"path": "zh/08497.mp3",
 "lang": "zh"
 },
 {
-"text": "晚班 turno de",
-"path": "zh/04001.mp3",
+"text": "turno de noche",
+"path": "es/07847.mp3",
+"lang": "es"
+},
+{
+"text": "晚班",
+"path": "zh/08498.mp3",
 "lang": "zh"
 },
 {
-"text": "vacación",
-"path": "es/03647.mp3",
+"text": "vacaciones",
+"path": "es/07848.mp3",
 "lang": "es"
 },
 {
 "text": "假期",
-"path": "zh/04002.mp3",
+"path": "zh/08499.mp3",
+"lang": "zh"
+},
+{
+"text": "licencia por enfermedad",
+"path": "es/07849.mp3",
+"lang": "es"
+},
+{
+"text": "病假",
+"path": "zh/08500.mp3",
 "lang": "zh"
 },
 {
@@ -30506,33 +30546,33 @@
 "lang": "zh"
 },
 {
-"text": "Los organizadores asumirán ninguna responsabilidad legal.",
-"path": "es/03653.mp3",
+"text": "Los organizadores no asumirán ninguna responsabilidad legal.",
+"path": "es/07850.mp3",
 "lang": "es"
 },
 {
 "text": "组织者对此不负有任何法律责任。",
-"path": "zh/04009.mp3",
+"path": "zh/08501.mp3",
 "lang": "zh"
 },
 {
-"text": "En el amor la felicidad y el dolor aparecen de forma alterna.",
-"path": "es/03654.mp3",
+"text": "En el amor la felicidad y el dolor aparecen de forma alternada.",
+"path": "es/07851.mp3",
 "lang": "es"
 },
 {
 "text": "爱情中的欢乐和痛苦是交替出现的。",
-"path": "zh/04010.mp3",
+"path": "zh/08502.mp3",
 "lang": "zh"
 },
 {
-"text": "Es libre de optar entre tres alterna tivas.",
-"path": "es/03655.mp3",
+"text": "Es libre de elegir entre tres alternativas.",
+"path": "es/07852.mp3",
 "lang": "es"
 },
 {
 "text": "有三种可能供选择。",
-"path": "zh/04011.mp3",
+"path": "zh/08503.mp3",
 "lang": "zh"
 },
 {
@@ -30546,23 +30586,23 @@
 "lang": "zh"
 },
 {
-"text": "No puedo atendarle hoy; ando muy ocupado.",
-"path": "es/03657.mp3",
+"text": "No puedo atenderle hoy; ando muy ocupado.",
+"path": "es/07853.mp3",
 "lang": "es"
 },
 {
 "text": "今天我不能接待您，我很忙。",
-"path": "zh/04013.mp3",
+"path": "zh/08504.mp3",
 "lang": "zh"
 },
 {
-"text": "No creo que tenga una agenda muy ocupada.",
-"path": "es/03658.mp3",
+"text": "No creo que yo tenga una agenda muy ocupada.",
+"path": "es/07854.mp3",
 "lang": "es"
 },
 {
 "text": "我不相信你的日程安排这么满。",
-"path": "zh/04014.mp3",
+"path": "zh/08505.mp3",
 "lang": "zh"
 },
 {
@@ -30576,6 +30616,16 @@
 "lang": "zh"
 },
 {
+"text": "cada vez más",
+"path": "es/07855.mp3",
+"lang": "es"
+},
+{
+"text": "越来越多地",
+"path": "zh/08506.mp3",
+"lang": "zh"
+},
+{
 "text": "mantener",
 "path": "es/03659.mp3",
 "lang": "es"
@@ -30586,13 +30636,23 @@
 "lang": "zh"
 },
 {
-"text": "tratar",
-"path": "es/03660.mp3",
+"text": "hacer esfuerzos",
+"path": "es/07856.mp3",
+"lang": "es"
+},
+{
+"text": "努力",
+"path": "zh/08507.mp3",
+"lang": "zh"
+},
+{
+"text": "tratar de",
+"path": "es/07857.mp3",
 "lang": "es"
 },
 {
 "text": "尝试",
-"path": "zh/04018.mp3",
+"path": "zh/08508.mp3",
 "lang": "zh"
 },
 {
@@ -30631,18 +30691,23 @@
 "lang": "zh"
 },
 {
-"text": "avanzar",
-"path": "es/03503.mp3",
+"text": "avance",
+"path": "es/07858.mp3",
 "lang": "es"
 },
 {
 "text": "进步，进展",
-"path": "zh/04022.mp3",
+"path": "zh/08509.mp3",
 "lang": "zh"
 },
 {
-"text": "幻觉",
-"path": "zh/04023.mp3",
+"text": "aumento salarial",
+"path": "es/07859.mp3",
+"lang": "es"
+},
+{
+"text": "工资增加额",
+"path": "zh/08510.mp3",
 "lang": "zh"
 },
 {
@@ -30653,11 +30718,6 @@
 {
 "text": "谦虚，谦逊",
 "path": "zh/04024.mp3",
-"lang": "zh"
-},
-{
-"text": "增进， 促进",
-"path": "zh/04025.mp3",
 "lang": "zh"
 },
 {
@@ -30676,18 +30736,18 @@
 "lang": "es"
 },
 {
-"text": "我想,无论是什么年龄的人,都保有一份童真,对未来的幻想,对大自然的热爱。",
+"text": "我想，无论是什么年龄的人，都保有一份童真，对未来的幻想，对大自然的热爱。",
 "path": "zh/04027.mp3",
 "lang": "zh"
 },
 {
-"text": "Le han promovido el grado de capitán.",
-"path": "es/03668.mp3",
+"text": "Lo han promovido a capitán.",
+"path": "es/07860.mp3",
 "lang": "es"
 },
 {
 "text": "他们把他提升为上尉。",
-"path": "zh/04028.mp3",
+"path": "zh/08511.mp3",
 "lang": "zh"
 },
 {
@@ -30748,6 +30808,16 @@
 {
 "text": "团队",
 "path": "zh/04035.mp3",
+"lang": "zh"
+},
+{
+"text": "contar con",
+"path": "es/07861.mp3",
+"lang": "es"
+},
+{
+"text": "依赖",
+"path": "zh/08512.mp3",
 "lang": "zh"
 },
 {
@@ -30836,7 +30906,7 @@
 "lang": "zh"
 },
 {
-"text": "El equipo de ventas de bruce no pudo resistir.",
+"text": "El equipo de ventas de Bruce no pudo resistir.",
 "path": "es/03682.mp3",
 "lang": "es"
 },
@@ -30846,13 +30916,23 @@
 "lang": "zh"
 },
 {
-"text": "Nikita descubre que esta vez, la única persona que realmente puede confiar en siempre está engañandola. Ella estaba muy triste.",
-"path": "es/03683.mp3",
+"text": "Nikita descubre que esta vez, la única persona en la que realmente puede confiar siempre está engañándola. Ella estaba muy triste.",
+"path": "es/07862.mp3",
 "lang": "es"
 },
 {
 "text": "尼基塔这才发现，她自认为这世界上唯一可以相信的人竟然一直在欺骗她。这令她伤心欲绝。",
-"path": "zh/04045.mp3",
+"path": "zh/08513.mp3",
+"lang": "zh"
+},
+{
+"text": "carga de trabajo",
+"path": "es/07863.mp3",
+"lang": "es"
+},
+{
+"text": "工作量",
+"path": "zh/08514.mp3",
 "lang": "zh"
 },
 {
@@ -30863,6 +30943,16 @@
 {
 "text": "抱怨",
 "path": "zh/01256.mp3",
+"lang": "zh"
+},
+{
+"text": "protestar",
+"path": "es/05307.mp3",
+"lang": "es"
+},
+{
+"text": "抱怨",
+"path": "zh/05924.mp3",
 "lang": "zh"
 },
 {
@@ -30941,6 +31031,16 @@
 "lang": "zh"
 },
 {
+"text": "número considerable",
+"path": "es/07864.mp3",
+"lang": "es"
+},
+{
+"text": "数目可观",
+"path": "zh/08515.mp3",
+"lang": "zh"
+},
+{
 "text": "vecino",
 "path": "es/03690.mp3",
 "lang": "es"
@@ -30991,13 +31091,13 @@
 "lang": "zh"
 },
 {
-"text": "Tenemos petróleo en.",
-"path": "es/03695.mp3",
+"text": "Tenemos petróleo en abundancia.",
+"path": "es/07865.mp3",
 "lang": "es"
 },
 {
 "text": "我们有丰富的石油。",
-"path": "zh/04058.mp3",
+"path": "zh/08516.mp3",
 "lang": "zh"
 },
 {
@@ -31026,7 +31126,7 @@
 "lang": "es"
 },
 {
-"text": "他偷偷地把工作让给以前一个同事去做。",
+"text": "他偷偷地把这份工作交给了一位同事去做。",
 "path": "zh/04061.mp3",
 "lang": "zh"
 },
@@ -31051,13 +31151,13 @@
 "lang": "zh"
 },
 {
-"text": "forzar",
-"path": "es/03700.mp3",
+"text": "obligar",
+"path": "es/05598.mp3",
 "lang": "es"
 },
 {
 "text": "强迫",
-"path": "zh/04063.mp3",
+"path": "zh/06286.mp3",
 "lang": "zh"
 },
 {
@@ -31068,6 +31168,16 @@
 {
 "text": "主动性",
 "path": "zh/04064.mp3",
+"lang": "zh"
+},
+{
+"text": "metódico",
+"path": "es/07866.mp3",
+"lang": "es"
+},
+{
+"text": "有条理的",
+"path": "zh/08517.mp3",
 "lang": "zh"
 },
 {
@@ -31121,18 +31231,13 @@
 "lang": "zh"
 },
 {
-"text": "exaltar",
-"path": "es/02581.mp3",
-"lang": "es"
-},
-{
-"text": "celebrar",
-"path": "es/03705.mp3",
+"text": "alabar",
+"path": "es/07867.mp3",
 "lang": "es"
 },
 {
 "text": "赞美",
-"path": "zh/04069.mp3",
+"path": "zh/08518.mp3",
 "lang": "zh"
 },
 {
@@ -31143,6 +31248,16 @@
 {
 "text": "损失",
 "path": "zh/01377.mp3",
+"lang": "zh"
+},
+{
+"text": "a lo mejor",
+"path": "es/07868.mp3",
+"lang": "es"
+},
+{
+"text": "可能",
+"path": "zh/08519.mp3",
 "lang": "zh"
 },
 {
@@ -31171,7 +31286,7 @@
 "lang": "es"
 },
 {
-"text": "使均衡，使匀称",
+"text": "提供",
 "path": "zh/04072.mp3",
 "lang": "zh"
 },
@@ -31186,23 +31301,23 @@
 "lang": "zh"
 },
 {
-"text": "En la biblioteca hemos dejado nuestras huellas que significan nuestro espíritu de estudio trabajador y perseverante.",
-"path": "es/03711.mp3",
+"text": "En la biblioteca hemos dejado nuestras huellas que significan nuestro espíritu de trabajo y perseverancia.",
+"path": "es/07869.mp3",
 "lang": "es"
 },
 {
 "text": "图书馆留下了我们刻苦学习的精神和坚持不懈的脚印。",
-"path": "zh/04074.mp3",
+"path": "zh/08520.mp3",
 "lang": "zh"
 },
 {
-"text": "Con la explosión demográfica se crece cada vez la presión demográfica.",
-"path": "es/03712.mp3",
+"text": "Con la explosión demográfica crece cada vez más la presión demográfica.",
+"path": "es/07870.mp3",
 "lang": "es"
 },
 {
 "text": "由于人口爆炸，人口压力日益增大。",
-"path": "zh/04075.mp3",
+"path": "zh/08521.mp3",
 "lang": "zh"
 },
 {
@@ -31228,11 +31343,6 @@
 {
 "text": "intercambio",
 "path": "es/03714.mp3",
-"lang": "es"
-},
-{
-"text": "competido",
-"path": "es/02784.mp3",
 "lang": "es"
 },
 {
@@ -31336,23 +31446,33 @@
 "lang": "zh"
 },
 {
-"text": "Competimos por el campeón.",
-"path": "es/03724.mp3",
+"text": "Eso te pone en un entorno de competencia constante.",
+"path": "es/07871.mp3",
+"lang": "es"
+},
+{
+"text": "你处于一个竞争不断的环境中。",
+"path": "zh/08522.mp3",
+"lang": "zh"
+},
+{
+"text": "Competimos por ser campeones.",
+"path": "es/07872.mp3",
 "lang": "es"
 },
 {
 "text": "我们为了夺冠而竞争。",
-"path": "zh/04088.mp3",
+"path": "zh/08523.mp3",
 "lang": "zh"
 },
 {
-"text": "Después de discutir dos horas hemos llegado a una conclusion.",
-"path": "es/03725.mp3",
+"text": "Después de discutir dos horas hemos llegado a una conclusión.",
+"path": "es/07873.mp3",
 "lang": "es"
 },
 {
 "text": "经过两小时的讨论，我们做出了决议。",
-"path": "zh/04089.mp3",
+"path": "zh/08524.mp3",
 "lang": "zh"
 },
 {
@@ -31376,7 +31496,7 @@
 "lang": "zh"
 },
 {
-"text": "Me recomienda que con-sidere bien el caso antes de tomar una decisión.",
+"text": "Me recomienda que considere bien el caso antes de tomar una decisión.",
 "path": "es/03728.mp3",
 "lang": "es"
 },
@@ -31421,6 +31541,26 @@
 "lang": "zh"
 },
 {
+"text": "asuntos de negocios",
+"path": "es/07874.mp3",
+"lang": "es"
+},
+{
+"text": "商务",
+"path": "zh/08525.mp3",
+"lang": "zh"
+},
+{
+"text": "viaje de negocios",
+"path": "es/07875.mp3",
+"lang": "es"
+},
+{
+"text": "出差",
+"path": "zh/08526.mp3",
+"lang": "zh"
+},
+{
 "text": "necesario",
 "path": "es/03733.mp3",
 "lang": "es"
@@ -31446,6 +31586,26 @@
 "lang": "zh"
 },
 {
+"text": "solicitar un reembolso",
+"path": "es/07876.mp3",
+"lang": "es"
+},
+{
+"text": "报销",
+"path": "zh/08527.mp3",
+"lang": "zh"
+},
+{
+"text": "informe de gastos",
+"path": "es/07877.mp3",
+"lang": "es"
+},
+{
+"text": "报销凭单",
+"path": "zh/08528.mp3",
+"lang": "zh"
+},
+{
 "text": "facturación",
 "path": "es/03735.mp3",
 "lang": "es"
@@ -31456,8 +31616,13 @@
 "lang": "zh"
 },
 {
+"text": "presivo",
+"path": "es/07878.mp3",
+"lang": "es"
+},
+{
 "text": "压力的",
-"path": "zh/04100.mp3",
+"path": "zh/08529.mp3",
 "lang": "zh"
 },
 {
@@ -31511,7 +31676,7 @@
 "lang": "zh"
 },
 {
-"text": "Poco después de la colisión, los cuatro oficiales de alto rango del titanic decidieron entonces, bajo la presión del dueño de la compañía Estrella Blanca del titanic, seguir navegando.",
+"text": "Poco después de la colisión, los cuatro oficiales de alto rango del Titanic decidieron entonces, bajo la presión del dueño de la compañía Estrella Blanca del Titanic, seguir navegando.",
 "path": "es/03740.mp3",
 "lang": "es"
 },
@@ -31548,6 +31713,46 @@
 {
 "text": "退休金",
 "path": "zh/04108.mp3",
+"lang": "zh"
+},
+{
+"text": "cuentas de pensión",
+"path": "es/07879.mp3",
+"lang": "es"
+},
+{
+"text": "退休金账户",
+"path": "zh/08530.mp3",
+"lang": "zh"
+},
+{
+"text": "tarjeta de jubilación",
+"path": "es/07880.mp3",
+"lang": "es"
+},
+{
+"text": "退休卡",
+"path": "zh/08531.mp3",
+"lang": "zh"
+},
+{
+"text": "edad de jubilación",
+"path": "es/07881.mp3",
+"lang": "es"
+},
+{
+"text": "退休年龄",
+"path": "zh/08532.mp3",
+"lang": "zh"
+},
+{
+"text": "sociedad envejecida",
+"path": "es/07882.mp3",
+"lang": "es"
+},
+{
+"text": "老龄化社会",
+"path": "zh/08533.mp3",
 "lang": "zh"
 },
 {
@@ -31606,7 +31811,7 @@
 "lang": "zh"
 },
 {
-"text": "Después de haber sido despedido hizo todo lo posible para buscar un nuevo trabajo, incluso matando a sus rivales.",
+"text": "Después de haber sido despedido, hizo todo lo posible para buscar un nuevo trabajo, incluso matando a sus rivales.",
 "path": "es/03749.mp3",
 "lang": "es"
 },
@@ -31636,13 +31841,13 @@
 "lang": "zh"
 },
 {
-"text": "Cometió un error grande y se despidió.",
-"path": "es/03752.mp3",
+"text": "Cometió un error grande y fue despedido.",
+"path": "es/07885.mp3",
 "lang": "es"
 },
 {
 "text": "她犯了个大错，然后被辞退了。",
-"path": "zh/04117.mp3",
+"path": "zh/08536.mp3",
 "lang": "zh"
 },
 {
@@ -53286,16 +53491,6 @@
 "lang": "zh"
 },
 {
-"text": "protestar",
-"path": "es/05307.mp3",
-"lang": "es"
-},
-{
-"text": "抗议",
-"path": "zh/05924.mp3",
-"lang": "zh"
-},
-{
 "text": "中断",
 "path": "zh/05925.mp3",
 "lang": "zh"
@@ -53409,6 +53604,11 @@
 "text": "义务",
 "path": "zh/05938.mp3",
 "lang": "zh"
+},
+{
+"text": "desplazamiento",
+"path": "es/03645.mp3",
+"lang": "es"
 },
 {
 "text": "游行",
@@ -56813,16 +57013,6 @@
 {
 "text": "保护",
 "path": "zh/06285.mp3",
-"lang": "zh"
-},
-{
-"text": "obligar",
-"path": "es/05598.mp3",
-"lang": "es"
-},
-{
-"text": "约束，束缚",
-"path": "zh/06286.mp3",
 "lang": "zh"
 },
 {

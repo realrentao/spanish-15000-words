@@ -445,6 +445,7 @@ class Builder:
                 w_out.append(row); stat[how]+=1
             for (raw_es,raw_cn,raw_pos) in rs["e"]:
                 cn=clean_cn(raw_cn); pos=norm_pos(raw_pos) if raw_pos else ""
+                if cn in self.CN_FIX: cn=self.CN_FIX[cn]
                 ces=clean_es(raw_es); ces=self.fix_es_typo(ces)
                 if (cn,ces) in self.ES_FIX: ces=self.ES_FIX[(cn,ces)]
                 elif cn in self.ES_FIX: ces=self.ES_FIX[cn]

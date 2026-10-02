@@ -650,7 +650,104 @@ G22 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22}
+G23 = {
+ "name": "职场百态",
+ "raw": "_tools/parte23_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "Roachrag": "organizadores",            # OCR 把 organizada 认成 Roachrag
+   "conclusion": "conclusión",              # 缺重音，clean 的 ñ 自愈救不了
+ },
+ "fix": {
+   # Sec1 上班
+   ("轮班", "desplazamiento"): "turno",
+   ("轮班表", "tabla de desplazamiento"): "tabla de turnos",
+   ("假期", "vacación"): "vacaciones",     # 假期（可数复数）=vacaciones
+   ("使疲倦的", "agotador"): "agotador",
+   # Sec2 升职
+   ("尝试", "tratar"): "tratar de",        # 尝试=tratar de；tratar 单用=对待
+   ("进步，进展", "avanzar"): "avance",    # 「进展」是名词
+   # Sec3 与同事相处
+   # Sec4 工作量
+   ("抱怨", "culpar"): "protestar",        # 第二条「抱怨」；culpar=指责
+   # Sec5 工作状态（强迫/表扬/赞美 义项错）
+   ("强迫", "forzar"): "obligar",           # forzar=强行夺取
+   ("表扬", "exaltar"): "elogiar",          # exaltar=颂扬/激昂
+   ("赞美", "celebrar"): "alabar",          # celebrar=庆祝
+   # Sec5 工作状态
+   ("坚持不懈", "perseverancia"): "perseverancia",
+   # Sec6 沟通与竞争
+   ("竞争的", "competido"): "competitivo", # competido=拥挤的/争用的
+   # Sec7 出差
+   ("出差", "viaje de negocio"): "viaje de negocios",   # 西语惯用复数
+   ("压力的", "presión"): "presivo",      # «形容词»不能用名词 presión
+   # Sec8 退休与离职
+   ("退休卡", "tarjeta del retiro"): "tarjeta de jubilación",
+ },
+ "pos": {
+   # 文案标错性别的，按西语实际词性
+   ("日班", "turno de día"): "n.m.",       # turno 阳性
+   ("晚班", "turno de noche"): "n.m.",
+   ("同事", "colega"): "n.m.",
+   ("竞争对手", "competidor"): "n.m.",
+   ("轮班", "turno"): "n.m.",
+   ("进步，进展", "avance"): "n.m.",
+   ("压力的", "presivo"): "adj.",
+   # 短语无词性 -> 清空
+   ("依赖", "contar con"): "",
+   ("参与", "tomar parte en"): "",
+   # 缩减 / 减少 语义上是及物
+   ("缩减", "reducir"): "v.t.",
+ },
+ "subs": [
+   # Sec1 上班（西语否定必须在动词前，原文漏 no）
+   ("Los organizadores asumirán ninguna responsabilidad legal",
+    "Los organizadores no asumirán ninguna responsabilidad legal"),
+   ("En el amor la felicidad y el dolor aparecen de forma alterna",
+    "En el amor la felicidad y el dolor aparecen de forma alternada"),
+   ("Es libre de optar entre tres alternativas",
+    "Es libre de elegir entre tres alternativas"),
+   ("No creo que tenga una agenda muy ocupada",
+    "No creo que yo tenga una agenda muy ocupada"),
+   # Sec2 升职
+   ("Le han promovido el grado de capitán",
+    "Lo han promovido a capitán"),
+   # Sec3 与同事相处
+   ("El equipo de ventas de bruce no pudo resistir",
+    "El equipo de ventas de Bruce no pudo resistir"),
+   ("la única persona que realmente puede confiar en siempre está engañándola",
+    "la única persona en la que realmente puede confiar siempre está engañándola"),
+   # Sec4 工作量
+   ("Tenemos petróleo en", "Tenemos petróleo en abundancia"),
+   # Sec5 工作状态
+   ("nuestro espíritu de estudio trabajador y perseverante",
+    "nuestro espíritu de trabajo y perseverancia"),
+   ("Con la explosión demográfica se crece cada vez la presión demográfica",
+    "Con la explosión demográfica crece cada vez más la presión demográfica"),
+   # Sec6 沟通与竞争
+   ("Eso te pone en un espacio de competencia constante",
+    "Eso te pone en un entorno de competencia constante"),
+   ("Competimos por el campeón", "Competimos por ser campeones"),
+   # Sec7 专有名词需大写（原文小写了 titanic）
+   ("Blanca del titanic", "Blanca del Titanic"),
+   ("del titanic", "del Titanic"),
+   # Sec8 退休与离职
+   ("Después de haber sido despedido hizo todo lo posible para buscar un nuevo trabajo",
+    "Después de haber sido despedido, hizo todo lo posible para buscar un nuevo trabajo"),
+   ("Cometió un error grande y se despidió", "Cometió un error grande y fue despedido"),
+ ],
+ "CN_FIX": {
+   # E 行中文（zh_subs 只作用于 S 句中文）
+   "幻觉": "幻想",                 # ilusión = 幻想
+   "使均衡，使匀称": "提供", # proporcionar = 提供
+ },
+ "zh_subs": [
+   # Sec4 中文多了「以前一个同事」，与西语 una colega 不符
+   ("他偷偷地把工作让给以前一个同事去做。", "他偷偷地把这份工作交给了一位同事去做。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
@@ -658,5 +755,5 @@ if __name__ == "__main__":
     b = Builder(gid, cfg["name"], cfg["raw"],
                 ES_FIX=cfg.get("fix"), ES_TYPO=cfg.get("typo"),
                 S_SUBS=cfg.get("subs"), POS_FIX=cfg.get("pos"),
-                S_ZH_SUBS=cfg.get("zh_subs"))
+                S_ZH_SUBS=cfg.get("zh_subs"), CN_FIX=cfg.get("CN_FIX"))
     b.run()
