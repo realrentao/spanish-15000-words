@@ -1290,7 +1290,94 @@ G28 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28}
+G29 = {
+ "name": "电影电视",
+ "raw": "_tools/parte29_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "Ca-ribe": "Caribe",
+   "sue.o": "sueño",
+   "pelí-cula": "película",
+   "detec-tives": "detectives",
+   "román-tica": "romántica",
+   "dupli-cada": "duplicada",
+   "electró-nica": "electrónica",
+   "expa.ol": "español",
+ },
+ "fix": {
+   # Sec1 看电影
+   # Sec2 电影工作人员
+   ("编剧", "cineasta"): "guionista",          # cineasta=电影导演；编剧=guionista
+   ("拍摄", "disparo"): "rodar",               # disparo=击发；拍摄=rodar
+   # Sec3 电影类型
+   # Sec4 看电视
+   # Sec5 听音乐
+   ("摇滚乐", "roca"): "rock",                 # roca=岩石
+   ("布鲁斯", "bruce"): "blues",               # bruce=布鲁斯（人名拼错）
+   ("爵士乐", "jazz"): "jazz",
+   ("音阶", "rango"): "escala",                # rango=范围
+   ("潮流", "tendencia"): "tendencia",
+ },
+   ("拍摄", "disparo"): "rodar",              # disparo=击发；拍摄摄影=rodar
+ "pos": {
+   ("拍摄", "rodar"): "v.t.",
+   # 文案标错性别的，按西语实际词性
+   ("主角", "protagonista"): "n.m.",
+   ("制片", "productor"): "n.m.",
+   ("配角", "papel secundario"): "",
+   ("美术指导", "dirección de arte"): "",
+   ("新闻短片", "noticia"): "n.f.",
+   ("说唱音乐", "rap"): "n.m.",
+   ("布鲁斯", "blues"): "n.m.",
+   ("爵士乐", "jazz"): "n.m.",
+   ("摇滚乐", "rock"): "n.m.",
+   # 短语无词性 -> 清空
+   ("电影明星", "estrella de cine"): "",
+   ("原版", "edición original"): "",
+   ("禁映影片", "vídeo prohibido"): "",
+   ("电影节", "festival de cine"): "",
+   ("乡村音乐", "música country"): "",
+   ("管弦乐", "música orquestal"): "",
+   ("电子音乐", "música electrónica"): "",
+   ("专题节目", "programas especiales"): "",
+   ("肥皂剧", "serie de televisión"): "",
+   ("知识竞赛", "concurso de conocimientos"): "",
+   ("彩色电视", "televisión de color"): "",
+ },
+ "subs": [
+   # Sec1 看电影
+   ("Francia siempre ha hecho hincapié en la integración de los inmigrantes, esta película siendo una buena prueba",
+    "Francia siempre ha hecho hincapié en la integración de los inmigrantes, y esta película es una buena prueba de ello"),
+   ("La película del camino francesa en la pantalla grande presenta un paisaje único y el patrimonio cultural de Francia",
+    "La película francesa del camino, en la pantalla grande, presenta un paisaje único y el patrimonio cultural de Francia"),
+   # Sec2 电影工作人员
+   ("Seguimos el tralajo del guión y un nuevo director es activamente buscado",
+    "Seguimos el trabajo del guión y se está buscando activamente a un nuevo director"),
+   ("El rodaje de algunas escenas es tan intenso que las lágrimas de la joven actriz se ejecutan de verdad",
+    "El rodaje de algunas escenas es tan intenso que las lágrimas de la joven actriz son reales"),
+   ("Es un actor famoso por el protagonista del Pirata de Caribe",
+    "Es un actor famoso por interpretar al protagonista de Piratas del Caribe"),
+   # Sec3 电影类型
+   ("Ha visto muchas película ética",
+    "Ha visto muchas películas éticas"),
+   ("Por lo general me gusta ver películas detectives, deportes como el tenis, baloncesto, tenis de mesa y bádminton",
+    "Por lo general me gusta ver películas de detectives; me gustan los deportes como el tenis, el baloncesto, el tenis de mesa y el bádminton"),
+   # Sec4 看电视
+   ("Tiempo de jugar es de 45 minutos para los programa especial de televisión en español",
+    "El tiempo de emisión es de 45 minutos para los programas especiales de televisión en español"),
+   # Sec5 听音乐
+   ("Me gusta escuchar música, música jazz sobre todo",
+    "Me gusta escuchar música, sobre todo música jazz"),
+   ("La empresa tiene como objetivo la costante innovación de productos y llevar la tendencia",
+    "La empresa tiene como objetivo la constante innovación de productos y llevar la tendencia"),
+ ],
+ "zh_subs": [
+   # Sec3 中文把「电影」写成了「小说」
+   ("平时爱看悬疑侦探类小说；", "平时爱看悬疑侦探类电影；"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

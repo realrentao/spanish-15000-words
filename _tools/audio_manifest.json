@@ -43846,6 +43846,16 @@
 "lang": "zh"
 },
 {
+"text": "estrella de cine",
+"path": "es/08406.mp3",
+"lang": "es"
+},
+{
+"text": "电影明星",
+"path": "zh/09057.mp3",
+"lang": "zh"
+},
+{
 "text": "对白",
 "path": "zh/05133.mp3",
 "lang": "zh"
@@ -43866,6 +43876,16 @@
 "lang": "zh"
 },
 {
+"text": "edición original",
+"path": "es/08407.mp3",
+"lang": "es"
+},
+{
+"text": "原版",
+"path": "zh/09058.mp3",
+"lang": "zh"
+},
+{
 "text": "改编",
 "path": "zh/05136.mp3",
 "lang": "zh"
@@ -43873,6 +43893,16 @@
 {
 "text": "发行",
 "path": "zh/02238.mp3",
+"lang": "zh"
+},
+{
+"text": "vídeo prohibido",
+"path": "es/08408.mp3",
+"lang": "es"
+},
+{
+"text": "禁映影片",
+"path": "zh/09059.mp3",
 "lang": "zh"
 },
 {
@@ -43916,23 +43946,23 @@
 "lang": "zh"
 },
 {
-"text": "Francia siempre ha hecho hincapié en la integración de los inmigrantes, esta película siendo una buena prueba.",
-"path": "es/04646.mp3",
+"text": "Francia siempre ha hecho hincapié en la integración de los inmigrantes, y esta película es una buena prueba de ello.",
+"path": "es/08409.mp3",
 "lang": "es"
 },
 {
 "text": "法国一直都强调移民的融入问题，这个电影就是很好的证明。",
-"path": "zh/05140.mp3",
+"path": "zh/09060.mp3",
 "lang": "zh"
 },
 {
-"text": "La película del camino francesa en la pantalla grande presenta un paisaje único y el patrimonio cultural de Francia.",
-"path": "es/04647.mp3",
+"text": "La película francesa del camino, en la pantalla grande, presenta un paisaje único y el patrimonio cultural de Francia.",
+"path": "es/08410.mp3",
 "lang": "es"
 },
 {
 "text": "而法国公路片则在大屏幕上呈现了法国独特的风景与文化遗产。",
-"path": "zh/05141.mp3",
+"path": "zh/09061.mp3",
 "lang": "zh"
 },
 {
@@ -43961,13 +43991,23 @@
 "lang": "zh"
 },
 {
-"text": "cineasta",
-"path": "es/04650.mp3",
+"text": "dirección de arte",
+"path": "es/08411.mp3",
+"lang": "es"
+},
+{
+"text": "美术指导",
+"path": "zh/09062.mp3",
+"lang": "zh"
+},
+{
+"text": "guionista",
+"path": "es/08412.mp3",
 "lang": "es"
 },
 {
 "text": "编剧",
-"path": "zh/05145.mp3",
+"path": "zh/09063.mp3",
 "lang": "zh"
 },
 {
@@ -44008,6 +44048,16 @@
 {
 "text": "主角",
 "path": "zh/05149.mp3",
+"lang": "zh"
+},
+{
+"text": "papel secundario",
+"path": "es/08413.mp3",
+"lang": "es"
+},
+{
+"text": "配角",
+"path": "zh/09064.mp3",
 "lang": "zh"
 },
 {
@@ -44066,13 +44116,13 @@
 "lang": "zh"
 },
 {
-"text": "disparo",
-"path": "es/04660.mp3",
+"text": "rodar",
+"path": "es/08414.mp3",
 "lang": "es"
 },
 {
 "text": "拍摄",
-"path": "zh/05156.mp3",
+"path": "zh/09065.mp3",
 "lang": "zh"
 },
 {
@@ -44101,23 +44151,23 @@
 "lang": "zh"
 },
 {
-"text": "Seguimos el tralajo del guión y un nuevo director es activamente buscado.",
-"path": "es/04663.mp3",
+"text": "Seguimos el trabajo del guión y se está buscando activamente a un nuevo director.",
+"path": "es/08415.mp3",
 "lang": "es"
 },
 {
 "text": "我们将继续编写脚本，还会找一位新的导演。",
-"path": "zh/05160.mp3",
+"path": "zh/09066.mp3",
 "lang": "zh"
 },
 {
-"text": "El rodaje de algunas escenas es tan intenso que las lágrimas de la joven actriz se ejecutan de verdad.",
-"path": "es/04664.mp3",
+"text": "El rodaje de algunas escenas es tan intenso que las lágrimas de la joven actriz son reales.",
+"path": "es/08416.mp3",
 "lang": "es"
 },
 {
 "text": "一些场景非常紧张，以致这位年轻的女演员真正流下了眼泪。",
-"path": "zh/05161.mp3",
+"path": "zh/09067.mp3",
 "lang": "zh"
 },
 {
@@ -44131,13 +44181,13 @@
 "lang": "zh"
 },
 {
-"text": "Es un actor famoso por el protagonista del Pirata de Caribe.",
-"path": "es/04666.mp3",
+"text": "Es un actor famoso por interpretar al protagonista de Piratas del Caribe.",
+"path": "es/08417.mp3",
 "lang": "es"
 },
 {
 "text": "这个演员因参演《加勒比海盗》而出名。",
-"path": "zh/05163.mp3",
+"path": "zh/09068.mp3",
 "lang": "zh"
 },
 {
@@ -44171,8 +44221,128 @@
 "lang": "zh"
 },
 {
+"text": "películas de arte",
+"path": "es/08418.mp3",
+"lang": "es"
+},
+{
+"text": "文艺片",
+"path": "zh/09069.mp3",
+"lang": "zh"
+},
+{
+"text": "película musical",
+"path": "es/08419.mp3",
+"lang": "es"
+},
+{
+"text": "音乐剧",
+"path": "zh/09070.mp3",
+"lang": "zh"
+},
+{
+"text": "película de terror",
+"path": "es/08420.mp3",
+"lang": "es"
+},
+{
+"text": "恐怖片",
+"path": "zh/09071.mp3",
+"lang": "zh"
+},
+{
+"text": "película de detectives",
+"path": "es/08421.mp3",
+"lang": "es"
+},
+{
+"text": "侦探片",
+"path": "zh/09072.mp3",
+"lang": "zh"
+},
+{
+"text": "película ética",
+"path": "es/08422.mp3",
+"lang": "es"
+},
+{
+"text": "伦理片",
+"path": "zh/09073.mp3",
+"lang": "zh"
+},
+{
+"text": "película romántica",
+"path": "es/08423.mp3",
+"lang": "es"
+},
+{
+"text": "爱情片",
+"path": "zh/09074.mp3",
+"lang": "zh"
+},
+{
 "text": "喜剧片",
 "path": "zh/05167.mp3",
+"lang": "zh"
+},
+{
+"text": "película de color",
+"path": "es/08424.mp3",
+"lang": "es"
+},
+{
+"text": "彩色片",
+"path": "zh/09075.mp3",
+"lang": "zh"
+},
+{
+"text": "duración de la película",
+"path": "es/08425.mp3",
+"lang": "es"
+},
+{
+"text": "影片长度",
+"path": "zh/09076.mp3",
+"lang": "zh"
+},
+{
+"text": "películas de artes marciales",
+"path": "es/08426.mp3",
+"lang": "es"
+},
+{
+"text": "武侠片",
+"path": "zh/09077.mp3",
+"lang": "zh"
+},
+{
+"text": "película duplicada",
+"path": "es/08427.mp3",
+"lang": "es"
+},
+{
+"text": "译制片",
+"path": "zh/09078.mp3",
+"lang": "zh"
+},
+{
+"text": "película muda",
+"path": "es/08428.mp3",
+"lang": "es"
+},
+{
+"text": "无声电影",
+"path": "zh/09079.mp3",
+"lang": "zh"
+},
+{
+"text": "película con sonido",
+"path": "es/08429.mp3",
+"lang": "es"
+},
+{
+"text": "有声电影",
+"path": "zh/09080.mp3",
 "lang": "zh"
 },
 {
@@ -44226,29 +44396,39 @@
 "lang": "zh"
 },
 {
-"text": "Ha visto muchas película ética.",
-"path": "es/04675.mp3",
+"text": "Ha visto muchas películas éticas.",
+"path": "es/08430.mp3",
 "lang": "es"
 },
 {
 "text": "他看过好多伦理片。",
-"path": "zh/05172.mp3",
+"path": "zh/09081.mp3",
 "lang": "zh"
 },
 {
-"text": "Por lo general me gusta ver películas detectivas, deportes como el tenis, baloncesto, tenis de mesa y bádminton.",
-"path": "es/04676.mp3",
+"text": "Por lo general me gusta ver películas de detectives; me gustan los deportes como el tenis, el baloncesto, el tenis de mesa y el bádminton.",
+"path": "es/08431.mp3",
 "lang": "es"
 },
 {
-"text": "平时爱看悬疑侦探类小说； 喜欢运动，如网球、篮球、乒乓球、羽毛球。",
-"path": "zh/05173.mp3",
+"text": "平时爱看悬疑侦探类电影； 喜欢运动，如网球、篮球、乒乓球、羽毛球。",
+"path": "zh/09082.mp3",
 "lang": "zh"
 },
 {
 "text": "La vida es una comedia para los ricos, una tragedia para los pobres; es el sueño de los sabios y un juego de tontos.",
 "path": "es/04677.mp3",
 "lang": "es"
+},
+{
+"text": "televisión de color",
+"path": "es/08432.mp3",
+"lang": "es"
+},
+{
+"text": "彩色电视",
+"path": "zh/09083.mp3",
+"lang": "zh"
 },
 {
 "text": "频道",
@@ -44268,6 +44448,16 @@
 {
 "text": "新闻短片",
 "path": "zh/05176.mp3",
+"lang": "zh"
+},
+{
+"text": "programas especiales",
+"path": "es/08433.mp3",
+"lang": "es"
+},
+{
+"text": "专题节目",
+"path": "zh/09084.mp3",
 "lang": "zh"
 },
 {
@@ -44306,6 +44496,26 @@
 "lang": "zh"
 },
 {
+"text": "serie de televisión",
+"path": "es/08434.mp3",
+"lang": "es"
+},
+{
+"text": "肥皂剧",
+"path": "zh/09085.mp3",
+"lang": "zh"
+},
+{
+"text": "concurso de conocimientos",
+"path": "es/08435.mp3",
+"lang": "es"
+},
+{
+"text": "知识竞赛",
+"path": "zh/09086.mp3",
+"lang": "zh"
+},
+{
 "text": "periodo",
 "path": "es/04682.mp3",
 "lang": "es"
@@ -44341,13 +44551,13 @@
 "lang": "zh"
 },
 {
-"text": "Tiempo de jugar es de 45 minutos para los programa especial de televisión en español.",
-"path": "es/04684.mp3",
+"text": "El tiempo de emisión es de 45 minutos para los programas especiales de televisión en español.",
+"path": "es/08436.mp3",
 "lang": "es"
 },
 {
 "text": "播放时间为45分钟，为西班牙电视节目的节选。",
-"path": "zh/05186.mp3",
+"path": "zh/09087.mp3",
 "lang": "zh"
 },
 {
@@ -44361,8 +44571,53 @@
 "lang": "zh"
 },
 {
-"text": "摇滚乐",
-"path": "zh/05188.mp3",
+"text": "música country",
+"path": "es/08437.mp3",
+"lang": "es"
+},
+{
+"text": "乡村音乐",
+"path": "zh/09088.mp3",
+"lang": "zh"
+},
+{
+"text": "rap",
+"path": "es/08438.mp3",
+"lang": "es"
+},
+{
+"text": "说唱音乐",
+"path": "zh/09089.mp3",
+"lang": "zh"
+},
+{
+"text": "blues",
+"path": "es/08439.mp3",
+"lang": "es"
+},
+{
+"text": "布鲁斯",
+"path": "zh/09090.mp3",
+"lang": "zh"
+},
+{
+"text": "jazz",
+"path": "es/08440.mp3",
+"lang": "es"
+},
+{
+"text": "爵士乐",
+"path": "zh/09091.mp3",
+"lang": "zh"
+},
+{
+"text": "música orquestal",
+"path": "es/08441.mp3",
+"lang": "es"
+},
+{
+"text": "管弦乐",
+"path": "zh/09092.mp3",
 "lang": "zh"
 },
 {
@@ -44376,8 +44631,28 @@
 "lang": "zh"
 },
 {
+"text": "canción folclórica",
+"path": "es/08442.mp3",
+"lang": "es"
+},
+{
+"text": "民歌",
+"path": "zh/09093.mp3",
+"lang": "zh"
+},
+{
 "text": "当代的",
 "path": "zh/05190.mp3",
+"lang": "zh"
+},
+{
+"text": "música electrónica",
+"path": "es/08443.mp3",
+"lang": "es"
+},
+{
+"text": "电子音乐",
+"path": "zh/09094.mp3",
 "lang": "zh"
 },
 {
@@ -44391,14 +44666,9 @@
 "lang": "zh"
 },
 {
-"text": "rango",
-"path": "es/04687.mp3",
+"text": "escala",
+"path": "es/02379.mp3",
 "lang": "es"
-},
-{
-"text": "音阶",
-"path": "zh/05192.mp3",
-"lang": "zh"
 },
 {
 "text": "coro",
@@ -44446,13 +44716,13 @@
 "lang": "zh"
 },
 {
-"text": "Me gusta escuchar música, música jazz sobre todo.",
-"path": "es/04692.mp3",
+"text": "Me gusta escuchar música, sobre todo música jazz.",
+"path": "es/08444.mp3",
 "lang": "es"
 },
 {
 "text": "我喜欢听音乐，尤其是爵士乐。",
-"path": "zh/05198.mp3",
+"path": "zh/09095.mp3",
 "lang": "zh"
 },
 {
@@ -44476,13 +44746,13 @@
 "lang": "zh"
 },
 {
-"text": "La empresa tiene como objetivo la costante innovación de productos y llevar la tendencia.",
-"path": "es/04695.mp3",
+"text": "La empresa tiene como objetivo la constante innovación de productos y llevar la tendencia.",
+"path": "es/08484.mp3",
 "lang": "es"
 },
 {
 "text": "公司以不断地创新产品、领导潮流为宗旨。",
-"path": "zh/05201.mp3",
+"path": "zh/09135.mp3",
 "lang": "zh"
 },
 {
@@ -53831,6 +54101,11 @@
 "lang": "zh"
 },
 {
+"text": "拍摄",
+"path": "zh/05156.mp3",
+"lang": "zh"
+},
+{
 "text": "trípode",
 "path": "es/05171.mp3",
 "lang": "es"
@@ -56789,11 +57064,6 @@
 "text": "有益",
 "path": "zh/06068.mp3",
 "lang": "zh"
-},
-{
-"text": "escala",
-"path": "es/02379.mp3",
-"lang": "es"
 },
 {
 "text": "ahorro",
@@ -65909,6 +66179,11 @@
 "text": "弹药",
 "path": "zh/06448.mp3",
 "lang": "zh"
+},
+{
+"text": "rango",
+"path": "es/04687.mp3",
+"lang": "es"
 },
 {
 "text": "射程",
