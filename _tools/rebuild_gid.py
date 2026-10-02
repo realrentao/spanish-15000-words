@@ -563,7 +563,94 @@ G21 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21}
+G22 = {
+ "name": "办公室",
+ "raw": "_tools/parte22_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "traido": "traído",                 # ¿Has traido tu libreta? -> traído
+   "ha blando": "hablando",            # 空格代替连字符，clean 的断行重连救不了
+   "sólo": "solo",                     # RAE 2010 起 sólo 不再加重音
+   "Sólo ": "Solo ",                   # 句首大写形态（句子处）
+ },
+ "fix": {
+   # Sec1 办公室
+   ("废纸篓", "residuo"): "papelera",                    # residuo=残留物
+   ("建议，提议", "propuesto"): "propuesta",             # propuesto 是分词/形容词，名词为 propuesta
+   # Sec2 办公桌
+   ("门铃", "carillón"): "timbre",                      # carillón=钟/钟声
+   ("地球仪", "modelo de la tierra"): "globo terráqueo",
+   ("笔筒", "estuche de plumas"): "portapapeles",        # estuche=盒子
+   ("耳机", "auricular"): "auriculares",                # 耳机=复数
+   # Sec3 办公用品及设备
+   ("回形针", "trombón"): "clip",                       # trombón=长号
+   ("橡皮", "goma"): "goma de borrar",
+   # Sec4 会议室
+   ("主持人", "presentador"): "moderador",              # presentador=节目主持
+   ("议事单", "procedimiento único"): "procedimiento",  # único=唯一的，义项错
+   ("完成", "lograr"): "completar",                      # lograr=达到
+   # Sec5 一般电脑操作
+   ("剪切", "esquilar"): "cortar",                      # esquilar=剪毛
+   ("回车", "entrar"): "intro",                          # 回车键=Intro/Enter
+   ("睡眠", "dormir"): "suspender",                      # 睡眠模式=suspender
+   ("播放", "jugar"): "reproducir",                      # jugar=玩
+   ("锁定", "fijar"): "bloquear",
+   ("关机", "cerrar"): "apagar",
+   # Sec6 传真
+   ("看不清的", "trastorno"): "ilegible",               # trastorno=紊乱/故障
+   ("拨号", "marque"): "marcado",                        # marque=疑问词
+   ("重新传真", "refax"): "reenviar por fax",
+ },
+ "pos": {
+   # 文案标错性别的，按西语实际词性
+   ("主持人", "moderador"): "n.m.",
+   ("回车", "intro"): "n.m.",
+   ("睡眠", "suspender"): "v.t.",
+   ("拨号", "marcado"): "n.m.",
+   ("建议，提议", "propuesta"): "n.f.",
+   # tanto 是副词/代词，不是形容词
+   ("这么多的", "tanto"): "adv.",
+ },
+ "subs": [
+   # Sec1 办公室
+   ("Hay una taquilla bonita en mi oficina",
+    "Hay un archivador bonito en mi oficina"),            # taquilla=服务窗口
+   ("Principalmente para consumidores empleados de oficina",
+    "Principalmente para los consumidores de oficina"),    # 原句语法不通
+   # Sec2 办公桌
+   ("Qué oficio tiene este documento?",
+    "¿Para qué sirve este documento?"),                   # 中文=这份文件是干什么的
+   # Sec3 办公用品及设备（主语一致 / 语序）
+   ("Yo fingía pedir grapadora y la robó desde su cajón",
+    "Yo fingí pedir la grapadora y la robé de su cajón"),
+   ("No puedes almacenar tantas fotos en el ordenador porque está llena la memoria",
+    "No puedes almacenar tantas fotos en el ordenador porque la memoria está llena"),
+   # Sec4 会议室（typo 表已把 sólo -> solo，键要写处理后的形态）
+   ("Solo necesitamos 16 niños a participar",
+    "Solo necesitamos 16 niños para participar"),
+   ("El tema de la conferencia es desarrollo",
+    "El tema de la conferencia es el desarrollo"),
+   ("Al final llegaron a en consenso",
+    "Al final llegaron a un consenso"),
+   ("No estaba de acuerdo con la clausura del tratado",
+    "No estaba de acuerdo con la cláusula del tratado"),  # clausura=闭幕
+   # Sec5 一般电脑操作
+   ("Si incluso no tiene el coraje de eliminar esta sombra, es realmente desesperada",
+    "Si ni siquiera tiene el coraje de eliminar esa sombra, es realmente desesperada"),
+   # Sec6 传真
+   ("Si quiere una copia, no tenía más que decirlo. Sabe si tardará mucho.",
+    "Si quiere una copia, no tiene más que decirlo."),
+   # Sec6 开头的「¡」被 split_s/clean 的 lstrip 削掉，必须显式补回（否则 ¡Canasto! 变成 Canasto!）
+   ("Canasto! He perdido la cartera.",
+    "¡Canasto! He perdido la cartera."),
+ ],
+ "zh_subs": [
+   # Sec3 光盘=disco，不是唱片
+   ("他想要录制一张唱片。", "他想要刻录一张光盘。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

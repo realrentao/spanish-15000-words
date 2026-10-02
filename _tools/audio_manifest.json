@@ -29091,6 +29091,26 @@
 "lang": "zh"
 },
 {
+"text": "mobiliario de oficina",
+"path": "es/07762.mp3",
+"lang": "es"
+},
+{
+"text": "办公室家具",
+"path": "zh/08413.mp3",
+"lang": "zh"
+},
+{
+"text": "equipo de oficina",
+"path": "es/07763.mp3",
+"lang": "es"
+},
+{
+"text": "办公设备",
+"path": "zh/08414.mp3",
+"lang": "zh"
+},
+{
 "text": "公告",
 "path": "zh/03888.mp3",
 "lang": "zh"
@@ -29121,8 +29141,33 @@
 "lang": "zh"
 },
 {
-"text": "废纸篓",
-"path": "zh/03893.mp3",
+"text": "empleados de oficina",
+"path": "es/07764.mp3",
+"lang": "es"
+},
+{
+"text": "白领",
+"path": "zh/08415.mp3",
+"lang": "zh"
+},
+{
+"text": "ejecutivo de alto nivel",
+"path": "es/07765.mp3",
+"lang": "es"
+},
+{
+"text": "金领",
+"path": "zh/08416.mp3",
+"lang": "zh"
+},
+{
+"text": "agua pura",
+"path": "es/07766.mp3",
+"lang": "es"
+},
+{
+"text": "纯净水",
+"path": "zh/08417.mp3",
 "lang": "zh"
 },
 {
@@ -29151,9 +29196,9 @@
 "lang": "zh"
 },
 {
-"text": "建议，提议",
-"path": "zh/03896.mp3",
-"lang": "zh"
+"text": "propuesta",
+"path": "es/05058.mp3",
+"lang": "es"
 },
 {
 "text": "cuaderno",
@@ -29196,13 +29241,13 @@
 "lang": "zh"
 },
 {
-"text": "Hay una taquilla bonita en mi oficina.",
-"path": "es/02857.mp3",
+"text": "Hay un archivador bonito en mi oficina.",
+"path": "es/07767.mp3",
 "lang": "es"
 },
 {
 "text": "在我办公室有个漂亮的文件柜。",
-"path": "zh/03082.mp3",
+"path": "zh/08418.mp3",
 "lang": "zh"
 },
 {
@@ -29236,18 +29281,28 @@
 "lang": "zh"
 },
 {
-"text": "Principalmente para con-sumidores empleados de oficina.",
-"path": "es/03568.mp3",
+"text": "Principalmente para los consumidores de oficina.",
+"path": "es/07768.mp3",
 "lang": "es"
 },
 {
 "text": "主要针对白领一族的消费群体。",
-"path": "zh/03904.mp3",
+"path": "zh/08419.mp3",
 "lang": "zh"
 },
 {
 "text": "办公桌",
 "path": "zh/03905.mp3",
+"lang": "zh"
+},
+{
+"text": "lámpara de mesa",
+"path": "es/07769.mp3",
+"lang": "es"
+},
+{
+"text": "台灯",
+"path": "zh/08420.mp3",
 "lang": "zh"
 },
 {
@@ -29281,13 +29336,33 @@
 "lang": "zh"
 },
 {
-"text": "auricular",
-"path": "es/03570.mp3",
+"text": "calendario del escritorio",
+"path": "es/07770.mp3",
+"lang": "es"
+},
+{
+"text": "台式日历",
+"path": "zh/08421.mp3",
+"lang": "zh"
+},
+{
+"text": "portátil",
+"path": "es/05847.mp3",
+"lang": "es"
+},
+{
+"text": "笔记本电脑",
+"path": "zh/06578.mp3",
+"lang": "zh"
+},
+{
+"text": "auriculares",
+"path": "es/07771.mp3",
 "lang": "es"
 },
 {
 "text": "耳机",
-"path": "zh/03908.mp3",
+"path": "zh/08422.mp3",
 "lang": "zh"
 },
 {
@@ -29301,18 +29376,48 @@
 "lang": "zh"
 },
 {
-"text": "carillón",
-"path": "es/03571.mp3",
+"text": "timbre",
+"path": "es/07772.mp3",
 "lang": "es"
 },
 {
 "text": "门铃",
-"path": "zh/03909.mp3",
+"path": "zh/08423.mp3",
+"lang": "zh"
+},
+{
+"text": "globo terráqueo",
+"path": "es/07773.mp3",
+"lang": "es"
+},
+{
+"text": "地球仪",
+"path": "zh/08424.mp3",
+"lang": "zh"
+},
+{
+"text": "plantas en maceta",
+"path": "es/07774.mp3",
+"lang": "es"
+},
+{
+"text": "盆栽植物",
+"path": "zh/08425.mp3",
 "lang": "zh"
 },
 {
 "text": "便签",
 "path": "zh/03910.mp3",
+"lang": "zh"
+},
+{
+"text": "portapapeles",
+"path": "es/07775.mp3",
+"lang": "es"
+},
+{
+"text": "笔筒",
+"path": "zh/08426.mp3",
 "lang": "zh"
 },
 {
@@ -29381,13 +29486,13 @@
 "lang": "zh"
 },
 {
-"text": ". Has traido tu libreta?",
-"path": "es/03578.mp3",
+"text": "¿Has traído tu libreta?",
+"path": "es/07776.mp3",
 "lang": "es"
 },
 {
 "text": "你带来你的笔记本了吗？",
-"path": "zh/03918.mp3",
+"path": "zh/08427.mp3",
 "lang": "zh"
 },
 {
@@ -29401,13 +29506,13 @@
 "lang": "zh"
 },
 {
-"text": "¿Qué oficio tiene este documento?",
-"path": "es/03580.mp3",
+"text": "¿Para qué sirve este documento?",
+"path": "es/07777.mp3",
 "lang": "es"
 },
 {
 "text": "这份文件是干什么的？",
-"path": "zh/03920.mp3",
+"path": "zh/08428.mp3",
 "lang": "zh"
 },
 {
@@ -29441,6 +29546,16 @@
 "lang": "zh"
 },
 {
+"text": "goma de borrar",
+"path": "es/07778.mp3",
+"lang": "es"
+},
+{
+"text": "橡皮",
+"path": "zh/08429.mp3",
+"lang": "zh"
+},
+{
 "text": "estático",
 "path": "es/03583.mp3",
 "lang": "es"
@@ -29456,13 +29571,13 @@
 "lang": "zh"
 },
 {
-"text": "trombón",
-"path": "es/03584.mp3",
+"text": "clip",
+"path": "es/07779.mp3",
 "lang": "es"
 },
 {
 "text": "回形针",
-"path": "zh/03926.mp3",
+"path": "zh/08430.mp3",
 "lang": "zh"
 },
 {
@@ -29509,6 +29624,16 @@
 "text": "equipo",
 "path": "es/03588.mp3",
 "lang": "es"
+},
+{
+"text": "máquina de café",
+"path": "es/07780.mp3",
+"lang": "es"
+},
+{
+"text": "咖啡机",
+"path": "zh/08431.mp3",
+"lang": "zh"
 },
 {
 "text": "virus",
@@ -29576,13 +29701,13 @@
 "lang": "zh"
 },
 {
-"text": "Yo fingía pedir grapadora y la robó desde su cajón.",
-"path": "es/03593.mp3",
+"text": "Yo fingí pedir la grapadora y la robé de su cajón.",
+"path": "es/07781.mp3",
 "lang": "es"
 },
 {
 "text": "我是假装借订书器从他抽屉里偷拿的。",
-"path": "zh/03936.mp3",
+"path": "zh/08432.mp3",
 "lang": "zh"
 },
 {
@@ -29591,13 +29716,13 @@
 "lang": "es"
 },
 {
-"text": "No puedes almacenar tantas fotos en el ordenador porque está llena la memoria.",
-"path": "es/03595.mp3",
+"text": "No puedes almacenar tantas fotos en el ordenador porque la memoria está llena.",
+"path": "es/07782.mp3",
 "lang": "es"
 },
 {
 "text": "你没法存这么多照片在电脑里，因为没有空间了。",
-"path": "zh/03937.mp3",
+"path": "zh/08433.mp3",
 "lang": "zh"
 },
 {
@@ -29606,7 +29731,7 @@
 "lang": "es"
 },
 {
-"text": "他想要录制一张唱片。",
+"text": "他想要刻录一张光盘。",
 "path": "zh/03938.mp3",
 "lang": "zh"
 },
@@ -29616,13 +29741,13 @@
 "lang": "es"
 },
 {
-"text": "presentador",
-"path": "es/03598.mp3",
+"text": "sala de reuniones",
+"path": "es/07783.mp3",
 "lang": "es"
 },
 {
-"text": "主持人",
-"path": "zh/03939.mp3",
+"text": "会议室",
+"path": "zh/08434.mp3",
 "lang": "zh"
 },
 {
@@ -29651,6 +29776,16 @@
 "lang": "zh"
 },
 {
+"text": "tomar parte en",
+"path": "es/07784.mp3",
+"lang": "es"
+},
+{
+"text": "参与",
+"path": "zh/08435.mp3",
+"lang": "zh"
+},
+{
 "text": "ausente",
 "path": "es/03602.mp3",
 "lang": "es"
@@ -29666,9 +29801,14 @@
 "lang": "zh"
 },
 {
-"text": "lograr",
-"path": "es/00083.mp3",
+"text": "completar",
+"path": "es/07785.mp3",
 "lang": "es"
+},
+{
+"text": "完成",
+"path": "zh/08436.mp3",
+"lang": "zh"
 },
 {
 "text": "final",
@@ -29686,13 +29826,33 @@
 "lang": "zh"
 },
 {
-"text": "único",
-"path": "es/03604.mp3",
+"text": "procedimiento",
+"path": "es/01571.mp3",
 "lang": "es"
 },
 {
-"text": "议事单 procedimiento",
-"path": "zh/03946.mp3",
+"text": "议事单",
+"path": "zh/01649.mp3",
+"lang": "zh"
+},
+{
+"text": "solo",
+"path": "es/07786.mp3",
+"lang": "es"
+},
+{
+"text": "只，仅仅",
+"path": "zh/08437.mp3",
+"lang": "zh"
+},
+{
+"text": "Instituto de Confucio",
+"path": "es/07787.mp3",
+"lang": "es"
+},
+{
+"text": "孔子学院",
+"path": "zh/08438.mp3",
 "lang": "zh"
 },
 {
@@ -29706,13 +29866,13 @@
 "lang": "zh"
 },
 {
-"text": "Sólo necesitamos 16 niños a participar.",
-"path": "es/03606.mp3",
+"text": "Solo necesitamos 16 niños para participar.",
+"path": "es/07788.mp3",
 "lang": "es"
 },
 {
 "text": "我们只需要16个孩子参与就够了。",
-"path": "zh/03948.mp3",
+"path": "zh/08439.mp3",
 "lang": "zh"
 },
 {
@@ -29726,13 +29886,13 @@
 "lang": "zh"
 },
 {
-"text": "El tema de la conferencia es desarrollo.",
-"path": "es/03608.mp3",
+"text": "El tema de la conferencia es el desarrollo.",
+"path": "es/07789.mp3",
 "lang": "es"
 },
 {
 "text": "这次会议的主题是发展。",
-"path": "zh/03950.mp3",
+"path": "zh/08440.mp3",
 "lang": "zh"
 },
 {
@@ -29766,23 +29926,23 @@
 "lang": "zh"
 },
 {
-"text": "Al final llegaron a en con-senso.",
-"path": "es/03612.mp3",
+"text": "Al final llegaron a un consenso.",
+"path": "es/07790.mp3",
 "lang": "es"
 },
 {
 "text": "最后他们达成协议。",
-"path": "zh/03954.mp3",
+"path": "zh/08441.mp3",
 "lang": "zh"
 },
 {
-"text": "No estaba de acuerdo con la cláusura del tratado.",
-"path": "es/03613.mp3",
+"text": "No estaba de acuerdo con la cláusula del tratado.",
+"path": "es/07791.mp3",
 "lang": "es"
 },
 {
 "text": "他不同意协定中的那个条款。",
-"path": "zh/03955.mp3",
+"path": "zh/08442.mp3",
 "lang": "zh"
 },
 {
@@ -29796,18 +29956,23 @@
 "lang": "zh"
 },
 {
-"text": "esquilar",
-"path": "es/03614.mp3",
+"text": "doble clic",
+"path": "es/07792.mp3",
 "lang": "es"
 },
 {
-"text": "剪切",
-"path": "zh/03958.mp3",
+"text": "双击",
+"path": "zh/08443.mp3",
 "lang": "zh"
 },
 {
+"text": "intro",
+"path": "es/07793.mp3",
+"lang": "es"
+},
+{
 "text": "回车",
-"path": "zh/03959.mp3",
+"path": "zh/08444.mp3",
 "lang": "zh"
 },
 {
@@ -29826,23 +29991,13 @@
 "lang": "zh"
 },
 {
-"text": "cerrar",
-"path": "es/00963.mp3",
-"lang": "es"
-},
-{
-"text": "睡眠",
-"path": "zh/03962.mp3",
-"lang": "zh"
-},
-{
-"text": "jugar",
-"path": "es/03616.mp3",
+"text": "reproducir",
+"path": "es/03913.mp3",
 "lang": "es"
 },
 {
 "text": "播放",
-"path": "zh/03963.mp3",
+"path": "zh/04301.mp3",
 "lang": "zh"
 },
 {
@@ -29876,8 +30031,13 @@
 "lang": "zh"
 },
 {
+"text": "bloquear",
+"path": "es/00965.mp3",
+"lang": "es"
+},
+{
 "text": "锁定",
-"path": "zh/03967.mp3",
+"path": "zh/01005.mp3",
 "lang": "zh"
 },
 {
@@ -29911,13 +30071,13 @@
 "lang": "zh"
 },
 {
-"text": "Si incluso no tiene el coraje de eliminar esta sombra, es realmente desesperada.",
-"path": "es/03621.mp3",
+"text": "Si ni siquiera tiene el coraje de eliminar esa sombra, es realmente desesperada.",
+"path": "es/07794.mp3",
 "lang": "es"
 },
 {
 "text": "如果连除去这阴影的勇气都没有，那就真的是无药可救了。",
-"path": "zh/03971.mp3",
+"path": "zh/08445.mp3",
 "lang": "zh"
 },
 {
@@ -29961,7 +30121,7 @@
 "lang": "zh"
 },
 {
-"text": "No hay conexión entre lo que dices y el asunto de que estamos ha blando.",
+"text": "No hay conexión entre lo que dices y el asunto de que estamos hablando.",
 "path": "es/03625.mp3",
 "lang": "es"
 },
@@ -29991,18 +30151,48 @@
 "lang": "zh"
 },
 {
+"text": "enviar por fax",
+"path": "es/07795.mp3",
+"lang": "es"
+},
+{
+"text": "用传真机传送",
+"path": "zh/08446.mp3",
+"lang": "zh"
+},
+{
+"text": "máquina de fax",
+"path": "es/07796.mp3",
+"lang": "es"
+},
+{
+"text": "传真机",
+"path": "zh/08447.mp3",
+"lang": "zh"
+},
+{
+"text": "número de fax",
+"path": "es/07797.mp3",
+"lang": "es"
+},
+{
+"text": "传真号码",
+"path": "zh/08448.mp3",
+"lang": "zh"
+},
+{
 "text": "扫描仪",
 "path": "zh/03978.mp3",
 "lang": "zh"
 },
 {
-"text": "trastorno",
-"path": "es/02192.mp3",
+"text": "ilegible",
+"path": "es/07798.mp3",
 "lang": "es"
 },
 {
 "text": "看不清的",
-"path": "zh/02109.mp3",
+"path": "zh/08449.mp3",
 "lang": "zh"
 },
 {
@@ -30051,13 +30241,13 @@
 "lang": "zh"
 },
 {
-"text": "marque",
-"path": "es/03632.mp3",
+"text": "marcado",
+"path": "es/07799.mp3",
 "lang": "es"
 },
 {
 "text": "拨号",
-"path": "zh/03983.mp3",
+"path": "zh/08450.mp3",
 "lang": "zh"
 },
 {
@@ -30071,6 +30261,16 @@
 "lang": "zh"
 },
 {
+"text": "fallo de línea",
+"path": "es/07800.mp3",
+"lang": "es"
+},
+{
+"text": "线路故障",
+"path": "zh/08451.mp3",
+"lang": "zh"
+},
+{
 "text": "imagen",
 "path": "es/03634.mp3",
 "lang": "es"
@@ -30078,6 +30278,16 @@
 {
 "text": "图像",
 "path": "zh/03984.mp3",
+"lang": "zh"
+},
+{
+"text": "reenviar por fax",
+"path": "es/07802.mp3",
+"lang": "es"
+},
+{
+"text": "重新传真",
+"path": "zh/08453.mp3",
 "lang": "zh"
 },
 {
@@ -30131,17 +30341,17 @@
 "lang": "zh"
 },
 {
-"text": "Si quiere una copia, no tenía más que decirlo. Sabe si tardará mucho.",
-"path": "es/03639.mp3",
+"text": "Si quiere una copia, no tiene más que decirlo.",
+"path": "es/07803.mp3",
 "lang": "es"
 },
 {
 "text": "如果您想要副本，只需要告诉我就好。",
-"path": "zh/03990.mp3",
+"path": "zh/08454.mp3",
 "lang": "zh"
 },
 {
-"text": "!Canasto! He perdido la cartera.",
+"text": "¡Canasto! He perdido la cartera.",
 "path": "es/03640.mp3",
 "lang": "es"
 },
@@ -32846,11 +33056,6 @@
 "lang": "zh"
 },
 {
-"text": "procedimiento",
-"path": "es/01571.mp3",
-"lang": "es"
-},
-{
 "text": "desviación",
 "path": "es/03874.mp3",
 "lang": "es"
@@ -33328,16 +33533,6 @@
 {
 "text": "不一致",
 "path": "zh/04300.mp3",
-"lang": "zh"
-},
-{
-"text": "reproducir",
-"path": "es/03913.mp3",
-"lang": "es"
-},
-{
-"text": "再次发生",
-"path": "zh/04301.mp3",
 "lang": "zh"
 },
 {
@@ -43076,6 +43271,11 @@
 "lang": "zh"
 },
 {
+"text": "cerrar",
+"path": "es/00963.mp3",
+"lang": "es"
+},
+{
 "text": "关",
 "path": "zh/01003.mp3",
 "lang": "zh"
@@ -43088,16 +43288,6 @@
 {
 "text": "推",
 "path": "zh/01004.mp3",
-"lang": "zh"
-},
-{
-"text": "bloquear",
-"path": "es/00965.mp3",
-"lang": "es"
-},
-{
-"text": "锁",
-"path": "zh/01005.mp3",
 "lang": "zh"
 },
 {
@@ -50381,11 +50571,6 @@
 "lang": "es"
 },
 {
-"text": "propuesta",
-"path": "es/05058.mp3",
-"lang": "es"
-},
-{
 "text": "espalda",
 "path": "es/01770.mp3",
 "lang": "es"
@@ -57126,6 +57311,11 @@
 "lang": "zh"
 },
 {
+"text": "trastorno",
+"path": "es/02192.mp3",
+"lang": "es"
+},
+{
 "text": "fusilar",
 "path": "es/05643.mp3",
 "lang": "es"
@@ -60588,11 +60778,6 @@
 {
 "text": "免税港",
 "path": "zh/07386.mp3",
-"lang": "zh"
-},
-{
-"text": "手续",
-"path": "zh/01649.mp3",
 "lang": "zh"
 },
 {
@@ -64903,16 +65088,6 @@
 {
 "text": "录制",
 "path": "zh/06577.mp3",
-"lang": "zh"
-},
-{
-"text": "portátil",
-"path": "es/05847.mp3",
-"lang": "es"
-},
-{
-"text": "便于携带的",
-"path": "zh/06578.mp3",
 "lang": "zh"
 },
 {
@@ -70718,6 +70893,11 @@
 {
 "text": "弱视者",
 "path": "zh/02108.mp3",
+"lang": "zh"
+},
+{
+"text": "看不清的",
+"path": "zh/02109.mp3",
 "lang": "zh"
 },
 {
