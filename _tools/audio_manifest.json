@@ -52266,13 +52266,23 @@
 "lang": "zh"
 },
 {
-"text": "ártico",
-"path": "es/04918.mp3",
+"text": "círculo polar ártico",
+"path": "es/08770.mp3",
 "lang": "es"
 },
 {
-"text": "北极圈 círculo polar",
-"path": "zh/05469.mp3",
+"text": "北极圈",
+"path": "zh/09421.mp3",
+"lang": "zh"
+},
+{
+"text": "círculo polar antártico",
+"path": "es/08771.mp3",
+"lang": "es"
+},
+{
+"text": "南极圈",
+"path": "zh/09422.mp3",
 "lang": "zh"
 },
 {
@@ -52336,13 +52346,13 @@
 "lang": "zh"
 },
 {
-"text": "Antártico",
-"path": "es/04925.mp3",
+"text": "Continente Antártico",
+"path": "es/08772.mp3",
 "lang": "es"
 },
 {
-"text": "南极洲 Continente",
-"path": "zh/05476.mp3",
+"text": "南极洲",
+"path": "zh/09423.mp3",
 "lang": "zh"
 },
 {
@@ -52371,23 +52381,23 @@
 "lang": "zh"
 },
 {
-"text": "El arte de vivir. La vida es una cosa maravillosa; como una belleza luz en esta tierra.",
-"path": "es/04927.mp3",
+"text": "El arte de vivir: la vida es una cosa maravillosa, como una luz hermosa sobre esta tierra.",
+"path": "es/08773.mp3",
 "lang": "es"
 },
 {
 "text": "生活的艺术。 生命是一种奇妙的玩意儿，犹如娇丽的光芒普照大地。",
-"path": "zh/05481.mp3",
+"path": "zh/09424.mp3",
 "lang": "zh"
 },
 {
-"text": "El llamado “clima” no existe, y el calor abrasador se extiende a toda la superficie del globo, igual al ecuador y los polos.",
-"path": "es/04928.mp3",
+"text": "El llamado «clima» no existe, y el calor abrasador se extiende a toda la superficie del globo, igual que en el ecuador y en los polos.",
+"path": "es/08774.mp3",
 "lang": "es"
 },
 {
 "text": "所谓的“气候”还不存在，酷热弥漫着地球的整个表面，在赤道和两极没有什么不同的感觉。",
-"path": "zh/05482.mp3",
+"path": "zh/09425.mp3",
 "lang": "zh"
 },
 {
@@ -52401,23 +52411,23 @@
 "lang": "zh"
 },
 {
-"text": "Beijing se encuentra a 116 grados de longitud este.",
-"path": "es/04930.mp3",
+"text": "Pekín se encuentra a 116 grados de longitud este.",
+"path": "es/08775.mp3",
 "lang": "es"
 },
 {
 "text": "北京位于东经116度。",
-"path": "zh/05484.mp3",
+"path": "zh/09426.mp3",
 "lang": "zh"
 },
 {
-"text": "Africa es un continente de perfil sólido.",
-"path": "es/04931.mp3",
+"text": "África es un continente de perfil sólido.",
+"path": "es/08776.mp3",
 "lang": "es"
 },
 {
 "text": "非洲大陆的轮廓是齐整的。",
-"path": "zh/05485.mp3",
+"path": "zh/09427.mp3",
 "lang": "zh"
 },
 {
@@ -52441,8 +52451,23 @@
 "lang": "zh"
 },
 {
-"text": "北冰洋 Océano",
-"path": "zh/05488.mp3",
+"text": "Océano índico",
+"path": "es/08777.mp3",
+"lang": "es"
+},
+{
+"text": "印度洋",
+"path": "zh/09428.mp3",
+"lang": "zh"
+},
+{
+"text": "Océano ártico",
+"path": "es/08778.mp3",
+"lang": "es"
+},
+{
+"text": "北冰洋",
+"path": "zh/09429.mp3",
 "lang": "zh"
 },
 {
@@ -52546,23 +52571,23 @@
 "lang": "zh"
 },
 {
-"text": "Diga adiós a la luz de la mañana, que los vientos fríos purifiquen mis pensamientos, quiero ser una estatua de piedra para llegar a dormir en el fondo del océano.",
-"path": "es/04942.mp3",
+"text": "Diga adiós a la luz de la mañana, que los vientos fríos purifican mis pensamientos, quiero ser una estatua de piedra para llegar a dormir en el fondo del océano.",
+"path": "es/08779.mp3",
 "lang": "es"
 },
 {
 "text": "向晨光告别，让寒冷的水流净化我心，我愿化为石像，好在海底得以长眠。",
-"path": "zh/05500.mp3",
+"path": "zh/09430.mp3",
 "lang": "zh"
 },
 {
-"text": "Durante años, el mar ha provocado repulsión. No fue hasta mediados del siglo XVIII que comenzó a nacer el anhelo para la mar.",
-"path": "es/04943.mp3",
+"text": "Durante años, el mar ha provocado repulsión. No fue hasta mediados del siglo XVIII cuando comenzó a nacer el anhelo por la mar.",
+"path": "es/08780.mp3",
 "lang": "es"
 },
 {
 "text": "长久以来,大海一直引起人们的反感。直至18世纪中期才开始产生“对海滨的向往”。",
-"path": "zh/05501.mp3",
+"path": "zh/09431.mp3",
 "lang": "zh"
 },
 {
@@ -52573,6 +52598,16 @@
 {
 "text": "在这个地区开采地下稀有金属是可能的。",
 "path": "zh/05502.mp3",
+"lang": "zh"
+},
+{
+"text": "pronóstico del tiempo",
+"path": "es/08781.mp3",
+"lang": "es"
+},
+{
+"text": "天气预报",
+"path": "zh/09432.mp3",
 "lang": "zh"
 },
 {
@@ -52646,6 +52681,26 @@
 "lang": "zh"
 },
 {
+"text": "zona templada",
+"path": "es/08782.mp3",
+"lang": "es"
+},
+{
+"text": "温带",
+"path": "zh/09433.mp3",
+"lang": "zh"
+},
+{
+"text": "zona trópica",
+"path": "es/08783.mp3",
+"lang": "es"
+},
+{
+"text": "热带",
+"path": "zh/09434.mp3",
+"lang": "zh"
+},
+{
 "text": "marino",
 "path": "es/04950.mp3",
 "lang": "es"
@@ -52676,13 +52731,13 @@
 "lang": "zh"
 },
 {
-"text": "Ablandan los fríos.",
-"path": "es/04953.mp3",
+"text": "Se ablandan los fríos.",
+"path": "es/08784.mp3",
 "lang": "es"
 },
 {
 "text": "天气不那么冷了。",
-"path": "zh/05516.mp3",
+"path": "zh/09435.mp3",
 "lang": "zh"
 },
 {
@@ -52716,6 +52771,26 @@
 "lang": "zh"
 },
 {
+"text": "sin viento",
+"path": "es/08785.mp3",
+"lang": "es"
+},
+{
+"text": "无风的",
+"path": "zh/09436.mp3",
+"lang": "zh"
+},
+{
+"text": "molino de viento",
+"path": "es/08786.mp3",
+"lang": "es"
+},
+{
+"text": "风车",
+"path": "zh/09437.mp3",
+"lang": "zh"
+},
+{
 "text": "anemómetro",
 "path": "es/04957.mp3",
 "lang": "es"
@@ -52733,6 +52808,16 @@
 {
 "text": "速度",
 "path": "zh/01677.mp3",
+"lang": "zh"
+},
+{
+"text": "viento del norte",
+"path": "es/08787.mp3",
+"lang": "es"
+},
+{
+"text": "北风",
+"path": "zh/09438.mp3",
 "lang": "zh"
 },
 {
@@ -52801,7 +52886,7 @@
 "lang": "zh"
 },
 {
-"text": "La salida de las hojas, .a causa del viento persistente, o que los árboles no recuerdan?",
+"text": "¿La salida de las hojas, a causa del viento persistente, o que los árboles no recuerdan?",
 "path": "es/04964.mp3",
 "lang": "es"
 },
@@ -52951,6 +53036,16 @@
 "lang": "es"
 },
 {
+"text": "arco iris",
+"path": "es/08788.mp3",
+"lang": "es"
+},
+{
+"text": "彩虹",
+"path": "zh/09439.mp3",
+"lang": "zh"
+},
+{
 "text": "llover",
 "path": "es/01730.mp3",
 "lang": "es"
@@ -53001,13 +53096,13 @@
 "lang": "zh"
 },
 {
-"text": "La tormenta va de vencido.",
-"path": "es/04983.mp3",
+"text": "La tormenta va a pasar.",
+"path": "es/08789.mp3",
 "lang": "es"
 },
 {
 "text": "暴雨就要停了。",
-"path": "zh/05547.mp3",
+"path": "zh/09440.mp3",
 "lang": "zh"
 },
 {
@@ -53043,6 +53138,76 @@
 {
 "text": "雪白的",
 "path": "zh/05551.mp3",
+"lang": "zh"
+},
+{
+"text": "bola de nieve",
+"path": "es/08790.mp3",
+"lang": "es"
+},
+{
+"text": "雪球",
+"path": "zh/09441.mp3",
+"lang": "zh"
+},
+{
+"text": "muñeco de nieve",
+"path": "es/08791.mp3",
+"lang": "es"
+},
+{
+"text": "雪人",
+"path": "zh/09442.mp3",
+"lang": "zh"
+},
+{
+"text": "ceguera de la nieve",
+"path": "es/08792.mp3",
+"lang": "es"
+},
+{
+"text": "雪盲",
+"path": "zh/09443.mp3",
+"lang": "zh"
+},
+{
+"text": "cubierto de nieve",
+"path": "es/08793.mp3",
+"lang": "es"
+},
+{
+"text": "被雪覆盖的",
+"path": "zh/09444.mp3",
+"lang": "zh"
+},
+{
+"text": "copo de nieve",
+"path": "es/08794.mp3",
+"lang": "es"
+},
+{
+"text": "雪花",
+"path": "zh/09445.mp3",
+"lang": "zh"
+},
+{
+"text": "tormenta de nieve",
+"path": "es/08795.mp3",
+"lang": "es"
+},
+{
+"text": "暴风雪",
+"path": "zh/09446.mp3",
+"lang": "zh"
+},
+{
+"text": "montículo de nieve",
+"path": "es/08796.mp3",
+"lang": "es"
+},
+{
+"text": "雪堆",
+"path": "zh/09447.mp3",
 "lang": "zh"
 },
 {
@@ -53106,6 +53271,16 @@
 "lang": "zh"
 },
 {
+"text": "Todavía no se han derretido las nieves invernales.",
+"path": "es/08797.mp3",
+"lang": "es"
+},
+{
+"text": "冬雪还未消融。",
+"path": "zh/09448.mp3",
+"lang": "zh"
+},
+{
 "text": "¿Y si hacemos un muñeco de nieve?",
 "path": "es/04993.mp3",
 "lang": "es"
@@ -53141,13 +53316,23 @@
 "lang": "zh"
 },
 {
-"text": "aspersor",
-"path": "es/04996.mp3",
+"text": "planta de agua",
+"path": "es/08798.mp3",
+"lang": "es"
+},
+{
+"text": "自来水厂",
+"path": "zh/09449.mp3",
+"lang": "zh"
+},
+{
+"text": "regadera",
+"path": "es/08799.mp3",
 "lang": "es"
 },
 {
 "text": "洒水壶",
-"path": "zh/05562.mp3",
+"path": "zh/09450.mp3",
 "lang": "zh"
 },
 {
@@ -53156,13 +53341,43 @@
 "lang": "zh"
 },
 {
-"text": "presas",
-"path": "es/04997.mp3",
+"text": "nivel de agua",
+"path": "es/08800.mp3",
+"lang": "es"
+},
+{
+"text": "地下水位",
+"path": "zh/09451.mp3",
+"lang": "zh"
+},
+{
+"text": "agua dulce",
+"path": "es/08801.mp3",
+"lang": "es"
+},
+{
+"text": "淡水",
+"path": "zh/09452.mp3",
+"lang": "zh"
+},
+{
+"text": "agua de mar",
+"path": "es/08802.mp3",
+"lang": "es"
+},
+{
+"text": "海水",
+"path": "zh/09453.mp3",
+"lang": "zh"
+},
+{
+"text": "presa",
+"path": "es/08803.mp3",
 "lang": "es"
 },
 {
 "text": "水坝",
-"path": "zh/05564.mp3",
+"path": "zh/09454.mp3",
 "lang": "zh"
 },
 {
@@ -53186,6 +53401,16 @@
 "lang": "zh"
 },
 {
+"text": "murmurar",
+"path": "es/08804.mp3",
+"lang": "es"
+},
+{
+"text": "（流水）潺潺",
+"path": "zh/09455.mp3",
+"lang": "zh"
+},
+{
 "text": "saturar",
 "path": "es/04999.mp3",
 "lang": "es"
@@ -53206,7 +53431,7 @@
 "lang": "zh"
 },
 {
-"text": "En esa región falt a el agua.",
+"text": "En esa región falta el agua.",
 "path": "es/05001.mp3",
 "lang": "es"
 },
@@ -53261,6 +53486,16 @@
 "lang": "zh"
 },
 {
+"text": "anochecer",
+"path": "es/08805.mp3",
+"lang": "es"
+},
+{
+"text": "入夜，天黑，夜幕降临",
+"path": "zh/09456.mp3",
+"lang": "zh"
+},
+{
 "text": "atardecer",
 "path": "es/05006.mp3",
 "lang": "es"
@@ -53268,6 +53503,16 @@
 {
 "text": "时近傍晚",
 "path": "zh/05576.mp3",
+"lang": "zh"
+},
+{
+"text": "por la noche",
+"path": "es/08806.mp3",
+"lang": "es"
+},
+{
+"text": "晚上",
+"path": "zh/09457.mp3",
 "lang": "zh"
 },
 {
@@ -53296,8 +53541,33 @@
 "lang": "zh"
 },
 {
+"text": "oscuridad",
+"path": "es/08807.mp3",
+"lang": "es"
+},
+{
 "text": "黑暗",
-"path": "zh/05580.mp3",
+"path": "zh/09458.mp3",
+"lang": "zh"
+},
+{
+"text": "luz de luna",
+"path": "es/08808.mp3",
+"lang": "es"
+},
+{
+"text": "月光",
+"path": "zh/09459.mp3",
+"lang": "zh"
+},
+{
+"text": "ceguera nocturna",
+"path": "es/08809.mp3",
+"lang": "es"
+},
+{
+"text": "夜盲",
+"path": "zh/09460.mp3",
 "lang": "zh"
 },
 {
@@ -53316,6 +53586,16 @@
 "lang": "zh"
 },
 {
+"text": "clases nocturnas",
+"path": "es/08810.mp3",
+"lang": "es"
+},
+{
+"text": "夜校",
+"path": "zh/09461.mp3",
+"lang": "zh"
+},
+{
 "text": "nocturno",
 "path": "es/04613.mp3",
 "lang": "es"
@@ -53323,6 +53603,16 @@
 {
 "text": "夜间的",
 "path": "zh/05583.mp3",
+"lang": "zh"
+},
+{
+"text": "lámpara del camino",
+"path": "es/08811.mp3",
+"lang": "es"
+},
+{
+"text": "路灯",
+"path": "zh/09462.mp3",
 "lang": "zh"
 },
 {
@@ -53371,7 +53661,7 @@
 "lang": "zh"
 },
 {
-"text": "¡Qué tarde! Me tengo que ir.",
+"text": "¡Qué tarde! Me tengo que ir!",
 "path": "es/05015.mp3",
 "lang": "es"
 },
@@ -53411,7 +53701,7 @@
 "lang": "zh"
 },
 {
-"text": "Ayer anocheció despejado pero hoy ha amanecido lloviendo.",
+"text": "Ayer anocheció despejado, pero hoy ha amanecido lloviendo.",
 "path": "es/05019.mp3",
 "lang": "es"
 },
@@ -53476,13 +53766,43 @@
 "lang": "zh"
 },
 {
-"text": "disparar",
-"path": "es/05025.mp3",
+"text": "rama principal",
+"path": "es/08812.mp3",
+"lang": "es"
+},
+{
+"text": "主枝",
+"path": "zh/09463.mp3",
+"lang": "zh"
+},
+{
+"text": "árbol adolescente",
+"path": "es/08813.mp3",
+"lang": "es"
+},
+{
+"text": "幼树",
+"path": "zh/09464.mp3",
+"lang": "zh"
+},
+{
+"text": "corteza de árbol",
+"path": "es/08814.mp3",
+"lang": "es"
+},
+{
+"text": "树皮",
+"path": "zh/09465.mp3",
+"lang": "zh"
+},
+{
+"text": "talar",
+"path": "es/08815.mp3",
 "lang": "es"
 },
 {
 "text": "砍伐",
-"path": "zh/05599.mp3",
+"path": "zh/09466.mp3",
 "lang": "zh"
 },
 {
@@ -53503,6 +53823,16 @@
 {
 "text": "木材",
 "path": "zh/05602.mp3",
+"lang": "zh"
+},
+{
+"text": "hueco del árbol",
+"path": "es/08816.mp3",
+"lang": "es"
+},
+{
+"text": "树洞",
+"path": "zh/09467.mp3",
 "lang": "zh"
 },
 {
@@ -53576,13 +53906,13 @@
 "lang": "zh"
 },
 {
-"text": "rastreo",
-"path": "es/05032.mp3",
+"text": "reptante",
+"path": "es/08817.mp3",
 "lang": "es"
 },
 {
 "text": "爬行的",
-"path": "zh/05611.mp3",
+"path": "zh/09468.mp3",
 "lang": "zh"
 },
 {
@@ -53646,13 +53976,13 @@
 "lang": "zh"
 },
 {
-"text": "cascabel",
-"path": "es/05039.mp3",
+"text": "serpiente de cascabel",
+"path": "es/08818.mp3",
 "lang": "es"
 },
 {
 "text": "响尾蛇",
-"path": "zh/05618.mp3",
+"path": "zh/09469.mp3",
 "lang": "zh"
 },
 {
@@ -53686,8 +54016,13 @@
 "lang": "zh"
 },
 {
+"text": "gecko",
+"path": "es/08819.mp3",
+"lang": "es"
+},
+{
 "text": "壁虎",
-"path": "zh/05622.mp3",
+"path": "zh/09470.mp3",
 "lang": "zh"
 },
 {
@@ -53698,6 +54033,16 @@
 {
 "text": "蟾蜍",
 "path": "zh/05623.mp3",
+"lang": "zh"
+},
+{
+"text": "rana toro",
+"path": "es/08820.mp3",
+"lang": "es"
+},
+{
+"text": "牛蛙",
+"path": "zh/09471.mp3",
 "lang": "zh"
 },
 {
@@ -53746,7 +54091,7 @@
 "lang": "zh"
 },
 {
-"text": "El camaleón salió en-cantado, desde ese día, es el animal más feliz.",
+"text": "El camaleón salió encantado, desde ese día, es el animal más feliz.",
 "path": "es/05048.mp3",
 "lang": "es"
 },
@@ -53896,6 +54241,16 @@
 "lang": "zh"
 },
 {
+"text": "cacarear",
+"path": "es/08821.mp3",
+"lang": "es"
+},
+{
+"text": "喔喔叫",
+"path": "zh/09472.mp3",
+"lang": "zh"
+},
+{
 "text": "gallina",
 "path": "es/05062.mp3",
 "lang": "es"
@@ -53921,13 +54276,43 @@
 "lang": "zh"
 },
 {
-"text": "óvulo",
-"path": "es/05064.mp3",
+"text": "huevo",
+"path": "es/08822.mp3",
 "lang": "es"
 },
 {
 "text": "卵",
-"path": "zh/05648.mp3",
+"path": "zh/09473.mp3",
+"lang": "zh"
+},
+{
+"text": "cáscara de huevo",
+"path": "es/08823.mp3",
+"lang": "es"
+},
+{
+"text": "蛋壳",
+"path": "zh/09474.mp3",
+"lang": "zh"
+},
+{
+"text": "la clara de huevo",
+"path": "es/08824.mp3",
+"lang": "es"
+},
+{
+"text": "蛋清",
+"path": "zh/09475.mp3",
+"lang": "zh"
+},
+{
+"text": "yema de huevo",
+"path": "es/08825.mp3",
+"lang": "es"
+},
+{
+"text": "蛋黄",
+"path": "zh/09476.mp3",
 "lang": "zh"
 },
 {
@@ -53946,6 +54331,16 @@
 "lang": "zh"
 },
 {
+"text": "pato salvaje",
+"path": "es/08826.mp3",
+"lang": "es"
+},
+{
+"text": "野鸭",
+"path": "zh/09477.mp3",
+"lang": "zh"
+},
+{
 "text": "faisán",
 "path": "es/05066.mp3",
 "lang": "es"
@@ -53959,11 +54354,6 @@
 "text": "饲养",
 "path": "zh/05652.mp3",
 "lang": "zh"
-},
-{
-"text": "recaudar",
-"path": "es/04277.mp3",
-"lang": "es"
 },
 {
 "text": "饲料",
@@ -54001,13 +54391,13 @@
 "lang": "zh"
 },
 {
-"text": "La ave nacional de Francia es el gallo, que creen que es valiente y tiene endurecimiento.",
-"path": "es/05070.mp3",
+"text": "El ave nacional de Francia es el gallo, al que consideran valiente y tenaz.",
+"path": "es/08827.mp3",
 "lang": "es"
 },
 {
 "text": "法国的国鸟是公鸡，他们认为它是勇敢、顽强的直接化身。",
-"path": "zh/05657.mp3",
+"path": "zh/09478.mp3",
 "lang": "zh"
 },
 {
@@ -54021,13 +54411,13 @@
 "lang": "zh"
 },
 {
-"text": "Los huevos son muy alimenticios.",
-"path": "es/05072.mp3",
+"text": "Los huevos son muy nutritivos.",
+"path": "es/08828.mp3",
 "lang": "es"
 },
 {
 "text": "鸡蛋富有营养。",
-"path": "zh/05659.mp3",
+"path": "zh/09479.mp3",
 "lang": "zh"
 },
 {
@@ -54101,6 +54491,26 @@
 "lang": "zh"
 },
 {
+"text": "los animales acuáticos con conchas",
+"path": "es/08829.mp3",
+"lang": "es"
+},
+{
+"text": "水生有壳动物",
+"path": "zh/09480.mp3",
+"lang": "zh"
+},
+{
+"text": "célula",
+"path": "es/01894.mp3",
+"lang": "es"
+},
+{
+"text": "单细胞",
+"path": "zh/02005.mp3",
+"lang": "zh"
+},
+{
 "text": "microbio",
 "path": "es/05080.mp3",
 "lang": "es"
@@ -54121,13 +54531,13 @@
 "lang": "zh"
 },
 {
-"text": "antena",
-"path": "es/05082.mp3",
+"text": "tentáculo",
+"path": "es/08830.mp3",
 "lang": "es"
 },
 {
 "text": "吸盘触角",
-"path": "zh/05669.mp3",
+"path": "zh/09481.mp3",
 "lang": "zh"
 },
 {
@@ -54221,13 +54631,13 @@
 "lang": "zh"
 },
 {
-"text": "El otro día ví uno de sedas de araña que era maravilloso.",
-"path": "es/05091.mp3",
+"text": "El otro día vi una tela de araña que era maravillosa.",
+"path": "es/08831.mp3",
 "lang": "es"
 },
 {
 "text": "有一天我看到一张很美的蜘蛛网。",
-"path": "zh/05680.mp3",
+"path": "zh/09482.mp3",
 "lang": "zh"
 },
 {
@@ -54251,6 +54661,36 @@
 "lang": "zh"
 },
 {
+"text": "ropa de playa",
+"path": "es/08832.mp3",
+"lang": "es"
+},
+{
+"text": "海滩装",
+"path": "zh/09483.mp3",
+"lang": "zh"
+},
+{
+"text": "al mar",
+"path": "es/08833.mp3",
+"lang": "es"
+},
+{
+"text": "向海",
+"path": "zh/09484.mp3",
+"lang": "zh"
+},
+{
+"text": "costa de la playa",
+"path": "es/08834.mp3",
+"lang": "es"
+},
+{
+"text": "海岸",
+"path": "zh/09485.mp3",
+"lang": "zh"
+},
+{
 "text": "costera",
 "path": "es/05094.mp3",
 "lang": "es"
@@ -54258,6 +54698,16 @@
 {
 "text": "海边",
 "path": "zh/05683.mp3",
+"lang": "zh"
+},
+{
+"text": "el nivel de la mar",
+"path": "es/08835.mp3",
+"lang": "es"
+},
+{
+"text": "海平面",
+"path": "zh/09486.mp3",
 "lang": "zh"
 },
 {
@@ -54278,6 +54728,26 @@
 {
 "text": "海角",
 "path": "zh/05685.mp3",
+"lang": "zh"
+},
+{
+"text": "concha",
+"path": "es/08836.mp3",
+"lang": "es"
+},
+{
+"text": "贝壳",
+"path": "zh/09487.mp3",
+"lang": "zh"
+},
+{
+"text": "tomar el sol",
+"path": "es/08837.mp3",
+"lang": "es"
+},
+{
+"text": "日光浴",
+"path": "zh/09488.mp3",
 "lang": "zh"
 },
 {
@@ -54336,17 +54806,17 @@
 "lang": "es"
 },
 {
-"text": "Con cielo azul y mar de arena blanca, tiene un paisaje natural único. Las condiciones naturales contribuyen al de-sarrollo del turismo, y construcción de una playa internacional.",
-"path": "es/05103.mp3",
+"text": "Con cielo azul y mar de arena blanca, tiene un paisaje natural único. Las condiciones naturales contribuyen al desarrollo del turismo y a la construcción de una playa internacional.",
+"path": "es/08838.mp3",
 "lang": "es"
 },
 {
 "text": "具有得天独厚的蓝天碧海白沙的自然景观，具有开发旅游业，建设国际海滨浴场的天然条件。",
-"path": "zh/05692.mp3",
+"path": "zh/09489.mp3",
 "lang": "zh"
 },
 {
-"text": "El cabo — que habían pasado por su fin — debe estar conectado con el país.",
+"text": "El cabo —que habían pasado por su fin— debe estar conectado con el país.",
 "path": "es/05104.mp3",
 "lang": "es"
 },
@@ -54401,6 +54871,26 @@
 "lang": "zh"
 },
 {
+"text": "agencia de viajes",
+"path": "es/08839.mp3",
+"lang": "es"
+},
+{
+"text": "旅行社",
+"path": "zh/09490.mp3",
+"lang": "zh"
+},
+{
+"text": "alojarse",
+"path": "es/08840.mp3",
+"lang": "es"
+},
+{
+"text": "借宿",
+"path": "zh/09491.mp3",
+"lang": "zh"
+},
+{
 "text": "viajar",
 "path": "es/05109.mp3",
 "lang": "es"
@@ -54414,6 +54904,16 @@
 "text": "turismo",
 "path": "es/05110.mp3",
 "lang": "es"
+},
+{
+"text": "viajar en grupo",
+"path": "es/08841.mp3",
+"lang": "es"
+},
+{
+"text": "组团旅游",
+"path": "zh/09492.mp3",
+"lang": "zh"
 },
 {
 "text": "excursión",
@@ -54446,13 +54946,33 @@
 "lang": "zh"
 },
 {
-"text": "detener",
-"path": "es/05114.mp3",
+"text": "detenerse",
+"path": "es/08842.mp3",
 "lang": "es"
 },
 {
 "text": "停下",
-"path": "zh/05703.mp3",
+"path": "zh/09493.mp3",
+"lang": "zh"
+},
+{
+"text": "cheques de viajero",
+"path": "es/08843.mp3",
+"lang": "es"
+},
+{
+"text": "旅行支票",
+"path": "zh/09494.mp3",
+"lang": "zh"
+},
+{
+"text": "hacer excursión",
+"path": "es/08844.mp3",
+"lang": "es"
+},
+{
+"text": "闲逛",
+"path": "zh/09495.mp3",
 "lang": "zh"
 },
 {
@@ -54526,6 +55046,26 @@
 "lang": "zh"
 },
 {
+"text": "complejo turístico",
+"path": "es/08845.mp3",
+"lang": "es"
+},
+{
+"text": "度假胜地",
+"path": "zh/09496.mp3",
+"lang": "zh"
+},
+{
+"text": "parque nacional",
+"path": "es/08846.mp3",
+"lang": "es"
+},
+{
+"text": "国家公园",
+"path": "zh/09497.mp3",
+"lang": "zh"
+},
+{
 "text": "cueva",
 "path": "es/05122.mp3",
 "lang": "es"
@@ -54586,6 +55126,36 @@
 "lang": "zh"
 },
 {
+"text": "la Gran Muralla",
+"path": "es/08847.mp3",
+"lang": "es"
+},
+{
+"text": "长城",
+"path": "zh/09498.mp3",
+"lang": "zh"
+},
+{
+"text": "Ciudad Prohibida",
+"path": "es/08848.mp3",
+"lang": "es"
+},
+{
+"text": "紫禁城",
+"path": "zh/09499.mp3",
+"lang": "zh"
+},
+{
+"text": "el Templo del Cielo",
+"path": "es/08849.mp3",
+"lang": "es"
+},
+{
+"text": "天坛",
+"path": "zh/09500.mp3",
+"lang": "zh"
+},
+{
 "text": "palacio",
 "path": "es/05128.mp3",
 "lang": "es"
@@ -54593,6 +55163,26 @@
 {
 "text": "宫殿",
 "path": "zh/05717.mp3",
+"lang": "zh"
+},
+{
+"text": "Palacio de Verano",
+"path": "es/08850.mp3",
+"lang": "es"
+},
+{
+"text": "颐和园",
+"path": "zh/09501.mp3",
+"lang": "zh"
+},
+{
+"text": "Lago de Oeste",
+"path": "es/08851.mp3",
+"lang": "es"
+},
+{
+"text": "西湖",
+"path": "zh/09502.mp3",
 "lang": "zh"
 },
 {
@@ -54611,38 +55201,68 @@
 "lang": "zh"
 },
 {
-"text": "Si ves a un turista que está perdido, usted puede ir a ofrecer ayuda.",
-"path": "es/05130.mp3",
+"text": "Si ves a un turista que está perdido, puedes ir a ofrecerle ayuda.",
+"path": "es/08852.mp3",
 "lang": "es"
 },
 {
 "text": "如果您看到一位游客看似迷路了，您可以上前为其提供帮助。",
-"path": "zh/05718.mp3",
+"path": "zh/09503.mp3",
 "lang": "zh"
 },
 {
-"text": "Estamos en una cueva donde el aire no nos falta, de lo contrario, vientos nos alcanzan.",
-"path": "es/05131.mp3",
+"text": "Estamos en una cueva donde el aire no nos falta; de lo contrario, los vientos nos alcanzan.",
+"path": "es/08853.mp3",
 "lang": "es"
 },
 {
 "text": "我们现在是在一个类似洞穴的地方，并不缺空气，相反，倒是有些风吹在身上。",
-"path": "zh/05719.mp3",
+"path": "zh/09504.mp3",
 "lang": "zh"
 },
 {
-"text": "souvenir",
-"path": "es/05132.mp3",
+"text": "cuaderno de viaje",
+"path": "es/08854.mp3",
 "lang": "es"
 },
 {
-"text": "纪念品",
-"path": "zh/05720.mp3",
+"text": "游记",
+"path": "zh/09505.mp3",
+"lang": "zh"
+},
+{
+"text": "patrimonio cultural",
+"path": "es/08855.mp3",
+"lang": "es"
+},
+{
+"text": "文化遗产",
+"path": "zh/09506.mp3",
 "lang": "zh"
 },
 {
 "text": "风光",
 "path": "zh/05721.mp3",
+"lang": "zh"
+},
+{
+"text": "paisaje natural",
+"path": "es/08856.mp3",
+"lang": "es"
+},
+{
+"text": "自然景观",
+"path": "zh/09507.mp3",
+"lang": "zh"
+},
+{
+"text": "paisaje cultural",
+"path": "es/08857.mp3",
+"lang": "es"
+},
+{
+"text": "人文景观",
+"path": "zh/09508.mp3",
 "lang": "zh"
 },
 {
@@ -54653,6 +55273,36 @@
 {
 "text": "皇帝的",
 "path": "zh/05722.mp3",
+"lang": "zh"
+},
+{
+"text": "Plaza de Tian’anmen",
+"path": "es/08858.mp3",
+"lang": "es"
+},
+{
+"text": "天安门",
+"path": "zh/09509.mp3",
+"lang": "zh"
+},
+{
+"text": "la arquitectura del parque",
+"path": "es/08859.mp3",
+"lang": "es"
+},
+{
+"text": "园林建筑",
+"path": "zh/09510.mp3",
+"lang": "zh"
+},
+{
+"text": "utensilios de bronce",
+"path": "es/08860.mp3",
+"lang": "es"
+},
+{
+"text": "青铜器",
+"path": "zh/09511.mp3",
 "lang": "zh"
 },
 {
@@ -54726,6 +55376,16 @@
 "lang": "zh"
 },
 {
+"text": "río para proteger la ciudad",
+"path": "es/08861.mp3",
+"lang": "es"
+},
+{
+"text": "护城河",
+"path": "zh/09512.mp3",
+"lang": "zh"
+},
+{
 "text": "tirar",
 "path": "es/05141.mp3",
 "lang": "es"
@@ -54741,13 +55401,13 @@
 "lang": "zh"
 },
 {
-"text": "colapso",
-"path": "es/05142.mp3",
+"text": "derrumbe",
+"path": "es/08862.mp3",
 "lang": "es"
 },
 {
 "text": "倒塌",
-"path": "zh/05733.mp3",
+"path": "zh/09513.mp3",
 "lang": "zh"
 },
 {
@@ -54781,6 +55441,16 @@
 "lang": "zh"
 },
 {
+"text": "la cruz",
+"path": "es/08863.mp3",
+"lang": "es"
+},
+{
+"text": "十字架",
+"path": "zh/09514.mp3",
+"lang": "zh"
+},
+{
 "text": "santo",
 "path": "es/05145.mp3",
 "lang": "es"
@@ -54806,7 +55476,7 @@
 "lang": "zh"
 },
 {
-"text": "La confianza es como un castillo de arena, difícil de construir pero fácil de destruir.",
+"text": "La confianza es como un castillo de arena: difícil de construir, pero fácil de destruir.",
 "path": "es/05147.mp3",
 "lang": "es"
 },
@@ -54866,6 +55536,46 @@
 "lang": "zh"
 },
 {
+"text": "hacer un campamento",
+"path": "es/08864.mp3",
+"lang": "es"
+},
+{
+"text": "露营",
+"path": "zh/09515.mp3",
+"lang": "zh"
+},
+{
+"text": "campamento de vacaciones",
+"path": "es/08865.mp3",
+"lang": "es"
+},
+{
+"text": "度假营",
+"path": "zh/09516.mp3",
+"lang": "zh"
+},
+{
+"text": "los campistas",
+"path": "es/08866.mp3",
+"lang": "es"
+},
+{
+"text": "露营者",
+"path": "zh/09517.mp3",
+"lang": "zh"
+},
+{
+"text": "zona de cabaña",
+"path": "es/08867.mp3",
+"lang": "es"
+},
+{
+"text": "露营区",
+"path": "zh/09518.mp3",
+"lang": "zh"
+},
+{
 "text": "luciérnaga",
 "path": "es/05153.mp3",
 "lang": "es"
@@ -54878,6 +55588,36 @@
 {
 "text": "帐篷",
 "path": "zh/05747.mp3",
+"lang": "zh"
+},
+{
+"text": "construir una carpa",
+"path": "es/08868.mp3",
+"lang": "es"
+},
+{
+"text": "搭帐篷",
+"path": "zh/09519.mp3",
+"lang": "zh"
+},
+{
+"text": "saco de dormir",
+"path": "es/08869.mp3",
+"lang": "es"
+},
+{
+"text": "睡袋",
+"path": "zh/09520.mp3",
+"lang": "zh"
+},
+{
+"text": "estar despierto",
+"path": "es/08870.mp3",
+"lang": "es"
+},
+{
+"text": "醒着",
+"path": "zh/09521.mp3",
 "lang": "zh"
 },
 {
@@ -54936,6 +55676,16 @@
 "lang": "zh"
 },
 {
+"text": "contigo",
+"path": "es/08871.mp3",
+"lang": "es"
+},
+{
+"text": "和你在一起",
+"path": "zh/09522.mp3",
+"lang": "zh"
+},
+{
 "text": "Juan se encarga de llevar la carpa.",
 "path": "es/05160.mp3",
 "lang": "es"
@@ -54943,6 +55693,16 @@
 {
 "text": "胡安负责带帐篷。",
 "path": "zh/05755.mp3",
+"lang": "zh"
+},
+{
+"text": "Dejemos a los niños el desenlace de los paquetes.",
+"path": "es/08872.mp3",
+"lang": "es"
+},
+{
+"text": "让孩子们去打开包裹。",
+"path": "zh/09523.mp3",
 "lang": "zh"
 },
 {
@@ -54976,13 +55736,13 @@
 "lang": "zh"
 },
 {
-"text": "La pez dijo al agua: nunca te voy a dejar porque si no estuviera contigo yo nunca hubiera vivir.",
-"path": "es/05164.mp3",
+"text": "El pez le dijo al agua: nunca te voy a dejar, porque si no estuviera contigo yo nunca hubiera vivido.",
+"path": "es/08873.mp3",
 "lang": "es"
 },
 {
 "text": "鱼对水说：我永远不会离开你，因为离开你，我将无法生活。",
-"path": "zh/05759.mp3",
+"path": "zh/09524.mp3",
 "lang": "zh"
 },
 {
@@ -55011,6 +55771,16 @@
 "lang": "zh"
 },
 {
+"text": "anillo de enfoque",
+"path": "es/08874.mp3",
+"lang": "es"
+},
+{
+"text": "调焦圈",
+"path": "zh/09525.mp3",
+"lang": "zh"
+},
+{
 "text": "fotógrafo",
 "path": "es/05167.mp3",
 "lang": "es"
@@ -55023,16 +55793,6 @@
 {
 "text": "胶卷",
 "path": "zh/05764.mp3",
-"lang": "zh"
-},
-{
-"text": "exponer",
-"path": "es/05168.mp3",
-"lang": "es"
-},
-{
-"text": "曝光",
-"path": "zh/05765.mp3",
 "lang": "zh"
 },
 {
@@ -55054,6 +55814,11 @@
 "text": "背光的",
 "path": "zh/05767.mp3",
 "lang": "zh"
+},
+{
+"text": "disparar",
+"path": "es/05025.mp3",
+"lang": "es"
 },
 {
 "text": "拍摄",
@@ -55086,13 +55851,13 @@
 "lang": "es"
 },
 {
-"text": "Para un actor, la cámara es los ojos del público.",
-"path": "es/05173.mp3",
+"text": "Para un actor, la cámara son los ojos del público.",
+"path": "es/08875.mp3",
 "lang": "es"
 },
 {
 "text": "对演员来说，镜头就是观众的眼睛。",
-"path": "zh/05770.mp3",
+"path": "zh/09526.mp3",
 "lang": "zh"
 },
 {
@@ -55106,13 +55871,13 @@
 "lang": "zh"
 },
 {
-"text": "Le recomienda a tomar fotos de sus cosas preciosas, con el fin de protegerlas mejor.",
-"path": "es/05175.mp3",
+"text": "Le recomienda tomar fotos de sus cosas preciosas, con el fin de protegerlas mejor.",
+"path": "es/08876.mp3",
 "lang": "es"
 },
 {
 "text": "建议对自己的贵重物品一一拍照，以便更好地加以保护。",
-"path": "zh/05772.mp3",
+"path": "zh/09527.mp3",
 "lang": "zh"
 },
 {
@@ -55328,6 +56093,11 @@
 {
 "text": "无数的，极大的",
 "path": "zh/05794.mp3",
+"lang": "zh"
+},
+{
+"text": "纪念品",
+"path": "zh/05720.mp3",
 "lang": "zh"
 },
 {
@@ -73093,16 +73863,6 @@
 {
 "text": "红血球",
 "path": "zh/02004.mp3",
-"lang": "zh"
-},
-{
-"text": "célula",
-"path": "es/01894.mp3",
-"lang": "es"
-},
-{
-"text": "细胞",
-"path": "zh/02005.mp3",
 "lang": "zh"
 },
 {

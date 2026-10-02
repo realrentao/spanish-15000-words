@@ -1669,7 +1669,267 @@ G32 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32}
+G33 = {
+ "name": "旅行",
+ "raw": "_tools/parte33_raw.txt",
+ "typo": {
+   "falt a": "falta",                          # falt a el agua（词内空格）
+   "gobiernoertain": "gobierno",       # stray 串（我改回脚本误插）
+ },
+ "fix": {
+   # ---- Sec1 地球
+   # ---- Sec2 大海
+   # ---- Sec3 天气气候
+   # ---- Sec4 风
+   # ---- Sec5 雨
+   # ---- Sec7 水
+   ("水坝", "presas"): "presa",                # presas=复数（水坝群）；单数 presa
+   ("洒水壶", "aspersor"): "regadera",
+   # ---- Sec8 夜晚
+   ("黑暗", "negro"): "oscuridad",             # negro=黑色的（形）；黑暗=oscuridad
+   ("雷", "trueno"): "trueno",
+   # ---- Sec9 植物
+   ("砍伐", "disparar"): "talar",              # disparar=射击/开火
+   ("树洞", "huecos de los árboles"): "hueco del árbol",
+   # ---- Sec10 爬行动物
+   ("爬行的", "rastreo"): "reptante",          # rastreo=追踪/痕迹
+   ("壁虎", "lagarto"): "gecko",               # 壁虎=gecko（蜥蜴是 lagarto）
+   ("响尾蛇", "cascabel"): "serpiente de cascabel",
+   # ---- Sec12 鸟类
+   ("喔喔叫", "cacareando"): "cacarear",       # cacareando=正在叫（副词）
+   ("卵", "óvulo"): "huevo",                   # óvulo=卵子（生理学）；鸟卵=huevo
+   ("喂养", "recaudar"): "alimentar",          # recaudar=征收
+   # ---- Sec13 其他动物
+   ("吸盘触角", "antena"): "tentáculo",        # antena=天线
+   ("单细胞", "célula sola"): "célula",        # «单细胞»=célula（单数即可）
+   # ---- Sec14 海滩
+   ("贝壳", "cáscara"): "concha",              # cáscara=外壳；贝壳=concha
+   # ---- Sec15 旅行
+   ("借宿", "pasar la noche con"): "alojarse",
+   ("停下", "detener"): "detenerse",
+   # ---- Sec16 旅游景点
+   # ---- Sec17 旅游景点（2）
+   ("纪念品", "souvenir"): "recuerdo",         # souvenir=法语音译，西语用 recuerdo
+   ("洞穴", "agujero"): "cueva",               # agujero=洞眼
+   # ---- Sec18 城堡教堂
+   ("倒塌", "colapso"): "derrumbe",            # colapso=崩溃
+   # ---- Sec19 露营
+   # ---- Sec20 相机
+   ("曝光", "exponer"): "exposición",          # 中文是名词「曝光」
+ },
+ "pos": {
+   # Sec1
+   ("世界", "mundo"): "n.m.",
+   ("世界的", "global"): "adj.",
+   ("大洲", "continente"): "n.m.",
+   ("欧洲", "Europa"): "n.f.",
+   ("亚洲", "Asia"): "n.f.",
+   ("非洲", "África"): "n.f.",
+   ("大洋洲", "Oceanía"): "n.f.",
+   ("南极洲", "Continente Antártico"): "n.m.",
+   # Sec2
+   ("海", "mar"): "n.m.",
+   ("海湾", "golfo"): "n.m.",
+   ("洋流", "corriente"): "n.f.",
+   # Sec3
+   ("天气", "tiempo"): "n.m.",
+   ("气候", "clima"): "n.m.",
+   # Sec4
+   ("风", "viento"): "n.m.",
+   ("速度", "velocidad"): "n.f.",
+   ("吹", "soplar"): "v.i.",
+   ("旋风", "torbellino"): "n.m.",
+   ("台风", "tifón"): "n.m.",
+   ("龙卷风", "tornado"): "n.m.",
+   ("飓风", "huracán"): "n.m.",
+   # Sec5
+   ("雨", "lluvia"): "n.f.",
+   ("水汽", "vapor"): "n.m.",
+   ("云", "nube"): "n.f.",
+   ("凝结", "condensación"): "n.f.",
+   # Sec6
+   ("雪", "nieve"): "n.f.",
+   ("雾", "niebla"): "n.f.",
+   ("烟雾", "humo"): "n.m.",
+   ("灰尘", "polvo"): "n.m.",
+   ("雪白的", "blanco"): "adj.",
+   # Sec7
+   ("水", "agua"): "n.f.",
+   ("雪糕", "helado"): "n.m.",
+   ("供应", "suministro"): "n.m.",
+   # Sec8
+   ("夜晚，夜间", "noche"): "n.f.",
+   ("闪电", "relámpago"): "n.m.",
+   ("雷", "trueno"): "n.m.",
+   ("黑暗", "oscuridad"): "n.f.",
+   ("噩梦", "pesadilla"): "n.f.",
+   # Sec9
+   ("植物", "planta"): "n.f.",
+   ("光", "luz"): "n.f.",
+   ("细枝", "ramita"): "n.f.",
+   ("年轮", "anillo"): "n.m.",
+   ("木材", "madera"): "n.f.",
+   ("阴凉处", "sombra"): "n.f.",
+   ("砍伐", "talar"): "v.t.",
+   # Sec10
+   ("爬行动物", "reptil"): "n.m.",
+   ("爬行的", "reptante"): "adj.",
+   ("乌龟", "tortuga"): "n.f.",
+   ("蛇", "serpiente"): "n.f.",
+   ("蟒蛇", "boa"): "n.f.",
+   ("眼镜蛇", "naja"): "n.f.",
+   ("壁虎", "gecko"): "n.m.",
+   ("蟾蜍", "sapo"): "n.m.",
+   ("蜗牛", "caracol"): "n.m.",
+   ("壳", "caparazón"): "n.m.",
+   ("血清", "suero"): "n.m.",
+   # Sec11
+   ("哺乳动物", "mamífero"): "n.m.",
+   ("胚胎", "embrión"): "n.m.",
+   # Sec12
+   ("卵", "huevo"): "n.m.",
+   ("下蛋", "oviposición"): "n.f.",
+   ("喂养", "alimentar"): "v.t.",
+   ("饲养", "alimentar"): "v.t.",
+   # Sec13
+   ("蜘蛛", "araña"): "n.f.",
+   ("蛛网", "telaraña"): "n.f.",
+   ("吸盘触角", "tentáculo"): "n.m.",
+   ("微生物", "microbio"): "n.m.",
+   # Sec14
+   ("沙滩", "playa"): "n.f.",
+   ("海角", "promontorio"): "n.m.",
+   ("海堤", "malecón"): "n.m.",
+   ("浪尖", "cresta"): "n.f.",
+   ("比基尼", "bikini"): "n.m.",
+   ("太阳伞", "sombrilla"): "n.f.",
+   ("遮篷", "toldo"): "n.m.",
+   ("贝壳", "concha"): "n.f.",
+   # Sec15
+   ("旅行者", "pasajero"): "n.m.",
+   ("路线", "itinerario"): "n.m.",
+   ("探险", "explorar"): "v.t.",
+   # Sec16
+   ("旅游者", "turista"): "n.m.",
+   ("避暑胜地", "veraneo"): "n.m.",
+   ("宫殿", "palacio"): "n.m.",
+   ("祭坛", "altar"): "n.m.",
+   ("铭文", "epígrafe"): "n.m.",
+   ("石笋", "estalagmita"): "n.f.",
+   ("钟乳石", "estalactita"): "n.f.",
+   ("地点", "ubicación"): "n.f.",
+   ("洞穴", "cueva"): "n.f.",
+   # Sec17
+   ("纪念品", "recuerdo"): "n.m.",
+   ("风光", "paisaje"): "n.m.",
+   ("洞穴", "agujero"): "n.m.",
+   ("皇帝的", "imperial"): "adj.",
+   # Sec18
+   ("城堡", "castillo"): "n.m.",
+   ("废墟", "ruina"): "n.f.",
+   ("教堂", "iglesia"): "n.f.",
+   ("小教堂", "capilla"): "n.f.",
+   ("庙宇", "templo"): "n.m.",
+   ("圣象", "santo"): "n.m.",
+   ("攻击", "ataque"): "n.m.",
+   ("宏伟的", "gigantesco"): "adj.",
+   # Sec19
+   ("萤火", "luciérnaga"): "n.f.",
+   ("帐篷", "carpa"): "n.f.",
+   ("背包", "paquete"): "n.m.",
+   ("吊床", "hamaca"): "n.f.",
+   ("钻孔", "perforación"): "n.f.",
+   ("存活", "sobrevivir"): "v.i.",
+   ("生活，生存", "vivir"): "v.i.",
+   # Sec20
+   ("相机", "cámara"): "n.f.",
+   ("照片", "fotografía"): "n.f.",
+   ("照片", "foto"): "n.f.",
+   ("取景器", "visor"): "n.m.",
+   ("摄影师", "fotógrafo"): "n.m.",
+   ("胶卷", "película"): "n.f.",
+   ("快门", "obturador"): "n.m.",
+   ("三脚架", "trípode"): "n.m.",
+   ("曝光", "exposición"): "n.f.",
+ },
+ "subs": [
+   # Sec1 直引号 -> 西语规范；Africa 缺重音
+   ("El llamado “clima” no existe, y el calor abrasador se extiende a toda la superficie del globo, igual al ecuador y los polos",
+    "El llamado «clima» no existe, y el calor abrasador se extiende a toda la superficie del globo, igual que en el ecuador y en los polos"),
+   ("El arte de vivir. La vida es una cosa maravillosa; como una belleza luz en esta tierra",
+    "El arte de vivir: la vida es una cosa maravillosa, como una luz hermosa sobre esta tierra"),
+   ("Africa es un continente de perfil sólido",
+    "África es un continente de perfil sólido"),
+   ("Beijing se encuentra a 116 grados de longitud este",
+    "Pekín se encuentra a 116 grados de longitud este"),
+   ("El gobiernoertain alerted a la población de la llegada de un huracán",
+    "El gobierno alerted a la población de la llegada de un huracán"),
+   # Sec2
+   ("Durante años, el mar ha provocado repulsión. No fue hasta mediados del siglo XVIII que comenzó a nacer el anhelo por la mar",
+    "Durante años, el mar ha provocado repulsión. No fue hasta mediados del siglo XVIII cuando comenzó a nacer el anhelo por la mar"),
+   # Sec3
+   ("Ablandan los fríos",
+    "Se ablandan los fríos"),
+   # Sec4
+   ("La salida de las hojas, .a causa del viento persistente, o que los árboles no recuerdan?",
+    "¿La salida de las hojas es a causa del viento persistente, o es que los árboles no recuerdan?"),
+   # Sec5
+   ("La tormenta va de vencido",
+    "La tormenta va a pasar"),
+   # Sec6
+   (".Y si hacemos un muñeco de nieve?",
+    "¿Y si hacemos un muñeco de nieve?"),
+   # Sec7
+   # Sec8
+   ("Amanece tarde invierno",
+    "Amanece tarde en invierno"),
+   ("Qué tarde! Me tengo que ir.",
+    "¡Qué tarde! Me tengo que ir!"),
+   ("Ayer anocheció despejado pero hoy ha amanecido lloviendo",
+    "Ayer anocheció despejado, pero hoy ha amanecido lloviendo"),
+   # Sec9
+   # Sec10
+   # Sec12
+   ("La ave nacional de Francia es el gallo, que creen que es valiente y tiene endurecimiento",
+    "El ave nacional de Francia es el gallo, al que consideran valiente y tenaz"),
+   ("Los huevos son muy alimenticios",
+    "Los huevos son muy nutritivos"),
+   # Sec13
+   ("El otro día ví uno de sedas de araña que era maravilloso",
+    "El otro día vi una tela de araña que era maravillosa"),
+   # Sec14
+   ("Con cielo azul y mar de arena blanca, tiene un paisaje natural único. Las condiciones naturales contribuyen al desarrollo del turismo, y construcción de una playa internacional",
+    "Con cielo azul y mar de arena blanca, tiene un paisaje natural único. Las condiciones naturales contribuyen al desarrollo del turismo y a la construcción de una playa internacional"),
+   ("El cabo — que habían pasado por su fin — debe estar conectado con el país",
+    "El cabo —que habían pasado por su fin— debe estar conectado con el país"),
+   # Sec15
+   ("Queremos viajar a Europa algún día",
+    "Quiero viajar a Europa algún día"),
+   # Sec16
+   ("Si ves a un turista que está perdido, usted puede ir a ofrecer ayuda",
+    "Si ves a un turista que está perdido, puedes ir a ofrecerle ayuda"),
+   ("Estamos en una cueva donde el aire no nos falta, de lo contrario, vientos nos alcanzan",
+    "Estamos en una cueva donde el aire no nos falta; de lo contrario, los vientos nos alcanzan"),
+   # Sec17
+   # Sec18
+   ("La confianza es como un castillo de arena, difícil de construir pero fácil de destruir",
+    "La confianza es como un castillo de arena: difícil de construir, pero fácil de destruir"),
+   # Sec19
+   ("La pez dijo al agua: nunca te voy a dejar porque si no estuviera contigo yo nunca hubiera vivir",
+    "El pez le dijo al agua: nunca te voy a dejar, porque si no estuviera contigo yo nunca hubiera vivido"),
+   # Sec20
+   ("Para un actor, la cámara es los ojos del público",
+    "Para un actor, la cámara son los ojos del público"),
+   ("Le recomienda a tomar fotos de sus cosas preciosas, con el fin de protegerlas mejor",
+    "Le recomienda tomar fotos de sus cosas preciosas, con el fin de protegerlas mejor"),
+ ],
+ "zh_subs": [
+   # Sec10 「我却被癞蛤蟆缠住了」——原文 Consigues un príncipe（你得到王子）
+   # Sec13 「热度帮助人体杀死入侵的细菌」——原文 La fiebre（发烧）帮助身体 destroy 微生物
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
