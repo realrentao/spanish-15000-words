@@ -2463,7 +2463,68 @@ G37 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37}
+G38 = {
+ "name": "传媒",
+ "raw": "_tools/parte38_raw.txt",
+ "typo": {
+   "comprobadia": "comprobada",           # OCR：i->a
+   "celebrá ": "celebrará ",              # 缺 r（原文 accents 乱）
+   "pe-riodista": "periodista",           # 断行
+   "ac-triz": "actriz",                   # 断行
+   "im-portante": "importante",           # 断行
+   "comuni-cación": "comunicación",      # 断行
+   "éso": "eso",                          # RAE：éso 已废，改 eso
+   "internet": "Internet",                # 专名大写
+ },
+ "fix": {
+   # ---- Sec1 不同媒介
+   ("传播", "extender"): "difundir",       # extender=延伸；传播=difundir
+   # ---- Sec2 记者招待会
+   ("召开", "llamar"): "convocar",         #召集/召开=convocar；llamar=叫
+ },
+ "pos": {
+   # Sec1
+   ("大众传播媒介", "medio"): "n.m.",
+   ("名人", "celebridad"): "n.f.",
+   ("报道", "informe"): "n.m.",
+   ("收音机", "radio"): "n.f.",
+   ("新闻界", "periodismo"): "n.m.",
+   ("记者", "periodista"): "n.m.",
+   ("日报", "diario"): "n.m.",
+   ("独有的", "exclusivo"): "adj.",
+   ("新闻报道", "noticia"): "n.f.",
+   ("传播", "difundir"): "v.t.",
+   ("散步", "caminar"): "v.pr.",
+   # Sec2
+   ("发言人，代言人", "portavoz"): "n.m.",
+   ("新闻记者", "periodista"): "n.m.",
+   ("罢工", "huelga"): "n.f.",
+   ("澄清", "aclaración"): "n.f.",
+   ("谣言，传闻", "rumor"): "n.m.",
+   ("荒谬的", "absurdo"): "adj.",
+   ("结束", "acabado"): "adj.",
+   ("召开", "convocar"): "v.t.",
+   ("扰乱", "confundir"): "v.t.",
+ },
+ "subs": [
+   # Sec1 首句：原句是「各自不择手段地维护各自国家利益」的结构，缺逻辑连接
+   ("Salvaguardar los intereses de sus respectivos países sin escrúpulos, para la gente de los medios, eso es el más importante",
+    "Salvaguardar los intereses de sus respectivos países sin escrúpulos es, para la gente de los medios, lo más importante"),
+   # Sec1 次句：单复一致 + 动词用法
+   ("una gran cantidad de información y una nueva forma de vida serán capaz de propagarse por Internet por todo el mundo",
+    "una gran cantidad de información y una nueva forma de vida serán capaces de propagarse por Internet por todo el mundo"),
+   # Sec1 谚语
+   # Sec2
+   ("El actor celebrá una rueda de prensa en poco tiempo",
+    "El actor celebrará una rueda de prensa dentro de poco"),
+ ],
+ "zh_subs": [
+   # Sec1 中文「他成为了他从小就想当的新闻工作者」— 原文ewspaper（报纸）
+   ("他成为了他从小就想当的新闻工作者。", "他投身于那份从童年起就让他热爱的新闻事业。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

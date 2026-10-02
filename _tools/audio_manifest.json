@@ -62186,6 +62186,16 @@
 "lang": "zh"
 },
 {
+"text": "medios de comunicación",
+"path": "es/09239.mp3",
+"lang": "es"
+},
+{
+"text": "媒介",
+"path": "zh/09890.mp3",
+"lang": "zh"
+},
+{
 "text": "报道",
 "path": "zh/06246.mp3",
 "lang": "zh"
@@ -62203,6 +62213,36 @@
 {
 "text": "独有的",
 "path": "zh/06247.mp3",
+"lang": "zh"
+},
+{
+"text": "noticia especial",
+"path": "es/09240.mp3",
+"lang": "es"
+},
+{
+"text": "特讯",
+"path": "zh/09891.mp3",
+"lang": "zh"
+},
+{
+"text": "número extra",
+"path": "es/09241.mp3",
+"lang": "es"
+},
+{
+"text": "号外",
+"path": "zh/09892.mp3",
+"lang": "zh"
+},
+{
+"text": "difundir",
+"path": "es/09242.mp3",
+"lang": "es"
+},
+{
+"text": "传播",
+"path": "zh/09893.mp3",
 "lang": "zh"
 },
 {
@@ -62241,23 +62281,23 @@
 "lang": "zh"
 },
 {
-"text": "Salvaguardar los intereses de sus respectivos países sin escrúpulos, para la gente de los medios, éso es el más importante.",
-"path": "es/05569.mp3",
+"text": "Salvaguardar los intereses de sus respectivos países sin escrúpulos es, para la gente de los medios, lo más importante.",
+"path": "es/09243.mp3",
 "lang": "es"
 },
 {
 "text": "各自不择手段的维护各自国家的利益，这对媒体人来说，才是最重要的。",
-"path": "zh/06253.mp3",
+"path": "zh/09894.mp3",
 "lang": "zh"
 },
 {
-"text": "En sólo unas horas, una gran cantidad de información y una nueva forma de vida serán capaz de propagarse por internet por todo el mundo.",
-"path": "es/05570.mp3",
+"text": "En sólo unas horas, una gran cantidad de información y una nueva forma de vida serán capaces de propagarse por Internet por todo el mundo.",
+"path": "es/09244.mp3",
 "lang": "es"
 },
 {
 "text": "仅仅在几小时之内，大量的信息和新的生活方式便能由互联网传播至世界各地。",
-"path": "zh/06254.mp3",
+"path": "zh/09895.mp3",
 "lang": "zh"
 },
 {
@@ -62266,7 +62306,7 @@
 "lang": "es"
 },
 {
-"text": "他成为了他从小就想当的新闻工作者。",
+"text": "他投身于那份从童年起就让他热爱的新闻事业。",
 "path": "zh/06255.mp3",
 "lang": "zh"
 },
@@ -62281,13 +62321,23 @@
 "lang": "zh"
 },
 {
-"text": "Esta noticia merece ser comprobadia.",
-"path": "es/05573.mp3",
+"text": "Esta noticia merece ser comprobada.",
+"path": "es/09245.mp3",
 "lang": "es"
 },
 {
 "text": "这个消息需要证实。",
-"path": "zh/06257.mp3",
+"path": "zh/09896.mp3",
+"lang": "zh"
+},
+{
+"text": "rueda de prensa",
+"path": "es/09246.mp3",
+"lang": "es"
+},
+{
+"text": "记者招待会",
+"path": "zh/09897.mp3",
 "lang": "zh"
 },
 {
@@ -62311,6 +62361,16 @@
 "lang": "zh"
 },
 {
+"text": "nota oficial",
+"path": "es/09247.mp3",
+"lang": "es"
+},
+{
+"text": "正式照会",
+"path": "zh/09898.mp3",
+"lang": "zh"
+},
+{
 "text": "aclaración",
 "path": "es/05575.mp3",
 "lang": "es"
@@ -62318,6 +62378,16 @@
 {
 "text": "澄清",
 "path": "zh/06261.mp3",
+"lang": "zh"
+},
+{
+"text": "rumor",
+"path": "es/09248.mp3",
+"lang": "es"
+},
+{
+"text": "谣言，传闻",
+"path": "zh/09899.mp3",
 "lang": "zh"
 },
 {
@@ -62341,14 +62411,39 @@
 "lang": "zh"
 },
 {
+"text": "convocar",
+"path": "es/09249.mp3",
+"lang": "es"
+},
+{
 "text": "召开",
-"path": "zh/06264.mp3",
+"path": "zh/09900.mp3",
 "lang": "zh"
 },
 {
 "text": "acabado",
 "path": "es/05578.mp3",
 "lang": "es"
+},
+{
+"text": "oficialmente anunciar",
+"path": "es/09250.mp3",
+"lang": "es"
+},
+{
+"text": "正式宣布",
+"path": "zh/09901.mp3",
+"lang": "zh"
+},
+{
+"text": "los que causan problemas",
+"path": "es/09251.mp3",
+"lang": "es"
+},
+{
+"text": "搞乱的人",
+"path": "zh/09902.mp3",
+"lang": "zh"
 },
 {
 "text": "declaración",
@@ -62391,13 +62486,13 @@
 "lang": "zh"
 },
 {
-"text": "El actor celebrá una rueda de prensa en poco tiempo.",
-"path": "es/05582.mp3",
+"text": "El actor celebrará una rueda de prensa en poco tiempo.",
+"path": "es/09253.mp3",
 "lang": "es"
 },
 {
 "text": "短时间内这个演员将会召开一次记者招待会。",
-"path": "zh/06269.mp3",
+"path": "zh/09904.mp3",
 "lang": "zh"
 },
 {
