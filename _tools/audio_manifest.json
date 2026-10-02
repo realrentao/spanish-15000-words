@@ -25696,13 +25696,13 @@
 "lang": "zh"
 },
 {
-"text": "fugaz",
-"path": "es/03328.mp3",
+"text": "estrella fugaz",
+"path": "es/07524.mp3",
 "lang": "es"
 },
 {
-"text": "流星 estrella",
-"path": "zh/03621.mp3",
+"text": "流星",
+"path": "zh/08175.mp3",
 "lang": "zh"
 },
 {
@@ -25721,23 +25721,23 @@
 "lang": "zh"
 },
 {
-"text": "La selección natural, la supervivencia del más apto es la ley de la naturaleza y es eterna.",
-"path": "es/03330.mp3",
+"text": "La selección natural, es decir, la supervivencia del más apto, es una ley de la naturaleza que es eterna.",
+"path": "es/07525.mp3",
 "lang": "es"
 },
 {
 "text": "物竞天择，适者生存是大自然亘古不变的规律。",
-"path": "zh/03624.mp3",
+"path": "zh/08176.mp3",
 "lang": "zh"
 },
 {
-"text": "El Principíto miró a su alrededor para sentarse, pero el planeta entero estaba lleno de hermoso manto armiño. Permaneció de pie, y como estaba cansado, bostezó.",
-"path": "es/03331.mp3",
+"text": "El Principito miró a su alrededor para sentarse, pero el planeta entero estaba cubierto de un hermoso manto armiñado. Permaneció de pie y, como estaba cansado, bostezó.",
+"path": "es/07526.mp3",
 "lang": "es"
 },
 {
 "text": "小王子看看四周，想找个地方坐下来，可是整个星球被国王华丽的白底黑花皮袍占满了。他只好站在那里，但是因为疲倦了，他打起哈欠来。",
-"path": "zh/03625.mp3",
+"path": "zh/08177.mp3",
 "lang": "zh"
 },
 {
@@ -25751,7 +25751,7 @@
 "lang": "zh"
 },
 {
-"text": "Es una operación matemá-tica sencilla.",
+"text": "Es una operación matemática sencilla.",
 "path": "es/03333.mp3",
 "lang": "es"
 },
@@ -25791,6 +25791,16 @@
 "lang": "zh"
 },
 {
+"text": "corriente eléctrica",
+"path": "es/07527.mp3",
+"lang": "es"
+},
+{
+"text": "电流",
+"path": "zh/08178.mp3",
+"lang": "zh"
+},
+{
 "text": "electricidad",
 "path": "es/03337.mp3",
 "lang": "es"
@@ -25798,6 +25808,16 @@
 {
 "text": "电",
 "path": "zh/03631.mp3",
+"lang": "zh"
+},
+{
+"text": "electricista",
+"path": "es/07528.mp3",
+"lang": "es"
+},
+{
+"text": "电学家",
+"path": "zh/08179.mp3",
 "lang": "zh"
 },
 {
@@ -25821,13 +25841,33 @@
 "lang": "zh"
 },
 {
-"text": "electrofilia",
-"path": "es/03340.mp3",
+"text": "aficionado a la electrónica",
+"path": "es/07529.mp3",
 "lang": "es"
 },
 {
 "text": "电子爱好者",
-"path": "zh/03634.mp3",
+"path": "zh/08180.mp3",
+"lang": "zh"
+},
+{
+"text": "electrón positivo",
+"path": "es/07530.mp3",
+"lang": "es"
+},
+{
+"text": "正电子",
+"path": "zh/08181.mp3",
+"lang": "zh"
+},
+{
+"text": "cantidad de electricidad",
+"path": "es/07531.mp3",
+"lang": "es"
+},
+{
+"text": "电量",
+"path": "zh/08182.mp3",
 "lang": "zh"
 },
 {
@@ -25851,13 +25891,13 @@
 "lang": "zh"
 },
 {
-"text": "tensión",
-"path": "es/03343.mp3",
+"text": "voltaje",
+"path": "es/07532.mp3",
 "lang": "es"
 },
 {
 "text": "电压",
-"path": "zh/03637.mp3",
+"path": "zh/08183.mp3",
 "lang": "zh"
 },
 {
@@ -25871,13 +25911,13 @@
 "lang": "zh"
 },
 {
-"text": "capacitancia",
-"path": "es/03345.mp3",
+"text": "capacidad",
+"path": "es/04835.mp3",
 "lang": "es"
 },
 {
 "text": "电容",
-"path": "zh/03639.mp3",
+"path": "zh/05362.mp3",
 "lang": "zh"
 },
 {
@@ -25976,13 +26016,13 @@
 "lang": "zh"
 },
 {
-"text": "En la ciudad más afectada por el terremoto, la electricidad de algunos edificios ha sido recuperado. Algunos sistemas se han establecido, pero los residentes todavía tendrán que esperar órdenes.",
-"path": "es/03354.mp3",
+"text": "En la ciudad más afectada por el terremoto, la electricidad de algunos edificios se ha restablecido. Algunos sistemas se han establecido, pero los residentes todavía tendrán que esperar órdenes.",
+"path": "es/07533.mp3",
 "lang": "es"
 },
 {
 "text": "在受地震影响最大的城市，一些楼房的供电已经恢复。一些制度已经建立，但是居民仍旧需要听候命令。",
-"path": "zh/03650.mp3",
+"path": "zh/08184.mp3",
 "lang": "zh"
 },
 {
@@ -26006,13 +26046,13 @@
 "lang": "zh"
 },
 {
-"text": "El descubrimiento de la luz eléctrica fue un gran adelanto.",
-"path": "es/03357.mp3",
+"text": "La invención de la bombilla fue un gran adelanto.",
+"path": "es/07534.mp3",
 "lang": "es"
 },
 {
 "text": "电灯的发明是一个很大的进步。",
-"path": "zh/03653.mp3",
+"path": "zh/08185.mp3",
 "lang": "zh"
 },
 {
@@ -26091,6 +26131,36 @@
 "lang": "zh"
 },
 {
+"text": "ángulo agudo",
+"path": "es/07535.mp3",
+"lang": "es"
+},
+{
+"text": "锐角",
+"path": "zh/08186.mp3",
+"lang": "zh"
+},
+{
+"text": "ángulo obtuso",
+"path": "es/07536.mp3",
+"lang": "es"
+},
+{
+"text": "钝角",
+"path": "zh/08187.mp3",
+"lang": "zh"
+},
+{
+"text": "triángulo rectángulo",
+"path": "es/07537.mp3",
+"lang": "es"
+},
+{
+"text": "直角三角形",
+"path": "zh/08188.mp3",
+"lang": "zh"
+},
+{
 "text": "isósceles",
 "path": "es/03364.mp3",
 "lang": "es"
@@ -26111,8 +26181,8 @@
 "lang": "zh"
 },
 {
-"text": "borde",
-"path": "es/03366.mp3",
+"text": "lado",
+"path": "es/07061.mp3",
 "lang": "es"
 },
 {
@@ -26131,13 +26201,13 @@
 "lang": "zh"
 },
 {
-"text": "centro",
-"path": "es/03368.mp3",
+"text": "punto medio",
+"path": "es/07538.mp3",
 "lang": "es"
 },
 {
 "text": "中点",
-"path": "zh/03665.mp3",
+"path": "zh/08189.mp3",
 "lang": "zh"
 },
 {
@@ -26211,23 +26281,23 @@
 "lang": "zh"
 },
 {
-"text": "El trono de la cúbica nos informa de que el emperador gobierna un mundo material. Cuatro es la señal de estabilidad, siendo el número de un mundo finito.",
-"path": "es/03376.mp3",
+"text": "El trono de la cúbica nos informa de que el emperador gobierna un mundo material. El cuatro es la señal de estabilidad, el número de un mundo finito.",
+"path": "es/07539.mp3",
 "lang": "es"
 },
 {
 "text": "王座是正方形的，这告诉我们皇帝所统治的是一个物质的世界。四，象征稳定，这个数代表有穷的世界。",
-"path": "zh/03673.mp3",
+"path": "zh/08190.mp3",
 "lang": "zh"
 },
 {
-"text": "Es un triángulo rectángulo, y mantener el mismo triángulo.",
-"path": "es/03377.mp3",
+"text": "Es un triángulo rectángulo y hay que mantenerlo igual.",
+"path": "es/07540.mp3",
 "lang": "es"
 },
 {
 "text": "正好是一个直角三角形，而且维持这个三角形不变。",
-"path": "zh/03674.mp3",
+"path": "zh/08191.mp3",
 "lang": "zh"
 },
 {
@@ -26271,13 +26341,33 @@
 "lang": "es"
 },
 {
-"text": "puntuacion",
-"path": "es/03382.mp3",
+"text": "puntuación",
+"path": "es/07541.mp3",
 "lang": "es"
 },
 {
 "text": "标点",
-"path": "zh/03679.mp3",
+"path": "zh/08192.mp3",
+"lang": "zh"
+},
+{
+"text": "caracteres algebraicos",
+"path": "es/07542.mp3",
+"lang": "es"
+},
+{
+"text": "代数符号",
+"path": "zh/08193.mp3",
+"lang": "zh"
+},
+{
+"text": "conjunto de símbolos",
+"path": "es/07543.mp3",
+"lang": "es"
+},
+{
+"text": "一套符号",
+"path": "zh/08194.mp3",
 "lang": "zh"
 },
 {
@@ -26291,13 +26381,13 @@
 "lang": "zh"
 },
 {
-"text": "reducir",
-"path": "es/01578.mp3",
+"text": "restar",
+"path": "es/03515.mp3",
 "lang": "es"
 },
 {
 "text": "减",
-"path": "zh/03681.mp3",
+"path": "zh/03828.mp3",
 "lang": "zh"
 },
 {
@@ -26356,23 +26446,73 @@
 "lang": "zh"
 },
 {
-"text": "más",
-"path": "es/03388.mp3",
+"text": "raíz cuadrada",
+"path": "es/07544.mp3",
 "lang": "es"
 },
 {
-"text": "加号signo",
-"path": "zh/03686.mp3",
+"text": "平方根",
+"path": "zh/08195.mp3",
 "lang": "zh"
 },
 {
-"text": "menos",
-"path": "es/00076.mp3",
+"text": "raíz cúbica",
+"path": "es/07545.mp3",
 "lang": "es"
 },
 {
-"text": "减号signo",
-"path": "zh/03687.mp3",
+"text": "立方根",
+"path": "zh/08196.mp3",
+"lang": "zh"
+},
+{
+"text": "signo más",
+"path": "es/07546.mp3",
+"lang": "es"
+},
+{
+"text": "加号",
+"path": "zh/08197.mp3",
+"lang": "zh"
+},
+{
+"text": "signo menos",
+"path": "es/07547.mp3",
+"lang": "es"
+},
+{
+"text": "减号",
+"path": "zh/08198.mp3",
+"lang": "zh"
+},
+{
+"text": "desigualdad",
+"path": "es/07548.mp3",
+"lang": "es"
+},
+{
+"text": "不等号",
+"path": "zh/08199.mp3",
+"lang": "zh"
+},
+{
+"text": "signo positivo",
+"path": "es/07549.mp3",
+"lang": "es"
+},
+{
+"text": "正号",
+"path": "zh/08200.mp3",
+"lang": "zh"
+},
+{
+"text": "signo negativo",
+"path": "es/07550.mp3",
+"lang": "es"
+},
+{
+"text": "负号",
+"path": "zh/08201.mp3",
 "lang": "zh"
 },
 {
@@ -26393,6 +26533,16 @@
 {
 "text": "增加，提高",
 "path": "zh/03688.mp3",
+"lang": "zh"
+},
+{
+"text": "ingresos",
+"path": "es/07551.mp3",
+"lang": "es"
+},
+{
+"text": "收入， 进项",
+"path": "zh/08202.mp3",
 "lang": "zh"
 },
 {
@@ -26446,23 +26596,23 @@
 "lang": "zh"
 },
 {
-"text": "A decir que hoy es domingo es equivalente a decir que no tengo que ir a trabajar.",
-"path": "es/03394.mp3",
+"text": "Decir que hoy es domingo es equivalente a decir que no tengo que ir a trabajar.",
+"path": "es/07552.mp3",
 "lang": "es"
 },
 {
 "text": "说今天是星期天就等于说我不必去上班。",
-"path": "zh/03694.mp3",
+"path": "zh/08203.mp3",
 "lang": "zh"
 },
 {
-"text": "Con el crecimiento de la población, los científicos han visto un número creciente de casos de cáncer.",
-"path": "es/03395.mp3",
+"text": "Con el crecimiento de la población, los científicos han observado un número creciente de casos de cáncer.",
+"path": "es/07553.mp3",
 "lang": "es"
 },
 {
 "text": "随着人口的增加，科学家发现癌症也在扩散。",
-"path": "zh/03695.mp3",
+"path": "zh/08204.mp3",
 "lang": "zh"
 },
 {
@@ -26483,6 +26633,16 @@
 {
 "text": "铁",
 "path": "zh/03697.mp3",
+"lang": "zh"
+},
+{
+"text": "mina de hierro",
+"path": "es/07554.mp3",
+"lang": "es"
+},
+{
+"text": "铁矿",
+"path": "zh/08205.mp3",
 "lang": "zh"
 },
 {
@@ -26696,23 +26856,23 @@
 "lang": "zh"
 },
 {
-"text": "Estamos provistos de carbón para todo el invierno.",
-"path": "es/03415.mp3",
+"text": "Estamos abastecidos de carbón para todo el invierno.",
+"path": "es/07555.mp3",
 "lang": "es"
 },
 {
 "text": "我们储备有整个冬季用的煤。",
-"path": "zh/03718.mp3",
+"path": "zh/08206.mp3",
 "lang": "zh"
 },
 {
-"text": "La marea cubría ya las rocas.",
-"path": "es/03416.mp3",
+"text": "La marea ya cubría las rocas.",
+"path": "es/07556.mp3",
 "lang": "es"
 },
 {
 "text": "潮水已淹没了岩石。",
-"path": "zh/03719.mp3",
+"path": "zh/08207.mp3",
 "lang": "zh"
 },
 {
@@ -27843,16 +28003,6 @@
 {
 "text": "评估",
 "path": "zh/03827.mp3",
-"lang": "zh"
-},
-{
-"text": "restar",
-"path": "es/03515.mp3",
-"lang": "es"
-},
-{
-"text": "扣除",
-"path": "zh/03828.mp3",
 "lang": "zh"
 },
 {
@@ -29986,6 +30136,11 @@
 "lang": "zh"
 },
 {
+"text": "menos",
+"path": "es/00076.mp3",
+"lang": "es"
+},
+{
 "text": "少的",
 "path": "zh/04048.mp3",
 "lang": "zh"
@@ -30014,6 +30169,11 @@
 "text": "减少",
 "path": "zh/04051.mp3",
 "lang": "zh"
+},
+{
+"text": "reducir",
+"path": "es/01578.mp3",
+"lang": "es"
 },
 {
 "text": "缩减",
@@ -47131,6 +47291,11 @@
 "lang": "zh"
 },
 {
+"text": "centro",
+"path": "es/03368.mp3",
+"lang": "es"
+},
+{
 "text": "中间的",
 "path": "zh/05360.mp3",
 "lang": "zh"
@@ -47143,16 +47308,6 @@
 {
 "text": "前面",
 "path": "zh/05361.mp3",
-"lang": "zh"
-},
-{
-"text": "capacidad",
-"path": "es/04835.mp3",
-"lang": "es"
-},
-{
-"text": "容量",
-"path": "zh/05362.mp3",
 "lang": "zh"
 },
 {
@@ -72728,11 +72883,6 @@
 {
 "text": "separar",
 "path": "es/02211.mp3",
-"lang": "es"
-},
-{
-"text": "lado",
-"path": "es/07061.mp3",
 "lang": "es"
 },
 {

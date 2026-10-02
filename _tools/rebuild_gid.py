@@ -373,7 +373,73 @@ G19 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19}
+G20 = {
+ "name": "理科类学习",
+ "raw": "_tools/parte20_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "Principíto": "Principito",
+   "armi.o": "armiñado",
+   "armiño": "armiñado",
+   "puntuacion": "puntuación",
+ },
+ "fix": {
+   # Sec2 电学：义项错配
+   ("电学家", "científico de la ciencia eléctrica"): "electricista",   # 电学家=电工/electricista
+   ("电子爱好者", "electrofilia"): "aficionado a la electrónica",       # electrofilia 不是西语词
+   ("电压", "tensión"): "voltaje",                                      # 电压=voltaje；tensión=张力
+   ("电容", "capacitancia"): "capacidad",                               # 西语电容=capacidad
+   # Sec3 几何
+   ("边", "borde"): "lado",                                             # 几何「边」=lado；borde=边缘
+   ("中点", "centro"): "punto medio",                                   # 中点=punto medio
+   # Sec4 算术符号
+   ("减", "reducir"): "restar",                                         # 减法=restar；reducir=减少
+ },
+ "pos": {
+   # 文案标了 n. / 标错性数的，按西语实际词性
+   ("电容", "capacidad"): "n.f.",
+   ("电子爱好者", "aficionado a la electrónica"): "n.m.",
+   ("电压", "voltaje"): "n.m.",
+   # 文案未标词性 -> 一律留空（铁律）
+   ("电学家", "electricista"): "",
+   ("一套符号", "conjunto de símbolos"): "",
+   ("平方根", "raíz cuadrada"): "",
+   ("立方根", "raíz cúbica"): "",
+   ("正号", "signo positivo"): "",
+   ("负号", "signo negativo"): "",
+   # Sec5
+   ("收入， 进项", "ingresos"): "n.m.pl.",
+   ("冰箱", "refrigerador"): "n.m.",
+ },
+ "subs": [
+   # Sec1 自然科学
+   ("La selección natural, la supervivencia del más apto es la ley de la naturaleza y es eterna",
+    "La selección natural, es decir, la supervivencia del más apto, es una ley de la naturaleza que es eterna"),
+   ("El Principito miró a su alrededor para sentarse, pero el planeta entero estaba lleno de hermoso manto armiñado. Permaneció de pie, y como estaba cansado, bostezó",
+    "El Principito miró a su alrededor para sentarse, pero el planeta entero estaba cubierto de un hermoso manto armiñado. Permaneció de pie y, como estaba cansado, bostezó"),
+   # Sec2 电学（ha sido recuperado 性别/搭配错 + 灯泡= bombilla）
+   ("En la ciudad más afectada por el terremoto, la electricidad de algunos edificios ha sido recuperado. Algunos sistemas se han establecido, pero los residentes todavía tendrán que esperar órdenes",
+    "En la ciudad más afectada por el terremoto, la electricidad de algunos edificios se ha restablecido. Algunos sistemas se han establecido, pero los residentes todavía tendrán que esperar órdenes"),
+   ("El descubrimiento de la luz eléctrica fue un gran adelanto",
+    "La invención de la bombilla fue un gran adelanto"),
+   # Sec3 平面几何图形
+   ("El trono de la cúbica nos informa de que el emperador gobierna un mundo material. Cuatro es la señal de estabilidad, siendo el número de un mundo finito",
+    "El trono de la cúbica nos informa de que el emperador gobierna un mundo material. El cuatro es la señal de estabilidad, el número de un mundo finito"),
+   ("Es un triángulo rectángulo, y mantener el mismo triángulo",
+    "Es un triángulo rectángulo y hay que mantenerlo igual"),
+   # Sec4 各种符号
+   ("A decir que hoy es domingo es equivalente a decir que no tengo que ir a trabajar",
+    "Decir que hoy es domingo es equivalente a decir que no tengo que ir a trabajar"),
+   ("Con el crecimiento de la población, los científicos han visto un número creciente de casos de cáncer",
+    "Con el crecimiento de la población, los científicos han observado un número creciente de casos de cáncer"),
+   # Sec5 常见元素与岩石
+   ("Estamos provistos de carbón para todo el invierno",
+    "Estamos abastecidos de carbón para todo el invierno"),
+   ("La marea cubría ya las rocas", "La marea ya cubría las rocas"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
