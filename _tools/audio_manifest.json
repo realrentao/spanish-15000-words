@@ -41741,13 +41741,13 @@
 "lang": "zh"
 },
 {
-"text": "salvaje",
-"path": "es/01774.mp3",
+"text": "caballo salvaje",
+"path": "es/08362.mp3",
 "lang": "es"
 },
 {
-"text": "野马 caballo",
-"path": "zh/04950.mp3",
+"text": "野马",
+"path": "zh/09013.mp3",
 "lang": "zh"
 },
 {
@@ -41851,13 +41851,13 @@
 "lang": "zh"
 },
 {
-"text": "Tigre es un ipo de animal muy feroz.",
-"path": "es/04488.mp3",
+"text": "El tigre es un tipo de animal muy feroz.",
+"path": "es/08363.mp3",
 "lang": "es"
 },
 {
 "text": "老虎是一种非常凶猛的动物。",
-"path": "zh/04961.mp3",
+"path": "zh/09014.mp3",
 "lang": "zh"
 },
 {
@@ -41881,13 +41881,13 @@
 "lang": "zh"
 },
 {
-"text": "Tigre y dragón sentaron en espiral nunca ha sido más fuerte; tierra y cielo se procesan, haciendo cantar generosamente y sentir gran júbilo.",
-"path": "es/04491.mp3",
+"text": "Tigre y dragón sentados en espiral nunca han sido más fuertes; la tierra y el cielo se transforman, haciendo cantar generosamente y sentir un gran júbilo.",
+"path": "es/08364.mp3",
 "lang": "es"
 },
 {
 "text": "虎踞龙盘今胜昔，天翻地覆慨而慷。",
-"path": "zh/04964.mp3",
+"path": "zh/09015.mp3",
 "lang": "zh"
 },
 {
@@ -42011,6 +42011,16 @@
 "lang": "zh"
 },
 {
+"text": "oso hormiguero",
+"path": "es/08365.mp3",
+"lang": "es"
+},
+{
+"text": "食蚁兽",
+"path": "zh/09016.mp3",
+"lang": "zh"
+},
+{
 "text": "chinchilla",
 "path": "es/04504.mp3",
 "lang": "es"
@@ -42096,7 +42106,7 @@
 "lang": "es"
 },
 {
-"text": "它的身高仅相当于当今大熊猫的一半，因此人们称之为大熊猫的“小祖先”。",
+"text": "它的身高仅相当于当今大熊猫的一半，因此人们称之为大熊猫的“小弟弟”。",
 "path": "zh/04983.mp3",
 "lang": "zh"
 },
@@ -42128,6 +42138,16 @@
 {
 "text": "鹰",
 "path": "zh/04986.mp3",
+"lang": "zh"
+},
+{
+"text": "pavo real",
+"path": "es/08366.mp3",
+"lang": "es"
+},
+{
+"text": "孔雀",
+"path": "zh/09017.mp3",
 "lang": "zh"
 },
 {
@@ -42201,13 +42221,13 @@
 "lang": "zh"
 },
 {
-"text": "azalea",
-"path": "es/04522.mp3",
+"text": "cuco",
+"path": "es/08367.mp3",
 "lang": "es"
 },
 {
 "text": "杜鹃",
-"path": "zh/04995.mp3",
+"path": "zh/09018.mp3",
 "lang": "zh"
 },
 {
@@ -42221,13 +42241,13 @@
 "lang": "zh"
 },
 {
-"text": "picaraza",
-"path": "es/04524.mp3",
+"text": "urraca",
+"path": "es/08368.mp3",
 "lang": "es"
 },
 {
 "text": "喜鹊",
-"path": "zh/04997.mp3",
+"path": "zh/09019.mp3",
 "lang": "zh"
 },
 {
@@ -42281,13 +42301,13 @@
 "lang": "zh"
 },
 {
-"text": "El amor de una madre está convencida de que sus polluelos son cisne.",
-"path": "es/04530.mp3",
+"text": "El amor de una madre está convencido de que sus polluelos son cisnes.",
+"path": "es/08369.mp3",
 "lang": "es"
 },
 {
 "text": "一个母亲的爱，就是坚信她的丑小鸭终将变成天鹅。",
-"path": "zh/05002.mp3",
+"path": "zh/09020.mp3",
 "lang": "zh"
 },
 {
@@ -42301,13 +42321,13 @@
 "lang": "zh"
 },
 {
-"text": "El amor es un nido de gorriones que no se reconstruyeron después de ser destruido.",
-"path": "es/04532.mp3",
+"text": "El amor es un nido de gorriones que no se reconstruye después de ser destruido.",
+"path": "es/08370.mp3",
 "lang": "es"
 },
 {
 "text": "爱情就像一座雀巢，一旦被毁灭了就难以重建。",
-"path": "zh/05004.mp3",
+"path": "zh/09021.mp3",
 "lang": "zh"
 },
 {
@@ -42496,7 +42516,7 @@
 "lang": "es"
 },
 {
-"text": "有莴苣、番茄、洋葱、嫩鸡蛋、金枪鱼。",
+"text": "有莴苣、番茄、洋葱、煮鸡蛋、金枪鱼。",
 "path": "zh/05024.mp3",
 "lang": "zh"
 },
@@ -42511,13 +42531,13 @@
 "lang": "zh"
 },
 {
-"text": "En la Isla Catalina hay la base para criar el tiburón blancos.",
-"path": "es/04552.mp3",
+"text": "En la isla Catalina hay una base para criar tiburones blancos.",
+"path": "es/08371.mp3",
 "lang": "es"
 },
 {
 "text": "在卡塔莉娜岛上有一个养殖大白鲨的基地。",
-"path": "zh/05026.mp3",
+"path": "zh/09022.mp3",
 "lang": "zh"
 },
 {
@@ -42548,6 +42568,16 @@
 {
 "text": "天竺葵",
 "path": "zh/05028.mp3",
+"lang": "zh"
+},
+{
+"text": "gloria de mañana",
+"path": "es/08372.mp3",
+"lang": "es"
+},
+{
+"text": "牵牛花",
+"path": "zh/09023.mp3",
 "lang": "zh"
 },
 {
@@ -42706,13 +42736,13 @@
 "lang": "zh"
 },
 {
-"text": "Por su función, todo el parque está dividido en dos zonas: la de producción de alto rendimiento y la otre de ocio.",
-"path": "es/04566.mp3",
+"text": "Por su función, todo el parque está dividido en dos zonas: la de producción de alto rendimiento y la de ocio.",
+"path": "es/08373.mp3",
 "lang": "es"
 },
 {
 "text": "按其功能，整个公园分为高效生产示范区和休闲游乐服务区两大部分。",
-"path": "zh/05043.mp3",
+"path": "zh/09024.mp3",
 "lang": "zh"
 },
 {
@@ -42726,13 +42756,13 @@
 "lang": "zh"
 },
 {
-"text": "Las distintas secciones del jardín son bonitos.",
-"path": "es/04568.mp3",
+"text": "Las distintas secciones del jardín son bonitas.",
+"path": "es/08374.mp3",
 "lang": "es"
 },
 {
 "text": "花园的各个部分都很漂亮。",
-"path": "zh/05045.mp3",
+"path": "zh/09025.mp3",
 "lang": "zh"
 },
 {
@@ -42776,13 +42806,13 @@
 "lang": "zh"
 },
 {
-"text": "arca",
-"path": "es/04572.mp3",
+"text": "alerce",
+"path": "es/08375.mp3",
 "lang": "es"
 },
 {
 "text": "落叶松",
-"path": "zh/05050.mp3",
+"path": "zh/09026.mp3",
 "lang": "zh"
 },
 {
@@ -42846,6 +42876,16 @@
 "lang": "zh"
 },
 {
+"text": "olmo",
+"path": "es/08376.mp3",
+"lang": "es"
+},
+{
+"text": "榆树",
+"path": "zh/09027.mp3",
+"lang": "zh"
+},
+{
 "text": "roble",
 "path": "es/04578.mp3",
 "lang": "es"
@@ -42866,6 +42906,26 @@
 "lang": "zh"
 },
 {
+"text": "nogal",
+"path": "es/08377.mp3",
+"lang": "es"
+},
+{
+"text": "核桃树",
+"path": "zh/09028.mp3",
+"lang": "zh"
+},
+{
+"text": "copas de los árboles",
+"path": "es/08378.mp3",
+"lang": "es"
+},
+{
+"text": "树梢",
+"path": "zh/09029.mp3",
+"lang": "zh"
+},
+{
 "text": "rama",
 "path": "es/04580.mp3",
 "lang": "es"
@@ -42873,6 +42933,16 @@
 {
 "text": "树枝",
 "path": "zh/05060.mp3",
+"lang": "zh"
+},
+{
+"text": "tronco de árbol",
+"path": "es/08379.mp3",
+"lang": "es"
+},
+{
+"text": "树干",
+"path": "zh/09030.mp3",
 "lang": "zh"
 },
 {
@@ -42936,6 +43006,46 @@
 "lang": "zh"
 },
 {
+"text": "parque de atracciones",
+"path": "es/08380.mp3",
+"lang": "es"
+},
+{
+"text": "游乐园",
+"path": "zh/09031.mp3",
+"lang": "zh"
+},
+{
+"text": "tiovivo",
+"path": "es/08381.mp3",
+"lang": "es"
+},
+{
+"text": "旋转木马",
+"path": "zh/09032.mp3",
+"lang": "zh"
+},
+{
+"text": "montaña rusa",
+"path": "es/08382.mp3",
+"lang": "es"
+},
+{
+"text": "过山车",
+"path": "zh/09033.mp3",
+"lang": "zh"
+},
+{
+"text": "auto de choque",
+"path": "es/08383.mp3",
+"lang": "es"
+},
+{
+"text": "碰碰车",
+"path": "zh/09034.mp3",
+"lang": "zh"
+},
+{
 "text": "puenting",
 "path": "es/04587.mp3",
 "lang": "es"
@@ -42943,6 +43053,46 @@
 {
 "text": "蹦极",
 "path": "zh/05067.mp3",
+"lang": "zh"
+},
+{
+"text": "barco pirata",
+"path": "es/08384.mp3",
+"lang": "es"
+},
+{
+"text": "海盗船",
+"path": "zh/09035.mp3",
+"lang": "zh"
+},
+{
+"text": "espectáculo de variedades",
+"path": "es/08385.mp3",
+"lang": "es"
+},
+{
+"text": "杂耍",
+"path": "zh/09036.mp3",
+"lang": "zh"
+},
+{
+"text": "funambulismo",
+"path": "es/08386.mp3",
+"lang": "es"
+},
+{
+"text": "走钢丝",
+"path": "zh/09037.mp3",
+"lang": "zh"
+},
+{
+"text": "nave espacial",
+"path": "es/08387.mp3",
+"lang": "es"
+},
+{
+"text": "飞船",
+"path": "zh/09038.mp3",
 "lang": "zh"
 },
 {
@@ -42976,6 +43126,16 @@
 "lang": "zh"
 },
 {
+"text": "practica escalada",
+"path": "es/08388.mp3",
+"lang": "es"
+},
+{
+"text": "攀岩",
+"path": "zh/09039.mp3",
+"lang": "zh"
+},
+{
 "text": "cruzar",
 "path": "es/01353.mp3",
 "lang": "es"
@@ -42991,13 +43151,13 @@
 "lang": "es"
 },
 {
-"text": "Jorge es una persona aventurera: practica escalada, puenting, submarinismo y otros deportes de. Jorge",
-"path": "es/04592.mp3",
+"text": "Jorge es una persona aventurera: practica escalada, puenting, submarinismo y otros deportes de riesgo",
+"path": "es/08389.mp3",
 "lang": "es"
 },
 {
-"text": "是一个喜欢冒险的人，他会攀岩、蹦极、潜水还有做一些其他的冒险运动。",
-"path": "zh/05072.mp3",
+"text": "他是一个喜欢冒险的人，他会攀岩、蹦极、潜水还有做一些其他的冒险运动。",
+"path": "zh/09040.mp3",
 "lang": "zh"
 },
 {
@@ -43026,7 +43186,7 @@
 "lang": "es"
 },
 {
-"text": "就算童年时候折旧的一只纸船无法漂过人生的海洋，但它仍旧留下了希望。",
+"text": "就算童年时候折纸的一只纸船无法漂过人生的海洋，但它仍旧留下了希望。",
 "path": "zh/05075.mp3",
 "lang": "zh"
 },
@@ -43051,6 +43211,16 @@
 "lang": "zh"
 },
 {
+"text": "palco",
+"path": "es/08390.mp3",
+"lang": "es"
+},
+{
+"text": "包厢",
+"path": "zh/09041.mp3",
+"lang": "zh"
+},
+{
 "text": "salida",
 "path": "es/01401.mp3",
 "lang": "es"
@@ -43058,6 +43228,16 @@
 {
 "text": "出口",
 "path": "zh/01652.mp3",
+"lang": "zh"
+},
+{
+"text": "piano de cola",
+"path": "es/08391.mp3",
+"lang": "es"
+},
+{
+"text": "大钢琴",
+"path": "zh/09042.mp3",
 "lang": "zh"
 },
 {
@@ -43071,8 +43251,28 @@
 "lang": "zh"
 },
 {
+"text": "cantar sola",
+"path": "es/08392.mp3",
+"lang": "es"
+},
+{
+"text": "独唱",
+"path": "zh/09043.mp3",
+"lang": "zh"
+},
+{
 "text": "歌",
 "path": "zh/05079.mp3",
+"lang": "zh"
+},
+{
+"text": "letra de una canción",
+"path": "es/08393.mp3",
+"lang": "es"
+},
+{
+"text": "歌词",
+"path": "zh/09044.mp3",
 "lang": "zh"
 },
 {
@@ -43141,12 +43341,12 @@
 "lang": "zh"
 },
 {
-"text": "¡Este concierto fue real-mente abrumador!",
+"text": "¡Este concierto fue realmente abrumador!",
 "path": "es/04605.mp3",
 "lang": "es"
 },
 {
-"text": "这场音乐会真是快让人睡着了！",
+"text": "这场音乐会真是震撼人心！",
 "path": "zh/05087.mp3",
 "lang": "zh"
 },
@@ -43191,13 +43391,13 @@
 "lang": "zh"
 },
 {
-"text": "La cuenta hacia atrás de-lante de la plaza del Ayuntamiento se transmitió desde la radio.",
-"path": "es/04610.mp3",
+"text": "La cuenta atrás delante de la plaza del Ayuntamiento se transmitió por la radio.",
+"path": "es/08394.mp3",
 "lang": "es"
 },
 {
 "text": "收音机里传来市政府广场前倒数读秒的欢呼声。",
-"path": "zh/05092.mp3",
+"path": "zh/09045.mp3",
 "lang": "zh"
 },
 {
@@ -43211,13 +43411,23 @@
 "lang": "zh"
 },
 {
-"text": "nocturno",
-"path": "es/04613.mp3",
+"text": "barra",
+"path": "es/08395.mp3",
 "lang": "es"
 },
 {
-"text": "夜总会 club",
-"path": "zh/05095.mp3",
+"text": "吧台",
+"path": "zh/09046.mp3",
+"lang": "zh"
+},
+{
+"text": "club nocturno",
+"path": "es/08396.mp3",
+"lang": "es"
+},
+{
+"text": "夜总会",
+"path": "zh/09047.mp3",
 "lang": "zh"
 },
 {
@@ -43231,6 +43441,16 @@
 "lang": "zh"
 },
 {
+"text": "pista de baile",
+"path": "es/08397.mp3",
+"lang": "es"
+},
+{
+"text": "舞池",
+"path": "zh/09048.mp3",
+"lang": "zh"
+},
+{
 "text": "embudo",
 "path": "es/04614.mp3",
 "lang": "es"
@@ -43238,6 +43458,16 @@
 {
 "text": "漏斗",
 "path": "zh/05098.mp3",
+"lang": "zh"
+},
+{
+"text": "chupito",
+"path": "es/08398.mp3",
+"lang": "es"
+},
+{
+"text": "量酒杯",
+"path": "zh/09049.mp3",
 "lang": "zh"
 },
 {
@@ -43256,13 +43486,8 @@
 "lang": "zh"
 },
 {
-"text": "metro",
-"path": "es/01283.mp3",
-"lang": "es"
-},
-{
 "text": "量器",
-"path": "zh/05101.mp3",
+"path": "zh/01812.mp3",
 "lang": "zh"
 },
 {
@@ -43273,6 +43498,16 @@
 {
 "text": "剥皮器",
 "path": "zh/05102.mp3",
+"lang": "zh"
+},
+{
+"text": "zumo de lima",
+"path": "es/08399.mp3",
+"lang": "es"
+},
+{
+"text": "酸橙汁",
+"path": "zh/09050.mp3",
 "lang": "zh"
 },
 {
@@ -43288,6 +43523,16 @@
 {
 "text": "酒；葡萄酒",
 "path": "zh/05104.mp3",
+"lang": "zh"
+},
+{
+"text": "orujo chino",
+"path": "es/08400.mp3",
+"lang": "es"
+},
+{
+"text": "白酒",
+"path": "zh/09051.mp3",
 "lang": "zh"
 },
 {
@@ -43336,7 +43581,7 @@
 "lang": "zh"
 },
 {
-"text": "No le permitieron que en-trara en el bar.",
+"text": "No le permitieron que entrara en el bar.",
 "path": "es/04621.mp3",
 "lang": "es"
 },
@@ -43366,7 +43611,7 @@
 "lang": "zh"
 },
 {
-"text": "Para mí,una cerveza,y para ella,un café.",
+"text": "Para mí, una cerveza, y para ella, un café.",
 "path": "es/04624.mp3",
 "lang": "es"
 },
@@ -43446,6 +43691,16 @@
 "lang": "zh"
 },
 {
+"text": "botiquín",
+"path": "es/08401.mp3",
+"lang": "es"
+},
+{
+"text": "急救箱",
+"path": "zh/09052.mp3",
+"lang": "zh"
+},
+{
 "text": "brújula",
 "path": "es/04631.mp3",
 "lang": "es"
@@ -43453,6 +43708,46 @@
 {
 "text": "指南针",
 "path": "zh/05123.mp3",
+"lang": "zh"
+},
+{
+"text": "mesas de picnic",
+"path": "es/08402.mp3",
+"lang": "es"
+},
+{
+"text": "野餐桌",
+"path": "zh/09053.mp3",
+"lang": "zh"
+},
+{
+"text": "canasta de alimentos",
+"path": "es/08403.mp3",
+"lang": "es"
+},
+{
+"text": "食篮",
+"path": "zh/09054.mp3",
+"lang": "zh"
+},
+{
+"text": "tela de picnic",
+"path": "es/08404.mp3",
+"lang": "es"
+},
+{
+"text": "野餐布",
+"path": "zh/09055.mp3",
+"lang": "zh"
+},
+{
+"text": "intoxicación alimentaria",
+"path": "es/08405.mp3",
+"lang": "es"
+},
+{
+"text": "食物中毒",
+"path": "zh/09056.mp3",
 "lang": "zh"
 },
 {
@@ -51801,6 +52096,11 @@
 "lang": "zh"
 },
 {
+"text": "nocturno",
+"path": "es/04613.mp3",
+"lang": "es"
+},
+{
 "text": "夜间的",
 "path": "zh/05583.mp3",
 "lang": "zh"
@@ -59271,6 +59571,11 @@
 "lang": "zh"
 },
 {
+"text": "metro",
+"path": "es/01283.mp3",
+"lang": "es"
+},
+{
 "text": "地铁",
 "path": "zh/01337.mp3",
 "lang": "zh"
@@ -64463,11 +64768,6 @@
 {
 "text": "开幕",
 "path": "zh/01810.mp3",
-"lang": "zh"
-},
-{
-"text": "方法，措施",
-"path": "zh/01812.mp3",
 "lang": "zh"
 },
 {
@@ -70334,6 +70634,11 @@
 "text": "胃",
 "path": "zh/01878.mp3",
 "lang": "zh"
+},
+{
+"text": "salvaje",
+"path": "es/01774.mp3",
+"lang": "es"
 },
 {
 "text": "野人",

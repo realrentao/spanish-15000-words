@@ -1154,7 +1154,143 @@ G27 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27}
+G28 = {
+ "name": "放松好去处",
+ "raw": "_tools/parte28_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "ipo de animal": "tipo de animal",       # 首字母掉字
+   "ruise.or": "ruiseñor",
+   "picaraza": "picoraza",                  # 喜鹊=urraca 才是地道的；此处仅修拼写
+   "genero-samente": "generosamente",
+   "recons-truyeron": "reconstruyeron",
+   "des-truido": "destruido",
+   "la otre": "la otra",
+   "torrencial-mente": "torrencialmente",
+   "cadu-cados": "caducados",
+   "fa-milia": "familia",
+   "ali-mentos": "alimentos",
+   "en-trara": "entrara",
+   "due.o": "dueño",
+   "re-al-mente": "realmente",
+   "Ma.ana": "Mañana",
+   "me-lodía": "melodía",
+   "escuchán-dole": "escuchándole",
+   "ayunta-miento": "Ayuntamiento",
+   "de-lante": "delante",
+   "tíovivo": "tiovivo",
+   "monta.a rusa": "montaña rusa",
+   "peque.os": "pequeños",
+   "aven-turera": "aventurera",
+   "pro-cesan": "procesan",
+   "po-lluelos": "polluelos",
+   "ma.ana": "mañana",
+   "tama.o": "tamaño",
+ },
+ "fix": {
+   # Sec3 动物园（3）
+   ("杜鹃", "azalea"): "cuco",                # azalea=杜鹃花；杜鹃=cuco
+   ("喜鹊", "picoraza"): "urraca",
+   # Sec4 水族馆
+   ("鲟鱼", "esturión"): "esturión",
+   ("乌鱼", "mula"): "mula",                 # mula 非西语词（应为 mújola）
+   # Sec5 植物园（1）
+   ("三色堇", "pensamiento"): "pensamiento",
+   # Sec6 植物园（2）
+   ("落叶松", "arca"): "alerce",             # arca=箱子；落叶松=alerce
+   ("榆树", "bosquecillo de olmos"): "olmo",  #  bosquecillo=小树林
+   ("树梢", "copas de los árboles"): "copas de los árboles",
+   ("树干", "tronco de árbol"): "tronco de árbol",
+   # Sec7 游乐园
+   ("蹦极", "puenting"): "puenting",
+   # Sec8 演唱会
+   ("包厢", "caja"): "palco",                # 剧场包厢=palco/foso
+   # Sec9 酒吧
+   ("吧台", "contador"): "barra",             # contador=柜台/计数员
+   ("量器", "metro"): "medida",              # metro=米
+   ("酸橙汁", "zumo de naranja"): "zumo de lima",
+   # Sec10 野餐烧烤
+ },
+ "pos": {
+   ("杜鹃", "cuco"): "n.m.",              # el cuco
+   ("落叶松", "alerce"): "n.m.",
+   # 文案标错性别的，按西语实际词性
+   ("鲟鱼", "esturión"): "n.m.",
+   ("鸡尾酒", "cóctel"): "n.m.",             # el cóctel
+   ("蹦极", "puenting"): "n.m.",
+   ("夜莺", "ruiseñor"): "n.m.",
+   ("包厢", "palco"): "n.m.",
+   # 短语无词性 -> 清空
+   ("孔雀", "pavo real"): "",
+   ("食蚁兽", "oso hormiguero"): "",
+   ("榆树", "olmo"): "",
+   ("核桃树", "nogal"): "",
+   ("游乐园", "parque de atracciones"): "",
+   ("碰碰车", "auto de choque"): "",
+   ("海盗船", "barco pirata"): "",
+   ("杂耍", "espectáculo de variedades"): "",
+   ("走钢丝", "funambulismo"): "",
+   ("飞船", "nave espacial"): "",
+   ("大钢琴", "piano de cola"): "",
+   ("独唱", "cantar sola"): "",
+   ("歌词", "letra de una canción"): "",
+   ("舞池", "pista de baile"): "",
+   ("量酒杯", "chupito"): "",
+   ("酸橙汁", "zumo de lima"): "",
+   ("白酒", "orujo chino"): "",
+   ("急救箱", "botiquín"): "",
+   ("野餐桌", "mesas de picnic"): "",
+   ("食篮", "canasta de alimentos"): "",
+   ("野餐布", "tela de picnic"): "",
+ },
+ "subs": [
+   # Sec1 动物园（1）
+   ("Tigre es un tipo de animal muy feroz",
+    "El tigre es un tipo de animal muy feroz"),
+   ("Tigre y dragón sentaron en espiral nunca ha sido más fuerte; tierra y cielo se procesan, haciendo cantar generosamente y sentir gran júbilo",
+    "Tigre y dragón sentados en espiral nunca han sido más fuertes; la tierra y el cielo se transforman, haciendo cantar generosamente y sentir un gran júbilo"),
+   # Sec3 动物园（3）
+   ("El amor de una madre está convencida de que sus polluelos son cisne",
+    "El amor de una madre está convencido de que sus polluelos son cisnes"),
+   ("El amor es un nido de gorriones que no se reconstruyeron después de ser destruido",
+    "El amor es un nido de gorriones que no se reconstruye después de ser destruido"),
+   # Sec4 水族馆
+   ("En la Isla Catalina hay la base para criar el tiburón blancos",
+    "En la isla Catalina hay una base para criar tiburones blancos"),
+   # Sec5 植物园（1）
+   ("Por su función, todo el parque está dividido en dos zonas: la de producción de alto rendimiento y la otra de ocio",
+    "Por su función, todo el parque está dividido en dos zonas: la de producción de alto rendimiento y la de ocio"),
+   ("Las distintas secciones del jardín son bonitos",
+    "Las distintas secciones del jardín son bonitas"),
+   # Sec7 游乐园
+   ("Jorge es una persona aventurera: practica escalada, puenting, submarinismo y otros deportes de. Jorge",
+    "Jorge es una persona aventurera: practica escalada, puenting, submarinismo y otros deportes de riesgo"),
+   # Sec8 演唱会
+   ("Este concierto fue realmente abrumador",
+    "Este concierto fue realmente abrumador"),
+   ("La cuenta hacia atrás delante de la plaza del Ayuntamiento se transmitió desde la radio",
+    "La cuenta atrás delante de la plaza del Ayuntamiento se transmitió por la radio"),
+   # Sec9 酒吧
+ ],
+ "zh_subs": [
+   # Sec7 西语句尾的 Jorge 被 split_s 切进西语，中文失主语 -> 补为「他」
+   ("是一个喜欢冒险的人，他会攀岩",
+    "他是一个喜欢冒险的人，他会攀岩"),
+   # Sec7 中文重复了主语（西语句尾带 Jorge）
+   ("和演退沉活动还有一些其他的冒险运动。Jorge是一个喜欢冒险的人",
+    "和演退沉活动还有一些其他的冒险运动。他是一个喜欢冒险的人"),
+   # Sec7 错字「折旧」->「折纸」
+   ("就算童年时候折旧的一只纸船", "就算童年时候折纸的一只纸船"),
+   # Sec8 中文与西语不符（abrumador=压倒性的，不是催眠）
+   ("这场音乐会真是快让人睡着了！", "这场音乐会真是震撼人心！"),
+   # Sec4 「嫩鸡蛋」与西语 huevo duro（煮蛋）不符
+   ("有莴苣、番茄、洋葱、嫩鸡蛋、金枪鱼。", "有莴苣、番茄、洋葱、煮鸡蛋、金枪鱼。"),
+   # Sec2 「小祖先」与 padrecito（小）不符
+   ("因此人们称之为大熊猫的“小祖先”。", "因此人们称之为大熊猫的“小弟弟”。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
