@@ -747,7 +747,105 @@ G23 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23}
+G24 = {
+ "name": "宣传与销售",
+ "raw": "_tools/parte24_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "destinó": "destino",                # 重音误用（无上下文动词）
+   "El nos cuenta": "Él nos cuenta",     # Él=他（重音）
+   "compensaral": "compensar al",        # 粘连
+ },
+ "fix": {
+   # Sec1 市场活动
+   # Sec2 广告宣传
+   ("霓虹灯广告", "neón"): "neón",       # el neón 阳性
+   ("受欢迎的", "bienvenido"): "popular", # bienvenido=欢迎（人）
+   # Sec3 参加展会
+   ("赞助", "apoyo"): "patrocinar",       # 赞助（动）=patrocinar；apoyo=支持
+   # Sec4 产品介绍
+   ("各种各样的", "cualquier especie"): "diverso",
+   ("全世界的", "alrededor del mundo"): "mundial",
+   # Sec5 佣金折扣
+   ("同意给予", "acordado a dar"): "acordado",
+   # Sec6 谈判
+   ("反对", "frustrar"): "rechazar",      # frustrar=使沮丧
+   # Sec7 讨价还价
+   ("出价", "licitación"): "puja",        # licitación=招标；出价=puja
+   # Sec8 存储仓库
+   ("输送机", "portador"): "transportador",  # portador=搬运者
+   ("仓库费", "cobra de almacén"): "tarifa de almacén",
+   # Sec9 订单
+   # Sec11 包装运输
+   ("耐久的", "sostenible"): "resistente",   # sostenible=可持续的
+   ("承受", "someterse"): "soportar",        # someterse=使服从
+   ("硬纸板", "bordo"): "cartón",            # bordo=边缘
+   # Sec12 保险与索赔
+   ("阻止", "arrestar"): "impedir",          # arrestar=逮捕
+   # Sec13 售后服务
+   ("保修", "garantizar"): "garantía",       # 中文「保修」是名词
+ },
+ "pos": {
+   # 文案标错/标全无的，按西语实际词性
+   ("供应商", "proveedor"): "n.m.",
+   ("霓虹灯广告", "neón"): "n.m.",
+   ("卖方", "vendedor"): "n.m.",
+   ("条款", "artículo"): "n.m.",
+   ("推迟", "prolongar"): "v.t.",            # 文案写成 v.
+   ("通常", "general"): "adv.",              # general=一般（副词）
+   ("最重要的", "supremo"): "adj.",          # supremo=最高的
+   ("保修", "garantía"): "n.f.",
+   ("硬纸板", "cartón"): "n.m.",
+   ("耐久的", "resistente"): "adj.",
+   ("承受", "soportar"): "v.t.",
+   ("反对", "rechazar"): "v.t.",
+   ("赞助", "patrocinar"): "",
+   ("各种各样的", "diverso"): "",
+   ("全世界的", "mundial"): "",
+   ("出价", "puja"): "n.f.",
+   ("输送机", "transportador"): "n.m.",
+   ("仓库费", "tarifa de almacén"): "",
+ },
+ "subs": [
+   # Sec1 市场活动
+   ("China ya se ha convertido en el segundo mayor de países consumidores de artículos de lujo en todo el mundo",
+    "China ya se ha convertido en el segundo mayor país consumidor de artículos de lujo del mundo"),
+   ("Los productos de la compañía en se extendió del mercado nacional a los mercados extranjeros",
+    "Los productos de la compañía se extendieron del mercado nacional a los mercados extranjeros"),
+   # Sec2 广告宣传
+   ("La publicidad es un arte, que necesita entusiasmo, creatividad, y acumulación",
+    "La publicidad es un arte que necesita entusiasmo, creatividad y acumulación"),
+   ("En ese mundo donde brilla neón, cuántas parejas pueden amar toda la vida? Ama de la vida!",
+    "En ese mundo donde brilla el neón, ¿cuántas parejas pueden amar toda la vida? ¡Ama de la vida!"),
+   # Sec5 佣金折扣
+   ("Su salario incluye las bonificaciones o comisiones?",
+    "¿Su salario incluye las bonificaciones o comisiones?"),
+   # Sec7 讨价还价
+   ("Se puede elaborar según los requerimientos de clientes en el proceso de elaboración de materiales que ofrecen el cliente",
+    "Se puede elaborar según los requerimientos de los clientes en el proceso de elaboración de los materiales que ellos ofrecen"),
+   # Sec10 合同
+   ("Sólo un vistazo del comerciante puede identificar los bienes miertras que cien vistazos ni son suficientes para el comprador",
+    "Sólo un vistazo del comerciante permite identificar los bienes, mientras que cien vistazo no bastan para el comprador"),
+   ("No estoy acuerdo del contrato de compraventa",
+    "No estoy de acuerdo con el contrato de compraventa"),
+   # Sec11 包装运输
+   ("la empresa se .comprometen también a la producción de productos de embalaje",
+    "la empresa se compromete también a la producción de productos de embalaje"),
+   # Sec13 售后服务
+   ("La cámara es sólo una herramienta, paisajes dependen del descubrimiento",
+    "La cámara es sólo una herramienta, lo importante es el descubrimiento"),
+ ],
+ "CN_FIX": {
+   # E 行中文（zh_subs 只作用于 S 句中文）
+   "终点，目的地": "终点，目的地",
+ },
+ "zh_subs": [
+   # Sec13 「相机只是工具，基本能用就行」— 西语原句说的是风景在于发现，对不上
+   ("相机只是工具，基本能用就行。 风景在于发现。", "相机只是工具，风景在于发现。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
