@@ -63,11 +63,14 @@ def parse_raw(raw_file):
     merged = []
     for idx, ln in enumerate(lines):
         s = ln.strip()
-        if (s and not re.search(r"[一-鿿]", s)
+        # 「西语 词性」行 + 紧跟其后的纯中文释文行 -> 并回同一行
+        # （条件写反过：原版判断「当前行不含汉字」，导致这条永远不生效）
+        if (s and re.search(r"[一-鿿]", s)
                 and merged
+                and not re.search(r"[一-鿿]", merged[-1])
+                and merged[-1].strip()
                 and not any(merged[-1].strip().startswith(h) for h in HEAD_WORDS)
-                and not any(s.startswith(h) for h in HEAD_WORDS)
-                and re.match(r"^[一-鿿\uff0c\uff1b\uff0e\u3001\u3002\s]+$", s)):
+                and not any(s.startswith(h) for h in HEAD_WORDS)):
             merged[-1] = merged[-1].rstrip() + " " + s
             continue
         merged.append(ln)
@@ -186,7 +189,8 @@ def parse_raw(raw_file):
 def py(text):
     return " ".join(ch[0] for ch in pinyin(text, style=Style.TONE, heteronym=False, errors="ignore"))
 
-def clean_es(t):
+def clean_es(t, keep_end=False):
+    """keep_end=True: 保留末尾的「。」（例句用，clean_es 默认会把尾点吃掉）。"""
     if not t: return t
     t = re.sub(r'\s+', ' ', t)
     t = re.sub(r'([A-Za-zÁÉÍÓÚÑÜáéíóúñü])-([A-Za-zÁÉÍÓÚÑÜáéíóúñü])', r'\1\2', t)
@@ -199,8 +203,9 @@ def clean_es(t):
     # keeps abbreviations like "n.pl." (char before the dot is a single letter) intact.
     t = re.sub(r'(?<=[A-Za-zÁÉÍÓÚÑÜáéíóúñü][A-Za-zÁÉÍÓÚÑÜáéíóúñü])[.](?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])', '', t)
     t = re.sub(r'\s+([,;:!?])', r'\1', t)
-    t = re.sub(r'[.…]+$', '', t).strip()
-    return t
+    if not keep_end:
+        t = re.sub(r'[.…]+$', '', t)
+    return t.strip()
 
 def clean_cn(t):
     if not t: return t
@@ -243,7 +248,10 @@ class Builder:
         self.audio_jobs=[]
         self.built={}   # (cn, norm(es)) -> row (dedup identical entries)
         bj=json.load(open(os.path.join(BASE,"data/book.json"),encoding="utf-8"))
-        self.bp=[p for p in bj["partes"] if p.get("name")==bp_name][0]
+        cand=[p for p in bj["partes"] if p.get("name")==bp_name]
+        if not cand:
+            cand=[p for p in bj["partes"] if p.get("gid")==gid]
+        self.bp=cand[0]
         self.bj_secs={s["no"]:s for s in self.bp["secs"]}
         self.sent_by_norm={}
         for s in self.bp["secs"]:
@@ -302,9 +310,15 @@ class Builder:
             t=t.replace(k,v)
         return t
     def fix_s_es(self, t):
-        self.S_SUBS = list(self.S_SUBS)
         for k,v in self.S_SUBS:
             t=t.replace(k,v)
+        t=t.strip()
+        # split_s 会把 ¿/¡ 当开头标点点掉，这里按句尾问号/叹号补回来；
+        # 句中已含 ¿/¡ 就不补（否则 "¡…¡de la mano!" 会变成 "¡¡En los próximos…"）
+        if t.endswith("?") and "¿" not in t:
+            t = "¿" + t.lstrip("¿¡ ")
+        if t.endswith("!") and "¡" not in t:
+            t = "¡" + t.lstrip("¿¡ ")
         return t
     def find_book(self, cn, ces, words):
         for w in words:
@@ -379,7 +393,7 @@ class Builder:
                 e_out.append(row); stat[how]+=1
             for raw in rs["s"]:
                 es_raw,zh,src=self.split_s(raw)
-                ces=clean_es(es_raw); ces=self.fix_es_typo(ces); ces=self.fix_s_es(ces)
+                ces=clean_es(es_raw, keep_end=True); ces=self.fix_es_typo(ces); ces=self.fix_s_es(ces)
                 t=self.sent_by_norm.get(norm(ces))
                 if t:
                     s_out.append([ces,zh,src,t.get("ae",""),t.get("az",""),t.get("py",""),t.get("ipa","")])
