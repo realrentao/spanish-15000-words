@@ -984,7 +984,85 @@ G25 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25}
+G26 = {
+ "name": "健身运动",
+ "raw": "_tools/parte26_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "compa-.eros": "compañeros",            # 连字符右侧是点，clean 救不了
+   "recoged or": "recogedor",
+ },
+ "fix": {
+   # Sec1 运动健身
+   ("伸展", "tramo"): "estiramiento",       # tramo=路段/段
+   ("扁平椅子", "silla plana"): "banco plano",   # 健身房器械=banco
+   ("伸拉中心", "centro de presión"): "centro de estiramientos",
+   # Sec2 舞蹈
+   ("摇摆舞", "roca"): "rock",              # roca=岩石
+   ("舞者", "bailarín"): "bailarín",
+   # Sec3 瑜伽
+   ("举起", "recaudar"): "levantar",        # recaudar=征收
+   # Sec4 保龄球
+   ("疏忽", "Falta"): "descuido",           # Falta=缺少
+   ("平均分", "punto promedio"): "promedio",
+   # Sec6 高尔夫
+   ("瞄准", "punto"): "apuntar",            # punto=点/分数
+   ("未击中", "pierda"): "fallo",            # pierda 拼错；义项=未击中
+   # Sec7 减肥
+   ("有氧操的", "aerobic"): "aeróbico",     # 西语重音
+ },
+ "pos": {
+   # 文案标错性别的，按西语实际词性
+   ("舞者", "bailarín"): "n.m.",            # el bailarín
+   ("摇摆舞", "rock"): "n.m.",
+   ("疏忽", "descuido"): "n.m.",
+   ("未击中", "fallo"): "n.m.",
+   ("平均分", "promedio"): "",
+   ("跳舞", "bailar"): "v.i.",              # bailar 默认 v.i.
+   # 短语无词性 -> 清空
+   ("健身", "fortalecer la salud"): "",
+   ("扔保龄球", "tirar bolos"): "",
+   ("从左到右", "de izquierda a derecha"): "",
+   ("高尔夫俱乐部", "golf club"): "",
+   ("均衡饮食", "dieta equilibrada"): "",
+   ("无盐饮食", "dieta sin sal"): "",
+   ("啤酒肚", "barriga cervecera"): "",
+ },
+ "subs": [
+   # Sec1 运动健身
+   ("Ahora el juego de barco de dragón se ha convertido en un deporte de agua que refleja tanto la tradición y la modernidad",
+    "Ahora las carreras de barcos de dragón se han convertido en un deporte de agua que refleja tanto la tradición como la modernidad"),
+   ("Es más un desafío de resistencia que un viaje, como los ciclistas se mueven en un paquete",
+    "Es más un desafío de resistencia que un viaje, ya que los ciclistas se mueven en equipos"),
+   # Sec2 舞蹈
+   ("El bailarín rompió el talón de zapatillas",
+    "El bailarín rompió el talón de las zapatillas"),
+   ("Me concede el honor de este baile?",
+    "¿Me concede el honor de bailar?"),
+   # Sec3 瑜伽
+   ("Practicar regularmente actividad de relajación como el yoga ayuda a aliviar el estrés, dormir mejor, y por lo tanto, están dispuestos a luchar contra las infecciones invernales",
+    "Practicar regularmente una actividad de relajación como el yoga ayuda a aliviar el estrés, a dormir mejor y, por lo tanto, a estar preparados para luchar contra las infecciones invernales"),
+   ("Deseo la felicidad romántica, su historia es, sin embargo, jugó en las notas trágicas",
+    "Deseo la felicidad romántica, pero su historia, sin embargo, transcurrió en notas trágicas"),
+   # Sec5 滑雪与滑冰
+   ("Se ha apuntado a clases de patinaje sobre hielo",
+    "Se ha apuntado a clases de patinaje artístico"),
+   ("Porque el esquí puede sostener de manera uniforme todos los músculos durante el ejercicio",
+    "El esquí permite trabajar todos los músculos de manera uniforme durante el ejercicio"),
+   # Sec6 高尔夫
+   ("Las alas del tiempo vuelan a lo largo de las curvas de memoria",
+    "Las alas del tiempo vuelan por las curvas de la memoria"),
+   ("Se extendió la cabeza, vio un zorro en el pozo, y le preguntó si el agua era buena",
+    "Asomó la cabeza, vio un zorro en el pozo y le preguntó si el agua era buena"),
+   # Sec7 减肥
+   ("Aunque muchos estadounidenses a prestar atención al mantenimiento de la figura, en el gimnasio todo el día en pleno auge, en los Estados Unidos tenían una gran cantidad de obesos",
+    "Aunque muchos estadounidenses prestan atención al mantenimiento de la figura y pasan todo el día en el gimnasio, en los Estados Unidos había una gran cantidad de obesos"),
+   ("Desde el ángulo de comida, julio es probable el mes más agradable para completar su comida de frutas y verduras de temporada",
+    "Desde el ángulo de la comida, julio es probablemente el mes más agradable para completar su comida de frutas y verduras de temporada"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
