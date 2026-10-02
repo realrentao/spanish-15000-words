@@ -3012,7 +3012,107 @@ G44 = {
  },
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43, 44: G44}
+G45 = {
+ "name": "自然灾害",
+ "raw": "_tools/parte45_raw.txt",
+ "typo": {
+   "victima": "víctima",                 # 漏重音符号
+   "movili-zando": "movilizando",        # 断行
+   "amplia-mente": "ampliamente",         # 断行
+   "desastrosa-mente": "desastrosamente",  # 断行
+   "na-tural": "natural",                # 断行
+   "de-sastres": "desastres",            # 断行
+   "a.o": "año",                         # OCR：ñ->.
+   "n-merosos": "numerosos",             # 断行
+   "canico": "canónico",                 # 断行
+   "erup-ción": "erupción",              # 断行
+   "acti-vidad": "actividad",            # 断行
+   "acompa.ada": "acompañada",            # OCR：ñ->.
+   "te-nido": "tenido",                  # 断行
+   "erup-ciones": "erupciones",          # 断行
+   "con-gelado": "congelado",            # 断行
+ },
+ "fix": {
+   # ---- Sec1 自然灾害
+   # 「龙卷风 ciclón」：ciclón=飓风/气旋（cyclone），中文「龙卷风」=tornado
+   ("龙卷风", "ciclón"): "tornado",
+   # ---- Sec2 火灾和山崩
+   ("消防", "la prevención contra los incendios"): "prevención contra incendios",
+   ("山口", "brecha"): "paso",            # brecha=缺口/裂口；山口=paso
+   # ---- Sec3 地震
+   # 「勘探 perspectivar」：经查证该词义为「按视角看待」（引申自 perspectiva），
+   # 与地震勘探无关；地震学语境应为 perforar（钻探）
+   ("勘探", "perspectivar"): "perforar",
+   # ---- Sec4 火山
+   ("火山灾害", "desastre canónico"): "desastre volcánico",  # canónico=规范/正统的
+   # ---- Sec5 冰冻、酷暑和海啸
+   ("冰冻", "refrigeración"): "congelación",  # refrigeración=冷藏/制冷
+   ("残骸", "huesos"): "escombros",           # huesos=骨头
+   ("监控", "control"): "vigilancia",         # control=控制
+ },
+ "pos": {
+   # ---- Sec1
+   ("悲惨的事", "lo trágico"): "",
+   ("灾难", "sufrimiento"): "n.m.",
+   # ---- Sec2
+   ("警", "alarma de incendio"): "",
+   ("消防", "prevención contra incendios"): "",
+   ("消防水龙", "manguera de incendios"): "",
+   ("消防演习", "los simulacros de incendio"): "",
+   ("泥石流", "avalancha de rocas"): "",
+   ("山洪", "avenida montuosa"): "",
+   ("山坡", "ladera de la montaña"): "",
+   ("山区", "región montuosa"): "",
+   ("大规模", "vasto"): "adj.",
+   # ---- Sec3
+   ("地震波", "ondas sísmicas"): "",
+   ("地震带", "zona sísmica"): "",
+   ("震区", "región sísmica"): "",
+   # ---- Sec4
+   ("火山灾害", "desastre volcánico"): "",
+   ("火山口", "cráter"): "n.m.",          # cráter 阳性，文案未标
+   ("火山岛", "isla volcánica"): "",
+   ("火山堆积", "conglomerados volcánicos"): "",
+   ("死火山", "volcán apagado"): "",
+   ("活火山", "volcán vivo"): "",
+   # ---- Sec5
+   ("冰点", "punto de escarcha"): "",
+   ("极热", "calor extremo"): "",
+   ("暴风", "viento tempestuoso"): "",
+   ("幸存者", "sobreviviente"): "n.m.",
+   ("受灾者", "víctima"): "n.f.",
+ },
+ "subs": [
+   # Sec3 例5：原句 km. 的缩写点多余，规范为 40 km
+   ("se encuentra a 40km. de Manila", "se encuentra a 40 km de Manila"),
+   # Sec4 例4：主谓不一致——períodos 是复数，parece 应为 parecen
+   ("Los períodos de actividad de este volcán parece que se ajustan a cierto ritmo",
+    "Los períodos de actividad de este volcán parecen ajustarse a cierto ritmo"),
+ ],
+ "zh_subs": [
+   # Sec1 例6：plaga=鼠疫/瘟疫，中文「抗击鼠疫」把 plaga 特定化；
+   # 原句说的是「动员起来对抗 widely mobilized 的瘟疫」，语义是全球防疫
+   ("世界正在广泛动员抗击鼠疫。", "全世界正广泛动员起来，抗击这场瘟疫。"),
+   # Sec2 例6：nublado=乌云/阴云（n.), 中文「一场暴风雨」性别与词义都不对
+   ("一场暴风雨毁坏了这个地区的果树。", "一片乌云毁坏了这个地区的果树。"),
+   # Sec4 例4：西语主谓一致已在 subs 修（períodos复数->parecen）；
+   # 中文「有一定的规律」较口语，补「遵循…节律」更贴合 cyclical 语义
+   ("这座火山的活动周期似乎有一定的规律。", "这座火山的活动周期似乎遵循一定的节律。"),
+   # Sec5 例2： volcanoes 比喻「火焰山」是中文文化专名，西语 volcanoes 只是「火山」
+   ("这地方就跟火焰山一样，太热了。", "这地方热得像火山一样。"),
+   # Sec5 例1：原译「太阳扭过了脸去」文学化，rotar su cara 直译即「转过脸来」
+   ("一切都跌入冰谷了，太阳扭过了脸去，万物都被冻上了……",
+    "一切坠落冰谷，太阳转过了脸，万物都已冻结……"),
+ ],
+ "CN_FIX": {
+   # Sec2 词头「警」疑为「火警」被截断，补全
+   "警": "火警",
+   # Sec1 E：difícil=困难的；原译「累人的」实为 fatigante
+   "累人的": "困难的，辛苦的",
+ },
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43, 44: G44, 45: G45}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

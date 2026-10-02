@@ -72116,11 +72116,6 @@
 "lang": "zh"
 },
 {
-"text": "ciclón",
-"path": "es/05884.mp3",
-"lang": "es"
-},
-{
 "text": "antropogénico",
 "path": "es/05885.mp3",
 "lang": "es"
@@ -72128,6 +72123,16 @@
 {
 "text": "人为的",
 "path": "zh/06615.mp3",
+"lang": "zh"
+},
+{
+"text": "lo trágico",
+"path": "es/09492.mp3",
+"lang": "es"
+},
+{
+"text": "悲惨的事",
+"path": "zh/10143.mp3",
 "lang": "zh"
 },
 {
@@ -72181,12 +72186,12 @@
 "lang": "es"
 },
 {
-"text": "累人的",
+"text": "困难的，辛苦的",
 "path": "zh/06620.mp3",
 "lang": "zh"
 },
 {
-"text": "No podemos evitar los de-sastres de la vida.",
+"text": "No podemos evitar los desastres de la vida.",
 "path": "es/05892.mp3",
 "lang": "es"
 },
@@ -72241,7 +72246,7 @@
 "lang": "es"
 },
 {
-"text": "世界正在广泛动员抗击鼠疫。",
+"text": "全世界正广泛动员起来，抗击这场瘟疫。",
 "path": "zh/06626.mp3",
 "lang": "zh"
 },
@@ -72271,6 +72276,16 @@
 "lang": "zh"
 },
 {
+"text": "alarma de incendio",
+"path": "es/09493.mp3",
+"lang": "es"
+},
+{
+"text": "火警",
+"path": "zh/10144.mp3",
+"lang": "zh"
+},
+{
 "text": "extintor",
 "path": "es/05899.mp3",
 "lang": "es"
@@ -72278,6 +72293,36 @@
 {
 "text": "灭火剂",
 "path": "zh/06630.mp3",
+"lang": "zh"
+},
+{
+"text": "prevención contra incendios",
+"path": "es/09494.mp3",
+"lang": "es"
+},
+{
+"text": "消防",
+"path": "zh/10145.mp3",
+"lang": "zh"
+},
+{
+"text": "manguera de incendios",
+"path": "es/09495.mp3",
+"lang": "es"
+},
+{
+"text": "消防水龙",
+"path": "zh/10146.mp3",
+"lang": "zh"
+},
+{
+"text": "los simulacros de incendio",
+"path": "es/09496.mp3",
+"lang": "es"
+},
+{
+"text": "消防演习",
+"path": "zh/10147.mp3",
 "lang": "zh"
 },
 {
@@ -72301,6 +72346,16 @@
 "lang": "zh"
 },
 {
+"text": "avalancha de rocas",
+"path": "es/09497.mp3",
+"lang": "es"
+},
+{
+"text": "泥石流",
+"path": "zh/10148.mp3",
+"lang": "zh"
+},
+{
 "text": "席卷，卷走",
 "path": "zh/06633.mp3",
 "lang": "zh"
@@ -72316,8 +72371,33 @@
 "lang": "zh"
 },
 {
-"text": "山口",
-"path": "zh/06635.mp3",
+"text": "avenida montuosa",
+"path": "es/09498.mp3",
+"lang": "es"
+},
+{
+"text": "山洪",
+"path": "zh/10149.mp3",
+"lang": "zh"
+},
+{
+"text": "ladera de la montaña",
+"path": "es/09499.mp3",
+"lang": "es"
+},
+{
+"text": "山坡",
+"path": "zh/10150.mp3",
+"lang": "zh"
+},
+{
+"text": "región montuosa",
+"path": "es/09500.mp3",
+"lang": "es"
+},
+{
+"text": "山区",
+"path": "zh/10151.mp3",
 "lang": "zh"
 },
 {
@@ -72368,6 +72448,16 @@
 {
 "text": "扑灭",
 "path": "zh/06641.mp3",
+"lang": "zh"
+},
+{
+"text": "levantarse",
+"path": "es/09501.mp3",
+"lang": "es"
+},
+{
+"text": "起身",
+"path": "zh/10152.mp3",
 "lang": "zh"
 },
 {
@@ -72426,7 +72516,7 @@
 "lang": "es"
 },
 {
-"text": "一场暴风雨毁坏了这个地区的果树。",
+"text": "一片乌云毁坏了这个地区的果树。",
 "path": "zh/06648.mp3",
 "lang": "zh"
 },
@@ -72491,13 +72581,43 @@
 "lang": "zh"
 },
 {
-"text": "perspectivar",
-"path": "es/05923.mp3",
+"text": "perforar",
+"path": "es/09502.mp3",
 "lang": "es"
 },
 {
 "text": "勘探",
-"path": "zh/06653.mp3",
+"path": "zh/10153.mp3",
+"lang": "zh"
+},
+{
+"text": "ondas sísmicas",
+"path": "es/09503.mp3",
+"lang": "es"
+},
+{
+"text": "地震波",
+"path": "zh/10154.mp3",
+"lang": "zh"
+},
+{
+"text": "zona sísmica",
+"path": "es/09504.mp3",
+"lang": "es"
+},
+{
+"text": "地震带",
+"path": "zh/10155.mp3",
+"lang": "zh"
+},
+{
+"text": "región sísmica",
+"path": "es/09505.mp3",
+"lang": "es"
+},
+{
+"text": "震区",
+"path": "zh/10156.mp3",
 "lang": "zh"
 },
 {
@@ -72611,7 +72731,7 @@
 "lang": "zh"
 },
 {
-"text": "El epicentro del seísmo se encuentra a 40km. de Manila.",
+"text": "El epicentro del seísmo se encuentra a 40 km de Manila.",
 "path": "es/05934.mp3",
 "lang": "es"
 },
@@ -72661,6 +72781,46 @@
 "lang": "zh"
 },
 {
+"text": "desastre volcánico",
+"path": "es/09506.mp3",
+"lang": "es"
+},
+{
+"text": "火山灾害",
+"path": "zh/10157.mp3",
+"lang": "zh"
+},
+{
+"text": "cráter",
+"path": "es/09507.mp3",
+"lang": "es"
+},
+{
+"text": "火山口",
+"path": "zh/10158.mp3",
+"lang": "zh"
+},
+{
+"text": "isla volcánica",
+"path": "es/09508.mp3",
+"lang": "es"
+},
+{
+"text": "火山岛",
+"path": "zh/10159.mp3",
+"lang": "zh"
+},
+{
+"text": "conglomerados volcánicos",
+"path": "es/09509.mp3",
+"lang": "es"
+},
+{
+"text": "火山堆积",
+"path": "zh/10160.mp3",
+"lang": "zh"
+},
+{
 "text": "vulcanología",
 "path": "es/05939.mp3",
 "lang": "es"
@@ -72698,6 +72858,26 @@
 {
 "text": "岩浆",
 "path": "zh/06674.mp3",
+"lang": "zh"
+},
+{
+"text": "volcán apagado",
+"path": "es/09510.mp3",
+"lang": "es"
+},
+{
+"text": "死火山",
+"path": "zh/10161.mp3",
+"lang": "zh"
+},
+{
+"text": "volcán vivo",
+"path": "es/09511.mp3",
+"lang": "es"
+},
+{
+"text": "活火山",
+"path": "zh/10162.mp3",
 "lang": "zh"
 },
 {
@@ -72756,13 +72936,13 @@
 "lang": "zh"
 },
 {
-"text": "Los períodos de actividad de este volcán parece que se ajustan a cierto ritmo.",
-"path": "es/05948.mp3",
+"text": "Los períodos de actividad de este volcán parecen ajustarse a cierto ritmo.",
+"path": "es/09512.mp3",
 "lang": "es"
 },
 {
-"text": "这座火山的活动周期似乎有一定的规律。",
-"path": "zh/06681.mp3",
+"text": "这座火山的活动周期似乎遵循一定的节律。",
+"path": "zh/10163.mp3",
 "lang": "zh"
 },
 {
@@ -72776,8 +72956,23 @@
 "lang": "zh"
 },
 {
+"text": "Este volcán ha tenido muchas erupciones este siglo.",
+"path": "es/09513.mp3",
+"lang": "es"
+},
+{
+"text": "在本世纪内这座火山已多次喷发。",
+"path": "zh/10164.mp3",
+"lang": "zh"
+},
+{
+"text": "congelación",
+"path": "es/09514.mp3",
+"lang": "es"
+},
+{
 "text": "冰冻",
-"path": "zh/06683.mp3",
+"path": "zh/10165.mp3",
 "lang": "zh"
 },
 {
@@ -72788,6 +72983,16 @@
 {
 "text": "固化",
 "path": "zh/06684.mp3",
+"lang": "zh"
+},
+{
+"text": "punto de escarcha",
+"path": "es/09515.mp3",
+"lang": "es"
+},
+{
+"text": "冰点",
+"path": "zh/10166.mp3",
 "lang": "zh"
 },
 {
@@ -72826,6 +73031,16 @@
 "lang": "zh"
 },
 {
+"text": "calor extremo",
+"path": "es/09516.mp3",
+"lang": "es"
+},
+{
+"text": "极热",
+"path": "zh/10167.mp3",
+"lang": "zh"
+},
+{
 "text": "seco",
 "path": "es/02197.mp3",
 "lang": "es"
@@ -72856,13 +73071,18 @@
 "lang": "zh"
 },
 {
-"text": "暴风雨",
-"path": "zh/06692.mp3",
+"text": "viento tempestuoso",
+"path": "es/09517.mp3",
+"lang": "es"
+},
+{
+"text": "暴风",
+"path": "zh/10168.mp3",
 "lang": "zh"
 },
 {
-"text": "暴风雪 tormenta de",
-"path": "zh/06693.mp3",
+"text": "暴风雨",
+"path": "zh/06692.mp3",
 "lang": "zh"
 },
 {
@@ -72871,13 +73091,13 @@
 "lang": "zh"
 },
 {
-"text": "huesos",
-"path": "es/05956.mp3",
+"text": "escombros",
+"path": "es/09518.mp3",
 "lang": "es"
 },
 {
 "text": "残骸",
-"path": "zh/06695.mp3",
+"path": "zh/10169.mp3",
 "lang": "zh"
 },
 {
@@ -72891,18 +73111,13 @@
 "lang": "zh"
 },
 {
-"text": "victima",
-"path": "es/05958.mp3",
+"text": "vigilancia",
+"path": "es/09519.mp3",
 "lang": "es"
 },
 {
-"text": "受灾者",
-"path": "zh/06697.mp3",
-"lang": "zh"
-},
-{
 "text": "监控",
-"path": "zh/06698.mp3",
+"path": "zh/10170.mp3",
 "lang": "zh"
 },
 {
@@ -72941,12 +73156,12 @@
 "lang": "zh"
 },
 {
-"text": "Todo cayó en su valle de hielo, el sol rota su cara, y todas las cosas se han con-gelado.",
+"text": "Todo cayó en su valle de hielo, el sol rota su cara, y todas las cosas se han congelado.",
 "path": "es/05961.mp3",
 "lang": "es"
 },
 {
-"text": "一切都跌入冰谷了，太阳扭过了脸去，万物都被冻上了……",
+"text": "一切坠落冰谷，太阳转过了脸，万物都已冻结……",
 "path": "zh/06703.mp3",
 "lang": "zh"
 },
@@ -72956,7 +73171,7 @@
 "lang": "es"
 },
 {
-"text": "这地方就跟火焰山一样，太热了。",
+"text": "这地方热得像火山一样。",
 "path": "zh/06704.mp3",
 "lang": "zh"
 },
