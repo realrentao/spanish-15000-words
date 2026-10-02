@@ -2386,7 +2386,84 @@ G36 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36}
+G37 = {
+ "name": "宗教信仰",
+ "raw": "_tools/parte37_raw.txt",
+ "typo": {
+   "erroresconsiguen": "errores consigue",   # OCR 粘连：errores + consiguen
+   "no-tablemente": "notablemente",          # OCR：no + tablemente（断行残迹）
+   "dios": "Dios",                            # 神名须大写
+ },
+ "fix": {
+   # ---- Sec1 不同信仰
+   ("信徒", "discípulo"): "creyente",         # discípulo=门徒；信徒=creyente
+   ("拜物教", "fetiche"): "culto a los ídolos",  # fetiche=物神/偶物；拜物教需补 culto
+   # ---- Sec2 宗教活动
+   ("教规", "canon"): "canón",                # RAE 重音：canón
+ },
+ "pos": {
+   # Sec1
+   ("宗教", "religión"): "n.f.",
+   ("信仰", "creencia"): "n.f.",
+   ("基督教", "cristianismo"): "n.m.",
+   ("天主教", "catolicismo"): "n.m.",
+   ("新教", "protestantismo"): "n.m.",
+   ("犹太教", "judaísmo"): "n.m.",
+   ("伊斯兰教", "islamismo"): "n.m.",
+   ("东正教", "ortodoxia"): "n.f.",
+   ("佛教", "budismo"): "n.m.",
+   ("道教", "taoísmo"): "n.m.",
+   ("异端", "herejía"): "n.f.",
+   ("拜物教", "culto a los ídolos"): "n.m.",
+   ("救赎", "redención"): "n.f.",
+   ("信徒", "creyente"): "n.m.",
+   ("罪", "culpa"): "n.f.",
+   ("圣经", "Biblia"): "n.f.",
+   ("天使", "ángel"): "n.m.",
+   ("坦白，忏悔", "confesión"): "n.f.",
+   ("无神论", "ateísmo"): "n.m.",
+   ("救世主", "mesías"): "n.m.",
+   ("福音，福音书", "evangelio"): "n.m.",
+   ("使徒，信徒", "apóstol"): "n.m.",
+   # Sec2
+   ("洗礼", "bautismo"): "n.m.",
+   ("废除", "abolición"): "n.f.",
+   ("仪式", "ceremonia"): "n.f.",
+   ("教义", "dogma"): "n.m.",
+   ("崇拜", "devoción"): "n.f.",
+   ("福音派教义", "evangelismo"): "n.m.",
+   ("教规", "canón"): "n.m.",
+   ("虔诚的", "piadoso"): "adj.",
+   ("该罚的", "punible"): "adj.",
+   ("宗教的； 虔诚", "religioso"): "adj.",
+   ("号召", "llamar"): "v.t.",
+   ("征募", "reclutar"): "v.t.",
+ },
+ "subs": [
+   # Sec1 首句结构断裂：原句把两个分句用逗号硬拼
+   ("A veces, la existencia de la infancia, tal vez es la creencia en el momento cuando queremos renunciar",
+    "A veces la existencia de la infancia es, tal vez, la creencia a la que recurimos cuando queremos renunciar"),
+   # Sec1 谚语：原文粘连 + 缺主语
+   ("Admitir los errores consigue medio del perdón",
+    "Admitir los errores es conseguir la mitad del perdón"),
+   # Sec1 首句的排队句
+   ("Una fiesta que está directamente vinculada con el cristianismo es la Navidad",
+    "Una fiesta que está estrechamente vinculada con el cristianismo es la Navidad"),
+   ("Pide clemencia al dios",
+    "Pide clemencia a Dios"),
+   # Sec2
+   ("Sabes unos dogmas católicos?",
+    "¿Sabes cuáles son los dogmas católicos?"),
+   ("Para los trabajadores el único camino hacia la iluminación, es ofrecer la sangre y el sudor con el fin de obtener su bautismo",
+    "Para los trabajadores el único camino hacia la iluminación es ofrecer la sangre y el sudor con el fin de obtener su bautismo"),
+ ],
+ "zh_subs": [
+   # Sec2 中文「我真受不了那么多的礼数」— 原文 No me hallo con tanta ceremonia（受不了繁文缛节）
+   ("我真受不了那么多的礼数。", "我真受不了这么多的繁文缛节。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

@@ -61736,13 +61736,13 @@
 "lang": "zh"
 },
 {
-"text": "fetiche",
-"path": "es/05526.mp3",
+"text": "culto a los ídolos",
+"path": "es/09215.mp3",
 "lang": "es"
 },
 {
 "text": "拜物教",
-"path": "zh/06204.mp3",
+"path": "zh/09866.mp3",
 "lang": "zh"
 },
 {
@@ -61756,13 +61756,13 @@
 "lang": "zh"
 },
 {
-"text": "discípulo",
-"path": "es/05528.mp3",
+"text": "creyente",
+"path": "es/09216.mp3",
 "lang": "es"
 },
 {
 "text": "信徒",
-"path": "zh/06206.mp3",
+"path": "zh/09867.mp3",
 "lang": "zh"
 },
 {
@@ -61846,6 +61846,16 @@
 "lang": "zh"
 },
 {
+"text": "el diablo",
+"path": "es/09217.mp3",
+"lang": "es"
+},
+{
+"text": "魔鬼，恶魔",
+"path": "zh/09868.mp3",
+"lang": "zh"
+},
+{
 "text": "evangelio",
 "path": "es/05537.mp3",
 "lang": "es"
@@ -61896,23 +61906,23 @@
 "lang": "zh"
 },
 {
-"text": "A veces, la existencia de la infancia, tal vez es la creencia en el momento cuando queremos renunciar.",
-"path": "es/05542.mp3",
+"text": "A veces la existencia de la infancia es, tal vez, la creencia a la que recurimos cuando queremos renunciar.",
+"path": "es/09218.mp3",
 "lang": "es"
 },
 {
 "text": "有时总在想，童年的存在，也许就是每当我们想要轻言放弃的时候的一种信仰吧！",
-"path": "zh/06220.mp3",
+"path": "zh/09869.mp3",
 "lang": "zh"
 },
 {
-"text": "Admitir los errores consiguen medio del perdón. （",
-"path": "es/05543.mp3",
+"text": "Admitir los errores es conseguir la mitad del perdón.",
+"path": "es/09219.mp3",
 "lang": "es"
 },
 {
-"text": "谚） 承认错误就得到了一半的宽恕。",
-"path": "zh/06221.mp3",
+"text": "（谚） 承认错误就得到了一半的宽恕。",
+"path": "zh/09870.mp3",
 "lang": "zh"
 },
 {
@@ -61926,13 +61936,13 @@
 "lang": "zh"
 },
 {
-"text": "Una fiesta que está notariamente vinculada con el cristianismo es la Navidad.",
-"path": "es/05545.mp3",
+"text": "Una fiesta que está notablemente vinculada con el cristianismo es la Navidad.",
+"path": "es/09220.mp3",
 "lang": "es"
 },
 {
 "text": "与基督教联系最紧密的一个节日是圣诞节。",
-"path": "zh/06223.mp3",
+"path": "zh/09871.mp3",
 "lang": "zh"
 },
 {
@@ -61946,7 +61956,7 @@
 "lang": "zh"
 },
 {
-"text": "Pide clemencia al dios.",
+"text": "Pide clemencia al Dios.",
 "path": "es/05547.mp3",
 "lang": "es"
 },
@@ -61958,6 +61968,16 @@
 {
 "text": "宗教的； 虔诚",
 "path": "zh/06226.mp3",
+"lang": "zh"
+},
+{
+"text": "actividades religiosas",
+"path": "es/09221.mp3",
+"lang": "es"
+},
+{
+"text": "宗教活动",
+"path": "zh/09872.mp3",
 "lang": "zh"
 },
 {
@@ -61988,6 +62008,16 @@
 {
 "text": "教义",
 "path": "zh/06229.mp3",
+"lang": "zh"
+},
+{
+"text": "ir a la iglesia",
+"path": "es/09222.mp3",
+"lang": "es"
+},
+{
+"text": "做礼拜",
+"path": "zh/09873.mp3",
 "lang": "zh"
 },
 {
@@ -62031,13 +62061,23 @@
 "lang": "zh"
 },
 {
-"text": "canon",
-"path": "es/05555.mp3",
+"text": "religión de estado",
+"path": "es/09223.mp3",
+"lang": "es"
+},
+{
+"text": "国教",
+"path": "zh/09874.mp3",
+"lang": "zh"
+},
+{
+"text": "canón",
+"path": "es/09224.mp3",
 "lang": "es"
 },
 {
 "text": "教规",
-"path": "zh/06234.mp3",
+"path": "zh/09875.mp3",
 "lang": "zh"
 },
 {
@@ -62081,7 +62121,7 @@
 "lang": "zh"
 },
 {
-"text": "Para los trabajadores el único camino hacia la iluminación, es ofrecer la sangre y el sudor con el fin de obtener su bautismo.",
+"text": "Para los trabajadores el único camino hacia la iluminación es ofrecer la sangre y el sudor con el fin de obtener su bautismo.",
 "path": "es/05560.mp3",
 "lang": "es"
 },
@@ -62116,18 +62156,18 @@
 "lang": "es"
 },
 {
-"text": "我真受不了那么多的礼数。",
+"text": "我真受不了这么多的繁文缛节。",
 "path": "zh/06242.mp3",
 "lang": "zh"
 },
 {
-"text": "¿Sabes unos dogmas católicos?",
-"path": "es/05564.mp3",
+"text": "¿Sabes cuáles son los dogmas católicos?",
+"path": "es/09225.mp3",
 "lang": "es"
 },
 {
 "text": "你知道天主教教义吗？",
-"path": "zh/06243.mp3",
+"path": "zh/09876.mp3",
 "lang": "zh"
 },
 {
