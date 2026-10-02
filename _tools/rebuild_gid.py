@@ -439,7 +439,131 @@ G20 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20}
+G21 = {
+ "name": "求职与面试",
+ "raw": "_tools/parte21_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "familien": "familiaricen",              # se familien -> se familiaricen
+   "ma-.ano": "mañana",                     # 断行残损：ma-.ano
+   "compa.ía": "compañía",                  # a.í 不在 clean 的 ñ 自愈字符集里
+ },
+ "fix": {
+   # Sec2 简历
+   ("简历", "curriculum vitae"): "currículum vitae",      # 规范写法带重音
+   ("籍贯", "zona de origen"): "lugar de origen",
+   ("到职日期", "fecha de vencimiento"): "fecha de inicio",  # vencimiento=到期日，义项错
+   # Sec3 优点描述
+   ("有进取心的", "agresivo"): "ambicioso",                 # agresivo=有攻击性的
+   ("仔细的", "menudo"): "cuidadoso",                       # menudo=细小的
+   ("一丝不苟的", "escrupulosa"): "escrupuloso",            # 形容词条用阳性形式
+   # Sec4 缺点描述
+   ("贪婪的", "hambriento"): "avaro",                       # hambriento=饥饿的
+   ("呆板的", "pesado"): "rígido",                           # pesado=沉重的/无聊的
+   # Sec5 个人经历
+   ("任命", "nombrado"): "nombrar",                         # 动词条应用原形
+   ("突破", "taladrar"): "superar",                          # taladrar=钻孔
+   ("背景", "circunstancia"): "contexto",                   # circunstancia=情况
+   # Sec6 面试
+   ("解决", "desatar"): "resolver",                         # desatar=解开(绳)
+   ("提前", "avanzar"): "adelantar",                         # avanzar=前进
+   # Sec7 薪酬福利
+   ("加薪", "aumentar"): "aumento de sueldo",
+   ("年终奖", "premios de fin de año"): "premio de fin de año",
+   # Sec8 保险
+   ("保险单", "fórmula de garantía"): "póliza de seguro",    # fórmula=公式，义项错
+   ("保险公司", "empresa de seguro"): "empresa de seguros",  # 西语惯用复数
+   ("索赔", "reclamar una indemnización"): "reclamación",
+   # Sec9 员工入职
+   ("试用期", "libertad condicional"): "periodo de prueba",  # libertad condicional=假释，严重错
+   ("签到处", "la parte de registro"): "la recepción",
+   # Sec11 常见职位
+   ("会计", "contabilidad"): "contador",                    # contabilidad=会计(学)，人是 contador
+ },
+ "pos": {
+   # 文案标错性别的，按西语实际词性
+   ("奖金", "premio"): "n.m.",
+   ("表现", "rendimiento"): "n.m.",
+   ("医疗保险", "seguro médico"): "n.m.",
+   ("人员", "personal"): "n.m.",
+   ("同事", "colega"): "n.m.",
+   ("总经理", "gerente general"): "n.m.",
+   ("接待员", "recepcionista"): "n.m.",
+   ("行政人员", "administrador"): "n.m.",
+   ("代理", "agente"): "n.m.",
+   # 短语无词性 -> 清空
+   ("没有耐性的", "sin paciencia"): "",
+   ("加薪", "aumento de sueldo"): "",
+   # 修正后西语的真实词性
+   ("会计", "contador"): "n.m.",
+   ("背景", "contexto"): "n.m.",
+ },
+ "subs": [
+   # Sec1 找工作
+   ("La publicidad es un arte, es la necesidad de entusiasmo, se requiere creatividad y la acumulación",
+    "La publicidad es un arte: requiere entusiasmo, creatividad y acumulación"),
+   ("La contratación de empleados es un trabajo de mucho tiempo y requiere mucha paciencia y energía",
+    "La contratación de empleados lleva mucho tiempo y requiere mucha paciencia y energía"),
+   # Sec2 简历
+   ("El entrevistador puede preguntarle si tiene alguna duda acerca de sus respuestas en la elección de su especialidad",
+    "El entrevistador puede preguntarle si tiene alguna duda acerca de sus respuestas sobre la elección de su especialidad"),
+   ("Este chico tiene muy bien curriculum vitae",
+    "Este chico tiene un curriculum vitae muy bueno"),
+   # Sec3 优点描述
+   ("Es un niño con un talento muy creative", "Es un niño con un talento muy creativo"),
+   ("La cuestión se puso en serio a la representación nacional por los senadores",
+    "La cuestión será presentada ante la representación nacional por los senadores con mucha seriedad"),
+   # Sec4 缺点描述（逗号粘连 -> 分号）
+   ("Era siempre el hombre impasible, el miembro imperturbable del club de reforma, ningún incidente o accidente podría sorprenderle",
+    "Era siempre el hombre impasible, el miembro imperturbable del club de reforma; ningún incidente o accidente podría sorprenderle"),
+   # Sec5 个人经历
+   ("Soy nombrado su abogado", "He sido nombrado su abogado"),
+   ("La gente se siente incapaz de entender la expresión",
+    "Es una expresión que la gente no puede entender"),
+   ("Cuando tratamos de controlar la población, decís que es una violación de los derechos humanos",
+    "Cuando tratamos de controlar la población, dices que es una violación de los derechos humanos"),
+   # Sec6 面试
+   ("La oportunidad de conocer su hombre de la vida, nadie quiere perderla",
+    "La oportunidad de conocer al hombre de tu vida, nadie quiere perderla"),
+   ("Frente a esta crisis me doy cuenta de la responsabilidad mía",
+    "Frente a esta crisis, me doy cuenta de mi responsabilidad"),
+   # Sec7 薪酬福利
+   ("No estoy de acuerdo, porque va a aumentar el costo",
+    "No estoy de acuerdo, porque eso va a aumentar el costo"),
+   # Sec8 保险
+   ("Están aseguradas las necesidades esenciales del pueblo en la alimentación y vestido",
+    "Están aseguradas las necesidades esenciales del pueblo en la alimentación y el vestido"),
+   # Sec9 员工入职
+   ("Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familiaricen con diferentes documentos",
+    "Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familiaricen con distintos documentos"),
+   ("Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familiaricen con distintos documentos. Reflets",
+    "Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familiaricen con distintos documentos."),
+   ("Van a reemplazarme con un colega", "Van a sustituirme por un colega"),
+   ("La Sección es una función interna de consultoría de gestión",
+    "La sección es una unidad interna de consultoría de gestión"),
+   ("Asistió a la conferencia por su colega", "Asistió a la conferencia en lugar de su colega"),
+   # Sec10 公司部门
+   ("Nuestras áreas de mercado están en todas partes y cualquier profesional de la emisión, excepto en supermercados muy grandes",
+    "Nuestras áreas de mercado están en todas partes: cualquier profesional de la emisión, salvo en los supermercados muy grandes"),
+   # Sec11 常见职位
+   ("Has hablado con tu gerente de tu salario?",
+    "¿Has hablado con tu gerente sobre tu salario?"),
+   # Sec11 句尾是全角「！」，西语必须用半角并配「¡」
+   ("Hoy somos amigos, mañana somos socios de cooperación, nos ayudamos uno a otro a conseguir éxito！",
+    "¡Hoy somos amigos, mañana somos socios de cooperación, nos ayudamos uno a otro a conseguir éxito!"),
+ ],
+ "zh_subs": [
+   # Sec6 错字「旳」
+   ("人生是一种没有办法抗拒旳前进。", "人生是一种没有办法抗拒的前进。"),
+   # Sec5 中文与西语不符（「义务辩护律师」是误译）
+   ("我被任命担任你的义务辩护律师。", "我被任命为他的律师。"),
+   # Sec9 中文以产品名 Reflets 开头，被 split_s 误判成西语尾巴
+   ("提供了语法和词汇的基础",
+    "Reflets 提供了语法和词汇的基础"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

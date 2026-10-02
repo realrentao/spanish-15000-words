@@ -26896,6 +26896,36 @@
 "lang": "zh"
 },
 {
+"text": "tiempo completo",
+"path": "es/07557.mp3",
+"lang": "es"
+},
+{
+"text": "全职的",
+"path": "zh/08208.mp3",
+"lang": "zh"
+},
+{
+"text": "tiempo parcial",
+"path": "es/07558.mp3",
+"lang": "es"
+},
+{
+"text": "兼职的",
+"path": "zh/08209.mp3",
+"lang": "zh"
+},
+{
+"text": "lugar vacante",
+"path": "es/07559.mp3",
+"lang": "es"
+},
+{
+"text": "空缺",
+"path": "zh/08210.mp3",
+"lang": "zh"
+},
+{
 "text": "emplear",
 "path": "es/03418.mp3",
 "lang": "es"
@@ -26961,6 +26991,16 @@
 "lang": "zh"
 },
 {
+"text": "bien pagado",
+"path": "es/07560.mp3",
+"lang": "es"
+},
+{
+"text": "高薪的",
+"path": "zh/08211.mp3",
+"lang": "zh"
+},
+{
 "text": "积极性",
 "path": "zh/03726.mp3",
 "lang": "zh"
@@ -26996,23 +27036,33 @@
 "lang": "zh"
 },
 {
-"text": "La publicidad es un arte, es la necesidad de entusiasmo, se requiere creatividad y la acumulación.",
-"path": "es/03426.mp3",
+"text": "La publicidad es un arte: requiere entusiasmo, creatividad y acumulación.",
+"path": "es/07561.mp3",
 "lang": "es"
 },
 {
 "text": "广告是一门艺术，需要的是热情，需要的是创意，需要的是积累。",
-"path": "zh/03730.mp3",
+"path": "zh/08212.mp3",
 "lang": "zh"
 },
 {
-"text": "La contratación de empleados es un trabajo de mucho tiempo y requiere mucha paciencia y energía.",
-"path": "es/03427.mp3",
+"text": "La contratación de empleados lleva mucho tiempo y requiere mucha paciencia y energía.",
+"path": "es/07562.mp3",
 "lang": "es"
 },
 {
 "text": "招聘员工是一项耗时的工作，并需要许多的耐心与精力。",
-"path": "zh/03731.mp3",
+"path": "zh/08213.mp3",
+"lang": "zh"
+},
+{
+"text": "currículum vitae",
+"path": "es/07563.mp3",
+"lang": "es"
+},
+{
+"text": "简历",
+"path": "zh/08214.mp3",
 "lang": "zh"
 },
 {
@@ -27023,6 +27073,66 @@
 {
 "text": "培训",
 "path": "zh/03732.mp3",
+"lang": "zh"
+},
+{
+"text": "fecha de nacimiento",
+"path": "es/07564.mp3",
+"lang": "es"
+},
+{
+"text": "出生日期",
+"path": "zh/08215.mp3",
+"lang": "zh"
+},
+{
+"text": "lugar de nacimiento",
+"path": "es/07565.mp3",
+"lang": "es"
+},
+{
+"text": "出生地点",
+"path": "zh/08216.mp3",
+"lang": "zh"
+},
+{
+"text": "lugar de origen",
+"path": "es/07566.mp3",
+"lang": "es"
+},
+{
+"text": "籍贯",
+"path": "zh/08217.mp3",
+"lang": "zh"
+},
+{
+"text": "dirección actual",
+"path": "es/07567.mp3",
+"lang": "es"
+},
+{
+"text": "目前地址",
+"path": "zh/08218.mp3",
+"lang": "zh"
+},
+{
+"text": "dirección permanente",
+"path": "es/07568.mp3",
+"lang": "es"
+},
+{
+"text": "永久地址",
+"path": "zh/08219.mp3",
+"lang": "zh"
+},
+{
+"text": "teléfono de casa",
+"path": "es/07569.mp3",
+"lang": "es"
+},
+{
+"text": "住宅电话",
+"path": "zh/08220.mp3",
 "lang": "zh"
 },
 {
@@ -27043,6 +27153,36 @@
 {
 "text": "女性的",
 "path": "zh/03734.mp3",
+"lang": "zh"
+},
+{
+"text": "estado de salud",
+"path": "es/07570.mp3",
+"lang": "es"
+},
+{
+"text": "健康状况",
+"path": "zh/08221.mp3",
+"lang": "zh"
+},
+{
+"text": "fecha de inicio",
+"path": "es/07571.mp3",
+"lang": "es"
+},
+{
+"text": "到职日期",
+"path": "zh/08222.mp3",
+"lang": "zh"
+},
+{
+"text": "estado civil",
+"path": "es/07572.mp3",
+"lang": "es"
+},
+{
+"text": "婚姻状况",
+"path": "zh/08223.mp3",
 "lang": "zh"
 },
 {
@@ -27081,23 +27221,23 @@
 "lang": "zh"
 },
 {
-"text": "El entrevistador puede preguntarle si tiene alguna duda acerca de sus respuestas en la elección de su especialidad.",
-"path": "es/03434.mp3",
+"text": "El entrevistador puede preguntarle si tiene alguna duda acerca de sus respuestas sobre la elección de su especialidad.",
+"path": "es/07573.mp3",
 "lang": "es"
 },
 {
 "text": "如果对你之前选择专业的回答有疑问，招聘者就会问你这个问题。",
-"path": "zh/03739.mp3",
+"path": "zh/08224.mp3",
 "lang": "zh"
 },
 {
-"text": "Este chico tiene muy bien curriculum vitae.",
-"path": "es/03435.mp3",
+"text": "Este chico tiene un curriculum vitae muy bueno.",
+"path": "es/07574.mp3",
 "lang": "es"
 },
 {
 "text": "这个小伙子的履历很出色。",
-"path": "zh/03740.mp3",
+"path": "zh/08225.mp3",
 "lang": "zh"
 },
 {
@@ -27161,16 +27301,6 @@
 "lang": "zh"
 },
 {
-"text": "agresivo",
-"path": "es/03442.mp3",
-"lang": "es"
-},
-{
-"text": "有进取心的",
-"path": "zh/03747.mp3",
-"lang": "zh"
-},
-{
 "text": "ansia",
 "path": "es/03443.mp3",
 "lang": "es"
@@ -27178,6 +27308,16 @@
 {
 "text": "渴求",
 "path": "zh/03748.mp3",
+"lang": "zh"
+},
+{
+"text": "espíritu de cooperación",
+"path": "es/07575.mp3",
+"lang": "es"
+},
+{
+"text": "合作精神",
+"path": "zh/08226.mp3",
 "lang": "zh"
 },
 {
@@ -27201,13 +27341,13 @@
 "lang": "zh"
 },
 {
-"text": "menudo",
-"path": "es/03446.mp3",
+"text": "cuidadoso",
+"path": "es/07576.mp3",
 "lang": "es"
 },
 {
 "text": "仔细的",
-"path": "zh/03751.mp3",
+"path": "zh/08227.mp3",
 "lang": "zh"
 },
 {
@@ -27251,13 +27391,13 @@
 "lang": "zh"
 },
 {
-"text": "escrupulosa",
-"path": "es/03451.mp3",
+"text": "escrupuloso",
+"path": "es/07577.mp3",
 "lang": "es"
 },
 {
 "text": "一丝不苟的",
-"path": "zh/03757.mp3",
+"path": "zh/08228.mp3",
 "lang": "zh"
 },
 {
@@ -27346,13 +27486,13 @@
 "lang": "zh"
 },
 {
-"text": "Es un niño con un talento muy creative.",
-"path": "es/03459.mp3",
+"text": "Es un niño con un talento muy creativo.",
+"path": "es/07578.mp3",
 "lang": "es"
 },
 {
 "text": "他是一个极具创造性的孩子。",
-"path": "zh/03766.mp3",
+"path": "zh/08229.mp3",
 "lang": "zh"
 },
 {
@@ -27366,13 +27506,13 @@
 "lang": "zh"
 },
 {
-"text": "La cuestión se puso en serio a la representación nacional por los senadores.",
-"path": "es/03461.mp3",
+"text": "La cuestión será presentada ante la representación nacional por los senadores con mucha seriedad.",
+"path": "es/07579.mp3",
 "lang": "es"
 },
 {
 "text": "这个问题将被很严肃地由参议员们向国家代表大会提出。",
-"path": "zh/03768.mp3",
+"path": "zh/08230.mp3",
 "lang": "zh"
 },
 {
@@ -27396,13 +27536,13 @@
 "lang": "zh"
 },
 {
-"text": "paciencia",
-"path": "es/01900.mp3",
+"text": "sin paciencia",
+"path": "es/07580.mp3",
 "lang": "es"
 },
 {
-"text": "没有耐性的 sin",
-"path": "zh/03771.mp3",
+"text": "没有耐性的",
+"path": "zh/08231.mp3",
 "lang": "zh"
 },
 {
@@ -27436,13 +27576,13 @@
 "lang": "zh"
 },
 {
-"text": "hambriento",
-"path": "es/03467.mp3",
+"text": "avaro",
+"path": "es/07581.mp3",
 "lang": "es"
 },
 {
 "text": "贪婪的",
-"path": "zh/03775.mp3",
+"path": "zh/08232.mp3",
 "lang": "zh"
 },
 {
@@ -27511,8 +27651,13 @@
 "lang": "zh"
 },
 {
+"text": "rígido",
+"path": "es/01065.mp3",
+"lang": "es"
+},
+{
 "text": "呆板的",
-"path": "zh/03782.mp3",
+"path": "zh/01109.mp3",
 "lang": "zh"
 },
 {
@@ -27576,7 +27721,7 @@
 "lang": "zh"
 },
 {
-"text": "Era siempre el hombre impasible, el miembro imperturbable del club de reforma, ningún incidente o accidente podría sorprenderle.",
+"text": "Era siempre el hombre impasible, el miembro imperturbable del club de reforma; ningún incidente o accidente podría sorprenderle.",
 "path": "es/03480.mp3",
 "lang": "es"
 },
@@ -27586,7 +27731,7 @@
 "lang": "zh"
 },
 {
-"text": "Tengo un millón de de-fectos pero no soy un mentiroso.",
+"text": "Tengo un millón de defectos pero no soy un mentiroso.",
 "path": "es/03481.mp3",
 "lang": "es"
 },
@@ -27666,13 +27811,13 @@
 "lang": "zh"
 },
 {
-"text": "taladrar",
-"path": "es/03489.mp3",
+"text": "superar",
+"path": "es/03759.mp3",
 "lang": "es"
 },
 {
 "text": "突破",
-"path": "zh/03796.mp3",
+"path": "zh/04127.mp3",
 "lang": "zh"
 },
 {
@@ -27706,6 +27851,16 @@
 "lang": "zh"
 },
 {
+"text": "tener idea",
+"path": "es/07582.mp3",
+"lang": "es"
+},
+{
+"text": "想出",
+"path": "zh/08233.mp3",
+"lang": "zh"
+},
+{
 "text": "deber",
 "path": "es/03492.mp3",
 "lang": "es"
@@ -27716,13 +27871,13 @@
 "lang": "zh"
 },
 {
-"text": "circunstancia",
-"path": "es/03493.mp3",
+"text": "contexto",
+"path": "es/07583.mp3",
 "lang": "es"
 },
 {
 "text": "背景",
-"path": "zh/03801.mp3",
+"path": "zh/08234.mp3",
 "lang": "zh"
 },
 {
@@ -27751,33 +27906,33 @@
 "lang": "zh"
 },
 {
-"text": "Soy nombrado su abogado.",
-"path": "es/03496.mp3",
+"text": "He sido nombrado su abogado.",
+"path": "es/07584.mp3",
 "lang": "es"
 },
 {
-"text": "我被任命担任你的义务辩护律师。",
-"path": "zh/03805.mp3",
+"text": "我被任命为他的律师。",
+"path": "zh/08235.mp3",
 "lang": "zh"
 },
 {
-"text": "La gente se siente incapaz de entender la expresión.",
-"path": "es/03497.mp3",
+"text": "Es una expresión que la gente no puede entender.",
+"path": "es/07585.mp3",
 "lang": "es"
 },
 {
 "text": "让人感觉无法理解的表达方式。",
-"path": "zh/03806.mp3",
+"path": "zh/08236.mp3",
 "lang": "zh"
 },
 {
-"text": "Cuando tratamos de con-trolar la población, decís que es una violación de los derechos humanos.",
-"path": "es/03498.mp3",
+"text": "Cuando tratamos de controlar la población, dices que es una violación de los derechos humanos.",
+"path": "es/07586.mp3",
 "lang": "es"
 },
 {
-"text": "当我们尝试控制人口,你们说我们侵犯人权。",
-"path": "zh/03807.mp3",
+"text": "当我们尝试控制人口，你们说我们侵犯人权。",
+"path": "zh/08237.mp3",
 "lang": "zh"
 },
 {
@@ -27788,6 +27943,16 @@
 {
 "text": "面试",
 "path": "zh/03808.mp3",
+"lang": "zh"
+},
+{
+"text": "demandante de empleo",
+"path": "es/07587.mp3",
+"lang": "es"
+},
+{
+"text": "求职者",
+"path": "zh/08238.mp3",
 "lang": "zh"
 },
 {
@@ -27821,11 +27986,6 @@
 "lang": "zh"
 },
 {
-"text": "desatar",
-"path": "es/03502.mp3",
-"lang": "es"
-},
-{
 "text": "puntual",
 "path": "es/01398.mp3",
 "lang": "es"
@@ -27836,13 +27996,13 @@
 "lang": "zh"
 },
 {
-"text": "avanzar",
-"path": "es/03503.mp3",
+"text": "adelantar",
+"path": "es/07588.mp3",
 "lang": "es"
 },
 {
 "text": "提前",
-"path": "zh/03811.mp3",
+"path": "zh/08239.mp3",
 "lang": "zh"
 },
 {
@@ -27869,6 +28029,16 @@
 "text": "suerte",
 "path": "es/03504.mp3",
 "lang": "es"
+},
+{
+"text": "cara a cara",
+"path": "es/07589.mp3",
+"lang": "es"
+},
+{
+"text": "面对面地",
+"path": "zh/08240.mp3",
+"lang": "zh"
 },
 {
 "text": "jefe",
@@ -27921,28 +28091,28 @@
 "lang": "es"
 },
 {
-"text": "人生是一种没有办法抗拒旳前进。",
+"text": "人生是一种没有办法抗拒的前进。",
 "path": "zh/03819.mp3",
 "lang": "zh"
 },
 {
-"text": "La oportunidad de conocer su hombre de la vida, nadie quiere perderla.",
-"path": "es/03509.mp3",
+"text": "La oportunidad de conocer al hombre de tu vida, nadie quiere perderla.",
+"path": "es/07590.mp3",
 "lang": "es"
 },
 {
 "text": "遇见自己生命中的那个他，没有谁想错过这个机会。",
-"path": "zh/03820.mp3",
+"path": "zh/08241.mp3",
 "lang": "zh"
 },
 {
-"text": "Frente a esta crisis me doy cuenta de la responsabilidad mía.",
-"path": "es/03510.mp3",
+"text": "Frente a esta crisis, me doy cuenta de mi responsabilidad.",
+"path": "es/07591.mp3",
 "lang": "es"
 },
 {
 "text": "面对这次危机，我也在掂量我的责任。",
-"path": "zh/03821.mp3",
+"path": "zh/08242.mp3",
 "lang": "zh"
 },
 {
@@ -27971,8 +28141,13 @@
 "lang": "es"
 },
 {
+"text": "aumento de sueldo",
+"path": "es/07592.mp3",
+"lang": "es"
+},
+{
 "text": "加薪",
-"path": "zh/03824.mp3",
+"path": "zh/08243.mp3",
 "lang": "zh"
 },
 {
@@ -27981,8 +28156,28 @@
 "lang": "zh"
 },
 {
+"text": "premio de fin de año",
+"path": "es/07593.mp3",
+"lang": "es"
+},
+{
+"text": "年终奖",
+"path": "zh/08244.mp3",
+"lang": "zh"
+},
+{
 "text": "薪金",
 "path": "zh/03825.mp3",
+"lang": "zh"
+},
+{
+"text": "pago de horas extras",
+"path": "es/07594.mp3",
+"lang": "es"
+},
+{
+"text": "加班费",
+"path": "zh/08245.mp3",
 "lang": "zh"
 },
 {
@@ -28003,6 +28198,26 @@
 {
 "text": "评估",
 "path": "zh/03827.mp3",
+"lang": "zh"
+},
+{
+"text": "jornada laboral",
+"path": "es/07595.mp3",
+"lang": "es"
+},
+{
+"text": "工作日",
+"path": "zh/08246.mp3",
+"lang": "zh"
+},
+{
+"text": "pago por desempeño",
+"path": "es/07596.mp3",
+"lang": "es"
+},
+{
+"text": "绩效工资",
+"path": "zh/08247.mp3",
 "lang": "zh"
 },
 {
@@ -28051,18 +28266,18 @@
 "lang": "es"
 },
 {
-"text": "幸福,就是拥有美国人的工资,英国人的房子,一个日本妻子和一个中国厨师。",
+"text": "幸福，就是拥有美国人的工资，英国人的房子，一个日本妻子和一个中国厨师。",
 "path": "zh/03833.mp3",
 "lang": "zh"
 },
 {
-"text": "No estoy de acuerdo, porque va a aumentar el costo.",
-"path": "es/03520.mp3",
+"text": "No estoy de acuerdo, porque eso va a aumentar el costo.",
+"path": "es/07597.mp3",
 "lang": "es"
 },
 {
 "text": "我不赞成，那将大大增加成本。",
-"path": "zh/03834.mp3",
+"path": "zh/08248.mp3",
 "lang": "zh"
 },
 {
@@ -28076,13 +28291,128 @@
 "lang": "zh"
 },
 {
-"text": "医疗保险 seguro",
-"path": "zh/03836.mp3",
+"text": "prima de seguro",
+"path": "es/07598.mp3",
+"lang": "es"
+},
+{
+"text": "保险费",
+"path": "zh/08249.mp3",
+"lang": "zh"
+},
+{
+"text": "agente de seguros",
+"path": "es/07599.mp3",
+"lang": "es"
+},
+{
+"text": "保险经纪人",
+"path": "zh/08250.mp3",
+"lang": "zh"
+},
+{
+"text": "póliza de seguro",
+"path": "es/07600.mp3",
+"lang": "es"
+},
+{
+"text": "保险单",
+"path": "zh/08251.mp3",
+"lang": "zh"
+},
+{
+"text": "costo del seguro",
+"path": "es/07601.mp3",
+"lang": "es"
+},
+{
+"text": "保险费",
+"path": "zh/08252.mp3",
+"lang": "zh"
+},
+{
+"text": "empresa de seguros",
+"path": "es/07602.mp3",
+"lang": "es"
+},
+{
+"text": "保险公司",
+"path": "zh/08253.mp3",
+"lang": "zh"
+},
+{
+"text": "seguro de pensión",
+"path": "es/07603.mp3",
+"lang": "es"
+},
+{
+"text": "养老保险",
+"path": "zh/08254.mp3",
+"lang": "zh"
+},
+{
+"text": "seguro médico",
+"path": "es/07604.mp3",
+"lang": "es"
+},
+{
+"text": "医疗保险",
+"path": "zh/08255.mp3",
+"lang": "zh"
+},
+{
+"text": "seguro contra accidentes",
+"path": "es/07605.mp3",
+"lang": "es"
+},
+{
+"text": "工伤保险",
+"path": "zh/08256.mp3",
+"lang": "zh"
+},
+{
+"text": "seguro de desempleo",
+"path": "es/07606.mp3",
+"lang": "es"
+},
+{
+"text": "失业保险",
+"path": "zh/08257.mp3",
+"lang": "zh"
+},
+{
+"text": "seguro de maternidad",
+"path": "es/07607.mp3",
+"lang": "es"
+},
+{
+"text": "生育保险",
+"path": "zh/08258.mp3",
+"lang": "zh"
+},
+{
+"text": "fondo de vivienda",
+"path": "es/07608.mp3",
+"lang": "es"
+},
+{
+"text": "住房公积金",
+"path": "zh/08259.mp3",
 "lang": "zh"
 },
 {
 "text": "条款",
 "path": "zh/03837.mp3",
+"lang": "zh"
+},
+{
+"text": "reclamación",
+"path": "es/07609.mp3",
+"lang": "es"
+},
+{
+"text": "索赔",
+"path": "zh/08260.mp3",
 "lang": "zh"
 },
 {
@@ -28118,6 +28448,16 @@
 {
 "text": "排除，剔除",
 "path": "zh/03841.mp3",
+"lang": "zh"
+},
+{
+"text": "proyecto",
+"path": "es/07610.mp3",
+"lang": "es"
+},
+{
+"text": "（条约等的）草案",
+"path": "zh/08261.mp3",
 "lang": "zh"
 },
 {
@@ -28166,13 +28506,13 @@
 "lang": "zh"
 },
 {
-"text": "Están aseguradas las necesidades esenciales del pueblo en la alimentación y vestido.",
-"path": "es/03528.mp3",
+"text": "Están aseguradas las necesidades esenciales del pueblo en la alimentación y el vestido.",
+"path": "es/07611.mp3",
 "lang": "es"
 },
 {
 "text": "人民衣食方面的基本需要得到了保证。",
-"path": "zh/03847.mp3",
+"path": "zh/08262.mp3",
 "lang": "zh"
 },
 {
@@ -28186,6 +28526,16 @@
 "lang": "zh"
 },
 {
+"text": "periodo de prueba",
+"path": "es/07612.mp3",
+"lang": "es"
+},
+{
+"text": "试用期",
+"path": "zh/08263.mp3",
+"lang": "zh"
+},
+{
 "text": "制度",
 "path": "zh/03849.mp3",
 "lang": "zh"
@@ -28196,6 +28546,26 @@
 "lang": "zh"
 },
 {
+"text": "absorber nuevos miembros",
+"path": "es/07613.mp3",
+"lang": "es"
+},
+{
+"text": "吸收新成员",
+"path": "zh/08264.mp3",
+"lang": "zh"
+},
+{
+"text": "recién llegados",
+"path": "es/07614.mp3",
+"lang": "es"
+},
+{
+"text": "新来的人",
+"path": "zh/08265.mp3",
+"lang": "zh"
+},
+{
 "text": "familiarizar",
 "path": "es/03530.mp3",
 "lang": "es"
@@ -28203,6 +28573,46 @@
 {
 "text": "使熟悉",
 "path": "zh/03851.mp3",
+"lang": "zh"
+},
+{
+"text": "jornada laboral",
+"path": "es/07615.mp3",
+"lang": "es"
+},
+{
+"text": "工作时间",
+"path": "zh/08266.mp3",
+"lang": "zh"
+},
+{
+"text": "la recepción",
+"path": "es/07616.mp3",
+"lang": "es"
+},
+{
+"text": "签到处",
+"path": "zh/08267.mp3",
+"lang": "zh"
+},
+{
+"text": "día libre",
+"path": "es/07617.mp3",
+"lang": "es"
+},
+{
+"text": "休息日",
+"path": "zh/08268.mp3",
+"lang": "zh"
+},
+{
+"text": "tiempo de descanso",
+"path": "es/07618.mp3",
+"lang": "es"
+},
+{
+"text": "休息时间",
+"path": "zh/08269.mp3",
 "lang": "zh"
 },
 {
@@ -28251,23 +28661,23 @@
 "lang": "zh"
 },
 {
-"text": "Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familien con diferentes documentos. Reflets",
-"path": "es/03534.mp3",
+"text": "Reflets proporciona la gramática y el vocabulario básicos y permite que los estudiantes se familiaricen con distintos documentos.",
+"path": "es/07619.mp3",
 "lang": "es"
 },
 {
-"text": "提供了语法和词汇的基础，并帮助学生熟悉不同的文件。",
-"path": "zh/03857.mp3",
+"text": "Reflets 提供了语法和词汇的基础，并帮助学生熟悉不同的文件。",
+"path": "zh/08270.mp3",
 "lang": "zh"
 },
 {
-"text": "Van a reemplazarme con un colega.",
-"path": "es/03535.mp3",
+"text": "Van a sustituirme por un colega.",
+"path": "es/07620.mp3",
 "lang": "es"
 },
 {
 "text": "我将被一个同事替代。",
-"path": "zh/03858.mp3",
+"path": "zh/08271.mp3",
 "lang": "zh"
 },
 {
@@ -28281,13 +28691,13 @@
 "lang": "zh"
 },
 {
-"text": "La Sección es una función interna de consultoría de gestión.",
-"path": "es/03537.mp3",
+"text": "La sección es una unidad interna de consultoría de gestión.",
+"path": "es/07621.mp3",
 "lang": "es"
 },
 {
 "text": "该部是一个内部管理咨询单位。",
-"path": "zh/03860.mp3",
+"path": "zh/08272.mp3",
 "lang": "zh"
 },
 {
@@ -28296,7 +28706,7 @@
 "lang": "es"
 },
 {
-"text": "你有员工名单吗?",
+"text": "你有员工名单吗？",
 "path": "zh/03861.mp3",
 "lang": "zh"
 },
@@ -28311,13 +28721,33 @@
 "lang": "zh"
 },
 {
-"text": "Asistió a la conferencia por su colega.",
-"path": "es/03540.mp3",
+"text": "Asistió a la conferencia en lugar de su colega.",
+"path": "es/07622.mp3",
 "lang": "es"
 },
 {
 "text": "他代替他的同事去参加会议。",
-"path": "zh/03863.mp3",
+"path": "zh/08273.mp3",
+"lang": "zh"
+},
+{
+"text": "sociedad matriz",
+"path": "es/07623.mp3",
+"lang": "es"
+},
+{
+"text": "总公司",
+"path": "zh/08274.mp3",
+"lang": "zh"
+},
+{
+"text": "sucursal de una sociedad",
+"path": "es/07624.mp3",
+"lang": "es"
+},
+{
+"text": "分公司",
+"path": "zh/08275.mp3",
 "lang": "zh"
 },
 {
@@ -28328,6 +28758,86 @@
 {
 "text": "部门",
 "path": "zh/01811.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina del jefe",
+"path": "es/07625.mp3",
+"lang": "es"
+},
+{
+"text": "总经理办公室",
+"path": "zh/08276.mp3",
+"lang": "zh"
+},
+{
+"text": "departamento de personal",
+"path": "es/07626.mp3",
+"lang": "es"
+},
+{
+"text": "人事部",
+"path": "zh/08277.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina de ventas",
+"path": "es/07627.mp3",
+"lang": "es"
+},
+{
+"text": "销售处",
+"path": "zh/08278.mp3",
+"lang": "zh"
+},
+{
+"text": "oficina del secretario",
+"path": "es/07628.mp3",
+"lang": "es"
+},
+{
+"text": "秘书室",
+"path": "zh/08279.mp3",
+"lang": "zh"
+},
+{
+"text": "operaciones de adquisición",
+"path": "es/07629.mp3",
+"lang": "es"
+},
+{
+"text": "采购业务",
+"path": "zh/08280.mp3",
+"lang": "zh"
+},
+{
+"text": "junta directiva",
+"path": "es/07630.mp3",
+"lang": "es"
+},
+{
+"text": "董事会",
+"path": "zh/08281.mp3",
+"lang": "zh"
+},
+{
+"text": "departamento de comercialización",
+"path": "es/07631.mp3",
+"lang": "es"
+},
+{
+"text": "市场部",
+"path": "zh/08282.mp3",
+"lang": "zh"
+},
+{
+"text": "sector de la tecnología",
+"path": "es/07632.mp3",
+"lang": "es"
+},
+{
+"text": "技术部",
+"path": "zh/08283.mp3",
 "lang": "zh"
 },
 {
@@ -28381,18 +28891,18 @@
 "lang": "es"
 },
 {
-"text": "秘书长要致欢迎词， 并主持欢迎仪式。",
+"text": "秘书长要致欢迎词，并主持欢迎仪式。",
 "path": "zh/03869.mp3",
 "lang": "zh"
 },
 {
-"text": "Nuestras áreas de mercado están en todas partes y cualquier profesional de la emisión, excepto en supermercados muy grandes.",
-"path": "es/03545.mp3",
+"text": "Nuestras áreas de mercado están en todas partes: cualquier profesional de la emisión, salvo en los supermercados muy grandes.",
+"path": "es/07633.mp3",
 "lang": "es"
 },
 {
 "text": "我们市场投放的范围包括除了超大型超市外的所有地点和各专业投放领域。",
-"path": "zh/03870.mp3",
+"path": "zh/08284.mp3",
 "lang": "zh"
 },
 {
@@ -28401,8 +28911,33 @@
 "lang": "zh"
 },
 {
-"text": "总经理 gerente",
-"path": "zh/03872.mp3",
+"text": "gerente general",
+"path": "es/07634.mp3",
+"lang": "es"
+},
+{
+"text": "总经理",
+"path": "zh/08285.mp3",
+"lang": "zh"
+},
+{
+"text": "director general adjunto",
+"path": "es/07635.mp3",
+"lang": "es"
+},
+{
+"text": "副总经理",
+"path": "zh/08286.mp3",
+"lang": "zh"
+},
+{
+"text": "todos los empleados",
+"path": "es/07636.mp3",
+"lang": "es"
+},
+{
+"text": "全体员工",
+"path": "zh/08287.mp3",
 "lang": "zh"
 },
 {
@@ -28451,13 +28986,13 @@
 "lang": "zh"
 },
 {
-"text": "contabilidad",
-"path": "es/03549.mp3",
+"text": "contador",
+"path": "es/04612.mp3",
 "lang": "es"
 },
 {
 "text": "会计",
-"path": "zh/03878.mp3",
+"path": "zh/05094.mp3",
 "lang": "zh"
 },
 {
@@ -28478,6 +29013,16 @@
 {
 "text": "顾问",
 "path": "zh/03880.mp3",
+"lang": "zh"
+},
+{
+"text": "operador de telefonía",
+"path": "es/07637.mp3",
+"lang": "es"
+},
+{
+"text": "电话接线员",
+"path": "zh/08288.mp3",
 "lang": "zh"
 },
 {
@@ -28516,13 +29061,13 @@
 "lang": "zh"
 },
 {
-"text": "¿Has hablado con tu gerente de tu salario?",
-"path": "es/03554.mp3",
+"text": "¿Has hablado con tu gerente sobre tu salario?",
+"path": "es/07638.mp3",
 "lang": "es"
 },
 {
 "text": "你跟你的经理谈过你的工资没有？",
-"path": "zh/03885.mp3",
+"path": "zh/08289.mp3",
 "lang": "zh"
 },
 {
@@ -28536,13 +29081,13 @@
 "lang": "zh"
 },
 {
-"text": "Hoy somos amigos, ma-.ana somos socios de cooperación, nos ayudamos uno a otro a conseguir éxito!",
-"path": "es/03556.mp3",
+"text": "¡Hoy somos amigos, mañana somos socios de cooperación, nos ayudamos uno a otro a conseguir éxito!",
+"path": "es/07722.mp3",
 "lang": "es"
 },
 {
 "text": "今日相识就是朋友，明日合作就是伙伴，互相帮助就会成功！",
-"path": "zh/03887.mp3",
+"path": "zh/08373.mp3",
 "lang": "zh"
 },
 {
@@ -29876,6 +30421,11 @@
 "lang": "zh"
 },
 {
+"text": "avanzar",
+"path": "es/03503.mp3",
+"lang": "es"
+},
+{
 "text": "进步，进展",
 "path": "zh/04022.mp3",
 "lang": "zh"
@@ -30966,16 +31516,6 @@
 "lang": "zh"
 },
 {
-"text": "superar",
-"path": "es/03759.mp3",
-"lang": "es"
-},
-{
-"text": "超过",
-"path": "zh/04127.mp3",
-"lang": "zh"
-},
-{
 "text": "mercado",
 "path": "es/03760.mp3",
 "lang": "es"
@@ -31134,6 +31674,11 @@
 "text": "La publicidad es un arte, que necesita entusiasmo, creatividad, y acumulación.",
 "path": "es/03772.mp3",
 "lang": "es"
+},
+{
+"text": "广告是一门艺术，需要的是热情，需要的是创意，需要的是积累。",
+"path": "zh/03730.mp3",
+"lang": "zh"
 },
 {
 "text": "En ese mundo donde brilla neón, .cuántas parejas pueden amar toda la vida? ¡Ama de la vida!",
@@ -32814,6 +33359,11 @@
 "text": "相应的，适当的",
 "path": "zh/04302.mp3",
 "lang": "zh"
+},
+{
+"text": "circunstancia",
+"path": "es/03493.mp3",
+"lang": "es"
 },
 {
 "text": "情况",
@@ -40686,16 +41236,6 @@
 "lang": "zh"
 },
 {
-"text": "contador",
-"path": "es/04612.mp3",
-"lang": "es"
-},
-{
-"text": "吧台",
-"path": "zh/05094.mp3",
-"lang": "zh"
-},
-{
 "text": "nocturno",
 "path": "es/04613.mp3",
 "lang": "es"
@@ -43528,16 +44068,6 @@
 {
 "text": "漫画",
 "path": "zh/01108.mp3",
-"lang": "zh"
-},
-{
-"text": "rígido",
-"path": "es/01065.mp3",
-"lang": "es"
-},
-{
-"text": "硬的",
-"path": "zh/01109.mp3",
 "lang": "zh"
 },
 {
@@ -69184,6 +69714,11 @@
 "text": "X光检查",
 "path": "zh/07498.mp3",
 "lang": "zh"
+},
+{
+"text": "paciencia",
+"path": "es/01900.mp3",
+"lang": "es"
 },
 {
 "text": "耐心，耐性",
