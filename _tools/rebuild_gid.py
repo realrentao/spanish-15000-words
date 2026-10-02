@@ -2871,7 +2871,86 @@ G42 = {
  },
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42}
+G43 = {
+ "name": "科技",
+ "raw": "_tools/parte43_raw.txt",
+ "typo": {
+   "Espa.a": "España",                     # OCR：ñ->.
+   "éso": "eso",                           # RAE：éso 已废
+   # ---- 断行连字符（clean_es 也能合并，列出便于对照）
+   "tecno-logía": "tecnología",
+   "in-clinada": "inclinada",
+   "patri-monio": "patrimonio",
+   "huma-nidad": "humanidad",
+   "ge-nética": "genética",
+   "ni.os": "niños",
+   "nece-sario": "necesario",
+   "oportu-nidad": "oportunidad",
+   "fabri-cante": "fabricante",
+   "en-trando": "entrando",
+   "má-quina": "máquina",
+ },
+ "fix": {
+   # ---- Sec1 科技
+   # 「科学论派」原文 cienciología 实为「山达教」(Scientology) 的西语译名，
+   # 与「科学论派」义项不符；按中文原意「科学主义」改为 scientismo。
+   ("科学论派", "cienciología"): "scientismo",
+   ("发现", "descubrir"): "descubrir",
+   ("倾向于……的", "inclinado"): "inclinado",
+   # ---- Sec2 基因
+   ("天生的", "nacido"): "innato",# nacido=出生的(过去分词)；天生的=innato
+   ("隐形的", "invisible"): "recesivo",       # 遗传学「隐性」=recesivo；隐形=invisible(义不同)
+   # ---- Sec3 数码
+   ("移位", "movimiento"): "desplazamiento", # movimiento=运动；移位=desplazamiento
+   ("记录", "notar"): "registrar",            # notar=公证/签署；记录=registrar
+   ("读取", "leer"): "leer",                  # leer=阅读（保留，数据语境可接受）
+ },
+ "pos": {
+   # ---- Sec1（科技/航空技术/纳米等短语按词性实际标注）
+   ("科技", "la ciencia y la tecnología"): "",
+   ("航空技术", "tecnología de aviación"): "",
+   ("倾向于……的", "inclinado"): "adj.",
+   # ---- Sec2
+   ("基因库", "banco de genes"): "",
+   ("天生的", "innato"): "adj.",
+   # ---- Sec3
+   ("数码相机", "cámara digital"): "",
+   ("数字技术", "tecnología digital"): "",
+   ("记录", "registrar"): "v.t.",
+ },
+ "subs": [
+   # Sec1 例2：Espa.a->España（OCR）；且.propenso a práctica 缺冠词/介词，
+   # 与前面的 «inclinada a la teoría» 平行，应为 «más propenso a la práctica»
+   ("la educación china es más inclinada a la teoría, y España más propenso a práctica",
+    "la educación china es más inclinada a la teoría, y la española más propensa a la práctica"),
+   # Sec3 例6：un máquina 阴性名词用了阳性冠词
+   ("Siempre se lleva un máquina de escribir portátil",
+    "Siempre se lleva una máquina de escribir portátil"),
+ ],
+ "zh_subs": [
+   # Sec1 例1：原句说的是「这不是实用/不切实际」，中文却译成「证实…不可能」，
+   # 意思完全不同（es que…引出解释，而非下结论）
+   ("因为所有的科学理论都证实这种事情是不可能的！",
+    "事情就在于，所有科学理论都证明这并不切实际！"),
+   # Sec1 例2：中文开头「对于经济学的这个专业来说，我认为」是原文没有的
+   ("对于经济学的这个专业来说，我认为，中国比较倾向理论的教育，而西班牙则比较倾向于实践。",
+    "就经济学这个专业而言，我认为中国的教育更偏重理论，而西班牙更偏重实践。"),
+   # Sec2 例1：se debía a una variación = 「白虎毛色变异所致」，
+   # 中文「白虎是基因突变的产物」把变异(mutación)与突变混了，且主语错位
+   ("白虎是基因突变的产物。", "白虎的白色毛色正是源于其基因的变异。"),
+   # Sec2 例2：herencia 兼有「遗传/遗产」两义，此处与「基因/遗传」主题呼应，
+   # 原文说的是「遗产/遗传」，中文只说「遗产」漏了「遗传」这一层
+   ("他的女儿继承了遗产。", "他的女儿继承了他的遗产。"),
+   # Sec3 例3：数码语境下 un disco = 光盘，中文「唱片」是旧义
+   ("他想要录制一张唱片。", "他想刻录一张光盘。"),
+   # Sec3 例6：para notarse sus ideas = 「为了记下自己的想法」，
+   # 中文「记录他的灵感」把 notar(se) 当成 notar(公证)理解了
+   ("他常常带着手提式打字机以便随时记录他的灵感。",
+    "他总是随身带着一台便携式打字机，好随时记下自己的想法。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

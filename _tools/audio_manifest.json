@@ -71151,6 +71151,16 @@
 "lang": "zh"
 },
 {
+"text": "la ciencia y la tecnología",
+"path": "es/09437.mp3",
+"lang": "es"
+},
+{
+"text": "科技",
+"path": "zh/10088.mp3",
+"lang": "zh"
+},
+{
 "text": "科学",
 "path": "zh/06534.mp3",
 "lang": "zh"
@@ -71186,13 +71196,23 @@
 "lang": "zh"
 },
 {
-"text": "cienciología",
-"path": "es/05814.mp3",
+"text": "scientismo",
+"path": "es/09438.mp3",
 "lang": "es"
 },
 {
 "text": "科学论派",
-"path": "zh/06538.mp3",
+"path": "zh/10089.mp3",
+"lang": "zh"
+},
+{
+"text": "tecnología de aviación",
+"path": "es/09439.mp3",
+"lang": "es"
+},
+{
+"text": "航空技术",
+"path": "zh/10090.mp3",
 "lang": "zh"
 },
 {
@@ -71236,6 +71256,16 @@
 "lang": "zh"
 },
 {
+"text": "inclinado",
+"path": "es/09440.mp3",
+"lang": "es"
+},
+{
+"text": "倾向于……的",
+"path": "zh/10091.mp3",
+"lang": "zh"
+},
+{
 "text": "实际的",
 "path": "zh/06543.mp3",
 "lang": "zh"
@@ -71246,23 +71276,23 @@
 "lang": "zh"
 },
 {
-"text": "¡Es que todas las teorías de la ciencia demuestran que éso no es práctico!",
-"path": "es/05819.mp3",
+"text": "¡Es que todas las teorías de la ciencia demuestran que eso no es práctico!",
+"path": "es/09441.mp3",
 "lang": "es"
 },
 {
-"text": "因为所有的科学理论都证实这种事情是不可能的！",
-"path": "zh/06545.mp3",
+"text": "事情就在于，所有科学理论都证明这并不切实际！",
+"path": "zh/10092.mp3",
 "lang": "zh"
 },
 {
-"text": "Para la economía, la educación china es más inclinada a la teoría, y España más propenso a práctica.",
-"path": "es/05820.mp3",
+"text": "Para la economía, la educación china es más inclinada a la teoría, y la española más propensa a la práctica.",
+"path": "es/09442.mp3",
 "lang": "es"
 },
 {
-"text": "对于经济学的这个专业来说，我认为，中国比较倾向理论的教育，而西班牙则比较倾向于实践。",
-"path": "zh/06546.mp3",
+"text": "就经济学这个专业而言，我认为中国的教育更偏重理论，而西班牙更偏重实践。",
+"path": "zh/10093.mp3",
 "lang": "zh"
 },
 {
@@ -71346,13 +71376,13 @@
 "lang": "zh"
 },
 {
-"text": "invisible",
-"path": "es/05828.mp3",
+"text": "recesivo",
+"path": "es/09443.mp3",
 "lang": "es"
 },
 {
 "text": "隐形的",
-"path": "zh/06554.mp3",
+"path": "zh/10094.mp3",
 "lang": "zh"
 },
 {
@@ -71366,6 +71396,16 @@
 "lang": "zh"
 },
 {
+"text": "banco de genes",
+"path": "es/09444.mp3",
+"lang": "es"
+},
+{
+"text": "基因库",
+"path": "zh/10095.mp3",
+"lang": "zh"
+},
+{
 "text": "herencia",
 "path": "es/05830.mp3",
 "lang": "es"
@@ -71376,13 +71416,13 @@
 "lang": "zh"
 },
 {
-"text": "nacido",
-"path": "es/05831.mp3",
+"text": "innato",
+"path": "es/09445.mp3",
 "lang": "es"
 },
 {
 "text": "天生的",
-"path": "zh/06557.mp3",
+"path": "zh/10096.mp3",
 "lang": "zh"
 },
 {
@@ -71441,7 +71481,7 @@
 "lang": "es"
 },
 {
-"text": "白虎是基因突变的产物。",
+"text": "白虎的白色毛色正是源于其基因的变异。",
 "path": "zh/06563.mp3",
 "lang": "zh"
 },
@@ -71461,7 +71501,7 @@
 "lang": "es"
 },
 {
-"text": "他的女儿继承了遗产。",
+"text": "他的女儿继承了他的遗产。",
 "path": "zh/06565.mp3",
 "lang": "zh"
 },
@@ -71506,6 +71546,26 @@
 "lang": "zh"
 },
 {
+"text": "cámara digital",
+"path": "es/09446.mp3",
+"lang": "es"
+},
+{
+"text": "数码相机",
+"path": "zh/10097.mp3",
+"lang": "zh"
+},
+{
+"text": "tecnología digital",
+"path": "es/09447.mp3",
+"lang": "es"
+},
+{
+"text": "数字技术",
+"path": "zh/10098.mp3",
+"lang": "zh"
+},
+{
 "text": "系统",
 "path": "zh/06570.mp3",
 "lang": "zh"
@@ -71521,13 +71581,13 @@
 "lang": "zh"
 },
 {
-"text": "movimiento",
-"path": "es/05843.mp3",
+"text": "desplazamiento",
+"path": "es/09448.mp3",
 "lang": "es"
 },
 {
 "text": "移位",
-"path": "zh/06572.mp3",
+"path": "zh/10099.mp3",
 "lang": "zh"
 },
 {
@@ -71538,16 +71598,6 @@
 {
 "text": "连续的",
 "path": "zh/06573.mp3",
-"lang": "zh"
-},
-{
-"text": "notar",
-"path": "es/05845.mp3",
-"lang": "es"
-},
-{
-"text": "记录",
-"path": "zh/06574.mp3",
 "lang": "zh"
 },
 {
@@ -71601,7 +71651,7 @@
 "lang": "zh"
 },
 {
-"text": "Los asistentes fueron en-trando sucesivamente en el salón.",
+"text": "Los asistentes fueron entrando sucesivamente en el salón.",
 "path": "es/05851.mp3",
 "lang": "es"
 },
@@ -71611,13 +71661,13 @@
 "lang": "zh"
 },
 {
-"text": "Siempre se lleva un máquina de escribir portátil para notarse sus ideas.",
-"path": "es/05852.mp3",
+"text": "Siempre se lleva una máquina de escribir portátil para notarse sus ideas.",
+"path": "es/09449.mp3",
 "lang": "es"
 },
 {
-"text": "他常常带着手提式打字机以便随时记录他的灵感。",
-"path": "zh/06583.mp3",
+"text": "他总是随身带着一台便携式打字机，好随时记下自己的想法。",
+"path": "zh/10100.mp3",
 "lang": "zh"
 },
 {
