@@ -11511,7 +11511,7 @@
 "lang": "zh"
 },
 {
-"text": "Cuál es tu número de teléfono?",
+"text": "¿Cuál es tu número de teléfono?",
 "path": "es/00100.mp3",
 "lang": "es"
 },
@@ -11541,8 +11541,8 @@
 "lang": "zh"
 },
 {
-"text": "Han dejado algún mensaje para mi?",
-"path": "es/02685.mp3",
+"text": "¿Han dejado algún mensaje para mí?",
+"path": "es/07097.mp3",
 "lang": "es"
 },
 {
@@ -11781,8 +11781,8 @@
 "lang": "zh"
 },
 {
-"text": "Invadí en su ordenador de casa",
-"path": "es/02706.mp3",
+"text": "Invadí su ordenador de casa",
+"path": "es/07098.mp3",
 "lang": "es"
 },
 {
@@ -11791,8 +11791,8 @@
 "lang": "zh"
 },
 {
-"text": "No sé cómo reparo mi ordenador",
-"path": "es/02707.mp3",
+"text": "No sé cómo reparar mi ordenador",
+"path": "es/07099.mp3",
 "lang": "es"
 },
 {
@@ -11841,8 +11841,8 @@
 "lang": "zh"
 },
 {
-"text": "página",
-"path": "es/01060.mp3",
+"text": "página de inicio",
+"path": "es/07100.mp3",
 "lang": "es"
 },
 {
@@ -11861,8 +11861,8 @@
 "lang": "zh"
 },
 {
-"text": "número de clíc",
-"path": "es/06988.mp3",
+"text": "número de clics",
+"path": "es/07101.mp3",
 "lang": "es"
 },
 {
@@ -11986,12 +11986,7 @@
 "lang": "zh"
 },
 {
-"text": "mejor adv. [bien",
-"path": "es/06994.mp3",
-"lang": "es"
-},
-{
-"text": "的比较级]较好地，更好地",
+"text": "较好地，更好地",
 "path": "zh/07767.mp3",
 "lang": "zh"
 },
@@ -42094,6 +42089,11 @@
 "text": "百科全书",
 "path": "zh/01103.mp3",
 "lang": "zh"
+},
+{
+"text": "página",
+"path": "es/01060.mp3",
+"lang": "es"
 },
 {
 "text": "页",
