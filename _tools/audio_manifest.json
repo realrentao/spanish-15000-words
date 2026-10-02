@@ -15381,6 +15381,26 @@
 "lang": "zh"
 },
 {
+"text": "elegir asignaturas",
+"path": "es/07166.mp3",
+"lang": "es"
+},
+{
+"text": "选课",
+"path": "zh/07865.mp3",
+"lang": "zh"
+},
+{
+"text": "año escolar",
+"path": "es/07167.mp3",
+"lang": "es"
+},
+{
+"text": "学年",
+"path": "zh/07866.mp3",
+"lang": "zh"
+},
+{
 "text": "semestre",
 "path": "es/02993.mp3",
 "lang": "es"
@@ -15391,6 +15411,16 @@
 "lang": "zh"
 },
 {
+"text": "horario de clases",
+"path": "es/07168.mp3",
+"lang": "es"
+},
+{
+"text": "课程表",
+"path": "zh/07867.mp3",
+"lang": "zh"
+},
+{
 "text": "disciplina",
 "path": "es/02994.mp3",
 "lang": "es"
@@ -15398,6 +15428,16 @@
 {
 "text": "学科",
 "path": "zh/03242.mp3",
+"lang": "zh"
+},
+{
+"text": "trabajo experimental",
+"path": "es/07169.mp3",
+"lang": "es"
+},
+{
+"text": "实验作业",
+"path": "zh/07868.mp3",
 "lang": "zh"
 },
 {
@@ -15416,13 +15456,33 @@
 "lang": "zh"
 },
 {
-"text": "selectivo",
-"path": "es/02996.mp3",
+"text": "electivo",
+"path": "es/07170.mp3",
 "lang": "es"
 },
 {
 "text": "选择的",
-"path": "zh/03245.mp3",
+"path": "zh/07869.mp3",
+"lang": "zh"
+},
+{
+"text": "inglés universitario",
+"path": "es/07171.mp3",
+"lang": "es"
+},
+{
+"text": "大学英语",
+"path": "zh/07870.mp3",
+"lang": "zh"
+},
+{
+"text": "matemática superior",
+"path": "es/07172.mp3",
+"lang": "es"
+},
+{
+"text": "高等数学",
+"path": "zh/07871.mp3",
 "lang": "zh"
 },
 {
@@ -15451,17 +15511,27 @@
 "lang": "zh"
 },
 {
-"text": "¿Tiene usted algún con-tacto en la especialidad doméstica y la de España?",
-"path": "es/03000.mp3",
+"text": "¿Tiene usted algún contacto entre la especialidad de su país y la de España?",
+"path": "es/07173.mp3",
 "lang": "es"
 },
 {
 "text": "您在国内的专业和在西班牙的专业有什么联系？",
-"path": "zh/03248.mp3",
+"path": "zh/07872.mp3",
 "lang": "zh"
 },
 {
-"text": "Voy a hacer una pasantía en una empresa durante las vacaciones.",
+"text": "¿Facilitar la junta escolar: cómo solicitar exenciones?",
+"path": "es/07174.mp3",
+"lang": "es"
+},
+{
+"text": "“学区分配”制度松动：如何申请“破例录取”？",
+"path": "zh/07873.mp3",
+"lang": "zh"
+},
+{
+"text": "Voy a hacer una pasantía en una empresa durante las vacaciones",
 "path": "es/03001.mp3",
 "lang": "es"
 },
@@ -15471,7 +15541,7 @@
 "lang": "zh"
 },
 {
-"text": "La memoria no es comprensible sin un enfoque matemático.",
+"text": "La memoria no es comprensible sin un enfoque matemático",
 "path": "es/03002.mp3",
 "lang": "es"
 },
@@ -15528,6 +15598,26 @@
 {
 "text": "心不在焉的",
 "path": "zh/03255.mp3",
+"lang": "zh"
+},
+{
+"text": "faltar a clase",
+"path": "es/07175.mp3",
+"lang": "es"
+},
+{
+"text": "逃课",
+"path": "zh/07874.mp3",
+"lang": "zh"
+},
+{
+"text": "pasar lista",
+"path": "es/07176.mp3",
+"lang": "es"
+},
+{
+"text": "点名",
+"path": "zh/07875.mp3",
 "lang": "zh"
 },
 {
@@ -15616,17 +15706,17 @@
 "lang": "zh"
 },
 {
-"text": "Tiene clase diaria de ingles.",
-"path": "es/03015.mp3",
+"text": "Tiene clase diaria de inglés",
+"path": "es/07177.mp3",
 "lang": "es"
 },
 {
 "text": "他天天有英语课。",
-"path": "zh/03264.mp3",
+"path": "zh/07876.mp3",
 "lang": "zh"
 },
 {
-"text": "Los alumnos siempre hacen muchas preguntas en clase.",
+"text": "Los alumnos siempre hacen muchas preguntas en clase",
 "path": "es/03016.mp3",
 "lang": "es"
 },
@@ -15636,7 +15726,7 @@
 "lang": "zh"
 },
 {
-"text": "Complementaremos el texto con unas notas aclaratorias.",
+"text": "Complementaremos el texto con unas notas aclaratorias",
 "path": "es/03017.mp3",
 "lang": "es"
 },
@@ -15646,7 +15736,7 @@
 "lang": "zh"
 },
 {
-"text": "La mitad de los estudiantes se concentran en el curso, los otros sólo se concentran en cosas personales.",
+"text": "La mitad de los estudiantes se concentran en el curso, los otros sólo se concentran en cosas personales",
 "path": "es/03018.mp3",
 "lang": "es"
 },
@@ -15656,7 +15746,7 @@
 "lang": "zh"
 },
 {
-"text": "En la película, nos fijamos en un mundo donde estamos ausentes.",
+"text": "En la película, nos fijamos en un mundo donde estamos ausentes",
 "path": "es/03019.mp3",
 "lang": "es"
 },
@@ -15666,7 +15756,7 @@
 "lang": "zh"
 },
 {
-"text": "Supongo que cada uno tiene su respuesta propia a esta pregunta simple.",
+"text": "Supongo que cada uno tiene su respuesta propia a esta pregunta simple",
 "path": "es/03020.mp3",
 "lang": "es"
 },
@@ -15856,7 +15946,7 @@
 "lang": "zh"
 },
 {
-"text": "La práctica es el único criterio para la prueba de la verdad.",
+"text": "La práctica es el único criterio para la prueba de la verdad",
 "path": "es/03035.mp3",
 "lang": "es"
 },
@@ -15866,7 +15956,7 @@
 "lang": "zh"
 },
 {
-"text": "Estábamos muy ocupados la semana pasada, preparando la recitación.",
+"text": "Estábamos muy ocupados la semana pasada, preparando la recitación",
 "path": "es/03036.mp3",
 "lang": "es"
 },
@@ -15876,7 +15966,7 @@
 "lang": "zh"
 },
 {
-"text": "El fracaso es la madre del triunfo.",
+"text": "El fracaso es la madre del triunfo",
 "path": "es/03037.mp3",
 "lang": "es"
 },
@@ -15886,7 +15976,7 @@
 "lang": "zh"
 },
 {
-"text": "Escuché con mucho interés su conferencia.",
+"text": "Escuché con mucho interés su conferencia",
 "path": "es/03038.mp3",
 "lang": "es"
 },
@@ -15896,17 +15986,17 @@
 "lang": "zh"
 },
 {
-"text": "La conferencia terminó con media hora de anticipación.",
-"path": "es/03039.mp3",
+"text": "La conferencia terminó media hora antes",
+"path": "es/07178.mp3",
 "lang": "es"
 },
 {
 "text": "讲座提前半小时结束了。",
-"path": "zh/03293.mp3",
+"path": "zh/07877.mp3",
 "lang": "zh"
 },
 {
-"text": "Debes atender a la conferencia, y no a lo que digan los que están a tu lado.",
+"text": "Debes atender a la conferencia, y no a lo que digan los que están a tu lado",
 "path": "es/03040.mp3",
 "lang": "es"
 },
@@ -15916,7 +16006,7 @@
 "lang": "zh"
 },
 {
-"text": "Nuestro objetivo es disminuir la polución ambiental.",
+"text": "Nuestro objetivo es disminuir la polución ambiental",
 "path": "es/03041.mp3",
 "lang": "es"
 },
@@ -15943,6 +16033,46 @@
 {
 "text": "奖金，奖学金",
 "path": "zh/03297.mp3",
+"lang": "zh"
+},
+{
+"text": "beca nacional",
+"path": "es/07179.mp3",
+"lang": "es"
+},
+{
+"text": "国家奖学金",
+"path": "zh/07878.mp3",
+"lang": "zh"
+},
+{
+"text": "becas nacionales de motivación",
+"path": "es/07180.mp3",
+"lang": "es"
+},
+{
+"text": "国家励志奖学金",
+"path": "zh/07879.mp3",
+"lang": "zh"
+},
+{
+"text": "becas individuales",
+"path": "es/07181.mp3",
+"lang": "es"
+},
+{
+"text": "单项奖学金",
+"path": "zh/07880.mp3",
+"lang": "zh"
+},
+{
+"text": "beca completa",
+"path": "es/07182.mp3",
+"lang": "es"
+},
+{
+"text": "全额奖学金",
+"path": "zh/07881.mp3",
 "lang": "zh"
 },
 {
@@ -15976,6 +16106,16 @@
 "lang": "zh"
 },
 {
+"text": "financiación del gobierno",
+"path": "es/07183.mp3",
+"lang": "es"
+},
+{
+"text": "政府拨款",
+"path": "zh/07882.mp3",
+"lang": "zh"
+},
+{
 "text": "obtener",
 "path": "es/03046.mp3",
 "lang": "es"
@@ -15988,6 +16128,16 @@
 {
 "text": "批准",
 "path": "zh/03302.mp3",
+"lang": "zh"
+},
+{
+"text": "beca de posgrado",
+"path": "es/07184.mp3",
+"lang": "es"
+},
+{
+"text": "研究生的奖学金",
+"path": "zh/07883.mp3",
 "lang": "zh"
 },
 {
@@ -16031,27 +16181,27 @@
 "lang": "zh"
 },
 {
-"text": "Entre los clientes tiene una reputación excelente.",
-"path": "es/03049.mp3",
+"text": "Entre sus clientes goza de una reputación excelente",
+"path": "es/07185.mp3",
 "lang": "es"
 },
 {
 "text": "在客户中享有极好的声誉。",
-"path": "zh/03307.mp3",
+"path": "zh/07884.mp3",
 "lang": "zh"
 },
 {
-"text": "El certificado de Dele es efectivo en todo el mundo, así como en las zonas de habla hispana.",
-"path": "es/03050.mp3",
+"text": "El certificado DELE es válido en todo el mundo, así como en las zonas de habla hispana",
+"path": "es/07186.mp3",
 "lang": "es"
 },
 {
 "text": "证书在世界各地以及西语地区的大学都是有效的。",
-"path": "zh/03308.mp3",
+"path": "zh/07885.mp3",
 "lang": "zh"
 },
 {
-"text": "Me han propuesto para una beca.",
+"text": "Me han propuesto para una beca",
 "path": "es/03051.mp3",
 "lang": "es"
 },
@@ -16061,7 +16211,7 @@
 "lang": "zh"
 },
 {
-"text": "Este tipo de becas posibilitó que muchos jóvenes estudiaran.",
+"text": "Este tipo de becas posibilitó que muchos jóvenes estudiaran",
 "path": "es/03052.mp3",
 "lang": "es"
 },
@@ -16071,7 +16221,7 @@
 "lang": "zh"
 },
 {
-"text": "Con la beca tiene para comida y libros.",
+"text": "Con la beca tiene para comida y libros",
 "path": "es/03053.mp3",
 "lang": "es"
 },
@@ -16091,7 +16241,7 @@
 "lang": "zh"
 },
 {
-"text": "La noticia de que ha obtenido el premio vuela.",
+"text": "La noticia de que ha obtenido el premio vuela",
 "path": "es/03055.mp3",
 "lang": "es"
 },
@@ -16101,13 +16251,13 @@
 "lang": "zh"
 },
 {
-"text": "comunidad",
-"path": "es/03056.mp3",
+"text": "asociación",
+"path": "es/07187.mp3",
 "lang": "es"
 },
 {
 "text": "社团",
-"path": "zh/03314.mp3",
+"path": "zh/07886.mp3",
 "lang": "zh"
 },
 {
@@ -16126,13 +16276,13 @@
 "lang": "zh"
 },
 {
-"text": "activiad",
-"path": "es/03059.mp3",
+"text": "actividad",
+"path": "es/07188.mp3",
 "lang": "es"
 },
 {
 "text": "活动",
-"path": "zh/03316.mp3",
+"path": "zh/07887.mp3",
 "lang": "zh"
 },
 {
@@ -16176,13 +16326,13 @@
 "lang": "zh"
 },
 {
-"text": "apoyo",
-"path": "es/00922.mp3",
+"text": "patrocinio",
+"path": "es/05286.mp3",
 "lang": "es"
 },
 {
 "text": "赞助",
-"path": "zh/03320.mp3",
+"path": "zh/05769.mp3",
 "lang": "zh"
 },
 {
@@ -16206,13 +16356,13 @@
 "lang": "zh"
 },
 {
-"text": "bono",
-"path": "es/03064.mp3",
+"text": "bonus",
+"path": "es/07189.mp3",
 "lang": "es"
 },
 {
 "text": "奖金",
-"path": "zh/03323.mp3",
+"path": "zh/07888.mp3",
 "lang": "zh"
 },
 {
@@ -16236,13 +16386,13 @@
 "lang": "zh"
 },
 {
-"text": "añadir",
-"path": "es/03067.mp3",
+"text": "unirse a",
+"path": "es/07190.mp3",
 "lang": "es"
 },
 {
 "text": "加入",
-"path": "zh/03326.mp3",
+"path": "zh/07889.mp3",
 "lang": "zh"
 },
 {
@@ -16306,17 +16456,17 @@
 "lang": "zh"
 },
 {
-"text": "Es la presidente del club literario.",
-"path": "es/03073.mp3",
+"text": "Es la presidenta del club literario",
+"path": "es/07191.mp3",
 "lang": "es"
 },
 {
 "text": "她是文学社的社长。",
-"path": "zh/03333.mp3",
+"path": "zh/07890.mp3",
 "lang": "zh"
 },
 {
-"text": "Soy miembro de este club.",
+"text": "Soy miembro de este club",
 "path": "es/03074.mp3",
 "lang": "es"
 },
@@ -16326,7 +16476,7 @@
 "lang": "zh"
 },
 {
-"text": "Siempre hay mucha vida en nuestra organización.",
+"text": "Siempre hay mucha vida en nuestra organización",
 "path": "es/03075.mp3",
 "lang": "es"
 },
@@ -16336,7 +16486,7 @@
 "lang": "zh"
 },
 {
-"text": "Tiene mucha afición a la música.",
+"text": "Tiene mucha afición a la música",
 "path": "es/03076.mp3",
 "lang": "es"
 },
@@ -16346,7 +16496,7 @@
 "lang": "zh"
 },
 {
-"text": "Voy a pedir un favor a Ana.",
+"text": "Voy a pedir un favor a Ana",
 "path": "es/03077.mp3",
 "lang": "es"
 },
@@ -16356,7 +16506,7 @@
 "lang": "zh"
 },
 {
-"text": "Todavía no se ha determinado el lugar de la reunión.",
+"text": "Todavía no se ha determinado el lugar de la reunión",
 "path": "es/03078.mp3",
 "lang": "es"
 },
@@ -16366,7 +16516,7 @@
 "lang": "zh"
 },
 {
-"text": "El partido del domingo fue una decepción.",
+"text": "El partido del domingo fue una decepción",
 "path": "es/03079.mp3",
 "lang": "es"
 },
@@ -16376,13 +16526,13 @@
 "lang": "zh"
 },
 {
-"text": "¡Lástima que ellos han perdido el partido!",
-"path": "es/03080.mp3",
+"text": "¡Lástima que hayan perdido el partido!",
+"path": "es/07192.mp3",
 "lang": "es"
 },
 {
 "text": "真遗憾他们输掉了这场比赛！",
-"path": "zh/03340.mp3",
+"path": "zh/07891.mp3",
 "lang": "zh"
 },
 {
@@ -16413,6 +16563,16 @@
 {
 "text": "通过",
 "path": "zh/03343.mp3",
+"lang": "zh"
+},
+{
+"text": "repetir curso",
+"path": "es/07193.mp3",
+"lang": "es"
+},
+{
+"text": "留级",
+"path": "zh/07892.mp3",
 "lang": "zh"
 },
 {
@@ -16466,6 +16626,26 @@
 "lang": "zh"
 },
 {
+"text": "el nivel normal",
+"path": "es/07194.mp3",
+"lang": "es"
+},
+{
+"text": "一般水平",
+"path": "zh/07893.mp3",
+"lang": "zh"
+},
+{
+"text": "llenar los primeros puestos",
+"path": "es/07195.mp3",
+"lang": "es"
+},
+{
+"text": "名列前茅",
+"path": "zh/07894.mp3",
+"lang": "zh"
+},
+{
 "text": "punto",
 "path": "es/03087.mp3",
 "lang": "es"
@@ -16483,6 +16663,16 @@
 {
 "text": "表现",
 "path": "zh/03350.mp3",
+"lang": "zh"
+},
+{
+"text": "suspendido",
+"path": "es/07196.mp3",
+"lang": "es"
+},
+{
+"text": "（考试）不及格的",
+"path": "zh/07895.mp3",
 "lang": "zh"
 },
 {
@@ -16516,17 +16706,17 @@
 "lang": "zh"
 },
 {
-"text": "En todas las áreas, la diligencia nos lleva al éxito y la diversión, al fracaso, y los estudios de lenguas extranjeras también.",
-"path": "es/03092.mp3",
+"text": "En todas las áreas, la diligencia nos lleva al éxito y la diversión nos lleva al fracaso, y los estudios de lenguas extranjeras también",
+"path": "es/07197.mp3",
 "lang": "es"
 },
 {
 "text": "世间万事成于勤而荒于嬉。外语的学习亦然，勤以致远，勤以致成。",
-"path": "zh/03354.mp3",
+"path": "zh/07896.mp3",
 "lang": "zh"
 },
 {
-"text": "No debes engreírte por cualquier éxito.",
+"text": "No debes engreírte por cualquier éxito",
 "path": "es/03093.mp3",
 "lang": "es"
 },
@@ -16536,7 +16726,7 @@
 "lang": "zh"
 },
 {
-"text": "El éxito ha coronado nuestros esfuerzos.",
+"text": "El éxito ha coronado nuestros esfuerzos",
 "path": "es/03094.mp3",
 "lang": "es"
 },
@@ -16546,7 +16736,7 @@
 "lang": "zh"
 },
 {
-"text": "Obtuvo el máximo número de puntos en el examen.",
+"text": "Obtuvo el máximo número de puntos en el examen",
 "path": "es/03095.mp3",
 "lang": "es"
 },
@@ -16556,7 +16746,7 @@
 "lang": "zh"
 },
 {
-"text": "Está esperando el resultado.",
+"text": "Está esperando el resultado",
 "path": "es/03096.mp3",
 "lang": "es"
 },
@@ -16566,7 +16756,7 @@
 "lang": "zh"
 },
 {
-"text": "Su gramática era excelente, nunca tenía faltas de ortografía.",
+"text": "Su gramática era excelente, nunca tenía faltas de ortografía",
 "path": "es/03097.mp3",
 "lang": "es"
 },
@@ -16576,13 +16766,23 @@
 "lang": "zh"
 },
 {
-"text": "Ella obtuvo buenas notas en inglés.",
+"text": "Ella obtuvo buenas notas en inglés",
 "path": "es/03098.mp3",
 "lang": "es"
 },
 {
 "text": "她在英文上取得很好的成绩。",
 "path": "zh/03360.mp3",
+"lang": "zh"
+},
+{
+"text": "graduados universitarios",
+"path": "es/07198.mp3",
+"lang": "es"
+},
+{
+"text": "大学毕业生",
+"path": "zh/07897.mp3",
 "lang": "zh"
 },
 {
@@ -16616,19 +16816,44 @@
 "lang": "zh"
 },
 {
-"text": "licenciatura",
-"path": "es/03100.mp3",
+"text": "bachillerato de letras",
+"path": "es/07199.mp3",
+"lang": "es"
+},
+{
+"text": "文学士",
+"path": "zh/07898.mp3",
+"lang": "zh"
+},
+{
+"text": "bachillerato de ciencias",
+"path": "es/07200.mp3",
+"lang": "es"
+},
+{
+"text": "理学士",
+"path": "zh/07899.mp3",
+"lang": "zh"
+},
+{
+"text": "máster",
+"path": "es/07201.mp3",
 "lang": "es"
 },
 {
 "text": "硕士",
-"path": "zh/03364.mp3",
+"path": "zh/07900.mp3",
 "lang": "zh"
 },
 {
 "text": "maestría",
 "path": "es/03101.mp3",
 "lang": "es"
+},
+{
+"text": "硕士",
+"path": "zh/03364.mp3",
+"lang": "zh"
 },
 {
 "text": "doctor",
@@ -16638,6 +16863,16 @@
 {
 "text": "博士",
 "path": "zh/03365.mp3",
+"lang": "zh"
+},
+{
+"text": "postdoctoral",
+"path": "es/07202.mp3",
+"lang": "es"
+},
+{
+"text": "博士后",
+"path": "zh/07901.mp3",
 "lang": "zh"
 },
 {
@@ -16651,6 +16886,16 @@
 "lang": "zh"
 },
 {
+"text": "ceremonia de graduación",
+"path": "es/07203.mp3",
+"lang": "es"
+},
+{
+"text": "毕业晚会",
+"path": "zh/07902.mp3",
+"lang": "zh"
+},
+{
 "text": "diploma",
 "path": "es/03104.mp3",
 "lang": "es"
@@ -16658,6 +16903,26 @@
 {
 "text": "学历证书",
 "path": "zh/03366.mp3",
+"lang": "zh"
+},
+{
+"text": "foto de la graduación",
+"path": "es/07204.mp3",
+"lang": "es"
+},
+{
+"text": "毕业照",
+"path": "zh/07903.mp3",
+"lang": "zh"
+},
+{
+"text": "libreta de contacto",
+"path": "es/07205.mp3",
+"lang": "es"
+},
+{
+"text": "通讯录",
+"path": "zh/07904.mp3",
 "lang": "zh"
 },
 {
@@ -16701,37 +16966,37 @@
 "lang": "zh"
 },
 {
-"text": "Llevo ya dos años licenciada en filología hispánica.",
-"path": "es/03109.mp3",
+"text": "Llevo ya dos años como licenciada en filología hispánica",
+"path": "es/07206.mp3",
 "lang": "es"
 },
 {
 "text": "我从西班牙语语言文学专业毕业已经两年了。",
-"path": "zh/03371.mp3",
+"path": "zh/07905.mp3",
 "lang": "zh"
 },
 {
-"text": "¿Cuándo se graduó de Oxford?",
-"path": "es/03110.mp3",
+"text": "¿Cuándo se graduó en Oxford?",
+"path": "es/07207.mp3",
 "lang": "es"
 },
 {
 "text": "您什么时候从牛津大学毕业的？",
-"path": "zh/03372.mp3",
+"path": "zh/07906.mp3",
 "lang": "zh"
 },
 {
-"text": "ésto es el certificado del licenciado.",
-"path": "es/03111.mp3",
+"text": "Esto es el certificado de licenciatura",
+"path": "es/07208.mp3",
 "lang": "es"
 },
 {
 "text": "这是硕士学位证书。",
-"path": "zh/03373.mp3",
+"path": "zh/07907.mp3",
 "lang": "zh"
 },
 {
-"text": "Ha suspendido dos asignaturas y no le han dado el graduado.",
+"text": "Ha suspendido dos asignaturas y no le han dado el graduado",
 "path": "es/03112.mp3",
 "lang": "es"
 },
@@ -16741,7 +17006,7 @@
 "lang": "zh"
 },
 {
-"text": "Todavía no ha terminado la licenciatura, le faltan dos asignaturas.",
+"text": "Todavía no ha terminado la licenciatura, le faltan dos asignaturas",
 "path": "es/03113.mp3",
 "lang": "es"
 },
@@ -16751,17 +17016,17 @@
 "lang": "zh"
 },
 {
-"text": "Nunca dudo a declarar, que el diploma es el enemigo mortal de la cultura.",
-"path": "es/03114.mp3",
+"text": "Nunca dudo en declarar que el diploma es el enemigo mortal de la cultura",
+"path": "es/07209.mp3",
 "lang": "es"
 },
 {
 "text": "我毫不犹豫地宣布，文凭是文化的死敌。",
-"path": "zh/03376.mp3",
+"path": "zh/07908.mp3",
 "lang": "zh"
 },
 {
-"text": "Esta es la opinión de la mayoría de los doctores.",
+"text": "Esta es la opinión de la mayoría de los doctores",
 "path": "es/03115.mp3",
 "lang": "es"
 },
@@ -16771,9 +17036,49 @@
 "lang": "zh"
 },
 {
+"text": "estudiar en el extranjero",
+"path": "es/07210.mp3",
+"lang": "es"
+},
+{
+"text": "留学",
+"path": "zh/07909.mp3",
+"lang": "zh"
+},
+{
 "text": "solicitar",
 "path": "es/03116.mp3",
 "lang": "es"
+},
+{
+"text": "fecha de caducidad",
+"path": "es/07067.mp3",
+"lang": "es"
+},
+{
+"text": "截止日期",
+"path": "zh/07616.mp3",
+"lang": "zh"
+},
+{
+"text": "cuota de inscripción",
+"path": "es/07211.mp3",
+"lang": "es"
+},
+{
+"text": "申请费",
+"path": "zh/07910.mp3",
+"lang": "zh"
+},
+{
+"text": "solicitud en línea",
+"path": "es/07212.mp3",
+"lang": "es"
+},
+{
+"text": "网申",
+"path": "zh/07911.mp3",
+"lang": "zh"
 },
 {
 "text": "matrícula",
@@ -16806,6 +17111,16 @@
 "lang": "zh"
 },
 {
+"text": "materiales para la visa",
+"path": "es/07213.mp3",
+"lang": "es"
+},
+{
+"text": "签证材料",
+"path": "zh/07912.mp3",
+"lang": "zh"
+},
+{
 "text": "pasaporte",
 "path": "es/03120.mp3",
 "lang": "es"
@@ -16823,6 +17138,56 @@
 {
 "text": "签证",
 "path": "zh/03382.mp3",
+"lang": "zh"
+},
+{
+"text": "estudiante de primer años",
+"path": "es/07214.mp3",
+"lang": "es"
+},
+{
+"text": "一年级生",
+"path": "zh/07913.mp3",
+"lang": "zh"
+},
+{
+"text": "estudiante de segundo años",
+"path": "es/07215.mp3",
+"lang": "es"
+},
+{
+"text": "二年级生",
+"path": "zh/07914.mp3",
+"lang": "zh"
+},
+{
+"text": "estudiante de tercer años",
+"path": "es/07216.mp3",
+"lang": "es"
+},
+{
+"text": "三年级生",
+"path": "zh/07915.mp3",
+"lang": "zh"
+},
+{
+"text": "estudiante de cuarto años",
+"path": "es/07217.mp3",
+"lang": "es"
+},
+{
+"text": "四年级生",
+"path": "zh/07916.mp3",
+"lang": "zh"
+},
+{
+"text": "políglota",
+"path": "es/07218.mp3",
+"lang": "es"
+},
+{
+"text": "通晓多种语言的",
+"path": "zh/07917.mp3",
 "lang": "zh"
 },
 {
@@ -16866,7 +17231,7 @@
 "lang": "zh"
 },
 {
-"text": "Tengo una visa.",
+"text": "Tengo una visa",
 "path": "es/03125.mp3",
 "lang": "es"
 },
@@ -16876,17 +17241,17 @@
 "lang": "zh"
 },
 {
-"text": "Ella postuló a una visa.",
-"path": "es/03126.mp3",
+"text": "Ella solicitó una visa",
+"path": "es/07219.mp3",
 "lang": "es"
 },
 {
 "text": "她申请签证。",
-"path": "zh/03388.mp3",
+"path": "zh/07918.mp3",
 "lang": "zh"
 },
 {
-"text": "El plazo de matrícula se ha ampliado hasta el próximo més.",
+"text": "El plazo de matrícula se ha ampliado hasta el próximo més",
 "path": "es/03127.mp3",
 "lang": "es"
 },
@@ -16896,7 +17261,7 @@
 "lang": "zh"
 },
 {
-"text": "Por favor, muéstreme su pasaporte.",
+"text": "Por favor, muéstreme su pasaporte",
 "path": "es/03128.mp3",
 "lang": "es"
 },
@@ -16916,7 +17281,7 @@
 "lang": "zh"
 },
 {
-"text": "Quiero ir a la comisaría a renovar mi pasaporte.",
+"text": "Quiero ir a la comisaría a renovar mi pasaporte",
 "path": "es/03130.mp3",
 "lang": "es"
 },
@@ -16926,7 +17291,7 @@
 "lang": "zh"
 },
 {
-"text": "Si quieres viajar al extranjero, primero tienes que solicitar el visado.",
+"text": "Si quieres viajar al extranjero, primero tienes que solicitar el visado",
 "path": "es/03131.mp3",
 "lang": "es"
 },
@@ -16936,7 +17301,7 @@
 "lang": "zh"
 },
 {
-"text": "Cumplimenta un impreso para solicitar el pasaporte, por favor.",
+"text": "Cumplimenta un impreso para solicitar el pasaporte, por favor",
 "path": "es/03132.mp3",
 "lang": "es"
 },
@@ -16981,8 +17346,13 @@
 "lang": "zh"
 },
 {
+"text": "esquema",
+"path": "es/07220.mp3",
+"lang": "es"
+},
+{
 "text": "提纲，方案",
-"path": "zh/03398.mp3",
+"path": "zh/07919.mp3",
 "lang": "zh"
 },
 {
@@ -17036,13 +17406,13 @@
 "lang": "zh"
 },
 {
-"text": "conclusion",
-"path": "es/03142.mp3",
+"text": "conclusión",
+"path": "es/07221.mp3",
 "lang": "es"
 },
 {
 "text": "结论",
-"path": "zh/03404.mp3",
+"path": "zh/07920.mp3",
 "lang": "zh"
 },
 {
@@ -17116,7 +17486,7 @@
 "lang": "es"
 },
 {
-"text": "Ha publicado cinco estudios de filosofía.",
+"text": "Ha publicado cinco estudios de filosofía",
 "path": "es/03149.mp3",
 "lang": "es"
 },
@@ -17126,7 +17496,7 @@
 "lang": "zh"
 },
 {
-"text": "Estos días estoy preparando mi tesis.",
+"text": "Estos días estoy preparando mi tesis",
 "path": "es/03150.mp3",
 "lang": "es"
 },
@@ -17136,7 +17506,7 @@
 "lang": "zh"
 },
 {
-"text": "Tuvo que hacer muchas correcciones en su tesis antes de presentarla.",
+"text": "Tuvo que hacer muchas correcciones en su tesis antes de presentarla",
 "path": "es/03151.mp3",
 "lang": "es"
 },
@@ -17146,17 +17516,17 @@
 "lang": "zh"
 },
 {
-"text": "Anna leerá su tesis el lunes.",
-"path": "es/03152.mp3",
+"text": "Anna defenderá su tesis el lunes",
+"path": "es/07222.mp3",
 "lang": "es"
 },
 {
 "text": "安娜周一答辩。",
-"path": "zh/03414.mp3",
+"path": "zh/07921.mp3",
 "lang": "zh"
 },
 {
-"text": "Vamos a discutir sobre la tesis.",
+"text": "Vamos a discutir sobre la tesis",
 "path": "es/03153.mp3",
 "lang": "es"
 },
@@ -17176,7 +17546,7 @@
 "lang": "zh"
 },
 {
-"text": "Después de analizar los datos, llegó a una conclusión.",
+"text": "Después de analizar los datos, llegó a una conclusión",
 "path": "es/03155.mp3",
 "lang": "es"
 },
@@ -17266,13 +17636,13 @@
 "lang": "zh"
 },
 {
-"text": "asegurado",
-"path": "es/03161.mp3",
+"text": "firme",
+"path": "es/07223.mp3",
 "lang": "es"
 },
 {
 "text": "坚定的",
-"path": "zh/03426.mp3",
+"path": "zh/07922.mp3",
 "lang": "zh"
 },
 {
@@ -17326,7 +17696,7 @@
 "lang": "zh"
 },
 {
-"text": "De todos modos, como ambición de la vida humana, creo que no importa lo que quiera ser.",
+"text": "De todos modos, como ambición de la vida humana, creo que no importa lo que quiera ser",
 "path": "es/03165.mp3",
 "lang": "es"
 },
@@ -17336,7 +17706,7 @@
 "lang": "zh"
 },
 {
-"text": "La vida es una comedia para los ricos, una tragedia para los pobres; un sueño para un sabio y un juego para un tonto.",
+"text": "La vida es una comedia para los ricos, una tragedia para los pobres; un sueño para un sabio y un juego para un tonto",
 "path": "es/03166.mp3",
 "lang": "es"
 },
@@ -17346,17 +17716,17 @@
 "lang": "zh"
 },
 {
-"text": "Debido a la falta de motivación o disfruta del sol, cada uno tiene su propia razón para renunciar a la elección.",
-"path": "es/03167.mp3",
+"text": "Debido a la falta de motivación o al deseo de disfrutar del sol, cada uno tiene su propia razón para renunciar a la elección",
+"path": "es/07224.mp3",
 "lang": "es"
 },
 {
 "text": "要么缺乏动力，要么想享受阳光，每个人都有个合理的理由放弃选举。",
-"path": "zh/03434.mp3",
+"path": "zh/07923.mp3",
 "lang": "zh"
 },
 {
-"text": "El amor es la pasión y el entusiasmo.",
+"text": "El amor es la pasión y el entusiasmo",
 "path": "es/03168.mp3",
 "lang": "es"
 },
@@ -25101,6 +25471,11 @@
 "lang": "zh"
 },
 {
+"text": "añadir",
+"path": "es/03067.mp3",
+"lang": "es"
+},
+{
 "text": "加",
 "path": "zh/03680.mp3",
 "lang": "zh"
@@ -26631,6 +27006,11 @@
 "lang": "zh"
 },
 {
+"text": "奖金",
+"path": "zh/03323.mp3",
+"lang": "zh"
+},
+{
 "text": "薪金",
 "path": "zh/03825.mp3",
 "lang": "zh"
@@ -26744,6 +27124,11 @@
 "text": "条款",
 "path": "zh/03837.mp3",
 "lang": "zh"
+},
+{
+"text": "asegurado",
+"path": "es/03161.mp3",
+"lang": "es"
 },
 {
 "text": "被保人",
@@ -29853,6 +30238,16 @@
 {
 "text": "邀请函",
 "path": "zh/04153.mp3",
+"lang": "zh"
+},
+{
+"text": "apoyo",
+"path": "es/00922.mp3",
+"lang": "es"
+},
+{
+"text": "赞助",
+"path": "zh/03320.mp3",
 "lang": "zh"
 },
 {
@@ -46091,6 +46486,16 @@
 "lang": "zh"
 },
 {
+"text": "¡Lástima que ellos han perdido el partido!",
+"path": "es/03080.mp3",
+"lang": "es"
+},
+{
+"text": "真遗憾他们输掉了这场比赛！",
+"path": "zh/03340.mp3",
+"lang": "zh"
+},
+{
 "text": "España obtuvo la medalla de oro en el último campeonato.",
 "path": "es/04849.mp3",
 "lang": "es"
@@ -49726,11 +50131,6 @@
 "lang": "es"
 },
 {
-"text": "庇护",
-"path": "zh/05769.mp3",
-"lang": "zh"
-},
-{
 "text": "Para un actor, la cámara es los ojos del público.",
 "path": "es/05173.mp3",
 "lang": "es"
@@ -50029,6 +50429,11 @@
 "text": "我会坐今天下午的第一班航班去意大利。",
 "path": "zh/05800.mp3",
 "lang": "zh"
+},
+{
+"text": "comunidad",
+"path": "es/03056.mp3",
+"lang": "es"
 },
 {
 "text": "社会",
@@ -50994,11 +51399,6 @@
 "text": "途径",
 "path": "zh/05901.mp3",
 "lang": "zh"
-},
-{
-"text": "patrocinio",
-"path": "es/05286.mp3",
-"lang": "es"
 },
 {
 "text": "portavoz",
@@ -72423,16 +72823,6 @@
 {
 "text": "日用品",
 "path": "zh/07615.mp3",
-"lang": "zh"
-},
-{
-"text": "fecha de caducidad",
-"path": "es/07067.mp3",
-"lang": "es"
-},
-{
-"text": "保质期",
-"path": "zh/07616.mp3",
 "lang": "zh"
 },
 {

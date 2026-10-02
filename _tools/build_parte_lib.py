@@ -16,7 +16,9 @@ from pypinyin import pinyin, Style
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-POS = set(["n.m.","n.f.","v.t.","v.i.","adj.","adj","adv.","adv","prnl.","n.","v.","s.m.","s.f.","m.","f.","prep.","abrev.","conj.","vi.","vt.","p.p.","n.inv.","s.n.","s.adj.","s.adv.","tr.","intr.","ger.","inf.","part."])
+POS = set(["n.m.","n.f.","v.t.","v.i.","adj.","adj","adv.","adv","prnl.","n.","v.","s.m.","s.f.","m.","f.","prep.","abrev.","conj.","vi.","vt.","p.p.","n.inv.","s.n.","s.adj.","s.adv.","tr.","intr.","ger.","inf.","part.",
+           "v.pr.","v.pr","v.refl.","v.refl","n.pl.","n.pl","pron."])
+HEAD_WORDS = ("终极分类词", "经典实用句", "词汇大拓展", "Sección", "Seccion", "Parte")
 def is_pos(t):
     if t in POS: return True
     if re.match(r'^[a-z]{1,3}\.[mf]\.?$', t): return True
@@ -56,6 +58,20 @@ def parse_raw(raw_file):
         expanded.append(mm.group(0))
         if after: expanded.append(after)
     lines = expanded
+    # 孤儿中文行合并：某些书里「西语 词性」与它的中文释文被 OCR 拆成两行
+    # （如 "recientemente adv." + "最近，最新"）。这里把紧跟其后的纯中文行并回上一行。
+    merged = []
+    for idx, ln in enumerate(lines):
+        s = ln.strip()
+        if (s and not re.search(r"[一-鿿]", s)
+                and merged
+                and not any(merged[-1].strip().startswith(h) for h in HEAD_WORDS)
+                and not any(s.startswith(h) for h in HEAD_WORDS)
+                and re.match(r"^[一-鿿\uff0c\uff1b\uff0e\u3001\u3002\s]+$", s)):
+            merged[-1] = merged[-1].rstrip() + " " + s
+            continue
+        merged.append(ln)
+    lines = merged
     secs = {}
     cur=None; mode=None
     i=0
@@ -104,8 +120,9 @@ def parse_raw(raw_file):
                         j+=1
                     i = j
                     peeked = True
-                # run-on: one line may carry several "例" -> split into separate S entries
-                parts=[p.strip() for p in body.split("例") if p.strip()]
+                # run-on: one line may carry several "例" -> split into separate S entries.
+                # 只按「空白 + 例 + 西语字母」切，避免中文里的「破例」被当成例句分隔符。
+                parts=[p.strip() for p in re.split(r"\s+例\s*(?=[A-Za-zÁÉÍÓÚÑÜáéíóúñü])", body) if p.strip()]
                 for p in parts:
                     secs[cur]["s"].append(p)
                 if peeked:
@@ -145,28 +162,24 @@ def parse_raw(raw_file):
         elif mode=="e":
             toks=s.split()
             if not toks: i+=1; continue
-            if re.search(r'[一-鿿]', toks[0]):
-                k=0
-                while k<len(toks) and re.search(r'[一-鿿]', toks[k]): k+=1
-                cn=" ".join(toks[:k]).strip()
-                rest=toks[k:]
-                pos_toks=[]; ii=len(rest)-1
-                while ii>=0 and (is_pos(rest[ii]) or rest[ii] in ("&",",","y")):
-                    pos_toks.insert(0, rest[ii]); ii-=1
-                es=" ".join(rest[:ii+1])
-                pos=" ".join(pos_toks)
-                secs[cur]["e"].append((es,cn,pos))
+            # 中文起点 = 第一个含汉字的 token（中文里可能夹全角标点/分号，
+            # 从后往前数会把 "filosofía n.f. 哲学；哲理" 误切成 es="filosofía n.f. 哲学；"）
+            ke=None
+            for _idx, _t in enumerate(toks):
+                if re.search(r'[一-鿿]', _t): ke=_idx; break
+            if ke is None:
+                i+=1; continue
+            cn=" ".join(toks[ke:]).strip()
+            rest=toks[:ke]
+            if ke==0:
+                es=toks[0]; pos=""
             else:
-                k=len(toks)-1
-                while k>=0 and re.search(r'[一-鿿]', toks[k]): k-=1
-                cn=" ".join(toks[k+1:]).strip()
-                rest=toks[:k+1]
                 pos_toks=[]; ii=len(rest)-1
                 while ii>=0 and (is_pos(rest[ii]) or rest[ii] in ("&",",","y")):
                     pos_toks.insert(0, rest[ii]); ii-=1
                 es=" ".join(rest[:ii+1])
                 pos=" ".join(pos_toks)
-                secs[cur]["e"].append((es,cn,pos))
+            secs[cur]["e"].append((es,cn,pos))
         i+=1
     return secs
 
@@ -197,9 +210,11 @@ def norm(s):
     return re.sub(r'[^a-záéíóúñü]', '', (s or "").lower())
 
 class Builder:
-    def __init__(self, gid, bp_name, raw_file, ES_FIX=None, ES_TYPO=None, S_SUBS=None):
+    def __init__(self, gid, bp_name, raw_file, ES_FIX=None, ES_TYPO=None, S_SUBS=None,
+                 POS_FIX=None, CN_FIX=None):
         self.gid=gid; self.bp_name=bp_name; self.raw_file=raw_file
         self.ES_FIX=ES_FIX or {}; self.ES_TYPO=ES_TYPO or {}; self.S_SUBS=S_SUBS or {}
+        self.POS_FIX=POS_FIX or {}; self.CN_FIX=CN_FIX or {}
         # audio allocator continues from true disk max
         def cur_max(folder):
             m=0
@@ -234,6 +249,42 @@ class Builder:
         for s in self.bp["secs"]:
             for t2 in s.get("sents",[]):
                 self.sent_by_norm.setdefault(norm(t2.get("es","")), t2)
+        self.GES = self._load_global_audio()   # norm(es) -> (ae, az)
+
+    def _load_global_audio(self):
+        """全站「同一西语文本 -> 已有 es/zh 音频」索引，命中即复用（不再新录）。"""
+        m={}
+        for i2 in range(48):
+            fp=os.path.join(BASE,"data/sec/%d.js"%i2)
+            if not os.path.exists(fp): continue
+            t2=open(fp,encoding="utf-8").read()
+            i3=t2.index("={")+1
+            d=0;j=i3;ins=False;esc=False
+            while j<len(t2):
+                c=t2[j]
+                if ins:
+                    if esc: esc=False
+                    elif c=="\\": esc=True
+                    elif c=='"': ins=False
+                else:
+                    if c=='"': ins=True
+                    elif c=="{": d+=1
+                    elif c=="}":
+                        d-=1
+                        if d==0: break
+                j+=1
+            try:
+                o=json.loads(t2[i3:j+1])
+            except Exception:
+                continue
+            for s in o.get("secs",[]):
+                for r in s.get("w",[])+s.get("e",[]):
+                    if len(r)>=7 and r[3] and r[4]:
+                        m.setdefault(norm(r[1]), (r[3],r[4]))
+                for r in s.get("s",[]):
+                    if len(r)>=7 and r[3] and r[4]:
+                        m.setdefault(norm(r[0]), (r[3],r[4]))
+        return m
 
     def _next_es(self):
         n=self._es_n
@@ -251,7 +302,8 @@ class Builder:
             t=t.replace(k,v)
         return t
     def fix_s_es(self, t):
-        for k,v in self.S_SUBS.items():
+        self.S_SUBS = list(self.S_SUBS)
+        for k,v in self.S_SUBS:
             t=t.replace(k,v)
         return t
     def find_book(self, cn, ces, words):
@@ -259,10 +311,11 @@ class Builder:
             if w["cn"]==cn and norm(w["es"])==norm(ces): return w
         return None
     def split_s(self, body):
-        m=re.search(r'[一-鿿]', body)
+        # 中文左引号/左括号也算「中文起点」，否则西语段会尾随一个孤立引号
+        m=re.search(r'[\u4e00-\u9fff\u201c\u2018\u300c\u300e\uff08]', body)
         if not m: return body.strip(), "", ""
         cj=m.start()
-        es_raw=body[:cj].strip().lstrip('.。¿¡·')
+        es_raw=body[:cj].strip().lstrip('.。¿¡·“「『『『"\'')
         rest=body[cj:]
         si=rest.find("——")
         if si>=0:
@@ -288,6 +341,11 @@ class Builder:
                 row=[cn,ces_b,pos,b["ae"],b["az"],b["py"],text_ipa(ces_b)]
             self.built[key]=list(row)
             return row, "book"
+        gp=self.GES.get(norm(ces))
+        if gp and os.path.exists(os.path.join(BASE,"audio",gp[0])):
+            row=[cn,ces,pos,gp[0],gp[1],py(cn),text_ipa(ces)]
+            self.built[key]=list(row)
+            return row, "reuse"
         row=self.mkrow_missing(cn,ces,pos)
         self.built[key]=list(row)
         return row, "new"
@@ -296,7 +354,7 @@ class Builder:
         secs=parse_raw(self.raw_file)
         out_secs=[]
         total_w=total_s=total_e=0
-        stat={"book":0,"new":0,"dedup":0,"s_book":0,"s_new":0}
+        stat={"book":0,"new":0,"dedup":0,"reuse":0,"s_book":0,"s_new":0,"s_reuse":0}
         for no in sorted(secs.keys()):
             rs=secs[no]
             bsec=self.bj_secs.get(no,{})
@@ -304,14 +362,19 @@ class Builder:
             w_out=[]; e_out=[]; s_out=[]
             for (raw_cn,raw_es,raw_pos) in rs["w"]:
                 cn=clean_cn(raw_cn); pos=norm_pos(raw_pos) if raw_pos else ""
+                if cn in self.CN_FIX: cn=self.CN_FIX[cn]
                 ces=clean_es(raw_es); ces=self.fix_es_typo(ces)
-                if cn in self.ES_FIX: ces=self.ES_FIX[cn]
+                if (cn,ces) in self.ES_FIX: ces=self.ES_FIX[(cn,ces)]
+                elif cn in self.ES_FIX: ces=self.ES_FIX[cn]
+                pos=self.POS_FIX.get((cn,ces), self.POS_FIX.get(cn, pos))
                 row,how=self._row_for(cn,ces,pos,bjw)
                 w_out.append(row); stat[how]+=1
             for (raw_es,raw_cn,raw_pos) in rs["e"]:
                 cn=clean_cn(raw_cn); pos=norm_pos(raw_pos) if raw_pos else ""
                 ces=clean_es(raw_es); ces=self.fix_es_typo(ces)
-                if cn in self.ES_FIX: ces=self.ES_FIX[cn]
+                if (cn,ces) in self.ES_FIX: ces=self.ES_FIX[(cn,ces)]
+                elif cn in self.ES_FIX: ces=self.ES_FIX[cn]
+                pos=self.POS_FIX.get((cn,ces), self.POS_FIX.get(cn, pos))
                 row,how=self._row_for(cn,ces,pos,bje)
                 e_out.append(row); stat[how]+=1
             for raw in rs["s"]:
@@ -322,6 +385,11 @@ class Builder:
                     s_out.append([ces,zh,src,t.get("ae",""),t.get("az",""),t.get("py",""),t.get("ipa","")])
                     stat["s_book"]+=1
                 else:
+                    gp=self.GES.get(norm(ces))
+                    if gp and os.path.exists(os.path.join(BASE,"audio",gp[0])):
+                        s_out.append([ces,zh,src,gp[0],gp[1],py(zh),text_ipa(ces)])
+                        stat["s_reuse"]+=1
+                        continue
                     ep=self._next_es(); zp=self._next_zh()
                     self.audio_jobs.append((ces,ep,zh,zp))
                     s_out.append([ces,zh,src,ep,zp,py(zh),text_ipa(ces)])
@@ -333,6 +401,7 @@ class Builder:
         out='window.BOOK_DATA=window.BOOK_DATA||{};window.BOOK_DATA[%d]='%self.gid + json.dumps(obj, ensure_ascii=False, separators=(",",":")) + ";"
         open(os.path.join(BASE,"data/sec/%d.js"%self.gid),"w",encoding="utf-8").write(out)
         print("sec/%d.js written. W=%d S=%d E=%d totalAll=%d"%(self.gid,total_w,total_s,total_e,total_w+total_s+total_e))
-        print("rows: book-reuse=%d new=%d dedup=%d | sentences: book=%d new=%d | new audio jobs=%d"%(
-            stat["book"],stat["new"],stat["dedup"],stat["s_book"],stat["s_new"],len(self.audio_jobs)))
+        print("rows: book=%d reuse=%d new=%d dedup=%d | sentences: book=%d reuse=%d new=%d | new audio jobs=%d"%(
+            stat["book"],stat["reuse"],stat["new"],stat["dedup"],
+            stat["s_book"],stat["s_reuse"],stat["s_new"],len(self.audio_jobs)))
         print("next es=%d zh=%d"%(self._es_n,self._zh_n))
