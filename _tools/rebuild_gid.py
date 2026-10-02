@@ -2524,7 +2524,86 @@ G38 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38}
+G39 = {
+ "name": "法律与犯罪",
+ "raw": "_tools/parte39_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "pro-tección": "protección",          # 断行
+   "obe-decer": "obedecer",               # 断行
+   "expre-sión": "expresión",             # 断行
+   "pro-porción": "proporción",           # 断行
+   "acci-dental": "accidental",           # 断行
+   "in-quietud": "inquietud",             # 断行
+   "des-pilfarro": "despilfarro",         # 断行
+   "graví-simos": "gravísimos",           # 断行
+   "conde-nado": "condenado",             # 断行（Sec3/Sec4 各一处）
+   "identifi-cación": "identificación",   # 断行
+   "au-tores": "autores",                 # 断行
+   "pa-reja": "pareja",                   # 断行
+   "con-fusión": "confusión",             # 断行
+ },
+ # (中文, clean_es 后的西语) -> 正确西语
+ "fix": {
+   # ---- Sec1 法律
+   ("金融法", "ley de finanza"): "ley de las finanzas",   # 西语须用复数 finanzas
+   # ---- Sec2 犯罪
+   ("犯罪的", "pecado"): "delictivo",      # pecado=罪过(宗教)；犯罪的=delictivo
+   ("假设", "asumir"): "suponer",          # 假设=suponer；asumir=承担/担任
+   # ---- Sec3 犯罪行为
+   ("逮捕证", "orden de prisión"): "orden de arresto",  # 逮捕证=arresto；prisión=监禁令
+   ("敲诈", "exacción"): "extorsión",      # exacción=强征/征税；敲诈勒索=extorsión
+   # ---- Sec4 监狱
+   ("服刑", "cumpliendo una sentencia"): "cumplir una condena",  # 服刑是动词短语，非动名词
+   ("围墙", "pared"): "muro",              # 围墙=muro；pared=墙/墙壁(室内)
+ },
+ "pos": {
+   # ---- Sec1
+   ("金融法", "ley de las finanzas"): "",
+   ("经济法", "ley de la economía"): "",
+   ("婚姻法", "ley del matrimonio"): "",
+   ("商法", "código de comercio"): "",
+   ("国际法", "derecho internacional"): "",
+   # ---- Sec2
+   ("犯罪的", "delictivo"): "adj.",
+   ("假设", "suponer"): "v.t.",
+   ("主体", "parte principal"): "",
+   # ---- Sec3
+   ("逮捕证", "orden de arresto"): "",
+   ("强奸", "violar"): "v.t.",             # violar 是及物动词，文案误标 v.i.
+   ("赌博", "juegos de azar"): "",
+   ("黑帮", "banda siniestra"): "",
+   # ---- Sec4
+   ("服刑", "cumplir una condena"): "",
+   ("围墙", "muro"): "n.m.",             # muro 阳性；原文标的是 pared 的 n.f.
+ },
+ "subs": [
+   # Sec2 例3：no de casualidad 不成立（no 不能直接 + de 引导方式副词）
+   ("Cometió esa falta no de casualidad", "Cometió esa falta no por casualidad"),
+   # Sec3 例3：主语是说话人自己，me halló(他发现我) 改 me hallé(我发觉自己)
+   ("Como no esperaba su ataque, me halló sin ninguna prevención",
+    "Como no esperaba su ataque, me hallé sin ninguna prevención"),
+ ],
+ "zh_subs": [
+   # Sec2 例5：西语只说 suceso（事件），中文却扩成「火灾/纵火」，与原文不符
+   ("他在调查火灾事件，想确定是偶发性火灾还是故意纵火。",
+    "他在调查这起事件，想确定是意外还是有人故意所为。"),
+   # Sec3 例5：puso en marcha=启动/开始运作，中文「准备」不准确
+   ("随即，民警准备一个装置用于识别和逮捕肇事者。",
+    "随后，民警启动了一套用于甄别身份和逮捕肇事者的装置。"),
+   # Sec4 例4：reinaba=弥漫着（混乱气氛），中文「乱七八糟」漏掉「气氛」
+   ("等我到家的时候，房子里已经是乱七八糟。",
+    "等我到家时，屋里已是一片混乱。"),
+   # Sec2 例4：中文「罚须当罪」过简，补全为「罪罚相当」
+   ("罚须当罪。", "刑罚应当与所犯的罪行相称。"),
+ ],
+ "CN_FIX": {
+   # Sec1 词汇：obligar=强迫/迫使，不是「约束，束缚」
+   "约束，束缚": "强迫，迫使",
+ },
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

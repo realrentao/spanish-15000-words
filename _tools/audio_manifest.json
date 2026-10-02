@@ -62571,6 +62571,16 @@
 "lang": "es"
 },
 {
+"text": "derecho internacional",
+"path": "es/09269.mp3",
+"lang": "es"
+},
+{
+"text": "国际法",
+"path": "zh/09920.mp3",
+"lang": "zh"
+},
+{
 "text": "doméstico",
 "path": "es/01465.mp3",
 "lang": "es"
@@ -62611,6 +62621,16 @@
 "lang": "zh"
 },
 {
+"text": "ley de la economía",
+"path": "es/09270.mp3",
+"lang": "es"
+},
+{
+"text": "经济法",
+"path": "zh/09921.mp3",
+"lang": "zh"
+},
+{
 "text": "administrativo",
 "path": "es/05594.mp3",
 "lang": "es"
@@ -62618,6 +62638,26 @@
 {
 "text": "行政的",
 "path": "zh/06280.mp3",
+"lang": "zh"
+},
+{
+"text": "código de comercio",
+"path": "es/09271.mp3",
+"lang": "es"
+},
+{
+"text": "商法",
+"path": "zh/09922.mp3",
+"lang": "zh"
+},
+{
+"text": "ley de las finanzas",
+"path": "es/09272.mp3",
+"lang": "es"
+},
+{
+"text": "金融法",
+"path": "zh/09923.mp3",
 "lang": "zh"
 },
 {
@@ -62771,13 +62811,13 @@
 "lang": "zh"
 },
 {
-"text": "pecado",
-"path": "es/05609.mp3",
+"text": "delictivo",
+"path": "es/09273.mp3",
 "lang": "es"
 },
 {
 "text": "犯罪的",
-"path": "zh/06298.mp3",
+"path": "zh/09924.mp3",
 "lang": "zh"
 },
 {
@@ -62816,6 +62856,16 @@
 "lang": "zh"
 },
 {
+"text": "parte principal",
+"path": "es/09274.mp3",
+"lang": "es"
+},
+{
+"text": "主体",
+"path": "zh/09925.mp3",
+"lang": "zh"
+},
+{
 "text": "对象",
 "path": "zh/06302.mp3",
 "lang": "zh"
@@ -62841,8 +62891,13 @@
 "lang": "zh"
 },
 {
+"text": "suponer",
+"path": "es/09275.mp3",
+"lang": "es"
+},
+{
 "text": "假设",
-"path": "zh/06305.mp3",
+"path": "zh/09926.mp3",
 "lang": "zh"
 },
 {
@@ -62911,13 +62966,13 @@
 "lang": "zh"
 },
 {
-"text": "Cometió esa falta no de casualidad.",
-"path": "es/05620.mp3",
+"text": "Cometió esa falta no por casualidad.",
+"path": "es/09276.mp3",
 "lang": "es"
 },
 {
 "text": "他犯那个错误绝非偶然。",
-"path": "zh/06313.mp3",
+"path": "zh/09927.mp3",
 "lang": "zh"
 },
 {
@@ -62926,7 +62981,7 @@
 "lang": "es"
 },
 {
-"text": "罚须当罪。",
+"text": "刑罚应当与所犯的罪行相称。",
 "path": "zh/06314.mp3",
 "lang": "zh"
 },
@@ -62936,7 +62991,7 @@
 "lang": "es"
 },
 {
-"text": "他在调查火灾事件，想确定是偶发性火灾还是故意纵火。",
+"text": "他在调查这起事件，想确定是意外还是有人故意所为。",
 "path": "zh/06315.mp3",
 "lang": "zh"
 },
@@ -62981,6 +63036,16 @@
 "lang": "zh"
 },
 {
+"text": "orden de arresto",
+"path": "es/09277.mp3",
+"lang": "es"
+},
+{
+"text": "逮捕证",
+"path": "zh/09928.mp3",
+"lang": "zh"
+},
+{
 "text": "corrupción",
 "path": "es/05627.mp3",
 "lang": "es"
@@ -63001,13 +63066,13 @@
 "lang": "zh"
 },
 {
-"text": "exacción",
-"path": "es/05628.mp3",
+"text": "extorsión",
+"path": "es/09278.mp3",
 "lang": "es"
 },
 {
 "text": "敲诈",
-"path": "zh/06323.mp3",
+"path": "zh/09929.mp3",
 "lang": "zh"
 },
 {
@@ -63023,6 +63088,26 @@
 {
 "text": "谋杀",
 "path": "zh/06324.mp3",
+"lang": "zh"
+},
+{
+"text": "juegos de azar",
+"path": "es/09279.mp3",
+"lang": "es"
+},
+{
+"text": "赌博",
+"path": "zh/09930.mp3",
+"lang": "zh"
+},
+{
+"text": "banda siniestra",
+"path": "es/09280.mp3",
+"lang": "es"
+},
+{
+"text": "黑帮",
+"path": "zh/09931.mp3",
 "lang": "zh"
 },
 {
@@ -63051,6 +63136,16 @@
 "lang": "zh"
 },
 {
+"text": "violencia doméstica",
+"path": "es/09281.mp3",
+"lang": "es"
+},
+{
+"text": "家庭暴力",
+"path": "zh/09932.mp3",
+"lang": "zh"
+},
+{
 "text": "Ayer sufrió un robo.",
 "path": "es/05632.mp3",
 "lang": "es"
@@ -63071,13 +63166,13 @@
 "lang": "zh"
 },
 {
-"text": "Como no esperaba su ataque, me halló sin ninguna prevención.",
-"path": "es/05634.mp3",
+"text": "Como no esperaba su ataque, me hallé sin ninguna prevención.",
+"path": "es/09282.mp3",
 "lang": "es"
 },
 {
 "text": "因为我没想到会遭到袭击，所以我当时毫无防备。",
-"path": "zh/06330.mp3",
+"path": "zh/09933.mp3",
 "lang": "zh"
 },
 {
@@ -63096,7 +63191,7 @@
 "lang": "es"
 },
 {
-"text": "随即，民警准备一个装置用于识别和逮捕肇事者。",
+"text": "随后，民警启动了一套用于甄别身份和逮捕肇事者的装置。",
 "path": "zh/06332.mp3",
 "lang": "zh"
 },
@@ -63146,13 +63241,23 @@
 "lang": "zh"
 },
 {
-"text": "pared",
-"path": "es/05642.mp3",
+"text": "cumplir una condena",
+"path": "es/09283.mp3",
+"lang": "es"
+},
+{
+"text": "服刑",
+"path": "zh/09934.mp3",
+"lang": "zh"
+},
+{
+"text": "muro",
+"path": "es/09284.mp3",
 "lang": "es"
 },
 {
 "text": "围墙",
-"path": "zh/06337.mp3",
+"path": "zh/09935.mp3",
 "lang": "zh"
 },
 {
@@ -63271,12 +63376,12 @@
 "lang": "zh"
 },
 {
-"text": "Cuando llegué a la casa, reinaba en ella una gran con-fusión.",
+"text": "Cuando llegué a la casa, reinaba en ella una gran confusión.",
 "path": "es/05652.mp3",
 "lang": "es"
 },
 {
-"text": "等我到家的时候，房子里已经是乱七八糟。",
+"text": "等我到家时，屋里已是一片混乱。",
 "path": "zh/06349.mp3",
 "lang": "zh"
 },
