@@ -2803,7 +2803,75 @@ G41 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41}
+G42 = {
+ "name": "航空航天",
+ "raw": "_tools/parte42_raw.txt",
+ "typo": {
+   "ór-bitas": "órbitas",                 # 断行
+   "ex-ploración": "exploración",        # 断行
+   "am-plio": "amplio",                  # 断行
+   "espa-cial": "espacial",              # 断行
+   "tripu-lado": "tripulado",             # 断行
+   "logís-tico": "logístico",             # 断行
+   "Co-municación": "Comunicación",      # 断行
+   "telecomunica-ciones": "telecomunicaciones",  # 断行
+   "administra-ción": "administración",  # 断行
+   "tian-gong-1": "Tiangong-1",          # 专名 + 断行
+ },
+ "fix": {
+   # ---- Sec1 宇宙
+   ("轨道", "pista"): "órbita",            # pista=跑道/赛道；轨道=órbita
+   # ---- Sec2 航空航天
+   ("宇宙飞船", "barco espacial"): "nave espacial",  # barco=船(海上)；飞船=nave
+   ("航天探测器", "nave espacial"): "sonda espacial",  # 与「太空船」重复，探测器=sonda
+   ("运载火箭", "cohete logístico"): "cohete portador",  # logístico=后勤的；运载=portador
+ },
+ "pos": {
+   # ---- Sec1
+   ("轨道", "órbita"): "n.f.",
+   ("太阳系", "sistema solar"): "",
+   ("日冕", "corona solar"): "",
+   ("宇航员", "astronauta"): "n.m.",       # 男女通用，按阳性
+   ("太空，宇宙； 空间", "espacio"): "n.m.",
+   # ---- Sec2
+   ("航天探测器", "sonda espacial"): "",
+   ("空间站", "estación espacial"): "",
+   ("载人火箭", "cohete tripulado"): "",
+   ("宇宙飞船", "nave espacial"): "",
+   ("航天飞机", "transbordador espacial"): "",
+   ("无人飞船", "nave espacial no tripulada"): "",
+   ("太空船", "nave espacial"): "",
+   ("运载火箭", "cohete portador"): "",
+   ("通信卫星", "satélite de comunicación"): "",
+   ("导航卫星", "satélite de navegación"): "",
+ },
+ "subs": [
+   # Sec1 例7：campos llama urticante 缺介词，应为 campos de llama urticante
+   ("el amplio sol proyecta sus campos llama urticante",
+    "el amplio sol proyecta sus campos de llama urticante"),
+   # Sec1 例6：例句被 OCR 吞掉「例」标记后与上下句黏连，补回主语后语义完整
+   # Sec2 例3：专名 + 语法
+   ("El Grupo de Satélite y Comunicación de China (“China Satcom”) es una de los seis operadores de telecomunicaciones básicas en administración del central",
+    "El Grupo de Satélite y Comunicación de China (“China Satcom”) es uno de los seis operadores básicos de telecomunicaciones de administración central"),
+   # Sec2 例4：原句结构混乱（逗号割裂主谓、se debe atracar con 搭配不当、缺关系从句引导词），
+   # 重组为通顺句；注意 S 句不走 ES_TYPO，键必须用 clean 后的原文形态（小写 tiangong-1）
+   ("Esta nave, transporta el cohete “larga marcha 2f”, se debe atracar con el módulo de laboratorio espacial tiangong-1, que entró en órbita el 29 de septiembre",
+    "Esta nave, que transporta el cohete “Long March 2F”, debe atracar con el módulo de laboratorio espacial Tiangong-1, que entró en órbita el 29 de septiembre"),
+ ],
+ "zh_subs": [
+   # Sec1 例5：navegar por el espacio=在太空飞行，中文「宇航员飞行太空」缺「在」
+   ("宇航员飞行太空。", "宇航员在太空中飞行。"),
+   # Sec2 例4：原译把「停泊在…实验室的模型中」直译成「模型」，实为「舱段」
+   ("这个飞船，搭载着长征2f 运载火箭，必须（应该）停泊在天宫1号实验室的模型中，在9月29日进入了轨道。",
+    "这艘飞船搭载了长征二号F运载火箭，将与天宫一号空间实验室模块对接，后者已于9月29日进入轨道。"),
+ ],
+ "CN_FIX": {
+   # Sec1 词头标点错乱：分号 + 多余空格
+   "太空，宇宙； 空间": "太空，宇宙，空间",
+ },
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

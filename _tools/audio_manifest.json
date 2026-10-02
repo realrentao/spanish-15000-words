@@ -70841,18 +70841,28 @@
 "lang": "zh"
 },
 {
-"text": "太空，宇宙； 空间",
-"path": "zh/06513.mp3",
-"lang": "zh"
-},
-{
 "text": "cielo",
 "path": "es/05793.mp3",
 "lang": "es"
 },
 {
+"text": "órbita",
+"path": "es/05798.mp3",
+"lang": "es"
+},
+{
 "text": "轨道",
 "path": "zh/06514.mp3",
+"lang": "zh"
+},
+{
+"text": "sistema solar",
+"path": "es/09423.mp3",
+"lang": "es"
+},
+{
+"text": "太阳系",
+"path": "zh/10074.mp3",
 "lang": "zh"
 },
 {
@@ -70873,6 +70883,16 @@
 {
 "text": "色球",
 "path": "zh/06516.mp3",
+"lang": "zh"
+},
+{
+"text": "corona solar",
+"path": "es/09424.mp3",
+"lang": "es"
+},
+{
+"text": "日冕",
+"path": "zh/10075.mp3",
 "lang": "zh"
 },
 {
@@ -70899,11 +70919,6 @@
 "text": "星，星体",
 "path": "zh/06519.mp3",
 "lang": "zh"
-},
-{
-"text": "órbita",
-"path": "es/05798.mp3",
-"lang": "es"
 },
 {
 "text": "elíptico",
@@ -70951,7 +70966,7 @@
 "lang": "es"
 },
 {
-"text": "宇航员飞行太空。",
+"text": "宇航员在太空中飞行。",
 "path": "zh/06524.mp3",
 "lang": "zh"
 },
@@ -70966,13 +70981,43 @@
 "lang": "zh"
 },
 {
-"text": "Durante un mes, el amplio sol proyecta sus campos llama urticante.",
-"path": "es/05805.mp3",
+"text": "El cielo tiene cara de lluvia.",
+"path": "es/09425.mp3",
+"lang": "es"
+},
+{
+"text": "天空风云骤起。",
+"path": "zh/10076.mp3",
+"lang": "zh"
+},
+{
+"text": "Durante un mes, el amplio sol proyecta sus campos de llama urticante.",
+"path": "es/09426.mp3",
 "lang": "es"
 },
 {
 "text": "一个月以来，炎炎烈日向田野喷射出灼热的火焰。",
-"path": "zh/06526.mp3",
+"path": "zh/10077.mp3",
+"lang": "zh"
+},
+{
+"text": "sonda espacial",
+"path": "es/09427.mp3",
+"lang": "es"
+},
+{
+"text": "航天探测器",
+"path": "zh/10078.mp3",
+"lang": "zh"
+},
+{
+"text": "estación espacial",
+"path": "es/09428.mp3",
+"lang": "es"
+},
+{
+"text": "空间站",
+"path": "zh/10079.mp3",
 "lang": "zh"
 },
 {
@@ -70986,6 +71031,36 @@
 "lang": "zh"
 },
 {
+"text": "cohete tripulado",
+"path": "es/09429.mp3",
+"lang": "es"
+},
+{
+"text": "载人火箭",
+"path": "zh/10080.mp3",
+"lang": "zh"
+},
+{
+"text": "transbordador espacial",
+"path": "es/09430.mp3",
+"lang": "es"
+},
+{
+"text": "航天飞机",
+"path": "zh/10081.mp3",
+"lang": "zh"
+},
+{
+"text": "nave espacial no tripulada",
+"path": "es/09431.mp3",
+"lang": "es"
+},
+{
+"text": "无人飞船",
+"path": "zh/10082.mp3",
+"lang": "zh"
+},
+{
 "text": "cohete",
 "path": "es/05807.mp3",
 "lang": "es"
@@ -70993,6 +71068,36 @@
 {
 "text": "火箭",
 "path": "zh/06528.mp3",
+"lang": "zh"
+},
+{
+"text": "cohete portador",
+"path": "es/09432.mp3",
+"lang": "es"
+},
+{
+"text": "运载火箭",
+"path": "zh/10083.mp3",
+"lang": "zh"
+},
+{
+"text": "satélite de comunicación",
+"path": "es/09433.mp3",
+"lang": "es"
+},
+{
+"text": "通信卫星",
+"path": "zh/10084.mp3",
+"lang": "zh"
+},
+{
+"text": "satélite de navegación",
+"path": "es/09434.mp3",
+"lang": "es"
+},
+{
+"text": "导航卫星",
+"path": "zh/10085.mp3",
 "lang": "zh"
 },
 {
@@ -71026,23 +71131,23 @@
 "lang": "zh"
 },
 {
-"text": "El Grupo de Satélite y Comunicación de China (“China Satcom”) es una de los seis operadores de telecomunicaciones básicas en administración del central.",
-"path": "es/05811.mp3",
+"text": "El Grupo de Satélite y Comunicación de China (“China Satcom”) es uno de los seis operadores básicos de telecomunicaciones de administración central.",
+"path": "es/09435.mp3",
 "lang": "es"
 },
 {
 "text": "中国卫星通信集团公司（简称“中国卫通”）是中央管理的六大基础电信运营企业之一。",
-"path": "zh/06532.mp3",
+"path": "zh/10086.mp3",
 "lang": "zh"
 },
 {
-"text": "Esta nave, transporta el cohete “larga marcha 2f”, se debe atracar con el módulo de laboratorio espacial tiangong-1, que entró en órbita el 29 de septiembre.",
-"path": "es/05812.mp3",
+"text": "Esta nave, que transporta el cohete “Long March 2F”, debe atracar con el módulo de laboratorio espacial Tiangong-1, que entró en órbita el 29 de septiembre.",
+"path": "es/09436.mp3",
 "lang": "es"
 },
 {
-"text": "这个飞船，搭载着长征2f 运载火箭，必须（应该）停泊在天宫1号实验室的模型中，在9月29日进入了轨道。",
-"path": "zh/06533.mp3",
+"text": "这艘飞船搭载了长征二号F运载火箭，将与天宫一号空间实验室模块对接，后者已于9月29日进入轨道。",
+"path": "zh/10087.mp3",
 "lang": "zh"
 },
 {
