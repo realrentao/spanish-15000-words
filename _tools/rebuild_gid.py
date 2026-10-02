@@ -835,17 +835,156 @@ G24 = {
    ("La cámara es sólo una herramienta, paisajes dependen del descubrimiento",
     "La cámara es sólo una herramienta, lo importante es el descubrimiento"),
  ],
- "CN_FIX": {
-   # E 行中文（zh_subs 只作用于 S 句中文）
-   "终点，目的地": "终点，目的地",
- },
  "zh_subs": [
    # Sec13 「相机只是工具，基本能用就行」— 西语原句说的是风景在于发现，对不上
    ("相机只是工具，基本能用就行。 风景在于发现。", "相机只是工具，风景在于发现。"),
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24}
+G25 = {
+ "name": "逛超市",
+ "raw": "_tools/parte25_raw.txt",
+ # clean_es 之后的 OCR 残损子串 -> 正确写法
+ "typo": {
+   "ara.ar": "arañar",                    # .r 前后不是元音，clean 的 ñ 自愈救不了
+   "Nn ": "Un ",                          # OCR 掉首字母
+   "suplemento.": "suplemento",            # 西语后多一个点
+ },
+ "fix": {
+   # Sec1 超市相关
+   ("家用电器", "aparato"): "electrodoméstico",   # aparato=器具/装置
+   # Sec2 化妆品
+   ("磨砂膏", "toallita desmaquilladora"): "exfoliante",  # 磨砂膏=去角质霜
+   # Sec3 皮肤清洁
+   ("粗糙的", "basto"): "áspero",            # basto=粗糙的/粗笨的，可用于皮肤
+   # Sec4 日用品
+   ("爽身粉", "empasnte"): "talco",          # empasnte 非西语词
+   # Sec5 谷物区
+   ("去壳", "bombardeo"): "descascar",      # bombardeo=轰炸
+   ("糠", "bola"): "cáscara",               # bola=球
+   # Sec6 食品与调料区
+   ("芝麻酱", "mermelada de sésamo"): "pasta de sésamo",
+   # Sec7 海鲜区
+   ("熏制", "boucaner"): "ahumar",          # boucaner 非西语词
+   ("带鱼", "trichiure"): "trichiura",      # 拼写错误
+   ("鳕鱼肉", "bacalao"): "bacalao",
+   # Sec8 各种家电（1）
+   ("电饭锅", "estufa"): "olla eléctrica",  # estufa=炉子/暖气
+   # Sec9 各种家电（2）
+   ("扩音器", "micrófono"): "altavoz",      # micrófono=麦克风
+   ("饮水机", "dosificador"): "dispensador de agua",
+   ("遥控器", "remoto"): "mando a distancia",
+   # Sec10 蔬菜（1）
+   ("大头菜", "colinabo"): "colinabo",
+   ("葱", "cebouino"): "cebolla",           # cebouino 非西语词
+   ("芋头", "boniato"): "boniato",
+   # Sec11 蔬菜（2）
+   ("卷心菜", "berza"): "repollo",          # berza=羽衣甘蓝
+   ("丝瓜", "calabaza esponja"): "calabaza",
+   ("苦瓜", "pera de bálsamo"): "pepino amargo",
+   ("西葫芦", "alcachofa"): "calabacín",    # alcachofa=朝鲜蓟
+   ("冬瓜", "benincasa"): "calabaza china",
+   # Sec12 蔬菜（3）
+   ("扁豆", "judía"): "judía",
+   ("菜豆", "frijol"): "frijol",
+   # Sec13 水果（1）
+   ("柚子", "pomelo"): "pomelo",
+   # Sec14 水果（2）
+   ("山楂", "espino"): "espino",            # espino=hawthorn，山楂树
+   # Sec15 食用肉类
+   ("绞肉机", "picador"): "picadora de carne",
+   # Sec16 宠物用品区
+   ("溜", "arrastrar"): "arrastrar",
+   # Sec17 图书区
+   ("简装的", "rústico"): "de tapa dura",   # rústico=乡村的
+   # Sec18 乳制品
+   ("纸盒", "bandeja"): "caja",             # bandeja=托盘
+   # Sec19 零碎物品
+   ("烤架", "barbacoa"): "parrilla",        # barbacoa=烧烤
+   # Sec20 结账
+   ("大甩卖", "vender"): "liquidación",     # 中文是名词
+   ("结账", "equilibrar una cuenta"): "pagar la cuenta",
+ },
+ "pos": {
+   # 文案标错/标全无的，按西语实际词性
+   ("蔬菜", "verdura"): "n.f.",             # 同一节两条，verdura 阴性
+   ("家用电器", "electrodoméstico"): "n.m.",
+   ("磨砂膏", "exfoliante"): "n.m.",
+   ("爽身粉", "talco"): "n.m.",
+   ("大甩卖", "liquidación"): "n.f.",
+   ("结账", "pagar la cuenta"): "",
+   ("清仓", "liquidación"): "n.f.",
+ },
+ "subs": [
+   # Sec2 化妆品
+   ("Amor es cuando una muchacha se pone perfume y un muchacho se pone loción, de afeitardo y se unen a sentirse",
+    "Amor es cuando una muchacha se pone perfume y un muchacho se pone loción, de afeitardo, y se unen a sentirse"),
+   # Sec3 皮肤清洁
+   ("Usted y yo sabemos que puedo hacer las uñas, mientras que le elimino en fragmentos",
+    "Usted y yo sabemos que puedo hacer las uñas mientras le elimino en fragmentos"),
+   # Sec4 日用品
+   ("¿Por qué debería preocuparme de tu paraguas",
+    "¿Por qué debería preocuparme de tu paraguas?"),
+   # Sec5 谷物区（性别错 + 谚语）
+   ("Un gran cabra estaba en nuestro camino, no le importaba el pepino que le dimos, pero con sus ojos fijos en el maíz en la mano de mi campa-.ero",
+    "Una gran cabra estaba en nuestro camino, no le importaba el pepino que le dimos, pero con sus ojos fijos en el maíz que llevaba mi compañero"),
+   ("Un burro llevaba trigo y devolvió llevando harina",
+    "Un burro llevaba trigo y volvió llevando harina"),
+   # Sec6 食品与调料区
+   ("Creemos firmemente que: buenos productos son como el azúcar, derretida ella misma, y el agua se ha convertido dulce",
+    "Creemos firmemente que: los buenos productos son como el azúcar, que se derritió a sí misma, y el agua se ha convertido dulce"),
+   ("Sobre la mesa están la tazas, el azúcar y la cafeteria",
+    "Sobre la mesa están las tazas, el azúcar y la cafetera"),
+   # Sec8 各种家电（1）
+   ("El aspirador respira el polvo y trozos de golondrina de papel en el suelo",
+    "El aspirador recoge el polvo y los trozos de papel que hay por el suelo"),
+   # Sec9 各种家电（2）
+   ("Después de esta interrupción corta pero grosera, al abuchear el público, kanye west volvió el micrófono a Taylor Swift, quien se quedó muda por la sorpresa",
+    "Después de esta interrupción corta pero grosera, al abuchear el público, Kanye West volvió el micrófono a Taylor Swift, quien se quedó muda por la sorpresa"),
+   # Sec10 蔬菜（1）
+   ("Comió como si tuviera que ir una tierra árida, que fue Japón, donde tuviera nada comestible",
+    "Comió como si tuviera que ir a una tierra árida, que fue Japón, donde no hubiera nada comestible"),
+   # Sec11 蔬菜（2）
+   ("Los fideosbiang biang son fideos muy gruesos, hechos a mano. Es típico de Shaanxi, servido con un montón de chili",
+    "Los fideos biang-biang son fideos muy gruesos, hechos a mano. Son típicos de Shaanxi y se sirven con un montón de chili"),
+   # Sec12 蔬菜（3）
+   ("También puede hacer mi maquillaje en la calabaza (naranja y negro), undead, zombi, un bate, la momia, etc",
+    "También puede hacer su maquillaje con la calabaza (naranja o negra), un muerto viviente, un zombi, un murciélago, una momia, etc"),
+   # Sec14 水果（2）
+   ("El albaricoque es una de las frutas más ricas en provitamina A, 50% de la ingesta diaria viene de sólo 100g",
+    "El albaricoque es una de las frutas más ricas en provitamina A: el 50% de la ingesta diaria viene de sólo 100 g"),
+   ("Yo le dije: “el amor es un jugo delicioso y pulpa amarga.”",
+    "Yo le dije: «el amor es un jugo delicioso y una pulpa amarga»."),
+   # Sec16 宠物用品区
+   ("Otra característica de las familias francesas es que, la mitad de los hogares tienen una mascota, perro o gato, principalmente",
+    "Otra característica de las familias francesas es que la mitad de los hogares tiene una mascota, un perro o un gato, principalmente"),
+   # Sec18 乳制品
+   ("Leche para la glotonería y negro para la degustación, sus sabores de una gran riqueza y diversidad infinita",
+    "La leche para la glotonería y la negra para la degustación tienen una gran riqueza de sabores y una diversidad infinita"),
+   # Sec19 零碎物品
+   ("A medida que amplia su familia, este hombre casi analfabeto resulta un destacado hombre de negocios",
+    "A medida que amplía su familia, este hombre casi analfabeto acaba siendo un destacado hombre de negocios"),
+   ("La niña saca un tercer cerillo, y ella parece ponerse al lado de un árbol de navidad hermoso",
+    "La niña saca un tercer cerillo y parece ponerse al lado de un árbol de Navidad hermoso"),
+   # Sec20 结账
+   ("Los ingresos de la compañía son transparentes, el beneficio no es significativo, y lo importante es el plu jo",
+    "Los ingresos de la compañía son transparentes, el beneficio no es significativo y lo importante es el flujo"),
+   ("Hizo un ruido muy espantoso, y cometí cuatro errores en mi adición",
+    "Hizo un ruido muy espantoso y cometí cuatro errores en mi adición"),
+   ("No queda claro cuánto dinero al final, se ve bastante mucho",
+    "No queda claro cuánto dinero es al final, pero se ve bastante"),
+ ],
+ "zh_subs": [
+   # Sec14 错字「是一种的甜如美味」
+   ("爱情是一种的甜如美味的果汁和苦涩的酱。", "爱情是一种甜如美味的果汁和苦涩的酱。"),
+   # Sec19 「玫瑰花蜜」与 miel rosada（粉蜜/玫瑰蜜）对应
+   ("我每天都喝玫瑰花蜜。", "我每天都喝玫瑰蜜。"),
+   # Sec18 中文多了一句「吃了两片面包」（西语没有）
+   ("我早晨喝了一杯牛奶，吃了两片面包。", "我早晨喝了一杯牛奶。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

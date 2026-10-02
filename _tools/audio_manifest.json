@@ -34376,13 +34376,58 @@
 "lang": "zh"
 },
 {
+"text": "venta por menor",
+"path": "es/07982.mp3",
+"lang": "es"
+},
+{
+"text": "零售",
+"path": "zh/08633.mp3",
+"lang": "zh"
+},
+{
+"text": "venta por mayor",
+"path": "es/07983.mp3",
+"lang": "es"
+},
+{
+"text": "批发",
+"path": "zh/08634.mp3",
+"lang": "zh"
+},
+{
+"text": "escalera mecánica",
+"path": "es/07984.mp3",
+"lang": "es"
+},
+{
+"text": "电动扶梯",
+"path": "zh/08635.mp3",
+"lang": "zh"
+},
+{
+"text": "centro commercial",
+"path": "es/07985.mp3",
+"lang": "es"
+},
+{
+"text": "购物街",
+"path": "zh/08636.mp3",
+"lang": "zh"
+},
+{
 "text": "打折",
 "path": "zh/04333.mp3",
 "lang": "zh"
 },
 {
+"text": "electrodoméstico",
+"path": "es/07986.mp3",
+"lang": "es"
+},
+{
 "text": "家用电器",
-"path": "zh/04334.mp3",
+"path": "zh/08637.mp3",
 "lang": "zh"
 },
 {
@@ -34406,6 +34451,16 @@
 "lang": "zh"
 },
 {
+"text": "guía de compras",
+"path": "es/07987.mp3",
+"lang": "es"
+},
+{
+"text": "导购",
+"path": "zh/08638.mp3",
+"lang": "zh"
+},
+{
 "text": "carne",
 "path": "es/03942.mp3",
 "lang": "es"
@@ -34413,6 +34468,16 @@
 {
 "text": "肉类",
 "path": "zh/04337.mp3",
+"lang": "zh"
+},
+{
+"text": "un montón de",
+"path": "es/07988.mp3",
+"lang": "es"
+},
+{
+"text": "很多的",
+"path": "zh/08639.mp3",
 "lang": "zh"
 },
 {
@@ -34441,6 +34506,16 @@
 "lang": "zh"
 },
 {
+"text": "Ha ido al supermercado de enfrente a hacer compras.",
+"path": "es/07989.mp3",
+"lang": "es"
+},
+{
+"text": "他到对面的超市去买东西。",
+"path": "zh/08640.mp3",
+"lang": "zh"
+},
+{
 "text": "¿Podía indicarme dónde está el supermercado más próximo?",
 "path": "es/03945.mp3",
 "lang": "es"
@@ -34461,6 +34536,16 @@
 "lang": "zh"
 },
 {
+"text": "crema para los ojos",
+"path": "es/07990.mp3",
+"lang": "es"
+},
+{
+"text": "眼霜",
+"path": "zh/08641.mp3",
+"lang": "zh"
+},
+{
 "text": "mascarilla",
 "path": "es/03947.mp3",
 "lang": "es"
@@ -34468,6 +34553,46 @@
 {
 "text": "面膜",
 "path": "zh/04343.mp3",
+"lang": "zh"
+},
+{
+"text": "máscara para los ojos",
+"path": "es/07991.mp3",
+"lang": "es"
+},
+{
+"text": "眼膜",
+"path": "zh/08642.mp3",
+"lang": "zh"
+},
+{
+"text": "delineador líquido",
+"path": "es/07992.mp3",
+"lang": "es"
+},
+{
+"text": "眼线液",
+"path": "zh/08643.mp3",
+"lang": "zh"
+},
+{
+"text": "trazador líquido para labios",
+"path": "es/07993.mp3",
+"lang": "es"
+},
+{
+"text": "唇线液",
+"path": "zh/08644.mp3",
+"lang": "zh"
+},
+{
+"text": "lápiz de cejas",
+"path": "es/07994.mp3",
+"lang": "es"
+},
+{
+"text": "眉笔",
+"path": "zh/08645.mp3",
 "lang": "zh"
 },
 {
@@ -34481,6 +34606,16 @@
 "lang": "zh"
 },
 {
+"text": "esmalte de uñas",
+"path": "es/07995.mp3",
+"lang": "es"
+},
+{
+"text": "指甲油",
+"path": "zh/08646.mp3",
+"lang": "zh"
+},
+{
 "text": "comedo",
 "path": "es/03949.mp3",
 "lang": "es"
@@ -34488,6 +34623,26 @@
 {
 "text": "黑头",
 "path": "zh/04345.mp3",
+"lang": "zh"
+},
+{
+"text": "líquido de esencia",
+"path": "es/07996.mp3",
+"lang": "es"
+},
+{
+"text": "精华液",
+"path": "zh/08647.mp3",
+"lang": "zh"
+},
+{
+"text": "leche limpiadora",
+"path": "es/07997.mp3",
+"lang": "es"
+},
+{
+"text": "洗面奶",
+"path": "zh/08648.mp3",
 "lang": "zh"
 },
 {
@@ -34511,6 +34666,16 @@
 "lang": "zh"
 },
 {
+"text": "crema de protección solar",
+"path": "es/07998.mp3",
+"lang": "es"
+},
+{
+"text": "防晒霜",
+"path": "zh/08649.mp3",
+"lang": "zh"
+},
+{
 "text": "blanqueamiento",
 "path": "es/03951.mp3",
 "lang": "es"
@@ -34521,13 +34686,13 @@
 "lang": "zh"
 },
 {
-"text": "desmaquilladora",
-"path": "es/03952.mp3",
+"text": "exfoliante",
+"path": "es/03957.mp3",
 "lang": "es"
 },
 {
-"text": "磨砂膏 toallita",
-"path": "zh/04349.mp3",
+"text": "磨砂膏",
+"path": "zh/04356.mp3",
 "lang": "zh"
 },
 {
@@ -34566,13 +34731,23 @@
 "lang": "zh"
 },
 {
-"text": "Amor es cuando una muchacha se pone perfume y un muchacho se pone loción, de afeitardo y se unen a sentirse.",
+"text": "Amor es cuando una muchacha se pone perfume y un muchacho se pone loción, de afeitardo, y se unen a sentirse.",
 "path": "es/03955.mp3",
 "lang": "es"
 },
 {
 "text": "爱，就是一个女孩为自己洒上香水、一个男孩涂上须后水，然后他们一起出去感受对方。",
 "path": "zh/04354.mp3",
+"lang": "zh"
+},
+{
+"text": "cuidado de la piel",
+"path": "es/07999.mp3",
+"lang": "es"
+},
+{
+"text": "护肤",
+"path": "zh/08650.mp3",
 "lang": "zh"
 },
 {
@@ -34591,23 +34766,23 @@
 "lang": "zh"
 },
 {
-"text": "exfoliante",
-"path": "es/03957.mp3",
+"text": "crema para la mano",
+"path": "es/08000.mp3",
 "lang": "es"
 },
 {
-"text": "去死皮的",
-"path": "zh/04356.mp3",
+"text": "护手霜",
+"path": "zh/08651.mp3",
 "lang": "zh"
 },
 {
-"text": "basto",
-"path": "es/03958.mp3",
+"text": "áspero",
+"path": "es/08001.mp3",
 "lang": "es"
 },
 {
 "text": "粗糙的",
-"path": "zh/04357.mp3",
+"path": "zh/08652.mp3",
 "lang": "zh"
 },
 {
@@ -34638,6 +34813,26 @@
 {
 "text": "油性的",
 "path": "zh/02341.mp3",
+"lang": "zh"
+},
+{
+"text": "crema de ducha",
+"path": "es/08002.mp3",
+"lang": "es"
+},
+{
+"text": "沐浴露",
+"path": "zh/08653.mp3",
+"lang": "zh"
+},
+{
+"text": "polvo de perla",
+"path": "es/08003.mp3",
+"lang": "es"
+},
+{
+"text": "珍珠粉",
+"path": "zh/08654.mp3",
 "lang": "zh"
 },
 {
@@ -34746,13 +34941,13 @@
 "lang": "zh"
 },
 {
-"text": "Usted y yo sabemos que puedo hacer las uñas, mientras que le elimino en fragmentos.",
-"path": "es/03969.mp3",
+"text": "Usted y yo sabemos que puedo hacer las uñas mientras le elimino en fragmentos.",
+"path": "es/08004.mp3",
 "lang": "es"
 },
 {
 "text": "你我都知道，我可以一边做指甲，一边把你撕成碎片。",
-"path": "zh/04370.mp3",
+"path": "zh/08655.mp3",
 "lang": "zh"
 },
 {
@@ -34786,6 +34981,16 @@
 "lang": "zh"
 },
 {
+"text": "mercancía general",
+"path": "es/06842.mp3",
+"lang": "es"
+},
+{
+"text": "日用品",
+"path": "zh/07615.mp3",
+"lang": "zh"
+},
+{
 "text": "inevitablemente",
 "path": "es/03973.mp3",
 "lang": "es"
@@ -34793,6 +34998,16 @@
 {
 "text": "必定",
 "path": "zh/04374.mp3",
+"lang": "zh"
+},
+{
+"text": "las necesidades de la vida",
+"path": "es/08005.mp3",
+"lang": "es"
+},
+{
+"text": "生活必需品",
+"path": "zh/08656.mp3",
 "lang": "zh"
 },
 {
@@ -34866,13 +35081,13 @@
 "lang": "zh"
 },
 {
-"text": "empasnte",
-"path": "es/03980.mp3",
+"text": "talco",
+"path": "es/08006.mp3",
 "lang": "es"
 },
 {
 "text": "爽身粉",
-"path": "zh/04382.mp3",
+"path": "zh/08657.mp3",
 "lang": "zh"
 },
 {
@@ -34883,6 +35098,26 @@
 {
 "text": "喷头",
 "path": "zh/01139.mp3",
+"lang": "zh"
+},
+{
+"text": "cepillo de dientes",
+"path": "es/06487.mp3",
+"lang": "es"
+},
+{
+"text": "牙刷",
+"path": "zh/07260.mp3",
+"lang": "zh"
+},
+{
+"text": "pasta de dientes",
+"path": "es/06486.mp3",
+"lang": "es"
+},
+{
+"text": "牙膏",
+"path": "zh/07259.mp3",
 "lang": "zh"
 },
 {
@@ -35041,6 +35276,16 @@
 "lang": "zh"
 },
 {
+"text": "mazorca de maíz",
+"path": "es/08007.mp3",
+"lang": "es"
+},
+{
+"text": "麦穗",
+"path": "zh/08658.mp3",
+"lang": "zh"
+},
+{
 "text": "nutrición",
 "path": "es/03997.mp3",
 "lang": "es"
@@ -35061,13 +35306,13 @@
 "lang": "zh"
 },
 {
-"text": "bombardeo",
-"path": "es/03999.mp3",
+"text": "descascar",
+"path": "es/08008.mp3",
 "lang": "es"
 },
 {
 "text": "去壳",
-"path": "zh/04400.mp3",
+"path": "zh/08659.mp3",
 "lang": "zh"
 },
 {
@@ -35081,13 +35326,33 @@
 "lang": "zh"
 },
 {
-"text": "bola",
-"path": "es/04001.mp3",
+"text": "partículas de gran tamaño",
+"path": "es/08009.mp3",
+"lang": "es"
+},
+{
+"text": "大颗粒的",
+"path": "zh/08660.mp3",
+"lang": "zh"
+},
+{
+"text": "cáscara",
+"path": "es/05097.mp3",
 "lang": "es"
 },
 {
 "text": "糠",
-"path": "zh/04402.mp3",
+"path": "zh/05686.mp3",
+"lang": "zh"
+},
+{
+"text": "sorgo chino",
+"path": "es/08010.mp3",
+"lang": "es"
+},
+{
+"text": "高粱",
+"path": "zh/08661.mp3",
 "lang": "zh"
 },
 {
@@ -35156,23 +35421,23 @@
 "lang": "zh"
 },
 {
-"text": "Un gran cabra estaba en nuestro camino, no le importaba el pepino que le dimos, pero con sus ojos fijos en el maíz en la mano de mi campa-.ero...",
-"path": "es/04009.mp3",
+"text": "Una gran cabra estaba en nuestro camino, no le importaba el pepino que le dimos, pero con sus ojos fijos en el maíz que llevaba mi compañero...",
+"path": "es/08011.mp3",
 "lang": "es"
 },
 {
 "text": "一只很大个的山羊挡住我们的去路，对我们给的黄瓜不闻不问，却直盯着同事手中的玉米……",
-"path": "zh/04409.mp3",
+"path": "zh/08662.mp3",
 "lang": "zh"
 },
 {
-"text": "Nn burro llevaba trigo y devolvió llevando harina.",
-"path": "es/04010.mp3",
+"text": "Un burro llevaba trigo y volvió llevando harina.",
+"path": "es/08012.mp3",
 "lang": "es"
 },
 {
 "text": "一头小灰驴驮来小麦，再把面粉驮走。",
-"path": "zh/04410.mp3",
+"path": "zh/08663.mp3",
 "lang": "zh"
 },
 {
@@ -35206,6 +35471,26 @@
 "lang": "zh"
 },
 {
+"text": "salsa de ostras",
+"path": "es/08013.mp3",
+"lang": "es"
+},
+{
+"text": "蚝油",
+"path": "zh/08664.mp3",
+"lang": "zh"
+},
+{
+"text": "polvo de chile rojo",
+"path": "es/08014.mp3",
+"lang": "es"
+},
+{
+"text": "辣椒粉",
+"path": "zh/08665.mp3",
+"lang": "zh"
+},
+{
 "text": "sésamo",
 "path": "es/04014.mp3",
 "lang": "es"
@@ -35216,8 +35501,43 @@
 "lang": "zh"
 },
 {
-"text": "芝麻酱 mermelada de",
-"path": "zh/04415.mp3",
+"text": "pasta de sésamo",
+"path": "es/08015.mp3",
+"lang": "es"
+},
+{
+"text": "芝麻酱",
+"path": "zh/08666.mp3",
+"lang": "zh"
+},
+{
+"text": "azúcar morena",
+"path": "es/08016.mp3",
+"lang": "es"
+},
+{
+"text": "红糖",
+"path": "zh/08667.mp3",
+"lang": "zh"
+},
+{
+"text": "pimienta blanca",
+"path": "es/08017.mp3",
+"lang": "es"
+},
+{
+"text": "白胡椒",
+"path": "zh/08668.mp3",
+"lang": "zh"
+},
+{
+"text": "un terrón de azúcar",
+"path": "es/08018.mp3",
+"lang": "es"
+},
+{
+"text": "一块方糖",
+"path": "zh/08669.mp3",
 "lang": "zh"
 },
 {
@@ -35228,6 +35548,16 @@
 {
 "text": "蛋黄酱",
 "path": "zh/04416.mp3",
+"lang": "zh"
+},
+{
+"text": "alimento ligero",
+"path": "es/08019.mp3",
+"lang": "es"
+},
+{
+"text": "清单的食物",
+"path": "zh/08670.mp3",
 "lang": "zh"
 },
 {
@@ -35281,13 +35611,13 @@
 "lang": "zh"
 },
 {
-"text": "Creemos firmemente que: buenos productos son como el azúcar, derretida ella misma, y el agua se ha convertido dulce.",
-"path": "es/04020.mp3",
+"text": "Creemos firmemente que: los buenos productos son como el azúcar, que se derritió a sí misma, y el agua se ha convertido dulce.",
+"path": "es/08020.mp3",
 "lang": "es"
 },
 {
 "text": "我们坚信:好产品要像糖一样,融化了自己,而水却变甜了！",
-"path": "zh/04422.mp3",
+"path": "zh/08671.mp3",
 "lang": "zh"
 },
 {
@@ -35321,13 +35651,13 @@
 "lang": "zh"
 },
 {
-"text": "Sobre la mesa están la tazas, el azúcar y la cafeteria.",
-"path": "es/04024.mp3",
+"text": "Sobre la mesa están las tazas, el azúcar y la cafetera.",
+"path": "es/08021.mp3",
 "lang": "es"
 },
 {
 "text": "桌子上放着杯子、方糖和咖啡壶。",
-"path": "zh/04426.mp3",
+"path": "zh/08672.mp3",
 "lang": "zh"
 },
 {
@@ -35351,6 +35681,16 @@
 "lang": "zh"
 },
 {
+"text": "pastel de pescado",
+"path": "es/08022.mp3",
+"lang": "es"
+},
+{
+"text": "鱼肉馅饼",
+"path": "zh/08673.mp3",
+"lang": "zh"
+},
+{
 "text": "carpa",
 "path": "es/04027.mp3",
 "lang": "es"
@@ -35361,23 +35701,23 @@
 "lang": "zh"
 },
 {
-"text": "trichiure",
-"path": "es/04028.mp3",
+"text": "trichiura",
+"path": "es/08023.mp3",
 "lang": "es"
 },
 {
 "text": "带鱼",
-"path": "zh/04430.mp3",
+"path": "zh/08674.mp3",
 "lang": "zh"
 },
 {
-"text": "boucaner",
-"path": "es/04029.mp3",
+"text": "ahumar",
+"path": "es/08024.mp3",
 "lang": "es"
 },
 {
 "text": "熏制",
-"path": "zh/04431.mp3",
+"path": "zh/08675.mp3",
 "lang": "zh"
 },
 {
@@ -35398,6 +35738,16 @@
 {
 "text": "龙虾",
 "path": "zh/04433.mp3",
+"lang": "zh"
+},
+{
+"text": "carne de langosta",
+"path": "es/08025.mp3",
+"lang": "es"
+},
+{
+"text": "龙虾肉",
+"path": "zh/08676.mp3",
 "lang": "zh"
 },
 {
@@ -35516,6 +35866,16 @@
 "lang": "zh"
 },
 {
+"text": "cine en casa",
+"path": "es/08026.mp3",
+"lang": "es"
+},
+{
+"text": "家庭影院",
+"path": "zh/08677.mp3",
+"lang": "zh"
+},
+{
 "text": "风扇",
 "path": "zh/04446.mp3",
 "lang": "zh"
@@ -35561,13 +35921,13 @@
 "lang": "zh"
 },
 {
-"text": "estufa",
-"path": "es/04046.mp3",
+"text": "olla eléctrica",
+"path": "es/08027.mp3",
 "lang": "es"
 },
 {
 "text": "电饭锅",
-"path": "zh/04450.mp3",
+"path": "zh/08678.mp3",
 "lang": "zh"
 },
 {
@@ -35581,13 +35941,23 @@
 "lang": "zh"
 },
 {
-"text": "acondicionado",
-"path": "es/02225.mp3",
+"text": "aire acondicionado",
+"path": "es/08028.mp3",
 "lang": "es"
 },
 {
-"text": "空调 aire",
-"path": "zh/04452.mp3",
+"text": "空调",
+"path": "zh/08679.mp3",
+"lang": "zh"
+},
+{
+"text": "horno microondas",
+"path": "es/08029.mp3",
+"lang": "es"
+},
+{
+"text": "微波炉",
+"path": "zh/08680.mp3",
 "lang": "zh"
 },
 {
@@ -35666,18 +36036,18 @@
 "lang": "es"
 },
 {
-"text": "围着炉子摆了一圏椅子。",
+"text": "围着炉子摆了一圈椅子。",
 "path": "zh/04460.mp3",
 "lang": "zh"
 },
 {
-"text": "El aspirador respira el polvo y trozos de golondrina de papel en el suelo.",
-"path": "es/04054.mp3",
+"text": "El aspirador recoge el polvo y los trozos de papel que hay por el suelo.",
+"path": "es/08030.mp3",
 "lang": "es"
 },
 {
 "text": "吸尘器吸灰尘和散乱在地上的一些碎纸片。",
-"path": "zh/04461.mp3",
+"path": "zh/08681.mp3",
 "lang": "zh"
 },
 {
@@ -35711,6 +36081,16 @@
 "lang": "zh"
 },
 {
+"text": "máquina para hacer leche de soja",
+"path": "es/08031.mp3",
+"lang": "es"
+},
+{
+"text": "豆浆机",
+"path": "zh/08682.mp3",
+"lang": "zh"
+},
+{
 "text": "licuadora",
 "path": "es/04057.mp3",
 "lang": "es"
@@ -35731,13 +36111,23 @@
 "lang": "zh"
 },
 {
-"text": "dosificador",
-"path": "es/04059.mp3",
+"text": "purificador de agua",
+"path": "es/08032.mp3",
+"lang": "es"
+},
+{
+"text": "净水器",
+"path": "zh/08683.mp3",
+"lang": "zh"
+},
+{
+"text": "dispensador de agua",
+"path": "es/08033.mp3",
 "lang": "es"
 },
 {
 "text": "饮水机",
-"path": "zh/04466.mp3",
+"path": "zh/08684.mp3",
 "lang": "zh"
 },
 {
@@ -35746,13 +36136,23 @@
 "lang": "zh"
 },
 {
-"text": "remoto",
-"path": "es/04060.mp3",
+"text": "altavoz",
+"path": "es/08034.mp3",
+"lang": "es"
+},
+{
+"text": "扩音器",
+"path": "zh/08685.mp3",
+"lang": "zh"
+},
+{
+"text": "mando a distancia",
+"path": "es/08035.mp3",
 "lang": "es"
 },
 {
 "text": "遥控器",
-"path": "zh/04468.mp3",
+"path": "zh/08686.mp3",
 "lang": "zh"
 },
 {
@@ -35776,6 +36176,11 @@
 "lang": "zh"
 },
 {
+"text": "remoto",
+"path": "es/04060.mp3",
+"lang": "es"
+},
+{
 "text": "远程的",
 "path": "zh/04471.mp3",
 "lang": "zh"
@@ -35786,7 +36191,7 @@
 "lang": "es"
 },
 {
-"text": "他的录音机坏了,他想让人修理一下。",
+"text": "他的录音机坏了，他想让人修理一下。",
 "path": "zh/04472.mp3",
 "lang": "zh"
 },
@@ -35796,7 +36201,7 @@
 "lang": "es"
 },
 {
-"text": "在短暂但是无礼的打断之后，全场观众嘘声四起，kanye west 才把麦克风还给由于震惊而哑口无言的泰勒。",
+"text": "在短暂但是无礼的打断之后，全场观众嘘声四起，Kanye West 才把麦克风还给由于震惊而哑口无言的泰勒。",
 "path": "zh/04473.mp3",
 "lang": "zh"
 },
@@ -35861,6 +36266,16 @@
 "lang": "zh"
 },
 {
+"text": "brote de bambú",
+"path": "es/08036.mp3",
+"lang": "es"
+},
+{
+"text": "竹笋",
+"path": "zh/08687.mp3",
+"lang": "zh"
+},
+{
 "text": "boniato",
 "path": "es/04070.mp3",
 "lang": "es"
@@ -35889,11 +36304,6 @@
 "text": "洋葱",
 "path": "zh/04482.mp3",
 "lang": "zh"
-},
-{
-"text": "cebouino",
-"path": "es/04073.mp3",
-"lang": "es"
 },
 {
 "text": "lechuga",
@@ -35926,13 +36336,13 @@
 "lang": "zh"
 },
 {
-"text": "Comió como si tuviera que ir una tierra árida, que fue Japón, donde tuviera nada comestible.",
-"path": "es/04077.mp3",
+"text": "Comió como si tuviera que ir a una tierra árida, que fue Japón, donde no hubiera nada comestible.",
+"path": "es/08037.mp3",
 "lang": "es"
 },
 {
 "text": "他吃起饭来就仿佛是他所要去的日本国是个不毛之地，是个任何吃的东西都没有的地方。",
-"path": "zh/04486.mp3",
+"path": "zh/08688.mp3",
 "lang": "zh"
 },
 {
@@ -35966,13 +36376,23 @@
 "lang": "zh"
 },
 {
-"text": "berza",
-"path": "es/04081.mp3",
+"text": "repollo",
+"path": "es/02296.mp3",
 "lang": "es"
 },
 {
 "text": "卷心菜",
-"path": "zh/04490.mp3",
+"path": "zh/02459.mp3",
+"lang": "zh"
+},
+{
+"text": "col china",
+"path": "es/08038.mp3",
+"lang": "es"
+},
+{
+"text": "大白菜",
+"path": "zh/08689.mp3",
 "lang": "zh"
 },
 {
@@ -36041,13 +36461,23 @@
 "lang": "zh"
 },
 {
-"text": "alcachofa",
-"path": "es/04088.mp3",
+"text": "pepino amargo",
+"path": "es/08039.mp3",
+"lang": "es"
+},
+{
+"text": "苦瓜",
+"path": "zh/08690.mp3",
+"lang": "zh"
+},
+{
+"text": "calabacín",
+"path": "es/08040.mp3",
 "lang": "es"
 },
 {
 "text": "西葫芦",
-"path": "zh/04498.mp3",
+"path": "zh/08691.mp3",
 "lang": "zh"
 },
 {
@@ -36056,13 +36486,13 @@
 "lang": "zh"
 },
 {
-"text": "benincasa",
-"path": "es/04089.mp3",
+"text": "calabaza china",
+"path": "es/08041.mp3",
 "lang": "es"
 },
 {
 "text": "冬瓜",
-"path": "zh/04500.mp3",
+"path": "zh/08692.mp3",
 "lang": "zh"
 },
 {
@@ -36086,13 +36516,13 @@
 "lang": "zh"
 },
 {
-"text": "Los fideosbiang biang son fideos muy gruesos, hechos a mano. Es típico de Shaanxi, servido con un montón de chili.",
-"path": "es/04091.mp3",
+"text": "Los fideos biang-biang son fideos muy gruesos, hechos a mano. Son típicos de Shaanxi y se sirven con un montón de chili.",
+"path": "es/08042.mp3",
 "lang": "es"
 },
 {
 "text": "梆梆面是陕西的特色菜， 这种面是手工做的， 很厚， 很辣。",
-"path": "zh/04503.mp3",
+"path": "zh/08693.mp3",
 "lang": "zh"
 },
 {
@@ -36181,6 +36611,16 @@
 "lang": "zh"
 },
 {
+"text": "brote de soja",
+"path": "es/08043.mp3",
+"lang": "es"
+},
+{
+"text": "豆芽",
+"path": "zh/08694.mp3",
+"lang": "zh"
+},
+{
 "text": "tofu",
 "path": "es/04100.mp3",
 "lang": "es"
@@ -36226,13 +36666,13 @@
 "lang": "es"
 },
 {
-"text": "También puede hacer mi maquillaje en la calabaza (naranja y negro), undead, zombi, un bate, la momia, etc.",
-"path": "es/04104.mp3",
+"text": "También puede hacer su maquillaje con la calabaza (naranja o negra), un muerto viviente, un zombi, un murciélago, una momia, etc.",
+"path": "es/08044.mp3",
 "lang": "es"
 },
 {
 "text": "你也可以藏在道具后面变怪兽哦!橘色或黑色南瓜、僵尸、不死蝙蝠或木乃伊都是不错的选择。",
-"path": "zh/04518.mp3",
+"path": "zh/08695.mp3",
 "lang": "zh"
 },
 {
@@ -36246,7 +36686,7 @@
 "lang": "zh"
 },
 {
-"text": "Ahora ¡Usted puede disfrutar de su éxito!",
+"text": "Ahora Usted puede disfrutar de su éxito.",
 "path": "es/04106.mp3",
 "lang": "es"
 },
@@ -36391,6 +36831,16 @@
 "lang": "zh"
 },
 {
+"text": "caña de azúcar",
+"path": "es/08045.mp3",
+"lang": "es"
+},
+{
+"text": "甘蔗",
+"path": "zh/08696.mp3",
+"lang": "zh"
+},
+{
 "text": "mango",
 "path": "es/04120.mp3",
 "lang": "es"
@@ -36421,7 +36871,7 @@
 "lang": "zh"
 },
 {
-"text": "Ayer bajo la guía de un cocinero experimentado, se completó su propia escultura de sandía!",
+"text": "¡Ayer bajo la guía de un cocinero experimentado, se completó su propia escultura de sandía!",
 "path": "es/04123.mp3",
 "lang": "es"
 },
@@ -36646,8 +37096,63 @@
 "lang": "zh"
 },
 {
-"text": "肉",
-"path": "zh/04561.mp3",
+"text": "provitamina",
+"path": "es/04152.mp3",
+"lang": "es"
+},
+{
+"text": "维生素原",
+"path": "zh/04571.mp3",
+"lang": "zh"
+},
+{
+"text": "concubina",
+"path": "es/04153.mp3",
+"lang": "es"
+},
+{
+"text": "妾",
+"path": "zh/04572.mp3",
+"lang": "zh"
+},
+{
+"text": "El albaricoque es una de las frutas más ricas en provitamina A: el 50% de la ingesta diaria viene de sólo 100 g.",
+"path": "es/08046.mp3",
+"lang": "es"
+},
+{
+"text": "杏是最富含胡萝卜素a 的水果之一，只要100g 就可以获得每日所需摄取量的50%。",
+"path": "zh/08697.mp3",
+"lang": "zh"
+},
+{
+"text": "La concubina imperial se rió del polvo levantado por un caballo; nadie sabía que el soldado le trajo lichis.",
+"path": "es/04155.mp3",
+"lang": "es"
+},
+{
+"text": "一骑红尘妃子笑，无人知是荔枝来。",
+"path": "zh/04575.mp3",
+"lang": "zh"
+},
+{
+"text": "El espino defiende su corazón y hombro.",
+"path": "es/04156.mp3",
+"lang": "es"
+},
+{
+"text": "山楂树捍卫着自己的心和肩。",
+"path": "zh/04576.mp3",
+"lang": "zh"
+},
+{
+"text": "Yo le dije: «el amor es un jugo delicioso y una pulpa amarga».",
+"path": "es/08047.mp3",
+"lang": "es"
+},
+{
+"text": "我回答他说：“爱情是一种甜如美味的果汁和苦涩的酱。”",
+"path": "zh/08698.mp3",
 "lang": "zh"
 },
 {
@@ -36707,7 +37212,7 @@
 },
 {
 "text": "排骨",
-"path": "zh/04566.mp3",
+"path": "zh/01896.mp3",
 "lang": "zh"
 },
 {
@@ -36721,6 +37226,26 @@
 "lang": "zh"
 },
 {
+"text": "costilla de cerdo",
+"path": "es/08048.mp3",
+"lang": "es"
+},
+{
+"text": "猪排",
+"path": "zh/08699.mp3",
+"lang": "zh"
+},
+{
+"text": "costilla de oveja",
+"path": "es/08049.mp3",
+"lang": "es"
+},
+{
+"text": "羊排",
+"path": "zh/08700.mp3",
+"lang": "zh"
+},
+{
 "text": "jamón",
 "path": "es/04150.mp3",
 "lang": "es"
@@ -36731,83 +37256,13 @@
 "lang": "zh"
 },
 {
-"text": "picador",
-"path": "es/04151.mp3",
+"text": "picadora de carne",
+"path": "es/08050.mp3",
 "lang": "es"
 },
 {
 "text": "绞肉机",
-"path": "zh/04569.mp3",
-"lang": "zh"
-},
-{
-"text": "肥肉",
-"path": "zh/04570.mp3",
-"lang": "zh"
-},
-{
-"text": "provitamina",
-"path": "es/04152.mp3",
-"lang": "es"
-},
-{
-"text": "维生素原",
-"path": "zh/04571.mp3",
-"lang": "zh"
-},
-{
-"text": "concubina",
-"path": "es/04153.mp3",
-"lang": "es"
-},
-{
-"text": "妾",
-"path": "zh/04572.mp3",
-"lang": "zh"
-},
-{
-"text": "生的，未煮熟的",
-"path": "zh/04573.mp3",
-"lang": "zh"
-},
-{
-"text": "El albaricoque es una de las frutas más ricas en provitamina A, 50% de la ingesta diaria viene de sólo 100g.",
-"path": "es/04154.mp3",
-"lang": "es"
-},
-{
-"text": "杏是最富含胡萝卜素a 的水果之一，只要100g 就可以获得每日所需摄取量的50%。",
-"path": "zh/04574.mp3",
-"lang": "zh"
-},
-{
-"text": "La concubina imperial se rió del polvo levantado por un caballo; nadie sabía que el soldado le trajo lichis.",
-"path": "es/04155.mp3",
-"lang": "es"
-},
-{
-"text": "一骑红尘妃子笑，无人知是荔枝来。",
-"path": "zh/04575.mp3",
-"lang": "zh"
-},
-{
-"text": "El espino defiende su corazón y hombro.",
-"path": "es/04156.mp3",
-"lang": "es"
-},
-{
-"text": "山楂树捍卫着自己的心和肩。",
-"path": "zh/04576.mp3",
-"lang": "zh"
-},
-{
-"text": "Yo le dije: “el amor es un jugo delicioso y pulpa amarga.”",
-"path": "es/04157.mp3",
-"lang": "es"
-},
-{
-"text": "我回答他说：“爱情是一种的甜如美味的果汁和苦涩的酱。”",
-"path": "zh/04577.mp3",
+"path": "zh/08701.mp3",
 "lang": "zh"
 },
 {
@@ -36891,6 +37346,26 @@
 "lang": "zh"
 },
 {
+"text": "tiendas de mascotas",
+"path": "es/08051.mp3",
+"lang": "es"
+},
+{
+"text": "宠物商店",
+"path": "zh/08702.mp3",
+"lang": "zh"
+},
+{
+"text": "alimentos de mascotas",
+"path": "es/08052.mp3",
+"lang": "es"
+},
+{
+"text": "宠物食物",
+"path": "zh/08703.mp3",
+"lang": "zh"
+},
+{
 "text": "cachorro",
 "path": "es/04165.mp3",
 "lang": "es"
@@ -36936,6 +37411,16 @@
 "lang": "zh"
 },
 {
+"text": "arañar",
+"path": "es/08053.mp3",
+"lang": "es"
+},
+{
+"text": "用爪子挠",
+"path": "zh/08704.mp3",
+"lang": "zh"
+},
+{
 "text": "ladrar",
 "path": "es/04168.mp3",
 "lang": "es"
@@ -36943,6 +37428,16 @@
 {
 "text": "吠叫",
 "path": "zh/04589.mp3",
+"lang": "zh"
+},
+{
+"text": "collar de perro",
+"path": "es/08054.mp3",
+"lang": "es"
+},
+{
+"text": "狗项圈",
+"path": "zh/08705.mp3",
 "lang": "zh"
 },
 {
@@ -36976,13 +37471,13 @@
 "lang": "zh"
 },
 {
-"text": "colores",
-"path": "es/04172.mp3",
+"text": "pez de colores",
+"path": "es/08055.mp3",
 "lang": "es"
 },
 {
-"text": "金鱼 pez de",
-"path": "zh/04593.mp3",
+"text": "金鱼",
+"path": "zh/08706.mp3",
 "lang": "zh"
 },
 {
@@ -37066,13 +37561,13 @@
 "lang": "zh"
 },
 {
-"text": "Otra característica de las familias francesas es que, la mitad de los hogares tienen una mascota, perro o gato, principalmente.",
-"path": "es/04180.mp3",
+"text": "Otra característica de las familias francesas es que la mitad de los hogares tiene una mascota, un perro o un gato, principalmente.",
+"path": "es/08056.mp3",
 "lang": "es"
 },
 {
 "text": "法国家庭的另一个特点是一半的家庭拥有一个宠物，主要是狗或猫。",
-"path": "zh/04602.mp3",
+"path": "zh/08707.mp3",
 "lang": "zh"
 },
 {
@@ -37083,6 +37578,16 @@
 {
 "text": "书店，书架",
 "path": "zh/04603.mp3",
+"lang": "zh"
+},
+{
+"text": "gusano de libro",
+"path": "es/08057.mp3",
+"lang": "es"
+},
+{
+"text": "书虫",
+"path": "zh/08708.mp3",
 "lang": "zh"
 },
 {
@@ -37121,13 +37626,23 @@
 "lang": "zh"
 },
 {
-"text": "rústico",
-"path": "es/04183.mp3",
+"text": "suplemento",
+"path": "es/08058.mp3",
+"lang": "es"
+},
+{
+"text": "增刊",
+"path": "zh/08709.mp3",
+"lang": "zh"
+},
+{
+"text": "de tapa dura",
+"path": "es/08059.mp3",
 "lang": "es"
 },
 {
 "text": "简装的",
-"path": "zh/04608.mp3",
+"path": "zh/08710.mp3",
 "lang": "zh"
 },
 {
@@ -37163,6 +37678,26 @@
 {
 "text": "发行量",
 "path": "zh/04611.mp3",
+"lang": "zh"
+},
+{
+"text": "primera edición",
+"path": "es/08060.mp3",
+"lang": "es"
+},
+{
+"text": "初版",
+"path": "zh/08711.mp3",
+"lang": "zh"
+},
+{
+"text": "frecuentar",
+"path": "es/08061.mp3",
+"lang": "es"
+},
+{
+"text": "常去，常到(某地）",
+"path": "zh/08712.mp3",
 "lang": "zh"
 },
 {
@@ -37256,6 +37791,16 @@
 "lang": "zh"
 },
 {
+"text": "fábrica de leche",
+"path": "es/08062.mp3",
+"lang": "es"
+},
+{
+"text": "奶品厂",
+"path": "zh/08713.mp3",
+"lang": "zh"
+},
+{
 "text": "lácteo",
 "path": "es/04195.mp3",
 "lang": "es"
@@ -37263,6 +37808,26 @@
 {
 "text": "乳制品",
 "path": "zh/04621.mp3",
+"lang": "zh"
+},
+{
+"text": "leche desnatada",
+"path": "es/08063.mp3",
+"lang": "es"
+},
+{
+"text": "脱脂牛奶",
+"path": "zh/08714.mp3",
+"lang": "zh"
+},
+{
+"text": "leche en polvo",
+"path": "es/08064.mp3",
+"lang": "es"
+},
+{
+"text": "奶粉",
+"path": "zh/08715.mp3",
 "lang": "zh"
 },
 {
@@ -37281,8 +37846,43 @@
 "lang": "zh"
 },
 {
+"text": "caja",
+"path": "es/04598.mp3",
+"lang": "es"
+},
+{
 "text": "纸盒",
-"path": "zh/04624.mp3",
+"path": "zh/05078.mp3",
+"lang": "zh"
+},
+{
+"text": "leche entera",
+"path": "es/08065.mp3",
+"lang": "es"
+},
+{
+"text": "全脂牛奶",
+"path": "zh/08716.mp3",
+"lang": "zh"
+},
+{
+"text": "pudín de leche",
+"path": "es/08066.mp3",
+"lang": "es"
+},
+{
+"text": "牛奶布丁",
+"path": "zh/08717.mp3",
+"lang": "zh"
+},
+{
+"text": "queso de vaca",
+"path": "es/08067.mp3",
+"lang": "es"
+},
+{
+"text": "牛奶干酪",
+"path": "zh/08718.mp3",
 "lang": "zh"
 },
 {
@@ -37316,13 +37916,23 @@
 "lang": "zh"
 },
 {
-"text": "Leche para la glotonería y negro para la degustación, sus sabores de una gran riqueza y diversidad infinita.",
-"path": "es/04200.mp3",
+"text": "Yo como pan tostado con mantequilla y mermelada.",
+"path": "es/08068.mp3",
+"lang": "es"
+},
+{
+"text": "我吃一个加黄油和果酱的烤面包。",
+"path": "zh/08719.mp3",
+"lang": "zh"
+},
+{
+"text": "La leche para la glotonería y la negra para la degustación tienen una gran riqueza de sabores y una diversidad infinita.",
+"path": "es/08069.mp3",
 "lang": "es"
 },
 {
 "text": "牛奶巧克力是甜食，而黑巧克力则是用来品尝的。巧克力含有丰富的风味，而且变化万千。",
-"path": "zh/04628.mp3",
+"path": "zh/08720.mp3",
 "lang": "zh"
 },
 {
@@ -37331,12 +37941,12 @@
 "lang": "es"
 },
 {
-"text": "我早晨喝了一杯牛奶，吃了两片面包。",
+"text": "我早晨喝了一杯牛奶。",
 "path": "zh/04629.mp3",
 "lang": "zh"
 },
 {
-"text": "Me gusta esta leche con-densada.",
+"text": "Me gusta esta leche condensada.",
 "path": "es/04202.mp3",
 "lang": "es"
 },
@@ -37366,6 +37976,16 @@
 "lang": "zh"
 },
 {
+"text": "caja de vajilla",
+"path": "es/08070.mp3",
+"lang": "es"
+},
+{
+"text": "餐具箱",
+"path": "zh/08721.mp3",
+"lang": "zh"
+},
+{
 "text": "手电筒",
 "path": "zh/04633.mp3",
 "lang": "zh"
@@ -37381,18 +38001,28 @@
 "lang": "zh"
 },
 {
-"text": "seca",
-"path": "es/04206.mp3",
+"text": "pila seca",
+"path": "es/08071.mp3",
 "lang": "es"
 },
 {
-"text": "干电池 pila",
-"path": "zh/04635.mp3",
+"text": "干电池",
+"path": "zh/08722.mp3",
 "lang": "zh"
 },
 {
-"text": "烤架",
-"path": "zh/04636.mp3",
+"text": "parrilla",
+"path": "es/04629.mp3",
+"lang": "es"
+},
+{
+"text": "bombilla eléctrica",
+"path": "es/08072.mp3",
+"lang": "es"
+},
+{
+"text": "电灯泡",
+"path": "zh/08723.mp3",
 "lang": "zh"
 },
 {
@@ -37501,7 +38131,7 @@
 "lang": "es"
 },
 {
-"text": "我每天都喝玫瑰花蜜。",
+"text": "我每天都喝玫瑰蜜。",
 "path": "zh/04647.mp3",
 "lang": "zh"
 },
@@ -37516,23 +38146,23 @@
 "lang": "zh"
 },
 {
-"text": "A medida que amplia su familia, este hombre casi analfabeto resulta un destacado hombre de negocios.",
-"path": "es/04219.mp3",
+"text": "A medida que amplía su familia, este hombre casi analfabeto acaba siendo un destacado hombre de negocios.",
+"path": "es/08073.mp3",
 "lang": "es"
 },
 {
 "text": "渐渐地他扩大了他的家族，这个几乎不识字的人彰显为一位无与伦比的商人。",
-"path": "zh/04649.mp3",
+"path": "zh/08724.mp3",
 "lang": "zh"
 },
 {
-"text": "La niña saca un tercer cerillo, y ella parece ponerse al lado de un árbol de navidad hermoso.",
-"path": "es/04220.mp3",
+"text": "La niña saca un tercer cerillo y parece ponerse al lado de un árbol de Navidad hermoso.",
+"path": "es/08074.mp3",
 "lang": "es"
 },
 {
 "text": "小女孩又拿出第三根火柴，这时她仿佛站在一棵美丽的圣诞树旁。",
-"path": "zh/04650.mp3",
+"path": "zh/08725.mp3",
 "lang": "zh"
 },
 {
@@ -37541,8 +38171,28 @@
 "lang": "es"
 },
 {
-"text": "中央高地面积最大,地貌变化最为多样化。",
+"text": "中央高地面积最大，地貌变化最为多样化。",
 "path": "zh/04651.mp3",
+"lang": "zh"
+},
+{
+"text": "contabilidad de forma de pago",
+"path": "es/08075.mp3",
+"lang": "es"
+},
+{
+"text": "付款方式记账",
+"path": "zh/08726.mp3",
+"lang": "zh"
+},
+{
+"text": "forma de pago",
+"path": "es/08076.mp3",
+"lang": "es"
+},
+{
+"text": "付款方式",
+"path": "zh/08727.mp3",
 "lang": "zh"
 },
 {
@@ -37556,18 +38206,28 @@
 "lang": "zh"
 },
 {
-"text": "vender",
-"path": "es/04223.mp3",
+"text": "liquidación de existencia",
+"path": "es/08077.mp3",
 "lang": "es"
 },
 {
-"text": "大甩卖",
-"path": "zh/04653.mp3",
+"text": "清仓甩卖",
+"path": "zh/08728.mp3",
 "lang": "zh"
 },
 {
 "text": "现金",
 "path": "zh/04654.mp3",
+"lang": "zh"
+},
+{
+"text": "tarjeta de miembro",
+"path": "es/08078.mp3",
+"lang": "es"
+},
+{
+"text": "会员卡",
+"path": "zh/08729.mp3",
 "lang": "zh"
 },
 {
@@ -37596,8 +38256,28 @@
 "lang": "zh"
 },
 {
+"text": "bolsa de la compra",
+"path": "es/08079.mp3",
+"lang": "es"
+},
+{
+"text": "购物袋",
+"path": "zh/08730.mp3",
+"lang": "zh"
+},
+{
 "text": "装袋的",
 "path": "zh/04658.mp3",
+"lang": "zh"
+},
+{
+"text": "pagar la cuenta",
+"path": "es/08080.mp3",
+"lang": "es"
+},
+{
+"text": "结账",
+"path": "zh/08731.mp3",
 "lang": "zh"
 },
 {
@@ -37636,17 +38316,17 @@
 "lang": "zh"
 },
 {
-"text": "Los ingresos de la compañía son transparentes, el beneficio no es significativo, y lo importante es el plujo.",
-"path": "es/04229.mp3",
+"text": "Los ingresos de la compañía son transparentes, el beneficio no es significativo y lo importante es el flujo.",
+"path": "es/08180.mp3",
 "lang": "es"
 },
 {
 "text": "公司的收入是透明的，利润不大，追求的是流量。",
-"path": "zh/04662.mp3",
+"path": "zh/08831.mp3",
 "lang": "zh"
 },
 {
-"text": "Hizo un ruido muy espantoso, y cometí cuatro errores en mi adición.",
+"text": "Hizo un ruido muy espantoso y cometí cuatro errores en mi adición.",
 "path": "es/04230.mp3",
 "lang": "es"
 },
@@ -37656,13 +38336,13 @@
 "lang": "zh"
 },
 {
-"text": "La competencia llega a su fin y el ganador recibe un número considerable de sobres rojos. No queda claro cuánto dinero al final, se ve bastante mucho.",
-"path": "es/04231.mp3",
+"text": "La competencia llega a su fin y el ganador recibe un número considerable de sobres rojos. No queda claro cuánto dinero es al final, pero se ve bastante.",
+"path": "es/08183.mp3",
 "lang": "es"
 },
 {
 "text": "比赛接近尾声，获胜者得到一个数目可观的红包。不清楚到底有多少钱，看起来也蛮厚实的。",
-"path": "zh/04664.mp3",
+"path": "zh/08834.mp3",
 "lang": "zh"
 },
 {
@@ -41771,16 +42451,6 @@
 "lang": "zh"
 },
 {
-"text": "caja",
-"path": "es/04598.mp3",
-"lang": "es"
-},
-{
-"text": "包厢",
-"path": "zh/05078.mp3",
-"lang": "zh"
-},
-{
 "text": "salida",
 "path": "es/01401.mp3",
 "lang": "es"
@@ -42164,11 +42834,6 @@
 "text": "有空的",
 "path": "zh/05121.mp3",
 "lang": "zh"
-},
-{
-"text": "parrilla",
-"path": "es/04629.mp3",
-"lang": "es"
 },
 {
 "text": "hoguera",
@@ -45083,26 +45748,6 @@
 {
 "text": "浴巾",
 "path": "zh/07258.mp3",
-"lang": "zh"
-},
-{
-"text": "pasta de dientes",
-"path": "es/06486.mp3",
-"lang": "es"
-},
-{
-"text": "牙膏",
-"path": "zh/07259.mp3",
-"lang": "zh"
-},
-{
-"text": "cepillo de dientes",
-"path": "es/06487.mp3",
-"lang": "es"
-},
-{
-"text": "牙刷",
-"path": "zh/07260.mp3",
 "lang": "zh"
 },
 {
@@ -48204,6 +48849,11 @@
 "text": "他们讲的话令人费解。",
 "path": "zh/05326.mp3",
 "lang": "zh"
+},
+{
+"text": "bola",
+"path": "es/04001.mp3",
+"lang": "es"
 },
 {
 "text": "球类运动",
@@ -51498,16 +52148,6 @@
 {
 "text": "海角",
 "path": "zh/05685.mp3",
-"lang": "zh"
-},
-{
-"text": "cáscara",
-"path": "es/05097.mp3",
-"lang": "es"
-},
-{
-"text": "贝壳",
-"path": "zh/05686.mp3",
 "lang": "zh"
 },
 {
@@ -69246,11 +69886,6 @@
 "lang": "zh"
 },
 {
-"text": "肋骨",
-"path": "zh/01896.mp3",
-"lang": "zh"
-},
-{
 "text": "cartílago",
 "path": "es/01790.mp3",
 "lang": "es"
@@ -74241,6 +74876,11 @@
 "lang": "zh"
 },
 {
+"text": "acondicionado",
+"path": "es/02225.mp3",
+"lang": "es"
+},
+{
 "text": "护发素",
 "path": "zh/02381.mp3",
 "lang": "zh"
@@ -74976,16 +75616,6 @@
 "lang": "zh"
 },
 {
-"text": "mercancía general",
-"path": "es/06842.mp3",
-"lang": "es"
-},
-{
-"text": "日用品",
-"path": "zh/07615.mp3",
-"lang": "zh"
-},
-{
 "text": "el negocio es duro",
 "path": "es/06844.mp3",
 "lang": "es"
@@ -75018,16 +75648,6 @@
 {
 "text": "增长，上涨",
 "path": "zh/02458.mp3",
-"lang": "zh"
-},
-{
-"text": "repollo",
-"path": "es/02296.mp3",
-"lang": "es"
-},
-{
-"text": "圆白菜",
-"path": "zh/02459.mp3",
 "lang": "zh"
 },
 {
