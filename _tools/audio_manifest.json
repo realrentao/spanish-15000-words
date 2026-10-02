@@ -50406,13 +50406,13 @@
 "lang": "zh"
 },
 {
-"text": "bola",
-"path": "es/04001.mp3",
+"text": "deporte de bola",
+"path": "es/08686.mp3",
 "lang": "es"
 },
 {
 "text": "球类运动",
-"path": "zh/05327.mp3",
+"path": "zh/09337.mp3",
 "lang": "zh"
 },
 {
@@ -50446,6 +50446,16 @@
 "lang": "zh"
 },
 {
+"text": "fútbol americano",
+"path": "es/08687.mp3",
+"lang": "es"
+},
+{
+"text": "橄榄球",
+"path": "zh/09338.mp3",
+"lang": "zh"
+},
+{
 "text": "baloncesto",
 "path": "es/04813.mp3",
 "lang": "es"
@@ -50476,6 +50486,16 @@
 "lang": "zh"
 },
 {
+"text": "hockey sobre hielo",
+"path": "es/08688.mp3",
+"lang": "es"
+},
+{
+"text": "冰球",
+"path": "zh/09339.mp3",
+"lang": "zh"
+},
+{
 "text": "béisbol",
 "path": "es/04816.mp3",
 "lang": "es"
@@ -50496,18 +50516,48 @@
 "lang": "zh"
 },
 {
+"text": "es considerado",
+"path": "es/08689.mp3",
+"lang": "es"
+},
+{
+"text": "被认为",
+"path": "zh/09340.mp3",
+"lang": "zh"
+},
+{
+"text": "en contra de",
+"path": "es/08690.mp3",
+"lang": "es"
+},
+{
+"text": "作对",
+"path": "zh/09341.mp3",
+"lang": "zh"
+},
+{
+"text": "aficionado",
+"path": "es/08691.mp3",
+"lang": "es"
+},
+{
+"text": "爱好……的；爱好者",
+"path": "zh/09342.mp3",
+"lang": "zh"
+},
+{
 "text": "教练员",
 "path": "zh/05336.mp3",
 "lang": "zh"
 },
 {
-"text": "Aunque Yao Ming es con-siderado el mejor en balon-cesto, tenis de mesa le falla, aún en contra de un niño.",
-"path": "es/04818.mp3",
+"text": "Aunque Yao Ming es considerado el mejor en baloncesto, en el tenis de mesa le falla, incluso contra un niño.",
+"path": "es/08692.mp3",
 "lang": "es"
 },
 {
 "text": "别看姚明平日里篮球打得好，乒乓球对他来说可没有篮球这么容易，即便对手仅仅是一个小孩。",
-"path": "zh/05337.mp3",
+"path": "zh/09343.mp3",
 "lang": "zh"
 },
 {
@@ -50541,13 +50591,13 @@
 "lang": "zh"
 },
 {
-"text": "pong",
-"path": "es/04822.mp3",
+"text": "ping pong",
+"path": "es/08693.mp3",
 "lang": "es"
 },
 {
-"text": "乒乓球 ping",
-"path": "zh/05341.mp3",
+"text": "乒乓球",
+"path": "zh/09344.mp3",
 "lang": "zh"
 },
 {
@@ -50606,6 +50656,56 @@
 "lang": "zh"
 },
 {
+"text": "mesa de billar",
+"path": "es/08694.mp3",
+"lang": "es"
+},
+{
+"text": "台球桌",
+"path": "zh/09345.mp3",
+"lang": "zh"
+},
+{
+"text": "pelota de playa",
+"path": "es/08695.mp3",
+"lang": "es"
+},
+{
+"text": "沙滩球",
+"path": "zh/09346.mp3",
+"lang": "zh"
+},
+{
+"text": "algún juego",
+"path": "es/08696.mp3",
+"lang": "es"
+},
+{
+"text": "某种游戏",
+"path": "zh/09347.mp3",
+"lang": "zh"
+},
+{
+"text": "noticias deportivas",
+"path": "es/08697.mp3",
+"lang": "es"
+},
+{
+"text": "体育新闻",
+"path": "zh/09348.mp3",
+"lang": "zh"
+},
+{
+"text": "artículos deportivos",
+"path": "es/08698.mp3",
+"lang": "es"
+},
+{
+"text": "体育用品",
+"path": "zh/09349.mp3",
+"lang": "zh"
+},
+{
 "text": "miembro",
 "path": "es/01788.mp3",
 "lang": "es"
@@ -50656,7 +50756,7 @@
 "lang": "zh"
 },
 {
-"text": "Me gusta mucho el pingpong.",
+"text": "Me gusta mucho el ping-pong.",
 "path": "es/04830.mp3",
 "lang": "es"
 },
@@ -50666,7 +50766,7 @@
 "lang": "zh"
 },
 {
-"text": "Es un jugador muy famoso de pingpong.",
+"text": "Es un jugador muy famoso de ping-pong.",
 "path": "es/04831.mp3",
 "lang": "es"
 },
@@ -50696,13 +50796,33 @@
 "lang": "zh"
 },
 {
-"text": "carrito",
-"path": "es/01435.mp3",
+"text": "cancha de baloncestocon cubierta",
+"path": "es/08699.mp3",
+"lang": "es"
+},
+{
+"text": "室内篮球场",
+"path": "zh/09350.mp3",
+"lang": "zh"
+},
+{
+"text": "cancha de baloncesto al aire libre",
+"path": "es/08700.mp3",
+"lang": "es"
+},
+{
+"text": "室外篮球场",
+"path": "zh/09351.mp3",
+"lang": "zh"
+},
+{
+"text": "canasta",
+"path": "es/08701.mp3",
 "lang": "es"
 },
 {
 "text": "篮筐",
-"path": "zh/05357.mp3",
+"path": "zh/09352.mp3",
 "lang": "zh"
 },
 {
@@ -50711,38 +50831,58 @@
 "lang": "es"
 },
 {
+"text": "línea del espacio",
+"path": "es/08702.mp3",
+"lang": "es"
+},
+{
+"text": "场地线",
+"path": "zh/09353.mp3",
+"lang": "zh"
+},
+{
+"text": "línea de tres puntos",
+"path": "es/08703.mp3",
+"lang": "es"
+},
+{
+"text": "三分线",
+"path": "zh/09354.mp3",
+"lang": "zh"
+},
+{
 "text": "扔",
 "path": "zh/05358.mp3",
 "lang": "zh"
 },
 {
-"text": "pie",
-"path": "es/01763.mp3",
+"text": "grada",
+"path": "es/08704.mp3",
 "lang": "es"
 },
 {
 "text": "看台",
-"path": "zh/05359.mp3",
+"path": "zh/09355.mp3",
 "lang": "zh"
 },
 {
-"text": "centro",
-"path": "es/03368.mp3",
+"text": "central",
+"path": "es/01405.mp3",
 "lang": "es"
 },
 {
 "text": "中间的",
-"path": "zh/05360.mp3",
+"path": "zh/01473.mp3",
 "lang": "zh"
 },
 {
-"text": "antes",
-"path": "es/01340.mp3",
+"text": "delante",
+"path": "es/08705.mp3",
 "lang": "es"
 },
 {
 "text": "前面",
-"path": "zh/05361.mp3",
+"path": "zh/09356.mp3",
 "lang": "zh"
 },
 {
@@ -50791,13 +50931,13 @@
 "lang": "zh"
 },
 {
-"text": "Me encanta el baloncestoñCuando estoy en el campo, no me preocupo por la guerra. No oigo los disparos, sólo los vítores de la multitud.",
-"path": "es/04840.mp3",
+"text": "Me encanta el baloncesto. Cuando estoy en el campo, no me preocupo por la guerra. No oigo los disparos, sólo los vítores de la multitud.",
+"path": "es/08706.mp3",
 "lang": "es"
 },
 {
 "text": "我爱篮球，打球的时候就算周围打仗也无所谓，我根本听不到炮火，只能听到观众的欢呼声。",
-"path": "zh/05368.mp3",
+"path": "zh/09357.mp3",
 "lang": "zh"
 },
 {
@@ -50811,7 +50951,7 @@
 "lang": "zh"
 },
 {
-"text": "En el centro de la Península, posibilidad de chubascos.",
+"text": "En el centro de la península, posibilidad de chubascos.",
 "path": "es/04842.mp3",
 "lang": "es"
 },
@@ -50831,13 +50971,33 @@
 "lang": "zh"
 },
 {
-"text": "calificación",
-"path": "es/04844.mp3",
+"text": "partido preliminar",
+"path": "es/08707.mp3",
 "lang": "es"
 },
 {
-"text": "预选赛",
-"path": "zh/05372.mp3",
+"text": "预赛",
+"path": "zh/09358.mp3",
+"lang": "zh"
+},
+{
+"text": "partido final",
+"path": "es/08708.mp3",
+"lang": "es"
+},
+{
+"text": "决赛",
+"path": "zh/09359.mp3",
+"lang": "zh"
+},
+{
+"text": "semifinal",
+"path": "es/08709.mp3",
+"lang": "es"
+},
+{
+"text": "半决赛",
+"path": "zh/09360.mp3",
 "lang": "zh"
 },
 {
@@ -50871,8 +51031,23 @@
 "lang": "zh"
 },
 {
+"text": "tercer puesto",
+"path": "es/08710.mp3",
+"lang": "es"
+},
+{
 "text": "第三名",
-"path": "zh/05377.mp3",
+"path": "zh/09361.mp3",
+"lang": "zh"
+},
+{
+"text": "medalla de oro",
+"path": "es/08711.mp3",
+"lang": "es"
+},
+{
+"text": "金牌",
+"path": "zh/09362.mp3",
 "lang": "zh"
 },
 {
@@ -50951,13 +51126,13 @@
 "lang": "zh"
 },
 {
-"text": "vanguardia",
-"path": "es/04853.mp3",
+"text": "delantero",
+"path": "es/04870.mp3",
 "lang": "es"
 },
 {
 "text": "前锋",
-"path": "zh/05385.mp3",
+"path": "zh/05407.mp3",
 "lang": "zh"
 },
 {
@@ -50971,9 +51146,14 @@
 "lang": "zh"
 },
 {
-"text": "guardia",
-"path": "es/04855.mp3",
+"text": "delantero centro",
+"path": "es/08712.mp3",
 "lang": "es"
+},
+{
+"text": "中锋",
+"path": "zh/09363.mp3",
+"lang": "zh"
 },
 {
 "text": "后卫",
@@ -50981,13 +51161,38 @@
 "lang": "zh"
 },
 {
-"text": "sustitución",
-"path": "es/04856.mp3",
+"text": "líder del equipo",
+"path": "es/08713.mp3",
+"lang": "es"
+},
+{
+"text": "队长",
+"path": "zh/09364.mp3",
+"lang": "zh"
+},
+{
+"text": "equipo invitado",
+"path": "es/08714.mp3",
+"lang": "es"
+},
+{
+"text": "客队",
+"path": "zh/09365.mp3",
+"lang": "zh"
+},
+{
+"text": "suplente",
+"path": "es/08715.mp3",
 "lang": "es"
 },
 {
 "text": "替补队员",
-"path": "zh/05388.mp3",
+"path": "zh/09366.mp3",
+"lang": "zh"
+},
+{
+"text": "边锋队员",
+"path": "zh/01777.mp3",
 "lang": "zh"
 },
 {
@@ -50996,23 +51201,18 @@
 "lang": "zh"
 },
 {
-"text": "领队",
-"path": "zh/05390.mp3",
-"lang": "zh"
-},
-{
 "text": "参与，参加",
 "path": "zh/05391.mp3",
 "lang": "zh"
 },
 {
-"text": "La gente fija en el coche para ver a su estrella favorita.",
-"path": "es/04857.mp3",
+"text": "La gente se fija en el coche para ver a su estrella favorita.",
+"path": "es/08716.mp3",
 "lang": "es"
 },
 {
 "text": "人们注视着车子想目睹他们喜爱的明星。",
-"path": "zh/05392.mp3",
+"path": "zh/09367.mp3",
 "lang": "zh"
 },
 {
@@ -51056,6 +51256,36 @@
 "lang": "zh"
 },
 {
+"text": "campo de fútbol",
+"path": "es/08717.mp3",
+"lang": "es"
+},
+{
+"text": "足球场",
+"path": "zh/09368.mp3",
+"lang": "zh"
+},
+{
+"text": "zapatos de fútbol",
+"path": "es/08718.mp3",
+"lang": "es"
+},
+{
+"text": "足球鞋",
+"path": "zh/09369.mp3",
+"lang": "zh"
+},
+{
+"text": "patada inicial",
+"path": "es/08719.mp3",
+"lang": "es"
+},
+{
+"text": "开球",
+"path": "zh/09370.mp3",
+"lang": "zh"
+},
+{
 "text": "portería",
 "path": "es/04862.mp3",
 "lang": "es"
@@ -51066,18 +51296,78 @@
 "lang": "zh"
 },
 {
+"text": "saque de puerta",
+"path": "es/08720.mp3",
+"lang": "es"
+},
+{
+"text": "球门球",
+"path": "zh/09371.mp3",
+"lang": "zh"
+},
+{
+"text": "línea de la puerta",
+"path": "es/08721.mp3",
+"lang": "es"
+},
+{
+"text": "球门线",
+"path": "zh/09372.mp3",
+"lang": "zh"
+},
+{
+"text": "cero cero",
+"path": "es/08722.mp3",
+"lang": "es"
+},
+{
+"text": "零比零的",
+"path": "zh/09373.mp3",
+"lang": "zh"
+},
+{
 "text": "比",
 "path": "zh/05398.mp3",
 "lang": "zh"
 },
 {
-"text": "fingida",
-"path": "es/04863.mp3",
+"text": "finta",
+"path": "es/08723.mp3",
 "lang": "es"
 },
 {
 "text": "假动作",
-"path": "zh/05399.mp3",
+"path": "zh/09374.mp3",
+"lang": "zh"
+},
+{
+"text": "tarjeta roja",
+"path": "es/08724.mp3",
+"lang": "es"
+},
+{
+"text": "红牌",
+"path": "zh/09375.mp3",
+"lang": "zh"
+},
+{
+"text": "tarjeta amarilla",
+"path": "es/08725.mp3",
+"lang": "es"
+},
+{
+"text": "黄牌",
+"path": "zh/09376.mp3",
+"lang": "zh"
+},
+{
+"text": "derrota aplastante",
+"path": "es/08726.mp3",
+"lang": "es"
+},
+{
+"text": "惨败",
+"path": "zh/09377.mp3",
 "lang": "zh"
 },
 {
@@ -51106,7 +51396,7 @@
 "lang": "zh"
 },
 {
-"text": "“Y ¿Cuál es el título de este maravilloso libro?” le pregunté con un afán fingido. “",
+"text": "¿Y cuál es el título de este maravilloso libro? —le pregunté con un afán fingido—",
 "path": "es/04866.mp3",
 "lang": "es"
 },
@@ -51126,13 +51416,13 @@
 "lang": "zh"
 },
 {
-"text": "El juez expulsa al hombre del partido.",
-"path": "es/04868.mp3",
+"text": "El juez expulsa al hombre del campo de juego.",
+"path": "es/08727.mp3",
 "lang": "es"
 },
 {
 "text": "裁判员把他踢出了比赛。",
-"path": "zh/05405.mp3",
+"path": "zh/09378.mp3",
 "lang": "zh"
 },
 {
@@ -51146,23 +51436,23 @@
 "lang": "zh"
 },
 {
-"text": "delantero",
-"path": "es/04870.mp3",
+"text": "jugadores de fútbol",
+"path": "es/08728.mp3",
 "lang": "es"
 },
 {
-"text": "足球的前锋",
-"path": "zh/05407.mp3",
+"text": "足球运动员",
+"path": "zh/09379.mp3",
 "lang": "zh"
 },
 {
-"text": "中锋 delantero",
-"path": "zh/05408.mp3",
-"lang": "zh"
+"text": "centrocampista",
+"path": "es/08729.mp3",
+"lang": "es"
 },
 {
 "text": "前卫",
-"path": "zh/05409.mp3",
+"path": "zh/09380.mp3",
 "lang": "zh"
 },
 {
@@ -51173,6 +51463,56 @@
 {
 "text": "得分手",
 "path": "zh/05410.mp3",
+"lang": "zh"
+},
+{
+"text": "extremo izquierdo",
+"path": "es/08730.mp3",
+"lang": "es"
+},
+{
+"text": "左内锋",
+"path": "zh/09381.mp3",
+"lang": "zh"
+},
+{
+"text": "extremo derecho",
+"path": "es/08731.mp3",
+"lang": "es"
+},
+{
+"text": "右内锋",
+"path": "zh/09382.mp3",
+"lang": "zh"
+},
+{
+"text": "lateral izquierdo",
+"path": "es/08732.mp3",
+"lang": "es"
+},
+{
+"text": "左边锋",
+"path": "zh/09383.mp3",
+"lang": "zh"
+},
+{
+"text": "lateral derecho",
+"path": "es/08733.mp3",
+"lang": "es"
+},
+{
+"text": "右边锋",
+"path": "zh/09384.mp3",
+"lang": "zh"
+},
+{
+"text": "portero",
+"path": "es/08734.mp3",
+"lang": "es"
+},
+{
+"text": "守门员",
+"path": "zh/09385.mp3",
 "lang": "zh"
 },
 {
@@ -51206,13 +51546,23 @@
 "lang": "zh"
 },
 {
-"text": "El brasileño, que ya marca dos goles, tiene la esperanza de celebrar su reencuentro con su antiguo club de una manera más hermosa.",
-"path": "es/04875.mp3",
+"text": "El delantero brasileño, que ya marcó dos goles, tiene la esperanza de celebrar su reencuentro con su antiguo club de una manera más hermosa.",
+"path": "es/08735.mp3",
 "lang": "es"
 },
 {
 "text": "巴西前锋已经为球队打进过两球，希望他在重新面对老东家的时候能够有庆祝的机会。",
-"path": "zh/05414.mp3",
+"path": "zh/09386.mp3",
+"lang": "zh"
+},
+{
+"text": "campo de béisbol",
+"path": "es/08736.mp3",
+"lang": "es"
+},
+{
+"text": "棒球场",
+"path": "zh/09387.mp3",
 "lang": "zh"
 },
 {
@@ -51226,13 +51576,13 @@
 "lang": "zh"
 },
 {
-"text": "colector",
-"path": "es/04877.mp3",
+"text": "receptor",
+"path": "es/04885.mp3",
 "lang": "es"
 },
 {
 "text": "接球手",
-"path": "zh/05416.mp3",
+"path": "zh/05429.mp3",
 "lang": "zh"
 },
 {
@@ -51246,13 +51596,33 @@
 "lang": "zh"
 },
 {
-"text": "bombín",
-"path": "es/04879.mp3",
+"text": "lanzador",
+"path": "es/08737.mp3",
 "lang": "es"
 },
 {
 "text": "投球手",
-"path": "zh/05418.mp3",
+"path": "zh/09388.mp3",
+"lang": "zh"
+},
+{
+"text": "equipo de campo",
+"path": "es/08738.mp3",
+"lang": "es"
+},
+{
+"text": "守队",
+"path": "zh/09389.mp3",
+"lang": "zh"
+},
+{
+"text": "cuadro interior",
+"path": "es/08739.mp3",
+"lang": "es"
+},
+{
+"text": "内场",
+"path": "zh/09390.mp3",
 "lang": "zh"
 },
 {
@@ -51261,8 +51631,33 @@
 "lang": "zh"
 },
 {
-"text": "垒",
-"path": "zh/05420.mp3",
+"text": "primera base",
+"path": "es/08740.mp3",
+"lang": "es"
+},
+{
+"text": "一垒",
+"path": "zh/09391.mp3",
+"lang": "zh"
+},
+{
+"text": "segunda base",
+"path": "es/08741.mp3",
+"lang": "es"
+},
+{
+"text": "二垒",
+"path": "zh/09392.mp3",
+"lang": "zh"
+},
+{
+"text": "tercera base",
+"path": "es/08742.mp3",
+"lang": "es"
+},
+{
+"text": "三垒",
+"path": "zh/09393.mp3",
 "lang": "zh"
 },
 {
@@ -51271,13 +51666,13 @@
 "lang": "zh"
 },
 {
-"text": "completa",
-"path": "es/04880.mp3",
+"text": "home run",
+"path": "es/08743.mp3",
 "lang": "es"
 },
 {
-"text": "本垒打 barrera",
-"path": "zh/05422.mp3",
+"text": "本垒打",
+"path": "zh/09394.mp3",
 "lang": "zh"
 },
 {
@@ -51306,6 +51701,36 @@
 "lang": "zh"
 },
 {
+"text": "Se reunieron en el juego de pelota.",
+"path": "es/08744.mp3",
+"lang": "es"
+},
+{
+"text": "他们在球场会合了。",
+"path": "zh/09395.mp3",
+"lang": "zh"
+},
+{
+"text": "El béisbol es el deporte nacional de Cuba.",
+"path": "es/08745.mp3",
+"lang": "es"
+},
+{
+"text": "棒球是古巴的一项全国运动。",
+"path": "zh/09396.mp3",
+"lang": "zh"
+},
+{
+"text": "Las entradas gratis para los partidos de béisbol han empezado a escasear.",
+"path": "es/08746.mp3",
+"lang": "es"
+},
+{
+"text": "棒球比赛的免费门票开始变少了。",
+"path": "zh/09397.mp3",
+"lang": "zh"
+},
+{
 "text": "servir",
 "path": "es/04883.mp3",
 "lang": "es"
@@ -51316,28 +51741,58 @@
 "lang": "zh"
 },
 {
-"text": "estadio",
-"path": "es/04884.mp3",
+"text": "atrapar la pelota",
+"path": "es/08747.mp3",
+"lang": "es"
+},
+{
+"text": "接球",
+"path": "zh/09398.mp3",
+"lang": "zh"
+},
+{
+"text": "servir pisando la línea",
+"path": "es/08748.mp3",
+"lang": "es"
+},
+{
+"text": "发球踏线",
+"path": "zh/09399.mp3",
+"lang": "zh"
+},
+{
+"text": "pista de tenis",
+"path": "es/08749.mp3",
+"lang": "es"
+},
+{
+"text": "网球场",
+"path": "zh/09400.mp3",
+"lang": "zh"
+},
+{
+"text": "reglas del tenis",
+"path": "es/08750.mp3",
+"lang": "es"
+},
+{
+"text": "网球规则",
+"path": "zh/09401.mp3",
+"lang": "zh"
+},
+{
+"text": "cancha",
+"path": "es/08751.mp3",
 "lang": "es"
 },
 {
 "text": "球场",
-"path": "zh/05427.mp3",
+"path": "zh/09402.mp3",
 "lang": "zh"
 },
 {
 "text": "击球手",
 "path": "zh/05428.mp3",
-"lang": "zh"
-},
-{
-"text": "receptor",
-"path": "es/04885.mp3",
-"lang": "es"
-},
-{
-"text": "捕手",
-"path": "zh/05429.mp3",
 "lang": "zh"
 },
 {
@@ -51401,13 +51856,13 @@
 "lang": "zh"
 },
 {
-"text": "La vida real está, lejos de las llamadas telefónicas de mis gerentes y trabajo duro!",
-"path": "es/04891.mp3",
+"text": "¡La vida real está lejos de las llamadas telefónicas de mis gerentes y del trabajo duro!",
+"path": "es/08752.mp3",
 "lang": "es"
 },
 {
 "text": "生活是个什么玩意儿？ 没有经纪人电话也没有繁重任务的生活才是真正的生活！",
-"path": "zh/05437.mp3",
+"path": "zh/09403.mp3",
 "lang": "zh"
 },
 {
@@ -51426,6 +51881,16 @@
 "lang": "zh"
 },
 {
+"text": "carrera de velocidad",
+"path": "es/08753.mp3",
+"lang": "es"
+},
+{
+"text": "短跑",
+"path": "zh/09404.mp3",
+"lang": "zh"
+},
+{
 "text": "velocista",
 "path": "es/04893.mp3",
 "lang": "es"
@@ -51436,6 +51901,16 @@
 "lang": "zh"
 },
 {
+"text": "carrera de vallas",
+"path": "es/08754.mp3",
+"lang": "es"
+},
+{
+"text": "跨栏比赛",
+"path": "zh/09405.mp3",
+"lang": "zh"
+},
+{
 "text": "vallista",
 "path": "es/04894.mp3",
 "lang": "es"
@@ -51443,6 +51918,16 @@
 {
 "text": "跨栏运动员",
 "path": "zh/05441.mp3",
+"lang": "zh"
+},
+{
+"text": "prueba de velocidad",
+"path": "es/08755.mp3",
+"lang": "es"
+},
+{
+"text": "速度竞赛",
+"path": "zh/09406.mp3",
 "lang": "zh"
 },
 {
@@ -51458,6 +51943,36 @@
 {
 "text": "马拉松",
 "path": "zh/05443.mp3",
+"lang": "zh"
+},
+{
+"text": "salto de longitud",
+"path": "es/08756.mp3",
+"lang": "es"
+},
+{
+"text": "跳远",
+"path": "zh/09407.mp3",
+"lang": "zh"
+},
+{
+"text": "lanzamiento de jabalina",
+"path": "es/08757.mp3",
+"lang": "es"
+},
+{
+"text": "标枪比赛",
+"path": "zh/09408.mp3",
+"lang": "zh"
+},
+{
+"text": "pelota de plomo",
+"path": "es/08758.mp3",
+"lang": "es"
+},
+{
+"text": "铅球",
+"path": "zh/09409.mp3",
 "lang": "zh"
 },
 {
@@ -51486,18 +52001,18 @@
 "lang": "es"
 },
 {
-"text": "他参加了田径比赛。",
+"text": "他参加田径比赛。",
 "path": "zh/05446.mp3",
 "lang": "zh"
 },
 {
-"text": "El año pasado ganó la competición juventil de atletismo.",
-"path": "es/04899.mp3",
+"text": "El año pasado ganó la competición juvenil de atletismo.",
+"path": "es/08759.mp3",
 "lang": "es"
 },
 {
 "text": "去年他获得青少年田径赛冠军。",
-"path": "zh/05447.mp3",
+"path": "zh/09410.mp3",
 "lang": "zh"
 },
 {
@@ -51521,13 +52036,13 @@
 "lang": "zh"
 },
 {
-"text": "Si ejecuta un maratón y que está a punto de cruzar la línea de meta, no dejarás de decir, “oh, una vez que pase, se acaba.”",
-"path": "es/04902.mp3",
+"text": "Si ejecutas un maratón y estás a punto de cruzar la línea de meta, no dejarás de decir: «Ah, una vez que pase, se acaba».",
+"path": "es/08760.mp3",
 "lang": "es"
 },
 {
 "text": "如果你在跑马拉松，当你要穿过终点线时，你会不停地对自己说：“一旦我跨过终点线，就可以结束了”。",
-"path": "zh/05450.mp3",
+"path": "zh/09411.mp3",
 "lang": "zh"
 },
 {
@@ -51541,6 +52056,16 @@
 "lang": "zh"
 },
 {
+"text": "partido de boxeo",
+"path": "es/08761.mp3",
+"lang": "es"
+},
+{
+"text": "拳击比赛",
+"path": "zh/09412.mp3",
+"lang": "zh"
+},
+{
 "text": "boxeador",
 "path": "es/04904.mp3",
 "lang": "es"
@@ -51551,33 +52076,63 @@
 "lang": "zh"
 },
 {
-"text": "combate",
-"path": "es/04905.mp3",
+"text": "guantes de boxeo",
+"path": "es/08762.mp3",
+"lang": "es"
+},
+{
+"text": "拳击手套",
+"path": "zh/09413.mp3",
+"lang": "zh"
+},
+{
+"text": "bolsa de arena",
+"path": "es/08763.mp3",
+"lang": "es"
+},
+{
+"text": "沙袋",
+"path": "zh/09414.mp3",
+"lang": "zh"
+},
+{
+"text": "sparring",
+"path": "es/08764.mp3",
 "lang": "es"
 },
 {
 "text": "拳击手训练时的对手",
-"path": "zh/05453.mp3",
+"path": "zh/09415.mp3",
 "lang": "zh"
 },
 {
-"text": "围绳",
-"path": "zh/05454.mp3",
-"lang": "zh"
-},
-{
-"text": "pugil",
-"path": "es/04906.mp3",
+"text": "uppercuts",
+"path": "es/08765.mp3",
 "lang": "es"
 },
 {
-"text": "拳击家",
-"path": "zh/05455.mp3",
+"text": "上勾拳",
+"path": "zh/09416.mp3",
 "lang": "zh"
 },
 {
-"text": "打",
-"path": "zh/05456.mp3",
+"text": "cuenda",
+"path": "es/08766.mp3",
+"lang": "es"
+},
+{
+"text": "围绳",
+"path": "zh/09417.mp3",
+"lang": "zh"
+},
+{
+"text": "anillo de boxeo",
+"path": "es/08767.mp3",
+"lang": "es"
+},
+{
+"text": "拳击场",
+"path": "zh/09418.mp3",
 "lang": "zh"
 },
 {
@@ -51631,19 +52186,24 @@
 "lang": "zh"
 },
 {
-"text": "Además, el boxeo puede ser una suave conformación de figura, especialmete para músculos del brazo.",
-"path": "es/04910.mp3",
+"text": "Además, el boxeo puede ser una suave conformación de la figura, especialmente para los músculos del brazo.",
+"path": "es/08768.mp3",
 "lang": "es"
 },
 {
 "text": "而且，拳击可以温和塑形，对手臂的锻炼效果更好。",
-"path": "zh/05462.mp3",
+"path": "zh/09419.mp3",
 "lang": "zh"
 },
 {
-"text": "Sentí que el centro de gravedad se movía y me mareaba como si estara borracho.",
-"path": "es/04911.mp3",
+"text": "Sentí que el centro de gravedad se movía y me mareaba como si estuviera borracho.",
+"path": "es/08769.mp3",
 "lang": "es"
+},
+{
+"text": "我觉得自己的重心在移动，而且像喝醉了酒似的头晕目眩。",
+"path": "zh/09420.mp3",
+"lang": "zh"
 },
 {
 "text": "Existe un desnivel de fuerzas entre dos boxeadores.",
@@ -58346,6 +58906,11 @@
 "lang": "zh"
 },
 {
+"text": "colector",
+"path": "es/04877.mp3",
+"lang": "es"
+},
+{
 "text": "税务员",
 "path": "zh/06164.mp3",
 "lang": "zh"
@@ -60836,6 +61401,11 @@
 "lang": "zh"
 },
 {
+"text": "antes",
+"path": "es/01340.mp3",
+"lang": "es"
+},
+{
 "text": "前",
 "path": "zh/01400.mp3",
 "lang": "zh"
@@ -61561,16 +62131,6 @@
 "lang": "zh"
 },
 {
-"text": "central",
-"path": "es/01405.mp3",
-"lang": "es"
-},
-{
-"text": "中央的",
-"path": "zh/01473.mp3",
-"lang": "zh"
-},
-{
 "text": "tranquilizante",
 "path": "es/01406.mp3",
 "lang": "es"
@@ -61899,6 +62459,11 @@
 "text": "行李车",
 "path": "zh/07334.mp3",
 "lang": "zh"
+},
+{
+"text": "carrito",
+"path": "es/01435.mp3",
+"lang": "es"
 },
 {
 "text": "手推车",
@@ -65011,11 +65576,6 @@
 "lang": "zh"
 },
 {
-"text": "机翼",
-"path": "zh/01777.mp3",
-"lang": "zh"
-},
-{
 "text": "alerón",
 "path": "es/01684.mp3",
 "lang": "es"
@@ -67184,6 +67744,11 @@
 "text": "球体",
 "path": "zh/06511.mp3",
 "lang": "zh"
+},
+{
+"text": "bola",
+"path": "es/04001.mp3",
+"lang": "es"
 },
 {
 "text": "球",
@@ -71209,6 +71774,11 @@
 "text": "无名指",
 "path": "zh/07474.mp3",
 "lang": "zh"
+},
+{
+"text": "pie",
+"path": "es/01763.mp3",
+"lang": "es"
 },
 {
 "text": "脚",

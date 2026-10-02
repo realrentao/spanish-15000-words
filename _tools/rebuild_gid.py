@@ -1524,7 +1524,152 @@ G31 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31}
+G32 = {
+ "name": "流行比赛",
+ "raw": "_tools/parte32_raw.txt",
+ "typo": {
+   "especialmete": "especialmente",         # 拼写错误
+   "pingpong": "ping-pong",                   # 断行合并后需补连字符（西语标准写法）
+   "estara borracho": "estuviera borracho",  # estar -> estar（虚拟式）
+   "ultimo ": "último ",                     # 缺重音（词条）
+ },
+ "fix": {
+   # ---- Sec1 球类运动（1）
+   ("球类运动", "bola"): "deporte de bola",  # bola=球；球类运动=deporte de bola
+   ("橄榄球", "pelota ovalada"): "fútbol americano",  # pelota ovalada=橄榄球(美式)
+   # ---- Sec3 篮球场
+   ("篮筐", "carrito"): "canasta",           # carrito=小车；篮筐=canasta/aro
+   ("看台", "pie"): "grada",                 # pie=脚；看台=grada
+   ("中间的", "centro"): "central",          # 作定语用 central
+   ("前面", "antes"): "delante",             # antes=以前（时间）；前面=delante（位置）
+   # ---- Sec4 篮球赛
+   ("预选赛", "calificación"): "clasificación",  # 预选=clasificación
+   ("第三名", "tercero"): "tercer puesto",
+   # ---- Sec5 篮球选手（位置译名全错）
+   ("前锋", "vanguardia"): "delantero",      # vanguardia=先锋/前锋(左翼)
+   ("后卫", "guardia"): "defensa",            # guardia=警卫/卫兵
+   ("替补队员", "sustitución"): "suplente",  # 中文是「队员」=suplente
+   ("边锋队员", "jugador alero"): "ala",     # 边锋=ala
+   ("领队", "líder"): "entrenador",          # 领队=entrenador（篮球领队）
+   # ---- Sec6 足球场
+   ("假动作", "fingida"): "finta",           # fingida=假的；足球假动作=finta
+   ("惨败", "aplastante derrota"): "derrota aplastante",
+   # ---- Sec7 足球选手
+   ("前卫", "vanguardia"): "centrocampista",   #前卫=centrocampista
+   ("左内锋", "delantero izquierdo"): "extremo izquierdo",
+   ("右内锋", "delantero derecho"): "extremo derecho",
+   ("左边锋", "lateral izquierdo"): "lateral izquierdo",
+   ("右边锋", "lateral derecho"): "lateral derecho",
+   # ---- Sec8 棒球
+   ("接球手", "colector"): "receptor",       # colector=收集者
+   ("投球手", "bombín"): "lanzador",          # bombín=火车头
+   ("守队", "equipo defensivo"): "equipo de campo",  # 守队=equipo de campo
+   ("垒", "barrera"): "base",                # barrera=障碍；垒=base
+   ("一垒", "barrera primera"): "primera base",
+   ("二垒", "barrera segunda"): "segunda base",
+   ("三垒", "barrera tercera"): "tercera base",
+   ("本垒打", "barrera completa"): "home run",   # 本垒打=home run
+   # ---- Sec9 网球与板球
+   ("球场", "estadio"): "cancha",            # 球场（网球场）=cancha
+   # ---- Sec10 田径
+   ("跨栏比赛", "partido de cruzar el obstáculo"): "carrera de vallas",
+   ("速度竞赛", "concurso de velocidad"): "prueba de velocidad",
+   ("标枪比赛", "competencia de jabalina"): "lanzamiento de jabalina",
+   # ---- Sec11 拳击
+   ("拳击手训练时的对手", "combate"): "sparring",  # combate=战斗；陪练=sparring
+   ("围绳", "cadena"): "cuenda",              # cadena=链条
+   ("拳击家", "pugil"): "boxeador",            # pugil=拳击家(书面)
+   ("打", "ataque"): "golpe",
+ },
+ "pos": {
+   # Sec1
+   ("球类运动", "deporte de bola"): "n.m.",
+   # Sec2
+   ("台球", "billar"): "n.m.",
+   # Sec3
+   ("看台", "grada"): "n.f.",
+   ("中间的", "central"): "adj.",
+   # Sec4
+   ("预选赛", "clasificación"): "n.f.",
+   ("第三名", "tercer puesto"): "n.m.",
+   ("裁判", "juez"): "n.m.",
+   ("运动员", "atleta"): "n.m.",
+   ("冠军", "campeón"): "n.m.",
+   ("亚军", "subcampeón"): "n.m.",
+   # Sec5
+   ("明星", "estrella"): "n.f.",
+   ("前锋", "delantero"): "n.m.",
+   ("后卫", "defensa"): "n.m.",
+   ("小前锋", "alero"): "n.m.",
+   ("领队", "entrenador"): "n.m.",
+   # Sec7
+   ("前卫", "centrocampista"): "n.m.",
+   ("后卫", "guardia"): "n.m.",
+   # Sec8
+   ("击球员", "bateador"): "n.m.",
+   ("接球手", "receptor"): "n.m.",
+   ("击球", "bateo"): "n.m.",
+   ("投球手", "lanzador"): "n.m.",
+   ("外场手", "jardinero"): "n.m.",
+   ("垒", "base"): "n.f.",
+   ("局", "juego"): "n.m.",
+   # Sec9
+   ("经理", "gerente"): "n.m.",
+   ("击球手", "bateador"): "n.m.",
+   ("捕手", "receptor"): "n.m.",
+   ("投球手", "lanzador"): "n.m.",
+   # Sec10
+   ("跨栏运动员", "vallista"): "n.m.",
+   ("最后的", "último"): "adj.",
+   # Sec11
+   ("拳击", "boxeo"): "n.m.",
+   ("拳击运动员", "boxeador"): "n.m.",
+   ("打", "golpe"): "n.m.",
+ },
+ "subs": [
+   # Sec1
+   ("Aunque Yao Ming es considerado el mejor en baloncesto, tenis de mesa le falla, aún en contra de un niño",
+    "Aunque Yao Ming es considerado el mejor en baloncesto, en el tenis de mesa le falla, incluso contra un niño"),
+   # Sec2
+   ("La bolsa izquierda es misma de la derecha",
+    "La bolsa izquierda es igual que la derecha"),
+   # Sec3
+   ("En el centro de la Península, posibilidad de chubascos",
+    "En el centro de la península, posibilidad de chubascos"),
+   # Sec4
+   # Sec5
+   ("La gente fija en el coche para ver a su estrella favorita",
+    "La gente se fija en el coche para ver a su estrella favorita"),
+   # Sec6
+   ("Y Cuál es el título de este maravilloso libro?” le pregunté con un afán fingido. “",
+    "¿Y cuál es el título de este maravilloso libro? —le pregunté con un afán fingido—"),
+   ("El juez expulsa al hombre del partido",
+    "El juez expulsa al hombre del campo de juego"),
+   # Sec7
+   ("El_indexes, que ya marca dos goles, tiene la esperanza de celebrar su reencuentro con su antiguo club de una manera más hermosa",
+    "El delantero brasileño, que ya marcó dos goles, tiene la esperanza de celebrar su reencuentro con su antiguo club de una manera más hermosa"),
+   # Sec8
+   # Sec9
+   ("La vida real está, lejos de las llamadas telefónicas de mis gerentes y trabajo duro!",
+    "¡La vida real está lejos de las llamadas telefónicas de mis gerentes y del trabajo duro!"),
+   # Sec10
+   ("Si ejecuta un maratón y que está a punto de cruzar la línea de meta, no dejarás de decir",
+    "Si ejecutas un maratón y estás a punto de cruzar la línea de meta, no dejarás de decir"),
+   # Sec11
+   # Sec10 引语改为西语规范引号
+   ("Si ejecutas un maratón y estás a punto de cruzar la línea de meta, no dejarás de decir, “oh, una vez que pase, se acaba.”",
+    "Si ejecutas un maratón y estás a punto de cruzar la línea de meta, no dejarás de decir: «Ah, una vez que pase, se acaba»."),
+   ("Además, el boxeo puede ser una suave conformación de figura, especialmente para músculos del brazo",
+    "Además, el boxeo puede ser una suave conformación de la figura, especialmente para los músculos del brazo"),
+ ],
+ "zh_subs": [
+   # Sec2 中文「最好的台球是象牙做的」——西语 bolas de billar（台球=球）尚可，保留
+   # Sec10 中文「非洲人拿了半程马拉松的冠军」——media maratón=半程马拉松，保留
+   # Sec11 中文「第二轮更容易发挥」——保留
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
