@@ -69641,13 +69641,63 @@
 "lang": "zh"
 },
 {
-"text": "salvavidas",
-"path": "es/05712.mp3",
+"text": "rescatista",
+"path": "es/09370.mp3",
 "lang": "es"
 },
 {
 "text": "救援人员",
-"path": "zh/06419.mp3",
+"path": "zh/10021.mp3",
+"lang": "zh"
+},
+{
+"text": "base aérea",
+"path": "es/09371.mp3",
+"lang": "es"
+},
+{
+"text": "空军基地",
+"path": "zh/10022.mp3",
+"lang": "zh"
+},
+{
+"text": "fuerza aérea",
+"path": "es/09372.mp3",
+"lang": "es"
+},
+{
+"text": "空军",
+"path": "zh/10023.mp3",
+"lang": "zh"
+},
+{
+"text": "marina",
+"path": "es/09373.mp3",
+"lang": "es"
+},
+{
+"text": "海军",
+"path": "zh/10024.mp3",
+"lang": "zh"
+},
+{
+"text": "fuerzas terrestres",
+"path": "es/09374.mp3",
+"lang": "es"
+},
+{
+"text": "陆军",
+"path": "zh/10025.mp3",
+"lang": "zh"
+},
+{
+"text": "fuerzas armadas",
+"path": "es/09375.mp3",
+"lang": "es"
+},
+{
+"text": "军队",
+"path": "zh/10026.mp3",
 "lang": "zh"
 },
 {
@@ -69671,13 +69721,13 @@
 "lang": "zh"
 },
 {
-"text": "ingeniería",
-"path": "es/05714.mp3",
+"text": "zapador",
+"path": "es/09376.mp3",
 "lang": "es"
 },
 {
 "text": "工兵",
-"path": "zh/06422.mp3",
+"path": "zh/10027.mp3",
 "lang": "zh"
 },
 {
@@ -69871,8 +69921,23 @@
 "lang": "zh"
 },
 {
+"text": "pistola de aire",
+"path": "es/09377.mp3",
+"lang": "es"
+},
+{
+"text": "气枪",
+"path": "zh/10028.mp3",
+"lang": "zh"
+},
+{
+"text": "precisión",
+"path": "es/09378.mp3",
+"lang": "es"
+},
+{
 "text": "准确度",
-"path": "zh/06443.mp3",
+"path": "zh/10029.mp3",
 "lang": "zh"
 },
 {
@@ -69881,8 +69946,13 @@
 "lang": "zh"
 },
 {
+"text": "regulable",
+"path": "es/09379.mp3",
+"lang": "es"
+},
+{
 "text": "可调的",
-"path": "zh/06445.mp3",
+"path": "zh/10030.mp3",
 "lang": "zh"
 },
 {
@@ -69896,13 +69966,13 @@
 "lang": "zh"
 },
 {
-"text": "incendio",
-"path": "es/05734.mp3",
+"text": "encendido",
+"path": "es/09380.mp3",
 "lang": "es"
 },
 {
 "text": "点火",
-"path": "zh/06447.mp3",
+"path": "zh/10031.mp3",
 "lang": "zh"
 },
 {
@@ -69916,13 +69986,13 @@
 "lang": "zh"
 },
 {
-"text": "rango",
-"path": "es/04687.mp3",
+"text": "alcance",
+"path": "es/09381.mp3",
 "lang": "es"
 },
 {
 "text": "射程",
-"path": "zh/06449.mp3",
+"path": "zh/10032.mp3",
 "lang": "zh"
 },
 {
@@ -70001,13 +70071,13 @@
 "lang": "zh"
 },
 {
-"text": "Siempre pueden oír los disparos de los sniperes, y se ven cigarrillos encendidos de la artillería en medio de la montaña.",
-"path": "es/05744.mp3",
+"text": "Siempre pueden oír los disparos de los snipers, y se ven cigarrillos encendidos de la artillería en medio de la montaña.",
+"path": "es/09382.mp3",
 "lang": "es"
 },
 {
-"text": "狙击手的枪声声声入耳，山腰火炮燃起的烟也时时可见。",
-"path": "zh/06458.mp3",
+"text": "狙击手的枪声此起彼伏，山中炮火升起的烟尘也不时可见。",
+"path": "zh/10033.mp3",
 "lang": "zh"
 },
 {
@@ -70071,6 +70141,16 @@
 "lang": "zh"
 },
 {
+"text": "armas nucleares",
+"path": "es/09383.mp3",
+"lang": "es"
+},
+{
+"text": "核武器",
+"path": "zh/10034.mp3",
+"lang": "zh"
+},
+{
 "text": "bomba",
 "path": "es/05751.mp3",
 "lang": "es"
@@ -70078,6 +70158,16 @@
 {
 "text": "炸弹",
 "path": "zh/06465.mp3",
+"lang": "zh"
+},
+{
+"text": "tubos de lanzamiento de cohetes",
+"path": "es/09384.mp3",
+"lang": "es"
+},
+{
+"text": "火箭发射筒",
+"path": "zh/10035.mp3",
 "lang": "zh"
 },
 {
@@ -70091,8 +70181,73 @@
 "lang": "es"
 },
 {
+"text": "depósito de datos",
+"path": "es/09385.mp3",
+"lang": "es"
+},
+{
+"text": "资料库",
+"path": "zh/10036.mp3",
+"lang": "zh"
+},
+{
+"text": "conducto de aire",
+"path": "es/09386.mp3",
+"lang": "es"
+},
+{
+"text": "通气道",
+"path": "zh/10037.mp3",
+"lang": "zh"
+},
+{
+"text": "bomba atómica",
+"path": "es/09387.mp3",
+"lang": "es"
+},
+{
+"text": "原子弹",
+"path": "zh/10038.mp3",
+"lang": "zh"
+},
+{
+"text": "bomba de hidrógeno",
+"path": "es/09388.mp3",
+"lang": "es"
+},
+{
+"text": "氢弹",
+"path": "zh/10039.mp3",
+"lang": "zh"
+},
+{
+"text": "soltar",
+"path": "es/09389.mp3",
+"lang": "es"
+},
+{
 "text": "投放",
-"path": "zh/06467.mp3",
+"path": "zh/10040.mp3",
+"lang": "zh"
+},
+{
+"text": "armas termonucleares",
+"path": "es/09390.mp3",
+"lang": "es"
+},
+{
+"text": "热核武器",
+"path": "zh/10041.mp3",
+"lang": "zh"
+},
+{
+"text": "onda de choque",
+"path": "es/09391.mp3",
+"lang": "es"
+},
+{
+"text": "冲击波",
+"path": "zh/10042.mp3",
 "lang": "zh"
 },
 {
@@ -70211,6 +70366,16 @@
 "lang": "zh"
 },
 {
+"text": "Mi jefe es un dictador.",
+"path": "es/09392.mp3",
+"lang": "es"
+},
+{
+"text": "我的上司是个独断专行的人。",
+"path": "zh/10043.mp3",
+"lang": "zh"
+},
+{
 "text": "misil",
 "path": "es/05764.mp3",
 "lang": "es"
@@ -70231,6 +70396,16 @@
 "lang": "zh"
 },
 {
+"text": "misil intercontinental",
+"path": "es/09393.mp3",
+"lang": "es"
+},
+{
+"text": "洲际导弹",
+"path": "zh/10044.mp3",
+"lang": "zh"
+},
+{
 "text": "ojiva",
 "path": "es/05766.mp3",
 "lang": "es"
@@ -70238,6 +70413,96 @@
 {
 "text": "弹头",
 "path": "zh/06482.mp3",
+"lang": "zh"
+},
+{
+"text": "misil tierra-tierra",
+"path": "es/09394.mp3",
+"lang": "es"
+},
+{
+"text": "地对地导弹",
+"path": "zh/10045.mp3",
+"lang": "zh"
+},
+{
+"text": "misil tierra-aire",
+"path": "es/09395.mp3",
+"lang": "es"
+},
+{
+"text": "地对空导弹",
+"path": "zh/10046.mp3",
+"lang": "zh"
+},
+{
+"text": "misil aire-aire",
+"path": "es/09396.mp3",
+"lang": "es"
+},
+{
+"text": "空对空导弹",
+"path": "zh/10047.mp3",
+"lang": "zh"
+},
+{
+"text": "misil aire-tierra",
+"path": "es/09397.mp3",
+"lang": "es"
+},
+{
+"text": "空对地导弹",
+"path": "zh/10048.mp3",
+"lang": "zh"
+},
+{
+"text": "misil antiradiación",
+"path": "es/09398.mp3",
+"lang": "es"
+},
+{
+"text": "反辐射导弹",
+"path": "zh/10049.mp3",
+"lang": "zh"
+},
+{
+"text": "misil antibarco",
+"path": "es/09399.mp3",
+"lang": "es"
+},
+{
+"text": "反舰导弹",
+"path": "zh/10050.mp3",
+"lang": "zh"
+},
+{
+"text": "misil antisubmarina",
+"path": "es/09400.mp3",
+"lang": "es"
+},
+{
+"text": "反潜导弹",
+"path": "zh/10051.mp3",
+"lang": "zh"
+},
+{
+"text": "misil antibalístico",
+"path": "es/09401.mp3",
+"lang": "es"
+},
+{
+"text": "反弹道导弹",
+"path": "zh/10052.mp3",
+"lang": "zh"
+},
+{
+"text": "misil de alcance intermedio",
+"path": "es/09402.mp3",
+"lang": "es"
+},
+{
+"text": "中程导弹",
+"path": "zh/10053.mp3",
 "lang": "zh"
 },
 {
@@ -70286,7 +70551,7 @@
 "lang": "es"
 },
 {
-"text": "中国并不支持在日本海试射导弹的行为。",
+"text": "中国不接受在日本海进行导弹试射。",
 "path": "zh/06487.mp3",
 "lang": "zh"
 },
@@ -70318,6 +70583,46 @@
 {
 "text": "炮弹打穿了钢板。",
 "path": "zh/06490.mp3",
+"lang": "zh"
+},
+{
+"text": "avión anfibio",
+"path": "es/09403.mp3",
+"lang": "es"
+},
+{
+"text": "水陆两栖飞机",
+"path": "zh/10054.mp3",
+"lang": "zh"
+},
+{
+"text": "avión antisubmarino",
+"path": "es/09404.mp3",
+"lang": "es"
+},
+{
+"text": "反潜飞机",
+"path": "zh/10055.mp3",
+"lang": "zh"
+},
+{
+"text": "avión de bombardeo",
+"path": "es/09405.mp3",
+"lang": "es"
+},
+{
+"text": "轰炸机",
+"path": "zh/10056.mp3",
+"lang": "zh"
+},
+{
+"text": "avión de caza",
+"path": "es/09406.mp3",
+"lang": "es"
+},
+{
+"text": "强击机",
+"path": "zh/10057.mp3",
 "lang": "zh"
 },
 {
@@ -70381,13 +70686,13 @@
 "lang": "zh"
 },
 {
-"text": "cruiser",
-"path": "es/05780.mp3",
+"text": "portaaviones",
+"path": "es/09407.mp3",
 "lang": "es"
 },
 {
-"text": "巡洋舰",
-"path": "zh/06498.mp3",
+"text": "航空母舰",
+"path": "zh/10058.mp3",
 "lang": "zh"
 },
 {
@@ -70404,6 +70709,16 @@
 "text": "escolta",
 "path": "es/05782.mp3",
 "lang": "es"
+},
+{
+"text": "fragata de misiles",
+"path": "es/09408.mp3",
+"lang": "es"
+},
+{
+"text": "导弹护卫舰",
+"path": "zh/10059.mp3",
+"lang": "zh"
 },
 {
 "text": "acorazado",
@@ -70446,13 +70761,13 @@
 "lang": "zh"
 },
 {
-"text": "Fue una casualidad que él viajara en el mismo avión que nosotro.",
-"path": "es/05787.mp3",
+"text": "Fue una casualidad que él viajara en el mismo avión que nosotros.",
+"path": "es/09409.mp3",
 "lang": "es"
 },
 {
 "text": "他凑巧和我们坐了同一架飞机。",
-"path": "zh/06504.mp3",
+"path": "zh/10060.mp3",
 "lang": "zh"
 },
 {
@@ -70754,6 +71069,11 @@
 "text": "技术",
 "path": "zh/06536.mp3",
 "lang": "zh"
+},
+{
+"text": "ingeniería",
+"path": "es/05714.mp3",
+"lang": "es"
 },
 {
 "text": "工程学",
@@ -71654,6 +71974,11 @@
 "text": "火灾",
 "path": "zh/06628.mp3",
 "lang": "zh"
+},
+{
+"text": "incendio",
+"path": "es/05734.mp3",
+"lang": "es"
 },
 {
 "text": "大火，火灾",

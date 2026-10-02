@@ -2683,7 +2683,127 @@ G40 = {
  },
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40}
+G41 = {
+ "name": "军事",
+ "raw": "_tools/parte41_raw.txt",
+ "typo": {
+   "ca.oneo": "cañoneo",                 # OCR：ñ 被识别成 .
+   "se.alar": "señalar",                 # OCR：ñ 被识别成 .
+   "monta.a": "montaña",                  # OCR：ñ 被识别成 .
+   "sniperes": "snipers",                 # 拼写：英语 sniper，西语无 e
+   # ---- 断行连字符（clean_es 其实也能合并，列出以便对照）
+   "entrena-miento": "entrenamiento",
+   "for-tificaciones": "fortificaciones",
+   "pis-tola": "pistola",
+   "lan-zamiento": "lanzamiento",
+   "docu-mentación": "documentación",
+   "hidró-geno": "hidrógeno",
+   "termo-nucleares": "termonucleares",
+   "saté-lite": "satélite",
+   "interconti-nental": "intercontinental",
+   "anti-ra-diación": "antiradiación",
+   "antisub-marina": "antisubmarina",
+   "antiba-lístico": "antibalístico",
+   "es-taba": "estaba",
+   "ca-rretera": "carretera",
+   "com-bate": "combate",
+   "anti-sub-marino": "antisubmarino",
+   "bom-bardeo": "bombardeo",
+   "recono-cimiento": "reconocimiento",
+   "dise.ar": "diseñar",
+   "cu-bierta": "cubierta",
+   "dieci-siete": "diecisiete",
+ },
+ "fix": {
+   # ---- Sec1 军队
+   ("工兵", "ingeniería"): "zapador",     # ingeniería=工程学；工兵=zapador
+   ("救援人员", "salvavidas"): "rescatista",  # salvavidas=救生圈/游泳者
+   # ---- Sec2 枪械
+   ("点火", "incendio"): "encendido",     # incendio=火灾；点火=encendido
+   ("准确度", "fidelidad"): "precisión",   # fidelidad=忠诚/保真度；准确度=precisión
+   ("可调的", "convertible"): "regulable",  # convertible=可转换的；可调的=regulable
+   ("射程", "rango"): "alcance",          # rango=级别/排名；射程=alcance
+   ("资料库", "centro de documentación"): "depósito de datos",  # centro de documentación=文献中心
+   ("通气道", "canal de aire"): "conducto de aire",  # canal=运河/渠道；通风管道=conducto
+   ("投放", "caer"): "soltar",             # caer=落下/跌倒；投放（炸弹）=soltar
+   # ---- Sec4 导弹和鱼雷
+   ("地对地导弹", "misil tierratierra"): "misil tierra-tierra",   # 缺连字符
+   ("地对空导弹", "misil tierraaire"): "misil tierra-aire",     # 缺连字符
+   ("空对空导弹", "misil aire -aire"): "misil aire-aire",       # 原文多余空格
+   ("空对地导弹", "misil aire -tierra"): "misil aire-tierra",
+   # ---- Sec5 其他武器
+   ("巡洋舰", "cruiser"): "crucero",      # cruiser 是英语；西语=crucero
+   ("歼击机", "avión de ataque"): "avión de combate",  # 与「战斗机」西语同义，改为差异化
+ },
+ "pos": {
+   # ---- Sec1
+   ("军事的，军人", "militar"): "adj. & n.m.",
+   ("空军基地", "base aérea"): "",
+   ("空军", "fuerza aérea"): "",
+   ("海军", "marina"): "",
+   ("陆军", "fuerzas terrestres"): "",
+   ("军队", "fuerzas armadas"): "",
+   ("反叛", "rebelde"): "n.m.",            # rebelde=叛乱者（阳性）
+   ("工兵", "zapador"): "n.m.",
+   ("保管员", "conservador"): "n.m.",
+   ("救援人员", "rescatista"): "n.m.",     # rescatista 男女通用，按阳性处理
+   # ---- Sec2
+   ("气枪", "pistola de aire"): "",
+   # ---- Sec3
+   ("核武器", "armas nucleares"): "",
+   ("火箭发射筒", "tubos de lanzamiento de cohetes"): "",
+   ("资料库", "depósito de datos"): "",
+   ("通气道", "conducto de aire"): "",
+   ("原子弹", "bomba atómica"): "",
+   ("氢弹", "bomba de hidrógeno"): "",
+   ("热核武器", "armas termonucleares"): "",
+   ("冲击波", "onda de choque"): "",
+   # ---- Sec4
+   ("洲际导弹", "misil intercontinental"): "",
+   ("地对地导弹", "misil tierra-tierra"): "",
+   ("地对空导弹", "misil tierra-aire"): "",
+   ("空对空导弹", "misil aire-aire"): "",
+   ("空对地导弹", "misil aire-tierra"): "",
+   ("反辐射导弹", "misil antiradiación"): "",
+   ("反舰导弹", "misil antibarco"): "",
+   ("反潜导弹", "misil antisubmarina"): "",
+   ("反弹道导弹", "misil antibalístico"): "",
+   ("中程导弹", "misil de alcance intermedio"): "",
+   # ---- Sec5
+   ("战斗机", "avión de combate"): "",
+   ("水陆两栖飞机", "avión anfibio"): "",
+   ("反潜飞机", "avión antisubmarino"): "",
+   ("轰炸机", "avión de bombardeo"): "",
+   ("歼击机", "avión de combate"): "",
+   ("强击机", "avión de caza"): "",
+   ("侦察机", "avión de reconocimiento"): "",
+   ("航空母舰", "portaaviones"): "",
+   ("护卫舰", "fragata"): "n.m.",           # fragata 阳性
+   ("护卫舰", "escolta"): "n.f.",
+   ("导弹护卫舰", "fragata de misiles"): "",
+   ("巡洋舰", "crucero"): "n.m.",
+   ("战舰", "acorazado"): "n.m.",
+ },
+ "subs": [
+   # Sec2 例1：sniperes 拼写错误 + 冗余逗号
+   ("los disparos de los sniperes, y se ven",
+    "los disparos de los snipers y se ven"),
+   # Sec5 例4：nosotro 缺 s（ nosotros）
+   ("en el mismo avión que nosotro", "en el mismo avión que nosotros"),
+ ],
+ "zh_subs": [
+   # Sec3 例6：Mi jefe es un dictador. 直译「我的上司是个独裁者」，
+   # 中文已意译为「专断专行」，与西语仍有距离，改得更贴近职场语境
+   ("我的上司是一个专断专行的人。", "我的上司是个独断专行的人。"),
+   # Sec4 例1：no soporta=不支持/无法忍受，中文「并不支持」偏弱
+   ("中国并不支持在日本海试射导弹的行为。", "中国不接受在日本海进行导弹试射。"),
+   # Sec2 例1：中文「山腰」西语只说 en medio de la montaña（山中），无「山腰」
+   ("狙击手的枪声声声入耳，山腰火炮燃起的烟也时时可见。",
+    "狙击手的枪声此起彼伏，山中炮火升起的烟尘也不时可见。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
