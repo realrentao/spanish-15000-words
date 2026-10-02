@@ -71671,6 +71671,26 @@
 "lang": "zh"
 },
 {
+"text": "impuesto ambiental",
+"path": "es/09450.mp3",
+"lang": "es"
+},
+{
+"text": "环保税",
+"path": "zh/10101.mp3",
+"lang": "zh"
+},
+{
+"text": "conciencia ambiental",
+"path": "es/09451.mp3",
+"lang": "es"
+},
+{
+"text": "环保意识",
+"path": "zh/10102.mp3",
+"lang": "zh"
+},
+{
 "text": "改善",
 "path": "zh/06584.mp3",
 "lang": "zh"
@@ -71701,13 +71721,23 @@
 "lang": "zh"
 },
 {
-"text": "asimilación",
-"path": "es/05855.mp3",
+"text": "autopurificación",
+"path": "es/09452.mp3",
 "lang": "es"
 },
 {
 "text": "自净",
-"path": "zh/06588.mp3",
+"path": "zh/10103.mp3",
+"lang": "zh"
+},
+{
+"text": "calidad del agua",
+"path": "es/09453.mp3",
+"lang": "es"
+},
+{
+"text": "水质",
+"path": "zh/10104.mp3",
 "lang": "zh"
 },
 {
@@ -71718,6 +71748,26 @@
 {
 "text": "植被",
 "path": "zh/06589.mp3",
+"lang": "zh"
+},
+{
+"text": "sin contaminación",
+"path": "es/09454.mp3",
+"lang": "es"
+},
+{
+"text": "无污染的",
+"path": "zh/10105.mp3",
+"lang": "zh"
+},
+{
+"text": "lluvia ácida",
+"path": "es/09455.mp3",
+"lang": "es"
+},
+{
+"text": "酸雨",
+"path": "zh/10106.mp3",
 "lang": "zh"
 },
 {
@@ -71751,6 +71801,16 @@
 "lang": "zh"
 },
 {
+"text": "Con el desarrollo continuo de la producción industrial y la rápida extensión de la ciudad moderna, el medio ambiente ha sufrido un enorme daño.",
+"path": "es/09456.mp3",
+"lang": "es"
+},
+{
+"text": "随着工业生产的持续发展和现代城市的迅速扩张，环境已经遭到严重破坏。",
+"path": "zh/10107.mp3",
+"lang": "zh"
+},
+{
 "text": "No debemos destruir el medio ambiente.",
 "path": "es/05859.mp3",
 "lang": "es"
@@ -71776,7 +71836,7 @@
 "lang": "es"
 },
 {
-"text": "你必须要适应环境。",
+"text": "你必须适应当时的情况。",
 "path": "zh/06596.mp3",
 "lang": "zh"
 },
@@ -71816,6 +71876,16 @@
 "lang": "es"
 },
 {
+"text": "polvo industrial",
+"path": "es/09457.mp3",
+"lang": "es"
+},
+{
+"text": "工业粉尘",
+"path": "zh/10108.mp3",
+"lang": "zh"
+},
+{
 "text": "químico",
 "path": "es/05866.mp3",
 "lang": "es"
@@ -71823,6 +71893,16 @@
 {
 "text": "化学的",
 "path": "zh/06600.mp3",
+"lang": "zh"
+},
+{
+"text": "contaminación acústica",
+"path": "es/09458.mp3",
+"lang": "es"
+},
+{
+"text": "噪音污染",
+"path": "zh/10109.mp3",
 "lang": "zh"
 },
 {
@@ -71843,6 +71923,36 @@
 {
 "text": "大气的",
 "path": "zh/06602.mp3",
+"lang": "zh"
+},
+{
+"text": "gases tóxicos",
+"path": "es/09459.mp3",
+"lang": "es"
+},
+{
+"text": "毒气",
+"path": "zh/10110.mp3",
+"lang": "zh"
+},
+{
+"text": "contaminación del agua",
+"path": "es/09460.mp3",
+"lang": "es"
+},
+{
+"text": "水污染",
+"path": "zh/10111.mp3",
+"lang": "zh"
+},
+{
+"text": "grado de contaminación",
+"path": "es/09461.mp3",
+"lang": "es"
+},
+{
+"text": "污染等级",
+"path": "zh/10112.mp3",
 "lang": "zh"
 },
 {
@@ -71871,6 +71981,26 @@
 "lang": "zh"
 },
 {
+"text": "mala calidad",
+"path": "es/09462.mp3",
+"lang": "es"
+},
+{
+"text": "糟糕的（空气质量）",
+"path": "zh/10113.mp3",
+"lang": "zh"
+},
+{
+"text": "fábrica química",
+"path": "es/09463.mp3",
+"lang": "es"
+},
+{
+"text": "化工厂",
+"path": "zh/10114.mp3",
+"lang": "zh"
+},
+{
 "text": "desecho",
 "path": "es/05872.mp3",
 "lang": "es"
@@ -71886,7 +72016,7 @@
 "lang": "zh"
 },
 {
-"text": "Tenemos que evitar la con-taminación del mar.",
+"text": "Tenemos que evitar la contaminación del mar.",
 "path": "es/05874.mp3",
 "lang": "es"
 },
@@ -71896,17 +72026,17 @@
 "lang": "zh"
 },
 {
-"text": "La mala calidad del aire de este país prueba que la con-taminación sigue siendo grave.",
+"text": "La mala calidad del aire de este país prueba que la contaminación sigue siendo grave.",
 "path": "es/05875.mp3",
 "lang": "es"
 },
 {
-"text": "这个国家糟糕的空气说明污染仍然很严重。",
+"text": "该国空气质量很差，说明污染依然严重。",
 "path": "zh/06607.mp3",
 "lang": "zh"
 },
 {
-"text": "Esa fábrica química arroja sus desechos al río y lo ha con-taminado.",
+"text": "Esa fábrica química arroja sus desechos al río y lo ha contaminado.",
 "path": "es/05876.mp3",
 "lang": "es"
 },
@@ -71916,12 +72046,12 @@
 "lang": "zh"
 },
 {
-"text": "Es una mancha de verdín, del estanque.",
+"text": "Es una mancha de verdín del estanque.",
 "path": "es/05877.mp3",
 "lang": "es"
 },
 {
-"text": "这绿色的污渍是池塘里来的。",
+"text": "这是池塘里留下的一处青苔渍。",
 "path": "zh/06609.mp3",
 "lang": "zh"
 },

@@ -2950,7 +2950,69 @@ G43 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43}
+G44 = {
+ "name": "环境保护",
+ "raw": "_tools/parte44_raw.txt",
+ "typo": {
+   "da.o": "daño",                         # OCR：ñ->.
+   "dismi-nuir": "disminuir",              # 断行
+   "me-didas": "medidas",                  # 断行
+   "per-judicial": "perjudicial",          # 断行
+   "atmosfé-rica": "atmosférica",          # 断行
+   "con-taminación": "contaminación",      # 断行
+   "con-taminado": "contaminado",          # 断行
+ },
+ "fix": {
+   # ---- Sec1 环保
+   # 「自净」原文 asimilación 实为「同化/吸收（化学过程）」，
+   # 环境自净（水体自我净化）的西语是 autopurificación。
+   ("自净", "asimilación"): "autopurificación",
+ },
+ "pos": {
+   # ---- Sec1
+   ("环保税", "impuesto ambiental"): "",
+   ("环保意识", "conciencia ambiental"): "",
+   ("水质", "calidad del agua"): "",
+   ("无污染的", "sin contaminación"): "",
+   ("酸雨", "lluvia ácida"): "",
+   ("自净", "autopurificación"): "n.f.",
+   # ---- Sec2
+   ("工业粉尘", "polvo industrial"): "",
+   ("噪音污染", "contaminación acústica"): "",
+   ("毒气", "gases tóxicos"): "",
+   ("水污染", "contaminación del agua"): "",
+   ("污染等级", "grado de contaminación"): "",
+   ("污染", "contaminar"): "v.t.",
+   # contaminador 指「污染者」（人/物），是名词，不该标 adj.
+   ("污染的", "contaminador"): "n.m.",
+ },
+ "subs": [
+   # Sec2 例5：原句逗号把「verdín」与「del estanque」割裂，语义断裂；
+   # 且 verdín 本身是名词（绿苔/水垢），mancha de verdín=绿苔渍
+   ("Es una mancha de verdín, del estanque",
+    "Es una mancha de verdín del estanque"),
+ ],
+ "zh_subs": [
+   # Sec1 例1：原译「随着…和我们��环境已经受到了巨大的破坏」主语混乱
+   #（「我们」凭空出现，且原句说的是 el medio ambiente=环境）
+   ("随着现代都市的迅速崛起和工业生产的不断发展，我们的环境已经受到了巨大的破坏。",
+    "随着工业生产的持续发展和现代城市的迅速扩张，环境已经遭到严重破坏。"),
+   # Sec1 例5：adaptarse a las circunstancias=「适应情况/处境」，
+   # 中文「适应环境」与本 Sec 主题「环境」混淆（circunstancia 不是 ambiente）
+   ("你必须要适应环境。", "你必须适应当时的情况。"),
+   # Sec2 例3：mala calidad del aire=「空气质量差」，中文「糟糕的空气」漏掉「质量」
+   ("这个国家糟糕的空气说明污染仍然很严重。",
+    "该国空气质量很差，说明污染依然严重。"),
+   # Sec2 例5：verdín=绿苔/水垢，中文「绿色的污渍」漏掉「苔/水垢」这层含义
+   ("这绿色的污渍是池塘里来的。", "这是池塘里留下的一处青苔渍。"),
+ ],
+ "CN_FIX": {
+   # Sec2 E：原文中文「差劲的，糟糕的」-> 补出所指（空气质量）
+   "差劲的，糟糕的": "糟糕的（空气质量）",
+ },
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36, 37: G37, 38: G38, 39: G39, 40: G40, 41: G41, 42: G42, 43: G43, 44: G44}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])
