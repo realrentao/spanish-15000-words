@@ -2234,7 +2234,159 @@ G35 = {
  ],
 }
 
-CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35}
+G36 = {
+ "name": "经济行为",
+ "raw": "_tools/parte36_raw.txt",
+ "typo": {
+   "cientò": "ciento",                  # 倒勾->o
+ },
+ "fix": {
+   # ---- Sec1 储蓄
+   # ---- Sec2 投资
+   # ---- Sec3 理财
+   ("回报", "rendir cuenta"): "rendir cuentas",   # 西语固定说法（复数）
+   # ---- Sec4 借贷
+   ("放债，放高利贷", "logrería"): "usura",  # usura=高利贷；logrería 非西语词
+   ("困境", "molestia"): "apuros",             # molestia=麻烦/不适；困境=apuros
+   ("截止日期", "fecha de caducidad"): "fecha de vencimiento",  # 债务语境用 vencimiento
+   # ---- Sec5 信用
+   # ---- Sec6 汇率
+   # ---- Sec7 交税
+   ("逃税", "fraude"): "evasión fiscal",   # fraude=欺诈（泛）；逃税=evasión fiscal
+   ("税务员", "colector"): "inspector de impuestos",  # colector=收集者
+   # ---- Sec8 下岗与就业
+ },
+ "pos": {
+   # Sec1
+   ("银行", "banco"): "n.m.",
+   ("钱", "dinero"): "n.m.",
+   ("存款", "depósito"): "n.m.",
+   ("储蓄", "ahorro"): "n.m.",
+   ("储蓄者", "ahorrador"): "n.m.",
+   ("利息", "interés"): "n.m.",
+   ("比例", "escala"): "n.f.",
+   ("不同的", "diferente"): "adj.",
+   ("有益", "beneficioso"): "adj.",
+   ("无偿地", "gratuitamente"): "adv.",
+   # Sec2
+   ("投资者", "inversionista"): "n.m.",
+   ("谨慎的", "discreto"): "adj.",
+   ("冒险", "riesgo"): "n.m.",
+   ("意识", "conciencia"): "n.f.",
+   ("期限", "plazo"): "n.m.",
+   ("收益", "beneficio"): "n.m.",
+   ("文件夹", "carpeta"): "n.f.",
+   ("困难", "dificultad"): "n.f.",
+   ("投资", "invertir"): "v.t.",
+   # Sec3
+   ("财产", "propiedad"): "n.f.",
+   ("所有物", "posesión"): "n.f.",
+   ("富有的", "rico"): "adj.",
+   ("投资", "inversión"): "n.f.",
+   ("基金", "fondo"): "n.m.",
+   ("财产", "fortuna"): "n.f.",
+   ("客户", "cliente"): "n.m.",
+   ("投机的", "especulativo"): "adj.",
+   ("公司", "compañía"): "n.f.",
+   ("捐赠", "contribuir"): "v.t.",
+   ("回报", "rendir cuentas"): "v.pr.",
+   ("安排", "organizar"): "v.t.",
+   # Sec4
+   ("高利贷", "usura"): "n.f.",
+   ("借贷", "endeudamiento"): "n.m.",
+   ("道德的", "ético"): "adj.",
+   ("债务", "deuda"): "n.f.",
+   ("债务人", "deudor"): "n.m.",
+   ("借款方", "prestatario"): "n.m.",
+   ("困境", "apuros"): "n.m.",
+   ("欺骗", "decepción"): "n.f.",
+   ("骗子", "mentiroso"): "n.m.",
+   ("放债，放高利贷", "usura"): "n.f.",
+   # Sec5
+   ("信用", "fidelidad"): "n.f.",
+   ("可信赖的", "fiel"): "adj.",
+   ("扩大", "ampliar"): "v.t.",
+   ("等级", "grado"): "n.m.",
+   ("偿还", "reembolso"): "n.m.",
+   ("延期", "posponer"): "v.t.",
+   ("预先的", "anticipado"): "adj.",
+   ("津贴", "subsidio"): "n.m.",
+   ("偿还", "pagar"): "v.t.",
+   # Sec6
+   ("外汇", "divisas"): "n.f.",
+   ("比率", "proporción"): "n.f.",
+   ("可兑换的", "convertible"): "adj.",
+   ("浮动", "fluctuación"): "n.f.",
+   ("浮动的", "flotante"): "adj.",
+   ("固定的", "fijo"): "adj.",
+   ("可变的", "cambiable"): "adj.",
+   ("直接的", "directo"): "adj.",
+   ("间接的", "indirecto"): "adj.",
+   ("一致", "concordancia"): "n.f.",
+   ("操纵", "operar"): "v.t.",
+   ("变换", "cambiar"): "v.t.",
+   # Sec7
+   ("税", "impuesto"): "n.m.",
+   ("逃税", "evasión fiscal"): "n.f.",
+   ("可扣除的", "deducible"): "adj.",
+   ("税务员", "inspector de impuestos"): "n.m.",
+   ("关税", "arancel"): "n.m.",
+   ("纳税人", "contribuyente"): "n.m.",
+   ("免除", "librar"): "v.t.",
+   ("总计的", "total"): "adj.",
+   # Sec8
+   ("福利", "bienestar"): "n.m.",
+   ("卓越的", "notable"): "adj.",
+   ("失业", "desempleo"): "n.m.",
+   ("工作者", "trabajador"): "n.m.",
+   ("泡沫", "espuma"): "n.f.",
+   ("失业，失业津贴", "cesantía"): "n.f.",
+   ("就业，职位", "empleo"): "n.m.",
+   ("工作", "trabajo"): "n.f.",
+   ("职位，岗位", "puesto"): "n.m.",
+   ("职位", "posición"): "n.f.",
+   ("职位", "plaza"): "n.f.",
+   ("工作，职业", "ocupación"): "n.f.",
+   ("职业，行业", "profesión"): "n.f.",
+   ("等待", "esperar"): "v.t.",
+   ("获得", "adquirir"): "v.t.",
+   ("下岗", "ser despedido del trabajo"): "",
+ },
+ "subs": [
+   # Sec1
+   ("La Bolsa aumentar tímidamente",
+    "La Bolsa aumentó tímidamente"),
+   # Sec2
+   ("Aunque invirtió mucho en el negocio, no vendió una escoba",
+    "Aunque invirtió mucho en el negocio, no vendió ni una escoba"),
+   # Sec3
+   ("Apunta los datos de todos clientes y después pásalos al ordenador",
+    "Apunta los datos de todos los clientes y después pásalos al ordenador"),
+   # Sec4
+   ("Dónde puedo obtener crédito?",
+    "¿Dónde puedo obtener crédito?"),
+   # Sec5 原文把 en general 写了两遍 -> 去重
+   ("No está o no estará, en general, en general, en condiciones de pagar sus deudas a su vencimiento.",
+    "No está o no estará, en general, en condiciones de pagar sus deudas a su vencimiento."),
+   # Sec5
+   # Sec6
+   # Sec7
+   ("Nuestra empresa siempre está respetuosa de la ley,podemos emitir facturas de impuestos de 17 por ciento de IVA",
+    "Nuestra empresa siempre está respetuosa de la ley: podemos emitir facturas de impuestos de 17 por ciento de IVA"),
+   # Sec8
+ ],
+ "zh_subs": [
+   # Sec8 中文「胡安已经找到了一份临时工作」— correcto
+   # Sec4 中文「他将是你的欠债人」— 原文 Seré tu deudor（我是你的债务人），中文人称错
+   ("他将是你的欠债人，直到他还给你我欠你的人情。", "我将是你的债务人，直到我能报答你给我的人情。"),
+   # Sec7 中文「是“一般纳税人”企业」— 西语没这句，是发票说明
+   ("本公司守法经营，是“一般纳税人”企业，可开具17%增值税发票。", "本公司守法经营，可开具17%增值税发票。"),
+   # Sec1 中文「银行根据顾客所存款项支付利息」— 西语 según los depósitos que haya efectuado（已存的）
+   ("银行根据顾客所存款项支付利息。", "银行根据顾客此前所存的款项支付利息。"),
+ ],
+}
+
+CFG = {16: G16, 17: G17, 19: G19, 20: G20, 21: G21, 22: G22, 23: G23, 24: G24, 25: G25, 26: G26, 27: G27, 28: G28, 29: G29, 30: G30, 31: G31, 32: G32, 33: G33, 34: G34, 35: G35, 36: G36}
 
 if __name__ == "__main__":
     gid = int(sys.argv[1])

@@ -60061,6 +60061,16 @@
 "lang": "zh"
 },
 {
+"text": "cuenta bancaria",
+"path": "es/09172.mp3",
+"lang": "es"
+},
+{
+"text": "银行账户",
+"path": "zh/09823.mp3",
+"lang": "zh"
+},
+{
 "text": "dinero",
 "path": "es/02136.mp3",
 "lang": "es"
@@ -60073,6 +60083,16 @@
 {
 "text": "存款",
 "path": "zh/02307.mp3",
+"lang": "zh"
+},
+{
+"text": "cuenta de ahorros",
+"path": "es/09173.mp3",
+"lang": "es"
+},
+{
+"text": "储蓄账户",
+"path": "zh/09824.mp3",
 "lang": "zh"
 },
 {
@@ -60111,6 +60131,16 @@
 "lang": "zh"
 },
 {
+"text": "reserva de depósito",
+"path": "es/09174.mp3",
+"lang": "es"
+},
+{
+"text": "存款准备金",
+"path": "zh/09825.mp3",
+"lang": "zh"
+},
+{
 "text": "interés",
 "path": "es/05425.mp3",
 "lang": "es"
@@ -60118,6 +60148,26 @@
 {
 "text": "利息",
 "path": "zh/06071.mp3",
+"lang": "zh"
+},
+{
+"text": "tasa mensual",
+"path": "es/09175.mp3",
+"lang": "es"
+},
+{
+"text": "月利率",
+"path": "zh/09826.mp3",
+"lang": "zh"
+},
+{
+"text": "depósito a la vista",
+"path": "es/09176.mp3",
+"lang": "es"
+},
+{
+"text": "活期存款",
+"path": "zh/09827.mp3",
 "lang": "zh"
 },
 {
@@ -60176,7 +60226,7 @@
 "lang": "es"
 },
 {
-"text": "银行根据顾客所存款项支付利息。",
+"text": "银行根据顾客此前所存的款项支付利息。",
 "path": "zh/06076.mp3",
 "lang": "zh"
 },
@@ -60191,12 +60241,12 @@
 "lang": "zh"
 },
 {
-"text": "La tasa de ahorro personal aumentó en noviembre.",
+"text": "La tasa de ahorro personal aumentó en noviembre. 11",
 "path": "es/05431.mp3",
 "lang": "es"
 },
 {
-"text": "11月份的个人储蓄率增加了。",
+"text": "月份的个人储蓄率增加了。",
 "path": "zh/06078.mp3",
 "lang": "zh"
 },
@@ -60251,6 +60301,26 @@
 "lang": "zh"
 },
 {
+"text": "mayor interés",
+"path": "es/09177.mp3",
+"lang": "es"
+},
+{
+"text": "利益增加",
+"path": "zh/09828.mp3",
+"lang": "zh"
+},
+{
+"text": "gestión de riesgos",
+"path": "es/09178.mp3",
+"lang": "es"
+},
+{
+"text": "风险管理",
+"path": "zh/09829.mp3",
+"lang": "zh"
+},
+{
 "text": "收益",
 "path": "zh/06083.mp3",
 "lang": "zh"
@@ -60263,6 +60333,16 @@
 {
 "text": "困难",
 "path": "zh/06084.mp3",
+"lang": "zh"
+},
+{
+"text": "capital de riesgo",
+"path": "es/09179.mp3",
+"lang": "es"
+},
+{
+"text": "风险资本",
+"path": "zh/09830.mp3",
 "lang": "zh"
 },
 {
@@ -60311,13 +60391,13 @@
 "lang": "zh"
 },
 {
-"text": "Aunque invirtió mucho en el negocio, no vendió una escoba.",
-"path": "es/05441.mp3",
+"text": "Aunque invirtió mucho en el negocio, no vendió ni una escoba.",
+"path": "es/09180.mp3",
 "lang": "es"
 },
 {
 "text": "他投入大笔资金做买卖，但结果一无所获。",
-"path": "zh/06090.mp3",
+"path": "zh/09831.mp3",
 "lang": "zh"
 },
 {
@@ -60338,6 +60418,16 @@
 {
 "text": "他很精明，总是想着如何获得更多的利益。",
 "path": "zh/06092.mp3",
+"lang": "zh"
+},
+{
+"text": "administrar los asuntos de dinero",
+"path": "es/09181.mp3",
+"lang": "es"
+},
+{
+"text": "理财",
+"path": "zh/09832.mp3",
 "lang": "zh"
 },
 {
@@ -60366,6 +60456,16 @@
 "lang": "zh"
 },
 {
+"text": "grandes sumas de dinero",
+"path": "es/09182.mp3",
+"lang": "es"
+},
+{
+"text": "巨款",
+"path": "zh/09833.mp3",
+"lang": "zh"
+},
+{
 "text": "inversión",
 "path": "es/02175.mp3",
 "lang": "es"
@@ -60376,13 +60476,13 @@
 "lang": "zh"
 },
 {
-"text": "cuenta",
-"path": "es/02122.mp3",
+"text": "rendir cuentas",
+"path": "es/09183.mp3",
 "lang": "es"
 },
 {
-"text": "回报 rendir",
-"path": "zh/06098.mp3",
+"text": "回报",
+"path": "zh/09834.mp3",
 "lang": "zh"
 },
 {
@@ -60471,13 +60571,13 @@
 "lang": "zh"
 },
 {
-"text": "Apunta los datos de todos clientes y después pásalos al ordenador.",
-"path": "es/05453.mp3",
+"text": "Apunta los datos de todos los clientes y después pásalos al ordenador.",
+"path": "es/09184.mp3",
 "lang": "es"
 },
 {
 "text": "他记录下客户的信息然后输入到电脑上。",
-"path": "zh/06108.mp3",
+"path": "zh/09835.mp3",
 "lang": "zh"
 },
 {
@@ -60501,16 +60601,6 @@
 "lang": "zh"
 },
 {
-"text": "logrería",
-"path": "es/05456.mp3",
-"lang": "es"
-},
-{
-"text": "放债，放高利贷",
-"path": "zh/06111.mp3",
-"lang": "zh"
-},
-{
 "text": "endeudamiento",
 "path": "es/05457.mp3",
 "lang": "es"
@@ -60518,6 +60608,26 @@
 {
 "text": "借贷",
 "path": "zh/06112.mp3",
+"lang": "zh"
+},
+{
+"text": "crédito",
+"path": "es/02174.mp3",
+"lang": "es"
+},
+{
+"text": "信贷，贷款",
+"path": "zh/02323.mp3",
+"lang": "zh"
+},
+{
+"text": "préstamos bancarios",
+"path": "es/09185.mp3",
+"lang": "es"
+},
+{
+"text": "银行贷款",
+"path": "zh/09836.mp3",
 "lang": "zh"
 },
 {
@@ -60546,18 +60656,28 @@
 "lang": "zh"
 },
 {
-"text": "molestia",
-"path": "es/05460.mp3",
+"text": "apuros",
+"path": "es/09186.mp3",
 "lang": "es"
 },
 {
 "text": "困境",
-"path": "zh/06116.mp3",
+"path": "zh/09837.mp3",
 "lang": "zh"
 },
 {
 "text": "骗子",
 "path": "zh/06117.mp3",
+"lang": "zh"
+},
+{
+"text": "fecha de vencimiento",
+"path": "es/09187.mp3",
+"lang": "es"
+},
+{
+"text": "截止日期",
+"path": "zh/09838.mp3",
 "lang": "zh"
 },
 {
@@ -60626,7 +60746,7 @@
 "lang": "es"
 },
 {
-"text": "他将是你的欠债人，直到他还给你我欠你的人情。",
+"text": "我将是你的债务人，直到我能报答你给我的人情。",
 "path": "zh/06122.mp3",
 "lang": "zh"
 },
@@ -60676,6 +60796,16 @@
 "lang": "zh"
 },
 {
+"text": "propiedad de fideicomiso",
+"path": "es/09188.mp3",
+"lang": "es"
+},
+{
+"text": "信托财产",
+"path": "zh/09839.mp3",
+"lang": "zh"
+},
+{
 "text": "偿还",
 "path": "zh/06129.mp3",
 "lang": "zh"
@@ -60684,6 +60814,26 @@
 "text": "posponer",
 "path": "es/05469.mp3",
 "lang": "es"
+},
+{
+"text": "valor intangible",
+"path": "es/09189.mp3",
+"lang": "es"
+},
+{
+"text": "商誉",
+"path": "zh/09840.mp3",
+"lang": "zh"
+},
+{
+"text": "pago fraccionado",
+"path": "es/09190.mp3",
+"lang": "es"
+},
+{
+"text": "分期付款",
+"path": "zh/09841.mp3",
+"lang": "zh"
 },
 {
 "text": "anticipado",
@@ -60699,6 +60849,26 @@
 "text": "subsidio",
 "path": "es/05471.mp3",
 "lang": "es"
+},
+{
+"text": "historia de crédito",
+"path": "es/09191.mp3",
+"lang": "es"
+},
+{
+"text": "信誉历史",
+"path": "zh/09842.mp3",
+"lang": "zh"
+},
+{
+"text": "riesgo de crédito",
+"path": "es/09192.mp3",
+"lang": "es"
+},
+{
+"text": "信誉风险",
+"path": "zh/09843.mp3",
+"lang": "zh"
 },
 {
 "text": "vocabulario",
@@ -60771,7 +60941,7 @@
 "lang": "zh"
 },
 {
-"text": "Se encontró en un con-flicto porque no podía pagar la letra.",
+"text": "Se encontró en un conflicto porque no podía pagar la letra.",
 "path": "es/05478.mp3",
 "lang": "es"
 },
@@ -60811,6 +60981,16 @@
 "lang": "zh"
 },
 {
+"text": "tasa de cambio",
+"path": "es/09193.mp3",
+"lang": "es"
+},
+{
+"text": "汇率",
+"path": "zh/09844.mp3",
+"lang": "zh"
+},
+{
 "text": "比率",
 "path": "zh/06143.mp3",
 "lang": "zh"
@@ -60818,6 +60998,26 @@
 {
 "text": "可兑换的",
 "path": "zh/06144.mp3",
+"lang": "zh"
+},
+{
+"text": "mercado de divisas",
+"path": "es/09194.mp3",
+"lang": "es"
+},
+{
+"text": "外汇市场",
+"path": "zh/09845.mp3",
+"lang": "zh"
+},
+{
+"text": "fluctuaciones de los tipos de cambio",
+"path": "es/09195.mp3",
+"lang": "es"
+},
+{
+"text": "汇率浮动",
+"path": "zh/09846.mp3",
 "lang": "zh"
 },
 {
@@ -60891,6 +61091,16 @@
 "lang": "zh"
 },
 {
+"text": "deuda externa",
+"path": "es/09196.mp3",
+"lang": "es"
+},
+{
+"text": "外债",
+"path": "zh/09847.mp3",
+"lang": "zh"
+},
+{
 "text": "有能力",
 "path": "zh/06154.mp3",
 "lang": "zh"
@@ -60951,13 +61161,43 @@
 "lang": "zh"
 },
 {
-"text": "fraude",
-"path": "es/05491.mp3",
+"text": "impuesto sobre la renta",
+"path": "es/09197.mp3",
+"lang": "es"
+},
+{
+"text": "所得税",
+"path": "zh/09848.mp3",
+"lang": "zh"
+},
+{
+"text": "impuesto sobre el patrimonio",
+"path": "es/09198.mp3",
+"lang": "es"
+},
+{
+"text": "财产税",
+"path": "zh/09849.mp3",
+"lang": "zh"
+},
+{
+"text": "recaudación de impuestos",
+"path": "es/09199.mp3",
+"lang": "es"
+},
+{
+"text": "征税",
+"path": "zh/09850.mp3",
+"lang": "zh"
+},
+{
+"text": "evasión fiscal",
+"path": "es/09200.mp3",
 "lang": "es"
 },
 {
 "text": "逃税",
-"path": "zh/06162.mp3",
+"path": "zh/09851.mp3",
 "lang": "zh"
 },
 {
@@ -60971,13 +61211,33 @@
 "lang": "zh"
 },
 {
-"text": "colector",
-"path": "es/04877.mp3",
+"text": "exento de impuestos",
+"path": "es/09201.mp3",
+"lang": "es"
+},
+{
+"text": "免税的",
+"path": "zh/09852.mp3",
+"lang": "zh"
+},
+{
+"text": "inspector de impuestos",
+"path": "es/09202.mp3",
 "lang": "es"
 },
 {
 "text": "税务员",
-"path": "zh/06164.mp3",
+"path": "zh/09853.mp3",
+"lang": "zh"
+},
+{
+"text": "impuesto sobre el valor añadido (IVA)",
+"path": "es/09203.mp3",
+"lang": "es"
+},
+{
+"text": "增值税",
+"path": "zh/09854.mp3",
 "lang": "zh"
 },
 {
@@ -61001,6 +61261,16 @@
 "lang": "zh"
 },
 {
+"text": "después de impuestos",
+"path": "es/09204.mp3",
+"lang": "es"
+},
+{
+"text": "税后的",
+"path": "zh/09855.mp3",
+"lang": "zh"
+},
+{
 "text": "总计的",
 "path": "zh/06167.mp3",
 "lang": "zh"
@@ -61008,6 +61278,16 @@
 {
 "text": "欢愉",
 "path": "zh/06168.mp3",
+"lang": "zh"
+},
+{
+"text": "reloj despertador",
+"path": "es/09205.mp3",
+"lang": "es"
+},
+{
+"text": "叫早闹钟",
+"path": "zh/09856.mp3",
 "lang": "zh"
 },
 {
@@ -61061,13 +61341,13 @@
 "lang": "zh"
 },
 {
-"text": "Nuestra empresa siempre está respetuosa de la ley,podemos emitir facturas de impuestos de 17 por cientò de IVA.",
-"path": "es/05500.mp3",
+"text": "Nuestra empresa siempre está respetuosa de la ley: podemos emitir facturas de impuestos de 17 por ciento de IVA.",
+"path": "es/09206.mp3",
 "lang": "es"
 },
 {
-"text": "本公司守法经营，是“一般纳税人”企业，可开具17%增值税发票。",
-"path": "zh/06174.mp3",
+"text": "本公司守法经营，可开具17%增值税发票。",
+"path": "zh/09857.mp3",
 "lang": "zh"
 },
 {
@@ -61101,6 +61381,16 @@
 "lang": "zh"
 },
 {
+"text": "estado de bienestar",
+"path": "es/09207.mp3",
+"lang": "es"
+},
+{
+"text": "福利国家",
+"path": "zh/09858.mp3",
+"lang": "zh"
+},
+{
 "text": "desempleo",
 "path": "es/01468.mp3",
 "lang": "es"
@@ -61113,6 +61403,56 @@
 {
 "text": "工作者",
 "path": "zh/06178.mp3",
+"lang": "zh"
+},
+{
+"text": "con mucho gusto",
+"path": "es/09208.mp3",
+"lang": "es"
+},
+{
+"text": "自愿地",
+"path": "zh/09859.mp3",
+"lang": "zh"
+},
+{
+"text": "llevar una vida ociosa",
+"path": "es/09209.mp3",
+"lang": "es"
+},
+{
+"text": "无所事事",
+"path": "zh/09860.mp3",
+"lang": "zh"
+},
+{
+"text": "trabajador desempleado",
+"path": "es/09210.mp3",
+"lang": "es"
+},
+{
+"text": "失业工人",
+"path": "zh/09861.mp3",
+"lang": "zh"
+},
+{
+"text": "tasa de desempleo",
+"path": "es/09211.mp3",
+"lang": "es"
+},
+{
+"text": "失业率",
+"path": "zh/09862.mp3",
+"lang": "zh"
+},
+{
+"text": "ser despedido del trabajo",
+"path": "es/09212.mp3",
+"lang": "es"
+},
+{
+"text": "下岗",
+"path": "zh/09863.mp3",
 "lang": "zh"
 },
 {
@@ -61129,6 +61469,16 @@
 "text": "adquirir",
 "path": "es/05504.mp3",
 "lang": "es"
+},
+{
+"text": "mercado de los talentos",
+"path": "es/09213.mp3",
+"lang": "es"
+},
+{
+"text": "人才市场",
+"path": "zh/09864.mp3",
+"lang": "zh"
 },
 {
 "text": "espuma",
@@ -61183,6 +61533,16 @@
 {
 "text": "职业，行业",
 "path": "zh/06184.mp3",
+"lang": "zh"
+},
+{
+"text": "vale la pena",
+"path": "es/09214.mp3",
+"lang": "es"
+},
+{
+"text": "值得",
+"path": "zh/09865.mp3",
 "lang": "zh"
 },
 {
@@ -77736,6 +78096,11 @@
 "lang": "zh"
 },
 {
+"text": "cuenta",
+"path": "es/02122.mp3",
+"lang": "es"
+},
+{
 "text": "账户",
 "path": "zh/02265.mp3",
 "lang": "zh"
@@ -78458,16 +78823,6 @@
 {
 "text": "债券",
 "path": "zh/02322.mp3",
-"lang": "zh"
-},
-{
-"text": "crédito",
-"path": "es/02174.mp3",
-"lang": "es"
-},
-{
-"text": "贷款",
-"path": "zh/02323.mp3",
 "lang": "zh"
 },
 {
