@@ -50,7 +50,10 @@ async def gen_one(text, relpath):
     if exists(relpath):
         return "skip"
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    voice = ES_VOICE if relpath.startswith("audio/es") else ZH_VOICE
+    # 路径形如 "es/00012.mp3" / "zh/00012.mp3"（前缀不含 audio/）。
+    # 历史 bug：这里写成 relpath.startswith("audio/es") 恒为 False，
+    # 导致所有新建的西语音频被 zh-CN-XiaoxiaoNeural 配音再存进 audio/es/ —— 西语全军覆没。
+    voice = ES_VOICE if relpath.startswith("es/") else ZH_VOICE
     for attempt in range(4):
         try:
             comm = Communicate(text, voice)

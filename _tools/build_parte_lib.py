@@ -299,7 +299,11 @@ class Builder:
         for s in self.bp["secs"]:
             for t2 in s.get("sents",[]):
                 self.sent_by_norm.setdefault(norm(t2.get("es","")), t2)
-        self.GES = self._load_global_audio()   # norm(es) -> (ae, az)
+        # 两条索引**必须分开**：西语音频按西语文本复用、中文音频按中文文本复用。
+        # 历史 bug：合并成 norm(es)->(ae,az) 后，新行只要西语词相同，
+        # 就会连带复用那一条的中文音频（如「烤架 parrilla」复用「烧烤 parrilla」的中文配音）。
+        self.GES = self._load_global_audio()   # norm(es_text) -> es_path
+        self.GZH = self._load_global_zh()      # cn_text -> zh_path
 
     def _load_global_audio(self):
         """全站「同一西语文本 -> 已有 es/zh 音频」索引，命中即复用（不再新录）。"""
@@ -328,12 +332,41 @@ class Builder:
             except Exception:
                 continue
             for s in o.get("secs",[]):
+        return m
+
+    def _load_global_zh(self):
+        """全站「同一中文文本 -> 已有 zh 音频」索引。"""
+        m={}
+        for i2 in range(60):
+            fp=os.path.join(BASE,"data/sec/%d.js"%i2)
+            if not os.path.exists(fp): continue
+            t2=open(fp,encoding="utf-8").read()
+            i3=t2.index("={")+1
+            d=0;j=i3;ins=False;esc=False
+            while j<len(t2):
+                c=t2[j]
+                if ins:
+                    if esc: esc=False
+                    elif c=="\\": esc=True
+                    elif c=='\"': ins=False
+                else:
+                    if c=='\"': ins=True
+                    elif c=="{": d+=1
+                    elif c=="}":
+                        d-=1
+                        if d==0: break
+                j+=1
+            try:
+                o=json.loads(t2[i3:j+1])
+            except Exception:
+                continue
+            for s in o.get("secs",[]):
                 for r in s.get("w",[])+s.get("e",[]):
-                    if len(r)>=7 and r[3] and r[4]:
-                        m.setdefault(norm(r[1]), (r[3],r[4]))
+                    if len(r)>=7 and r[4]:
+                        m.setdefault(r[0], r[4])
                 for r in s.get("s",[]):
-                    if len(r)>=7 and r[3] and r[4]:
-                        m.setdefault(norm(r[0]), (r[3],r[4]))
+                    if len(r)>=7 and r[4]:
+                        m.setdefault(r[1], r[4])
         return m
 
     def _next_es(self):
@@ -415,8 +448,11 @@ class Builder:
                 row=[cn,ces_b,pos,b["ae"],b["az"],b["py"],text_ipa(ces_b)]
             self.built[key]=list(row)
             return row, "book"
-        gp=self.GES.get(norm(ces))
-        if gp and os.path.exists(os.path.join(BASE,"audio",gp[0])):
+        raw_es=self.GES.get(norm(ces))
+        raw_zh=self.GZH.get(cn)
+        if raw_es and os.path.exists(os.path.join(BASE,"audio",raw_es)) and \
+           raw_zh and os.path.exists(os.path.join(BASE,"audio",raw_zh)):
+            gp=(raw_es,raw_zh)
             row=[cn,ces,pos,gp[0],gp[1],py(cn),text_ipa(ces)]
             self.built[key]=list(row)
             return row, "reuse"
@@ -462,11 +498,12 @@ class Builder:
                     s_out.append([ces,zh,src,t.get("ae",""),t.get("az",""),t.get("py",""),t.get("ipa","")])
                     stat["s_book"]+=1
                 else:
-                    gp=self.GES.get(norm(ces))
-                    if gp and os.path.exists(os.path.join(BASE,"audio",gp[0])):
-                        s_out.append([ces,zh,src,gp[0],gp[1],py(zh),text_ipa(ces)])
-                        stat["s_reuse"]+=1
-                        continue
+                raw_es=self.GES.get(norm(ces)); raw_zh=self.GZH.get(zh)
+                if raw_es and os.path.exists(os.path.join(BASE,"audio",raw_es)) and \
+                   raw_zh and os.path.exists(os.path.join(BASE,"audio",raw_zh)):
+                    s_out.append([ces,zh,src,raw_es,raw_zh,py(zh),text_ipa(ces)])
+                    stat["s_reuse"]+=1
+                    continue
                     ep=self._next_es(); zp=self._next_zh()
                     self.audio_jobs.append((ces,ep,zh,zp))
                     s_out.append([ces,zh,src,ep,zp,py(zh),text_ipa(ces)])
