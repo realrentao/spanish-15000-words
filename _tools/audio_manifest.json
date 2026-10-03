@@ -677,7 +677,7 @@
 },
 {
 "text": "medianoche",
-"path": "es/00062.mp3",
+"path": "es/09858.mp3",
 "lang": "es"
 },
 {
@@ -3482,7 +3482,7 @@
 },
 {
 "text": "质量好的",
-"path": "zh/07037.mp3",
+"path": "zh/10509.mp3",
 "lang": "zh"
 },
 {
@@ -5287,7 +5287,7 @@
 },
 {
 "text": "有助于",
-"path": "zh/00375.mp3",
+"path": "zh/10510.mp3",
 "lang": "zh"
 },
 {
@@ -13572,7 +13572,7 @@
 },
 {
 "text": "延长",
-"path": "zh/04198.mp3",
+"path": "zh/10518.mp3",
 "lang": "zh"
 },
 {
@@ -13952,7 +13952,7 @@
 },
 {
 "text": "银幕",
-"path": "zh/03077.mp3",
+"path": "zh/10519.mp3",
 "lang": "zh"
 },
 {
@@ -13962,7 +13962,7 @@
 },
 {
 "text": "（办公室中的）文件柜",
-"path": "zh/03127.mp3",
+"path": "zh/10520.mp3",
 "lang": "zh"
 },
 {
@@ -14073,6 +14073,11 @@
 {
 "text": "课桌",
 "path": "zh/03087.mp3",
+"lang": "zh"
+},
+{
+"text": "幕布",
+"path": "zh/03077.mp3",
 "lang": "zh"
 },
 {
@@ -14571,6 +14576,11 @@
 "lang": "zh"
 },
 {
+"text": "衣柜",
+"path": "zh/03127.mp3",
+"lang": "zh"
+},
+{
 "text": "ventilar",
 "path": "es/01365.mp3",
 "lang": "es"
@@ -14617,7 +14627,7 @@
 },
 {
 "text": "被子",
-"path": "zh/01060.mp3",
+"path": "zh/10521.mp3",
 "lang": "zh"
 },
 {
@@ -14862,7 +14872,7 @@
 },
 {
 "text": "画夹",
-"path": "zh/03892.mp3",
+"path": "zh/10522.mp3",
 "lang": "zh"
 },
 {
@@ -15331,6 +15341,11 @@
 "lang": "zh"
 },
 {
+"text": "讲话",
+"path": "zh/10523.mp3",
+"lang": "zh"
+},
+{
 "text": "La tarjeta de estudiante te da derecho a un descuento en los viajes.",
 "path": "es/07385.mp3",
 "lang": "es"
@@ -15447,7 +15462,7 @@
 },
 {
 "text": "海洋科学",
-"path": "zh/03614.mp3",
+"path": "zh/10524.mp3",
 "lang": "zh"
 },
 {
@@ -15661,6 +15676,11 @@
 "lang": "zh"
 },
 {
+"text": "日报",
+"path": "zh/10525.mp3",
+"lang": "zh"
+},
+{
 "text": "diccionario",
 "path": "es/02974.mp3",
 "lang": "es"
@@ -15737,7 +15757,7 @@
 },
 {
 "text": "到期的",
-"path": "zh/05542.mp3",
+"path": "zh/10526.mp3",
 "lang": "zh"
 },
 {
@@ -16862,7 +16882,7 @@
 },
 {
 "text": "赞助",
-"path": "zh/05769.mp3",
+"path": "zh/10527.mp3",
 "lang": "zh"
 },
 {
@@ -17587,7 +17607,7 @@
 },
 {
 "text": "截止日期",
-"path": "zh/07616.mp3",
+"path": "zh/10528.mp3",
 "lang": "zh"
 },
 {
@@ -18406,6 +18426,11 @@
 "lang": "zh"
 },
 {
+"text": "永恒地，永久地",
+"path": "zh/10529.mp3",
+"lang": "zh"
+},
+{
 "text": "psicológico",
 "path": "es/03177.mp3",
 "lang": "es"
@@ -18612,7 +18637,7 @@
 },
 {
 "text": "语调",
-"path": "zh/04848.mp3",
+"path": "zh/10530.mp3",
 "lang": "zh"
 },
 {
@@ -19647,7 +19672,7 @@
 },
 {
 "text": "（事件等的）发生地点",
-"path": "zh/04865.mp3",
+"path": "zh/10531.mp3",
 "lang": "zh"
 },
 {
@@ -20082,7 +20107,7 @@
 },
 {
 "text": "卷",
-"path": "zh/02010.mp3",
+"path": "zh/10532.mp3",
 "lang": "zh"
 },
 {
@@ -22502,7 +22527,7 @@
 },
 {
 "text": "调料",
-"path": "zh/00661.mp3",
+"path": "zh/10511.mp3",
 "lang": "zh"
 },
 {
@@ -25636,6 +25661,11 @@
 "lang": "zh"
 },
 {
+"text": "海洋学",
+"path": "zh/03614.mp3",
+"lang": "zh"
+},
+{
 "text": "geología",
 "path": "es/03322.mp3",
 "lang": "es"
@@ -25917,7 +25947,7 @@
 },
 {
 "text": "电容",
-"path": "zh/05362.mp3",
+"path": "zh/10533.mp3",
 "lang": "zh"
 },
 {
@@ -25972,7 +26002,7 @@
 },
 {
 "text": "被影响的",
-"path": "zh/03645.mp3",
+"path": "zh/10534.mp3",
 "lang": "zh"
 },
 {
@@ -26483,6 +26513,11 @@
 {
 "text": "减号",
 "path": "zh/08198.mp3",
+"lang": "zh"
+},
+{
+"text": "等号",
+"path": "zh/10535.mp3",
 "lang": "zh"
 },
 {
@@ -27298,6 +27333,11 @@
 {
 "text": "敏锐的",
 "path": "zh/03746.mp3",
+"lang": "zh"
+},
+{
+"text": "有进取心的",
+"path": "zh/10536.mp3",
 "lang": "zh"
 },
 {
@@ -28221,6 +28261,11 @@
 "lang": "zh"
 },
 {
+"text": "扣除",
+"path": "zh/10537.mp3",
+"lang": "zh"
+},
+{
 "text": "ingreso",
 "path": "es/00970.mp3",
 "lang": "es"
@@ -28432,7 +28477,7 @@
 },
 {
 "text": "承保人",
-"path": "zh/03839.mp3",
+"path": "zh/10538.mp3",
 "lang": "zh"
 },
 {
@@ -28778,6 +28823,11 @@
 {
 "text": "人事部",
 "path": "zh/08277.mp3",
+"lang": "zh"
+},
+{
+"text": "财务处",
+"path": "zh/10539.mp3",
 "lang": "zh"
 },
 {
@@ -29141,6 +29191,11 @@
 "lang": "zh"
 },
 {
+"text": "文件夹",
+"path": "zh/03892.mp3",
+"lang": "zh"
+},
+{
 "text": "empleados de oficina",
 "path": "es/07764.mp3",
 "lang": "es"
@@ -29158,6 +29213,11 @@
 {
 "text": "金领",
 "path": "zh/08416.mp3",
+"lang": "zh"
+},
+{
+"text": "废纸篓",
+"path": "zh/10540.mp3",
 "lang": "zh"
 },
 {
@@ -29199,6 +29259,11 @@
 "text": "propuesta",
 "path": "es/05058.mp3",
 "lang": "es"
+},
+{
+"text": "建议，提议",
+"path": "zh/10541.mp3",
+"lang": "zh"
 },
 {
 "text": "cuaderno",
@@ -29352,7 +29417,7 @@
 },
 {
 "text": "笔记本电脑",
-"path": "zh/06578.mp3",
+"path": "zh/10542.mp3",
 "lang": "zh"
 },
 {
@@ -29732,7 +29797,7 @@
 },
 {
 "text": "他想要刻录一张光盘。",
-"path": "zh/03938.mp3",
+"path": "zh/10543.mp3",
 "lang": "zh"
 },
 {
@@ -29748,6 +29813,11 @@
 {
 "text": "会议室",
 "path": "zh/08434.mp3",
+"lang": "zh"
+},
+{
+"text": "主持人",
+"path": "zh/10544.mp3",
 "lang": "zh"
 },
 {
@@ -29832,7 +29902,7 @@
 },
 {
 "text": "议事单",
-"path": "zh/01649.mp3",
+"path": "zh/10545.mp3",
 "lang": "zh"
 },
 {
@@ -29956,6 +30026,11 @@
 "lang": "zh"
 },
 {
+"text": "剪切",
+"path": "zh/10546.mp3",
+"lang": "zh"
+},
+{
 "text": "doble clic",
 "path": "es/07792.mp3",
 "lang": "es"
@@ -29991,13 +30066,18 @@
 "lang": "zh"
 },
 {
+"text": "睡眠",
+"path": "zh/10547.mp3",
+"lang": "zh"
+},
+{
 "text": "reproducir",
 "path": "es/03913.mp3",
 "lang": "es"
 },
 {
 "text": "播放",
-"path": "zh/04301.mp3",
+"path": "zh/10548.mp3",
 "lang": "zh"
 },
 {
@@ -30037,7 +30117,7 @@
 },
 {
 "text": "锁定",
-"path": "zh/01005.mp3",
+"path": "zh/10549.mp3",
 "lang": "zh"
 },
 {
@@ -30711,6 +30791,11 @@
 "lang": "zh"
 },
 {
+"text": "幻想",
+"path": "zh/10550.mp3",
+"lang": "zh"
+},
+{
 "text": "modestia",
 "path": "es/03665.mp3",
 "lang": "es"
@@ -30718,6 +30803,11 @@
 {
 "text": "谦虚，谦逊",
 "path": "zh/04024.mp3",
+"lang": "zh"
+},
+{
+"text": "增进，促进",
+"path": "zh/00375.mp3",
 "lang": "zh"
 },
 {
@@ -30952,7 +31042,7 @@
 },
 {
 "text": "抱怨",
-"path": "zh/05924.mp3",
+"path": "zh/10551.mp3",
 "lang": "zh"
 },
 {
@@ -31941,6 +32031,11 @@
 "lang": "zh"
 },
 {
+"text": "超过",
+"path": "zh/10552.mp3",
+"lang": "zh"
+},
+{
 "text": "mercado",
 "path": "es/03760.mp3",
 "lang": "es"
@@ -32136,6 +32231,11 @@
 "lang": "zh"
 },
 {
+"text": "受欢迎的",
+"path": "zh/10553.mp3",
+"lang": "zh"
+},
+{
 "text": "inserto",
 "path": "es/03771.mp3",
 "lang": "es"
@@ -32291,6 +32391,11 @@
 "lang": "zh"
 },
 {
+"text": "赞助",
+"path": "zh/10554.mp3",
+"lang": "zh"
+},
+{
 "text": "展览场地",
 "path": "zh/04154.mp3",
 "lang": "zh"
@@ -32327,7 +32432,7 @@
 },
 {
 "text": "显眼的",
-"path": "zh/04158.mp3",
+"path": "zh/10555.mp3",
 "lang": "zh"
 },
 {
@@ -32401,6 +32506,11 @@
 "lang": "zh"
 },
 {
+"text": "好质量",
+"path": "zh/07037.mp3",
+"lang": "zh"
+},
+{
 "text": "comparación",
 "path": "es/03793.mp3",
 "lang": "es"
@@ -32447,7 +32557,7 @@
 },
 {
 "text": "各种各样的",
-"path": "zh/04934.mp3",
+"path": "zh/10556.mp3",
 "lang": "zh"
 },
 {
@@ -32473,6 +32583,11 @@
 {
 "text": "用法说明",
 "path": "zh/04169.mp3",
+"lang": "zh"
+},
+{
+"text": "全世界的",
+"path": "zh/10557.mp3",
 "lang": "zh"
 },
 {
@@ -32796,6 +32911,11 @@
 "lang": "zh"
 },
 {
+"text": "推迟",
+"path": "zh/04198.mp3",
+"lang": "zh"
+},
+{
 "text": "探讨",
 "path": "zh/04199.mp3",
 "lang": "zh"
@@ -32853,6 +32973,11 @@
 {
 "text": "难处理的",
 "path": "zh/04203.mp3",
+"lang": "zh"
+},
+{
+"text": "反对",
+"path": "zh/10558.mp3",
 "lang": "zh"
 },
 {
@@ -33442,7 +33567,7 @@
 },
 {
 "text": "终点，目的地",
-"path": "zh/01451.mp3",
+"path": "zh/10559.mp3",
 "lang": "zh"
 },
 {
@@ -33986,6 +34111,11 @@
 "lang": "zh"
 },
 {
+"text": "再次发生",
+"path": "zh/04301.mp3",
+"lang": "zh"
+},
+{
 "text": "formulario de solicitud del seguro",
 "path": "es/07925.mp3",
 "lang": "es"
@@ -34003,6 +34133,11 @@
 {
 "text": "保险合同",
 "path": "zh/08577.mp3",
+"lang": "zh"
+},
+{
+"text": "保险承保人",
+"path": "zh/03839.mp3",
 "lang": "zh"
 },
 {
@@ -34692,7 +34827,7 @@
 },
 {
 "text": "磨砂膏",
-"path": "zh/04356.mp3",
+"path": "zh/10560.mp3",
 "lang": "zh"
 },
 {
@@ -34763,6 +34898,11 @@
 {
 "text": "润肤液",
 "path": "zh/01083.mp3",
+"lang": "zh"
+},
+{
+"text": "去死皮的",
+"path": "zh/04356.mp3",
 "lang": "zh"
 },
 {
@@ -35561,6 +35701,11 @@
 "lang": "zh"
 },
 {
+"text": "调味品",
+"path": "zh/00661.mp3",
+"lang": "zh"
+},
+{
 "text": "extremadamente",
 "path": "es/04016.mp3",
 "lang": "es"
@@ -36306,6 +36451,11 @@
 "lang": "zh"
 },
 {
+"text": "葱",
+"path": "zh/10561.mp3",
+"lang": "zh"
+},
+{
 "text": "lechuga",
 "path": "es/04074.mp3",
 "lang": "es"
@@ -36382,7 +36532,7 @@
 },
 {
 "text": "卷心菜",
-"path": "zh/02459.mp3",
+"path": "zh/10562.mp3",
 "lang": "zh"
 },
 {
@@ -36458,6 +36608,11 @@
 {
 "text": "豌豆",
 "path": "zh/04497.mp3",
+"lang": "zh"
+},
+{
+"text": "丝瓜",
+"path": "zh/10563.mp3",
 "lang": "zh"
 },
 {
@@ -37156,6 +37311,11 @@
 "lang": "zh"
 },
 {
+"text": "肉",
+"path": "zh/10564.mp3",
+"lang": "zh"
+},
+{
 "text": "caballo",
 "path": "es/01644.mp3",
 "lang": "es"
@@ -37263,6 +37423,16 @@
 {
 "text": "绞肉机",
 "path": "zh/08701.mp3",
+"lang": "zh"
+},
+{
+"text": "肥肉",
+"path": "zh/10565.mp3",
+"lang": "zh"
+},
+{
+"text": "生的，未煮熟的",
+"path": "zh/10566.mp3",
 "lang": "zh"
 },
 {
@@ -38016,6 +38186,11 @@
 "lang": "es"
 },
 {
+"text": "烤架",
+"path": "zh/10567.mp3",
+"lang": "zh"
+},
+{
 "text": "bombilla eléctrica",
 "path": "es/08072.mp3",
 "lang": "es"
@@ -38203,6 +38378,11 @@
 {
 "text": "清仓",
 "path": "zh/04652.mp3",
+"lang": "zh"
+},
+{
+"text": "大甩卖",
+"path": "zh/10568.mp3",
 "lang": "zh"
 },
 {
@@ -40601,6 +40781,11 @@
 "lang": "zh"
 },
 {
+"text": "音调",
+"path": "zh/04848.mp3",
+"lang": "zh"
+},
+{
 "text": "amortiguador",
 "path": "es/04392.mp3",
 "lang": "es"
@@ -40617,7 +40802,7 @@
 },
 {
 "text": "踏板",
-"path": "zh/01822.mp3",
+"path": "zh/10569.mp3",
 "lang": "zh"
 },
 {
@@ -40783,6 +40968,11 @@
 {
 "text": "舞台",
 "path": "zh/04864.mp3",
+"lang": "zh"
+},
+{
+"text": "舞台，场景",
+"path": "zh/04865.mp3",
 "lang": "zh"
 },
 {
@@ -41578,6 +41768,11 @@
 {
 "text": "很快地，迅速地",
 "path": "zh/04933.mp3",
+"lang": "zh"
+},
+{
+"text": "不同的",
+"path": "zh/04934.mp3",
 "lang": "zh"
 },
 {
@@ -43487,7 +43682,7 @@
 },
 {
 "text": "量器",
-"path": "zh/01812.mp3",
+"path": "zh/10570.mp3",
 "lang": "zh"
 },
 {
@@ -44447,7 +44642,7 @@
 },
 {
 "text": "新闻短片",
-"path": "zh/05176.mp3",
+"path": "zh/10571.mp3",
 "lang": "zh"
 },
 {
@@ -44581,6 +44776,11 @@
 "lang": "zh"
 },
 {
+"text": "摇滚乐",
+"path": "zh/10572.mp3",
+"lang": "zh"
+},
+{
 "text": "rap",
 "path": "es/08438.mp3",
 "lang": "es"
@@ -44669,6 +44869,11 @@
 "text": "escala",
 "path": "es/02379.mp3",
 "lang": "es"
+},
+{
+"text": "音阶",
+"path": "zh/10573.mp3",
+"lang": "zh"
 },
 {
 "text": "coro",
@@ -45631,6 +45836,11 @@
 "lang": "zh"
 },
 {
+"text": "锁",
+"path": "zh/01005.mp3",
+"lang": "zh"
+},
+{
 "text": "llave",
 "path": "es/00966.mp3",
 "lang": "es"
@@ -46126,6 +46336,11 @@
 "lang": "zh"
 },
 {
+"text": "毛毯",
+"path": "zh/01060.mp3",
+"lang": "zh"
+},
+{
 "text": "ropa de cama",
 "path": "es/06467.mp3",
 "lang": "es"
@@ -46598,6 +46813,11 @@
 {
 "text": "漫画",
 "path": "zh/01108.mp3",
+"lang": "zh"
+},
+{
+"text": "硬的",
+"path": "zh/10637.mp3",
 "lang": "zh"
 },
 {
@@ -48811,6 +49031,11 @@
 "lang": "zh"
 },
 {
+"text": "报纸",
+"path": "zh/10574.mp3",
+"lang": "zh"
+},
+{
 "text": "periódicamente",
 "path": "es/04701.mp3",
 "lang": "es"
@@ -48876,6 +49101,11 @@
 "lang": "zh"
 },
 {
+"text": "日报",
+"path": "zh/10575.mp3",
+"lang": "zh"
+},
+{
 "text": "periódicos de la mañana",
 "path": "es/08502.mp3",
 "lang": "es"
@@ -48903,6 +49133,11 @@
 {
 "text": "提前出版的",
 "path": "zh/09155.mp3",
+"lang": "zh"
+},
+{
+"text": "新闻",
+"path": "zh/05176.mp3",
 "lang": "zh"
 },
 {
@@ -48943,6 +49178,11 @@
 {
 "text": "特派记者",
 "path": "zh/09158.mp3",
+"lang": "zh"
+},
+{
+"text": "文摘",
+"path": "zh/10576.mp3",
 "lang": "zh"
 },
 {
@@ -49433,6 +49673,11 @@
 {
 "text": "体力",
 "path": "zh/09217.mp3",
+"lang": "zh"
+},
+{
+"text": "法师",
+"path": "zh/10577.mp3",
 "lang": "zh"
 },
 {
@@ -50872,7 +51117,7 @@
 },
 {
 "text": "中间的",
-"path": "zh/01473.mp3",
+"path": "zh/10578.mp3",
 "lang": "zh"
 },
 {
@@ -50883,6 +51128,11 @@
 {
 "text": "前面",
 "path": "zh/09356.mp3",
+"lang": "zh"
+},
+{
+"text": "容量",
+"path": "zh/05362.mp3",
 "lang": "zh"
 },
 {
@@ -50968,6 +51218,11 @@
 {
 "text": "锦标赛",
 "path": "zh/05371.mp3",
+"lang": "zh"
+},
+{
+"text": "预选赛",
+"path": "zh/10579.mp3",
 "lang": "zh"
 },
 {
@@ -51132,7 +51387,7 @@
 },
 {
 "text": "前锋",
-"path": "zh/05407.mp3",
+"path": "zh/10580.mp3",
 "lang": "zh"
 },
 {
@@ -51192,12 +51447,17 @@
 },
 {
 "text": "边锋队员",
-"path": "zh/01777.mp3",
+"path": "zh/10581.mp3",
 "lang": "zh"
 },
 {
 "text": "代表队",
 "path": "zh/05389.mp3",
+"lang": "zh"
+},
+{
+"text": "领队",
+"path": "zh/10582.mp3",
 "lang": "zh"
 },
 {
@@ -51446,6 +51706,11 @@
 "lang": "zh"
 },
 {
+"text": "足球的前锋",
+"path": "zh/05407.mp3",
+"lang": "zh"
+},
+{
 "text": "centrocampista",
 "path": "es/08729.mp3",
 "lang": "es"
@@ -51582,7 +51847,7 @@
 },
 {
 "text": "接球手",
-"path": "zh/05429.mp3",
+"path": "zh/10583.mp3",
 "lang": "zh"
 },
 {
@@ -51628,6 +51893,11 @@
 {
 "text": "外场手",
 "path": "zh/05419.mp3",
+"lang": "zh"
+},
+{
+"text": "垒",
+"path": "zh/10584.mp3",
 "lang": "zh"
 },
 {
@@ -51793,6 +52063,11 @@
 {
 "text": "击球手",
 "path": "zh/05428.mp3",
+"lang": "zh"
+},
+{
+"text": "捕手",
+"path": "zh/05429.mp3",
 "lang": "zh"
 },
 {
@@ -52136,6 +52411,16 @@
 "lang": "zh"
 },
 {
+"text": "拳击家",
+"path": "zh/10585.mp3",
+"lang": "zh"
+},
+{
+"text": "打",
+"path": "zh/10586.mp3",
+"lang": "zh"
+},
+{
 "text": "vértigo",
 "path": "es/04907.mp3",
 "lang": "es"
@@ -52373,6 +52658,11 @@
 {
 "text": "炎热的",
 "path": "zh/05479.mp3",
+"lang": "zh"
+},
+{
+"text": "位于",
+"path": "zh/10587.mp3",
 "lang": "zh"
 },
 {
@@ -53031,6 +53321,11 @@
 "lang": "zh"
 },
 {
+"text": "雨量",
+"path": "zh/10588.mp3",
+"lang": "zh"
+},
+{
 "text": "condensación",
 "path": "es/02697.mp3",
 "lang": "es"
@@ -53053,6 +53348,11 @@
 {
 "text": "下雨",
 "path": "zh/01831.mp3",
+"lang": "zh"
+},
+{
+"text": "行将结束的，即将完结的",
+"path": "zh/05542.mp3",
 "lang": "zh"
 },
 {
@@ -53628,6 +53928,11 @@
 {
 "text": "sol",
 "path": "es/05011.mp3",
+"lang": "es"
+},
+{
+"text": "media noche",
+"path": "es/00062.mp3",
 "lang": "es"
 },
 {
@@ -55221,6 +55526,11 @@
 "lang": "zh"
 },
 {
+"text": "纪念品",
+"path": "zh/10589.mp3",
+"lang": "zh"
+},
+{
 "text": "cuaderno de viaje",
 "path": "es/08854.mp3",
 "lang": "es"
@@ -55666,6 +55976,11 @@
 "lang": "zh"
 },
 {
+"text": "解开，松开",
+"path": "zh/10590.mp3",
+"lang": "zh"
+},
+{
 "text": "envolver",
 "path": "es/05159.mp3",
 "lang": "es"
@@ -55796,6 +56111,11 @@
 "lang": "zh"
 },
 {
+"text": "曝光",
+"path": "zh/10591.mp3",
+"lang": "zh"
+},
+{
 "text": "obturador",
 "path": "es/05169.mp3",
 "lang": "es"
@@ -55849,6 +56169,11 @@
 "text": "proteger",
 "path": "es/05172.mp3",
 "lang": "es"
+},
+{
+"text": "庇护",
+"path": "zh/05769.mp3",
+"lang": "zh"
 },
 {
 "text": "Para un actor, la cámara son los ojos del público.",
@@ -57466,6 +57791,11 @@
 "lang": "zh"
 },
 {
+"text": "投票者",
+"path": "zh/10592.mp3",
+"lang": "zh"
+},
+{
 "text": "urna",
 "path": "es/05276.mp3",
 "lang": "es"
@@ -57522,7 +57852,7 @@
 },
 {
 "text": "参与",
-"path": "zh/05893.mp3",
+"path": "zh/10593.mp3",
 "lang": "zh"
 },
 {
@@ -57622,7 +57952,7 @@
 },
 {
 "text": "庇护",
-"path": "zh/01437.mp3",
+"path": "zh/10594.mp3",
 "lang": "zh"
 },
 {
@@ -57873,6 +58203,11 @@
 {
 "text": "领事的",
 "path": "zh/05923.mp3",
+"lang": "zh"
+},
+{
+"text": "抗议",
+"path": "zh/05924.mp3",
 "lang": "zh"
 },
 {
@@ -59156,6 +59491,11 @@
 "lang": "zh"
 },
 {
+"text": "英镑",
+"path": "zh/10595.mp3",
+"lang": "zh"
+},
+{
 "text": "yen",
 "path": "es/09131.mp3",
 "lang": "es"
@@ -59166,13 +59506,18 @@
 "lang": "zh"
 },
 {
+"text": "比索",
+"path": "zh/10596.mp3",
+"lang": "zh"
+},
+{
 "text": "franco",
 "path": "es/01466.mp3",
 "lang": "es"
 },
 {
 "text": "法郎",
-"path": "zh/01538.mp3",
+"path": "zh/10597.mp3",
 "lang": "zh"
 },
 {
@@ -59188,6 +59533,11 @@
 {
 "text": "硬币",
 "path": "zh/02288.mp3",
+"lang": "zh"
+},
+{
+"text": "流通",
+"path": "zh/10598.mp3",
 "lang": "zh"
 },
 {
@@ -60597,6 +60947,11 @@
 },
 {
 "text": "高利贷",
+"path": "zh/10599.mp3",
+"lang": "zh"
+},
+{
+"text": "放债，放高利贷",
 "path": "zh/06110.mp3",
 "lang": "zh"
 },
@@ -60617,7 +60972,7 @@
 },
 {
 "text": "信贷，贷款",
-"path": "zh/02323.mp3",
+"path": "zh/10600.mp3",
 "lang": "zh"
 },
 {
@@ -60988,6 +61343,11 @@
 {
 "text": "汇率",
 "path": "zh/09844.mp3",
+"lang": "zh"
+},
+{
+"text": "兑换率",
+"path": "zh/10601.mp3",
 "lang": "zh"
 },
 {
@@ -61876,6 +62236,11 @@
 "lang": "zh"
 },
 {
+"text": "（教堂等处的）钟楼，尖塔",
+"path": "zh/10602.mp3",
+"lang": "zh"
+},
+{
 "text": "existencia",
 "path": "es/05539.mp3",
 "lang": "es"
@@ -62703,6 +63068,11 @@
 {
 "text": "保护",
 "path": "zh/06285.mp3",
+"lang": "zh"
+},
+{
+"text": "强迫，迫使",
+"path": "zh/10603.mp3",
 "lang": "zh"
 },
 {
@@ -64431,6 +64801,11 @@
 "lang": "zh"
 },
 {
+"text": "保护，救助",
+"path": "zh/01437.mp3",
+"lang": "zh"
+},
+{
 "text": "provocar",
 "path": "es/01373.mp3",
 "lang": "es"
@@ -64558,6 +64933,11 @@
 {
 "text": "车票",
 "path": "zh/01449.mp3",
+"lang": "zh"
+},
+{
+"text": "目的地",
+"path": "zh/01451.mp3",
 "lang": "zh"
 },
 {
@@ -64783,6 +65163,11 @@
 {
 "text": "最后，总之",
 "path": "zh/01472.mp3",
+"lang": "zh"
+},
+{
+"text": "中央的",
+"path": "zh/01473.mp3",
 "lang": "zh"
 },
 {
@@ -65327,7 +65712,7 @@
 },
 {
 "text": "说明，解释；辩白",
-"path": "zh/01529.mp3",
+"path": "zh/10513.mp3",
 "lang": "zh"
 },
 {
@@ -65433,6 +65818,11 @@
 {
 "text": "时间表",
 "path": "zh/07342.mp3",
+"lang": "zh"
+},
+{
+"text": "免税的",
+"path": "zh/01538.mp3",
 "lang": "zh"
 },
 {
@@ -66703,6 +67093,11 @@
 {
 "text": "免税港",
 "path": "zh/07386.mp3",
+"lang": "zh"
+},
+{
+"text": "手续",
+"path": "zh/01649.mp3",
 "lang": "zh"
 },
 {
@@ -68201,6 +68596,11 @@
 "lang": "zh"
 },
 {
+"text": "机翼",
+"path": "zh/01777.mp3",
+"lang": "zh"
+},
+{
 "text": "alerón",
 "path": "es/01684.mp3",
 "lang": "es"
@@ -68631,6 +69031,11 @@
 "lang": "zh"
 },
 {
+"text": "方法，措施",
+"path": "zh/01812.mp3",
+"lang": "zh"
+},
+{
 "text": "fabricación",
 "path": "es/01713.mp3",
 "lang": "es"
@@ -68708,6 +69113,11 @@
 {
 "text": "刹车",
 "path": "zh/01820.mp3",
+"lang": "zh"
+},
+{
+"text": "脚踏板",
+"path": "zh/01822.mp3",
 "lang": "zh"
 },
 {
@@ -69008,6 +69418,11 @@
 {
 "text": "严厉地",
 "path": "zh/06360.mp3",
+"lang": "zh"
+},
+{
+"text": "证明…有理由",
+"path": "zh/01529.mp3",
 "lang": "zh"
 },
 {
@@ -69341,6 +69756,11 @@
 "lang": "zh"
 },
 {
+"text": "听证",
+"path": "zh/10604.mp3",
+"lang": "zh"
+},
+{
 "text": "litigio",
 "path": "es/05690.mp3",
 "lang": "es"
@@ -69583,6 +70003,11 @@
 {
 "text": "被捕者坦率地说自己是无罪的。",
 "path": "zh/06412.mp3",
+"lang": "zh"
+},
+{
+"text": "军事的，军人",
+"path": "zh/10605.mp3",
 "lang": "zh"
 },
 {
@@ -70616,6 +71041,11 @@
 "lang": "zh"
 },
 {
+"text": "歼击机",
+"path": "zh/10606.mp3",
+"lang": "zh"
+},
+{
 "text": "avión de caza",
 "path": "es/09406.mp3",
 "lang": "es"
@@ -70841,6 +71271,11 @@
 "lang": "zh"
 },
 {
+"text": "太空，宇宙，空间",
+"path": "zh/10607.mp3",
+"lang": "zh"
+},
+{
 "text": "cielo",
 "path": "es/05793.mp3",
 "lang": "es"
@@ -71041,6 +71476,11 @@
 "lang": "zh"
 },
 {
+"text": "宇宙飞船",
+"path": "zh/10608.mp3",
+"lang": "zh"
+},
+{
 "text": "transbordador espacial",
 "path": "es/09430.mp3",
 "lang": "es"
@@ -71068,6 +71508,11 @@
 {
 "text": "火箭",
 "path": "zh/06528.mp3",
+"lang": "zh"
+},
+{
+"text": "太空船",
+"path": "zh/10609.mp3",
 "lang": "zh"
 },
 {
@@ -71601,6 +72046,11 @@
 "lang": "zh"
 },
 {
+"text": "记录",
+"path": "zh/10610.mp3",
+"lang": "zh"
+},
+{
 "text": "读取",
 "path": "zh/06575.mp3",
 "lang": "zh"
@@ -71621,6 +72071,11 @@
 "lang": "zh"
 },
 {
+"text": "便于携带的",
+"path": "zh/06578.mp3",
+"lang": "zh"
+},
+{
 "text": "Espero tener la oportunidad de trabajar con el fabricante de la placa de circuito electrónico, juntos creamos un espacio para el desarrollo.",
 "path": "es/05848.mp3",
 "lang": "es"
@@ -71638,6 +72093,11 @@
 {
 "text": "你是电子书的使用者吗？",
 "path": "zh/06580.mp3",
+"lang": "zh"
+},
+{
+"text": "他想刻录一张光盘。",
+"path": "zh/03938.mp3",
 "lang": "zh"
 },
 {
@@ -72381,6 +72841,11 @@
 "lang": "zh"
 },
 {
+"text": "山口",
+"path": "zh/10611.mp3",
+"lang": "zh"
+},
+{
 "text": "ladera de la montaña",
 "path": "es/09499.mp3",
 "lang": "es"
@@ -72448,6 +72913,11 @@
 {
 "text": "扑灭",
 "path": "zh/06641.mp3",
+"lang": "zh"
+},
+{
+"text": "粗心大意",
+"path": "zh/10612.mp3",
 "lang": "zh"
 },
 {
@@ -73111,6 +73581,11 @@
 "lang": "zh"
 },
 {
+"text": "受灾者",
+"path": "zh/10613.mp3",
+"lang": "zh"
+},
+{
 "text": "vigilancia",
 "path": "es/09519.mp3",
 "lang": "es"
@@ -73644,6 +74119,11 @@
 "text": "quemar",
 "path": "es/06004.mp3",
 "lang": "es"
+},
+{
+"text": "残余",
+"path": "zh/10614.mp3",
+"lang": "zh"
 },
 {
 "text": "灭火器",
@@ -74396,6 +74876,11 @@
 "lang": "zh"
 },
 {
+"text": "扒窃",
+"path": "zh/10615.mp3",
+"lang": "zh"
+},
+{
 "text": "rasguño desde cero",
 "path": "es/09541.mp3",
 "lang": "es"
@@ -74453,6 +74938,11 @@
 {
 "text": "半成品",
 "path": "zh/10197.mp3",
+"lang": "zh"
+},
+{
+"text": "包袱",
+"path": "zh/10616.mp3",
 "lang": "zh"
 },
 {
@@ -74596,6 +75086,11 @@
 "lang": "zh"
 },
 {
+"text": "菜鸟",
+"path": "zh/10617.mp3",
+"lang": "zh"
+},
+{
 "text": "grado regado",
 "path": "es/09561.mp3",
 "lang": "es"
@@ -74673,6 +75168,11 @@
 {
 "text": "吃闲饭",
 "path": "zh/10219.mp3",
+"lang": "zh"
+},
+{
+"text": "吃香",
+"path": "zh/10618.mp3",
 "lang": "zh"
 },
 {
@@ -74852,7 +75352,7 @@
 },
 {
 "text": "单眼皮",
-"path": "zh/01847.mp3",
+"path": "zh/10619.mp3",
 "lang": "zh"
 },
 {
@@ -74903,6 +75403,11 @@
 {
 "text": "第一夫人",
 "path": "zh/10241.mp3",
+"lang": "zh"
+},
+{
+"text": "电灯泡",
+"path": "zh/10620.mp3",
 "lang": "zh"
 },
 {
@@ -75163,6 +75668,11 @@
 {
 "text": "方便食品",
 "path": "zh/10267.mp3",
+"lang": "zh"
+},
+{
+"text": "房地产",
+"path": "zh/10621.mp3",
 "lang": "zh"
 },
 {
@@ -75446,6 +75956,11 @@
 "lang": "zh"
 },
 {
+"text": "构想",
+"path": "zh/10622.mp3",
+"lang": "zh"
+},
+{
 "text": "poder adquisitivo",
 "path": "es/09645.mp3",
 "lang": "es"
@@ -75503,6 +76018,11 @@
 {
 "text": "挂失",
 "path": "zh/10301.mp3",
+"lang": "zh"
+},
+{
+"text": "挂职",
+"path": "zh/04158.mp3",
 "lang": "zh"
 },
 {
@@ -75613,6 +76133,11 @@
 {
 "text": "光缆",
 "path": "zh/10312.mp3",
+"lang": "zh"
+},
+{
+"text": "广而告之",
+"path": "zh/10623.mp3",
 "lang": "zh"
 },
 {
@@ -76216,6 +76741,16 @@
 "lang": "zh"
 },
 {
+"text": "僵尸",
+"path": "zh/10624.mp3",
+"lang": "zh"
+},
+{
+"text": "降雨量",
+"path": "zh/10625.mp3",
+"lang": "zh"
+},
+{
 "text": "dar más aire",
 "path": "es/09722.mp3",
 "lang": "es"
@@ -76296,6 +76831,11 @@
 "lang": "zh"
 },
 {
+"text": "经济萧条",
+"path": "zh/10626.mp3",
+"lang": "zh"
+},
+{
 "text": "ganancia económica",
 "path": "es/09730.mp3",
 "lang": "es"
@@ -76333,6 +76873,11 @@
 {
 "text": "精简机构",
 "path": "zh/10384.mp3",
+"lang": "zh"
+},
+{
+"text": "精品",
+"path": "zh/10627.mp3",
 "lang": "zh"
 },
 {
@@ -76423,6 +76968,11 @@
 {
 "text": "开工令",
 "path": "zh/10393.mp3",
+"lang": "zh"
+},
+{
+"text": "开光",
+"path": "zh/10628.mp3",
 "lang": "zh"
 },
 {
@@ -76526,6 +77076,11 @@
 "lang": "zh"
 },
 {
+"text": "口碑",
+"path": "zh/10629.mp3",
+"lang": "zh"
+},
+{
 "text": "muletille",
 "path": "es/09753.mp3",
 "lang": "es"
@@ -76556,6 +77111,11 @@
 "lang": "zh"
 },
 {
+"text": "跨国公司",
+"path": "zh/10630.mp3",
+"lang": "zh"
+},
+{
 "text": "comida rápida",
 "path": "es/09756.mp3",
 "lang": "es"
@@ -76573,6 +77133,11 @@
 {
 "text": "快递",
 "path": "zh/10408.mp3",
+"lang": "zh"
+},
+{
+"text": "马大哈",
+"path": "zh/10631.mp3",
 "lang": "zh"
 },
 {
@@ -76776,6 +77341,11 @@
 "lang": "zh"
 },
 {
+"text": "配额",
+"path": "zh/10632.mp3",
+"lang": "zh"
+},
+{
 "text": "barriada",
 "path": "es/09778.mp3",
 "lang": "es"
@@ -76793,6 +77363,11 @@
 {
 "text": "碰钉子",
 "path": "zh/10430.mp3",
+"lang": "zh"
+},
+{
+"text": "劈腿",
+"path": "zh/10633.mp3",
 "lang": "zh"
 },
 {
@@ -77056,6 +77631,11 @@
 "lang": "zh"
 },
 {
+"text": "倾销",
+"path": "zh/10634.mp3",
+"lang": "zh"
+},
+{
 "text": "canción de amor",
 "path": "es/09806.mp3",
 "lang": "es"
@@ -77063,6 +77643,11 @@
 {
 "text": "情歌",
 "path": "zh/10457.mp3",
+"lang": "zh"
+},
+{
+"text": "情节",
+"path": "zh/10635.mp3",
 "lang": "zh"
 },
 {
@@ -77253,6 +77838,16 @@
 {
 "text": "荣誉",
 "path": "zh/10476.mp3",
+"lang": "zh"
+},
+{
+"text": "入场",
+"path": "zh/10636.mp3",
+"lang": "zh"
+},
+{
+"text": "入股",
+"path": "zh/05893.mp3",
 "lang": "zh"
 },
 {
@@ -77556,6 +78151,11 @@
 "lang": "zh"
 },
 {
+"text": "灾民",
+"path": "zh/03645.mp3",
+"lang": "zh"
+},
+{
 "text": "estafa",
 "path": "es/09856.mp3",
 "lang": "es"
@@ -77718,6 +78318,11 @@
 {
 "text": "下巴",
 "path": "zh/01846.mp3",
+"lang": "zh"
+},
+{
+"text": "眼皮",
+"path": "zh/01847.mp3",
 "lang": "zh"
 },
 {
@@ -78138,6 +78743,11 @@
 {
 "text": "肢体",
 "path": "zh/01895.mp3",
+"lang": "zh"
+},
+{
+"text": "肋骨",
+"path": "zh/10514.mp3",
 "lang": "zh"
 },
 {
@@ -79211,6 +79821,11 @@
 "lang": "zh"
 },
 {
+"text": "细胞",
+"path": "zh/10515.mp3",
+"lang": "zh"
+},
+{
 "text": "glóbulo rojo",
 "path": "es/06723.mp3",
 "lang": "es"
@@ -79253,6 +79868,11 @@
 {
 "text": "含量",
 "path": "zh/02009.mp3",
+"lang": "zh"
+},
+{
+"text": "体积",
+"path": "zh/02010.mp3",
 "lang": "zh"
 },
 {
@@ -80971,6 +81591,11 @@
 "lang": "zh"
 },
 {
+"text": "承受，忍受",
+"path": "zh/10516.mp3",
+"lang": "zh"
+},
+{
 "text": "estrangular",
 "path": "es/02047.mp3",
 "lang": "es"
@@ -82146,6 +82771,11 @@
 "lang": "zh"
 },
 {
+"text": "货币",
+"path": "zh/10517.mp3",
+"lang": "zh"
+},
+{
 "text": "兑换",
 "path": "zh/02290.mp3",
 "lang": "zh"
@@ -82553,6 +83183,11 @@
 {
 "text": "债券",
 "path": "zh/02322.mp3",
+"lang": "zh"
+},
+{
+"text": "贷款",
+"path": "zh/02323.mp3",
 "lang": "zh"
 },
 {
@@ -83891,6 +84526,11 @@
 "lang": "zh"
 },
 {
+"text": "保质期",
+"path": "zh/07616.mp3",
+"lang": "zh"
+},
+{
 "text": "el negocio es duro",
 "path": "es/06844.mp3",
 "lang": "es"
@@ -83923,6 +84563,11 @@
 {
 "text": "增长，上涨",
 "path": "zh/02458.mp3",
+"lang": "zh"
+},
+{
+"text": "圆白菜",
+"path": "zh/02459.mp3",
 "lang": "zh"
 },
 {

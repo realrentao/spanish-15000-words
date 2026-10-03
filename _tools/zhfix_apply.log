@@ -1,0 +1,60 @@
+rows with zh audio: 9791
+conflict paths: 124
+candidate texts: 249
+synth done, usable=249
+paths needing re-synthesis: 57
+rows: keep=86 repoint=0 new=128 regen=76
+    1 2 w 9 质量好的 __NEW__
+    1 9 e 1 有助于 __NEW__
+    1 12 e 1 南瓜 __REGEN__
+    1 13 w 0 背包 __REGEN__
+    1 13 w 1 背包 __REGEN__
+    2 8 w 9 油脂 __REGEN__
+    2 11 w 0 调料 __NEW__
+    2 25 w 10 生的 __REGEN__
+    3 3 w 8 一步 __REGEN__
+    3 5 w 10 锁 __REGEN__
+to synthesize: 185 (new=128, regen=57)
+   gen 25/185 (25 ok)
+   gen 50/185 (50 ok)
+   gen 75/185 (75 ok)
+   gen 100/185 (100 ok)
+   gen 125/185 (125 ok)
+   gen 150/185 (150 ok)
+   gen 175/185 (175 ok)
+generated ok=185/185
+   wrote 1.js (2 rows)
+   wrote 2.js (1 rows)
+   wrote 3.js (1 rows)
+   wrote 4.js (1 rows)
+   wrote 5.js (3 rows)
+   wrote 7.js (1 rows)
+   wrote 16.js (1 rows)
+   wrote 17.js (8 rows)
+   wrote 18.js (2 rows)
+   wrote 19.js (4 rows)
+   wrote 20.js (3 rows)
+   wrote 21.js (4 rows)
+   wrote 22.js (10 rows)
+   wrote 23.js (2 rows)
+   wrote 24.js (8 rows)
+   wrote 25.js (9 rows)
+   wrote 27.js (1 rows)
+   wrote 28.js (1 rows)
+   wrote 29.js (3 rows)
+   wrote 30.js (3 rows)
+   wrote 31.js (1 rows)
+   wrote 32.js (9 rows)
+   wrote 33.js (5 rows)
+   wrote 34.js (3 rows)
+   wrote 35.js (4 rows)
+   wrote 36.js (3 rows)
+   wrote 37.js (1 rows)
+   wrote 39.js (1 rows)
+   wrote 40.js (1 rows)
+   wrote 41.js (2 rows)
+   wrote 42.js (3 rows)
+   wrote 43.js (1 rows)
+   wrote 45.js (3 rows)
+   wrote 46.js (1 rows)
+   wrote 47.js (22 rows)

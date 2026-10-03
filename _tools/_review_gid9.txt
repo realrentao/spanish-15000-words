@@ -1,0 +1,102 @@
+========== GID 9 | None | None ==========
+----- Sec 1 常见店铺 (W17 S3 E3) -----
+W | 店 | tienda | n.f.
+W | 连锁店 | tienda de la cadena | 
+W | 杂货铺 | abacería | n.f.
+W | 超市 | supermercado | n.m.
+W | 书店 | librería | n.f.
+W | 百货商场 | grandes almacenes | 
+W | 五金店 | quincallería | n.f.
+W | 珠宝店 | tienda de joyas | 
+W | 当铺 | casa de empeño | 
+W | 茶馆 | casa de té | 
+W | 寄卖商店 | tienda de consignación | 
+W | 玩具店 | tienda de juguetes | 
+W | 蔬菜水果店 | mercado de hortalizas | 
+W | 宠物店 | tienda de mascotas | 
+W | 肉店 | carnicero | n.m.
+W | 面包店 | panadería | n.f.
+W | 咖啡店 | café | n.m.
+S | En la cafetería donde trabaja, todo el mundo la ama || 在她工作的咖啡店，人人都喜欢她。
+S | Nicholas visitó su librería, mientras que la señora Berthier estaba limpiando || 尼古拉参观书店。贝蒂尔太太打扫房间。
+S | La crisis económica ha afectado a todas las industrias, pero los artículos de lujo, especialmente vino tinto y la joyería parece completamente intactos || 经济危机已经波及所有产业,但是奢侈品,尤其珠宝红酒似乎完全不受影响。
+E | 咖啡馆 | cafetería | n.f.
+E | 影响 | afectar | v.t.
+E | 奢华 | lujo | n.m.
+----- Sec 2 花店 (W18 S2 E3) -----
+W | 花店 | floristería | n.m.
+W | 花 | flor | n.f.
+W | 玫瑰 | rosa | n.f.
+W | 百合 | lirio | n.m.
+W | 向日葵 | girasol | n.m.
+W | 栀子花 | gardenia | n.f.
+W | 山茶花 | camelia | n.f.
+W | 风信子 | jacinto | n.m.
+W | 郁金香 | tulipán | n.f.
+W | 茉莉 | jazmín | n.m.
+W | 菊花 | crisantemo | n.m.
+W | 雏菊 | margarita | n.f.
+W | 康乃馨 | clavel | n.m.
+W | 凤仙花 | balsamina | n.f.
+W | 丁香花 | lila | n.f.
+W | 牡丹 | peonía | n.f.
+W | 薰衣草 | lavanda | n.f.
+W | 紫罗兰 | violeta | n.f.
+S | El principito: si te gusta una flor que vive en una estrella, al mirar el cielo por la noche, todas las estrellas están como las flores || 小王子： 如果你爱上了某个星球的一朵花。那么，只要在夜晚仰望星空，就会觉得漫天的繁星就像一朵朵盛开的花。
+S | Es el tiempo que tú has gastado en tu rosa que hace tu rosa tan importante. Tú serás responsable para siempre de lo que has domesticado || 小王子还说过：正是你为你的玫瑰所花费的时间，才让你的玫瑰变得如此重要。你永远对你所驯养过的事物负有责任。
+E | 星星 | estrella | n.f.
+E | 负责的 | responsable | adj.
+E | 驯化 | domesticar | v.t.
+----- Sec 3 眼镜店 (W15 S4 E4) -----
+W | 眼镜 | gafa | n.f.
+W | 一副 | par | n.m.
+W | 眼镜店 | óptica | 
+W | 验光 | revisión | n.m.
+W | 视力好的 | una buena visión | 
+W | 配镜师 | óptico | n.
+W | 眼镜框 | montura | n.f.
+W | 镜片 | lente | n.m.
+W | 散光 | astigmatismo | n.m.
+W | 太阳镜 | gafas de sol | 
+W | 视力 | visión | n.f.
+W | 远视 | presbicia | 
+W | 度数 | grado | n.m.
+W | 视力疲劳的 | fatiga visual | 
+W | 视力丧失 | anopsia | n.f.
+S | Será mejor que tengas gafas listas, con cuidado de la luz de Juanita || 你最好准备好太阳镜，当心被胡安妮塔的光芒闪到。
+S | Lleva las gafas desmesuradas || 她戴着一副特别大的眼镜。
+S | Dónde están mis gafas? No puedo ver cosas claramente sin ellas || 我的眼镜呢？没有眼镜我看不清。
+S | Ha perdido la visión de un ojo || 他一只眼睛失明了。
+E | 光线 | luz | n.f.
+E | 过大的， 过分的 | desmesurado | adj.
+E | 清楚地，清晰地 | claramente | adv.
+E | 无一定方向的，无可救药的 | perdido | adj.
+----- Sec 4 便利店 (W15 S7 E6) -----
+W | 方便的 | conveniente | adj.
+W | 磅秤 | mecedora | n.f.
+W | 标签 | etiqueta | n.f.
+W | 价格 | precio | n.m.
+W | 零钱 | moneda | n.f.
+W | 口香糖 | chicle | n.m.
+W | 便宜的 | barato | adj.
+W | 昂贵的 | caro | adj.
+W | 昂贵的 | costoso | adj.
+W | 可食用的 | comestible | adj.
+W | 变质的 | descompuesto | adj.
+W | 日用品 | mercancía general | 
+W | 保质期 | período de garantía de la calidad | 
+W | 不景气的 | estancado | adj.
+W | 生意平淡 | el negocio es duro | 
+S | El metro es la forma más cómoda y más barata de transporte || 地铁是最便宜和最方便的交通工具。
+S | Ha habido un nuevo incremento en el precio de algunos comestibles || 有些食物又涨价了。
+S | Todo se queja de la subida de precio || 所有人都在抱怨物价的上涨。
+S | El repollo se vende muy barato || 圆白菜很便宜。
+S | Son frutos comestibles || 这些是可以吃的果子。
+S | La mercancía defectuosa será devuelta || 有毛病的商品可以退还。
+S | El sábado es cuando más gente viene a la tienda de mercancías || 周六是人们去商店最多的时候。
+E | 增加，增长 | incremento | n.m.
+E | 抱怨，不满 | queja | n.f.
+E | 增长，上涨 | subida | n.f.
+E | 圆白菜 | repollo | n.m.
+E | 商品，货物 | mercancía | n.f.
+E | 有缺欠的，有瑕疵的 | defectuosa | adj.

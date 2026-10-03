@@ -1,0 +1,104 @@
+========== GID 14 | None | None ==========
+----- Sec 1 手机 (W14 S7 E3) -----
+W | 手机 | teléfono móvil | n.m.
+W | 便携的 | portable | adj.
+W | 信号 | señal | n.f.
+W | 手机铃声 | tonos de llamada | 
+W | 语音提示 | mensajes de voz | 
+W | 直板手机 | teléfono de la barra | 
+W | 翻盖手机 | teléfono plegable | 
+W | 滑盖手机 | teléfono slider | n.m.
+W | 按键 | botón | n.m.
+W | 提示音 | pitido | n.m.
+W | 充值卡 | tarjeta de recarga | 
+W | 漫游 | itinerancia | n.f.
+W | 关机 | cerrar | v.t.
+W | 短信 | mensaje | n.m.
+S | Acabo de recibir un mensaje de texto informándome que las clases son canceladas || 我刚才收到一条短信，通知我的课取消了。
+S | Vamos a escuchar qué mensajes tenemos en nuestro buzón de voz || 我们将听到语音信箱里的留言。
+S | Una señal de tráfico advertía el peligro || 一块道路标志牌发出危险警告。
+S | Cuál es tu número de teléfono? || 你的电话号码是多少？
+S | No cuelgues el teléfono || 你别挂上电话。
+S | Te llaman por teléfono || 有人给你打电话。
+S | Han dejado algún mensaje para mi? || 有人给我留言吗？
+E | 听 | escuchar | v.t.
+E | 危险 | peligro | n.m.
+E | 挂 | colgar | v.t.
+----- Sec 2 电脑 (W18 S4 E5) -----
+W | 电脑 | ordenador | n.m.
+W | 键盘 | teclado | n.m.
+W | 笔记本 | ordenador portátil | 
+W | 平板电脑 | tablet | n.m.
+W | 数据 | dato | n.m.
+W | 黑客 | hacker | n.
+W | 硬件 | hardware | n.m.
+W | 软件 | software | n.m.
+W | 鼠标 | ratón | n.m.
+W | 联机的 | online | adj.
+W | 脱机的 | desconectado | adj.
+W | 程序 | programa | n.m.
+W | 窗口 | ventana | n.f.
+W | 缩放 | condensación | n.f.
+W | 同步 | sincronización | n.f.
+W | 打印机 | impresora | n.f.
+W | 网络 | red | n.f.
+W | 无线的 | inalámbrico | adj.
+S | Invadí en su ordenador de casa || 我侵入了她的家庭电脑。
+S | No sé cómo reparo mi ordenador || 我不知道怎样修我的电脑。
+S | Tengo un virus en el ordenador que no me deja entrar en ningún archivo || 我的电脑中病毒了，什么文档都打不开。
+S | Cuando la red se enfrenta a la publicidad, tenemos que entender mucho más que la red de publicidad || 当网络遇到广告，我们对于网络广告的理解已经远远不止于网络广告。
+E | 侵入 | invadir | v.t.
+E | 修理 | reparo | n.m.
+E | 进入 | entrar | v.i.
+E | 文档，档案 | archivo | n.m.
+E | 广告 | publicidad | n.f.
+----- Sec 3 网站 (W15 S5 E6) -----
+W | 因特网 | internet | n.m.
+W | 网页 | página web | n.
+W | 主页 | página | n.f.
+W | 服务器 | servidor | n.m.
+W | 点击数 | número de clíc | 
+W | 网上冲浪 | navegación en la web | 
+W | 注销 | cancelar | v.t.
+W | 用户 | usuario | n.
+W | 页面浏览人数 | número de navegantes | 
+W | 刷新 | renovar | v.t.
+W | 源文件 | archivo de origen | 
+W | 网络管理员 | administrador de red | 
+W | 浏览器 | navegador | n.
+W | 反馈 | reacción | n.
+W | 联系 | conectar | v.t.
+S | Los estudiantes ahora pueden ver los resultados del examen en el internet || 高中生们现在可以上网查询高考成绩了。
+S | Le gusta navegar por internet || 他喜欢上网。
+S | El Internet nos permite conocer el mundo mejor || 互联网让我们更好地了解世界。
+S | Esto permite encontrar con facilidad la página web que se desea ver || 这让人很容易找到想浏览的网页。
+S | Cualquier persona en los últimos 12 meses que ha utilizado el internet, se considera como usuario || 任何人只要在过去的12个月里使用过英特网，即被视为网民。
+E | 学生 | estudiante | n.
+E | 允许，许可 | permitir | v.t.
+E | 认识，了解, 熟悉 | conocer | v.t.
+E | 的比较级]较好地，更好地 | mejor adv. [bien | 
+E | 找到 | encontrar | v.t.
+E | 容易，简单 | facilidad | n.f.
+----- Sec 4 博客与邮件 (W16 S3 E3) -----
+W | 博客 | blog | n.
+W | 微博 | microblog | n.
+W | 订阅 | suscribir | v.t.
+W | 隐藏 | ocultar | v.t.
+W | 用户名 | nombre de usuario | n.m.
+W | 评论 | comentar | v.t.
+W | 回复 | contestar | v.t.
+W | 文章 | artículo | n.m.
+W | 退出 | salir | v.i.
+W | 注册 | registrar | v.t.
+W | 邮件 | correo | n.m.
+W | 电子邮件 | email | n.
+W | 删除 | eliminar | v.t.
+W | 发送 | enviar | v.t.
+W | 取消 | cancelar | v.t.
+W | 新词 | palabra nueva | 
+S | Decidimos abrir un español blog para practicar el idioma || 我们商量说开一个博客用来锻炼西班牙语写作。
+S | Según el artículo, los pasajeros se encuentran con obstáculos de la naturaleza y de la humanidad || 根据这篇文章的论点，旅行者会碰到很多人为的和天然的障碍。
+S | Email se ha convertido en la comunicación interpersonal más común || 电子邮件已经成为现代人际交流的一种最常见的方式。
+E | 实施，实行 | practicar | v.t.
+E | 障碍 | obstáculo | n.m.
+E | 联络，联系 | comunicación | f.

@@ -1,0 +1,126 @@
+========== GID 10 | None | None ==========
+----- Sec 1 户外广场 (W14 S6 E3) -----
+W | 广场 | plaza | n.f.
+W | 人群 | multitud | n.f.
+W | 喷泉 | fuente | n.f.
+W | 许愿 | hacer promesas | 
+W | 硬币 | moneda | n.f.
+W | 花坛 | parterre | n.f.
+W | 花坛 | macizo de flores | 
+W | 没有阻碍的 | sin obstáculo | 
+W | 长椅 | banco | n.m.
+W | 鸽子 | paloma | n.m.
+W | 成群结队 | en grupo | adv.
+W | 连续地 | sucesivamente | adv.
+W | 底座 | base | n.m.
+W | 公有的，公共的 | público | adj.
+S | “Yo,” dijo el principito, “si tuviera cincuenta y tres minutos de sobra, caminaría lentamente hacia una fuente.” “ || 我，”小王子说，“如果我有这五十三分钟可以自由支配，我会轻心自如地漫步在一条通往饮水喷泉的路上。”
+S | El símbolo arquitectónico de la ciudad es la Plaza Mayor || 城市的标志建筑物是马约尔广场。
+S | Hay un número fabuloso de personas en la plaza || 广场上有数不尽的人。
+S | En medio de la plaza hay una fuente || 广场的中央有一个喷泉。
+S | Todavía seguimos acariciando el recuerdo de esa multitud jubilosa || 我们对欢庆的人群记忆犹新。
+S | Un numeroso público concurrió a la fiesta || 许多群众参加了联欢会。
+E | 建筑的 | arquitectónico | adj.
+E | 记忆，回忆 | recuerdo | n.m.
+E | 民众 | multitud | n.f.
+----- Sec 2 夜市 (W15 S2 E3) -----
+W | 夜生活 | vida nocturna | 
+W | 通宵 | toda la noche | 
+W | 小贩 | vendedor ambulante | 
+W | 人流涌动 | multitud innumerable | 
+W | 霓虹灯广告 | neón | n.
+W | 各种各样 | todo tipo de | 
+W | 多样化 | diversidad | n.f.
+W | 摊位 | puesto | n.m.
+W | 水果摊 | puesto de frutas | 
+W | 品质低劣 | de mala calidad | 
+W | 成衣 | ropa confeccionada | n.f.
+W | 小吃 | merienda | n.f.
+W | 搜寻 | búsqueda | n.f.
+W | 热闹的 | animado | adj.
+W | 使活跃 | activar | v.i.
+S | No se puede olvidar la historia, y la diversidad cultural no desaparecerá nunca || 历史不该被忘记，文化多样性也从未消逝。
+S | Tal vez en realidad he sido golpeado de vez en cuando, pero nunca me he rendido en la búsqueda del sueño || 也许现实中撞得左忽右转，但是我没有停止过对这个梦的追逐。
+E | 文化的 | cultural | adj.
+E | 真实性 | realidad | n.f.
+E | 放弃 | rendir | v.t.
+----- Sec 3 宠物医院 (W15 S3 E2) -----
+W | 兽医学 | la ciencia veterinaria | 
+W | 兽医 | veterinaria | n.
+W | 兽医证明书 | certificado veterinario | 
+W | 液体喷射器 | jeringa de inyección | 
+W | 注射 | jeringa | n.f.
+W | 注射器针头 | aguja de la jeringa | 
+W | 培养 | cultivar | v.t.
+W | 狂犬疫苗 | vacuna antirrábica | 
+W | 怀孕的 | embarazada | adj.
+W | 阉割 | emasculación | n.f.
+W | 疯狂地 | frenéticamente | adv.
+W | 喂养 | alimentar | v.t.
+W | 诊室 | consultorio | n.m.
+W | 减轻 | mitigar | v.t.
+W | 带来 | traer | v.
+S | Usted tendrá que cultivar la paciencia y hacer frente a la mala situación || 培养自己的耐心，好好处理那些不好的事。
+S | Sólo hay un error: no tiene la capacidad que se alimente por la luz || 只有一种错误：没有能力以阳光为滋养。
+S | Pero incluso en el imperio muy materialista, el dinero no sería suficiente para traer la felicidad || 但即使在这个变得疯狂的物欲横流的帝国里，钱似乎已经不足以带来幸福了。
+E | 培养 | cultivar | v.t.
+E | 追求物质的 | materialista | adj.
+----- Sec 4 公共洗手间 (W14 S5 E10) -----
+W | 男厕所 | baño de hombres | 
+W | 女厕所 | baño de mujeres | 
+W | 水龙头 | grifo | n.m.
+W | 洗脸盆 | lavabo | n.m.
+W | 小便池 | urinario | n.m.
+W | 小便 | orinar | v.i.
+W | 大便 | defecar | v.i.
+W | 卫生纸 | papel higiénico | 
+W | 臭味 | hedor | n.m.
+W | 马桶刷 | cepillo de inodoro | 
+W | 马桶座圈 | un asiento de inodoro | 
+W | 马桶盖 | tapa del inodoro | 
+W | 使畅通 | desobstruir | v.t.
+W | 清洁剂 | detergente | n.m.
+S | El niño: “es como mamá ayer que se puso de pie ante el fregadero bien, si no, la llevó a la oficina de correos.” || 孩子说：“就像昨天妈妈一样，幸亏妈妈抓住了洗手池，要不，邮递员叔叔就把她赶到邮局去了。”
+S | Lávate las manos en el lavabo antes de sentarte a la mesa || 在上桌前，你得先去盥洗池把手洗了。
+S | El grupo de trabajo comunicó sobre el suministro de lavabos || 工作组讨论了洗浴设备的提供。
+S | él sustituyó el jabón por un detergente || 他用洗涤剂代替肥皂。
+S | Es un olor desagradable || 这是种令人不快的味道。
+E | 洗手池 | fregadero | n.m.
+E | 洗涤，清洗 | lavar | tr.
+E | 在……之前 | antes | adv.
+E | 饭桌 | mesa | n.f.
+E | 工作 | trabajo | n.m.
+E | 供应的物品，供给的东西 | suministro | n.m.
+E | 替换，取代 | sustituir | tr.
+E | 肥皂 | jabón | n.m.
+E | 气味 | olor | n.m.
+E | 令人不愉快的，使人讨厌的 | desagradable | adj.
+----- Sec 5 垃圾处理 (W17 S5 E6) -----
+W | 垃圾 | basura | n.f.
+W | 纸篓 | papelera | n.f.
+W | 倒垃圾 | vaciar la papelera | 
+W | 堆 | amontonar | v.t.
+W | 废物 | residuo | n.m.
+W | 废料 | desperdicio | n.m.
+W | 污水管 | tubería de aguas residuales | 
+W | 下水道 | alcantarillado | n.m.
+W | 净化 | purificar | v.t.
+W | 净化 | purificación | n.f.
+W | 处理 | gestionar | v.t.
+W | 清除 | eliminar | v.t.
+W | 分解 | descomponer | v.t.
+W | 垃圾车 | camión de la basura | 
+W | 垃圾场 | vertedero | 
+W | 垃圾回收处理 | reciclaje de residuos | 
+W | 捡垃圾者 | recogidor de basura | 
+S | Tal vez deberíamos buscar los basureros || 也许我们该找找垃圾箱。
+S | Hay que tirar la basura al basurero || 应该把垃圾扔到垃圾桶里。
+S | Está prohibido tirar basura en la calle || 在街上禁止扔垃圾。
+S | Clasificamos las basuras para reciclar vidrio, cartón y papel || 我们将垃圾分类以便回收玻璃、硬纸板和纸张。
+S | Los filtros de carbono purificarán los humos de la antigua fábrica || 碳过滤装置可以净化旧工厂排放的烟雾。
+E | 丢弃，扔掉 | tirar | tr.
+E | 被禁止的 | prohibido | adj.
+E | 街头 | calle | n.f.
+E | 分类 | clasificar | v.
+E | 使再生，回收 | reciclar | tr.
+E | 工厂 | fábrica | n.f.

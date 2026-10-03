@@ -1,0 +1,9 @@
+audio/es/07033.mp3
+audio/es/07034.mp3
+audio/es/07035.mp3
+audio/es/07036.mp3
+audio/es/07037.mp3
+audio/es/07038.mp3
+audio/es/07039.mp3
+audio/es/07040.mp3
+audio/es/07041.mp3

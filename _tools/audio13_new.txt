@@ -1,0 +1,6 @@
+audio/es/06906.mp3
+audio/es/06907.mp3
+audio/es/06908.mp3
+audio/zh/07679.mp3
+audio/zh/07680.mp3
+audio/zh/07681.mp3

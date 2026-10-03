@@ -1,0 +1,431 @@
+========== GID 5 | None | None ==========
+----- Sec 1 面部器官 (W21 S4 E3) -----
+W | 额头 | frente | n.m.
+W | 太阳穴 | templo | n.m.
+W | 眼睛 | ojo | n.m.
+W | 睫毛 | pestaña | n.f.
+W | 眉毛 | ceja | n.f.
+W | 脸颊 | mejilla | n.f.
+W | 鼻子 | nariz | n.f.
+W | 鼻翼 | ala de nariz | 
+W | 鼻梁 | puente de la nariz | 
+W | 鹰钩鼻 | nariz aguileña | 
+W | 塌鼻 | nariz colapso | 
+W | 嘴 | boca | n.f.
+W | 嘴唇 | labio | n.m.
+W | 舌头 | lengua | n.f.
+W | 牙齿 | diente | n.f.
+W | 门牙 | los dientes incisivos | 
+W | 耳垂 | lóbulo de la oreja | 
+W | 下巴 | barbilla | n.f.
+W | 眼皮 | párpado | n.m.
+W | 瞳孔 | pupila | n.f.
+W | 颌 | mandíbula | n.f.
+S | Van a ser mis ojos y orejas || 他们将会是我的耳目。
+S | La última vez Sarah se cayó la barbilla || 上次萨拉被打掉了下巴。
+S | Los ojos son las ventanas del alma || 眼睛是心灵的窗户。
+S | El hombre se puso las orejas en el suelo para asegurarse de que sólo un jinete se acercó, luego se alistó || 他把耳朵贴在地面上听听是否只有一个骑兵过来， 然后他做好准备。
+E | 耳朵 | oreja | n.f.
+E | 心灵，灵魂 | alma | n.f.
+E | 骑兵 | jinete | n.m.
+----- Sec 2 身体部位 (W23 S3 E4) -----
+W | 身体 | cuerpo | n.m.
+W | 头 | cabeza | n.f.
+W | 脖子 | cuello | n.m.
+W | 手 | mano | n.f.
+W | 手指 | dedo | n.m.
+W | 手腕 | muñeca | n.f.
+W | 手掌 | palma | n.f.
+W | 大拇指 | pulgar | n.m.
+W | 食指 | índice | n.m.
+W | 中指 | dedo medio | n.m.
+W | 无名指 | dedo anular | n.m.
+W | 脚 | pie | n.m.
+W | 脚趾 | dedo del pie | n.m.
+W | 腿 | pierna | n.f.
+W | 胳膊 | brazo | n.m.
+W | 胸部 | pecho | n.m.
+W | 肩膀 | hombro | n.m.
+W | 腰部 | lomos | n.m.
+W | 髋部 | cadera | n.f.
+W | 背部 | espalda | n.f.
+W | 臀 | nalga | n.f.
+W | 屁股 | culo | n.m.
+W | 胃 | estómago | n.m.
+S | Si yo fuera un salvaje, pondría su dedo amputado || 如果我是一个野人，我早把他的手指切下来了。
+S | La conciencia es la voz del alma, la pasión es la voz del cuerpo || 意识是灵魂之声，激情是身体之声。
+S | Prefiero morir en tus brazos que morir en tu corazón || 我宁愿死在你的怀里，而不是死在你的心里。
+E | 野人 | salvaje | n.
+E | 意识 | conciencia | n.f.
+E | 激情 | pasión | n.f.
+E | 宁愿，宁可 | preferir | v.t.
+----- Sec 3 骨骼与皮肤 (W21 S6 E5) -----
+W | 骨头 | hueso | n.m.
+W | 小腿 | pierna | n.f.
+W | 大腿 | muslo | n.f.
+W | 脚踝 | tobillo | n.m.
+W | 肘 | codo | n.m.
+W | 膝盖 | rodilla | n.f.
+W | 骨架 | esqueleto | n.m.
+W | 锁骨 | clavícula | n.f.
+W | 脊椎 | vértebra | n.f.
+W | 有脊椎的 | vertebrado | adj.
+W | 肢体 | miembro | n.m.
+W | 肋骨 | costilla | n.f.
+W | 软骨 | cartílago | n.m.
+W | 肌肉 | músculo | n.m.
+W | 韧带 | ligamento | n.m.
+W | 组织 | tejido | n.m.
+W | 皮肤 | piel | n.f.
+W | 表皮 | cutícula | n.f.
+W | 骨盆 | pelvis | n.m.
+W | 骨髓 | tuétano | n.m.
+W | 腹肌 | músculo abdominal | 
+S | Tienes un tumor en la vértebra || 你的脊椎上有个肿瘤。
+S | Antes de correr, estirar los músculos se ve bien para ti || 跑步前拉伸一下肌肉对你有好处。
+S | Varios perros pelean por un hueso || 几只狗在争一块骨头。
+S | Tengo la rodilla dolorida desde que me caí || 我摔倒之后膝盖疼。
+S | He roto los pantalones en la rodilla || 我把裤子的膝盖部分磨破了。
+S | Bajo el agua, el jabón hace espumas muy suaves que limpian la piel || 肥皂在水中产生了轻柔的泡沫，泡沫清洁了皮肤。
+E | 肿瘤 | tumor | n.m.
+E | 狗 | perro | n.
+E | 疼痛的 | dolorida | adj.
+E | 裤子，长裤 | pantalón | n.m.
+E | 泡沫 | espuma | n.f.
+----- Sec 4 身体内部器官 (W22 S3 E3) -----
+W | 大脑 | cerebro | n.m.
+W | 器官 | órgano | n.m.
+W | 气管 | tráquea | n.f.
+W | 内脏 | entraña | n.f.
+W | 胸腔 | cavidad torácica | 
+W | 肠胃 | estómago | n.m.
+W | 血管 | vena | n.f.
+W | 心 | corazón | n.m.
+W | 肺 | pulmón | n.m.
+W | 肝 | hígado | n.m.
+W | 肾 | riñón | n.m.
+W | 胆 | vesícula biliar | n.f.
+W | 肠 | intestino | n.m.
+W | 胃 | estómago | n.m.
+W | 大肠 | intestino grueso | 
+W | 小肠 | intestino delgado | 
+W | 阑尾 | apéndice | n.m.
+W | 膀胱 | vejiga | n.f.
+W | 子宫 | útero | n.m.
+W | 尿道 | uretra | n.f.
+W | 腺 | glándula | n.f.
+W | 食道 | esófago | n.m.
+S | Seré un donante de órganos || 我就做个器官捐赠者。
+S | Me comenzó a doler el estómago, y las palmas comenzaron a sudar || 我的胃开始痛，手掌开始出汗。
+S | Esta parte del cerebro es responsable de muchos aspectos de las funciones cognitivas superiores, como el lenguaje, la memoria y el razonamiento || 这部分脑组织掌管许多方面的高级认知功能，如语言、记忆和推理。
+E | 提供者 | donante | n.m.
+E | 认知的 | cognitivo | adj.
+E | 推理 | razonamiento | n.m.
+----- Sec 5 健康状况 (W15 S5 E5) -----
+W | 健康 | salud | n.f.
+W | 健康的 | saludable | adj.
+W | 不足的 | deficiente | adj.
+W | 患病的 | enfermo | adj.
+W | 病 | enfermedad | n.f.
+W | 身体的 | físico | adj.
+W | 精神的 | mental | adj.
+W | 正常的 | natural | adj.
+W | 焦虑的 | ansioso | adj.
+W | 忧心忡忡的 | preocupado | adj.
+W | 虚弱的 | débil | adj.
+W | 恢复体力 | recuperar sus fuerzas | 
+W | 强壮的 | fuerte | adj.
+W | 精力充沛的 | energético | adj.
+W | 不舒服的 | incómodo | adj.
+S | La felicidad es tener buena salud y mala memoria || 幸福，就是拥有一副好身体和一个坏记性。
+S | El ejercicio al aire libre es muy saludable || 户外活动有益于身体健康。
+S | Me encanta que me vea usted tan saludable || 看到您如此健康我很开心。
+S | La salud mental de los españoles requiere atención || 西班牙人的身心健康问题值得引起关注。
+S | Estamos ansiosos por conocer el resultado de la prueba || 我们都焦急地等待着试验的结果。
+E | 坏的 | malo | adj.
+E | 运动，体育活动 | ejercicio | n.m.
+E | 喜欢，高兴 | encantar | v.t.
+E | 需要 | requerir | v.t.
+E | 结果 | resultado | n.m.
+----- Sec 6 看诊 (W16 S6 E2) -----
+W | 医院 | hospital | n.m.
+W | 症状 | síntoma | n.m.
+W | 脉搏 | pulso | n.m.
+W | 血压 | presión arterial | 
+W | 测量 | medida | n.f.
+W | 描述 | descripción | n.f.
+W | 处方 | receta | n.f.
+W | 开药方 | recetar | v.t.
+W | 明确地 | decididamente | adv.
+W | 诊断 | diagnosticar | v.t.
+W | 药片 | pastilla | n.m.
+W | 药物 | medicina | n.f.
+W | 初步的 | preliminario | adj.
+W | 服用 | tomar | v.t.
+W | 治疗 | tratamiento | n.m.
+W | 针灸 | acupuntura | n.f.
+S | Si la gripe es contagiosa sólo después de la aparición de los síntomas, debería haberse desaparecido hace miles de años || 如果流感只是在症状出现后才会传染，那它早该在几千年前就消失。
+S | Perdona, sabe si el hospital está por aquí cerca? || 打扰了，您知道这附近的医院吗？
+S | El médico me da unas pastillas para la tos || 医生给了我一些止咳药片。
+S | Esta medicina se toma por vía oral || 这种药是口服的。
+S | El médico escribió una receta para mi || 医生为我开处方。
+S | Si quieres recuperarte rápidamente, debes descansar || 如果你想要好得快，你就必须休息。
+E | 流行感冒 | gripe | n.f.
+E | 传染的 | contagioso | adj.
+----- Sec 7 常见科室 (W17 S4 E3) -----
+W | 挂号处 | mesa de registro | 
+W | 门诊部 | clínica | n.f.
+W | 住院部 | hospitalización | n.f.
+W | 内科 | medicina general | 
+W | 内科医生 | médico general | 
+W | 外科 | cirugía | n.f.
+W | 外科医生 | cirujano | n.
+W | 耳鼻喉科 | oído, nariz y garganta | 
+W | 牙科 | odontología | n.f.
+W | 心脏病科 | cardiología | m.f.
+W | 儿科 | pediatría | n.f.
+W | 妇科 | ginecología | n.f.
+W | 放射科 | radiología | n.f.
+W | 急诊科 | urgencias | n.f.
+W | 手术室 | quirófano | n.f.
+W | 化验室 | laboratorio | n.m.
+W | 候诊室 | sala de espera | n.m.
+S | Tenemos un cirujano muy bueno || 我们有一位很出色的外科医生。
+S | Tiene amplia experencia clínica || 他有丰富的临床经验。
+S | Es una especialista en la odontología || 他是牙科的专家。
+S | Escúchame, se puede hacer un análisis simple de sangre para comprobarlo || 听我说，可以做个简单的验血来检查。
+E | 经验；经历 | experiencia | n.f.
+E | 专门的，专科的 | especialista | adj.
+E | 分析 | análisis | n.m.
+----- Sec 8 各种检查 (W15 S5 E5) -----
+W | 检查 | inspección | n.f.
+W | 化验 | análisis químico | 
+W | 验血 | prueba de sangre | 
+W | 抽取 | extracción | n.f.
+W | 血型 | grupo sanguíneo | 
+W | 红血球 | hematíe | n.m.
+W | 细胞 | célula | n.f.
+W | 红细胞 | glóbulo rojo | n.m.
+W | 总值 | valor total | 
+W | 血小板 | plaqueta | n.f.
+W | 血红蛋白 | hemoglobina | n.f.
+W | 含量 | contenido | n.m.
+W | 体积 | volumen | n.m.
+W | 浓度 | concentración | n.f.
+W | X光检查 | fluoroscopia | n.f.
+S | Recibe enfermos con mucha paciencia, y frecuentemente los visita || 他为病人看病非常耐心，并且经常出诊。
+S | No sabe mucho sobre célula ácida || 他对腺细胞了解不多。
+S | Está haciendo un análisis clínico || 他正在做一份临床分析。
+S | Los análisis han descubierto la presencia de un virus || 这些测试揭示了该病毒的存在。
+S | Los análisis indican un mejoramiento en su estado de salud || 分析报告表明他的健康状况有改善。
+E | 耐心，耐性 | paciencia | n.f.
+E | 临床的，临诊的 | clínico | adj.
+E | 暴露在外的 | descubierto | adj.
+E | 存在，有 | presencia | n.f.
+E | 改善，改进 | mejoramiento | 
+----- Sec 9 感冒 (W15 S5 E5) -----
+W | 感冒，寒冷 | frío | n.m.
+W | 感冒 | resfriar | v.t.
+W | 感染性 | infección | n.f.
+W | 测量 | medida | n.f.
+W | 体温 | temperatura | n.f.
+W | 体温计 | termómetro | n.m.
+W | 患病 | enfermarse | v.t.
+W | 流感 | gripe | n.f.
+W | 发烧 | fiebre | n.f.
+W | 高烧 | fiebre grave | 
+W | 着凉 | resfriarse | v.t.
+W | 发汗 | sudar | v.i.
+W | 打喷嚏 | estornudar | v.i.
+W | 严重的 | grave | adj.
+W | 稍稍 | un poco | adv.
+S | Mi temperatura tiene un aumento desde las 2, y el gargajo ha alcanzado a un nivel de alerta || 我的体温从早上2点钟开始持续上升，而且我的痰也多到了警戒水平。
+S | El número de personas infectadas por el virus ha disparado en los últimos días, y la gripe porcina sigue siendo un asunto que llama mucha atención || 近日，随着感染的人数越来越多，甲流始终是人们关注的话题。
+S | No es más que un simple resfriado || 这只不过是个小感冒。
+S | Estoy muy resfriado || 我感冒很严重。
+S | Una grave enfermedad le transformó en un auténtico esqueleto || 一场重病之后，他都瘦得皮包骨头了。
+E | 痰 | gargajo | n.m.
+E | 警戒 | alerta | n.f.
+E | 使感染 | infectar | v.t.
+E | 病，疾病 | enfermedad | n.f.
+E | 使发生变化，改变 | transformar | v.t.
+----- Sec 10 各种疼痛 (W14 S4 E4) -----
+W | 疼 | dolor | n.m.
+W | 灼痛感； 苦恼 | escozor | n.f.
+W | 剧痛 | calvario | n.m.
+W | 疼痛的 | doloroso | adj.
+W | 头疼 | dolor de cabeza | 
+W | 胃疼 | gastralgia | n.f.
+W | 背疼 | dolor de espalda | 
+W | 牙疼 | dolor de dientes | n.f.
+W | 绞痛 | cólico | n.m.
+W | 刺痛 | dolor palpitante | 
+W | 耳鸣； 焦躁 | hormigueo | n.m.
+W | 伤口 | lesión | n.f.
+W | 伤口 | herida | n.f.
+W | 受伤的 | herido | adj.
+S | Para aliviar el dolor, tomó una pequeña píldora blanca que su médico le recomandó || 为了减轻疼痛，他吃了医生为他推荐的白色小药片。
+S | Si esto es cierto, estoy seguro de que muero por el dolor || 如果是真的，我肯定痛得要死了。
+S | No puedo deshacerme de este maldito dolor de cabeza || 我就是没办法摆脱这该死的头痛。
+S | El tiempo es la mejor medicina para curar las heridas || 时间是抚平伤口最好的良药。
+E | 减轻，缓和 | aliviar | v.t.
+E | 丸药 | píldora | n.f.
+E | 清除，摆脱 | deshacer | v.t.
+E | 讨厌的 | maldito | adj.
+----- Sec 11 常见疾病 (W16 S5 E5) -----
+W | 疾病 | enfermedad | n.f.
+W | 常见的 | común | adj.
+W | 阑尾炎 | apendicitis | n.f.
+W | 贫血 | anemia | n.f.
+W | 低血糖 | hipoglucemia | n.f.
+W | 支气管炎 | bronquitis | n.f.
+W | 糖尿病 | diabetes | n.f.
+W | 糖尿病人 | diabético | n.
+W | 偏头痛 | migraña | n.f.
+W | 关节炎 | artritis | n.f.
+W | 营养不良 | desnutrición | n.f.
+W | 消化不良 | indigestión | n.f.
+W | 失眠 | insomnio | n.m.
+W | 僵硬的 | rígido | adj.
+W | 胳肢 | cosquillas | n.f.
+W | 痛风 | gota | n.f.
+S | Soy diabético, mi esposa tiene artritis reumática || 我有糖尿病，我妻子有风湿性关节炎。
+S | Tuvo la enfermedad irremediable || 他患了不治之症。
+S | Ella sabe un método para evitar el insomnio || 她知道一种防止失眠的方法。
+S | Cuando comemos demasiado, nos da indigestión || 当我们吃太多的时候，会导致消化不良。
+S | La enfermedad de mayo es japonés, significa que no se adapta al nuevo entorno, una sensación de ansiedad inquieta, el insomnio, la fatiga, y no quiere trabajar || 五月病是日本语, 意思是对新环境不适应, 感到不安焦虑, 失眠, 疲倦, 不想工作。
+E | 关节炎 | artritis | n.f.
+E | 无法医治的 | irremediable | adj.
+E | 防止，避免 | evitar | v.t.
+E | 过度的，过量的 | demasiado | adj.
+E | 不安的，担心的 | inquieto | adj.
+----- Sec 12 疑难杂症 (W16 S3 E3) -----
+W | 癌 | cáncer | n.m.
+W | 中风 | apoplejía | n.f.
+W | 小儿麻痹症 | parálisis infantil | 
+W | 坐骨神经痛 | isquialgia | n.f.
+W | 心绞痛 | angina de pecho | 
+W | 肺结核 | tuberculosis pulmonar | 
+W | 白血病 | leucemia | n.f.
+W | 破伤风 | tétanos | n.m.
+W | 精神病 | psicosis | n.f.
+W | 瘫痪 | parálisis | n.f.
+W | 咽炎 | faringitis | n.f.
+W | 肿瘤 | tumor | n.m.
+W | 良性的 | benigno | adj.
+W | 恶性的 | maligno | adj.
+W | 心脏病 | enfermedad del corazón | 
+W | 遗传的 | hereditario | adj.
+S | Michael necesita una operación para extirparle el tumor en el lóbulo del cerebro || 迈克尔需要手术来去除他脑叶中的肿瘤。
+S | Necesito saber que no haya antecedentes familiares de enfermedad genética || 我需要了解一下你的家族病史看看有没有遗传性疾病。
+S | En la actualidad, la mortalidad por cáncer en China signe aumentando, mientras que el 80% -90% de los cánceres se deben a los carcinógenos ambientales || 目前我国癌症死亡率呈持续上升趋势，而80%-90%的癌症是由于环境中的致癌物质所引起的。
+E | 叶 | lóbulo | n.m.
+E | 遗传学 | genética | n.f.
+E | 致癌的 | carcinógeno | adj.
+----- Sec 13 眼疾 (W17 S4 E3) -----
+W | 瞳孔 | pupila | n.f.
+W | 角膜的 | corneal | adj.
+W | 移植 | de trasplantes | 
+W | 视力 | visión | n.f.
+W | 视力表 | tablet de variedad visual | 
+W | 近视 | miopía | n.f.
+W | 近视者 | miope | n.
+W | 色盲的 | daltoniano | adj.
+W | 远视 | presbicia | 
+W | 弱视 | ambliopía | n.f.
+W | 弱视者 | ambliope | n.
+W | 看不清的 | trastornador | adj.
+W | 眼科 | oftalmología | n.f.
+W | 发炎 | la inflamación | 
+W | 失去 | perder | v.t.
+W | 白内障 | catarata | n.f.
+W | 青光眼 | glaucoma | n.m.
+S | Ella es casi ciega, y a veces puedo encontrar su pelo en la sopa || 她几乎瞎了，有时候我会在汤里找到她的头发。
+S | Se trata de una inflamación de la membrana que rodea el corazón || 那是心脏周围隔膜的一种炎症。
+S | La gente siempre saben apreciar después de perder || 人总是在失去之后才知道珍惜。
+S | Ha perdido la visión de un ojo || 他一只眼睛失明了。
+E | 瞎的 | ciego | adj.
+E | 围绕 | rodear | v.t.
+E | 珍爱 | apreciar | v.t.
+----- Sec 14 常见中西药 (W14 S7 E2) -----
+W | 药房 | farmacia | n.f.
+W | 药物 | medicamento | n.m.
+W | 药片 | tableta | n.f.
+W | 止疼药 | analgésico | n.m.
+W | 止疼剂 | anodino | n.m.
+W | 阿司匹林 | aspirina | n.f.
+W | 青霉素 | penicilina | n.f.
+W | 维生素 | vitamina | n.f.
+W | 安定剂 | neuroléptico | n.m.
+W | 葡萄糖 | glucosa | n.f.
+W | 说明书 | prospecto | n.m.
+W | 当归 | angelica | n.f.
+W | 鹿茸 | cornamenta | n.f.
+W | 人参 | ginseng | n.m.
+S | Toma el camino que quieres tomar, haz lo que quieres hacer, porque no hay arrepentimiento vendido en el mundo || 走自己想走的路，做自己想做的事情，因为这世界上没有后悔药可买。
+S | Una tableta a cuatro horas || 每次一片，四小时一次。
+S | Tres joyas del noreste - el ginseng, la visón, y el terciopelo. “ || 东北三宝”
+S | Yo le pediré comer vitaminas a tiempo || 我会督促他按时吃维他命的。
+S | Es un medicamento externo || 这是外用药。
+S | Se mejoró tras tomar aquel medicamento || 吃了药以后他好多了。
+S | Allí, en la esquina, hay una farmacia || 在那个拐角处有一个药店。
+E | 后悔 | arrepentimiento | n.m.
+E | 貂皮 | visón | n.f.
+----- Sec 15 住院出院 (W15 S5 E3) -----
+W | 送入医院 | ingresar en el hospital | 
+W | 住院 | hospitalización | n.f.
+W | 救护车 | ambulancia | n.f.
+W | 接收入院 | admitir a un paciente al hospital | 
+W | 诊断的 | diagnóstico | adj.
+W | 出院 | salir del hospital | 
+W | 死亡 | morir | v.i.
+W | 医药费 | gastos médicos | 
+W | 关心 | preocuparse | prnl.
+W | 照料 | cuidar | v.
+W | 看护 | monitorear | v.t.
+W | 限制 | límite | n.m.
+W | 过敏 | alergia | n.f.
+W | 健康状况 | condición de la salud | 
+W | 病房 | cuarto del enfermo | n.f.
+S | Pronto podrás abandonar el hospital || 你很快就能出院了。
+S | Introdujeron la camilla en la ambulancia || 他们把担架抬上救护车。
+S | De vuelta a París, el diagnóstico del médico cae: él tiene depresión || 回到巴黎后，医生的诊断： 他得了抑郁症。
+S | Debe limitar la velocidad de los coches de modo que haya menos accidentes || 应该限制车速，以便减少车祸。
+S | Tenemos que aprender a cuidarnos de sí mismos, en lugar de dependernos de los demás || 我们要学会自己关心自己，而不是一味依靠别人。
+E | 抑郁，消沉 | depresión | n.f.
+E | 意外事故 | accidente | n.m.
+E | 依赖 | depender | v.
+----- Sec 16 手术 (W20 S6 E7) -----
+W | 做 | hacer | v.t.
+W | 手术 | operación | n.f.
+W | 动手术 | tener una operación | v.t.
+W | 手术台 | mesa de operaciones | 
+W | 手术衣 | bata quirúrgica | 
+W | 外科 | cirugía | n.f.
+W | 手术刀 | bisturí | n.m.
+W | 手术疗法 | tratamiento quirúrgico | 
+W | 机械 | mecánico | adj.
+W | 外科的 | quirúrgico | adj.
+W | 生命 | vida | n.f.
+W | 镊子 | pinza | n.f.
+W | 缝合 | sutura | n.f.
+W | 切除 | extirpar | v.t.
+W | 麻醉 | anestesia | n.f.
+W | 使麻醉 | anestesiar | v.t.
+W | 麻醉师 | anestesiólogo | n.
+W | 麻醉剂 | anestésico | n.m.
+W | 无菌的 | estéril | adj.
+W | 神经 | nervio | n.m.
+S | Los doctores realizaron la operación || 医生们完成了这个手术。
+S | El estado del enfermo después de la operación es satisfactorio || 手术后患者的状况良好。
+S | Temo que a su edad no pueda soportar la operación || 我担心他这么大岁数受不住这个手术。
+S | Tiene talento para la cirugía || 他做外科手术很在行。
+S | La intervención fue muy dolorosa al no haber anestesia || 手术不麻醉的话会很痛的。
+S | El cirujano estranguló la vena con las pinzas para detener la hemorragia || 外科医生用夹子钳住静脉止血。
+E | 实现，使成为现实 | realizar | v.t.
+E | 相当好的，足以使人满意的 | satisfactorio | adj.
+E | 承受，忍受 | soportar | v.t.
+E | 才能，才干 | talento | n.m.
+E | 手术 | intervención | n.f.
+E | 箝住 | estrangular | v.t.
+E | 出血 | hemorragia | n.f.

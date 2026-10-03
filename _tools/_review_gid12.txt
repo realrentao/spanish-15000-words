@@ -1,0 +1,81 @@
+========== GID 12 | None | None ==========
+----- Sec 1 说话 (W17 S4 E3) -----
+W | 说话 | hablar | v.t.
+W | 演讲 | discurso | n.m.
+W | 喊叫 | gritar | v.t.
+W | 叫喊 | proclamar | v.t.
+W | 低声说 | hablar en voz baja | 
+W | 喊叫 | grito | n.m.
+W | 劝说 | persuadir | v.t.
+W | 解释 | explicar | v.t.
+W | 责备 | culpar | v.t.
+W | 批评 | criticar | v.t.
+W | 重复 | repetir | v.t.
+W | 引导 | guiar | v.t.
+W | 介绍 | introducir | v.t.
+W | 表扬 | exaltar | v.t.
+W | 撒谎 | mentir | v.t.
+W | 叹息 | suspirar | v.t.
+W | 推荐 | recomendar | v.t.
+S | Te ríes de mí porque soy orgulloso de la cultura de mi pueblo natal || 你在嘲笑我，因为我为我家乡的文化而自豪。
+S | Parece muy creíble || 他听着挺可信的。
+S | El perdonó a nadie en su crítica || 他在批评中没有姑息任何人。
+S | Algunas personas viven toda su vida para convencer a la gente, y algunas personas una vida para la mentira || 有些人一辈子都在哄人,而有些人用一辈子去骗人。
+E | 自豪 | orgulloso | n.m.
+E | 可信的 | creíble | adj.
+E | 谎言 | mentira | n.f.
+----- Sec 2 头部与手的动作 (W17 S5 E6) -----
+W | 赞同 | asentir | v.t.
+W | 摇动 | agitar | v.t.
+W | 鞠躬 | reverencia | n.f.
+W | 同意 | acuerdo | n.m.
+W | 不同意 | negar | v.t.
+W | 鼓掌 | aplaudir | v.t.
+W | 鼓掌 | animar | v.t.
+W | 口译 | intérprete | n.
+W | 做 | hacer | v.t.
+W | 表演 | espectáculo | n.m.
+W | 行为 | acción | n.f.
+W | 练习 | práctica | n.f.
+W | 申请 | petición | n.f.
+W | 广播 | emisión | n.f.
+W | 吵架 | pelea | n.f.
+W | 问 | preguntar | v.t.
+W | 质疑 | duda | n.f.
+S | Si no aflojas un poco, jamás llegaremos a un acuerdo || 如果你一点儿也不让步，我们永远达不成协议。
+S | En principio estoy de acuerdo con tu opinión || 原则上我同意你的意见。
+S | Aplaudimos para dar la bienvenida al alumno recién llegado || 我们鼓掌欢迎新来的同学。
+S | Tengo muchos ejercicios que hacer || 我有许多功课要做。
+S | Para nosotros, los alumnos que estudian el francés, esto no es sólo una buena noticia, sino también una opción para nosotros a practicar lo que hemos aprendido || 对于我们这些学法文的学生而言，这不仅仅是个好消息，还是一个让我们学以致用的机会。
+E | 退让，让步 | aflojar | v.i.
+E | 原则 | principio | n.m.
+E | 欢迎 | bienvenida | n.f.
+E | 学生 | alumno | n.
+E | 练习，习题，功课 | ejercicio | n.m.
+E | 实施，实行 | practicar | v.t.
+----- Sec 3 身体的动作 (W15 S6 E4) -----
+W | 蜷缩的 | acurrucado | adj.
+W | 致敬 | saludar | v.t.
+W | 谢谢 | gracias | n.f.
+W | 弯腰 | curva | n.f.
+W | 步伐 | paso | n.m.
+W | 摇晃 | escalonar | v.i.
+W | 轻盈的 | ligero | adj.
+W | 沉重的 | pesado | adj.
+W | 跛行 | cojear | v.i.
+W | 拖着脚步走 | colgando de la pierna | 
+W | 暂停 | suspender | v.t.
+W | 高雅的 | elegante | adj.
+W | 蹒跚 | cojear | v.i.
+W | 徘徊 | pasear | v.i.
+W | 蹲下 | acuclillarse | prnl.
+S | Gracias por darme una clasificación tan alta || 谢谢大家给我这么高的评价。
+S | Tres cuartas partes de los españoles consideran que el gasto para comprar el coche es demasiado pesado || 有四分之三的西班牙人觉得难以负担（买车、养车）这笔开销。
+S | La vida es una aventura que nadie salga vivo || 生命是一次没有人能活着出去的冒险。
+S | Gracias y un saludo a todos || 谢谢大家，向大家问好。
+S | Pido perdón por no haberle visto y saludado al principio || 请原谅我一开始没看见您，没向您打招呼。
+S | Tuvo un accidente muy grave, y empezó a cojear desde entonces || 他出了一起很严重的事故，并从那开始跛脚了。
+E | 过多的， 过分的 | demasiado | adj.
+E | 冒险 | aventura | n.f.
+E | 原谅，宽恕 | perdón | n.m.
+E | 当时，那时 | entonces | adv.

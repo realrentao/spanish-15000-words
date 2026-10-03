@@ -1,0 +1,9 @@
+TODO: 124 files
+PROGRESS 20/124 ok=20 err=0 skip=0  46.5s
+PROGRESS 40/124 ok=39 err=0 skip=1  46.5s
+PROGRESS 60/124 ok=59 err=0 skip=1  46.5s
+PROGRESS 80/124 ok=79 err=0 skip=1  46.5s
+PROGRESS 100/124 ok=99 err=0 skip=1  46.5s
+PROGRESS 120/124 ok=118 err=0 skip=2  46.5s
+PROGRESS 124/124 ok=122 err=0 skip=2  46.5s
+DONE: 122/124 generated (ok=122 err=0 skip=2)

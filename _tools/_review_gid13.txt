@@ -1,0 +1,51 @@
+========== GID 13 | None | None ==========
+----- Sec 1 正面情绪 (W12 S3 E4) -----
+W | 赞成 | aprobar | v.t.
+W | 乐观的 | optimista | adj.
+W | 赞成 | asentimiento | n.
+W | 客观的 | objetivo | adj.
+W | 公平的 | justo | adj.
+W | 谨慎地 | con cautela | 
+W | 自信的 | confiado | adj.
+W | 骄傲的 | orgulloso | adj.
+W | 令人信服的 | convincente | adj.
+W | 耐心的 | paciente | adj.
+W | 好奇的 | curioso | adj.
+W | 喜爱 | preferencia | n.f.
+S | El amor es paciente, cuidadoso; amor ignora odio || 爱情富有耐心，爱情给人呵护，爱情无视仇恨。
+S | Tomar un viaje en bicicleta o en coche tiene sus comodidades, pero puede ser preferible caminar || 骑自行车或者驾车出游固然有其乐趣，但是人们可能更喜欢徒步出行。
+S | Estoy orgulloso de mi cultura natal || 我为我家乡的文化自豪。
+E | 仇恨 | odio | n.m.
+E | 自行车 | bicicleta | n.f.
+E | 舒适，便利 | comodidad | n.f.
+E | 让人喜好的 | preferible | adj.
+----- Sec 2 偏负面情绪 (W17 S8 E4) -----
+W | 悲观 | pesimismo | n.m.
+W | 忧虑 | preocupación | n.f.
+W | 武断的 | dogmático | adj.
+W | 有偏见的 | parcial | adj.
+W | 偏袒 | ponerse al lado | 
+W | 令人沮丧的 | angustiante | adj.
+W | 令人失望的 | desesperante | adj.
+W | 使失望 | frustrar | v.t.
+W | 惊恐的 | asustado | adj.
+W | 怀疑的 | escéptico | adj.
+W | 愤怒的 | furioso | adj.
+W | 愤怒的 | enojado | adj.
+W | 轻视 | despreciar | v.t.
+W | 沮丧的 | frustrado | adj.
+W | 模棱两可的 | equívoco | adj.
+W | 漠不关心的 | desinteresado | adj.
+W | 主观的 | subjetivo | adj.
+S | Eres tan dogmático que no hay nadie que quiere hacerse amigos contigo || 你太固执己见了，这样没有人愿意和你做朋友。
+S | No te angusties. No pasa nada || 别着急，什么事儿也没发生。
+S | La busca desesperante y no la encuentra || 他绝望地找啊找，还是没有找到。
+S | No soy un escéptico compulsivo || 我不是一个疑神疑鬼的人。
+S | El niño está furioso conmigo || 小孩对我生气了。
+S | Esa expresión se presta a un equívoco || 那句话可作不同的解释。
+S | Esto que dices es muy subjetivo || 你说的话很主观。
+S | Podemos preciar el amor y despreciará al amante || 我们可以珍视爱情而轻视情人。
+E | 友好的 | amigos | adj.
+E | 找到 | encontrar | v.t.
+E | 强迫的，强制性的 | compulsivo | adj.
+E | 轻视 | despreciar | v.t.

@@ -1,0 +1,81 @@
+========== GID 8 | None | None ==========
+----- Sec 1 头发情况 (W18 S4 E5) -----
+W | 头发 | pelo | n.m.
+W | 分叉 | bifurcación | n.f.
+W | 头皮屑 | caspa | n.f.
+W | 长的 | largo | adj.
+W | 短的 | corto | adj.
+W | 秃的 | calvo | adj.
+W | 光秃的 | pelado | adj.
+W | 油性的 | grasiento | adj.
+W | 一缕毛发 | un mechón | 
+W | 弄乱 | trastornar | v.t.
+W | 蓬乱的 | desaliñado | adj.
+W | 混乱 | trastorno | n.m.
+W | 假发 | peluca | n.f.
+W | 假发 | postizo | n.m.
+W | 卷发的 | rizado | adj.
+W | 直的 | recto | adj.
+W | 干燥的 | seco | adj.
+W | 稀疏的头发 | pelo escaso | 
+S | Córtame el pelo, pero sólo las puntas || 麻烦给我理个头发，只要剪发梢。
+S | Es tarde y necesito un secador para secarme el pelo y voy a dormir || 现在很晚了，我需要一个吹风机弄干头发然后去睡觉。
+S | Estoy segura de que lleva un postizo. Ella no tiene el pelo tan largo || 我肯定她戴着假发，她头发没那么长。
+S | La cabeza suya es pelada || 他是秃头。
+E | 只要 | sólo | adv.
+E | 晚 | tarde | adv.
+E | 吹风机 | secador | n.m.
+E | 睡觉 | dormir | v.i.
+E | 头，脑袋 | cabeza | n.f.
+----- Sec 2 发型 (W14 S5 E6) -----
+W | 理发店 | peluquería | n.m.
+W | 理发师 | peluquero | n.
+W | 理发师 | barbero | n.m.
+W | 发型 | peinado | n.
+W | 理发 | cortar el pelo | v.t.
+W | 修剪 | cortar | v.t.
+W | 平头 | cabeza plana | 
+W | 刘海儿 | fleco | n.m.
+W | 卷曲的 | rizado | adj.
+W | 烫发 | rizar el pelo | 
+W | 分开 | división | n.f.
+W | 分开 | separar | v.t.
+W | 边 | dobladillo | n.m.
+W | 中央 | medio | n.m.
+S | Creo que a ella le gusta el peinado || 我想她喜欢这个发型。
+S | La peluquera le humedeció los cabellos para poder cortar || 理发师弄湿他的头发来剪发。
+S | Hay una peluquería cerca de mi casa || 我家附近有个理发店。
+S | Disimulaba la calva con una peluca || 他戴上假发把秃顶遮盖起来。
+S | Llevaba el pelo recogido con una banda || 她用一条带子把头发束起来。
+E | 弄湿，润湿 | humedecer | v.t.
+E | 毛发，头发 | cabello | n.m.
+E | 附近，邻近 | cerca | adv.
+E | 遮掩， 掩盖 | disimular | v.t.
+E | （毛发、布、纸等的）卷曲； 折边 | recogido | n.m.
+E | 条带，饰带 | banda | n.f.
+----- Sec 3 美发 (W14 S6 E5) -----
+W | 洗发水 | champú | n.m.
+W | 头发养护 | cuidado del cabello | 
+W | 发夹 | horquilla | n.f.
+W | 卷起 | agrupamiento | n.m.
+W | 乳胶 | emulsión | n.f.
+W | 吹风机 | secador de pelo | 
+W | 护发素 | acondicionado | n.m.
+W | 发蜡 | ungüento | n.m.
+W | 护发用品 | artículos para acondicionar el cabello | 
+W | 软化 | suavizar | v.t.
+W | 染色 | coloración | n.f.
+W | 剪刀 | tijera | n.f.
+W | 冲洗 | lavar | v.t.
+W | 梳理 | desentrañar | v.t.
+S | Dime, has usado acondicionador? || 告诉我，你用了护发素？
+S | Quiere usted un champú para cabello graso o seco? o caspa ? || 您想要洗油性头发还是洗干性头发的洗发水？ 或者用去头屑的洗发水？
+S | Su pelo es ondulado || 她的头发是卷曲的。
+S | Dónde está mi champú, mamá? || 我的洗发水在哪儿呀，妈妈？
+S | Se recogió el pelo con una cinta || 她用带子把头发束好。
+S | Usé una horquilla para sujetar un mechón de cabello rebelde || 我用发卡夹住乱翘的头发。
+E | 波状的，波浪起伏的 | ondulado | adj.
+E | 带子 | cinta | n.f.
+E | 捆住，扎住，系住 | sujetar | v.t.
+E | 头发，毛发 | cabello | n.m.
+E | 难管束的 | rebelde | adj.

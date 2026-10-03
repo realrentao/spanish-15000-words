@@ -1,0 +1,290 @@
+========== GID 11 | None | None ==========
+----- Sec 1 人的身材特征 (W14 S5 E4) -----
+W | 肥胖 | corpulencia | n.f.
+W | 苗条的 | delgado | adj.
+W | 高的 | alto | adj.
+W | 矮的 | bajo | adj.
+W | 胖的 | gordo | adj.
+W | 瘦的 | delgado | adj.
+W | 小的 | pequeño | adj.
+W | 大的 | grande | adj.
+W | 胖嘟嘟的 | gordito | adj.
+W | 消瘦的 | seco | adj.
+W | 优美健壮的 | fuerte | adj.
+W | 笨拙的 | patoso | adj.
+W | 身高 | altura | n.f.
+W | 比例 | escala | n.f.
+S | Quiero decir, entonces me consideraba como uno de sus amigos delgados || 我想说，我那时算是他的瘦朋友了。
+S | Ella consiguió mantener su figura || 她设法保持身材。
+S | Por qué tienes ganas de hacer una dieta cuando ya estás tan delgada? || 你都那么瘦了，为什么还想要节食？
+S | Siempre se descuida de su figura y está más gorda || 她总是不注意自己的体形，于是越来越胖。
+S | Este traje te hace más gordo || 穿着这身衣服显得你胖。
+E | 保持，维持 | mantener | tr.
+E | 身材，体形 | figura | n.f.
+E | 禁食，忌食 | dieta | n.f.
+E | 永远，总是 | siempre | adv.
+----- Sec 2 发色和眼睛 (W21 S5 E3) -----
+W | 眼神 | mirada | n.f.
+W | 茫然的 | aturdido | adj.
+W | 悲伤的 | triste | adj.
+W | 鼓起来的 | saldado | adj.
+W | 深陷的 | atascado | adj.
+W | 压抑的 | deprimido | adj.
+W | 斜眼 | estrabismo | n.m.
+W | 温和的 | suave | adj.
+W | 斜视 | bizcar | 
+W | 独眼的 | tuerto | adj.
+W | 瞪大的眼睛 | ojos bien abiertos | 
+W | 乌黑的 | negro | adj.
+W | 灰色的 | gris | adj.
+W | 金黄色的； 金发 | rubio | adj. & n.m.
+W | 棕色的 | marrón | adj.
+W | 红色 | rojo | n.m.
+W | 紫红色 | fucsia | n.f.
+W | 银色 | plata | n.f.
+W | 黑色 | negro | n.m.
+W | 白色 | blanco | n.m.
+W | 浅棕色 | marrón claro | n.inv.
+S | Pero por favor no me mires con simpatía || 但请不要用同情的眼神看着我。
+S | Las películas y programas de televisión te hacen pensar que la calle está llena de guapas rubias || 你们的电影和电视剧搞得人以为满大街都是金发美女。
+S | Estoy aturdido con tantas cosas que hacer || 那么多事情要做，我真不知怎么是好。
+S | Es un hombre de manera suaves || 他是个举止温文尔雅的人。
+S | Prefiero los rojos, son más modernos || 我更喜欢红色的，更加时尚一点。
+E | 同情 | simpatía | n.f.
+E | 举止；态度 | manera | n.f.
+E | 现代的，时髦的 | modernos | adj.
+----- Sec 3 脸型 (W14 S6 E5) -----
+W | 脸 | cara | n.f.
+W | 圆的 | redondo | adj.
+W | 椭圆的 | oval | adj.
+W | 长的 | largo | adj.
+W | 胖的 | gordo | adj.
+W | 浮肿的 | hinchado | adj.
+W | 憔悴的 | marchitado | adj.
+W | 皱纹 | arruga | n.f.
+W | 雀斑 | peca | n.f.
+W | 黝黑的 | bronceada | adj.
+W | 胡子 | bigote | n.m.
+W | 胡须 | barba | n.f.
+W | 眉目清秀 | tiene líneas finas | 
+W | 鹅蛋脸 | rostro ovalado | 
+S | Tiene la cara redonda || 他有张圆脸。
+S | Tiene rosada cara || 她脸色红润。
+S | Oye, tienes mala cara. Te pasa algo? || 哎，你的脸色很差啊。这是怎么了？
+S | El sol les tostó la cara y los brazos || 太阳晒黑了他们的脸和胳膊。
+S | Quieres dibujar una barba en su dedo para romper el punto muerto? || 你愿意在手指上画一撮胡子来打破僵局吗？
+S | Barba Azul gritó tan fuerte que toda la casa se fluctuó || 蓝胡子的嚎声更大了，响得整个房子都在抖动。
+E | 玫瑰色的，粉红的 | rosada | adj.
+E | 臂，手臂 | brazo | n.m.
+E | 死胡同 | punto muerto | 
+E | 叫喊 | gritar | v.t.
+E | 抖动 | fluctuar | v.t.
+----- Sec 4 笑容 (W17 S6 E4) -----
+W | 笑 | risa | n.f.
+W | 微笑 | sonreír | v.t.
+W | 微笑 | sonrisa | n.f.
+W | 假笑 | risa artificial | 
+W | 欢笑 | reír con mucha felicidad | 
+W | 快活的 | alegre | adj.
+W | 迷人的 | atractivo,a | n.m.
+W | 幸运的 | afortunado | adj.
+W | 狞笑 | una risa satánica | 
+W | 天真的 | inocente | adj.
+W | 可笑的 | ridículo | adj.
+W | 和蔼的 | amable | adj.
+W | 轻蔑的 | desdeñoso | adj.
+W | 大笑 | carcajada | n.f.
+W | 捧腹大笑 | reír a torcer | 
+W | 苦笑 | risa triste | 
+W | 嘲笑 | tomar a risa algo | 
+S | Cuando oye este chiste, se cae de risa || 当听到这个笑话，他哈哈大笑。
+S | Cuando me sonríe, me siento feliz || 当他冲我笑的时候，我觉得很幸福。
+S | Empieza tu día con una sonrisa || 用微笑开始新的一天。
+S | Aunque no estaba bien, nos saludó con una sonrisa artificial || 她不舒服，假笑着和我们打招呼。
+S | Su sonrisa es sincera || 她的笑容是真诚的。
+S | La lógica de la vida es ser burlado, y otro tiempo tal vez burlar a otros || 人生在世无非是让别人笑笑，偶尔笑笑别人。
+E | 幸福的 | feliz | adj.
+E | 招呼，问候 | saludo | n.m.
+E | 真挚的，诚恳的 | sincera | adj.
+E | 嘲笑 | burlar | v.t.
+----- Sec 5 声音 (W16 S6 E5) -----
+W | 声音 | voz | n.f.
+W | 噪音 | ruido | n.m.
+W | 清晰的 | claro | adj.
+W | 低沉的 | cavernoso | adj.
+W | 响亮的 | brillante | adj.
+W | 低的 | bajo | adj.
+W | 刺耳的 | duro | adj.
+W | 刺耳的 | estridente | adj.
+W | 温柔的 | suave | adj.
+W | 甜蜜的 | dulce | adj.
+W | 单调的 | monótono | adj.
+W | 微弱的 | débil | adj.
+W | 微弱的 | pálido | adj.
+W | 高音的 | agudo | adj.
+W | 美妙的 | maravilloso | adj.
+W | 沙哑的 | ronco | adj.
+S | Perderás el control de tu voz mejorarás control durante varias horas, pero poco a poco te recuperarás || 你会失声几个小时，不过会慢慢好的。
+S | Alza la voz || 大点声。
+S | Me persigue el eco de su voz || 他的声音还在我耳边回响。
+S | Si no subes la voz no oiré lo que estás diciendo || 如果你不大点儿声，我就听不到你在讲什么。
+S | Entra sin hacer ruido || 他不声不响地进来了。
+S | Cansados de los ruidos, del tráfico y de la contaminación? || 噪声、交通和污染让你们疲惫不堪？
+E | 控制 | control | n.m.
+E | 几个 | vario | adj.
+E | 反复出现，一再出现 | perseguir | v.t.
+E | 交通 | tráfico | n.m.
+E | 污染，污染物 | contaminación | n.f.
+----- Sec 6 人的身份 (W15 S6 E7) -----
+W | 地位 | posición | n.f.
+W | 平民 | plebeyo | n.m.
+W | 市民 | ciudadano | n.
+W | 农民 | campesino | n.
+W | 干部 | cuadro | n.
+W | 军人 | militar | n.
+W | 官员 | oficial | n.
+W | 领导 | líder | n.
+W | 贵族 | noble | n.
+W | 贵族 | aristocracia | n.f.
+W | 卓越的 | sobresaliente | adj.
+W | 默默无闻的 | silencioso | adj.
+W | 杰出的 | excelente | adj.
+W | 高贵的 | distinguido | adj.
+W | 皇室 | familia imperial | 
+S | Sobre el cambio climático la posición del gobierno chino es cada vez más constructiva en los últimos años || 近年来，中国政府在气候变化问题上的立场越来越富有建设性。
+S | Los soldados dependen de las órdenes de un oficial || 士兵们听从军官的命令。
+S | Verón es un auténtico líder positivo || 他是个有权威的乐观的领导者。
+S | Es el derecho de todo ciudadano || 这是每个公民的权利。
+S | La vida del campesino va a mejorando || 农民的生活在逐渐改善。
+S | Los cuadros no deben mostrarse indiferentes con las masas || 干部不能对群众漠不关心。
+E | 关于，对于 | sobre | prep.
+E | 建设性的 | constructivo | adj.
+E | 从属于，听从于 | depender | v.i.
+E | 权威性的 | auténtico | adj.
+E | 积极的，乐观的 | positivo | adj.
+E | 使更好，改善 | mejorar | v.t.
+E | 无动于衷的 | indiferentes | adj.
+----- Sec 7 性格特征(1) (W14 S3 E4) -----
+W | 热情 | entusiasmo | n.m.
+W | 友好的 | amable | adj.
+W | 好的 | bueno | adj.
+W | 乐观的 | optimista | adj.
+W | 积极的 | positivo | adj.
+W | 善良的 | simpático | adj.
+W | 诚实的 | honesto | adj.
+W | 勤奋的 | trabajador | adj.
+W | 可靠的 | fiable | adj.
+W | 聪明的 | inteligente | adj.
+W | 幽默地 | tiene el humor | 
+W | 创造性的 | creativo | adj.
+W | 负责的 | responsable | adj.
+W | 认真的 | serio | adj.
+S | No sé si serías tan generoso || 我不知道你是否会这么大方。
+S | Deseo que España pueda recuperar el optimismo y gusto de vivir, que son el único que pueda permitirlo afrontar los retos || 我希望西班牙能重新找回乐观和生活品味，只有这两条才能让西班牙成功应对困难。
+S | El principito hizo una buena carcajada, que me irritó. Me gustaría que los demás tomen en serio mis desgracias || 此时小王子发出一阵清脆的笑声。这使我很不高兴。我要求别人严肃地对待我的不幸。
+E | 大方的 | generoso | adj.
+E | 准许 | permitir | v.t.
+E | 使发怒 | irritar | 
+E | 使不幸 | desgraciar | v.t.
+----- Sec 8 性格特征(2) (W14 S6 E5) -----
+W | 消极的 | negativo | adj.
+W | 悲观的 | pesimista | adj.
+W | 冷酷的 | frío | adj.
+W | 吹毛求疵的 | mordaz | adj.
+W | 优柔寡断的 | indeciso | adj.
+W | 任性的 | caprichoso | adj.
+W | 吝啬的 | tacaño | adj.
+W | 敏感的 | sensible | adj.
+W | 卑鄙的 | astroso | adj.
+W | 邪恶的 | satánico | adj.
+W | 不诚实的 | deshonesto | adj.
+W | 懒惰的 | perezoso | adj.
+W | 愚蠢的 | estúpido | adj.
+W | 粗心的 | negligente | adj.
+S | Lloro porque los demás son estúpidos, que me hace muy triste || 我哭是因为其他人都很蠢，这让我很伤心。
+S | La tele tiene influencia negativa sobre los jóvenes || 电视对青少年有消极的影响。
+S | Siempre piensa que la vida es muy triste, que es una desgraciada. Es muy pesimista || 她总是认为生活是很悲伤的，是不幸的。她是悲观的。
+S | Está indeciso sobre qué actitud adoptar || 究竟采取什么态度他还在犹豫。
+S | No hay que ser negligente en el trabajo ni flojo en el estudio || 工作上不能随便，学习上不能放松。
+S | Tu actitud negligente te causó el fracaso || 你的马虎态度造成了失败。
+E | 影响 | influencia | n.f.
+E | 青年人 | joven | n.
+E | 采取，采用 | adoptar | v.t.
+E | 松的，松动的 | flojo | adj.
+E | 失败 | fracaso | n.m.
+----- Sec 9 不同国籍 (W19 S6 E4) -----
+W | 国籍 | nacionalidad | n.f.
+W | 双重的 | dual | adj.
+W | ［贬］ 美国佬 | yankee | 
+W | 美国人 | americano | n.m.
+W | 中国人 | chino | n.m.
+W | 加拿大人 | canadiense | n.
+W | 日本人 | japonés | n.m.
+W | 法国人 | francés | n.m.
+W | 澳大利亚人 | australiano | n.
+W | 俄罗斯人 | ruso | n.
+W | 德国人 | alemán | n.
+W | 爱尔兰人 | irlandés | n.
+W | 芬兰人 | finlandés | n.
+W | 瑞士人 | suizo | n.
+W | 希腊人 | griego | n.
+W | 西班牙人 | español | n.
+W | 葡萄牙人 | portugués | n.m.
+W | 巴西人 | brasileño | n.m.
+W | 英国人 | inglés | n.
+S | Los estudiantes extranjeros ocupan el 11,7% de todos los estudiantes en Francia || 法国学生总数中外国学生占11.7%。
+S | Este chino es de nacionalidad americana || 这个人是美籍华人。
+S | Cuenta con doble nacionalidades || 他有双重国籍。
+S | Qué es tu nacionalidad? || 你是什么国籍？
+S | El cine americano es mejor que el europe || 美国电影比欧洲电影好。
+S | Soy español, de Sevilla. Cómo te apellidas? || 我是西班牙人，来自塞维利亚。你姓什么？
+E | 外国的 | extranjero | adj.
+E | 占据 | ocupar | v.
+E | 电影 | cine | n.m.
+E | 姓，名字叫 | apellidar | prnl.
+----- Sec 10 不同年龄 (W13 S3 E4) -----
+W | 年龄 | edad | n.f.
+W | 新生儿 | recién nacido | 
+W | 早产儿 | prematura | n.
+W | 婴儿 | bebé | n.m.
+W | 小孩 | niño | n.m.
+W | 未成年 | menor | n.
+W | 成年的 | adulto | adj.
+W | 青少年 | adolescente | n.
+W | 年轻的 | joven | n.
+W | 中年 | edad mediana | 
+W | 老的 | viejo | adj.
+W | 老人 | anciano | n.m.
+W | 未成年少女 | niñas menores de edad | 
+S | El amor no tiene edad: todavía es incipiente || 爱情怎么会有沧桑，所以一切都是当初的模样。
+S | Este joven encantador tenía dos alas con colores brillantes, y en la cabeza, una corona de oro. él era el rey y vivía en una flor || 这个迷人的年轻人有着一对颜色鲜亮的翅膀,头上戴着一顶金皇冠。他是国王,住在一朵花里。
+S | Enseñaron a la chica etiqueta social elegante || 他们教会小姑娘高雅的社交礼节。
+E | 开始的 | incipiente | adj.
+E | 翅膀 | ala | n.f.
+E | 闪闪发光的 | de oro | 
+E | 礼节 | etiqueta | n.f.
+----- Sec 11 不同职业 (W17 S3 E4) -----
+W | 职业 | trabajo | n.m.
+W | 职称 | título | n.f.
+W | 工作 | trabajar | v.t.
+W | 工作 | empleo | n.m.
+W | 领域 | campo | n.m.
+W | 职业生涯 | carrera | n.f.
+W | 医生 | médico | n.m.
+W | 司机 | conductor | n.m.
+W | 建筑工人 | trabajador de la construcción | 
+W | 设计师 | diseñador | n.
+W | 老师 | maestro | n.m.
+W | 运动员 | deportista | n.
+W | 商人 | comerciante | n.
+W | 学者 | erudito | n.
+W | 科学家 | científico | n.
+W | 售货员 | vendedor | n.
+W | 服务员 | camarero | n.
+S | La carrera de Tom comenzó a despegar || 汤姆的事业开始腾飞。
+S | Michel vive lejos de la oficina, toma el metro a trabajar todos los días || 米歇尔住得离办公室远，她每天乘坐地铁去上班。
+S | De todos modos, mi tío, no exagero, es un verdadero erudito || 无论如何，我的叔叔是一个真正的学者，这我一点也不夸张。
+E | 揭下，剥下 | despegar | v.t.
+E | 伯父 | tío | n.m.
+E | 夸张 | exagerar | v.
+E | 现实的 | verdadero | adj.

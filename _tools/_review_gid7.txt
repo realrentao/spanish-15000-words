@@ -1,0 +1,120 @@
+========== GID 7 | None | None ==========
+----- Sec 1 银行 (W12 S3 E3) -----
+W | 银行 | banco | n.m.
+W | 银行业务 | actividades bancarias | 
+W | 账户 | cuenta | n.f.
+W | 账号 | número de cuenta | 
+W | 银行家 | banquero | n.m.
+W | 开户 | abrir una cuenta | 
+W | 农业银行 | Banco Agrícola | 
+W | 冻结 | congelar | v.t.
+W | 农业信贷银行 | Banco de Crédito Agrícola | 
+W | 中国银行 | Banco de China | 
+W | 中国建设银行 | Banco de Construcción de China | 
+W | 中国工商银行 | Banco de Industria y Comercio de China | 
+S | Casi todo el mundo utiliza los servicios del banco en diferentes formas, sobre todo las empresas || 几乎所有的人都以这样或那样的形式使用银行服务，尤其是那些企业。
+S | Mi hija estudia en el extranjero, y yo le pongo dinero regularmente a su cuenta. Si no, su cuenta sobregirará || 我女儿在国外读书，我会定期把钱转到她的账户上，不然她的账户就会出现透支。
+S | Fue la última vez que usé el banco en línea || 那是我最后一次使用网上银行业务。
+E | 企业 | empresa | n.f.
+E | 有规律地 | regularmente | adv.
+E | 透支 | sobregirar | v.
+----- Sec 2 不同卡类 (W13 S5 E6) -----
+W | 银行卡 | tarjeta bancaria | 
+W | 信用证 | carta de crédito | 
+W | 卡号 | número de tarjeta | 
+W | 存折 | cartilla | 
+W | 存折 | libreta de ahorros | 
+W | 密码 | código | n.m.
+W | 转账 | transferencia | n.f.
+W | 余额 | restante | n.m.
+W | 手续费 | comisión | n.f.
+W | 赊购 | comprar a crédito | 
+W | 透支额 | descubierto | n.m.
+W | 透支 | sobregiro | n.m.
+W | 背书 | endoso | n.m.
+S | Voy al banco a meter el dinero que he cobrado || 我去银行把领到的钱存起来。
+S | He ingresado 500 euros en mi cuenta || 我刚刚存了五百欧元。
+S | El pago se realiza mediante tarjeta || 这笔账通过信用卡支付。
+S | Este crédito se amortiza mediante pagos trimestrales || 这笔欠款分季度偿还。
+S | Voy al banco a recoger mi nueva tarjeta de crédito || 我要去银行拿我的新银行卡。
+E | 货币，钱 | dinero | n.m.
+E | v.t.（将钱）储存，存入 | ingresar | 
+E | 通过，借助，利用 | mediante | prep. & adv.
+E | 偿还 (债务) | amortizar | v.t.
+E | 季的， 三个月的 | trimestral | adj.
+E | 收取，得到，获得 | recoger | v.t.
+----- Sec 3 兑换外币 (W14 S6 E4) -----
+W | 货币 | moneda | n.f.
+W | 钱 | dinero | n.m.
+W | 兑换 | cambiar | v.t.
+W | 兑换率 | tipo de cambio | 
+W | 外汇 | moneda extranjera | 
+W | 外汇储备 | reserva de divisas | 
+W | 黄金储备 | reserva de oro | 
+W | 货币的 | monetario | adj.
+W | 货币政策 | política monetaria | 
+W | 美元 | dólar | n.m.
+W | 欧元 | euro | n.m.
+W | 法郎 | franco | n.m.
+W | 十进制的 | decimal | adj.
+W | 纸币 | billete | 
+S | De mala gana Mike pide dinero a Carlos || 麦克不情愿地向卡奈斯借了钱。
+S | La crisis en la zona de euro no está solucionada || 欧元区的危机还没有解决。
+S | Nadie esperaba ver una reforma monetaria de China || 没有人预想到中国的货币改革。
+S | Aquí no vale la moneda extranjera || 外币在这儿不能用。
+S | El turista cambió el dólar en renminbi || 游客把美元兑换成人民币。
+S | Cambió un yuan en moneda menuda || 他把一元钱换成零钱。
+E | 勉强地 | de mala gana | 
+E | 危机 | crisis | n.f.
+E | 改革 | reforma | n.f.
+E | 零钱 | menuda | n.m.
+----- Sec 4 存取款 (W14 S4 E5) -----
+W | 自动取款机 | cajero automático | 
+W | 银行存款余额 | saldo | n.m.
+W | 银行存折 | libreta | n.f.
+W | 银行汇票 | letra de cambio bancaria | 
+W | 存款 | depósito | n.m.
+W | 储户 | cuenta de ahorros | 
+W | 取款 | depósito quitado | 
+W | 现金 | en efectivo | n.m.
+W | 利率 | tasas de interés | 
+W | 复利 | interés compuesto | 
+W | 支付 | pagar | v.t.
+W | 转账 | trasladar | v.t.
+W | 取出 | retirar | v.t.
+W | 清单 | ficha | n.f.
+S | Iba a ir al banco a depositar el dinero. Pero fue la hora de cierre. Se cuenta con un cajero automático aquí? || 我打算去银行把这笔钱存入存折，但现在是银行下班的时候。这附近有自助银行吗？
+S | El impuesto debe ser pagado al momento de presentar la declaración || 交易税必须在申报之时缴纳。
+S | Puede pagar en efectivo || 你可以用现金支付。
+S | Pidió un crédito al banco para poder pagar el piso || 他向银行申请一笔贷款来支付所购套房的费用。
+E | 存放 | depositar | v.t.
+E | 关闭 | cierre | n.m.
+E | 税 | impuesto | n.m.
+E | 声明，宣告 | declaración | n.f.
+E | 支付，付款 | pagar | v.t.
+----- Sec 5 支票及债券等 (W16 S4 E5) -----
+W | 支票 | cheque | n.m.
+W | 支票本 | chequera | n.f.
+W | 不记名支票 | cheque anónimo | 
+W | 记名支票 | cheque nominativo | 
+W | 空白支票 | cheque en blanco | 
+W | 兑现支票 | hacer efectivo un cheque | 
+W | 划线支票 | cheque cruzado | 
+W | 债券 | obligación | n.f.
+W | 贷款 | crédito | n.m.
+W | 如期支付 | pagar según la fecha | 
+W | 投资 | inversión | n.f.
+W | 证券 | título | n.m.
+W | 有价证券 | cartera | n.f.
+W | 兑现 | efectivo | n.m.
+W | 国债 | deuda nacional | 
+W | 政府债券 | bonos del gobierno | 
+S | El cheque es un medio de pago básico || 支票是一种基本的支付方式。
+S | Para fines de liquidez, los bancos están obligados a constituir reservas para cubrir los retiros de los depositantes || 因流动需要，各家银行必须设立准备金，以应付储户取款。
+S | El banco le ha concedido un préstamo de doscientos mil euros || 银行给了他一笔20万欧元的贷款。
+S | Va a pagar en efectivo o con tarjeta de crédito? || 您是付现金还是用信用卡？
+E | 基本的 | básico | adj.
+E | 储户 | depositante | n.
+E | 给予，同意 | conceder | tr.
+E | 二十万 | doscientos mil | 
+E | 信用卡 | tarjeta de crédito | 

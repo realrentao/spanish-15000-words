@@ -1,0 +1,112 @@
+========== GID 15 | None | None ==========
+----- Sec 1 亲属关系 (W18 S6 E4) -----
+W | 家庭 | familia | f.
+W | 关系 | relación | n.f.
+W | 妻子 | esposa | n.f.
+W | 丈夫 | marido | n.m.
+W | 妈妈 | madre | n.f.
+W | 父亲 | padre | n.m.
+W | 儿子 | hijo | n.m.
+W | 女儿 | hija | n.f.
+W | 亲戚 | familiar | n.
+W | 爷爷，外公 | abuelo | n.m.
+W | 奶奶，姥姥 | abuela | n.f.
+W | 叔叔 | tío | n.m.
+W | 姑母 | tía | n.f.
+W | 亲近的 | afecto | adj.
+W | 亲属 | relación | n.f.
+W | 表兄弟 | primo | n.m.
+W | 侄女 | sobrina | n.f.
+W | 侄子 | sobrino | n.m.
+S | Mi marido no puede tolerar demoras de otros || 我丈夫不能容忍别人拖延。
+S | Nuestra relación se basa en la confianza || 我们的关系是建立在信任的基础之上的。
+S | Mantiene a su familia con la pulpería || 他靠着这家杂货店养家。
+S | Mi madre está telefoneando a mi padre || 我妈妈正在和我爸爸打电话。
+S | Tiene dos hijos varones || 他有两个儿子。
+S | Ana y Juan tienen una relación de parentesco: son primos || 安娜和胡安有血缘关系，他们是表兄妹。
+E | 宽容 | tolerar | v.t.
+E | 信心 | confianza | n.f.
+E | 杂货店 | pulpería | n.f.
+E | 血缘，亲戚关系 | parentesco | n.m.
+----- Sec 2 恋人与朋友 (W18 S5 E2) -----
+W | 爱，爱情 | amor | n.m.
+W | 情人 | amante | n.
+W | 朋友 | amigo | n.
+W | 友谊 | amistad | n.f.
+W | 增进 | fomentar | v.t.
+W | 浪漫的 | romántico | adj.
+W | 惊喜 | sorpresa | n.f.
+W | 约会 | cita | n.f.
+W | 分手 | separarse | v.t.
+W | 求婚 | pedir la mano | 
+W | 迷人的 | atractivo | adj.
+W | 真诚的 | sincero | adj.
+W | 无私的 | abnegado | adj.
+W | 伙伴 | compañero | n.m.
+W | 陪伴 | acompañar | v.t.
+W | 同性恋 | amor homosexual | 
+W | 性别 | sexo | n.m.
+W | 异性 | sexo opuesto | 
+S | Su libro El Amante recibió el Premio Goncourt en 1985 en el cual describe su tiempo pasado en Vietnam, Fue un gran éxito || 她的《情人》获得了1985年的龚古尔奖和极大的成功，书中叙述的是她在越南度过的时期。
+S | España, la quiero porque tiene una historia muy larga y es un país romántico || 西班牙,我热爱他是因为他有悠久的历史,另外还是个浪漫主义的国度。
+S | Amor no es mirarse el uno al otro, sino mirar en la misma dirección || 爱，不是互相凝视，而是向着同一个方向眺望。
+S | Amor es complicado, pero solo a tu lado me siento completa y feliz || 爱很复杂，但只有在你身边我才觉得完整和幸福。
+S | Siempre juega y estudia con algunos compañeros suyos || 他总是和他的几个同伴一起玩耍一起学习。
+E | 巨大的 | grande | adj.
+E | 长久的 | largo | adj.
+----- Sec 3 敌人 (W16 S4 E6) -----
+W | 敌人 | enemigo | n.m.
+W | 有敌意的 | hostil | adj.
+W | 打架 | pelear | v.i.
+W | 竞争 | competencia | n.f.
+W | 竞争对手 | competidor | n.
+W | 竞争的 | competido | adj.
+W | 对手 | oponente | n.
+W | 同等地 | también | adv.
+W | 高度评价 | muy elogiado | 
+W | 理所当然地 | naturalmente | adv.
+W | 争论 | controversia | n.f.
+W | 交流 | comunicación | n.f.
+W | 主意 | idea | n.f.
+W | 论战 | debate | n.m.
+W | 辩论 | argumentar | v.i.
+W | 争论 | discutir | v.t. & v.i.
+S | No odies a tu enemigo, o vas a cometer un error en el juicio || 不要憎恨你的敌人，否则你将做出错误的判断。
+S | Su oponente aburrida será rechazada || 她那无聊的对手会被解雇。
+S | Siempre se mantiene hostil hacia nosotros || 他经常对我们怀有敌意。
+S | Eso te pone en un espacio de competencia constante || 你处于一个竞争不断的环境中。
+E | 仇恨 | odiar | v.t.
+E | 判断 | juicio | n.m.
+E | 无聊的 | aburrido | adj.
+E | 对，对于 | hacia | prep.
+E | 空间 | espacio | n.m.
+E | 持久的，永恒的 | constante | adj.
+----- Sec 4 结婚 (W16 S6 E6) -----
+W | 已订婚的 | prometido | adj.
+W | 订婚 | prometerse | v.
+W | 婚礼 | boda | n.f.
+W | 结婚 | casarse | v.t.
+W | 嫁妆 | dote | n.
+W | 新娘 | novia | n.f.
+W | 新郎 | novio | n.m.
+W | 主持 | moderador | n.
+W | 牧师 | pastor | n.m.
+W | 誓言 | juramento | n.m.
+W | 蜜月 | luna de miel | 
+W | 婚纱 | vestido de novia | 
+W | 婚姻 | matrimonio | n.m.
+W | 婚姻法 | ley del matrimonio | 
+W | 婚姻自由 | libertad de casarse | 
+W | 婚期 | día de la boda | 
+S | Los casados viven con más escasez. Se entiende que el sistema fiscal español está a favor del soltería y la convivencia || 而结婚者则拮据得多。据了解，西班牙的税收制度有利于独身和同居。
+S | La boda tendrá lugar en noviembre || 婚礼将在11月举行。
+S | El anuncio de su boda nos sorprendió a todos || 他们突然宣布结婚，使我们感到惊讶。
+S | Juan y Ana se casaron en Madrid || 胡安和安娜在马德里结婚。
+S | Tiene una cita con su novia || 他和未婚妻有一个约会。
+S | Celebrar los aniversarios de boda es una antigua costumbre que viene desde Inglaterra || 庆祝结婚周年是从英国传来的一个古老习俗。
+E | 了解 | entender | v.t.
+E | 社会制度 | sistema | n.m.
+E | 通知，通告 | anuncio | n.m.
+E | 使惊奇，使感到意外 | sorprender | v.t.
+E | 周年纪念日 | aniversario | n.m.
+E | 古老的 | antiguo | adj.

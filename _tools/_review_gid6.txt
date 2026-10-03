@@ -1,0 +1,104 @@
+========== GID 6 | None | None ==========
+----- Sec 1 邮局 (W17 S3 E3) -----
+W | 邮递 | correo | n.m.
+W | 明信片 | postal | n.f.
+W | 邮局 | correos | n.m.
+W | 邮差 | cartero | n.m.
+W | 邮车 | carro postal | n.f.
+W | 收集 | recoger | v.t.
+W | 递送 | entregar | v.t.
+W | 寄 | enviar | v.t.
+W | 邮件 | correo | n.m.
+W | 信 | carta | n.f.
+W | 邮筒 | buzón de correos | 
+W | 分开 | dividir | v.t.
+W | 电报 | telegrama | n.m.
+W | 汇款 | enviar dinero | 
+W | 汇款 | giro | n.m.
+W | 邮包 | parcela | n.f.
+W | 邮袋 | portacartas | n.m.
+S | Fastidio a Carl, el cartero estará de acuerdo comigo || 我厌恶卡尔，邮差也会同意那一点。
+S | Los cheques están en el correo || 支票在邮件里。
+S | Por favor, ayúdame a dar esta carta a mi novia || 请帮我把这封信转交给我的女朋友。
+E | 讨厌 | fastidiar | v.
+E | 邮差 | cartero | n.m.
+E | 信件 | carta | n.f.
+----- Sec 2 各种区域名称 (W17 S4 E5) -----
+W | 城市 | ciudad | n.f.
+W | 地区 | región | n.f.
+W | 大城市 | gran ciudad | 
+W | 州 | estado | n.m.
+W | 首都 | capital | n.f.
+W | 区域 | área | n.f.
+W | 区域 | sector | n.m.
+W | 街 | calle | n.f.
+W | 市中心 | centro de la ciudad | 
+W | 市镇的 | comunal | adj.
+W | 郊区 | suburbio | n.m.
+W | 乡村的 | rural | adj.
+W | 镇子 | municipio | n.m.
+W | 乡下 | campaña | n.f.
+W | 省份 | provincia | n.f.
+W | 自治区 | región autónoma | 
+W | 县 | condado | n.m.
+S | Xi'an es una ciudad de rico patrimonio cultural || 西安是一个文化底蕴浓厚的城市。
+S | Beijing es la capital de China || 北京是中国的首都。
+S | Nuestra fábrica ubica a los pies de la hermosa montaña de Qinling, que es uno de los más famosos pueblos natales de la pintura de los campesinos rurales || 我厂位于风景秀丽的秦岭脚下,是全球知名的农民画之乡。
+S | El París en invierno es particularmente hermoso, sobre todo en Navidad, la nieve vuela, el mundo se vuelve blanco y la calle es especialmente animada || 冬天的巴黎非常漂亮，尤其是在圣诞节，大雪纷飞，一片白茫茫，街上却特别热闹。
+E | 遗产 | patrimonio | n.m.
+E | 美丽的，漂亮的 | hermoso | adj
+E | 山，山峰 | montaña | n.f.
+E | 绘画艺术 | pintura | n.f.
+E | 白色的 | blanco | adj.
+----- Sec 3 邮票信封 (W18 S7 E3) -----
+W | 邮票 | sello | n.m.
+W | 地址 | dirección | n.f.
+W | 名字 | nombre | n.m.
+W | 收件人 | destinatario | n.
+W | 发件人 | emisor | n.m.
+W | 邮政编号 | código postal | 
+W | 邮资已付 | porte pagado | 
+W | 集邮册 | álbum | n.m.
+W | 集邮 | filatelia | n.f.
+W | 信封 | sobre | n.m.
+W | 纸 | papel | n.m.
+W | 挂号信 | carta certificada | 
+W | 粘上 | pegamento | n.m.
+W | 胶水 | pegamento líquido | 
+W | 航空邮件 | correo aéreo | 
+W | 回信 | respuesta | n.f.
+W | 做记号 | marcar | v.t.
+W | 书信 | carta | n.f.
+S | Deja tu nombre, mensaje, dirección, y número de teléfono en este papel || 在这张纸上留下你的信息，姓名、住址、电话号码。
+S | Los correos franceses emitirán un sello con la imagen del dragón para celebrar el Año Lunar Chino del dragón || 为了庆祝中国龙年的到来，法国邮局将发行中国农历生肖纪念邮票“龙票”。
+S | Saco la carta del sobre || 我从信封中取出信。
+S | Pegué los sellos en el sobre || 把邮票贴在信封上。
+S | Me enseñó su colección de sellos || 他给我看了他收集的邮票。
+S | Hay alguna oficina postal por aquí? || 这附近有邮局吗？
+S | Qué es el código postal de su casa? || 您家的邮编是多少？
+E | 发行 | emitir | v.t.
+E | 农历的 | lunar | adj.
+E | 收集物，收藏品 | colección | n.f.
+----- Sec 4 包裹快递 (W15 S4 E3) -----
+W | 快递的 | exprés | adj.
+W | 递送 | entregar | v.t.
+W | 送信者 | mensajero | n.
+W | 贵重物品 | objeto precioso | 
+W | 附带的 | episódico | adj.
+W | 包裹 | paquete | n.m.
+W | 投保 | conseguir un seguro | 
+W | 粘性的 | viscoso | adj.
+W | 胶带 | cinta | n.f.
+W | 邮费 | franqueo | n.m.
+W | 紧急 | urgencia | n.f.
+W | 本地的 | local | adj.
+W | 海外 | extranjero | n.m.
+W | 签收 | firmar | v.t.
+W | 急迫的，紧急的 | apremiante | adj.
+S | Pon este paquete en la esquina || 把这个包裹放在角落里。
+S | Sus necesidades son nuestros problemas más apremiantes, su satisfacción es nuestra mayor esperanza || 您的需求是我们最紧急的问题，您的满意是我们最大的心愿。
+S | Tienes un paquete certificado || 你有一个挂号包裹。
+S | Pierde cuidado, que en cuanto reciba el paquete, te llamo || 别担心，我收到包裹后会打电话给你的。
+E | 满足 | satisfacción | n.f.
+E | 挂号的；挂号邮件 | certificado | adj.
+E | 放心，别担心 | pierde cuidado | 

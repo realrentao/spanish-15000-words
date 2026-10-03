@@ -1,0 +1,31 @@
+rows with zh audio: 9791
+conflict paths: 140
+candidate texts to synthesize: 281
+paths with NO unique owner: 70
+     zh/00375.mp3 ['增进，促进', '有助于'] stored= 94338ad9458fdaa522851fa4f1e47cf1 cache= ['721f800040e1dc3a7be98fa1d6be7b57', '7a0385ed9803c07db9463011b188919c']
+     zh/00428.mp3 ['丝瓜', '南瓜'] stored= 7d3cb0bfd2b43a1c274494c9e138fe60 cache= ['212ce7b464d6905e5c84b2d04c645ccf', '7a14145d9345db2f9695cc5c418299c4']
+     zh/00433.mp3 ['包袱', '背包'] stored= a6621eaa388483851d02e81730b70dd6 cache= ['b6694f0b1ab7dbfa4f083251391c7dd3', '789b350c4ff94288fef9e3c253f822a8']
+     zh/00614.mp3 ['油脂', '肥肉'] stored= 35406d10ad2e8d2558b8c479ee1ddb9e cache= ['ed28c220ad81eee68fae259806db541b', '7b8c108551d8ae0574a3539369ce2ecb']
+     zh/00661.mp3 ['调味品', '调料'] stored= 4ca1751c0837aa57a8cb93f419c02ebe cache= ['f56476006471e23b701001b4da546e67', 'c0a2fd68c5e57e2163a2beeadfcb1493']
+     zh/00769.mp3 ['Puedo oír te inhalar oxígeno y exhalar el dióxido de carbono.', 'Puedo oíros inhalar el oxígeno y exhalar el dióxido de carbono.'] stored= db6b6ba1d37383664d54ea6a8075aa05 cache= ['b0ffb05a1b2f16f896df0ea4eab309e3', 'f713001aa9083ea0c740269f6c7386ee']
+     zh/00910.mp3 ['生的', '生的，未煮熟的'] stored= 099ac8d3c39652ce9f04207fbaafd704 cache= ['69d376ff041cbdd13ad1ec8942a9d5d5', 'bc6ce9a3ecf692c610b5678bbdbb5bf6']
+     zh/00965.mp3 ['一步', '山口'] stored= 1e558603aa84a7ec9aea7dab9e0755db cache= ['68543f678dd5e614f982d6ab51d19087', '004f421b07911ea194bf36665fdfc78e']
+     zh/01005.mp3 ['锁', '锁定'] stored= be7d276400e827ae523aa45d6770ff21 cache= ['735bfa81927ba0be2ea8c34442ed15fc', '7ae7a5077531556dd4d1dd467c72a7f7']
+     zh/01012.mp3 ['击，打，拍，敲', '打'] stored= b0cfcd5231a42d1d6437d48c2669b6c1 cache= ['311c74737f844ce5f21a785afc4a0be3', 'cc17311a36f1f52a0b298ceb289e5622']
+rows to repoint: 0
+rows needing new audio: 233
+    17 9 w 4 日报 -> __NEW__
+    30 2 w 0 日报 -> __NEW__
+    19 1 e 1 永恒地，永久地 -> __NEW__
+    37 1 w 25 （教堂等处的）钟楼，尖塔 -> __NEW__
+    24 6 w 15 反对 -> __NEW__
+    24 4 w 0 好质量 -> __NEW__
+    24 2 w 11 受欢迎的 -> __NEW__
+    47 3 w 11 吃香 -> __NEW__
+    1 9 e 1 有助于 -> __NEW__
+    23 2 e 3 增进，促进 -> __NEW__
+    47 7 w 21 构想 -> __NEW__
+    1 12 e 1 南瓜 -> __NEW__
+    25 11 w 10 丝瓜 -> __NEW__
+    25 12 w 0 南瓜 -> __NEW__
+    1 13 w 0 背包 -> __NEW__
